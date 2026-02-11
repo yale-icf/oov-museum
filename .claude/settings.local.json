@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for d in \"C:/Users/ks2479/Documents/my-project/origins-of-value/JPEG Files/\"*/)",
+      "Bash(python:*)",
+      "Bash(pip3:*)",
+      "Bash(node -e:*)",
+      "WebFetch(domain:openseadragon.github.io)",
+      "WebSearch",
+      "WebFetch(domain:sharp.pixelplumbing.com)"
+    ]
+  }
+}
