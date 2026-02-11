@@ -1,0 +1,14 @@
+{
+  "name": "origins-of-value-scripts",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "prepare-data": "node prepare-data.mjs",
+    "thumbnails": "node generate-thumbnails.mjs",
+    "tiles": "node generate-tiles.mjs",
+    "build": "node prepare-data.mjs && node generate-thumbnails.mjs && node generate-tiles.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.33.0"
+  }
+}
