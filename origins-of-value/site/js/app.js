@@ -134,7 +134,8 @@
         const haystack = (
           item.title + ' ' + item.description + ' ' +
           (item.keywords || []).join(' ') + ' ' +
-          (item.namedIndividuals || []).join(' ')
+          (item.namedIndividuals || []).join(' ') + ' ' +
+          (item.transcription || '')
         ).toLowerCase();
         if (haystack.indexOf(searchQuery) === -1) return false;
       }
@@ -235,6 +236,14 @@
     img.alt = item.title;
     img.loading = 'lazy';
     imageDiv.appendChild(img);
+
+    if (item.pages && item.pages.length > 1) {
+      var badge = document.createElement('span');
+      badge.className = 'page-count';
+      badge.textContent = item.pages.length + ' pages';
+      imageDiv.appendChild(badge);
+    }
+
     a.appendChild(imageDiv);
 
     var body = document.createElement('div');

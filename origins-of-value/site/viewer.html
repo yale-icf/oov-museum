@@ -3,24 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document Viewer - Origins of Value</title>
+  <title>Document Viewer - Origins of Value Virtual Museum</title>
   <link rel="stylesheet" href="css/style.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
 </head>
 <body>
 
   <header class="site-header">
-    <h1><a href="index.html">Origins of <span>Value</span></a></h1>
-    <span class="header-subtitle">A Virtual Museum of Historical Financial Documents</span>
+    <h1><a href="gallery.html">Origins of <span>Value</span> Virtual Museum</a></h1>
+    <span class="header-subtitle">Historical Financial Documents</span>
   </header>
 
   <div class="viewer-header">
-    <a href="index.html" class="back-btn" id="back-btn">&larr; Gallery</a>
+    <a href="gallery.html" class="back-btn" id="back-btn">&larr; Gallery</a>
     <span class="viewer-title" id="viewer-title">Loading...</span>
     <div class="viewer-nav">
       <button class="nav-btn" id="prev-btn" disabled>&larr; Prev</button>
       <button class="nav-btn" id="next-btn" disabled>Next &rarr;</button>
     </div>
+  </div>
+
+  <div class="page-nav" id="page-nav" style="display:none">
+    <button id="page-prev" disabled>&larr;</button>
+    <span id="page-info">Page 1 of 1</span>
+    <button id="page-next">&rarr;</button>
   </div>
 
   <div id="osd-viewer"></div>

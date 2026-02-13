@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Origins of Value Virtual Museum</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <h1><a href="index.html">Origins of <span>Value</span> Virtual Museum</a></h1>
+    <span class="header-subtitle">Historical Financial Documents</span>
+  </header>
+
+  <div class="search-container">
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search titles, descriptions, keywords..." autocomplete="off">
+    </div>
+    <span class="result-count" id="result-count"></span>
+  </div>
+
+  <div class="main-content">
+    <aside class="sidebar" id="sidebar">
+      <div class="filter-section" data-filter="type">
+        <h3>Type</h3>
+        <div class="filter-options" id="filter-type"></div>
+      </div>
+      <div class="filter-section" data-filter="period">
+        <h3>Period</h3>
+        <div class="filter-options" id="filter-period"></div>
+      </div>
+      <div class="filter-section" data-filter="location">
+        <h3>Location</h3>
+        <div class="filter-options" id="filter-location"></div>
+      </div>
+      <div class="filter-section" data-filter="namedIndividuals">
+        <h3>Named Individuals</h3>
+        <div class="filter-options" id="filter-namedIndividuals"></div>
+      </div>
+      <button class="clear-filters" id="clear-filters">Clear All Filters</button>
+    </aside>
+
+    <main class="gallery-container">
+      <div class="active-filters" id="active-filters"></div>
+      <div class="gallery-grid" id="gallery-grid"></div>
+      <div class="pagination" id="pagination"></div>
+      <div class="empty-state" id="empty-state" style="display:none">
+        <h2>No documents found</h2>
+        <p>Try adjusting your search or filters.</p>
+      </div>
+      <div class="loading" id="loading">
+        <div class="spinner"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
