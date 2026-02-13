@@ -3,58 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Origins of Value - Virtual Museum</title>
+  <title>Origins of Value Virtual Museum - Historical Financial Documents</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="homepage">
 
-  <header class="site-header">
-    <h1><a href="index.html">Origins of <span>Value</span></a></h1>
-    <span class="header-subtitle">A Virtual Museum of Historical Financial Documents</span>
+  <header class="homepage-header">
+    <a href="index.html" class="homepage-logo">Origins of <span>Value</span> Virtual Museum</a>
+    <a href="gallery.html" class="homepage-nav-link">Browse Collection</a>
   </header>
 
-  <div class="search-container">
-    <div class="search-box">
-      <input type="text" id="search-input" placeholder="Search titles, descriptions, keywords..." autocomplete="off">
+  <section class="hero">
+    <div class="hero-bg" style="background-image: url('thumbnails/goetzmann0302.jpg')"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Origins of Value Virtual Museum</h1>
+      <p class="hero-subtitle">Historical Financial Documents</p>
+      <a href="gallery.html" class="hero-cta">Explore the Collection</a>
+      <div class="hero-stats" id="hero-stats"></div>
     </div>
-    <span class="result-count" id="result-count"></span>
-  </div>
+  </section>
 
-  <div class="main-content">
-    <aside class="sidebar" id="sidebar">
-      <div class="filter-section" data-filter="type">
-        <h3>Type</h3>
-        <div class="filter-options" id="filter-type"></div>
-      </div>
-      <div class="filter-section" data-filter="period">
-        <h3>Period</h3>
-        <div class="filter-options" id="filter-period"></div>
-      </div>
-      <div class="filter-section" data-filter="location">
-        <h3>Location</h3>
-        <div class="filter-options" id="filter-location"></div>
-      </div>
-      <div class="filter-section" data-filter="namedIndividuals">
-        <h3>Named Individuals</h3>
-        <div class="filter-options" id="filter-namedIndividuals"></div>
-      </div>
-      <button class="clear-filters" id="clear-filters">Clear All Filters</button>
-    </aside>
+  <section class="about-section">
+    <div class="about-content">
+      <h2>About the Collection</h2>
+      <p>The Origins of Value collection comprises over 868 historical financial documents spanning four centuries and 54 countries. Assembled at the <a href="https://icf.yale.edu/" class="about-link" target="_blank" rel="noopener">International Center for Finance</a> at the Yale School of Management, it traces the evolution of financial instruments &mdash; from the earliest known shares of the Dutch East India Company to twentieth-century securities issued across Europe, Asia, and the Americas.</p>
+      <p>Each document in the collection tells a story of commerce, innovation, and risk. Together, they form a remarkable record of how societies have organized capital, financed exploration, and weathered financial crises from the South Sea Bubble to the modern era.</p>
+      <a href="gallery.html" class="about-link">Browse the full collection &rarr;</a>
+    </div>
+  </section>
 
-    <main class="gallery-container">
-      <div class="active-filters" id="active-filters"></div>
-      <div class="gallery-grid" id="gallery-grid"></div>
-      <div class="pagination" id="pagination"></div>
-      <div class="empty-state" id="empty-state" style="display:none">
-        <h2>No documents found</h2>
-        <p>Try adjusting your search or filters.</p>
-      </div>
-      <div class="loading" id="loading">
-        <div class="spinner"></div>
-      </div>
-    </main>
-  </div>
+  <section class="featured-section" id="featured-section">
+    <h2 class="featured-heading">Collection Highlights</h2>
+    <div class="featured-grid" id="featured-grid"></div>
+  </section>
 
-  <script src="js/app.js"></script>
+  <section class="country-section">
+    <h2 class="featured-heading">Explore by Country</h2>
+    <div class="country-grid" id="country-grid"></div>
+  </section>
+
+  <section class="news-section">
+    <h2 class="featured-heading">In the News</h2>
+    <div class="news-grid">
+      <a href="https://yalealumnimagazine.org/articles/5627-infinity-has-a-price" class="news-card" target="_blank" rel="noopener">
+        <span class="news-source">Yale Alumni Magazine</span>
+        <h3 class="news-title">Infinity Has a Price</h3>
+        <p class="news-description">A 375-year-old Dutch perpetual bond owned by Yale still pays interest &mdash; a testament to the ingenuity of early financial instruments.</p>
+      </a>
+      <a href="https://som.yale.edu/story/2026/analysis-1959-sednaoui-share-certificate" class="news-card" target="_blank" rel="noopener">
+        <span class="news-source">Yale School of Management</span>
+        <h3 class="news-title">An Analysis of the 1959 Sednaoui Share Certificate</h3>
+        <p class="news-description">An Egyptian department store stock certificate reveals a story of mercantile success and state nationalization under Nasser.</p>
+      </a>
+      <a href="https://insights.som.yale.edu/insights/beauty-power-art-and-finance" class="news-card" target="_blank" rel="noopener">
+        <span class="news-source">Yale Insights</span>
+        <h3 class="news-title">Beauty, Power, Art, and Finance</h3>
+        <p class="news-description">How art, money, and power have historically intertwined &mdash; from establishing social hierarchy to generating speculative bubbles.</p>
+      </a>
+    </div>
+  </section>
+
+  <footer class="homepage-footer">
+    <p>&copy; Origins of Value &mdash; Yale School of Management</p>
+  </footer>
+
+  <script src="js/homepage.js"></script>
 </body>
 </html>
