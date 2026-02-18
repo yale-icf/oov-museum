@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Map - Origins of Value Virtual Museum</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/map.css">
+  <script src="js/auth.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <h1><a href="index.html">Origins of <span>Value</span> Virtual Museum</a></h1>
+    <nav class="header-nav">
+      <a href="gallery.html" class="header-nav-link">Gallery</a>
+      <a href="map.html" class="header-nav-link active">Map</a>
+    </nav>
+  </header>
+
+  <div id="map-container">
+    <div id="map"></div>
+
+    <div class="map-controls">
+      <h3>Filter by Period</h3>
+      <div class="map-filter-options">
+        <label class="map-filter-option">
+          <input type="checkbox" value="18th Century or before" checked>
+          <span class="color-swatch" style="background:#8B4513"></span>
+          18th Century or before
+        </label>
+        <label class="map-filter-option">
+          <input type="checkbox" value="19th Century" checked>
+          <span class="color-swatch" style="background:#B8860B"></span>
+          19th Century
+        </label>
+        <label class="map-filter-option">
+          <input type="checkbox" value="20th Century" checked>
+          <span class="color-swatch" style="background:#4682B4"></span>
+          20th Century
+        </label>
+        <label class="map-filter-option">
+          <input type="checkbox" value="21st Century" checked>
+          <span class="color-swatch" style="background:#2C2C2C"></span>
+          21st Century
+        </label>
+        <label class="map-filter-option">
+          <input type="checkbox" value="none" checked>
+          <span class="color-swatch" style="background:#999999"></span>
+          No period listed
+        </label>
+      </div>
+      <div class="map-stats" id="map-stats"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/map.js"></script>
+</body>
+</html>

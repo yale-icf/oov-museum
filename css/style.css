@@ -67,6 +67,33 @@ body {
   margin-left: 1rem;
 }
 
+/* ===== Header Navigation ===== */
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-nav-link {
+  color: var(--gold-light);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius);
+  transition: all var(--transition);
+}
+
+.header-nav-link:hover {
+  background: rgba(201, 168, 76, 0.15);
+  color: var(--gold);
+}
+
+.header-nav-link.active {
+  background: rgba(201, 168, 76, 0.2);
+  color: var(--gold);
+}
+
 /* ===== Search Bar ===== */
 .search-container {
   padding: 1rem 2rem;
@@ -725,6 +752,12 @@ body.homepage {
 
 .homepage-logo span {
   color: var(--gold);
+}
+
+.homepage-nav {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
 }
 
 .homepage-nav-link {
