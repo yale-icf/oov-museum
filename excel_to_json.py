@@ -61,14 +61,12 @@ def update_item(item, row):
     # type: comma-separated in Excel
     item['type'] = parse_list(row.get('type', ''), sep=r',\s*')
 
-    # location: subjectCountry + issuingCountry, deduplicated
-    subject = str_val(row.get('subjectCountry', ''))
-    issuing = str_val(row.get('issuingCountry', ''))
+    # location: subjectCountry + issuingCountry, each split on | or , and deduplicated
     loc = []
-    if subject:
-        loc.append(subject)
-    if issuing and issuing not in loc:
-        loc.append(issuing)
+    for cell in [row.get('subjectCountry', ''), row.get('issuingCountry', '')]:
+        for v in parse_list(cell):
+            if v not in loc:
+                loc.append(v)
     item['location'] = loc
 
     # period: single value wrapped in list

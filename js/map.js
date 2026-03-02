@@ -3,64 +3,86 @@
 
   /* ===== Country → Coordinates Lookup ===== */
   var COORDS = {
-    'Albania':                        [41.33, 19.82],
-    'Angola':                         [-8.84, 13.23],
-    'Argentina':                      [-34.60, -58.38],
-    'Austria':                        [48.21, 16.37],
-    'Azerbaijan':                     [40.41, 49.87],
-    'Belgium':                        [50.85, 4.35],
-    'Brazil':                         [-15.79, -47.88],
-    'Bulgaria':                       [42.70, 23.32],
-    'Cameroon':                       [3.87, 11.52],
-    'Chile':                          [-33.45, -70.67],
-    'China':                          [39.90, 116.40],
-    'Colombia':                       [4.71, -74.07],
-    'Congo (Brazzaville)':            [-4.27, 15.28],
+    'Albania':                           [41.33, 19.82],
+    'Angola':                            [-8.84, 13.23],
+    'Argentina':                         [-34.60, -58.38],
+    'Austria':                           [48.21, 16.37],
+    'Azerbaijan':                        [40.41, 49.87],
+    'Belgium':                           [50.85, 4.35],
+    'Belize':                            [17.25, -88.77],
+    'Bolivia':                           [-16.50, -68.15],
+    'Brazil':                            [-15.79, -47.88],
+    'Bulgaria':                          [42.70, 23.32],
+    'Cameroon':                          [3.87, 11.52],
+    'Canada':                            [45.42, -75.70],
+    'Chile':                             [-33.45, -70.67],
+    'China':                             [39.90, 116.40],
+    'Colombia':                          [4.71, -74.07],
+    'Confederate States of America':     [37.54, -77.43],
+    'Congo (Brazzaville)':               [-4.27, 15.28],
     'Congo, Democratic Republic of the': [-4.32, 15.31],
-    'Costa Rica':                     [9.93, -84.08],
-    'Cuba':                           [23.11, -82.37],
-    'Egypt':                          [30.04, 31.24],
-    'Equatorial Guinea':              [3.75, 8.78],
-    'Ethiopia':                       [9.02, 38.75],
-    'France':                         [48.86, 2.35],
-    'Germany':                        [52.52, 13.41],
-    'Greece':                         [37.97, 23.73],
-    'Grenada':                        [12.05, -61.75],
-    'Honduras':                       [14.07, -87.19],
-    'Hungary':                        [47.50, 19.04],
-    'India':                          [28.61, 77.21],
-    'Indonesia':                      [-6.21, 106.85],
-    'Iran':                           [35.69, 51.39],
-    'Italy':                          [41.90, 12.50],
-    'Japan':                          [35.68, 139.69],
-    'Madagascar':                     [-18.88, 47.51],
-    'Mexico':                         [19.43, -99.13],
-    'Mongolia':                       [47.91, 106.91],
-    'Morocco':                        [33.97, -6.85],
-    'Myanmar (Burma)':                [19.76, 96.07],
-    'Netherlands':                    [52.37, 4.90],
-    'Panama':                         [8.98, -79.52],
-    'Peru':                           [-12.05, -77.04],
-    'Poland':                         [52.23, 21.01],
-    'Portugal':                       [38.72, -9.14],
-    'Romania':                        [44.43, 26.10],
-    'Russia':                         [55.76, 37.62],
-    'Spain':                          [40.42, -3.70],
-    'Sweden':                         [59.33, 18.07],
-    'Turkey':                         [39.93, 32.86],
-    'United Kingdom':                 [51.51, -0.13],
-    'United States':                  [39.83, -98.58],
-    'Venezuela':                      [10.49, -66.88],
-    'Vietnam':                        [21.03, 105.85]
+    'Costa Rica':                        [9.93, -84.08],
+    'Croatia':                           [45.81, 15.98],
+    'Cuba':                              [23.11, -82.37],
+    'Czechoslovakia':                    [50.08, 14.44],
+    'Dominica':                          [15.30, -61.39],
+    'Egypt':                             [30.04, 31.24],
+    'Equatorial Guinea':                 [3.75, 8.78],
+    'Estonia':                           [59.44, 24.75],
+    'Ethiopia':                          [9.02, 38.75],
+    'France':                            [48.86, 2.35],
+    'Georgia':                           [41.69, 44.83],
+    'Germany':                           [52.52, 13.41],
+    'Greece':                            [37.97, 23.73],
+    'Grenada':                           [12.05, -61.75],
+    'Guyana':                            [6.80, -58.16],
+    'Honduras':                          [14.07, -87.19],
+    'Hungary':                           [47.50, 19.04],
+    'India':                             [28.61, 77.21],
+    'Indonesia':                         [-6.21, 106.85],
+    'Iran':                              [35.69, 51.39],
+    'Italy':                             [41.90, 12.50],
+    'Japan':                             [35.68, 139.69],
+    'Kazakhstan':                        [51.16, 71.45],
+    'Liberia':                           [6.30, -10.80],
+    'Madagascar':                        [-18.88, 47.51],
+    'Mexico':                            [19.43, -99.13],
+    'Mongolia':                          [47.91, 106.91],
+    'Morocco':                           [33.97, -6.85],
+    'Mozambique':                        [-25.97, 32.59],
+    'Myanmar (Burma)':                   [19.76, 96.07],
+    'Netherlands':                       [52.37, 4.90],
+    'New Caledonia':                     [-22.27, 166.46],
+    'Panama':                            [8.98, -79.52],
+    'Peru':                              [-12.05, -77.04],
+    'Poland':                            [52.23, 21.01],
+    'Portugal':                          [38.72, -9.14],
+    'Romania':                           [44.43, 26.10],
+    'Russia':                            [55.76, 37.62],
+    'Serbia':                            [44.80, 20.46],
+    'Slovakia':                          [48.15, 17.11],
+    'Spain':                             [40.42, -3.70],
+    'Suriname':                          [5.87, -55.17],
+    'Sweden':                            [59.33, 18.07],
+    'Turkey':                            [39.93, 32.86],
+    'United Kingdom':                    [51.51, -0.13],
+    'United States':                     [39.83, -98.58],
+    'Uruguay':                           [-34.90, -56.19],
+    'Venezuela':                         [10.49, -66.88],
+    'Vietnam':                           [21.03, 105.85],
+    'Yugoslavia':                        [44.80, 20.46]
   };
 
   /* ===== Location Normalization ===== */
   var LOCATION_ALIASES = {
-    'USA':        'United States',
-    'UK':         'United Kingdom',
-    'Texas':      'United States',
-    'New Jersey': 'United States',
-    'Persia':     'Iran'
+    'USA':                          'United States',
+    'UK':                           'United Kingdom',
+    'Great Britain':                'United Kingdom',
+    'Texas':                        'United States',
+    'New Jersey':                   'United States',
+    'Persia':                       'Iran',
+    'Republic of the Congo':        'Congo (Brazzaville)',
+    'Democratic Republic of Congo': 'Congo, Democratic Republic of the'
   };
 
   /* ===== Period Colors ===== */
@@ -106,6 +128,31 @@
     if (count >= 10) return 12;
     if (count >= 5)  return 9;
     return 7;
+  }
+
+  function normalizePeriod(p) {
+    if (!p) return null;
+    if (PERIOD_COLORS[p]) return p;  // already canonical
+    var pLow = p.toLowerCase().trim();
+    var namedPeriods = {
+      'american revolutionary period': '18th Century or before',
+      'batavian republic period':      '18th Century or before',
+      'meiji era':                     '19th Century'
+    };
+    if (namedPeriods[pLow]) return namedPeriods[pLow];
+    if (/21st/i.test(p)) return '21st Century';
+    if (/20th/i.test(p)) return '20th Century';
+    if (/19th/i.test(p)) return '19th Century';
+    if (/18th|17th|16th|15th|14th|13th/i.test(p)) return '18th Century or before';
+    var m = p.match(/\b(1[0-9]{3}|2[0-9]{3})s?\b/);
+    if (m) {
+      var y = parseInt(m[1], 10);
+      if (y >= 2000) return '21st Century';
+      if (y >= 1900) return '20th Century';
+      if (y >= 1800) return '19th Century';
+      return '18th Century or before';
+    }
+    return null;
   }
 
   /* ===== State ===== */
@@ -159,11 +206,11 @@
       var locations = item.location || [];
       var periods = item.period || [];
 
-      // Handle "Morocco, France" — split into two locations
+      // Handle "Morocco, France" or "Netherlands|Dominica" — split into individual locations
       var expandedLocations = [];
       locations.forEach(function (loc) {
-        if (loc.indexOf(',') !== -1) {
-          loc.split(',').forEach(function (part) {
+        if (loc.indexOf(',') !== -1 || loc.indexOf('|') !== -1) {
+          loc.split(/[,|]/).forEach(function (part) {
             expandedLocations.push(part.trim());
           });
         } else {
@@ -190,7 +237,8 @@
           countryData[loc].periods['none'] = (countryData[loc].periods['none'] || 0) + 1;
         } else {
           periods.forEach(function (p) {
-            countryData[loc].periods[p] = (countryData[loc].periods[p] || 0) + 1;
+            var norm = normalizePeriod(p) || 'none';
+            countryData[loc].periods[norm] = (countryData[loc].periods[norm] || 0) + 1;
           });
         }
       });

@@ -1404,8 +1404,8 @@
       "negotiatie"
     ],
     "location": [
-      "Netherlands|Guyana",
-      "Netherlands"
+      "Netherlands",
+      "Guyana"
     ],
     "period": [
       "Early 19th century"
@@ -1443,8 +1443,8 @@
       "negotiatie"
     ],
     "location": [
-      "Netherlands|Dominica",
-      "Netherlands"
+      "Netherlands",
+      "Dominica"
     ],
     "period": [
       "Late 18th century"
@@ -1462,8 +1462,8 @@
       "negotiatie"
     ],
     "location": [
-      "Netherlands|Dominica",
-      "Netherlands"
+      "Netherlands",
+      "Dominica"
     ],
     "period": [
       "Late 18th century"
@@ -1648,8 +1648,9 @@
       "bond"
     ],
     "location": [
-      "Austria|Croatia|Hungary",
-      "Austria"
+      "Austria",
+      "Croatia",
+      "Hungary"
     ],
     "period": [
       "Late 19th/Early 20th century"
@@ -10747,8 +10748,9 @@
       "bond"
     ],
     "location": [
-      "China|Azerbaijan",
-      "China|Russia"
+      "China",
+      "Azerbaijan",
+      "Russia"
     ],
     "period": [
       "Early 20th century"
@@ -10822,8 +10824,8 @@
       "negotiatie"
     ],
     "location": [
-      "Netherlands|Suriname",
-      "Netherlands"
+      "Netherlands",
+      "Suriname"
     ],
     "period": [
       "Late 18th century"
@@ -10896,8 +10898,8 @@
       "negotiatie"
     ],
     "location": [
-      "Netherlands|Suriname",
-      "Netherlands"
+      "Netherlands",
+      "Suriname"
     ],
     "period": [
       "Mid-18th century"
