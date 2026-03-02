@@ -116,9 +116,11 @@
     var fields = [
       { label: 'Description', value: description },
       { label: 'Creator', value: item.creator },
-      { label: 'Type', value: item.type, isTags: true },
+      { label: 'Document Type', value: item.type, isTags: true },
       { label: 'Period', value: item.period, isTags: true },
-      { label: 'Location', value: item.location, isTags: true },
+      { label: 'Issuing Year', value: item.issueYear && item.issueYear[0] },
+      { label: 'Issuing Country', value: item.issuingCountry, isTags: true },
+      { label: 'Subject Country', value: item.subjectCountry, isTags: true },
       { label: 'Named Individuals', value: item.namedIndividuals, isTags: true },
       { label: 'Keywords', value: item.keywords, isTags: true },
       { label: 'Owner', value: item.owner },

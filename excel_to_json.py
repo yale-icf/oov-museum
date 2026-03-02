@@ -69,8 +69,9 @@ def update_item(item, row):
                 loc.append(v)
     item['location'] = loc
 
-    # issuingCountry: separate field for filter
+    # issuingCountry and subjectCountry: separate fields
     item['issuingCountry'] = parse_list(row.get('issuingCountry', ''))
+    item['subjectCountry'] = parse_list(row.get('subjectCountry', ''))
 
     # currency: separate field for filter
     item['currency'] = parse_list(row.get('currency', ''), sep=r',\s*')
