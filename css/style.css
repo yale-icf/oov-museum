@@ -1485,94 +1485,59 @@ body.homepage {
   }
 }
 
-/* ===== Collection page exhibit banner ===== */
-.coll-exhibit-banner {
-  background: var(--navy);
+/* ===== Collection page exhibit intro ===== */
+.coll-exhibit-intro {
+  background: var(--white);
+  border-top: 3px solid var(--gold);
+  padding: 2.5rem 2rem 2rem;
+  text-align: center;
 }
 
-.coll-exhibit-inner {
-  max-width: 900px;
+.coll-exhibit-intro-inner {
+  max-width: 660px;
   margin: 0 auto;
-  padding: 1.75rem 2rem;
-  display: flex;
-  align-items: center;
-  gap: 1.75rem;
 }
 
-.coll-exhibit-img {
-  flex-shrink: 0;
-  width: 110px;
-  height: 82px;
-  overflow: hidden;
-  background: rgba(255, 255, 255, 0.08);
-}
-
-.coll-exhibit-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-
-.coll-exhibit-text {
-  flex: 1;
-}
-
-.coll-exhibit-label {
-  display: block;
+.coll-exhibit-label-sm {
+  display: inline-block;
   font-family: 'Source Sans 3', sans-serif;
-  font-size: 0.68rem;
+  font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
   color: var(--gold);
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.5rem;
 }
 
-.coll-exhibit-title {
+.coll-exhibit-intro-title {
   font-family: 'Playfair Display', serif;
-  font-size: 1.2rem;
+  font-size: 1.75rem;
   font-weight: 700;
-  color: var(--white);
-  margin-bottom: 0.35rem;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
 }
 
-.coll-exhibit-desc {
-  font-size: 0.875rem;
-  color: rgba(255, 255, 255, 0.65);
-  line-height: 1.5;
-  margin-bottom: 0.7rem;
+.coll-exhibit-intro-blurb {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  color: var(--text);
+  margin-bottom: 1rem;
 }
 
-.coll-exhibit-cta {
+.coll-exhibit-intro-link {
   font-family: 'Source Sans 3', sans-serif;
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   font-weight: 600;
-  color: var(--gold);
+  color: var(--navy);
   text-decoration: none;
-  border-bottom: 1px solid rgba(201, 168, 76, 0.35);
+  border-bottom: 1px solid var(--navy);
   padding-bottom: 1px;
-  transition: border-color 0.15s;
+  transition: color 0.15s, border-color 0.15s;
 }
 
-.coll-exhibit-cta:hover {
+.coll-exhibit-intro-link:hover {
+  color: var(--gold);
   border-color: var(--gold);
-}
-
-@media (max-width: 600px) {
-  .coll-exhibit-inner {
-    gap: 1rem;
-    padding: 1.25rem 1rem;
-  }
-
-  .coll-exhibit-img {
-    width: 72px;
-    height: 54px;
-  }
-
-  .coll-exhibit-desc {
-    display: none;
-  }
 }
 
 /* ========================================
@@ -1861,6 +1826,10 @@ body.homepage {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1.5rem 1.25rem;
+}
+
+.coll-grid--exhibit {
+  grid-template-columns: repeat(3, 1fr);
 }
 
 .coll-card {

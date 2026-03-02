@@ -4,6 +4,16 @@
   const PAGE_SIZE = 12;
   const PERIOD_ORDER = ['18th Century or before', '19th Century', '20th Century', '21st Century'];
 
+  // Items featured in the "Women as Investors" exhibit, in chronological order
+  const EXHIBIT_IDS = [
+    'goetzmann0491', // Compagnie des Indes, 1745
+    'goetzmann0179', // French Royal Tontine, 1759
+    'goetzmann0485', // Dutch negotiatie nominees, 1787
+    'goetzmann0655', // Miss Mary Graham, 1866
+    'goetzmann0663', // Mrs. Flindell, 1886
+    'goetzmann0473'  // Mary E. Carey, 1930s
+  ];
+
   // ===== State =====
   let allItems = [];
   let activeFilters = {
@@ -300,25 +310,43 @@
   }
 
   // ===== Render =====
+  function isExhibitMode() {
+    return !searchQuery && Object.values(activeFilters).every(s => s.size === 0);
+  }
+
   function render() {
-    const filtered = getFilteredItems();
-    const sorted = sortItems(filtered);
-    const total = sorted.length;
-    const pageItems = sorted.slice(0, PAGE_SIZE);
+    const exhibitMode = isExhibitMode();
 
-    const isUnfiltered = !searchQuery &&
-      Object.values(activeFilters).every(s => s.size === 0);
+    // Show/hide exhibit intro blurb
+    const intro = document.getElementById('coll-exhibit-intro');
+    if (intro) intro.style.display = exhibitMode ? '' : 'none';
 
-    renderTagline(total, isUnfiltered);
-    renderGrid(pageItems, total);
+    // Show/hide sort bar
+    const resultsBar = document.querySelector('.coll-results-bar');
+    if (resultsBar) resultsBar.style.display = exhibitMode ? 'none' : '';
+
+    const grid = document.getElementById('coll-grid');
+
+    if (exhibitMode) {
+      const exhibitItems = EXHIBIT_IDS.map(id => allItems.find(item => item.id === id)).filter(Boolean);
+      grid.classList.add('coll-grid--exhibit');
+      renderGrid(exhibitItems, exhibitItems.length);
+      document.getElementById('coll-pagination').innerHTML = '';
+    } else {
+      grid.classList.remove('coll-grid--exhibit');
+      const filtered = getFilteredItems();
+      const sorted = sortItems(filtered);
+      const total = sorted.length;
+      renderTagline(total);
+      renderGrid(sorted.slice(0, PAGE_SIZE), total);
+    }
+
     updateChips();
   }
 
-  function renderTagline(total, isUnfiltered) {
+  function renderTagline(total) {
     const el = document.getElementById('coll-tagline');
-    el.textContent = isUnfiltered
-      ? 'Showing ' + Math.min(total, PAGE_SIZE) + ' of ' + total + ' items'
-      : total + ' result' + (total !== 1 ? 's' : '');
+    el.textContent = total + ' result' + (total !== 1 ? 's' : '');
   }
 
   function renderGrid(items, total) {
