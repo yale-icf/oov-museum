@@ -63,11 +63,26 @@
 
 .color-swatch {
   display: inline-block;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
   flex-shrink: 0;
   border: 1px solid rgba(0,0,0,0.15);
+}
+
+/* ===== Legend-only item (non-interactive) ===== */
+.map-legend-divider {
+  border-top: 1px solid var(--parchment-dark);
+  margin: 0.5rem 0;
+}
+
+.map-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-light);
+  padding: 0.2rem 0;
 }
 
 /* ===== Map Stats ===== */
