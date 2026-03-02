@@ -1274,3 +1274,337 @@ body.homepage {
     font-size: 1rem;
   }
 }
+
+/* ========================================
+   COLLECTION / SEARCH PAGE
+   ======================================== */
+
+/* ===== Search Hero ===== */
+.coll-hero {
+  background: var(--parchment);
+  border-bottom: 3px solid var(--gold);
+  padding: 5rem 2rem 4rem;
+  text-align: center;
+}
+
+.coll-hero-inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.coll-hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 0.75rem;
+}
+
+.coll-hero-title::after {
+  content: '';
+  display: block;
+  width: 55px;
+  height: 3px;
+  background: var(--gold);
+  margin: 0.75rem auto 0;
+}
+
+.coll-hero-subtitle {
+  font-size: 1.05rem;
+  color: var(--text-light);
+  margin-bottom: 2.25rem;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.coll-search-form {
+  margin-bottom: 1.25rem;
+}
+
+.coll-search-wrap {
+  display: flex;
+  gap: 0.5rem;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.coll-search-wrap input {
+  flex: 1;
+  padding: 0.9rem 1.25rem;
+  border: 2px solid var(--parchment-dark);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  font-family: 'Source Sans 3', sans-serif;
+  background: var(--white);
+  transition: border-color var(--transition), box-shadow var(--transition);
+  color: var(--text);
+}
+
+.coll-search-wrap input:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(201,168,76,0.2);
+}
+
+.coll-search-wrap button {
+  padding: 0.9rem 1.75rem;
+  background: var(--navy);
+  color: var(--white);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 0.95rem;
+  font-family: 'Source Sans 3', sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition);
+  white-space: nowrap;
+}
+
+.coll-search-wrap button:hover {
+  background: var(--navy-light);
+}
+
+.coll-suggestions {
+  font-size: 0.85rem;
+  color: var(--text-light);
+}
+
+.coll-suggestion-link {
+  display: inline-block;
+  margin: 0.15rem 0.2rem;
+  color: var(--navy);
+  text-decoration: none;
+  padding: 0.15rem 0.6rem;
+  border: 1px solid var(--parchment-dark);
+  border-radius: 20px;
+  font-size: 0.82rem;
+  transition: all var(--transition);
+}
+
+.coll-suggestion-link:hover {
+  background: var(--navy);
+  color: var(--white);
+  border-color: var(--navy);
+}
+
+/* ===== Section Layout ===== */
+.coll-section {
+  padding: 4rem 2rem;
+  background: var(--white);
+}
+
+.coll-section-alt {
+  background: var(--parchment);
+}
+
+.coll-section-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.coll-section-heading {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 2rem;
+}
+
+.coll-section-heading::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: var(--gold);
+  margin-top: 0.5rem;
+}
+
+/* ===== Period Cards ===== */
+.coll-periods {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.25rem;
+}
+
+.coll-period-card {
+  display: block;
+  padding: 2rem 1.5rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--white);
+  transition: transform var(--transition), box-shadow var(--transition);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+.coll-period-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 28px rgba(0,0,0,0.28);
+}
+
+.coll-period-count {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 0.4rem;
+  opacity: 0.95;
+}
+
+.coll-period-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.3);
+  padding-bottom: 0.6rem;
+}
+
+.coll-period-desc {
+  font-size: 0.82rem;
+  opacity: 0.75;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+/* ===== Type Chips ===== */
+.coll-types {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.coll-type-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.9rem;
+  background: var(--white);
+  border: 1px solid var(--parchment-dark);
+  border-radius: 20px;
+  text-decoration: none;
+  color: var(--text);
+  font-size: 0.85rem;
+  transition: all var(--transition);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+.coll-type-chip:hover {
+  background: var(--navy);
+  color: var(--white);
+  border-color: var(--navy);
+}
+
+.coll-type-name {
+  font-weight: 500;
+}
+
+.coll-type-count {
+  font-size: 0.75rem;
+  color: var(--text-light);
+  background: var(--parchment-dark);
+  padding: 0.1rem 0.45rem;
+  border-radius: 10px;
+  transition: all var(--transition);
+}
+
+.coll-type-chip:hover .coll-type-count {
+  background: rgba(255,255,255,0.2);
+  color: rgba(255,255,255,0.85);
+}
+
+/* ===== Country Grid ===== */
+.coll-countries {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+/* ===== Named Individuals ===== */
+.coll-individuals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.coll-individual-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  background: var(--navy);
+  color: var(--white);
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background var(--transition);
+}
+
+.coll-individual-chip:hover {
+  background: var(--navy-light);
+}
+
+.coll-individual-name {
+  font-weight: 500;
+}
+
+.coll-individual-count {
+  font-size: 0.75rem;
+  color: var(--gold-light);
+  background: rgba(255,255,255,0.1);
+  padding: 0.1rem 0.4rem;
+  border-radius: 10px;
+}
+
+/* ===== Collection Page Responsive ===== */
+@media (max-width: 1024px) {
+  .coll-periods {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .coll-countries {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .coll-hero {
+    padding: 3rem 1.25rem 2.5rem;
+  }
+
+  .coll-hero-title {
+    font-size: 1.9rem;
+  }
+
+  .coll-hero-subtitle {
+    font-size: 0.95rem;
+  }
+
+  .coll-search-wrap {
+    flex-direction: column;
+  }
+
+  .coll-search-wrap button {
+    width: 100%;
+  }
+
+  .coll-section {
+    padding: 2.5rem 1.25rem;
+  }
+
+  .coll-section-heading {
+    font-size: 1.5rem;
+  }
+
+  .coll-periods {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+  }
+
+  .coll-period-count {
+    font-size: 2.2rem;
+  }
+
+  .coll-countries {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

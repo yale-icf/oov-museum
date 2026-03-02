@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search the Collection - Origins of Value Virtual Museum</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/auth.js"></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <h1><a href="index.html">Origins of <span>Value</span> Virtual Museum</a></h1>
+    <nav class="header-nav">
+      <a href="collection.html" class="header-nav-link active">Collection</a>
+      <a href="gallery.html" class="header-nav-link">Gallery</a>
+      <a href="map.html" class="header-nav-link">Map</a>
+    </nav>
+  </header>
+
+  <!-- Search Hero -->
+  <section class="coll-hero">
+    <div class="coll-hero-inner">
+      <h2 class="coll-hero-title">Search the Collection</h2>
+      <p class="coll-hero-subtitle" id="coll-subtitle">Explore historical financial documents spanning four centuries</p>
+      <form class="coll-search-form" id="coll-search-form">
+        <div class="coll-search-wrap">
+          <input type="text" id="coll-search-input"
+                 placeholder="Search by keyword, country, type, named individual…"
+                 autocomplete="off">
+          <button type="submit">Search</button>
+        </div>
+      </form>
+      <div class="coll-suggestions">
+        Try:
+        <a href="gallery.html?q=railroad" class="coll-suggestion-link">railroad</a>
+        <a href="gallery.html?q=Amsterdam" class="coll-suggestion-link">Amsterdam</a>
+        <a href="gallery.html?q=revolution" class="coll-suggestion-link">revolution</a>
+        <a href="gallery.html?q=specimen" class="coll-suggestion-link">specimen</a>
+        <a href="gallery.html?q=dividend" class="coll-suggestion-link">dividend</a>
+        <a href="gallery.html?q=tontine" class="coll-suggestion-link">tontine</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Browse by Period -->
+  <section class="coll-section">
+    <div class="coll-section-inner">
+      <h2 class="coll-section-heading">Browse by Period</h2>
+      <div class="coll-periods" id="coll-periods">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Browse by Document Type -->
+  <section class="coll-section coll-section-alt">
+    <div class="coll-section-inner">
+      <h2 class="coll-section-heading">Browse by Document Type</h2>
+      <div class="coll-types" id="coll-types">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Browse by Country -->
+  <section class="coll-section">
+    <div class="coll-section-inner">
+      <h2 class="coll-section-heading">Browse by Country</h2>
+      <div class="coll-countries" id="coll-countries">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Browse by Named Individual -->
+  <section class="coll-section coll-section-alt">
+    <div class="coll-section-inner">
+      <h2 class="coll-section-heading">Browse by Named Individual</h2>
+      <div class="coll-individuals" id="coll-individuals">
+        <div class="loading"><div class="spinner"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/collection.js"></script>
+</body>
+</html>
