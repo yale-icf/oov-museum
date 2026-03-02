@@ -418,5 +418,36 @@
     });
   }
 
+  // ===== Rotating placeholder =====
+  function startPlaceholderCycle() {
+    const input = document.getElementById('coll-search-input');
+    if (!input) return;
+
+    const examples = [
+      'Try "Bank of England"',
+      'Try "Dutch East India Company"',
+      'Try "John Law"'
+    ];
+
+    let idx = 0;
+    input.placeholder = examples[0];
+
+    const interval = setInterval(() => {
+      if (document.activeElement === input || input.value) return;
+      input.style.opacity = '0';
+      setTimeout(() => {
+        idx = (idx + 1) % examples.length;
+        input.placeholder = examples[idx];
+        input.style.opacity = '1';
+      }, 300);
+    }, 3000);
+
+    input.addEventListener('focus', () => {
+      input.style.opacity = '1';
+      clearInterval(interval);
+    });
+  }
+
   init().catch(err => console.error('Collection init error:', err));
+  startPlaceholderCycle();
 })();
