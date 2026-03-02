@@ -5,9 +5,7 @@
     "description": "A bearer treasury note issued by the Austrian state for 5,000 Kronen, dated September 1, 1920 in Vienna, bearing serial number 008255 in Series 1920b. The note is designated as tax-free (steuerfrei) and interest-bearing, with provisions for redemption by the state debt administration. The document features elaborate green and pink decorative borders with floral motifs, a double-headed Austrian imperial eagle at the top center, and ornamental medallions at each corner. Issued in the immediate aftermath of World War I and the dissolution of the Habsburg Empire, this bond represents the new Austrian republic's efforts to raise capital during a period of severe economic instability and hyperinflation.",
     "file": "goetzmann0001.jpg",
     "type": [
-      "Bond",
-      "Debt",
-      "Security"
+      "Bond"
     ],
     "location": [
       "Austria"
@@ -42,8 +40,7 @@
     "description": "A Burmese government bond written entirely in Burmese script, featuring green and purple decorative borders with traditional floral and geometric motifs. The document displays the serial number 008358 in red numerals on both sides and a central circular vignette with the denomination printed in Burmese characters. The footer contains a date in the Burmese calendar system, suggesting issuance during the 1940s when Burma operated as a nominally independent state under Japanese occupation. The design incorporates traditional Burmese decorative elements including intricate petal and leaf motifs framing the central text, in a style consistent with official financial instruments of the era. This is a rare surviving example of financial documentation from wartime Burma, notable for its exclusive use of the indigenous script at a politically turbulent moment in Burmese history.",
     "file": "goetzmann0002.jpg",
     "type": [
-      "Bond",
-      "Security"
+      "Bond"
     ],
     "location": [
       "Myanmar (Burma)"
@@ -76,9 +73,7 @@
     "description": "A bearer bond issued by the Kingdom of Bulgaria (\"Tsarstvo Bulgaria\") for the 5% Internal State Loan of 1941, explicitly designated for national defense, valued at 5,000 leva, Series B, serial number 022882. The bond is issued under the authority of the Main Directorate of State and State-Guaranteed Debts and signed by senior officials. The document features a cream and brown color scheme with ornate circular decorations at each corner and a central panel prominently displaying the denomination of 5,000 leva alongside the 5% interest rate. Issued during World War II when Bulgaria was aligned with the Axis powers under Tsar Boris III, this bond was intended to fund military expenditure. The phrase \"Na Prinositelya\" (to the bearer) confirms it was a negotiable bearer instrument payable to whoever presented it.",
     "file": "goetzmann0003.jpg",
     "type": [
-      "Bond",
-      "Debt",
-      "Security"
+      "Bond"
     ],
     "location": [
       "Bulgaria"
@@ -176,8 +171,7 @@
     "description": "A single-page printed broadsheet presenting the conditions of a maritime insurance company established within the city of Middelburg in the province of Zeeland, the Netherlands, set in two columns with numbered articles covering membership, share subscriptions, claims procedures, and governance. Middelburg was a major Dutch trading port and the capital of Zeeland, making it a natural center for maritime insurance ventures during the speculative climate of 1720. The two-column layout and Roman typeface are typical of Dutch commercial printing of the early eighteenth century, and the numbered articles present the company's terms in a formal legalistic manner intended to convey legitimacy. This document is likely associated with the speculative companies promoted during the Dutch financial bubble of 1720 and is preserved in the \"Groote Tafereel\" collection. The broadsheet format and dense text suggest it was intended for public posting or distribution to prospective investors.",
     "file": "goetzmann0011.jpg",
     "type": [
-      "Pamphlet",
-      "Document"
+      "Pamphlet"
     ],
     "location": [
       "Netherlands"
@@ -210,7 +204,7 @@
     "description": "Page 1 of 7 – The title page of a seven-page document establishing the Exchange Bank (\"Wisselbank\") within the city of Utrecht, adopted by the city council on 7 October 1720 and formally published on 11 October by Jacob van Poolsum, the official city printer (\"Stads Drukker\"). The page displays the Utrecht city coat of arms flanked by heraldic supporters, marking the document as an official civic publication. Exchange banks modeled on the Amsterdam Wisselbank were established in several Dutch cities during the early eighteenth century as stabilizing financial institutions for commerce. This document was issued at the height of the 1720 Dutch financial bubble, reflecting the city's effort to create a reliable monetary institution amid speculative chaos. The formal civic authorization underscores the role of Dutch municipal governments in regulating financial activity during the early modern period.",
     "file": "goetzmann0012.jpg",
     "type": [
-      "Document"
+      "Pamphlet"
     ],
     "location": [
       "Netherlands"
@@ -273,7 +267,7 @@
     "description": "A Dutch inventory document listing the assets (\"effecten\") of the Colony of Berbice (present-day Guyana), including 895 enslaved people described as large and small (\"groote en kleyne Slaven\"), cacao plantations, Fort Nassau, military equipment including sixty cannon pieces, ships, weapons, livestock, medical supplies, and a church. The document is formatted as a numbered list of asset categories with quantities and estimated values, reflecting the bookkeeping conventions of Dutch colonial enterprise. The page number 574 visible at the bottom indicates this is an extract from a larger bound volume, likely related to speculative colonial investment promoted during the 1720 Dutch financial bubble. Berbice was a Dutch colony on the northern coast of South America administered under a chartered company structure, and this inventory reflects the entanglement of colonial enterprise, enslaved labor, and early modern financial speculation. The document is a stark record of the commodification of enslaved people alongside material assets in Dutch colonial accounting.",
     "file": "goetzmann0019.jpg",
     "type": [
-      "Document"
+      "Register"
     ],
     "location": [
       "Guyana",
@@ -872,7 +866,7 @@
     "description": "This printed lottery trade card features a wood-engraved vignette of a horse-drawn carriage bearing the royal cypher \"GR\" (Georgius Rex), driven by Fortune, who raises a lottery ticket aloft. The text promotes a State Lottery offering prizes including three of £30,000 and four of £20,000, totaling £314,460 \"In Stock and Money,\" sold by Swift at 1 Poultry, 12 Charing Cross, and 31 Aldgate High Street, London. The drawing date noted is 7th November. These small promotional cards were distributed widely to advertise British State Lottery drawings, which operated as a major source of government revenue from the late 17th century until their abolition in 1826.",
     "file": "goetzmann0134.jpg",
     "type": [
-      "Advertisement"
+      "Illustration"
     ],
     "location": [
       "Great Britain"
@@ -1226,7 +1220,7 @@
     "description": "This printed lottery ticket reads: \"United States Lottery No. 1A.m.655 – CLASS the THIRD. THIS TICKET entitles the Bearer to receive such PRIZE as may be drawn against its Number, according to a Resolution of CONGRESS, passed at Philadelphia, November 18, 1776.\" Signed by \"Jo: Budden\" with a class indicator \"S.\" at lower left. The Continental Congress authorized this lottery—widely regarded as the first national lottery in American history—on November 18, 1776, to help finance the Revolutionary War. The lottery was organized in classes with tickets sold at $20 each, and administered by commissioners including James Searle, John Bayard, and Daniel Roberdeau of Philadelphia. Jo: Budden served as a lottery manager responsible for signing the tickets. A later collector annotation notes this ticket as \"Very rare,\" reflecting the extreme scarcity of surviving Continental Lottery tickets.",
     "file": "goetzmann0186.jpg",
     "type": [
-      "Ticket"
+      "Certificate"
     ],
     "location": [
       "United States"
@@ -1765,7 +1759,7 @@
     "description": "The reverse side (back) of a Potosian Land Grant certificate for 400 Acres. The reverse shows the ornate printed header of the certificate featuring the POTOSIAN LAND GRANT title, a central coat of arms or heraldic vignette (400 Acres / 400 Acres), and handwritten endorsements or signatures at the bottom (including initials \"RW,\" \"AS,\" and a further signature \"W.R. Ramos\" or similar). The Potosian Land Grant certificates were issued by a British company in London ca. 1825 as part of speculative investment schemes in the Bolivian Potosí region following South American independence. This reverse side complements the front face of the certificate (see goetzmann0506), together comprising the complete land grant document.",
     "file": "goetzmann0540.jpg",
     "type": [
-      "Land Grant"
+      "Certificate"
     ],
     "location": [
       "Bolivia",
@@ -1838,7 +1832,7 @@
     "description": "A handwritten forward sale contract (Dutch-language) arranged through Ricardo en De Lara, Warpenfort over het Wardhuis, No. 70, Amsterdam. The undersigned commits to sell a quantity of Pounds Sterling of the Consolidated Stock of Great Britain (British Consols / Geconsolideerde Schuld van [?] Ann [?]) at a set price, to be delivered at the Recontre (settlement date) in London at the agreed price. All deliveries and conditions are governed by the December 1803 Reglement referenced. Amsterdam, May 13, 1805. Signed by the counterparty. The Ricardo firm in Amsterdam (related to the famous Ricardo family including economist David Ricardo) was a leading broker in Anglo-Dutch financial transactions, facilitating the forward trading of British government bonds in Amsterdam — a major center for international consol dealing.",
     "file": "goetzmann0543.jpg",
     "type": [
-      "Contract"
+      "Indenture"
     ],
     "location": [
       "United Kingdom",
@@ -1874,7 +1868,8 @@
     "description": "Printed conditions text (Article 1) of the negotiatie organized under the directorship of Daniel Changuion for planters in Rio Essequibo and Rio Demerara, to fund improvements to their plantations for a total of f.400,000 at 6% interest over 10 years. This page shows the body article text of the conditions, complementing the title page (see related document). Dated 1816.",
     "file": "goetzmann0545.jpg",
     "type": [
-      "Negotiatie"
+      "Bond",
+      "Certificate"
     ],
     "location": [
       "Netherlands",
@@ -1948,7 +1943,8 @@
     "description": "Notarial copy (Copie) of a complex financial transaction recorded before notary Hermanus de Wolff Junior, Amsterdam, December 21, 1777. Concerns a mortgage (Mortgage of Hypotheeq) on Plantation Paaschal, situated on the island of Dominica, originally established August 13, 1772, by James Balmer, London merchant, for the benefit of Adolf Jan Heshuysen, Floris Visscher Heshuysen, and Frans Jacob Heshuysen, composing the firm Adolf Jan Heshuysen en Compagnie, Haarlem. The mortgage secures a sum of 7,100 pounds sterling. The plantation had earlier been encumbered with life annuities of 1,269 pounds and 10 shillings per annum on various lives in Great Britain. The document records the formal presentation of this mortgage before the Amsterdam notary.",
     "file": "goetzmann0608.jpg",
     "type": [
-      "Negotiatie"
+      "Bond",
+      "Certificate"
     ],
     "location": [
       "Netherlands",
@@ -1985,7 +1981,8 @@
     "description": "Notarial copy (Copie) of an earlier stage of the same Heshuysen/Balmer Dominica plantation mortgage transaction, recorded before notary Hermanus de Wolff Junior, Amsterdam, March 21, 1777. Also concerns the mortgage on Plantation Paaschal (Dominica) by James Balmer, London, for the benefit of Adolf Jan Heshuysen, Floris Visscher Heshuysen, and Frans Jacob Heshuysen (Adolf Jan Heshuysen en Compagnie, Haarlem), with reference to the same mortgage of August 13, 1772. This document predates the December 1777 notarial copy by nine months and represents an earlier phase of the same complex transaction.",
     "file": "goetzmann0609.jpg",
     "type": [
-      "Negotiatie"
+      "Bond",
+      "Certificate"
     ],
     "location": [
       "Netherlands",
@@ -2591,7 +2588,7 @@
     "description": "Hungarian share certificate for 10 ordinary shares (Részvény) of 100 Pengő each (total 1,000 Pengő / Egyezer Pengőről) of the Egyesült Izzólámpa és Villamossági Részvénytársaság (United Incandescent Lamp and Electrical Company), internationally known as Tungsram. Certificate Nos. 107,151–107,160. The company was founded in 1896 in Újpest (near Budapest) and became one of the world's leading manufacturers of tungsten incandescent light bulbs. Features an engraved vignette of the Újpest factory complex. Issued Újpest, ca. 1927–1935 (Pengő denomination introduced 1927).",
     "file": "goetzmann0646.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Hungary"
@@ -2626,7 +2623,7 @@
     "description": "Provisional bearer share certificate (Certificado Provisorio / Certificat Provisoire) of the Companhia da Zambezia (Zambezi Company / Compagnie du Zambèze), Lisbon. Trilingual: Portuguese (Portador), French (Porteur), English (Bearer). The company was a Portuguese colonial concessionaire with the right to administer the Zambezia region of Mozambique. Capital: 2,700,000$000 Réis / 15,000,000 Francs / £600,000, divided into 600,000 shares of 4$500 Réis / 25 Francs / £1. Shares issued in four series (1898–1900). This provisional certificate was issued pending delivery of definitive share certificates. Lisbon, December 25, 1900. Signed by the Administradores (Board of Directors).",
     "file": "goetzmann0647.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Mozambique",
@@ -2697,7 +2694,7 @@
     "description": "Dutch specimen bearer certificate (Certificaat / SPECIMEN) for ten ordinary shares (without nominal value) of Chrysler Corporation (incorporated under the laws of the State of Delaware, U.S.A.). The shares are registered in the name of the Administratietrust established by Hubrecht, van Harrenraegel & Van Vlisser N.V., Amsterdam, under a notarial deed of July 16, 1926 by Notaris R. Nicolai. The certificate enables Dutch investors to hold Chrysler Corporation ordinary shares through a Dutch bearer instrument. Conditions for exchange into actual Chrysler shares in America are outlined. Marked SPECIMEN. Amsterdam, ca. 1926–1930. Dividend coupon sheet (coupons 29–40 and TALON) attached at bottom.",
     "file": "goetzmann0650.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "United States",
@@ -2839,7 +2836,7 @@
     "description": "Bilingual English/Arabic/French bearer share No. 5,000,246 of the Egyptian Credit Foncier (Crédit Foncier Egyptien / البنك العقاري المصري), created by decree of H.H. the Khedive bearing date February 15, 1880. Société Anonyme. Capital: £4,000,000 or Frs. 100,000,000. Share value: £20 or Frs. 500 to bearer (Action au Porteur). Presented in both English and French with Arabic title text and decorative Moorish/Islamic arch motif framing the certificate. Cairo, January 1904. Has endorsement and transfer stamps visible at bottom. The Egyptian Credit Foncier provided real estate and agricultural mortgage credit in Egypt under the Khedival era.",
     "file": "goetzmann0654.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Egypt"
@@ -2874,7 +2871,7 @@
     "description": "Bank of England transfer receipt for Consolidated £3 per Cent. Annuities (Three per Cent. Annuities), £50 nominal. Received 7 August 1866, transferring the annuity to Miss Mary Graham, Chester. Consideration: £43.18.9 (forty-three pounds, eighteen shillings and ninepence) for fifty pounds of stock. The annuity was erected by an Act of Parliament of the 25th Year of the Reign of King George II. Printed form with manuscript entries. Two witness signatures. Anti-fraud notice on right.",
     "file": "goetzmann0655.jpg",
     "type": [
-      "Transfer Receipt"
+      "Receipt"
     ],
     "location": [
       "United Kingdom"
@@ -2917,7 +2914,7 @@
     "description": "Bank of England printed letter of attorney for Consolidated £3 per Cent. Annuities (Joint Account), dated ca. 1831. The document authorizes named attorneys to accept transfers of Three per Cent. Annuities at the Bank of England and to receive dividends on behalf of the principals. Printed by the Bank of England. London seal affixed. Signed, sealed, and delivered in the presence of witnesses. Standard printed form with manuscript insertions.",
     "file": "goetzmann0656.jpg",
     "type": [
-      "Letter of Attorney"
+      "Correspondence"
     ],
     "location": [
       "United Kingdom"
@@ -3146,7 +3143,7 @@
     "description": "Share certificate of The Native Guano Company, Limited (A.B.C. Process), certifying that the holder is the Proprietor of one fully paid-up share of five pounds (£5), Share No. 43238. Issued under the Common Seal of the Company on 15 November 1881. Signed by W. Stevens (Secretary) and two Directors. Decorative black engraved design with the company name in elaborate script. Note states no transfer can be registered until the certificate is lodged at the Company's Office.",
     "file": "goetzmann0661.jpg",
     "type": [
-      "Share Certificate"
+      "Stock Certificate"
     ],
     "location": [
       "United Kingdom"
@@ -3238,7 +3235,7 @@
     "description": "Bank of England transfer receipt for India £3 per Cent. Stock. Received 19 August 1886. Transfer from Fred Binner Flindell Esq. and Mrs. Catherine Mary Flindell to unnamed transferee. Consideration: £1,007.15.0 for stock of £1,141.19.2. The India 3% Stock was created under an Act of Parliament enabling the Secretary of State in Council of India to raise money in the United Kingdom for the Government of India, transferable at the Bank of England. Stamp of Foster & Braithwaite (brokers) visible. Printed by Walter John Coe, Superintendent, Bank of England.",
     "file": "goetzmann0663.jpg",
     "type": [
-      "Transfer Receipt"
+      "Receipt"
     ],
     "location": [
       "India",
@@ -3284,7 +3281,7 @@
     "description": "Bank of England transfer receipt for India £3 per Cent. Stock. Received 5 June 1889. Transfer from Fred Bonner Flindell Esq. and Catherine Mary Tapp (wife of William Ellicombe Tapp, formerly Catherine Mary Flindell) to unnamed transferee. Consideration: £423.0.6, brokerage 10.7, stamps 3.6, total £423.11.7. The India 3% Stock was created under an Act of Parliament enabling the Secretary of State in Council of India to raise money in the United Kingdom for the Government of India, transferable at the Bank of England. Foster & Braithwaite (brokers) stamp and 6d contract note stamp affixed.",
     "file": "goetzmann0664.jpg",
     "type": [
-      "Transfer Receipt"
+      "Receipt"
     ],
     "location": [
       "India",
@@ -3422,7 +3419,8 @@
     "description": "Talon (coupon sheet stub) for Imperial Russian Government 3.75% Conversion Bond (Konversionnaya Obligaciya) of 150 Rubles, No. 097530. The talon contains coupons numbered approximately 38-48, with validity dates spanning 1910-1932. Each coupon payable by the State Bank of Russia (2 rubles 81.25 kopecks per coupon). Denomination equivalent to 400 francs = 15 pounds sterling = 192 Dutch guilders. Bilingual Russian and French text.",
     "file": "goetzmann0667.jpg",
     "type": [
-      "Bond Coupon Sheet"
+      "Bond",
+      "Coupon"
     ],
     "location": [
       "Russia"
@@ -4017,7 +4015,8 @@
     "description": "Reverse side (verso) of a 19th-century Latin American government bearer bond. The left half displays handwritten bond conditions or endorsements in Spanish (Condiciones del Emprestito or similar). The right half comprises a large attached sheet of approximately 40 interest coupons, each of denomination 10 units, printed in teal/green ink with ornate engraved borders. The number of coupons and artistic style are consistent with a long-term bond issued by a Latin American government (possibly Mexican, Argentine, or Peruvian) in the mid-to-late 19th century. Recto (face) not visible in this image.",
     "file": "goetzmann0688.jpg",
     "type": [
-      "Bond Coupon Sheet"
+      "Bond",
+      "Coupon"
     ],
     "location": [],
     "period": [
@@ -4317,7 +4316,7 @@
     "description": "Trilingual amortization and redemption lottery plan (Tableau d'Amortissement / Amortisements-Plan / Tilgungs-Plan) associated with a Kingdom of Serbia 4% government bond. The document consists of five columns of lottery draw tables listing bond numbers drawn for redemption at successive draws. Two text panels at bottom contain the conditions of drawing in French and German respectively, each signed by authorized representatives. Likely the amortization schedule accompanying the Kingdom of Serbia 4% amortisable bond (see goetzmann0696).",
     "file": "goetzmann0695.jpg",
     "type": [
-      "Bond Amortization Schedule"
+      "Bond"
     ],
     "location": [
       "Serbia"
@@ -4503,7 +4502,8 @@
     "description": "Upper row of interest coupons from the Chinese Imperial Government 4.5% Gold Loan of 1898. Approximately 17-18 coupons arranged horizontally, each showing the 4.5% interest rate and pound sterling denomination. Printed in orange/tan with ornate engraved borders. All coupons cancelled by hole-punch. These coupons accompanied the £100 Sterling bearer bond of this loan.",
     "file": "goetzmann0699.jpg",
     "type": [
-      "Bond Coupon Sheet"
+      "Bond",
+      "Coupon"
     ],
     "location": [
       "China",
@@ -4736,7 +4736,7 @@
     "description": "Arrear interest certificate issued by the Council of Foreign Bondholders (Council House, 17 Moorgate Street, London, E.C.) representing interest in arrear amounting to £176:3:4 on Bond No. 0865 for £100 of the Liberian Government 7% External Loan of 1871. The arrear covers 1 February 1874 to 31 March 1899. Redeemable under the conditions of the Arrangement approved by the Law of the Liberian Congress of 23 January 1899. Dated 1 October 1899. Signed by the Secretary of the Council of Foreign Bondholders. Printed by Bradbury, Wilkinson & Co., Limited, London. Green decorative border.",
     "file": "goetzmann0706.jpg",
     "type": [
-      "Arrear Interest Certificate"
+      "Certificate"
     ],
     "location": [
       "Liberia",
@@ -5751,7 +5751,7 @@
     "description": "Coupon sheet for the Province of Buenos Aires bond under Law No. 4393. Pink/red coupons numbered 19 through 147. Dated Buenos Aires, 25 November 1925. Art. 9 de la Ley No. 4393.",
     "file": "goetzmann0737.jpg",
     "type": [
-      "Coupon Sheet"
+      "Coupon"
     ],
     "location": [
       "Argentina"
@@ -6105,7 +6105,7 @@
     "description": "Lottery bond (bon à lot) of 60 francs, Série 018, No. 08682, issued for the Exposition Coloniale Internationale, Paris 1931. Authorized by law of 22 July 1921; issued through Crédit Foncier de France. Emission of 2,300,000 bonds of 60 francs in lots totalling 21,253,000 francs in prizes. Bearer also entitled to travel discount coupons (chemins de fer, transports maritimes, avions). Signed by the Gouverneur Général. Printed in red and yellow with colonial imagery (palm trees, globe). Page 1 of 2.",
     "file": "goetzmann0974.jpg",
     "type": [
-      "Lottery Bond"
+      "Bond"
     ],
     "location": [
       "France"
@@ -6150,7 +6150,7 @@
     "description": "Reverse of Exposition Coloniale Internationale Paris 1931 lottery bond (Série 018 No. 08682), showing prize draw table (Tableau des Tirages et des Lots) with prizes up to 1,000,000 francs, description of additional travel benefits including railway, maritime transport, and aviation discounts, and a list of participating shipping companies. Page 2 of 2.",
     "file": "goetzmann0975.jpg",
     "type": [
-      "Lottery Bond"
+      "Bond"
     ],
     "location": [
       "France"
@@ -6554,7 +6554,7 @@
     "description": "Ordinary bearer share (action ordinaire au porteur) for 500 French francs, No. 258044, issued by Banque Industrielle de Chine (中法實業銀行, Sino-French Industrial Bank). Capital social: 150,000,000 francs. Siège social: Paris. Signed by Maspero. Printed in yellow/ochre with Chinese gateway and guardian lion vignette. Coupon sheet (中法實業銀行息票) attached at bottom. Page 1 of 2.",
     "file": "goetzmann0988.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "China",
@@ -6600,7 +6600,7 @@
     "description": "Reverse of Banque Industrielle de Chine (中法實業銀行) 500-franc ordinary share (No. 258044), showing \"Extraits des Statuts\" (extracts of the bylaws) in French, and Chinese coupon dividend stubs (中法實業銀行息票) at bottom. Page 2 of 2.",
     "file": "goetzmann0989.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "China",
@@ -7005,7 +7005,7 @@
     "description": "50-ruble bond (Облигация на сумму Пятьдесят Рублей) issued as part of the State Internal Lottery Loan 1982 (Государственный Внутренний Выигрышный Заём 1982 года) of the USSR. Bond No. 087, Series 269867, Class 28. Text references the loan also covering draw periods 1982–1990. Printed in green with Soviet state emblem and shield. Page 1 of 2.",
     "file": "goetzmann1000.jpg",
     "type": [
-      "Lottery Bond"
+      "Bond"
     ],
     "location": [
       "Russia"
@@ -7049,7 +7049,7 @@
     "description": "Reverse of USSR State Internal Lottery Loan 1982 50-ruble bond, showing full loan conditions (Условия Государственного Внутреннего Выигрышного Займа 1982 года) in Russian, including prize structure, lottery draw schedule, and repayment terms. Page 2 of 2.",
     "file": "goetzmann1001.jpg",
     "type": [
-      "Lottery Bond"
+      "Bond"
     ],
     "location": [
       "Russia"
@@ -7137,7 +7137,7 @@
     "description": "Lottery bond for five dollars (Canton currency), Second Nationalist Government Lottery Loan, issued in the 15th year of the Republic of China (= 1926). Authorized to finance construction of the Port of Whampoa (Whanpoa). Guaranteed by the revenue of the Nationalist Government with the Central Bank of China as Government Depository. Prize structure: first prize $50,000, second prizes $1,000, etc. Signed by the Director of the Revenue Department and the Minister of Finance (H.H. Kung). Text in English. Printed in green with decorative border.",
     "file": "goetzmann1003.jpg",
     "type": [
-      "Lottery Bond"
+      "Bond"
     ],
     "location": [
       "China"
@@ -7276,7 +7276,7 @@
     "description": "Stock certificate (股票) for 10 shares (本股票拾股) at 100 yuan each (计人民币壹佰元整), issued by Shanghai Pu Dong Qiang Sheng Taxi Co., Ltd. (上海浦东强生出租汽车股份有限公司), Shanghai. Authorized by the People's Bank of China Shanghai Branch (中国人民银行上海市分行(92)人金股字第(1)号). Certificate No. DM II 0068056. Issued February 12, 1992 (一九九二年二月十二日). Printed in green with bus/taxi vignette. Page 1 of 2.",
     "file": "goetzmann1006.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "China"
@@ -7321,7 +7321,7 @@
     "description": "Reverse of Shanghai Pu Dong Qiang Sheng Taxi Co., Ltd. stock certificate (No. DM II 0068056), showing explanatory notice (说明) in Chinese — including restrictions on pledging or mortgaging shares — and blank share transfer record table (股份转让记录). Page 2 of 2.",
     "file": "goetzmann1007.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "China"
@@ -7367,7 +7367,7 @@
     "description": "Extracts of the statutes (Extraits des Statuts) of an anonymous Belgian Congo company, printed in French. The company has its registered office in the Congo Belge with branches in Brussels, France, and the international union. Capital represented by 1,500 shares of 50 francs each. Louis Lambotin named as the company's first representative in the Congo. Page 1 of 2.",
     "file": "goetzmann1008.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Belgium"
@@ -7411,7 +7411,7 @@
     "description": "Dividend coupon sheet for a Belgian Congo anonymous company share, showing 30 numbered coupons (nos. 1–30) in a decorative acanthus/vine oval motif, printed in black. Coupons are blank (no amounts filled in). Page 2 of 2.",
     "file": "goetzmann1009.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Belgium"
@@ -7769,7 +7769,7 @@
     "description": "This printed lottery ticket reads: \"United States Lottery No. 16m769 – CLASS the FIRST. THIS TICKET entitles the Bearer to receive such PRIZE as may be drawn against its Number, according to a Resolution of CONGRESS, passed at Philadelphia, November 18, 1776.\" Signed in manuscript by \"D. Jackson\" (a lottery manager) and marked \"I.\" at the lower left to indicate the first class. The Continental Congress authorized this lottery by resolution on November 18, 1776 to help finance the Revolutionary War, organizing it in successive classes with tickets priced at $20 each. The printed ornamental border, the engraved script heading, and the official congressional authorization text are all identical to the other surviving Continental Lottery ticket in this collection (goetzmann0186), confirming both were printed from the same plate and issued under the same authority. This ticket is among the few known surviving examples of the first class of the United States Continental Lottery.",
     "file": "goetzmann0215.jpg",
     "type": [
-      "Ticket"
+      "Certificate"
     ],
     "location": [
       "United States"
@@ -7894,7 +7894,7 @@
     "description": "This manuscript letter, headed \"Treasury Department Oct 13, 1795 (Circular),\" is signed \"A. Hamilton\" and addressed to loan commissioners across the United States. Hamilton writes: \"I find from a letter from one of the Commissioners of Loans, that it is conceived, certificates of the State Debts cannot be subscribed to the new Loans unless that they express that they are issued for services or supplies towards the prosecution of the late war.\" He advises that this overly narrow construction would improperly exclude legitimate state debt certificates, and that any certificate of a state that was issued for compensations and expenditures toward prosecution of the war and the defense of the United States should be accepted as eligible for subscription to the new federal loan, even if the certificate does not explicitly state this purpose. This circular represents Hamilton's active management of the first U.S. federal debt consolidation under the Funding Act of 1790, clarifying eligibility rules for converting state war debts into federal securities.",
     "file": "goetzmann0220.jpg",
     "type": [
-      "Letter"
+      "Correspondence"
     ],
     "location": [
       "United States"
@@ -8215,7 +8215,7 @@
     "description": "This printed stock certificate, No. 18, certifies that \"Hattie J. Barnhill\" is the owner of one hundred shares of Common Stock of the American & British Securities Company, incorporated under the laws of the State of Delaware. The certificate is stamped \"COMMON\" in large red letters diagonally across the center. Terms specify that each share of preferred stock and each share of common stock outstanding shall be entitled to one vote at stockholders' meetings. The certificate is dated September 1919 (a \"29\" day is partially legible), signed by the Secretary and another officer, with a transferred signature \"Edward P[?] Holmes\" on the back. A handwritten annotation \"98-0186.06b\" appears at top right, indicating a museum or archive accession number. The American & British Securities Company was a Delaware investment holding company of the type common in the early 20th century, capitalizing on Anglo-American financial connections in the immediate post-World War I period.",
     "file": "goetzmann0232.jpg",
     "type": [
-      "Stock"
+      "Stock Certificate"
     ],
     "location": [
       "United States"
@@ -10661,7 +10661,7 @@
     "description": "This document contains two interest coupons (No. 827) of fifty Gulden each, payable as exchange money (wisselgeld) at the counting-house of C.J.M. De Wolf in Antwerp, in June 1795 and June 1796 respectively. Each coupon is attached to a share (Acte van Aendeel) of one thousand Gulden in lands in America, payable pursuant to Articles 2 and 3 of the original deed. These coupons document Dutch investment in American land companies during the 1790s—a period when Dutch financiers were among the largest foreign investors in the young United States, purchasing vast land tracts through companies like the Holland Land Company.",
     "file": "goetzmann0347.jpg",
     "type": [
-      "Dividend Coupon"
+      "Coupon"
     ],
     "location": [
       "United States",
@@ -14677,7 +14677,7 @@
     "description": "Preferred share (Action Privilégiée) No. 00274 of the Compagnie Générale des Tramways de Moscou & de Russie (General Company of Moscow and Russia Tramways), a Belgian société anonyme with registered offices in Brussels. The capital of 250 francs is fully paid (au porteur entièrement libérée). The company was established under contracts dated January 17, 1885, confirmed by M. Van Halteren, notary, and published in the Moniteur belge on February 4 and 7, 1885. Signed by two administrators. The company financed and operated urban tramway infrastructure in Moscow and other Russian cities, representing a significant Belgian capital investment in Russian transport.",
     "file": "goetzmann0466.jpg",
     "type": [
-      "Stock"
+      "Stock Certificate"
     ],
     "location": [
       "Russia",
@@ -14713,7 +14713,7 @@
     "description": "A payment warrant (Mandat de Paiement) No. 58 / No. 111, for £500 Sterling, issued by the Egyptian Government for the Aswan and Assiut Irrigation Works of 1898. The Egyptian Government acknowledges owing to MM. John Aird & Cie., or the bearer, the sum of Five Hundred Pounds Sterling, payable in London on January 1, 1932, at the offices of the Banque de l'Afrique, with interest at 3½% per annum. The document relates to the major British-engineered irrigation projects at Aswan (the first Aswan Dam, completed 1902) and Assiut (Asyut Barrage), financed through payment warrants (mandats) issued against future revenue. John Aird & Co. was the principal British contractor for the Aswan Dam.",
     "file": "goetzmann0467.jpg",
     "type": [
-      "Payment Warrant"
+      "Draft"
     ],
     "location": [
       "Egypt"
@@ -14748,7 +14748,7 @@
     "description": "A handwritten surety bond (obligation) for $1,900 Lawful Money, filed in the Court of Chancery at Jackson, for the district of Madison County, Western Division of the State of Tennessee. Nathan H. Ballon and John E. Bostick bind themselves jointly and severally to pay the sum of nineteen hundred dollars, conditioned on Ballon prosecuting his bill of complaint against Thomas Farnell and others with full legal effect; the bond to be void if the suit succeeds, otherwise to remain in force. Dated April 10th, 1852. Security for the bond: property valued over $900, age 50 and 41 respectively. Approved by the Court. An example of 19th-century American legal surety practice in chancery proceedings.",
     "file": "goetzmann0468.jpg",
     "type": [
-      "Legal Bond"
+      "Bond"
     ],
     "location": [
       "United States"
@@ -14783,7 +14783,7 @@
     "description": "Option certificate (Optiebewijs) No. 97790 of Unilever N.V., established in Rotterdam. The holder of eight such option certificates has the right to subscribe to eight new Unilever N.V. shares of f. 20 nominal value each (totaling f. 160). Valid until June 10, 1942 (van onwaarde na 10 June 1942). The certificate is linked to the conditions of Van den Bergh's Fabrieken N.V. 3½% Obligatielening (bond loan) of 1937, under which the option right was granted to bondholders. Dated Rotterdam, July 1937. Signed by the Secretary and a member of the Board of Directors. Represents a significant corporate finance instrument from one of the world's earliest modern consumer goods multinationals.",
     "file": "goetzmann0469.jpg",
     "type": [
-      "Option"
+      "Certificate"
     ],
     "location": [
       "Netherlands"
@@ -14853,7 +14853,7 @@
     "description": "Scrip certificate No. 262 of the Westchester & Philadelphia Rail Road Co., authorized by resolution of the Board of Directors on September 29th, 1860. Certifies that Washington Hastings (or assigns) is entitled to receive the sum of One Thousand Eight Hundred and Sixty-Five Dollars ($1,865), or its equivalent in Railroad scrip, with interest at the rate of six percent per annum, on the first day of October. Amount of One Thousand Eight Hundred and Sixty-Five Dollars. Dated October 10, 1862. Signed by the Treasurer and bearing the company seal. The Westchester & Philadelphia Rail Road was a Pennsylvania short-line railroad serving the Philadelphia region. Railroad scrip was a common form of corporate obligation used in 19th-century American railroad finance.",
     "file": "goetzmann0472.jpg",
     "type": [
-      "Scrip Certificate"
+      "Certificate"
     ],
     "location": [
       "United States"
@@ -14888,7 +14888,7 @@
     "description": "An orange-printed stock warrant certificate No. C8081 for 100 shares of the Wisconsin Investment Company. Issued to Mary E. Carey. The reverse side of the certificate bears the company's articles or conditions of the warrant. The certificate features an allegorical vignette of a seated female figure with a globe, printed in orange ink on white paper, with an attached stub (No. C8081) and the company's seal. Signed by authorized officers. The Wisconsin Investment Company was a Midwestern investment holding company. The warrant structure was a common early-20th-century corporate finance mechanism granting holders the right to subscribe to shares at a specified price.",
     "file": "goetzmann0473.jpg",
     "type": [
-      "Stock"
+      "Stock Certificate"
     ],
     "location": [
       "United States"
@@ -14923,7 +14923,8 @@
     "description": "A preliminary bond sale agreement (Acte Préliminaire de Vente d'Obligations) issued by Y. Rofé & Co., bankers and brokers with offices in Cairo (Le Caire), Port Said, Alexandria (Alexandrie), and Mansoura. The document confirms that Y. Rofé & Co. has agreed to sell Suez Canal Company 3% bonds, 2nd Series (Oblig. Canal de Suez 3% 2ème Série) to the identified purchaser at the stated price and terms. The agreement specifies conditions for payment, delivery of definitive bond certificates, and recourse under Article 238 of the Code Civil Mixte in the event of failure to deliver. Issued from the Cairo head office (Rue d'Ismaïlieh / Rue d'Almaz, telephone 44-67). The Suez Canal Company's bonds were among the most internationally traded securities of the late 19th century.",
     "file": "goetzmann0474.jpg",
     "type": [
-      "Contract"
+      "Bond",
+      "Indenture"
     ],
     "location": [
       "Egypt"
@@ -14958,7 +14959,7 @@
     "description": "An 8–15% variable-rate Treasury certificate (Schatzanweisung) of the German Reich, Issue II (Ausgabe II), Buchstabe A, No. 73723, for Five Million Mark Reichswährung (5,000,000 M). Issued May 20, 1923, at the height of the German hyperinflation. The certificate was authorized under the Reichsschuldenverwaltung (Imperial Debt Administration). It bears a strip of attached interest coupons, with payment dates marked from 1921 through the early 1930s. The variable interest rate (8–15%) reflected the extreme monetary instability of the Weimar Republic period. By the time of issuance in May 1923, the German mark had already lost the vast majority of its pre-war value; within months, 5,000,000 marks would become essentially worthless, culminating in the hyperinflationary collapse later that year.",
     "file": "goetzmann0475.jpg",
     "type": [
-      "Treasury Certificate"
+      "Certificate"
     ],
     "location": [
       "Germany"
@@ -15028,7 +15029,7 @@
     "description": "A large sheet of detachable interest coupons (talon) for the Russian Imperial Government 4% Gold Loan, Sixth Issue of 1894. The obligation denomination is 187 roubles 50 kopeks (equivalent to 500 French francs, £20, 405 Reichsmarks, or $96.25). Serial No. X035911. The sheet contains approximately 20 detachable coupons numbered in sequence (approximately coupons 97–116), each representing a semi-annual interest installment. Text is primarily in Russian, with French headers identifying the loan. Each coupon bears the coupon number, payment amount, and payment date. The 1894 Russian 4% Gold Loan was one of the largest sovereign bond issues of the late 19th century, placed across European financial markets.",
     "file": "goetzmann0477.jpg",
     "type": [
-      "Coupon Sheet"
+      "Coupon"
     ],
     "location": [
       "Russia"
@@ -15166,7 +15167,8 @@
     "description": "A printed lottery ticket No. 7027 for the Life Annuity Lottery (Leib-Renten-Lotterey) of the City of Hamburg, published on April 23, 1773. The bearer of this ticket holds one lot in the life annuity lottery, credited under the noted number in the Kämmerei Lotterie-Conto in Banco for the sum of Two Hundred Mark Banco (Zwey Hundert Mark Banco). Printed with the Hamburg city coat of arms (two white towers on a red field) at top. The Hamburg Life Annuity Lottery was a form of municipal finance that combined lottery participation with life annuity-style returns: participants purchased lottery tickets, and winners received life annuities paid from Hamburg's municipal treasury. Such instruments were a common and sophisticated method of city-state borrowing in 18th-century northern Europe.",
     "file": "goetzmann0483.jpg",
     "type": [
-      "Lottery Ticket"
+      "Bond",
+      "Certificate"
     ],
     "location": [
       "Germany"
@@ -15419,7 +15421,7 @@
     "description": "A stock warrant (Warrant) No. 015284, Series per 1943, of the Koninklijke Nederlandsche Maatschappij tot Exploitatie van Petroleumbronnen in Nederlandsch-Indië (Royal Dutch Company for the Exploitation of Petroleum Sources in Dutch East Indies), established in The Hague. The holder has the right until March 31, 1940 to purchase one share at f.1,000 nominal value from the above company, or from April 1, 1940 until March 31, 1943 against payment of f.500. Valid until March 31, 1943 (van onwaarde na 31 Maart 1943). Issued 's-Gravenhage, February 1937. Signed by two directors. Royal Dutch was the Dutch predecessor entity of the Royal Dutch/Shell oil company. This warrant was part of the company's equity capital-raising activities in the late 1930s, reflecting the complex financial structure of the early petroleum industry.",
     "file": "goetzmann0490.jpg",
     "type": [
-      "Warrant"
+      "Certificate"
     ],
     "location": [
       "Netherlands"
@@ -15454,7 +15456,7 @@
     "description": "A printed and handwritten legal document dated January 13, 1745, Paris, relating to the French East India Company (Compagnie des Indes). The document references Gabriel-Jérôme de Bullion (Chevalier, Maître de Camp de Régiment de Prusse Infanterie, Conseiller du Roy en son Conseil, Prévôt de la Ville, Prévôté et Vicomté de Paris), acting as Directeur de ladite Compagnie. The text references the King's Council edict of February 3, 1724 (re-establishing the reorganized Compagnie des Indes), and concerns the handling of Loterie de Saint-Quentin proceeds and share-related financial arrangements. Multiple named parties are involved, including Dame Juliane Elizabeth de Guise Holler and her husband or agent, regarding the sale, transfer, and remuneration of Company shares and related financial instruments under the Compagnie des Indes charter. A significant document illustrating the legal and financial complexity of French East India Company share transactions in the mid-18th century.",
     "file": "goetzmann0491.jpg",
     "type": [
-      "Legal Document"
+      "Certificate"
     ],
     "location": [
       "France"
@@ -15594,7 +15596,7 @@
     "description": "A printed and handwritten bill of exchange No. 57, issued by the United States of America on November 21, 1778. At Thirty Days Sight, payable to Jeremiah Green Esq. (or Order) in Three Hundred Livres Tournois (equivalent to Sixty Dollars), for Interest due on Money borrowed by the United States. Countersigned by Nath. Appleton, Commissary of the Loan Office in the State of Massachusetts Bay. Signed by H. Atkinson, Treasurer of Loans. These bills of exchange were issued by the Continental Congress as a mechanism for paying interest to domestic holders of Loan Office Certificates, allowing creditors to receive their interest in the form of bills that could be negotiated in France, reflecting the U.S. government's reliance on French credit during the Revolutionary War.",
     "file": "goetzmann0495.jpg",
     "type": [
-      "Bill of Exchange"
+      "Draft"
     ],
     "location": [
       "United States"
@@ -15629,7 +15631,7 @@
     "description": "A printed and handwritten bill of exchange No. 814, issued by the United States of America on November 24, 1778. At Thirty Days Sight, payable to Timothy Newell Esq. (or Order) in One Hundred and Twenty Livres Tournois (equivalent to Twenty-four Dollars), for Interest due on Money borrowed by the United States. Countersigned by Nath. Appleton, Comptroller of the Commissioner of the Great Loan-Office in the State of Massachusetts Bay. Signed by H. Atkinson, Treasurer of Loans. Part of the same series as Bill No. 57 (goetzmann0495), issued three days later to a different payee. Illustrates the systematic use of Livres Tournois-denominated bills of exchange to service domestic Revolutionary War debt through French currency instruments.",
     "file": "goetzmann0496.jpg",
     "type": [
-      "Bill of Exchange"
+      "Draft"
     ],
     "location": [
       "United States"
@@ -15739,7 +15741,9 @@
     "description": "A handwritten share subscription and forward contract for the Generale Keijserlijke Indische Compagnie (General Imperial Indian Company), signed in Antwerp on April 30, 1608. Registered as No. 36. The subscriber promises, in exchange for a received cash premium (Contante premie), to deliver and transfer a specified number of shares (Actien) in the Generale Keijserlijke Indische Compagnie to the counterparty or their order by the first available transfer day at the Company, with conditions relating to transport costs, reimbursement of proceeds, and the value of the shares. The document bears an elaborate embossed seal at top center. Contracted under Antwerp law. A rare and historically significant early modern financial instrument documenting forward share trading in what appears to be a Habsburg-sponsored East India trading company based in the Spanish Netherlands, operating contemporaneously with the Dutch VOC (founded 1602). This contract captures some of the earliest documented equity derivatives activity in European financial history.",
     "file": "goetzmann0499.jpg",
     "type": [
-      "Share Subscription Contract"
+      "Bond",
+      "Certificate",
+      "Coupon"
     ],
     "location": [
       "Belgium"
@@ -15809,7 +15813,8 @@
     "description": "A printed and handwritten legal notarial document passed before Notary Everard Cornelis Bordt, Amsterdam, dated March 4, 1817, concerning the financial and administrative affairs of the Lollenpolder en Hassendael polder investment negotiatie. Principal parties include Cornelis Freymerius (merchant, of C. Freymerius en Zijn), Thomas Cuming (acting as vice-agent for the polder company), and Werbard van Vloter Aanraede (broker/Makelaar) and Siek Jan Voombergh (merchant), both acting as Commissioners of the Negotiatie. The document addresses the qualifications and obligations of the holders of 292 shares (twee honderd vice-en-negentig Aandelen) in the Negotiatie, the management responsibilities of Commissioners, and conditions for administration of the polder's capital. References the Associatie Knip of Vader of Zijn. Registered in Amsterdam on February 21, 1817 at D.S. f.159.",
     "file": "goetzmann0501.jpg",
     "type": [
-      "Contract"
+      "Stock Certificate",
+      "Bond"
     ],
     "location": [
       "Netherlands"
@@ -15844,7 +15849,7 @@
     "description": "Option certificate (Optiebewijs) No. 86786 of Unilever N.V., established in Rotterdam. Printed in blue and white. The holder of eight such option certificates has the right, against surrender of these certificates, to acquire one ordinary share certificate (certificaat van gewoon aandeel) of Unilever N.V. with a nominal value of f. 100, at the closing price of f. 130½, valid until June 30, 1942 (van onwaarde na 30 Juni 1942). The terms include conditions linked to the Van den Bergh's Fabrieken N.V. 3½% Obligatielening. Dated Rotterdam, July 1937. Signed by the Secretary and a member of the Board of Directors (Lid van de Raad van Bestuur). This is a second example of the same series as No. 97790 (goetzmann0469), differing only in serial number, demonstrating the wide distribution of Unilever option certificates in this period.",
     "file": "goetzmann0502.jpg",
     "type": [
-      "Option"
+      "Certificate"
     ],
     "location": [
       "Netherlands"
@@ -15951,7 +15956,7 @@
     "description": "A printed and handwritten bill of exchange No. 43, issued by the United States of America on October 1, 1780. At Thirty Days Sight, payable to Jonathan D. Sergeant (or Order) in Six Hundred Livres Tournois, equivalent to One Hundred and Twenty Dollars at five Livres Tournois per Dollar, for Interest due on Money borrowed by the United States. Countersigned by the Commissioner of the Continental Loan Office in the State of Pennsylvania. Signed by H. Atkinson, Treasurer of Loans. This is one of a series of bills of exchange issued by the Continental Congress to pay interest on Loan Office Certificates by drawing on French credit, reflecting the United States' dependence on French currency networks during the Revolutionary War.",
     "file": "goetzmann0505.jpg",
     "type": [
-      "Bill of Exchange"
+      "Draft"
     ],
     "location": [
       "United States"
@@ -15988,7 +15993,7 @@
     "description": "A large bilingual English/Spanish land grant certificate (Class C) of 400 Acres in the Potosí region, dated London, April 1825. The document is headed \"POTOSIAN LAND GRANT\" and includes the full grant text in English as well as a Spanish translation (Concesión de 400 Acres), with signatures from London confirming the Exchange and Redemption of the outstanding claims. The Potosian Land Grant scheme was associated with early 19th-century British speculative investment in Bolivian mining and land ventures following South American independence, when British investors rushed to capitalize on newly opened Latin American markets. Potosí, historically famous for its vast silver mines since the 16th century, attracted significant British capital in the 1820s as part of the broader Latin American investment mania.",
     "file": "goetzmann0506.jpg",
     "type": [
-      "Land Grant"
+      "Certificate"
     ],
     "location": [
       "Bolivia",
@@ -16025,7 +16030,7 @@
     "description": "A printed weekly securities and exchange rate price list (Prys-Courant der Effecten) from Amsterdam, Thursday, 1822, No. 39. The broadsheet lists market prices for a wide range of securities: Dutch government bonds (Vereenigde Nederlanden), various Dutch negotiaties (investment pools), and a broad array of foreign government bonds and securities including Spanish, French, Austrian, Russian, and other European and American obligations. The lower portion gives Wissels en Specie Cours (exchange rates for bills of exchange and coin prices) for London, Paris, Hamburg, Frankfurt, Berlin, Vienna, and other centers. The Prys-Courant der Effecten was Amsterdam's authoritative weekly securities price publication, a primary record of early 19th-century European financial market activity and international capital flows.",
     "file": "goetzmann0507.jpg",
     "type": [
-      "Price List"
+      "Register"
     ],
     "location": [
       "Netherlands"
@@ -16097,7 +16102,7 @@
     "description": "A handwritten mortgage bond/plantation loan document No. 99 from the Register of Middelburg (Zeeland), signed by Kornelis van den Helm Boddaert as Directeur and qualified secretary for the money-lenders (geld-Opschieters) of various Plantations in the Colony of Essequibo and Demerara (present-day Guyana), acting according to the General Plan of Hypotheken (mortgages) secured by the colonial plantations. Dated January 1760. Capital of Five Hundred Livres at 5% per cent per annum, interest from January 1, 1760. Authenticated with the Compagnie seal. Multiple endorsements and subsequent annotations in later hands (1772, 1793, 1817). This document exemplifies the Dutch colonial plantation mortgage system (plantageleningen) of Essequibo and Demerara, which bundled West Indian plantation mortgages for sale to Dutch investors — among the earliest securitization schemes in financial history.",
     "file": "goetzmann0509.jpg",
     "type": [
-      "Plantation Bond"
+      "Bond"
     ],
     "location": [
       "Guyana",
@@ -16133,7 +16138,8 @@
     "description": "A printed and handwritten royal life annuity contract (Rente Viagère au Denier Vingt-cinq) No. 21839, issued by Jean Antoine Paris, Conseiller du Roy en Exercice en cette Ville de Paris, for Simonne Jenaille (and family). The annuity is drawn on the Four Millions of Livres raised under the Édit du Mois de Juillet 1723 on the Tailles and other Impositions. The annual payment is twenty-three livres and approximately seventy-four sous. The rente viagère was tied to the life of the nominee and ceased upon their death. Issued by the Quinzième du Garde du Trésor Royal, Paris, 1723. Signed by M. Lacromont [?]. An important instrument of French royal finance during the Regency and early Louis XV period, when life annuities were a principal mechanism for raising state revenue.",
     "file": "goetzmann0510.jpg",
     "type": [
-      "Life Annuity"
+      "Bond",
+      "Receipt"
     ],
     "location": [
       "France"
@@ -16168,7 +16174,8 @@
     "description": "A printed and handwritten royal life annuity contract (Rente Viagère Sur une Tête) for the Comtesse de Saint-Hermaurice (Madame La Comtesse de Saint-Hermaurice), drawn under the Édit de Novembre 1738, Première Classe. Issued July 26, 1739, Paris, before Jean-Baptiste-Élie Canus de Pontcaillé, seigneur de Vuarnet, Sirogu, Briey, and others, Notaires, Gardes-note et Garde du Seau de Sa Majesté au Châtelet de Paris, and other Parisian notaries. The annuity is for acquéreurs of annuities from the Marchands et Echevins (merchant aldermen) of Paris, with four thousand livres of capital each, at a fixed annual rente. The life annuity runs for the lifetime of the nominated individual and provides for specific conditions on re-registration and transfer. An important document from French royal life annuity finance during the reign of Louis XV.",
     "file": "goetzmann0511.jpg",
     "type": [
-      "Life Annuity"
+      "Bond",
+      "Certificate"
     ],
     "location": [
       "France"
@@ -16276,7 +16283,7 @@
     "description": "A Dutch Certificaat No. 52108 of $1,000 Common Stock of The Rock Island Company (Chicago, Rock Island and Pacific Railway), administered by the Amsterdam Administratie-Kantoor of Broes en Goosman, Ten Have en van Essen, Jarman en Zoonen, and Plantenga. The holder is entitled to the benefits of one share of $1,000 Common Stock in The Rock Island Company under the conditions of the Dutch administration agreement. Printed in pink/red on cream paper. Last dividend date noted. The Rock Island Company was one of the major American Midwestern railroads, operating routes from Chicago westward. Amsterdam-listed certificates for American railroad shares were widely held by Dutch retail investors seeking exposure to the booming American railway sector in the late 19th and early 20th centuries.",
     "file": "goetzmann0514.jpg",
     "type": [
-      "Stock"
+      "Stock Certificate"
     ],
     "location": [
       "United States",
@@ -16312,7 +16319,7 @@
     "description": "A lottery bond (Loterij-Geldleening) of the Dutch Association for the Promotion of National Defense (Vereeniging tot Bevordering van 's Lands Weerbaarheid), Series 7734, No. Acht en Dertig (38). Total loan: f. 1,000,000, divided into 400,000 shares at f. 2.50 each, approved by Ministerial Resolution of July 8, 1878, No. 28. Issued in Rotterdam, May 1877. On July 31 and January 15 annually, 12,000 shares are drawn for prizes, with top prizes of f. 10,000, f. 5,000, f. 2,000, f. 1,000, f. 500, f. 200, f. 100, f. 75, f. 50, f. 20, and smaller amounts. The certificate lists the full prize table and redemption conditions. The Vereeniging tot Bevordering van 's Lands Weerbaarheid (Association for National Defense Readiness) was a Dutch patriotic association that used lottery bonds to raise funds for Dutch military preparedness in the post-1870 period.",
     "file": "goetzmann0515.jpg",
     "type": [
-      "Lottery Bond"
+      "Bond"
     ],
     "location": [
       "Netherlands"
@@ -16810,7 +16817,7 @@
     "description": "A printed and handwritten bill of exchange No. 131, issued by the United States of America on October 9, 1776. At Thirty Days Sight, payable to Annie Brown (or Order) in Thirteen Hundred Livres Tournois, equivalent to Three Hundred Dollars, for Interest due on Money borrowed by the United States. Countersigned by [?] Smith, Commissioner of the Continental Loan Office, State of Pennsylvania. Signed by H. Atkinson, Treasurer of Loans. One of the earliest-dated examples in the collection, issued just months after the Declaration of Independence, as the Continental Congress began issuing Loan Office Certificates and related bills of exchange to service its domestic war debt.",
     "file": "goetzmann0529.jpg",
     "type": [
-      "Bill of Exchange"
+      "Draft"
     ],
     "location": [
       "United States"
@@ -16880,7 +16887,7 @@
     "description": "A printed and handwritten bill of exchange No. 64, issued by the United States of America on November 12, 1778. At Thirty Days Sight, payable to Jesse White (or Order) in One Hundred and Eighty Livres Tournois, equivalent to Thirty-six Dollars, for Interest due on Money borrowed by the United States. Countersigned by Nath. Appleton, Commissioner of the Continental Loan Office in the State of Massachusetts Bay. Signed by H. Atkinson, Treasurer of Loans. Part of the same late-1778 series as other Continental bills of exchange in the collection.",
     "file": "goetzmann0531.jpg",
     "type": [
-      "Bill of Exchange"
+      "Draft"
     ],
     "location": [
       "United States"
@@ -16915,7 +16922,7 @@
     "description": "A printed and handwritten bill of exchange No. 71, issued by the United States of America on November 4, 1778. At Thirty Days Sight, payable to M. John Tompkins (or Order) in Six Hundred Livres Tournois, equivalent to One Hundred and Twenty Dollars, for Interest due on Money borrowed by the United States. Countersigned by Nath. Appleton, Commissioner of the Continental Loan Office in the State of Massachusetts Bay. Signed by H. Atkinson, Treasurer of Loans. Part of the same November 1778 series, predating No. 64 (goetzmann0531) by eight days.",
     "file": "goetzmann0532.jpg",
     "type": [
-      "Bill of Exchange"
+      "Draft"
     ],
     "location": [
       "United States"
@@ -16986,7 +16993,7 @@
     "description": "A printed lottery/negotiatie prospectus of f. 75,000 Dutch guilders (Vyf en Zeventig Duyzend Gulden), constituted by order of the Vertegenwoordigend Lichaam ver Bataafschen Volks (Representative Body of the Batavian People), dated May 9, 1800. Established for the maintenance of the Orphanage (Weeshuys) of the city of Vlaardingen. The negotiatie consists of 1,500 shares at f. 50 each, with a lottery prize structure: the first prize is f. 10,000, then f. 5,000, f. 2,500, f. 1,000, f. 500, f. 250, f. 125, and smaller prizes, totaling f. 48,000. Prize drawings are held on July 31 and January 15 annually. Holders of the remaining (non-prize) classes receive annual interest (Instrerende Lijfrentebrieven) divided into five classes by age. An innovative Batavian Republic instrument combining charitable endowment, lottery, and life annuity.",
     "file": "goetzmann0534.jpg",
     "type": [
-      "Lottery Bond"
+      "Bond"
     ],
     "location": [
       "Netherlands"
@@ -17130,7 +17137,8 @@
     "description": "A Dutch legal document drawn up before notaries Albertus Bakker and Paules Cordes, Raaden in den Edelen Aghtbaren Heeren van Public, Criminele en Civiele Justicie der Rivier en onderhorige districten van Essequebo (Essequibo Colony). The parties include Johan Gottlieb Detericks and Vrouwe Johanna Maria von de Vyver, owners of plantations in Essequibo. The document concerns the establishment of a negotiatie (Nieuwe Creditors) for the plantation \"De Vyver\" and other Midland Plantations, with capital of f. 13,000 (Dertienduizend Guldens), under the management of Remy & Comp., Kooplieden t'Amsterdam as Directors, and with the Amsterdam firm directing operations under the terms of a July 1789 plan. This is an example of the Essequibo plantation mortgage lending system administered from Amsterdam in the late 18th century.",
     "file": "goetzmann0541.jpg",
     "type": [
-      "Contract"
+      "Bond",
+      "Indenture"
     ],
     "location": [
       "Guyana",
@@ -17239,7 +17247,7 @@
     "description": "Bilingual English/French bearer share certificate for the Pekin Syndicate Limited (London), No. 835003, representing five ordinary shares of £1 each in the company. The Pekin Syndicate was a British company formed to exploit mining and railway concessions in northern China (Shanxi province). Printed in green on cream with a fine decorative border. Coupon sheet (coupons 1–33) is attached at the bottom. Capital structure: £1,200,000 ordinary stock and £800,000 in 6% First Mortgage Debentures.",
     "file": "goetzmann0547.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "China",
@@ -17442,7 +17450,7 @@
     "description": "Share certificate in Arabic and French for the Société Selim et Samaan Sednaoui, Société Anonyme R.A.U. (République Arabe Unie/United Arab Republic), headquartered in Cairo. Certificate represents 25 registered (nominative) shares of Egyptian Pound (LE) 10 each, total LE.250. The Sednaoui family founded one of Cairo's premier department stores in 1886; the company was later nationalized. The certificate is printed in red/terracotta with Arabic title text and has a detachable dividend coupon sheet at the bottom. Dated ca. 1958–1960.",
     "file": "goetzmann0556.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Egypt"
@@ -17540,7 +17548,7 @@
     "description": "Reverse/back side of the Compagnie Impériale Chemins de Fer Ethiopiens 500 Franc bearer share No. T 01,927. Shows faint mirror-image printing from the obverse (Amharic text and railway illustration in reverse) and purple dividend distribution stamps: \"1ère REPARTITION du 1 au 18...\" and dated \"du 30 MAI 1908,\" indicating the first dividend distribution was recorded in May 1908.",
     "file": "goetzmann0561.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Ethiopia",
@@ -17576,7 +17584,7 @@
     "description": "Full dividend coupon sheet for Compagnie Impériale Chemins de Fer Ethiopiens shares, containing 48 annual dividend coupons labeled \"EXERCICE\" (fiscal year) running from 1900 through 1947. Each coupon shows the exercise year. The sheet is printed in black on white paper. Coupons are arranged in a four-column grid. These were detached annually as dividends were paid out.",
     "file": "goetzmann0562.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Ethiopia",
@@ -18128,7 +18136,7 @@
     "description": "Registered share certificate (titru/titre) for 10 ordinary registered shares (Actiuni Nominative) of Uzinele de Fier și Domeniile din Resita S.A. (Romanian Iron Works and Domains of Resita / Aciéries et Domaines de Resita S.A.), nominal value 500 Lei each, total 5,000 Lei. The certificate is bilingual Romanian and French. The Resita ironworks in Banat (now Romania) were one of the oldest and largest steel-producing facilities in Eastern Europe. The certificate includes a transfer register (\"CESIUNI\") on the right. Dated Bucharest, September 1928. Company seal \"UD\" at bottom.",
     "file": "goetzmann0589.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Romania"
@@ -18454,7 +18462,7 @@
     "description": "Share certificate (Action) of the Compagnie de Colonisation Américaine (American Colonization Company, Paris), Series B, No. 4258, entitling the bearer to 100 acres of land in the states of Virginia and Kentucky, valued at Francs 1,300. The Compagnie de Colonisation Américaine was a French land company selling American land rights to European investors. The certificate details the rights of the shareholder to participate in the land development and distribution of proceeds. Signed by the company's gérant (managing director). Dividend coupon strips attached at left. The share dates from the mid-19th century.",
     "file": "goetzmann0601.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "United States",
@@ -18525,7 +18533,8 @@
     "description": "Printed conditions document (No. 306) for a plantation negotiatie fund under the direction of De Heeren Theodore Passalaigue en Zoon (Theodore Passalaigue and Son), merchants in Amsterdam, established for the benefit of planters in the Colony of Suriname. Article I states that the plantations of participating planters must be properly pledged as security, free of encumbrances, and a full inventory submitted. Article II requires planters to pledge a mortgage on all plantation production, pay interest annually at 10% per cent, and assigns a commission of van Justitie de Colonie Surinamen. Consistent with Dutch Suriname plantation negotiatie financing of the late 18th century.",
     "file": "goetzmann0603.jpg",
     "type": [
-      "Negotiatie"
+      "Bond",
+      "Certificate"
     ],
     "location": [
       "Netherlands",
@@ -18668,7 +18677,8 @@
     "description": "Printed conditions and pledge document for the Suriname plantation negotiatie under the direction of Nicolaas Brant, merchant in Amsterdam, dated May 1, 1765. The director's pledge statement opens: \"Ik Ondergeschreven NICOLAAS BRANT, als dirigerende de Negotiatie breeder in het geannexeerde Plan gemeld, beloove, en verbindende my by dezen, omme my in myne gedagte qualiteit stipulyk te zullen gedragen aan de Conditien...\" The negotiatie was to advance 150,000 Dutch guilders to planters in the Colony of Suriname at 6% per annum interest. Articles I–III of the conditions follow, covering mortgage requirements, interest obligations, and planter eligibility.",
     "file": "goetzmann0607.jpg",
     "type": [
-      "Negotiatie"
+      "Bond",
+      "Certificate"
     ],
     "location": [
       "Netherlands",
@@ -18810,7 +18820,7 @@
     "description": "Dutch bearer certificate (Certificaat) No. 669 for $1,000 face value, representing 10 shares of $100 each in the Preferred Stock of the Denver & Rio Grande Spoorweg-Maatschappij (Denver & Rio Grande Railway Company). The certificate was issued and administered by the Internationale Administratie-Kantoor in Amsterdam, enabling Dutch investors to hold American railroad preferred stock through a Dutch bearer instrument. Interest and dividends payable in Amsterdam. Dated Amsterdam, December 6, 1890. Signed by the administrators.",
     "file": "goetzmann0613.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "United States",
@@ -19131,7 +19141,7 @@
     "description": "This printed document is a receipt (récépissé) for the French Republican Forced Loan of Year 4 (Emprunt Forcé de l'An 4), corresponding to 1795-96 on the Gregorian calendar. The upper portion is a formal receipt from the designated Receiver of the Commune, acknowledging payment of a sum 'en numéraire ou valeur représentative aux termes de la Loi' (in coin or representative value as specified by the Law of 19 Frimaire, Year 4). The document carries the heading 'DÉPARTEMENT... COMMUNE No. 9' and is numbered 3869. Below the receipt is a detachable sheet of nine coupon bonds labeled 'Emprunt Forcé de l'An 4,' each bearing signatures, indicating the various installment payments of the forced loan that were scheduled across the year. The Emprunt Forcé de l'An 4 was a compulsory capital levy imposed by the French Directory on wealthy citizens to fund the Revolutionary government, and represented one of the most significant fiscal measures of the mid-1790s.",
     "file": "goetzmann0622.jpg",
     "type": [
-      "Government Bond"
+      "Bond"
     ],
     "location": [
       "France"
@@ -19541,7 +19551,7 @@
     "description": "Deposit certificate issued by the Corporation of Foreign Bondholders (17 Moorgate, London, E.C.2) for 5% Bonds of the State of Mississippi U.S.A. (issued to the Union Bank in 1838). List No. 194. No. A139. Represents Mississippi State Bonds for $10,000 (Ten Thousand Dollars) deposited with the Corporation of Foreign Bondholders. Dated 21 December 1925. Signed by the Assistant Secretary. Printed by Bradbury, Wilkinson & Co., Ltd. Note: bonds represented will be returned on redistribution, but not necessarily the actual bonds lodged.",
     "file": "goetzmann0682.jpg",
     "type": [
-      "Deposit Certificate"
+      "Certificate"
     ],
     "location": [
       "United States",
@@ -19636,7 +19646,7 @@
     "description": "Common stock certificate of Middle West Utilities Company (a consolidated corporation under the laws of Delaware), No. F-144861. One (1) share without par value of the Common Stock, issued to Edward Matousek. Dated September 12, 1930. Signed by the Secretary and President (Samuel Insull). Purple decorative border with allegorical vignette. Middle West Utilities was the apex holding company of Samuel Insull's utility empire, which collapsed spectacularly in 1932 during the Great Depression.",
     "file": "goetzmann0684.jpg",
     "type": [
-      "Share Certificate"
+      "Stock Certificate"
     ],
     "location": [
       "United States"
@@ -19775,7 +19785,7 @@
     "description": "Participating debenture (Kr. 20 / Twenty Kronor) of Aktiebolaget Kreuger & Toll (the Match King Ivar Kreuger's holding company), No. 1163457. Issued under the Swedish Companies Act. Share capital of Aktiebolaget Kreuger & Toll: Kr. 63,660,009, divided into 636,600 shares of Kr. 100 each. The debenture carries interest at 5% per annum from 1 January 1928 until redemption. Holders have proportional participation rights in profits. Additional debentures can be issued ranking equally with these. Printed by Aktiebolaget Bonnier, Stockholm.",
     "file": "goetzmann0687.jpg",
     "type": [
-      "Debenture"
+      "Bond"
     ],
     "location": [
       "Sweden"
@@ -19821,7 +19831,8 @@
     "description": "Lower row of interest coupons from the Chinese Imperial Government 4.5% Gold Loan of 1898. Approximately 17-18 coupons arranged horizontally, same format as upper row (goetzmann0699). Printed in orange/tan with ornate engraved borders. All coupons cancelled by hole-punch. Together with goetzmann0699, these two rows comprise the full coupon sheet for a £100 Sterling bearer bond of this loan.",
     "file": "goetzmann0700.jpg",
     "type": [
-      "Bond Coupon Sheet"
+      "Bond",
+      "Coupon"
     ],
     "location": [
       "China",
@@ -19867,7 +19878,7 @@
     "description": "Transfer certificate of the Monte non vacabile del Sale della Citta di Firenze (Non-Redeemable Salt Fund of the City of Florence), a Florentine public debt instrument, issued on 12 September 1693. The Protettori del Monte (trustees) certify the transfer of 44.5 luoghi (places/shares) at 4 scudi per luogo annual income from Pier Carlo Giraldini to Caterina Giamfigliazzi ne' Giraldini, with an annual annuity of 4 scudi per luogo payable quarterly. Signed by Attilio Vettor, one of the Protettori, and the Cancelliere. Wax seal affixed. Printed form with manuscript insertions. Issued in the name of the Serenissimo Gran Duca di Toscana (Grand Duke of Tuscany).",
     "file": "goetzmann0704.jpg",
     "type": [
-      "Transfer Certificate"
+      "Certificate"
     ],
     "location": [
       "Italy"
@@ -19960,7 +19971,7 @@
     "description": "Reverse/related documents for the Caisse Autonome des Monopoles du Royaume de Roumanie 7% External Stabilisation and Development Loan 1929. Shows a full coupon sheet on the left and a second blank front-face certificate for the same bond series on the right.",
     "file": "goetzmann0726.jpg",
     "type": [
-      "Coupon Sheet"
+      "Coupon"
     ],
     "location": [
       "Romania"
@@ -20360,7 +20371,7 @@
     "description": "Share certificate No. 4696 of the Strand Bridge Company (later Waterloo Bridge), London. Certifies that John Colegate of Buckingham Row is a proprietor of one share (1/496 of the undertaking), incorporated by Act of Parliament. Signed under the Common Seal of the Company. London, 30 December 1809.",
     "file": "goetzmann0912.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "United Kingdom"
@@ -20415,7 +20426,7 @@
     "description": "Share certificate No. 320 of the Derby Canal Company, certifying Matthew How of Derby (Hatter) as entitled to one share in the undertaking. Established by Act of Parliament for a navigable canal from the River Trent near Swarkiton Bridge. Second General Assembly held 7 October 1793, Derby.",
     "file": "goetzmann0914.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "United Kingdom"
@@ -20460,7 +20471,7 @@
     "description": "Founder's bearer share (Part de Fondateur au Porteur) No. 010532 of the Societe Toulousaine du Bazacle, Societe Anonyme, Toulouse. Capital social: 13,150,000 Francs (131,500 shares of 1,000 Francs each). Statutes deposited with notary Moyne in Paris, modified by extraordinary assemblies of 19 March 1927 and 26 April 1929. Registered office: 10 Quai Saint-Pierre, Toulouse. This company traces its origins to a medieval water mill cooperative, one of the oldest joint-stock companies in history.",
     "file": "goetzmann0915.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "France"
@@ -20506,7 +20517,7 @@
     "description": "SPECIMEN share certificate of the Hotel Waldorf-Astoria Corporation, incorporated under the Laws of the State of New York. Authorized capital stock: 300,000 shares without par value. Transferable in New York, N.Y. or Boston, Mass. Transfer agent: The First National Bank of Boston. Certificate No. 000, marked SPECIMEN in red.",
     "file": "goetzmann0916.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "United States"
@@ -20558,7 +20569,7 @@
     "description": "Common stock certificate No. FN 11420 of the United States Radium Corporation, incorporated under the Laws of the State of Delaware. Par value $1.00 per share, 40 shares. Issued to Thomas C. Gallanis and Helen K. Gallanis as joint tenants (JT TEN), Kenilworth, Illinois 60043. Dated May 6, 1968. Signed by Treasurer and President.",
     "file": "goetzmann0918.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "United States"
@@ -20613,7 +20624,7 @@
     "description": "Share certificate (kabushiki hassho) of the Nobino Seigai Partnership (Nobino Seigai Gomei Kaisha), Japan. Amount: 50 Yen. Share No. 44. Issued to Konishi Kichitaro (Konishi Kichitaro). Dated Meiji 33, 4th month (April 1900). Lists company president, vice-director and directors with red seal impressions. Orange revenue stamp affixed. Decorative border in Japanese style.",
     "file": "goetzmann0920.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Japan"
@@ -20725,7 +20736,7 @@
     "description": "Share certificate (kumiai shoken) No. 738 of the Kokubun Petroleum Association (Kokuban Sekiyu Kumiai), Japan. Amount: 50 Yen. Issued to Arita Kaku. Signed by multiple association directors (Kobayashi Uhachiro, Saito Ryutaro, Obara Shintaihei, Yamagishi Kitota, Shiga Sadashichi, Kurata Komajiro, Mizumi Kiseihachi) with red seal impressions. Green revenue stamp affixed.",
     "file": "goetzmann0924.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Japan"
@@ -20892,7 +20903,7 @@
     "description": "Dutch-language share receipt (Recepis) No. 27, certifying ownership of 1/1063 share in the Iron Manufacturer and Alum Works Garphytte (Yser-Manufactuur en Aluyn-Werken Garphytte) and in the Alum Work Beata Christina (Aluyn-Werk Beata Christina), both in Sweden. Received in exchange for a share from the outstanding negotiation on these works, including unpaid interest coupons. Issued Amsterdam, 1 April 1776. Signed by directors G.L. Caaypranger and Bran Heeschuyssensfe. Registered by Notary Paulus Runtum.",
     "file": "goetzmann0931.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Sweden",
@@ -21013,7 +21024,7 @@
     "description": "Marine insurance policy issued by the Chambre Imperiale et Royale d'Assurance d'Anvers (Antwerp Imperial and Royal Insurance Chamber). Headed 'AU NOM DE DIEU.' Insures cargo belonging to M. Daniele Borges, merchant of Holland, for a voyage destined for Paris/Constantinople/Brussels. Handwritten details of insured party, goods, amount, and route. Dated 18 April 1811. Signed by officers of the Chamber with wax seals.",
     "file": "goetzmann0936.jpg",
     "type": [
-      "Insurance Policy"
+      "Certificate"
     ],
     "location": [
       "Belgium"
@@ -21125,7 +21136,7 @@
     "description": "First page of a 3-page Dutch negotiation/annuity share document, commencing 'Heden den Eerste May des Jaars Seventeen Honderd Seven-en-Tachtig' (1 May 1787). Directed by Abraham van Berk and Hendrik Vollemioven with 10 directors total. Lists numbered female shareholders with names including Johanna Freriks, Carolina Elfens, Carolina Belfleur, and others. Printed conditions follow. Amsterdam, 1787.",
     "file": "goetzmann0943.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Netherlands"
@@ -21185,7 +21196,7 @@
     "description": "Share certificate No. 29 for one share in the stock of the President, Managers, & Company of Rancocus Toll-Bridge. Issued to Abel James on the eighteenth day of February 1793. Signed by Joshua M. Wallace as President and William [?] juno as Treasurer. The Rancocas Creek Toll-Bridge was located in Burlington County, New Jersey.",
     "file": "goetzmann0946.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "United States"
@@ -21282,7 +21293,7 @@
     "description": "Share certificate No. 1647 for one share in the Kousanie Tea Company, Limited, registered under Act XIX of 1857 of the Legislative Council of India. Capital: Rs 3,45,000 divided into 3,450 shares of Rs 100 each. Holder: W. Campbell & Co. Cl. Dated Kousanie, 22nd April 1874. Signed by Manager and Managing Director. Bears a purple one-anna Indian revenue stamp.",
     "file": "goetzmann0949.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "India"
@@ -21335,7 +21346,7 @@
     "description": "Share transfer certificate in which Matthew Lawler assigns and transfers shares in the Capital or Joint Stock of the Insurance Company of the State of Pennsylvania to Peter Stephen du Ponceau. Dated the twenty-ninth day of August 1795 (year partially illegible, likely 1795 or 1796). Witnessed by John Lewis. Signed by Mat. Lawler.",
     "file": "goetzmann0951.jpg",
     "type": [
-      "Share Transfer"
+      "Certificate"
     ],
     "location": [
       "United States"
@@ -21419,7 +21430,7 @@
     "description": "Share certificate (action) No. 106 for 500 livres invested in the Compagnie des Associes aux travaux du Pont de la Mulatiere, Lyon, France. The action produces 30 livres annual interest and a 100-livres premium upon redemption. Secured by special mortgage on toll revenues of the bridge and general mortgage on company assets. Signed at Lyon by company officers including Chard de [?], George [?], Sartore, and others. Dated ca. 1780s.",
     "file": "goetzmann0953.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "France"
@@ -22135,7 +22146,7 @@
     "description": "Bearer share certificate (aan toonder) No. 1499 for ƒ100 of the Naamloze Vennootschap De Woning-Maatschappij (Housing Company Ltd.), incorporated in Batavia, Dutch East Indies. Total capital ƒ500,000 divided into 5,000 shares of ƒ100 each. Incorporated by notarial deed of February 27, 1908 before Notary H. Schotel in Batavia (No. 62); articles amended January 20, 1909 before Notary E.H. Carpenter & Alting (No. 81) and approved by Government Resolution February 18, 1909 No. 31.",
     "file": "goetzmann1028.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "Indonesia",
@@ -22316,7 +22327,7 @@
     "description": "Share certificate No. 15 of the North American Land Company, certifying that James Greene is entitled to ten shares in the entire property of the Company, with a guaranteed minimum annual dividend of Six Dollars per share, per the Articles of Agreement dated February 7, 1795 in Philadelphia. Signed at Philadelphia on March 10, 1795 by James Marshall (Secretary) and Robert Morris (President). Transferable only at the Company's Philadelphia office by the owner in person or legal representative. Robert Morris (1734–1806) was the principal financier of the American Revolution.",
     "file": "goetzmann1032.jpg",
     "type": [
-      "Share Certificate"
+      "Stock Certificate"
     ],
     "location": [
       "United States"
@@ -22361,7 +22372,7 @@
     "description": "Notarially certified company statutes or constitution document executed before the King's Notaries (Conseillers du Roy, Notaires, Garde-notes) at the Châtelet de Paris, dated January 18, 1785. Records the proposed constitution of a French joint-stock company (compagnie) with extensive numbered articles covering shareholders, directors, capital structure, and governance. References cities including Bordeaux. Mentions the company's Syndic. Signed by company officers and notarial witnesses.",
     "file": "goetzmann1033.jpg",
     "type": [
-      "Share"
+      "Stock Certificate"
     ],
     "location": [
       "France"
@@ -22599,7 +22610,7 @@
     "description": "Continental Congress bill of exchange No. 85, dated November 25, 1778, for $30 dollars (equivalent to 150 Livres Tournois) payable at thirty days' sight to Moses Frazier or order, representing interest due on money borrowed by the United States. Directed to the Commissioners of the United States of America in Paris. Countersigned by Nathaniel Appleton, Commissioner of the Continental Loan-Office for Massachusetts Bay. Signed by S. Hopkinson (Francis Hopkinson), Treasurer of Loans of the Continental Congress. Issued as First of a set of four bills (First, Second, Third, Fourth) as was standard practice to guard against loss at sea.",
     "file": "goetzmann1038.jpg",
     "type": [
-      "Bill of Exchange"
+      "Draft"
     ],
     "location": [
       "United States"
