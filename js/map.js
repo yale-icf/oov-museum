@@ -103,7 +103,7 @@
   var worldGeojson    = null;
   var activePeriods   = new Set([
     '18th Century or before', '19th Century',
-    '20th Century', '21st Century', 'none'
+    '20th Century', '21st Century'
   ]);
 
   /* ===== Init ===== */
@@ -276,18 +276,17 @@
     html += '<div class="map-popup-count">' + count + ' document' + (count !== 1 ? 's' : '') + '</div>';
     html += '<div class="map-popup-periods">';
 
-    var periodOrder  = ['18th Century or before', '19th Century', '20th Century', '21st Century', 'none'];
+    var periodOrder  = ['18th Century or before', '19th Century', '20th Century', '21st Century'];
     var periodLabels = {
       '18th Century or before': '18th Century or before',
       '19th Century':           '19th Century',
       '20th Century':           '20th Century',
-      '21st Century':           '21st Century',
-      'none':                   'No period listed'
+      '21st Century':           '21st Century'
     };
 
     periodOrder.forEach(function (p) {
       if (periods[p]) {
-        var color = p === 'none' ? NO_PERIOD_COLOR : (PERIOD_COLORS[p] || NO_PERIOD_COLOR);
+        var color = PERIOD_COLORS[p] || NO_PERIOD_COLOR;
         html += '<div class="map-popup-period">' +
                 '<span class="color-swatch" style="background:' + color + '"></span>' +
                 periodLabels[p] + ': ' + periods[p] +
