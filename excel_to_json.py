@@ -69,6 +69,20 @@ def update_item(item, row):
                 loc.append(v)
     item['location'] = loc
 
+    # issuingCountry: separate field for filter
+    item['issuingCountry'] = parse_list(row.get('issuingCountry', ''))
+
+    # currency: separate field for filter
+    item['currency'] = parse_list(row.get('currency', ''), sep=r',\s*')
+
+    # language: separate field for filter
+    item['language'] = parse_list(row.get('language', ''), sep=r',\s*')
+
+    # issueYear: extract first 4-digit year from issueDate
+    raw_date = str_val(row.get('issueDate', ''))
+    m = re.search(r'(?<!\d)(\d{4})(?!\d)', raw_date)
+    item['issueYear'] = [m.group(1)] if m else []
+
     # period: single value wrapped in list
     period = str_val(row.get('period', ''))
     item['period'] = [period] if period else []
@@ -79,6 +93,10 @@ def update_item(item, row):
     # owner
     item['owner'] = str_val(row.get('owner', ''))
 
+    # creator and notes (record display only, not filter)
+    item['creator'] = str_val(row.get('creator', ''))
+    item['notes'] = str_val(row.get('notes', ''))
+
     return item
 
 
@@ -86,6 +104,9 @@ def build_filter_index(items):
     facets = {
         'type': {},
         'location': {},
+        'issuingCountry': {},
+        'currency': {},
+        'language': {},
         'period': {},
         'namedIndividuals': {}
     }

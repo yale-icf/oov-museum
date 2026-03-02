@@ -115,12 +115,14 @@
 
     var fields = [
       { label: 'Description', value: description },
+      { label: 'Creator', value: item.creator },
       { label: 'Type', value: item.type, isTags: true },
       { label: 'Period', value: item.period, isTags: true },
       { label: 'Location', value: item.location, isTags: true },
       { label: 'Named Individuals', value: item.namedIndividuals, isTags: true },
       { label: 'Keywords', value: item.keywords, isTags: true },
       { label: 'Owner', value: item.owner },
+      { label: 'Notes', value: item.notes },
       { label: 'Transcription & Translation', value: item.transcription, isTranscription: true }
     ];
 

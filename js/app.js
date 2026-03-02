@@ -6,7 +6,7 @@
   let filterIndex = {};
   let filteredItems = [];
   let currentPage = 1;
-  let activeFilters = { type: [], location: [], period: [], namedIndividuals: [] };
+  let activeFilters = { type: [], issuingCountry: [], currency: [], language: [], period: [], namedIndividuals: [] };
   let searchQuery = '';
   let observer = null;
 
@@ -47,7 +47,9 @@
     const filterFields = [
       { key: 'type', el: document.getElementById('filter-type') },
       { key: 'period', el: document.getElementById('filter-period') },
-      { key: 'location', el: document.getElementById('filter-location') },
+      { key: 'issuingCountry', el: document.getElementById('filter-issuingCountry') },
+      { key: 'currency', el: document.getElementById('filter-currency') },
+      { key: 'language', el: document.getElementById('filter-language') },
       { key: 'namedIndividuals', el: document.getElementById('filter-namedIndividuals') }
     ];
 
@@ -100,7 +102,7 @@
 
     // Clear filters
     clearFiltersBtn.addEventListener('click', function () {
-      activeFilters = { type: [], location: [], period: [], namedIndividuals: [] };
+      activeFilters = { type: [], issuingCountry: [], currency: [], language: [], period: [], namedIndividuals: [] };
       searchQuery = '';
       searchInput.value = '';
       currentPage = 1;
@@ -403,7 +405,7 @@
       currentPage = parseInt(params.get('page'), 10) || 1;
     }
 
-    var fields = ['type', 'location', 'period', 'namedIndividuals'];
+    var fields = ['type', 'issuingCountry', 'currency', 'language', 'period', 'namedIndividuals'];
     for (var i = 0; i < fields.length; i++) {
       var field = fields[i];
       if (params.has(field)) {
