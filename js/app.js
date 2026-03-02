@@ -375,7 +375,7 @@
 
   // ===== Result Count =====
   function updateResultCount() {
-    resultCount.textContent = filteredItems.length + ' of ' + allItems.length + ' documents';
+    resultCount.textContent = '';
   }
 
   // ===== URL State =====
