@@ -4,6 +4,18 @@
   const PAGE_SIZE = 12;
   const PERIOD_ORDER = ['18th Century or before', '19th Century', '20th Century', '21st Century'];
 
+  // Curated highlights shown on the collection page by default
+  const FEATURED_IDS = [
+    'goetzmann1021', // Dutch East India Company (VOC), 1622–23
+    'goetzmann0028', // South Sea Bubble playing card, 18th c.
+    'goetzmann0497', // Massachusetts Bay state note / Francis Hopkinson, 1780
+    'goetzmann0697', // Chinese Imperial Government Gold Loan, 1898
+    'goetzmann0324', // Japan Industrial Bank bond, 20th c.
+    'goetzmann0693', // Kingdom of Serbia ornate bond, 19th c.
+    'goetzmann0709', // Ottoman Public Debt receipt, 20th c.
+    'goetzmann0327', // Spanish 5% Perpetual Rente, 19th c.
+  ];
+
   // Items featured in the "Women as Investors" exhibit, in chronological order
   const EXHIBIT_IDS = [
     'goetzmann0491', // Compagnie des Indes, 1745
@@ -329,7 +341,10 @@
 
     if (exhibitMode) {
       grid.classList.remove('coll-grid--exhibit');
-      renderGrid(allItems.slice(0, 8), 8);
+      const featured = FEATURED_IDS
+        .map(id => allItems.find(item => item.id === id))
+        .filter(Boolean);
+      renderGrid(featured, featured.length);
       document.getElementById('coll-pagination').innerHTML = '';
     } else {
       grid.classList.remove('coll-grid--exhibit');
