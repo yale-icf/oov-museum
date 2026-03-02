@@ -1,79 +1,20 @@
 (function () {
   'use strict';
 
-  /* ===== Country → Coordinates Lookup ===== */
-  var COORDS = {
-    'Albania':                           [41.33, 19.82],
-    'Angola':                            [-8.84, 13.23],
-    'Argentina':                         [-34.60, -58.38],
-    'Austria':                           [48.21, 16.37],
-    'Azerbaijan':                        [40.41, 49.87],
-    'Belgium':                           [50.85, 4.35],
-    'Belize':                            [17.25, -88.77],
-    'Bolivia':                           [-16.50, -68.15],
-    'Brazil':                            [-15.79, -47.88],
-    'Bulgaria':                          [42.70, 23.32],
-    'Cameroon':                          [3.87, 11.52],
-    'Canada':                            [45.42, -75.70],
-    'Chile':                             [-33.45, -70.67],
-    'China':                             [39.90, 116.40],
-    'Colombia':                          [4.71, -74.07],
-    'Confederate States of America':     [37.54, -77.43],
-    'Congo (Brazzaville)':               [-4.27, 15.28],
-    'Congo, Democratic Republic of the': [-4.32, 15.31],
-    'Costa Rica':                        [9.93, -84.08],
-    'Croatia':                           [45.81, 15.98],
-    'Cuba':                              [23.11, -82.37],
-    'Czechoslovakia':                    [50.08, 14.44],
-    'Dominica':                          [15.30, -61.39],
-    'Egypt':                             [30.04, 31.24],
-    'Equatorial Guinea':                 [3.75, 8.78],
-    'Estonia':                           [59.44, 24.75],
-    'Ethiopia':                          [9.02, 38.75],
-    'France':                            [48.86, 2.35],
-    'Georgia':                           [41.69, 44.83],
-    'Germany':                           [52.52, 13.41],
-    'Greece':                            [37.97, 23.73],
-    'Grenada':                           [12.05, -61.75],
-    'Guyana':                            [6.80, -58.16],
-    'Honduras':                          [14.07, -87.19],
-    'Hungary':                           [47.50, 19.04],
-    'India':                             [28.61, 77.21],
-    'Indonesia':                         [-6.21, 106.85],
-    'Iran':                              [35.69, 51.39],
-    'Italy':                             [41.90, 12.50],
-    'Japan':                             [35.68, 139.69],
-    'Kazakhstan':                        [51.16, 71.45],
-    'Liberia':                           [6.30, -10.80],
-    'Madagascar':                        [-18.88, 47.51],
-    'Mexico':                            [19.43, -99.13],
-    'Mongolia':                          [47.91, 106.91],
-    'Morocco':                           [33.97, -6.85],
-    'Mozambique':                        [-25.97, 32.59],
-    'Myanmar (Burma)':                   [19.76, 96.07],
-    'Netherlands':                       [52.37, 4.90],
-    'New Caledonia':                     [-22.27, 166.46],
-    'Panama':                            [8.98, -79.52],
-    'Peru':                              [-12.05, -77.04],
-    'Poland':                            [52.23, 21.01],
-    'Portugal':                          [38.72, -9.14],
-    'Romania':                           [44.43, 26.10],
-    'Russia':                            [55.76, 37.62],
-    'Serbia':                            [44.80, 20.46],
-    'Slovakia':                          [48.15, 17.11],
-    'Spain':                             [40.42, -3.70],
-    'Suriname':                          [5.87, -55.17],
-    'Sweden':                            [59.33, 18.07],
-    'Turkey':                            [39.93, 32.86],
-    'United Kingdom':                    [51.51, -0.13],
-    'United States':                     [39.83, -98.58],
-    'Uruguay':                           [-34.90, -56.19],
-    'Venezuela':                         [10.49, -66.88],
-    'Vietnam':                           [21.03, 105.85],
-    'Yugoslavia':                        [44.80, 20.46]
+  /* ===== GeoJSON name → canonical country key ===== */
+  // Maps feature.properties.name values (from world.geojson) to our countryData keys
+  var GEOJSON_NAME_MAP = {
+    'USA':                                'United States',
+    'Republic of Serbia':                 'Serbia',
+    'England':                            'United Kingdom',
+    'Republic of the Congo':              'Congo (Brazzaville)',
+    'Democratic Republic of the Congo':   'Congo, Democratic Republic of the',
+    'Myanmar':                            'Myanmar (Burma)',
+    'Czech Republic':                     'Czechoslovakia'
   };
 
-  /* ===== Location Normalization ===== */
+  /* ===== Museum data location aliases ===== */
+  // Normalizes variant location names from the Excel data to canonical keys
   var LOCATION_ALIASES = {
     'USA':                          'United States',
     'UK':                           'United Kingdom',
@@ -94,9 +35,20 @@
   };
   var NO_PERIOD_COLOR = '#999999';
 
+  var NO_DATA_STYLE = {
+    fillColor:   '#d8d4cd',
+    fillOpacity: 0.25,
+    color:       '#bbb',
+    weight:      0.5
+  };
+
   /* ===== Helpers ===== */
   function normalizeLocation(loc) {
     return LOCATION_ALIASES[loc] || loc;
+  }
+
+  function getDataKey(geojsonName) {
+    return GEOJSON_NAME_MAP[geojsonName] || geojsonName;
   }
 
   function escapeHtml(str) {
@@ -106,13 +58,9 @@
   }
 
   function getDominantPeriod(periodCounts) {
-    var best = null;
-    var bestCount = 0;
+    var best = null, bestCount = 0;
     for (var p in periodCounts) {
-      if (periodCounts[p] > bestCount) {
-        bestCount = periodCounts[p];
-        best = p;
-      }
+      if (periodCounts[p] > bestCount) { bestCount = periodCounts[p]; best = p; }
     }
     return best;
   }
@@ -122,17 +70,9 @@
     return PERIOD_COLORS[dominantPeriod] || NO_PERIOD_COLOR;
   }
 
-  function getMarkerRadius(count) {
-    if (count >= 50) return 22;
-    if (count >= 20) return 16;
-    if (count >= 10) return 12;
-    if (count >= 5)  return 9;
-    return 7;
-  }
-
   function normalizePeriod(p) {
     if (!p) return null;
-    if (PERIOD_COLORS[p]) return p;  // already canonical
+    if (PERIOD_COLORS[p]) return p;
     var pLow = p.toLowerCase().trim();
     var namedPeriods = {
       'american revolutionary period': '18th Century or before',
@@ -157,9 +97,11 @@
 
   /* ===== State ===== */
   var map;
-  var markers = [];
-  var countryData = {};  // { country: { count, docs, periods: { periodName: count } } }
-  var activePeriods = new Set([
+  var choroplethLayer = null;
+  var countryLayers   = {};  // canonical key → Leaflet layer
+  var countryData     = {};  // canonical key → { count, periods, docs }
+  var worldGeojson    = null;
+  var activePeriods   = new Set([
     '18th Century or before', '19th Century',
     '20th Century', '21st Century', 'none'
   ]);
@@ -168,7 +110,7 @@
   function init() {
     map = L.map('map', {
       center: [30, 10],
-      zoom: 2,
+      zoom:   2,
       minZoom: 2,
       maxZoom: 8,
       worldCopyJump: true
@@ -176,8 +118,8 @@
 
     L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OSM</a> &copy; <a href="https://carto.com/">CARTO</a>',
-      subdomains: 'abcd',
-      maxZoom: 19
+      subdomains:  'abcd',
+      maxZoom:     19
     }).addTo(map);
 
     loadData();
@@ -185,51 +127,47 @@
     bindMobileToggle();
   }
 
-  /* ===== Load & Process Data ===== */
+  /* ===== Load Data ===== */
   function loadData() {
-    fetch('data/museum-data.json')
-      .then(function (res) { return res.json(); })
-      .then(function (items) {
-        processData(items);
-        renderMarkers();
-        updateStats();
-      })
-      .catch(function (err) {
-        console.error('Failed to load museum data:', err);
-      });
+    Promise.all([
+      fetch('data/museum-data.json').then(function (r) { return r.json(); }),
+      fetch('data/countries.geojson').then(function (r) { return r.json(); })
+    ]).then(function (results) {
+      worldGeojson = results[1];
+      processData(results[0]);
+      buildChoropleth();
+      updateChoroplethStyles();
+      updateStats();
+    }).catch(function (err) {
+      console.error('Failed to load data:', err);
+    });
   }
 
+  /* ===== Process Museum Data ===== */
   function processData(items) {
     countryData = {};
 
     items.forEach(function (item) {
       var locations = item.location || [];
-      var periods = item.period || [];
+      var periods   = item.period   || [];
 
-      // Handle "Morocco, France" or "Netherlands|Dominica" — split into individual locations
-      var expandedLocations = [];
+      // Expand any comma/pipe-joined location strings into individual entries
+      var expanded = [];
       locations.forEach(function (loc) {
         if (loc.indexOf(',') !== -1 || loc.indexOf('|') !== -1) {
-          loc.split(/[,|]/).forEach(function (part) {
-            expandedLocations.push(part.trim());
-          });
+          loc.split(/[,|]/).forEach(function (part) { expanded.push(part.trim()); });
         } else {
-          expandedLocations.push(loc);
+          expanded.push(loc);
         }
       });
 
-      // Deduplicate after normalization
       var seen = {};
-      expandedLocations.forEach(function (rawLoc) {
+      expanded.forEach(function (rawLoc) {
         var loc = normalizeLocation(rawLoc);
-        if (seen[loc]) return;
+        if (!loc || seen[loc]) return;
         seen[loc] = true;
 
-        if (!COORDS[loc]) return; // skip unknown locations
-
-        if (!countryData[loc]) {
-          countryData[loc] = { count: 0, periods: {}, docs: [] };
-        }
+        if (!countryData[loc]) countryData[loc] = { count: 0, periods: {}, docs: [] };
         countryData[loc].count++;
         countryData[loc].docs.push(item);
 
@@ -245,54 +183,90 @@
     });
   }
 
-  /* ===== Render Markers ===== */
-  function renderMarkers() {
-    // Clear existing
-    markers.forEach(function (m) { map.removeLayer(m); });
-    markers = [];
+  /* ===== Choropleth ===== */
+  function buildChoropleth() {
+    countryLayers = {};
 
-    for (var country in countryData) {
-      var data = countryData[country];
-      var coords = COORDS[country];
-      if (!coords) continue;
+    choroplethLayer = L.geoJSON(worldGeojson, {
+      style: function () { return NO_DATA_STYLE; },
 
-      // Filter: count documents matching active periods
-      var visibleCount = 0;
-      var visiblePeriods = {};
-      for (var p in data.periods) {
-        if (activePeriods.has(p)) {
-          visibleCount += data.periods[p];
-          visiblePeriods[p] = data.periods[p];
-        }
+      onEachFeature: function (feature, layer) {
+        var geojsonName = feature.properties.name;
+        var dataKey     = getDataKey(geojsonName);
+        countryLayers[dataKey] = layer;
+
+        // Tooltip on hover
+        layer.bindTooltip(function () {
+          var data = countryData[dataKey];
+          if (!data) return null;
+          var visible = getVisibleCount(dataKey);
+          if (visible === 0) return null;
+          return '<strong>' + escapeHtml(dataKey) + '</strong><br>' +
+                 visible + ' document' + (visible !== 1 ? 's' : '');
+        }, { sticky: true });
+
+        layer.on('mouseover', function () {
+          if (countryData[dataKey] && getVisibleCount(dataKey) > 0) {
+            layer.setStyle({ fillOpacity: 0.85, weight: 2, color: '#fff' });
+            layer.bringToFront();
+          }
+        });
+
+        layer.on('mouseout', function () {
+          updateLayerStyle(dataKey, layer);
+        });
+
+        layer.on('click', function (e) {
+          var visiblePeriods = getVisiblePeriods(dataKey);
+          var visibleCount   = 0;
+          for (var p in visiblePeriods) visibleCount += visiblePeriods[p];
+          if (visibleCount === 0) return;
+          L.popup({ maxWidth: 280 })
+            .setLatLng(e.latlng)
+            .setContent(buildPopup(dataKey, visibleCount, visiblePeriods))
+            .openOn(map);
+        });
       }
+    }).addTo(map);
+  }
 
-      if (visibleCount === 0) continue;
-
-      var dominant = getDominantPeriod(visiblePeriods);
-      var color = getMarkerColor(dominant);
-      var radius = getMarkerRadius(visibleCount);
-
-      var marker = L.circleMarker(coords, {
-        radius: radius,
-        fillColor: color,
-        color: '#fff',
-        weight: 1.5,
-        opacity: 1,
-        fillOpacity: 0.8
-      });
-
-      marker.bindPopup(buildPopup(country, visibleCount, visiblePeriods), {
-        maxWidth: 280
-      });
-
-      marker.bindTooltip(country + ' (' + visibleCount + ')', {
-        direction: 'top',
-        offset: [0, -radius]
-      });
-
-      marker.addTo(map);
-      markers.push(marker);
+  function getVisiblePeriods(dataKey) {
+    var data = countryData[dataKey];
+    if (!data) return {};
+    var vp = {};
+    for (var p in data.periods) {
+      if (activePeriods.has(p)) vp[p] = data.periods[p];
     }
+    return vp;
+  }
+
+  function getVisibleCount(dataKey) {
+    var vp = getVisiblePeriods(dataKey);
+    var n = 0;
+    for (var p in vp) n += vp[p];
+    return n;
+  }
+
+  function getCountryStyle(dataKey) {
+    var vp    = getVisiblePeriods(dataKey);
+    var count = 0;
+    for (var p in vp) count += vp[p];
+    if (count === 0) return NO_DATA_STYLE;
+
+    var color = getMarkerColor(getDominantPeriod(vp));
+    return { fillColor: color, fillOpacity: 0.6, color: '#fff', weight: 1 };
+  }
+
+  function updateLayerStyle(dataKey, layer) {
+    layer.setStyle(getCountryStyle(dataKey));
+  }
+
+  function updateChoroplethStyles() {
+    if (!choroplethLayer) return;
+    choroplethLayer.eachLayer(function (layer) {
+      var dataKey = getDataKey(layer.feature.properties.name);
+      updateLayerStyle(dataKey, layer);
+    });
   }
 
   /* ===== Build Popup HTML ===== */
@@ -302,32 +276,28 @@
     html += '<div class="map-popup-count">' + count + ' document' + (count !== 1 ? 's' : '') + '</div>';
     html += '<div class="map-popup-periods">';
 
-    // Sort periods in chronological order
-    var periodOrder = ['18th Century or before', '19th Century', '20th Century', '21st Century', 'none'];
+    var periodOrder  = ['18th Century or before', '19th Century', '20th Century', '21st Century', 'none'];
     var periodLabels = {
       '18th Century or before': '18th Century or before',
-      '19th Century': '19th Century',
-      '20th Century': '20th Century',
-      '21st Century': '21st Century',
-      'none': 'No period listed'
+      '19th Century':           '19th Century',
+      '20th Century':           '20th Century',
+      '21st Century':           '21st Century',
+      'none':                   'No period listed'
     };
 
     periodOrder.forEach(function (p) {
       if (periods[p]) {
         var color = p === 'none' ? NO_PERIOD_COLOR : (PERIOD_COLORS[p] || NO_PERIOD_COLOR);
-        html += '<div class="map-popup-period">';
-        html += '<span class="color-swatch" style="background:' + color + '"></span>';
-        html += periodLabels[p] + ': ' + periods[p];
-        html += '</div>';
+        html += '<div class="map-popup-period">' +
+                '<span class="color-swatch" style="background:' + color + '"></span>' +
+                periodLabels[p] + ': ' + periods[p] +
+                '</div>';
       }
     });
 
     html += '</div>';
-
-    // Build gallery link — use the original location value for the filter
-    var locationParam = encodeURIComponent(country);
-    html += '<a href="gallery.html?location=' + locationParam + '" class="map-popup-link">Browse documents &rarr;</a>';
-
+    html += '<a href="gallery.html?location=' + encodeURIComponent(country) +
+            '" class="map-popup-link">Browse documents &rarr;</a>';
     html += '</div>';
     return html;
   }
@@ -338,10 +308,8 @@
     checkboxes.forEach(function (cb) {
       cb.addEventListener('change', function () {
         activePeriods.clear();
-        checkboxes.forEach(function (c) {
-          if (c.checked) activePeriods.add(c.value);
-        });
-        renderMarkers();
+        checkboxes.forEach(function (c) { if (c.checked) activePeriods.add(c.value); });
+        updateChoroplethStyles();
         updateStats();
       });
     });
@@ -349,33 +317,21 @@
 
   /* ===== Stats ===== */
   function updateStats() {
-    var totalCountries = 0;
-    var totalDocs = 0;
-
+    var totalCountries = 0, totalDocs = 0;
     for (var country in countryData) {
-      var data = countryData[country];
-      var visibleCount = 0;
-      for (var p in data.periods) {
-        if (activePeriods.has(p)) visibleCount += data.periods[p];
-      }
-      if (visibleCount > 0) {
-        totalCountries++;
-        totalDocs += visibleCount;
-      }
+      var n = getVisibleCount(country);
+      if (n > 0) { totalCountries++; totalDocs += n; }
     }
-
-    var el = document.getElementById('map-stats');
-    el.textContent = totalCountries + ' countries, ' + totalDocs + ' documents';
+    document.getElementById('map-stats').textContent =
+      totalCountries + ' countries, ' + totalDocs + ' documents';
   }
 
   /* ===== Mobile: Collapse Controls ===== */
   function bindMobileToggle() {
     var controls = document.querySelector('.map-controls');
-    var heading = controls.querySelector('h3');
+    var heading  = controls.querySelector('h3');
     heading.addEventListener('click', function () {
-      if (window.innerWidth <= 768) {
-        controls.classList.toggle('collapsed');
-      }
+      if (window.innerWidth <= 768) controls.classList.toggle('collapsed');
     });
   }
 
