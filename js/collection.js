@@ -1,32 +1,28 @@
 (function () {
   'use strict';
 
-  /* ===== Period metadata ===== */
-  var PERIOD_META = {
-    '18th Century or before': {
-      color: '#8B4513',
-      desc:  'The earliest financial innovations — trading companies, government debt, and the first stock exchanges'
-    },
-    '19th Century': {
-      color: '#B8860B',
-      desc:  'The age of industrialization — railways, colonial bonds, and the rise of global capital markets'
-    },
-    '20th Century': {
-      color: '#4682B4',
-      desc:  'Modern securities — corporations, central banks, wartime debt, and post-war reconstruction'
-    },
-    '21st Century': {
-      color: '#2C2C2C',
-      desc:  'Contemporary financial documents from the modern era'
-    }
-  };
+  const PAGE_SIZE = 24;
+  const PERIOD_ORDER = ['18th Century or before', '19th Century', '20th Century', '21st Century'];
 
-  /* ===== Period normalization (same logic as map.js) ===== */
+  // ===== State =====
+  let allItems = [];
+  let activeFilters = {
+    type: new Set(),
+    period: new Set(),
+    location: new Set(),
+    namedIndividuals: new Set()
+  };
+  let searchQuery = '';
+  let sortBy = 'default';
+  let currentPage = 1;
+  let openDropdown = null;
+
+  // ===== Period normalization =====
   function normalizePeriod(p) {
     if (!p) return null;
-    if (PERIOD_META[p]) return p;
-    var pLow = p.toLowerCase().trim();
-    var named = {
+    if (PERIOD_ORDER.includes(p)) return p;
+    const pLow = p.toLowerCase().trim();
+    const named = {
       'american revolutionary period': '18th Century or before',
       'batavian republic period':      '18th Century or before',
       'meiji era':                     '19th Century'
@@ -36,9 +32,9 @@
     if (/20th/i.test(p)) return '20th Century';
     if (/19th/i.test(p)) return '19th Century';
     if (/18th|17th|16th|15th|14th|13th/i.test(p)) return '18th Century or before';
-    var m = p.match(/\b(1[0-9]{3}|2[0-9]{3})s?\b/);
+    const m = p.match(/\b(1[0-9]{3}|2[0-9]{3})s?\b/);
     if (m) {
-      var y = parseInt(m[1], 10);
+      const y = parseInt(m[1], 10);
       if (y >= 2000) return '21st Century';
       if (y >= 1900) return '20th Century';
       if (y >= 1800) return '19th Century';
@@ -49,168 +45,396 @@
 
   function escapeHtml(str) {
     if (!str) return '';
-    var div = document.createElement('div');
+    const div = document.createElement('div');
     div.textContent = str;
     return div.innerHTML;
   }
 
-  /* ===== Init ===== */
+  // ===== Init =====
   async function init() {
-    const [filterRes, dataRes] = await Promise.all([
+    readUrlState();
+
+    const [fiRes, dataRes] = await Promise.all([
       fetch('data/filter-index.json'),
       fetch('data/museum-data.json')
     ]);
-    const filterIndex = await filterRes.json();
-    const items       = await dataRes.json();
+    const filterIndex = await fiRes.json();
+    allItems = await dataRes.json();
 
-    // Update subtitle with live stats
-    var locationSet = new Set();
-    items.forEach(function (item) {
-      (item.location || []).forEach(function (l) { locationSet.add(l); });
-    });
-    var subtitle = document.getElementById('coll-subtitle');
-    subtitle.textContent =
-      items.length + ' historical financial documents from ' +
-      locationSet.size + ' countries, spanning four centuries';
+    buildDropdowns(filterIndex);
 
-    buildPeriods(items);
-    buildTypes(filterIndex);
-    buildCountries(filterIndex, items);
-    buildIndividuals(filterIndex);
+    const searchInput = document.getElementById('coll-search-input');
+    if (searchQuery) searchInput.value = searchQuery;
+
+    const sortEl = document.getElementById('coll-sort');
+    if (sortBy !== 'default') sortEl.value = sortBy;
+
+    wireEvents();
+    render();
   }
 
-  /* ===== Period bands ===== */
-  function buildPeriods(items) {
-    // Count documents per canonical period
-    var counts = {};
-    Object.keys(PERIOD_META).forEach(function (p) { counts[p] = 0; });
+  // ===== URL state =====
+  function readUrlState() {
+    const params = new URLSearchParams(window.location.search);
+    searchQuery = params.get('q') || '';
+    sortBy = params.get('sort') || 'default';
+    currentPage = parseInt(params.get('page') || '1', 10);
+    activeFilters = {
+      type: new Set(params.getAll('type')),
+      period: new Set(params.getAll('period')),
+      location: new Set(params.getAll('location')),
+      namedIndividuals: new Set(params.getAll('namedIndividuals'))
+    };
+  }
 
-    items.forEach(function (item) {
-      (item.period || []).forEach(function (p) {
-        var norm = normalizePeriod(p);
-        if (norm) counts[norm] = (counts[norm] || 0) + 1;
+  function pushUrlState() {
+    const params = new URLSearchParams();
+    if (searchQuery) params.set('q', searchQuery);
+    if (sortBy !== 'default') params.set('sort', sortBy);
+    for (const [key, set] of Object.entries(activeFilters)) {
+      set.forEach(v => params.append(key, v));
+    }
+    if (currentPage > 1) params.set('page', String(currentPage));
+    const qs = params.toString();
+    history.replaceState(null, '', qs ? '?' + qs : window.location.pathname);
+  }
+
+  // ===== Build dropdowns =====
+  function buildDropdowns(filterIndex) {
+    buildTypeDropdown(filterIndex);
+    buildPeriodDropdown();
+    buildLocationDropdown(filterIndex);
+    buildIndividualsDropdown(filterIndex);
+  }
+
+  function buildCheckboxList(elId, items, filterKey) {
+    const el = document.getElementById(elId);
+    el.innerHTML = items.map(item =>
+      `<label class="coll-dd-option">
+        <input type="checkbox" value="${escapeHtml(item.value)}"
+               ${activeFilters[filterKey].has(item.value) ? 'checked' : ''}>
+        <span class="coll-dd-label">${escapeHtml(item.value)}</span>
+        <span class="coll-dd-count">${item.count}</span>
+      </label>`
+    ).join('');
+    el.querySelectorAll('input').forEach(cb => {
+      cb.addEventListener('change', () => {
+        if (cb.checked) activeFilters[filterKey].add(cb.value);
+        else activeFilters[filterKey].delete(cb.value);
+        currentPage = 1;
+        render();
+        pushUrlState();
       });
     });
-
-    var container = document.getElementById('coll-periods');
-    container.innerHTML = '';
-
-    Object.keys(PERIOD_META).forEach(function (period) {
-      var meta  = PERIOD_META[period];
-      var count = counts[period] || 0;
-
-      var a = document.createElement('a');
-      a.className = 'coll-period-card';
-      a.href      = 'gallery.html?period=' + encodeURIComponent(period);
-      a.style.background = meta.color;
-
-      a.innerHTML =
-        '<div class="coll-period-count">' + count + '</div>' +
-        '<div class="coll-period-label">' + escapeHtml(period) + '</div>' +
-        '<div class="coll-period-desc">'  + escapeHtml(meta.desc)  + '</div>';
-
-      container.appendChild(a);
-    });
   }
 
-  /* ===== Document type chips ===== */
-  function buildTypes(filterIndex) {
-    var container = document.getElementById('coll-types');
-    container.innerHTML = '';
-
+  function buildTypeDropdown(filterIndex) {
     // Group case variants (e.g. "bond" + "Bond" → one entry)
-    var grouped = {};
-    (filterIndex.type || []).forEach(function (entry) {
-      var key = entry.value.toLowerCase();
-      if (!grouped[key]) {
-        grouped[key] = { display: entry.value, count: 0 };
-      }
+    const grouped = {};
+    (filterIndex.type || []).forEach(entry => {
+      const key = entry.value.toLowerCase();
+      if (!grouped[key]) grouped[key] = { value: entry.value, count: 0 };
       grouped[key].count += entry.count;
-      // Prefer Title Case display name
-      if (/^[A-Z]/.test(entry.value)) {
-        grouped[key].display = entry.value;
-      }
+      if (/^[A-Z]/.test(entry.value)) grouped[key].value = entry.value;
     });
-
-    var types = Object.values(grouped)
-      .sort(function (a, b) { return b.count - a.count; })
-      .slice(0, 20);
-
-    types.forEach(function (t) {
-      var a = document.createElement('a');
-      a.className = 'coll-type-chip';
-      a.href      = 'gallery.html?type=' + encodeURIComponent(t.display);
-      a.innerHTML =
-        '<span class="coll-type-name">' + escapeHtml(t.display) + '</span>' +
-        '<span class="coll-type-count">' + t.count + '</span>';
-      container.appendChild(a);
-    });
+    const items = Object.values(grouped).sort((a, b) => b.count - a.count);
+    buildCheckboxList('dropdown-type', items, 'type');
   }
 
-  /* ===== Country grid ===== */
-  function buildCountries(filterIndex, items) {
-    var container = document.getElementById('coll-countries');
-    container.innerHTML = '';
+  function buildPeriodDropdown() {
+    // Count per canonical period from allItems
+    const counts = {};
+    PERIOD_ORDER.forEach(p => { counts[p] = 0; });
+    allItems.forEach(item => {
+      (item.period || []).forEach(p => {
+        const norm = normalizePeriod(p);
+        if (norm) counts[norm]++;
+      });
+    });
+    const items = PERIOD_ORDER.map(p => ({ value: p, count: counts[p] || 0 }));
+    buildCheckboxList('dropdown-period', items, 'period');
+  }
 
-    // Top 12 single-country entries
-    var topCountries = (filterIndex.location || [])
-      .filter(function (e) { return !e.value.includes('|') && !e.value.includes(','); })
-      .slice(0, 12);
+  function buildLocationDropdown(filterIndex) {
+    const locs = (filterIndex.location || [])
+      .filter(e => !e.value.includes('|') && !e.value.includes(','))
+      .sort((a, b) => b.count - a.count);
+    buildCheckboxList('dropdown-location', locs, 'location');
+  }
 
-    // Thumbnail lookup: country → first item id
-    var thumbMap = {};
-    items.forEach(function (item) {
-      (item.location || []).forEach(function (loc) {
-        if (!thumbMap[loc]) thumbMap[loc] = item.id;
+  function buildIndividualsDropdown(filterIndex) {
+    const indivs = (filterIndex.namedIndividuals || [])
+      .sort((a, b) => b.count - a.count);
+    buildCheckboxList('dropdown-namedIndividuals', indivs, 'namedIndividuals');
+  }
+
+  // ===== Wire events =====
+  function wireEvents() {
+    // Filter button toggles
+    document.querySelectorAll('.coll-filter-btn').forEach(btn => {
+      btn.addEventListener('click', e => {
+        e.stopPropagation();
+        const key = btn.dataset.filter;
+        const panel = document.getElementById('dropdown-' + key);
+
+        if (openDropdown && openDropdown !== panel) {
+          openDropdown.classList.remove('open');
+          document.querySelectorAll('.coll-filter-btn').forEach(b => b.classList.remove('active'));
+        }
+
+        const isOpen = panel.classList.toggle('open');
+        btn.classList.toggle('active', isOpen);
+        openDropdown = isOpen ? panel : null;
       });
     });
 
-    topCountries.forEach(function (entry) {
-      var thumbId = thumbMap[entry.value] || '';
+    // Close on outside click
+    document.addEventListener('click', () => {
+      if (openDropdown) {
+        openDropdown.classList.remove('open');
+        document.querySelectorAll('.coll-filter-btn').forEach(b => b.classList.remove('active'));
+        openDropdown = null;
+      }
+    });
 
-      var a = document.createElement('a');
-      a.className = 'country-card';
-      a.href      = 'gallery.html?location=' + encodeURIComponent(entry.value);
+    document.getElementById('coll-filter-bar').addEventListener('click', e => {
+      e.stopPropagation();
+    });
 
-      a.innerHTML =
-        '<div class="country-card-image">' +
-          (thumbId
-            ? '<img src="thumbnails/' + thumbId + '.jpg" alt="' + escapeHtml(entry.value) + '" loading="lazy">'
-            : '') +
-        '</div>' +
-        '<div class="country-card-overlay">' +
-          '<h3 class="country-card-name">' + escapeHtml(entry.value) + '</h3>' +
-          '<span class="country-card-count">' + entry.count + ' documents</span>' +
-        '</div>';
+    // Search
+    document.getElementById('coll-search-form').addEventListener('submit', e => {
+      e.preventDefault();
+      searchQuery = document.getElementById('coll-search-input').value.trim();
+      currentPage = 1;
+      render();
+      pushUrlState();
+    });
 
-      container.appendChild(a);
+    // Sort
+    document.getElementById('coll-sort').addEventListener('change', e => {
+      sortBy = e.target.value;
+      currentPage = 1;
+      render();
+      pushUrlState();
+    });
+
+    // Clear all
+    document.getElementById('coll-clear-btn').addEventListener('click', () => {
+      activeFilters = {
+        type: new Set(),
+        period: new Set(),
+        location: new Set(),
+        namedIndividuals: new Set()
+      };
+      searchQuery = '';
+      document.getElementById('coll-search-input').value = '';
+      currentPage = 1;
+      document.querySelectorAll('.coll-dropdown input[type="checkbox"]').forEach(cb => {
+        cb.checked = false;
+      });
+      render();
+      pushUrlState();
     });
   }
 
-  /* ===== Named individuals ===== */
-  function buildIndividuals(filterIndex) {
-    var container = document.getElementById('coll-individuals');
-    container.innerHTML = '';
+  // ===== Filter + sort =====
+  function getFilteredItems() {
+    let items = allItems;
 
-    (filterIndex.namedIndividuals || []).forEach(function (entry) {
-      var a = document.createElement('a');
-      a.className = 'coll-individual-chip';
-      a.href      = 'gallery.html?namedIndividuals=' + encodeURIComponent(entry.value);
-      a.innerHTML =
-        '<span class="coll-individual-name">' + escapeHtml(entry.value) + '</span>' +
-        '<span class="coll-individual-count">' + entry.count + '</span>';
-      container.appendChild(a);
+    if (searchQuery) {
+      const q = searchQuery.toLowerCase();
+      items = items.filter(item => {
+        const t = (item.title || '').toLowerCase();
+        const d = (item.description || '').toLowerCase();
+        const k = (item.keywords || []).join(' ').toLowerCase();
+        return t.includes(q) || d.includes(q) || k.includes(q);
+      });
+    }
+
+    if (activeFilters.type.size > 0) {
+      const typeLow = new Set([...activeFilters.type].map(t => t.toLowerCase()));
+      items = items.filter(item =>
+        (item.type || []).some(t => typeLow.has(t.toLowerCase()))
+      );
+    }
+
+    if (activeFilters.period.size > 0) {
+      items = items.filter(item =>
+        (item.period || []).some(p => activeFilters.period.has(normalizePeriod(p)))
+      );
+    }
+
+    if (activeFilters.location.size > 0) {
+      items = items.filter(item =>
+        (item.location || []).some(l => activeFilters.location.has(l))
+      );
+    }
+
+    if (activeFilters.namedIndividuals.size > 0) {
+      items = items.filter(item =>
+        (item.namedIndividuals || []).some(n => activeFilters.namedIndividuals.has(n))
+      );
+    }
+
+    return items;
+  }
+
+  function sortItems(items) {
+    if (sortBy === 'title') {
+      return [...items].sort((a, b) => (a.title || '').localeCompare(b.title || ''));
+    }
+    if (sortBy === 'period-asc') {
+      return [...items].sort((a, b) => {
+        const aP = PERIOD_ORDER.indexOf(normalizePeriod((a.period || [])[0]));
+        const bP = PERIOD_ORDER.indexOf(normalizePeriod((b.period || [])[0]));
+        return (aP < 0 ? 99 : aP) - (bP < 0 ? 99 : bP);
+      });
+    }
+    if (sortBy === 'period-desc') {
+      return [...items].sort((a, b) => {
+        const aP = PERIOD_ORDER.indexOf(normalizePeriod((a.period || [])[0]));
+        const bP = PERIOD_ORDER.indexOf(normalizePeriod((b.period || [])[0]));
+        return (bP < 0 ? -1 : bP) - (aP < 0 ? -1 : aP);
+      });
+    }
+    return items;
+  }
+
+  // ===== Render =====
+  function render() {
+    const filtered = getFilteredItems();
+    const sorted = sortItems(filtered);
+    const total = sorted.length;
+    const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+
+    if (currentPage > totalPages) currentPage = totalPages;
+
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const pageItems = sorted.slice(start, start + PAGE_SIZE);
+
+    const isUnfiltered = !searchQuery &&
+      Object.values(activeFilters).every(s => s.size === 0);
+
+    renderTagline(total, isUnfiltered);
+    renderGrid(pageItems);
+    renderPagination(totalPages);
+    updateChips();
+  }
+
+  function renderTagline(total, isUnfiltered) {
+    const el = document.getElementById('coll-tagline');
+    el.textContent = isUnfiltered
+      ? total + ' items in the collection'
+      : total + ' result' + (total !== 1 ? 's' : '');
+  }
+
+  function renderGrid(items) {
+    const grid = document.getElementById('coll-grid');
+    if (items.length === 0) {
+      grid.innerHTML = '<div class="coll-empty"><p>No items match your search.</p></div>';
+      return;
+    }
+    grid.innerHTML = items.map(item => {
+      const title = escapeHtml(item.title || 'Untitled');
+      const period = item.period && item.period.length ? escapeHtml(item.period[0]) : '';
+      const location = item.location && item.location.length ? escapeHtml(item.location[0]) : '';
+      const meta = [period, location].filter(Boolean).join(' &middot; ');
+      return `<a class="coll-card" href="viewer.html?id=${encodeURIComponent(item.id)}">
+        <div class="coll-card-img">
+          <img src="thumbnails/${item.id}.jpg" alt="${title}" loading="lazy"
+               onerror="this.parentElement.classList.add('no-img')">
+        </div>
+        <div class="coll-card-body">
+          <p class="coll-card-title">${title}</p>
+          ${meta ? `<p class="coll-card-meta">${meta}</p>` : ''}
+        </div>
+      </a>`;
+    }).join('');
+  }
+
+  function renderPagination(totalPages) {
+    const el = document.getElementById('coll-pagination');
+    if (totalPages <= 1) { el.innerHTML = ''; return; }
+
+    const parts = [];
+
+    if (currentPage > 1) {
+      parts.push(`<button class="coll-page-btn" data-page="${currentPage - 1}">&lsaquo; Prev</button>`);
+    }
+
+    const lo = Math.max(1, currentPage - 3);
+    const hi = Math.min(totalPages, currentPage + 3);
+
+    if (lo > 1) parts.push(`<button class="coll-page-btn" data-page="1">1</button>`);
+    if (lo > 2) parts.push(`<span class="coll-page-ellipsis">&hellip;</span>`);
+    for (let i = lo; i <= hi; i++) {
+      parts.push(`<button class="coll-page-btn${i === currentPage ? ' active' : ''}" data-page="${i}">${i}</button>`);
+    }
+    if (hi < totalPages - 1) parts.push(`<span class="coll-page-ellipsis">&hellip;</span>`);
+    if (hi < totalPages) parts.push(`<button class="coll-page-btn" data-page="${totalPages}">${totalPages}</button>`);
+
+    if (currentPage < totalPages) {
+      parts.push(`<button class="coll-page-btn" data-page="${currentPage + 1}">Next &rsaquo;</button>`);
+    }
+
+    el.innerHTML = parts.join('');
+    el.querySelectorAll('.coll-page-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        currentPage = parseInt(btn.dataset.page, 10);
+        render();
+        pushUrlState();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
     });
   }
 
-  /* ===== Search form ===== */
-  document.getElementById('coll-search-form').addEventListener('submit', function (e) {
-    e.preventDefault();
-    var q = document.getElementById('coll-search-input').value.trim();
-    if (q) window.location.href = 'gallery.html?q=' + encodeURIComponent(q);
-  });
+  // ===== Active filter chips =====
+  function updateChips() {
+    const chipsEl = document.getElementById('coll-chips');
+    const rowEl = document.getElementById('coll-chips-row');
+    const chips = [];
 
-  init().catch(function (err) {
-    console.error('Failed to load collection data:', err);
-  });
+    if (searchQuery) {
+      chips.push({ key: 'q', value: searchQuery, label: 'Search: ' + searchQuery });
+    }
+
+    const keyLabels = { type: 'Type', period: 'Period', location: 'Country', namedIndividuals: 'Person' };
+    for (const [key, set] of Object.entries(activeFilters)) {
+      set.forEach(v => chips.push({ key, value: v, label: keyLabels[key] + ': ' + v }));
+    }
+
+    const hasChips = chips.length > 0;
+    rowEl.style.display = hasChips ? 'flex' : 'none';
+
+    chipsEl.innerHTML = chips.map(c =>
+      `<button class="coll-chip" data-key="${escapeHtml(c.key)}" data-value="${escapeHtml(c.value)}">
+        ${escapeHtml(c.label)}
+        <svg class="coll-chip-x" viewBox="0 0 12 12" fill="none" aria-hidden="true">
+          <path d="M2 2l8 8M10 2l-8 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+      </button>`
+    ).join('');
+
+    chipsEl.querySelectorAll('.coll-chip').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const key = btn.dataset.key;
+        const val = btn.dataset.value;
+        if (key === 'q') {
+          searchQuery = '';
+          document.getElementById('coll-search-input').value = '';
+        } else {
+          activeFilters[key].delete(val);
+          const dd = document.getElementById('dropdown-' + key);
+          dd.querySelectorAll('input').forEach(cb => {
+            if (cb.value === val) cb.checked = false;
+          });
+        }
+        currentPage = 1;
+        render();
+        pushUrlState();
+      });
+    });
+  }
+
+  init().catch(err => console.error('Collection init error:', err));
 })();
