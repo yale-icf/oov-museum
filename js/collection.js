@@ -1,7 +1,7 @@
 (function () {
   'use strict';
 
-  const PAGE_SIZE = 24;
+  const PAGE_SIZE = 12;
   const PERIOD_ORDER = ['18th Century or before', '19th Century', '20th Century', '21st Century'];
 
   // ===== State =====
@@ -94,7 +94,6 @@
     for (const [key, set] of Object.entries(activeFilters)) {
       set.forEach(v => params.append(key, v));
     }
-    if (currentPage > 1) params.set('page', String(currentPage));
     const qs = params.toString();
     history.replaceState(null, '', qs ? '?' + qs : window.location.pathname);
   }
@@ -305,35 +304,33 @@
     const filtered = getFilteredItems();
     const sorted = sortItems(filtered);
     const total = sorted.length;
-    const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
-
-    if (currentPage > totalPages) currentPage = totalPages;
-
-    const start = (currentPage - 1) * PAGE_SIZE;
-    const pageItems = sorted.slice(start, start + PAGE_SIZE);
+    const pageItems = sorted.slice(0, PAGE_SIZE);
 
     const isUnfiltered = !searchQuery &&
       Object.values(activeFilters).every(s => s.size === 0);
 
     renderTagline(total, isUnfiltered);
-    renderGrid(pageItems);
-    renderPagination(totalPages);
+    renderGrid(pageItems, total);
     updateChips();
   }
 
   function renderTagline(total, isUnfiltered) {
     const el = document.getElementById('coll-tagline');
     el.textContent = isUnfiltered
-      ? total + ' items in the collection'
+      ? 'Showing ' + Math.min(total, PAGE_SIZE) + ' of ' + total + ' items'
       : total + ' result' + (total !== 1 ? 's' : '');
   }
 
-  function renderGrid(items) {
+  function renderGrid(items, total) {
     const grid = document.getElementById('coll-grid');
+    const pagination = document.getElementById('coll-pagination');
+
     if (items.length === 0) {
       grid.innerHTML = '<div class="coll-empty"><p>No items match your search.</p></div>';
+      pagination.innerHTML = '';
       return;
     }
+
     grid.innerHTML = items.map(item => {
       const title = escapeHtml(item.title || 'Untitled');
       const period = item.period && item.period.length ? escapeHtml(item.period[0]) : '';
@@ -350,42 +347,27 @@
         </div>
       </a>`;
     }).join('');
+
+    // "View all in Gallery" link when results exceed the preview cap
+    if (total > PAGE_SIZE) {
+      const params = buildGalleryParams();
+      pagination.innerHTML =
+        `<a class="coll-view-all" href="gallery.html${params}">
+          View all ${total} results in the Gallery &rarr;
+        </a>`;
+    } else {
+      pagination.innerHTML = '';
+    }
   }
 
-  function renderPagination(totalPages) {
-    const el = document.getElementById('coll-pagination');
-    if (totalPages <= 1) { el.innerHTML = ''; return; }
-
-    const parts = [];
-
-    if (currentPage > 1) {
-      parts.push(`<button class="coll-page-btn" data-page="${currentPage - 1}">&lsaquo; Prev</button>`);
+  function buildGalleryParams() {
+    const params = new URLSearchParams();
+    if (searchQuery) params.set('q', searchQuery);
+    for (const [key, set] of Object.entries(activeFilters)) {
+      set.forEach(v => params.append(key, v));
     }
-
-    const lo = Math.max(1, currentPage - 3);
-    const hi = Math.min(totalPages, currentPage + 3);
-
-    if (lo > 1) parts.push(`<button class="coll-page-btn" data-page="1">1</button>`);
-    if (lo > 2) parts.push(`<span class="coll-page-ellipsis">&hellip;</span>`);
-    for (let i = lo; i <= hi; i++) {
-      parts.push(`<button class="coll-page-btn${i === currentPage ? ' active' : ''}" data-page="${i}">${i}</button>`);
-    }
-    if (hi < totalPages - 1) parts.push(`<span class="coll-page-ellipsis">&hellip;</span>`);
-    if (hi < totalPages) parts.push(`<button class="coll-page-btn" data-page="${totalPages}">${totalPages}</button>`);
-
-    if (currentPage < totalPages) {
-      parts.push(`<button class="coll-page-btn" data-page="${currentPage + 1}">Next &rsaquo;</button>`);
-    }
-
-    el.innerHTML = parts.join('');
-    el.querySelectorAll('.coll-page-btn').forEach(btn => {
-      btn.addEventListener('click', () => {
-        currentPage = parseInt(btn.dataset.page, 10);
-        render();
-        pushUrlState();
-        window.scrollTo({ top: 0, behavior: 'smooth' });
-      });
-    });
+    const qs = params.toString();
+    return qs ? '?' + qs : '';
   }
 
   // ===== Active filter chips =====

@@ -1614,40 +1614,28 @@ body.homepage {
   font-style: italic;
 }
 
-/* ===== Pagination ===== */
+/* ===== View-all link (shown when results exceed preview cap) ===== */
 .coll-pagination {
-  margin-top: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.25rem;
-  flex-wrap: wrap;
+  margin-top: 2rem;
+  text-align: center;
 }
 
-.coll-page-btn {
-  min-width: 36px;
-  height: 36px;
-  padding: 0 0.5rem;
-  border: 1px solid #ddd;
-  background: var(--white);
+.coll-view-all {
+  display: inline-block;
+  padding: 0.65rem 1.75rem;
+  border: 1.5px solid var(--navy);
   color: var(--navy);
-  font-size: 0.85rem;
   font-family: 'Source Sans 3', sans-serif;
-  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
   border-radius: 3px;
-  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  transition: background 0.15s, color 0.15s;
 }
 
-.coll-page-btn:hover,
-.coll-page-btn.active {
+.coll-view-all:hover {
   background: var(--navy);
   color: var(--white);
-  border-color: var(--navy);
-}
-
-.coll-page-ellipsis {
-  color: var(--text-light);
-  padding: 0 0.25rem;
 }
 
 /* ===== Loading spinner inside grid ===== */
