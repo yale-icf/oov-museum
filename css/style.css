@@ -331,8 +331,8 @@ body {
 }
 
 .tag.period-tag {
-  background: var(--navy);
-  color: var(--gold-light);
+  background: #dce3ed;
+  color: #2a3a5c;
 }
 
 /* ===== Pagination ===== */
