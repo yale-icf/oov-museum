@@ -1526,6 +1526,8 @@ body.homepage {
 
 .coll-exhibit-thumbs {
   display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: 1.25rem;
   margin: 1.25rem 0 1.25rem;
@@ -1535,8 +1537,8 @@ body.homepage {
   display: flex;
   flex-direction: column;
   text-decoration: none;
-  flex: 1;
-  max-width: 190px;
+  width: 190px;
+  flex-shrink: 0;
 }
 
 .coll-exhibit-thumb-img {
