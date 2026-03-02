@@ -316,11 +316,19 @@
 
   /* ===== Stats ===== */
   function updateStats() {
-    var totalCountries = 0, totalDocs = 0;
+    var totalCountries = 0;
+    var seenIds = {};
     for (var country in countryData) {
       var n = getVisibleCount(country);
-      if (n > 0) { totalCountries++; totalDocs += n; }
+      if (n > 0) {
+        totalCountries++;
+        countryData[country].docs.forEach(function (doc) {
+          var docPeriod = normalizePeriod((doc.period || [])[0]) || 'none';
+          if (activePeriods.has(docPeriod)) seenIds[doc.id] = true;
+        });
+      }
     }
+    var totalDocs = Object.keys(seenIds).length;
     document.getElementById('map-stats').textContent =
       totalCountries + ' countries, ' + totalDocs + ' documents';
   }
