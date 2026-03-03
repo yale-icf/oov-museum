@@ -16,6 +16,15 @@
     'goetzmann0327', // Spanish 5% Perpetual Rente, 19th c.
   ];
 
+  const COUNTRIES = [
+    { name: 'United Kingdom', count: 191 },
+    { name: 'United States',  count: 132 },
+    { name: 'Netherlands',    count: 88 },
+    { name: 'Russia',         count: 36 },
+    { name: 'France',         count: 31 },
+    { name: 'China',          count: 28 }
+  ];
+
   // Items featured in the "Women as Investors" exhibit, in chronological order
   const EXHIBIT_IDS = [
     'goetzmann0491', // Compagnie des Indes, 1745
@@ -93,6 +102,7 @@
 
     wireEvents();
     render();
+    renderCountries(allItems);
   }
 
   // ===== URL state =====
@@ -321,6 +331,33 @@
     return items;
   }
 
+  // ===== Country grid =====
+  function renderCountries(items) {
+    const grid = document.getElementById('country-grid');
+    if (!grid) return;
+    COUNTRIES.forEach(country => {
+      let thumbId = '';
+      for (let j = 0; j < items.length; j++) {
+        if (items[j].location && items[j].location.indexOf(country.name) !== -1) {
+          thumbId = items[j].id;
+          break;
+        }
+      }
+      const card = document.createElement('a');
+      card.className = 'country-card';
+      card.href = 'gallery.html?location=' + encodeURIComponent(country.name);
+      card.innerHTML =
+        '<div class="country-card-image">' +
+          (thumbId ? `<img src="thumbnails/${thumbId}.jpg" alt="${escapeHtml(country.name)}" loading="lazy">` : '') +
+        '</div>' +
+        '<div class="country-card-overlay">' +
+          `<h3 class="country-card-name">${escapeHtml(country.name)}</h3>` +
+          `<span class="country-card-count">${country.count} documents</span>` +
+        '</div>';
+      grid.appendChild(card);
+    });
+  }
+
   // ===== Render =====
   function isExhibitMode() {
     return !searchQuery && Object.values(activeFilters).every(s => s.size === 0);
@@ -332,6 +369,10 @@
     // Show/hide sort bar
     const resultsBar = document.querySelector('.coll-results-bar');
     if (resultsBar) resultsBar.style.display = exhibitMode ? 'none' : '';
+
+    // Show country section only in default (no search/filter) mode
+    const countrySection = document.getElementById('coll-country-section');
+    if (countrySection) countrySection.style.display = exhibitMode ? '' : 'none';
 
     const grid = document.getElementById('coll-grid');
 
