@@ -143,6 +143,10 @@
   </main>
   </form>
 
+  <footer class="site-footer">
+    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
+  </footer>
+
   <!-- Lightbox -->
   <div id="cs-lb" onclick="if(event.target===this)csCloseLb()">
     <button id="cs-lb-close" onclick="csCloseLb()">✕</button>
@@ -194,7 +198,6 @@
     var parts = [];
     if (s.total_docs)  parts.push(s.total_docs + ' documents');
     if (s.total_words) parts.push(Number(s.total_words).toLocaleString() + ' words indexed');
-    if (s.built_at)    parts.push('built ' + s.built_at.slice(0, 10));
     document.getElementById('cs-stats').textContent = parts.join(' · ');
   }
 
