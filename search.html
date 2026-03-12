@@ -126,9 +126,7 @@
     </div>
 
     <p class="cs-hint">
-      Tip: quotes for phrases (<code>"bearer bond"</code>), <code>*</code> for prefix
-      (<code>franc*</code>), <code>AND</code> / <code>OR</code> / <code>NOT</code> for boolean.
-      Porter stemming on (search → searches → searching).
+      All words must appear in the document. Searches are case-insensitive.
     </p>
     <p class="cs-stats" id="cs-stats"></p>
     <p class="cs-status" id="cs-status">Loading search index…</p>
@@ -201,6 +199,28 @@
     document.getElementById('cs-stats').textContent = parts.join(' · ');
   }
 
+  // ── Snippet extraction ─────────────────────────────────────────────────────
+  function csSnippet(text, terms, contextLen) {
+    contextLen = contextLen || 220;
+    if (!text) return '';
+    if (!terms.length) return csEsc(text.slice(0, contextLen)) + (text.length > contextLen ? ' …' : '');
+    var lower = text.toLowerCase();
+    var bestPos = -1;
+    for (var i = 0; i < terms.length; i++) {
+      var p = lower.indexOf(terms[i]);
+      if (p !== -1) { bestPos = p; break; }
+    }
+    var start = bestPos === -1 ? 0 : Math.max(0, bestPos - 80);
+    var end = Math.min(text.length, start + contextLen);
+    var raw = (start > 0 ? '… ' : '') + text.slice(start, end) + (end < text.length ? ' …' : '');
+    var escaped = csEsc(raw);
+    terms.forEach(function(term) {
+      var re = new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+      escaped = escaped.replace(re, function(m) { return '<mark>' + m + '</mark>'; });
+    });
+    return escaped;
+  }
+
   // ── Search ─────────────────────────────────────────────────────────────────
   function csSearch() {
     if (!csDb) return;
@@ -208,24 +228,22 @@
     var query   = document.getElementById('cs-q').value.trim();
     var minYear = parseInt(document.getElementById('cs-min-year').value) || null;
     var maxYear = parseInt(document.getElementById('cs-max-year').value) || null;
+    var terms   = query.toLowerCase().split(/\s+/).filter(function(t) { return t.length >= 1; });
 
     var rows;
     try {
-      if (query) {
+      if (terms.length) {
+        var where  = terms.map(function() { return "lower(ocr_text) LIKE lower(?)"; }).join(' AND ');
+        var params = terms.map(function(t) { return '%' + t + '%'; });
         rows = csRows(
-          "SELECT d.id, d.title, d.type, d.period, d.issuing_country, " +
-          "d.subject_country, d.issue_year, d.language, d.owner, d.word_count, " +
-          "snippet(docs_fts, 0, '<mark>', '</mark>', ' … ', 32) AS snippet " +
-          "FROM docs_fts JOIN docs d ON docs_fts.rowid = d.rowid " +
-          "WHERE docs_fts MATCH ? ORDER BY d.issue_year",
-          [query]
+          "SELECT id, title, type, period, issuing_country, subject_country, " +
+          "issue_year, language, owner, word_count, ocr_text FROM docs WHERE " +
+          where + " ORDER BY issue_year", params
         );
       } else {
         rows = csRows(
-          "SELECT d.id, d.title, d.type, d.period, d.issuing_country, " +
-          "d.subject_country, d.issue_year, d.language, d.owner, d.word_count, " +
-          "substr(d.ocr_text, 1, 400) AS snippet " +
-          "FROM docs d ORDER BY d.issue_year"
+          "SELECT id, title, type, period, issuing_country, subject_country, " +
+          "issue_year, language, owner, word_count, ocr_text FROM docs ORDER BY issue_year"
         );
       }
     } catch(e) {
@@ -239,6 +257,7 @@
       var r = rows[i];
       if (minYear && r.issue_year && r.issue_year < minYear) continue;
       if (maxYear && r.issue_year && r.issue_year > maxYear) continue;
+      r._terms = terms;
       results.push(r);
       if (r.issue_year) yearCounts[r.issue_year] = (yearCounts[r.issue_year] || 0) + 1;
       if (results.length >= 200) break;
@@ -279,8 +298,8 @@
       var meta = [r.id, r.type, r.period, r.issuing_country,
                   r.issue_year, r.language, r.owner]
         .filter(Boolean).join(' · ');
-      var snippet = r.snippet
-        ? '<div class="cs-snippet">' + r.snippet + '</div>'
+      var snippetHtml = r.ocr_text
+        ? '<div class="cs-snippet">' + csSnippet(r.ocr_text, r._terms || []) + '</div>'
         : '<div class="cs-no-ocr">No OCR text available.</div>';
       var qEsc = csEscJs(query);
       return '<li class="cs-card">' +
@@ -290,7 +309,7 @@
         '<div class="cs-body">' +
         '<h4>' + csEsc(r.title || r.id) + '</h4>' +
         '<div class="cs-meta">' + csEsc(meta) + '</div>' +
-        snippet +
+        snippetHtml +
         '</div></li>';
     }).join('');
   }
