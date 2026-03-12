@@ -79,12 +79,10 @@
       flex-direction: column; align-items: center; justify-content: center;
     }
     #cs-lb.open { display: flex; }
-    #cs-lb-content { position: relative; display: inline-block; line-height: 0; }
-    #cs-lb-img {
-      max-width: 92vw; max-height: 84vh; object-fit: contain;
-      border: 2px solid #c4a87a; border-radius: 4px; display: block;
+    #cs-lb-osd {
+      width: 88vw; height: 82vh;
+      border: 2px solid #c4a87a; border-radius: 4px; background: #111;
     }
-    #cs-lb-canvas { position: absolute; top: 0; left: 0; pointer-events: none; border-radius: 4px; }
     #cs-lb-close {
       position: absolute; top: 12px; right: 18px;
       color: #f5efe0; font-size: 1.6rem; cursor: pointer;
@@ -147,22 +145,22 @@
   <!-- Lightbox -->
   <div id="cs-lb" onclick="if(event.target===this)csCloseLb()">
     <button id="cs-lb-close" onclick="csCloseLb()">✕</button>
-    <div id="cs-lb-content">
-      <img id="cs-lb-img" src="" alt="" onload="csOnImgLoad()">
-      <canvas id="cs-lb-canvas"></canvas>
-    </div>
+    <div id="cs-lb-osd"></div>
     <div id="cs-lb-footer">
       <a id="cs-lb-link" href="#" target="_blank">Open in museum viewer ↗</a>
     </div>
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/sql.js@1.10.2/dist/sql-wasm.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
   <script>
   'use strict';
 
   var csDb = null;
   var csLbBoxes = null;
   var csLbQuery = '';
+  var csOsdViewer = null;
+  var R2_BASE = 'https://pub-1eab5fd66b714905892d924cc8227d94.r2.dev/';
 
   // ── DB init ────────────────────────────────────────────────────────────────
   async function csInitDb() {
@@ -353,42 +351,58 @@
   function csLb(docId, query) {
     csLbBoxes = null;
     csLbQuery = (query || '').trim();
-    var img = document.getElementById('cs-lb-img');
-    img.src = 'thumbnails/' + docId + '.jpg';
-    img.alt = docId;
-    document.getElementById('cs-lb-link').href = 'viewer.html?id=' + docId;
-    document.getElementById('cs-lb').classList.add('open');
+
+    // Load bounding boxes synchronously before opening OSD
     if (csLbQuery && csDb) {
       try {
         var rows = csRows('SELECT words_json FROM boxes WHERE image_id = ?', [docId]);
-        if (rows.length) { csLbBoxes = JSON.parse(rows[0].words_json); csDrawHighlights(); }
+        if (rows.length) csLbBoxes = JSON.parse(rows[0].words_json);
       } catch(e) {}
+    }
+
+    document.getElementById('cs-lb-link').href = 'viewer.html?id=' + docId;
+    document.getElementById('cs-lb').classList.add('open');
+
+    var dziUrl = R2_BASE + docId + '/' + docId + '.dzi';
+    if (!csOsdViewer) {
+      csOsdViewer = OpenSeadragon({
+        id: 'cs-lb-osd',
+        tileSources: dziUrl,
+        prefixUrl: 'https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/',
+        showNavigator: false,
+        showFullPageControl: false,
+        showZoomControl: true,
+        showHomeControl: true,
+        animationTime: 0.3,
+        gestureSettingsMouse: { scrollToZoom: true },
+        gestureSettingsTouch: { pinchToZoom: true }
+      });
+      csOsdViewer.addHandler('open', csAddOverlays);
+    } else {
+      csOsdViewer.open(dziUrl);
     }
   }
 
-  function csOnImgLoad() {
-    var canvas = document.getElementById('cs-lb-canvas');
-    var img = document.getElementById('cs-lb-img');
-    canvas.width = img.offsetWidth;
-    canvas.height = img.offsetHeight;
-    canvas.style.width = img.offsetWidth + 'px';
-    canvas.style.height = img.offsetHeight + 'px';
-    csDrawHighlights();
-  }
-
-  function csDrawHighlights() {
-    var canvas = document.getElementById('cs-lb-canvas');
-    var ctx = canvas.getContext('2d');
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    if (!csLbBoxes || !csLbQuery || !canvas.width) return;
+  function csAddOverlays() {
+    csOsdViewer.clearOverlays();
+    if (!csLbBoxes || !csLbQuery) return;
     var terms = csLbQuery.toLowerCase().split(/\s+/).filter(function(t){return t.length>=2;});
-    ctx.fillStyle = 'rgba(255,200,0,0.45)';
+    if (!terms.length) return;
+    var item = csOsdViewer.world.getItemAt(0);
+    if (!item) return;
+    var imgSize = item.getContentSize();
+    var imgW = imgSize.x, imgH = imgSize.y;
     csLbBoxes.forEach(function(w) {
       var wt = (w.text || '').toLowerCase();
       for (var i = 0; i < terms.length; i++) {
         if (wt.includes(terms[i])) {
-          ctx.fillRect(w.x0*canvas.width, w.y0*canvas.height,
-            (w.x1-w.x0)*canvas.width, (w.y1-w.y0)*canvas.height);
+          var rect = csOsdViewer.viewport.imageToViewportRectangle(
+            w.x0 * imgW, w.y0 * imgH,
+            (w.x1 - w.x0) * imgW, (w.y1 - w.y0) * imgH
+          );
+          var el = document.createElement('div');
+          el.style.cssText = 'background:rgba(255,200,0,0.45);pointer-events:none;';
+          csOsdViewer.addOverlay({element: el, location: rect});
           break;
         }
       }
@@ -397,8 +411,6 @@
 
   function csCloseLb() {
     document.getElementById('cs-lb').classList.remove('open');
-    document.getElementById('cs-lb-img').src = '';
-    document.getElementById('cs-lb-canvas').getContext('2d').clearRect(0,0,1,1);
     csLbBoxes = null;
   }
   document.addEventListener('keydown', function(e) { if (e.key==='Escape') csCloseLb(); });
