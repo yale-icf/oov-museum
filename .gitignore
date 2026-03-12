@@ -1,6 +1,10 @@
 # Large asset directories (hosted separately)
 tiles/
 
+# Google Cloud credentials (never commit)
+*.json
+!data/*.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
