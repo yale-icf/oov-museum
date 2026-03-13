@@ -121,6 +121,7 @@
       { label: 'Issuing Year', value: item.issueYear && item.issueYear[0] },
       { label: 'Issuing Country', value: item.issuingCountry, isTags: true },
       { label: 'Subject Country', value: item.subjectCountry, isTags: true },
+      { label: 'Language', value: item.language, isTags: true },
       { label: 'Named Individuals', value: item.namedIndividuals, isTags: true },
       { label: 'Owner', value: item.owner },
       { label: 'Notes', value: item.notes },
