@@ -147,6 +147,24 @@ body {
   opacity: 0.5;
 }
 
+.search-mode-select {
+  padding: 0.55rem 0.75rem;
+  border: 1px solid #c8c0b0;
+  border-radius: var(--radius);
+  font-size: 0.88rem;
+  font-family: 'Source Sans 3', sans-serif;
+  background: var(--white);
+  color: var(--text);
+  cursor: pointer;
+  transition: border-color var(--transition);
+  white-space: nowrap;
+}
+.search-mode-select:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(201,168,76,0.2);
+}
+
 .result-count {
   font-size: 0.9rem;
   color: var(--text-light);

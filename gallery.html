@@ -24,8 +24,32 @@
     <div class="search-box">
       <input type="text" id="search-input" placeholder="Search titles, descriptions, keywords..." autocomplete="off">
     </div>
+    <select class="search-mode-select" id="search-mode">
+      <option value="metadata">Title &amp; Description</option>
+      <option value="fulltext">Full Text (OCR)</option>
+    </select>
     <span class="result-count" id="result-count"></span>
   </div>
+
+  <script>
+    (function () {
+      var modeSelect = document.getElementById('search-mode');
+      var searchInput = document.getElementById('search-input');
+      modeSelect.addEventListener('change', function () {
+        if (modeSelect.value === 'fulltext') {
+          var q = searchInput.value.trim();
+          window.location.href = 'search.html' + (q ? '?q=' + encodeURIComponent(q) : '');
+        }
+      });
+      searchInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' && modeSelect.value === 'fulltext') {
+          e.preventDefault();
+          var q = searchInput.value.trim();
+          window.location.href = 'search.html' + (q ? '?q=' + encodeURIComponent(q) : '');
+        }
+      });
+    })();
+  </script>
 
   <div class="main-content">
     <aside class="sidebar" id="sidebar">

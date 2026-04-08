@@ -444,6 +444,14 @@
       document.getElementById('cs-status').style.display = 'none';
     } catch(e) {
       csShowStatus('Error loading search index: ' + e.message);
+      return;
+    }
+    // Auto-search if ?q= param present (e.g. redirected from Search page)
+    var params = new URLSearchParams(window.location.search);
+    var q = params.get('q');
+    if (q) {
+      document.getElementById('cs-q').value = q;
+      csSearch();
     }
   });
   </script>
