@@ -20,74 +20,47 @@
     </nav>
   </header>
 
-  <div class="page-banner">
-    <div class="page-banner-inner">
-      <h2>Gallery</h2>
-      <p>Browse 545 documents from the collection</p>
+  <div class="search-container">
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search titles, descriptions, keywords..." autocomplete="off">
     </div>
+    <span class="result-count" id="result-count"></span>
   </div>
 
-  <!-- Combined search + filter bar -->
-  <div class="coll-filter-bar gallery-filter-bar" id="gallery-filter-bar">
-    <div class="coll-filter-bar-inner gallery-filter-bar-inner">
-      <div class="gallery-search-wrap">
-        <svg class="gallery-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <circle cx="11" cy="11" r="7.5"/>
-          <path d="m20 20-4.5-4.5" stroke-linecap="round"/>
-        </svg>
-        <input class="gallery-search-input" type="text" id="search-input"
-               placeholder="Search titles, descriptions, keywords&hellip;" autocomplete="off">
+  <div class="main-content">
+    <aside class="sidebar" id="sidebar">
+      <div class="filter-section" data-filter="period">
+        <h3>Period</h3>
+        <div class="filter-options" id="filter-period"></div>
       </div>
-      <div class="gallery-filter-divider"></div>
-      <button class="coll-filter-btn" data-filter="period">
-        Period
-        <svg class="coll-chevron" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-          <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-      <button class="coll-filter-btn" data-filter="issuingCountry">
-        Country
-        <svg class="coll-chevron" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-          <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-      <button class="coll-filter-btn" data-filter="type">
-        Type
-        <svg class="coll-chevron" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-          <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-      <button class="coll-filter-btn" data-filter="language">
-        Language
-        <svg class="coll-chevron" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-          <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-      <span class="gallery-result-count" id="result-count"></span>
-    </div>
-    <div class="coll-dropdown" id="dropdown-period"></div>
-    <div class="coll-dropdown" id="dropdown-issuingCountry"></div>
-    <div class="coll-dropdown" id="dropdown-type"></div>
-    <div class="coll-dropdown" id="dropdown-language"></div>
-  </div>
+      <div class="filter-section" data-filter="issuingCountry">
+        <h3>Issuing Country</h3>
+        <div class="filter-options" id="filter-issuingCountry"></div>
+      </div>
+      <div class="filter-section" data-filter="type">
+        <h3>Document Type</h3>
+        <div class="filter-options" id="filter-type"></div>
+      </div>
+      <div class="filter-section" data-filter="language">
+        <h3>Language</h3>
+        <div class="filter-options" id="filter-language"></div>
+      </div>
+      <button class="clear-filters" id="clear-filters">Clear All Filters</button>
+    </aside>
 
-  <!-- Active filter chips -->
-  <div class="coll-chips-row" id="gallery-chips-row">
-    <div class="coll-chips" id="active-filters"></div>
-    <button class="coll-clear-btn" id="clear-filters">Clear all</button>
+    <main class="gallery-container">
+      <div class="active-filters" id="active-filters"></div>
+      <div class="gallery-grid" id="gallery-grid"></div>
+      <div class="pagination" id="pagination"></div>
+      <div class="empty-state" id="empty-state" style="display:none">
+        <h2>No documents found</h2>
+        <p>Try adjusting your search or filters.</p>
+      </div>
+      <div class="loading" id="loading">
+        <div class="spinner"></div>
+      </div>
+    </main>
   </div>
-
-  <main class="gallery-main">
-    <div class="gallery-grid" id="gallery-grid"></div>
-    <div class="pagination" id="pagination"></div>
-    <div class="empty-state" id="empty-state" style="display:none">
-      <h2>No documents found</h2>
-      <p>Try adjusting your search or filters.</p>
-    </div>
-    <div class="loading" id="loading">
-      <div class="spinner"></div>
-    </div>
-  </main>
 
   <script src="js/app.js"></script>
 
