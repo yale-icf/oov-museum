@@ -2442,12 +2442,14 @@ body.homepage {
 /* Publication cards */
 .publication-grid {
   display: flex;
-  flex-direction: column;
-  gap: 1rem;
+  flex-direction: row;
+  gap: 0.75rem;
 }
 
 .pub-card {
   display: block;
+  flex: 1;
+  min-width: 0;
   text-decoration: none;
   color: var(--text);
   background: var(--white);
