@@ -2,9 +2,9 @@
   'use strict';
 
   const COUNTRIES = [
-    { name: 'United Kingdom', count: 191 },
-    { name: 'United States',  count: 132 },
-    { name: 'Netherlands',    count: 88 }
+    { name: 'United Kingdom', count: 191, thumb: 'goetzmann0540' },
+    { name: 'United States',  count: 132, thumb: 'goetzmann0181' },
+    { name: 'Netherlands',    count: 88,  thumb: 'goetzmann0004' }
   ];
 
   const PUBLICATIONS = [
@@ -41,23 +41,16 @@
     return div.innerHTML;
   }
 
-  function renderCountries(items) {
+  function renderCountries() {
     const grid = document.getElementById('country-grid');
     if (!grid) return;
     COUNTRIES.forEach(country => {
-      let thumbId = '';
-      for (let j = 0; j < items.length; j++) {
-        if (items[j].location && items[j].location.indexOf(country.name) !== -1) {
-          thumbId = items[j].id;
-          break;
-        }
-      }
       const card = document.createElement('a');
       card.className = 'country-card';
       card.href = 'gallery.html?issuingCountry=' + encodeURIComponent(country.name);
       card.innerHTML =
         '<div class="country-card-image">' +
-          (thumbId ? `<img src="thumbnails/${thumbId}.jpg" alt="${escapeHtml(country.name)}" loading="lazy">` : '') +
+          `<img src="thumbnails/${country.thumb}.jpg" alt="${escapeHtml(country.name)}" loading="lazy">` +
         '</div>' +
         '<div class="country-card-overlay">' +
           `<h3 class="country-card-name">${escapeHtml(country.name)}</h3>` +
@@ -89,12 +82,6 @@
     });
   }
 
-  async function init() {
-    const res = await fetch('data/museum-data.json');
-    const items = await res.json();
-    renderCountries(items);
-    renderPublications();
-  }
-
-  init().catch(err => console.error('Collection init error:', err));
+  renderCountries();
+  renderPublications();
 })();
