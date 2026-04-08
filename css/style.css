@@ -2357,9 +2357,9 @@ body.homepage {
 }
 
 .coll-browse-col-label {
-  font-size: 0.85rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--navy);
 }
