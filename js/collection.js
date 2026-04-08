@@ -19,10 +19,7 @@
   const COUNTRIES = [
     { name: 'United Kingdom', count: 191 },
     { name: 'United States',  count: 132 },
-    { name: 'Netherlands',    count: 88 },
-    { name: 'Russia',         count: 36 },
-    { name: 'France',         count: 31 },
-    { name: 'China',          count: 28 }
+    { name: 'Netherlands',    count: 88 }
   ];
 
   // Items featured in the "Women as Investors" exhibit, in chronological order
