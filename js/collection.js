@@ -22,6 +22,36 @@
     { name: 'Netherlands',    count: 88 }
   ];
 
+  const PUBLICATIONS = [
+    {
+      shortTitle: 'The Great Mirror of Folly',
+      fullTitle: 'Het Groote Tafereel der Dwaasheid',
+      year: '1720',
+      count: 4,
+      thumbId: 'goetzmann0004',
+      query: 'groote tafereel',
+      desc: 'A Dutch satirical compilation documenting the speculative mania of 1720.'
+    },
+    {
+      shortTitle: 'South Sea Bubble Playing Cards',
+      fullTitle: 'South Sea Bubble Playing Card Deck',
+      year: 'c. 1720',
+      count: 1,
+      thumbId: 'goetzmann0028',
+      query: 'south sea playing card',
+      desc: 'An English satirical card deck mocking the South Sea Company bubble.'
+    },
+    {
+      shortTitle: 'Dutch Wind Cards',
+      fullTitle: 'Windkaarten (Wind Cards)',
+      year: 'c. 1720',
+      count: 1,
+      thumbId: 'goetzmann0079',
+      query: 'windkaart',
+      desc: 'Dutch satirical playing cards lampooning speculative stock schemes of 1720.'
+    }
+  ];
+
   // Items featured in the "Women as Investors" exhibit, in chronological order
   const EXHIBIT_IDS = [
     'goetzmann0491', // Compagnie des Indes, 1745
@@ -101,6 +131,7 @@
     wireEvents();
     render();
     renderCountries(allItems);
+    renderPublications();
   }
 
   // ===== URL state =====
@@ -276,7 +307,8 @@
         const t = (item.title || '').toLowerCase();
         const d = (item.description || '').toLowerCase();
         const k = (item.keywords || []).join(' ').toLowerCase();
-        return t.includes(q) || d.includes(q) || k.includes(q);
+        const n = (item.notes || '').toLowerCase();
+        return t.includes(q) || d.includes(q) || k.includes(q) || n.includes(q);
       });
     }
 
@@ -351,6 +383,27 @@
         '<div class="country-card-overlay">' +
           `<h3 class="country-card-name">${escapeHtml(country.name)}</h3>` +
           `<span class="country-card-count">${country.count} documents</span>` +
+        '</div>';
+      grid.appendChild(card);
+    });
+  }
+
+  function renderPublications() {
+    const grid = document.getElementById('publication-grid');
+    if (!grid) return;
+    PUBLICATIONS.forEach(pub => {
+      const card = document.createElement('a');
+      card.className = 'pub-card';
+      card.href = 'collection.html?q=' + encodeURIComponent(pub.query);
+      card.innerHTML =
+        '<div class="pub-card-thumb">' +
+          `<img src="thumbnails/${pub.thumbId}.jpg" alt="${escapeHtml(pub.shortTitle)}" loading="lazy">` +
+        '</div>' +
+        '<div class="pub-card-body">' +
+          `<span class="pub-card-year">${escapeHtml(pub.year)}</span>` +
+          `<h3 class="pub-card-title">${escapeHtml(pub.shortTitle)}</h3>` +
+          `<p class="pub-card-desc">${escapeHtml(pub.desc)}</p>` +
+          `<span class="pub-card-count">${pub.count} item${pub.count !== 1 ? 's' : ''} in collection</span>` +
         '</div>';
       grid.appendChild(card);
     });
