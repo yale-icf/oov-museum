@@ -2559,3 +2559,44 @@ body.homepage {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+/* ===== Glossary Page ===== */
+.glossary-main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 3rem 2rem 5rem;
+}
+
+.glossary-entry {
+  border-bottom: 1px solid var(--parchment-dark);
+  padding: 2.5rem 0;
+}
+
+.glossary-entry:first-child { padding-top: 0; }
+.glossary-entry:last-child  { border-bottom: none; }
+
+.glossary-term {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.55rem;
+  font-weight: 600;
+  color: var(--navy);
+  margin-bottom: 0.9rem;
+}
+
+.glossary-def {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--text);
+  margin-bottom: 1.1rem;
+}
+
+.glossary-browse-link {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  transition: color 0.2s;
+}
+
+.glossary-browse-link:hover { color: var(--navy); }
