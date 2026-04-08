@@ -2463,7 +2463,7 @@ body.homepage {
 
 .pub-card-images {
   display: grid;
-  height: 130px;
+  height: 80px;
   overflow: hidden;
   background: var(--parchment);
 }
