@@ -28,7 +28,7 @@
       fullTitle: 'Het Groote Tafereel der Dwaasheid',
       year: '1720',
       count: 4,
-      thumbId: 'goetzmann0004',
+      images: ['goetzmann0004', 'goetzmann0011', 'goetzmann0019'],
       query: 'groote tafereel',
       desc: 'A Dutch satirical compilation documenting the speculative mania of 1720.'
     },
@@ -37,7 +37,7 @@
       fullTitle: 'South Sea Bubble Playing Card Deck',
       year: 'c. 1720',
       count: 1,
-      thumbId: 'goetzmann0028',
+      images: ['goetzmann0028'],
       query: 'south sea playing card',
       desc: 'An English satirical card deck mocking the South Sea Company bubble.'
     },
@@ -46,7 +46,7 @@
       fullTitle: 'Windkaarten (Wind Cards)',
       year: 'c. 1720',
       count: 1,
-      thumbId: 'goetzmann0079',
+      images: ['goetzmann0079'],
       query: 'windkaart',
       desc: 'Dutch satirical playing cards lampooning speculative stock schemes of 1720.'
     }
@@ -392,18 +392,19 @@
     const grid = document.getElementById('publication-grid');
     if (!grid) return;
     PUBLICATIONS.forEach(pub => {
+      const imgHtml = pub.images.map(id =>
+        `<img src="thumbnails/${id}.jpg" alt="" loading="lazy">`
+      ).join('');
       const card = document.createElement('a');
       card.className = 'pub-card';
       card.href = 'collection.html?q=' + encodeURIComponent(pub.query);
       card.innerHTML =
-        '<div class="pub-card-thumb">' +
-          `<img src="thumbnails/${pub.thumbId}.jpg" alt="${escapeHtml(pub.shortTitle)}" loading="lazy">` +
-        '</div>' +
+        `<div class="pub-card-images pub-card-images--${pub.images.length}">${imgHtml}</div>` +
         '<div class="pub-card-body">' +
-          `<span class="pub-card-year">${escapeHtml(pub.year)}</span>` +
+          '<span class="exhibit-card-label">Source Publication</span>' +
           `<h3 class="pub-card-title">${escapeHtml(pub.shortTitle)}</h3>` +
           `<p class="pub-card-desc">${escapeHtml(pub.desc)}</p>` +
-          `<span class="pub-card-count">${pub.count} item${pub.count !== 1 ? 's' : ''} in collection</span>` +
+          `<span class="exhibit-card-meta">${pub.count} item${pub.count !== 1 ? 's' : ''} &middot; ${escapeHtml(pub.year)}</span>` +
         '</div>';
       grid.appendChild(card);
     });
