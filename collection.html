@@ -25,71 +25,7 @@
     </nav>
   </header>
 
-  <!-- Slim filter bar: search + dropdowns -->
-  <div class="coll-filter-bar" id="coll-filter-bar">
-    <div class="coll-filter-bar-inner">
-      <form class="gallery-search-wrap" id="coll-search-form">
-        <svg class="gallery-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-          <circle cx="11" cy="11" r="7.5"/>
-          <path d="m20 20-4.5-4.5" stroke-linecap="round"/>
-        </svg>
-        <input class="gallery-search-input" id="coll-search-input"
-               type="text" placeholder="" autocomplete="off">
-      </form>
-      <div class="gallery-filter-divider"></div>
-      <button class="coll-filter-btn" data-filter="type">
-        Type
-        <svg class="coll-chevron" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-          <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-      <button class="coll-filter-btn" data-filter="period">
-        Period
-        <svg class="coll-chevron" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-          <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-      <button class="coll-filter-btn" data-filter="location">
-        Country
-        <svg class="coll-chevron" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-          <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-      <button class="coll-filter-btn" data-filter="namedIndividuals">
-        Named Individual
-        <svg class="coll-chevron" viewBox="0 0 12 8" fill="none" aria-hidden="true">
-          <path d="M1 1l5 5 5-5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </button>
-    </div>
-    <div class="coll-dropdown" id="dropdown-type"></div>
-    <div class="coll-dropdown" id="dropdown-period"></div>
-    <div class="coll-dropdown" id="dropdown-location"></div>
-    <div class="coll-dropdown" id="dropdown-namedIndividuals"></div>
-  </div>
-
-  <!-- Active filter chips -->
-  <div class="coll-chips-row" id="coll-chips-row">
-    <div class="coll-chips" id="coll-chips"></div>
-    <button class="coll-clear-btn" id="coll-clear-btn">Clear all</button>
-  </div>
-
-  <!-- Search results (shown when searching) -->
-  <main class="coll-main" id="coll-main" style="display:none">
-    <div class="coll-results-bar">
-      <p class="coll-tagline" id="coll-tagline">&nbsp;</p>
-      <select class="coll-sort" id="coll-sort" aria-label="Sort results">
-        <option value="default">Sort: Default</option>
-        <option value="title">Title A–Z</option>
-        <option value="period-asc">Period: Earliest first</option>
-        <option value="period-desc">Period: Latest first</option>
-      </select>
-    </div>
-    <div class="coll-grid" id="coll-grid"></div>
-    <div class="coll-pagination" id="coll-pagination"></div>
-  </main>
-
-  <!-- Browse section: exhibition + explore options (shown in default mode) -->
+  <!-- Browse section: exhibition + explore options -->
   <section class="coll-browse" id="coll-exhibits-section">
     <div class="coll-browse-inner">
 
