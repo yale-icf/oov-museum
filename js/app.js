@@ -8,7 +8,6 @@
   let currentPage = 1;
   let activeFilters = { period: [], issuingCountry: [], type: [], language: [] };
   let searchQuery = '';
-  let observer = null;
 
   // DOM refs
   const galleryGrid = document.getElementById('gallery-grid');
@@ -38,7 +37,6 @@
     buildFilterSidebar();
     restoreStateFromURL();
     setupEventListeners();
-    setupLazyLoading();
     applyFilters();
   }
 
@@ -216,12 +214,6 @@
       galleryGrid.appendChild(createCard(item));
     }
 
-    // Re-observe for lazy loading
-    if (observer) {
-      galleryGrid.querySelectorAll('img[data-src]').forEach(function (img) {
-        observer.observe(img);
-      });
-    }
   }
 
   function createCard(item) {
@@ -232,9 +224,10 @@
     var imageDiv = document.createElement('div');
     imageDiv.className = 'card-image';
     var img = document.createElement('img');
-    img.dataset.src = 'thumbnails/' + item.file;
+    img.src = 'thumbnails/' + item.file;
     img.alt = item.title;
     img.loading = 'lazy';
+    img.classList.add('loaded');
     imageDiv.appendChild(img);
 
     if (item.pages && item.pages.length > 1) {
@@ -278,33 +271,6 @@
     body.appendChild(tags);
     a.appendChild(body);
     return a;
-  }
-
-  // ===== Lazy Loading =====
-  function setupLazyLoading() {
-    if ('IntersectionObserver' in window) {
-      observer = new IntersectionObserver(function (entries) {
-        entries.forEach(function (entry) {
-          if (entry.isIntersecting) {
-            var img = entry.target;
-            img.src = img.dataset.src;
-            img.removeAttribute('data-src');
-            img.addEventListener('load', function () { img.classList.add('loaded'); });
-            img.addEventListener('error', function () { img.classList.add('loaded'); img.alt = 'Image not available'; });
-            observer.unobserve(img);
-          }
-        });
-      }, { rootMargin: '200px' });
-    } else {
-      // Fallback: load all immediately
-      observer = {
-        observe: function (img) {
-          img.src = img.dataset.src;
-          img.removeAttribute('data-src');
-          img.classList.add('loaded');
-        }
-      };
-    }
   }
 
   // ===== Pagination =====
