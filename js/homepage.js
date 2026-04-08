@@ -16,11 +16,17 @@
     if (!container) return;
 
     var countries = {};
+    var periods = {};
     for (var i = 0; i < allItems.length; i++) {
       var item = allItems[i];
       if (item.location) {
         for (var j = 0; j < item.location.length; j++) {
           countries[item.location[j]] = true;
+        }
+      }
+      if (item.period) {
+        for (var k = 0; k < item.period.length; k++) {
+          periods[item.period[k]] = true;
         }
       }
     }
@@ -33,6 +39,10 @@
       '<div class="hero-stat">' +
         '<span class="hero-stat-number">' + Object.keys(countries).length + '</span>' +
         '<span class="hero-stat-label">Countries</span>' +
+      '</div>' +
+      '<div class="hero-stat">' +
+        '<span class="hero-stat-number">' + Object.keys(periods).length + '</span>' +
+        '<span class="hero-stat-label">Time Periods</span>' +
       '</div>';
   }
 
