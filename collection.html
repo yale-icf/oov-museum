@@ -20,31 +20,18 @@
     </nav>
   </header>
 
-  <!-- Hero: parchment bg, decorative bracket + title + search -->
-  <div class="coll-hero">
-    <div class="coll-hero-inner">
-      <svg class="coll-bracket" viewBox="0 0 48 130" fill="none" aria-hidden="true">
-        <path d="M42 8 L8 65 L42 122" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-      <div class="coll-hero-content">
-        <h2 class="coll-title">Search the Collection</h2>
-        <form class="coll-search-form" id="coll-search-form">
-          <input class="coll-search-input" id="coll-search-input"
-                 type="text" placeholder="" autocomplete="off">
-          <button class="coll-search-btn" type="submit" aria-label="Search">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
-              <circle cx="11" cy="11" r="7.5"/>
-              <path d="m20 20-4.5-4.5" stroke-linecap="round"/>
-            </svg>
-          </button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-  <!-- Sticky filter bar -->
+  <!-- Slim filter bar: search + dropdowns always accessible -->
   <div class="coll-filter-bar" id="coll-filter-bar">
     <div class="coll-filter-bar-inner">
+      <form class="gallery-search-wrap" id="coll-search-form">
+        <svg class="gallery-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <circle cx="11" cy="11" r="7.5"/>
+          <path d="m20 20-4.5-4.5" stroke-linecap="round"/>
+        </svg>
+        <input class="gallery-search-input" id="coll-search-input"
+               type="text" placeholder="" autocomplete="off">
+      </form>
+      <div class="gallery-filter-divider"></div>
       <button class="coll-filter-btn" data-filter="type">
         Type
         <svg class="coll-chevron" viewBox="0 0 12 8" fill="none" aria-hidden="true">
@@ -70,7 +57,6 @@
         </svg>
       </button>
     </div>
-    <!-- Dropdown panels (absolutely positioned below filter bar) -->
     <div class="coll-dropdown" id="dropdown-type"></div>
     <div class="coll-dropdown" id="dropdown-period"></div>
     <div class="coll-dropdown" id="dropdown-location"></div>
@@ -83,7 +69,7 @@
     <button class="coll-clear-btn" id="coll-clear-btn">Clear all</button>
   </div>
 
-  <!-- Results (shown only when search/filters are active) -->
+  <!-- Search results (shown when searching) -->
   <main class="coll-main" id="coll-main" style="display:none">
     <div class="coll-results-bar">
       <p class="coll-tagline" id="coll-tagline">&nbsp;</p>
@@ -94,57 +80,56 @@
         <option value="period-desc">Period: Latest first</option>
       </select>
     </div>
-
     <div class="coll-grid" id="coll-grid"></div>
-
     <div class="coll-pagination" id="coll-pagination"></div>
   </main>
 
-  <!-- Exhibits section (shown in default/browse mode) -->
-  <section class="coll-exhibits-section" id="coll-exhibits-section">
-    <div class="coll-exhibits-inner">
-      <h2 class="coll-exhibits-heading">Explore Our Exhibits</h2>
-      <p class="coll-exhibits-sub">Curated stories from the collection &mdash; a great place to start</p>
-      <div class="coll-exhibits-grid">
+  <!-- Exhibitions (shown in default/browse mode) -->
+  <section class="coll-exhibitions" id="coll-exhibits-section">
+    <div class="coll-exhibitions-inner">
 
-        <a href="exhibit-women-investors.html" class="exhibit-card">
-          <div class="exhibit-card-images">
-            <img src="images/exhibits/goetzmann0491.jpg" alt="">
-            <img src="images/exhibits/goetzmann0655.jpg" alt="">
-            <img src="images/exhibits/goetzmann0473.jpg" alt="">
-          </div>
-          <div class="exhibit-card-body">
-            <span class="exhibit-card-label">Online Exhibit</span>
-            <h3 class="exhibit-card-title">Women as Investors</h3>
-            <p class="exhibit-card-desc">A hidden history of capital: nine documents that trace women&rsquo;s participation in financial markets from 18th-century Paris to 1930s America.</p>
-            <span class="exhibit-card-meta">9 items &middot; France, Netherlands, United Kingdom, United States</span>
-          </div>
-        </a>
+      <div class="coll-exhibitions-title-row">
+        <h2 class="coll-exhibitions-heading">Exhibitions</h2>
+        <a href="exhibits.html" class="coll-exhibitions-all-link">View all exhibits &rarr;</a>
+      </div>
 
-        <a href="exhibit-financing-war.html" class="exhibit-card">
-          <div class="exhibit-card-images">
+      <!-- Featured exhibit -->
+      <a href="exhibit-women-investors.html" class="coll-exhibit-feature">
+        <div class="coll-exhibit-feature-img">
+          <img src="images/exhibits/goetzmann0491.jpg" alt="Women as Investors">
+        </div>
+        <div class="coll-exhibit-feature-body">
+          <span class="exhibit-card-label">Online Exhibit</span>
+          <h3 class="coll-exhibit-feature-title">Women as Investors</h3>
+          <p class="coll-exhibit-feature-desc">A hidden history of capital: nine documents that trace women&rsquo;s participation in financial markets from 18th-century Paris to 1930s America.</p>
+          <span class="exhibit-card-meta">9 items &middot; France, Netherlands, United Kingdom, United States</span>
+          <span class="coll-exhibit-cta">View exhibit &rarr;</span>
+        </div>
+      </a>
+
+      <!-- Secondary exhibits -->
+      <div class="coll-exhibit-others">
+
+        <a href="exhibit-financing-war.html" class="coll-exhibit-other">
+          <div class="coll-exhibit-other-img">
             <img src="images/exhibits/goetzmann0226.jpg" alt="">
-            <img src="images/exhibits/goetzmann0677.jpg" alt="">
-            <img src="images/exhibits/goetzmann0383.jpg" alt="">
           </div>
-          <div class="exhibit-card-body">
+          <div class="coll-exhibit-other-body">
             <span class="exhibit-card-label">Online Exhibit</span>
-            <h3 class="exhibit-card-title">Financing War</h3>
-            <p class="exhibit-card-desc">How governments borrowed to fight: six documents tracing war finance from the American Revolution to the Second World War &mdash; and the promises they kept and broke.</p>
+            <h3 class="coll-exhibit-other-title">Financing War</h3>
+            <p class="coll-exhibit-other-desc">How governments borrowed to fight: six documents tracing war finance from the American Revolution to the Second World War &mdash; and the promises they kept and broke.</p>
             <span class="exhibit-card-meta">6 items &middot; United States, Russia, Austria, Japan</span>
           </div>
         </a>
 
-        <a href="exhibit-stock-market.html" class="exhibit-card">
-          <div class="exhibit-card-images">
+        <a href="exhibit-stock-market.html" class="coll-exhibit-other">
+          <div class="coll-exhibit-other-img">
             <img src="images/exhibits/goetzmann1021.jpg" alt="">
-            <img src="images/exhibits/goetzmann0499.jpg" alt="">
-            <img src="images/exhibits/goetzmann0507.jpg" alt="">
           </div>
-          <div class="exhibit-card-body">
+          <div class="coll-exhibit-other-body">
             <span class="exhibit-card-label">Online Exhibit</span>
-            <h3 class="exhibit-card-title">The Birth of the Stock Market</h3>
-            <p class="exhibit-card-desc">The Dutch East India Company and the origins of equity finance in 17th-century Amsterdam &mdash; the world&rsquo;s first publicly traded company and the market it created.</p>
+            <h3 class="coll-exhibit-other-title">The Birth of the Stock Market</h3>
+            <p class="coll-exhibit-other-desc">The Dutch East India Company and the origins of equity finance in 17th-century Amsterdam &mdash; the world&rsquo;s first publicly traded company and the market it created.</p>
             <span class="exhibit-card-meta">6 items &middot; Netherlands, Belgium, France</span>
           </div>
         </a>

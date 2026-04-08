@@ -47,6 +47,7 @@
   let sortBy = 'default';
   let currentPage = 1;
   let openDropdown = null;
+  let prevExhibitMode = true; // tracks last rendered state for scroll-to-top
 
   // ===== Period normalization =====
   function normalizePeriod(p) {
@@ -378,6 +379,10 @@
     if (countrySection) countrySection.style.display = exhibitMode ? '' : 'none';
 
     if (!exhibitMode) {
+      // Scroll to top when transitioning from exhibit mode to search mode
+      if (prevExhibitMode) {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
       const filtered = getFilteredItems();
       const sorted = sortItems(filtered);
       const total = sorted.length;
@@ -385,6 +390,7 @@
       renderGrid(sorted.slice(0, PAGE_SIZE), total);
     }
 
+    prevExhibitMode = exhibitMode;
     updateChips();
   }
 
