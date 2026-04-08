@@ -2357,17 +2357,11 @@ body.homepage {
 }
 
 .coll-browse-col-label {
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--text-light);
-}
-
-.coll-browse-col-label--featured {
-  font-size: 0.82rem;
-  color: var(--navy);
+  font-size: 0.85rem;
+  font-weight: 700;
   letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--navy);
 }
 
 .coll-browse-col-link {
