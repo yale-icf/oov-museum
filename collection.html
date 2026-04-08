@@ -20,7 +20,7 @@
     </nav>
   </header>
 
-  <!-- Slim filter bar: search + dropdowns always accessible -->
+  <!-- Slim filter bar: search + dropdowns -->
   <div class="coll-filter-bar" id="coll-filter-bar">
     <div class="coll-filter-bar-inner">
       <form class="gallery-search-wrap" id="coll-search-form">
@@ -84,63 +84,79 @@
     <div class="coll-pagination" id="coll-pagination"></div>
   </main>
 
-  <!-- Exhibitions (shown in default/browse mode) -->
-  <section class="coll-exhibitions" id="coll-exhibits-section">
-    <div class="coll-exhibitions-inner">
+  <!-- Browse section: exhibition + explore options (shown in default mode) -->
+  <section class="coll-browse" id="coll-exhibits-section">
+    <div class="coll-browse-inner">
 
-      <div class="coll-exhibitions-title-row">
-        <h2 class="coll-exhibitions-heading">Exhibitions</h2>
-        <a href="exhibits.html" class="coll-exhibitions-all-link">View all exhibits &rarr;</a>
+      <!-- Left: featured exhibition -->
+      <div class="coll-browse-left">
+        <div class="coll-browse-col-header">
+          <span class="coll-browse-col-label">Exhibition</span>
+          <a href="exhibits.html" class="coll-browse-col-link">View all &rarr;</a>
+        </div>
+        <a href="exhibit-women-investors.html" class="coll-exhibit-compact">
+          <div class="coll-exhibit-compact-img">
+            <img src="images/exhibits/goetzmann0491.jpg" alt="Women as Investors">
+          </div>
+          <div class="coll-exhibit-compact-body">
+            <span class="exhibit-card-label">Online Exhibit</span>
+            <h3 class="coll-exhibit-compact-title">Women as Investors</h3>
+            <p class="coll-exhibit-compact-desc">A hidden history of capital: nine documents tracing women&rsquo;s participation in financial markets from 18th-century Paris to 1930s America.</p>
+            <span class="exhibit-card-meta">9 items &middot; France, Netherlands, United Kingdom, United States</span>
+            <span class="coll-exhibit-cta">View exhibit &rarr;</span>
+          </div>
+        </a>
       </div>
 
-      <!-- Featured exhibit -->
-      <a href="exhibit-women-investors.html" class="coll-exhibit-feature">
-        <div class="coll-exhibit-feature-img">
-          <img src="images/exhibits/goetzmann0491.jpg" alt="Women as Investors">
+      <!-- Right: browse options -->
+      <div class="coll-browse-right">
+
+        <!-- Explore by Country -->
+        <div class="coll-browse-option">
+          <div class="coll-browse-col-header">
+            <span class="coll-browse-col-label">Explore by Country</span>
+          </div>
+          <div class="country-grid" id="country-grid"></div>
         </div>
-        <div class="coll-exhibit-feature-body">
-          <span class="exhibit-card-label">Online Exhibit</span>
-          <h3 class="coll-exhibit-feature-title">Women as Investors</h3>
-          <p class="coll-exhibit-feature-desc">A hidden history of capital: nine documents that trace women&rsquo;s participation in financial markets from 18th-century Paris to 1930s America.</p>
-          <span class="exhibit-card-meta">9 items &middot; France, Netherlands, United Kingdom, United States</span>
-          <span class="coll-exhibit-cta">View exhibit &rarr;</span>
+
+        <!-- Browse by Document Type -->
+        <div class="coll-browse-option">
+          <div class="coll-browse-col-header">
+            <span class="coll-browse-col-label">Browse by Document Type</span>
+          </div>
+          <div class="coll-browse-pills">
+            <a href="gallery.html?type=Bond" class="coll-browse-pill">Bond</a>
+            <a href="gallery.html?type=Stock+Certificate" class="coll-browse-pill">Stock Certificate</a>
+            <a href="gallery.html?type=Banknote" class="coll-browse-pill">Banknote</a>
+            <a href="gallery.html?type=Draft" class="coll-browse-pill">Draft</a>
+            <a href="gallery.html?type=Promissory+Note" class="coll-browse-pill">Promissory Note</a>
+            <a href="gallery.html?type=Tontine" class="coll-browse-pill">Tontine</a>
+            <a href="gallery.html?type=Certificate" class="coll-browse-pill">Certificate</a>
+            <a href="gallery.html?type=Coupon" class="coll-browse-pill">Coupon</a>
+            <a href="gallery.html?type=Letter+of+Credit" class="coll-browse-pill">Letter of Credit</a>
+            <a href="gallery.html?type=Prospectus" class="coll-browse-pill">Prospectus</a>
+            <a href="gallery.html?type=Correspondence" class="coll-browse-pill">Correspondence</a>
+            <a href="gallery.html?type=Indenture" class="coll-browse-pill">Indenture</a>
+          </div>
         </div>
-      </a>
 
-      <!-- Secondary exhibits -->
-      <div class="coll-exhibit-others">
-
-        <a href="exhibit-financing-war.html" class="coll-exhibit-other">
-          <div class="coll-exhibit-other-img">
-            <img src="images/exhibits/goetzmann0226.jpg" alt="">
+        <!-- Browse by Period -->
+        <div class="coll-browse-option">
+          <div class="coll-browse-col-header">
+            <span class="coll-browse-col-label">Browse by Era</span>
           </div>
-          <div class="coll-exhibit-other-body">
-            <span class="exhibit-card-label">Online Exhibit</span>
-            <h3 class="coll-exhibit-other-title">Financing War</h3>
-            <p class="coll-exhibit-other-desc">How governments borrowed to fight: six documents tracing war finance from the American Revolution to the Second World War &mdash; and the promises they kept and broke.</p>
-            <span class="exhibit-card-meta">6 items &middot; United States, Russia, Austria, Japan</span>
+          <div class="coll-browse-pills">
+            <a href="gallery.html?period=Pre-17th+Century" class="coll-browse-pill">Pre-17th Century</a>
+            <a href="gallery.html?period=17th+Century" class="coll-browse-pill">17th Century</a>
+            <a href="gallery.html?period=18th+Century" class="coll-browse-pill">18th Century</a>
+            <a href="gallery.html?period=19th+Century" class="coll-browse-pill">19th Century</a>
+            <a href="gallery.html?period=20th+Century" class="coll-browse-pill">20th Century</a>
+            <a href="gallery.html?period=21st+Century" class="coll-browse-pill">21st Century</a>
           </div>
-        </a>
-
-        <a href="exhibit-stock-market.html" class="coll-exhibit-other">
-          <div class="coll-exhibit-other-img">
-            <img src="images/exhibits/goetzmann1021.jpg" alt="">
-          </div>
-          <div class="coll-exhibit-other-body">
-            <span class="exhibit-card-label">Online Exhibit</span>
-            <h3 class="coll-exhibit-other-title">The Birth of the Stock Market</h3>
-            <p class="coll-exhibit-other-desc">The Dutch East India Company and the origins of equity finance in 17th-century Amsterdam &mdash; the world&rsquo;s first publicly traded company and the market it created.</p>
-            <span class="exhibit-card-meta">6 items &middot; Netherlands, Belgium, France</span>
-          </div>
-        </a>
+        </div>
 
       </div>
     </div>
-  </section>
-
-  <section class="country-section" id="coll-country-section" style="display:none">
-    <h2 class="featured-heading">Explore by Country</h2>
-    <div class="country-grid" id="country-grid"></div>
   </section>
 
   <script src="js/collection.js"></script>

@@ -2254,198 +2254,165 @@ body.homepage {
   }
 }
 
-/* ===== Collection Page: Editorial Exhibitions Section ===== */
-.coll-exhibitions {
+/* ===== Collection Page: Two-column Browse Section ===== */
+.coll-browse {
   background: var(--white);
-  padding: 3.5rem 2rem 2rem;
+  padding: 3rem 2rem 3.5rem;
 }
 
-.coll-exhibitions-inner {
+.coll-browse-inner {
   max-width: 1100px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 340px 1fr;
+  gap: 4rem;
+  align-items: start;
 }
 
-.coll-exhibitions-title-row {
+/* Column header: label + optional link */
+.coll-browse-col-header {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
-  margin-bottom: 2.5rem;
-  padding-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.25rem;
   border-bottom: 1px solid var(--parchment-dark);
 }
 
-.coll-exhibitions-heading {
-  font-family: 'Playfair Display', serif;
-  font-size: 0.78rem;
+.coll-browse-col-label {
+  font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--text-light);
 }
 
-.coll-exhibitions-all-link {
-  font-size: 0.82rem;
+.coll-browse-col-link {
+  font-size: 0.8rem;
   color: var(--text-light);
   text-decoration: none;
-  letter-spacing: 0.02em;
   transition: color 0.2s;
 }
-.coll-exhibitions-all-link:hover { color: var(--navy); }
+.coll-browse-col-link:hover { color: var(--navy); }
 
-/* ── Featured exhibit (first) ── */
-.coll-exhibit-feature {
+/* ── Compact exhibit card (left column) ── */
+.coll-exhibit-compact {
   display: flex;
-  gap: 4rem;
+  flex-direction: column;
   text-decoration: none;
   color: var(--text);
-  margin-bottom: 3rem;
-  padding-bottom: 3rem;
-  border-bottom: 1px solid var(--parchment-dark);
   transition: opacity 0.2s;
 }
-.coll-exhibit-feature:hover { opacity: 0.82; }
+.coll-exhibit-compact:hover { opacity: 0.82; }
 
-.coll-exhibit-feature-img {
-  flex: 0 0 360px;
-  aspect-ratio: 3 / 4;
+.coll-exhibit-compact-img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
   overflow: hidden;
   background: var(--parchment-dark);
+  margin-bottom: 1rem;
 }
-.coll-exhibit-feature-img img {
+.coll-exhibit-compact-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
 }
-.coll-exhibit-feature:hover .coll-exhibit-feature-img img {
+.coll-exhibit-compact:hover .coll-exhibit-compact-img img {
   transform: scale(1.03);
 }
 
-.coll-exhibit-feature-body {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1.5rem 0;
-}
-
-.coll-exhibit-feature-title {
+.coll-exhibit-compact-title {
   font-family: 'Playfair Display', serif;
-  font-size: 2.6rem;
+  font-size: 1.4rem;
   font-weight: 700;
   color: var(--navy);
-  line-height: 1.1;
-  margin: 0.6rem 0 1.25rem;
+  line-height: 1.2;
+  margin: 0.35rem 0 0.65rem;
 }
 
-.coll-exhibit-feature-desc {
-  font-size: 1.05rem;
-  line-height: 1.8;
+.coll-exhibit-compact-desc {
+  font-size: 0.88rem;
+  line-height: 1.7;
   color: var(--text);
   font-weight: 300;
-  margin-bottom: 1.75rem;
-  max-width: 500px;
+  margin-bottom: 0.65rem;
 }
 
 .coll-exhibit-cta {
   display: inline-block;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--navy);
   border-bottom: 1px solid var(--navy);
-  padding-bottom: 2px;
+  padding-bottom: 1px;
+  margin-top: 0.25rem;
   transition: color 0.2s, border-color 0.2s;
 }
-.coll-exhibit-feature:hover .coll-exhibit-cta {
+.coll-exhibit-compact:hover .coll-exhibit-cta {
   color: var(--gold);
   border-color: var(--gold);
 }
 
-/* ── Secondary exhibits (2-column) ── */
-.coll-exhibit-others {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
-  padding-bottom: 2rem;
-}
-
-.coll-exhibit-other {
-  text-decoration: none;
-  color: var(--text);
+/* ── Right column: stacked browse options ── */
+.coll-browse-right {
   display: flex;
   flex-direction: column;
-  transition: opacity 0.2s;
-}
-.coll-exhibit-other:hover { opacity: 0.82; }
-
-.coll-exhibit-other-img {
-  aspect-ratio: 3 / 4;
-  overflow: hidden;
-  background: var(--parchment-dark);
-  margin-bottom: 1.25rem;
-}
-.coll-exhibit-other-img img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
-}
-.coll-exhibit-other:hover .coll-exhibit-other-img img {
-  transform: scale(1.03);
+  gap: 2rem;
 }
 
-.coll-exhibit-other-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.6rem;
-  font-weight: 700;
-  color: var(--navy);
-  line-height: 1.15;
-  margin: 0.4rem 0 0.75rem;
+.coll-browse-option { }
+
+/* Country grid: compact inside right column */
+.coll-browse-right .country-grid {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  max-width: none;
+  margin: 0;
 }
 
-.coll-exhibit-other-desc {
-  font-size: 0.92rem;
-  line-height: 1.7;
+/* Type / Era pills */
+.coll-browse-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.coll-browse-pill {
+  display: inline-block;
+  padding: 0.3rem 0.75rem;
+  border: 1px solid var(--parchment-dark);
+  border-radius: 2px;
+  font-size: 0.82rem;
   color: var(--text);
-  font-weight: 300;
-  margin-bottom: 0.5rem;
-  flex: 1;
+  text-decoration: none;
+  background: var(--white);
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+  white-space: nowrap;
+}
+.coll-browse-pill:hover {
+  background: var(--navy);
+  border-color: var(--navy);
+  color: var(--white);
 }
 
 /* ── Responsive ── */
 @media (max-width: 960px) {
-  .coll-exhibit-feature {
+  .coll-browse-inner {
+    grid-template-columns: 280px 1fr;
     gap: 2.5rem;
   }
-  .coll-exhibit-feature-img {
-    flex: 0 0 280px;
-  }
-  .coll-exhibit-feature-title { font-size: 2rem; }
 }
 
 @media (max-width: 700px) {
-  .coll-exhibitions { padding: 2.5rem 1.25rem 1.5rem; }
-
-  .coll-exhibit-feature {
-    flex-direction: column;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-    padding-bottom: 2rem;
-  }
-  .coll-exhibit-feature-img {
-    flex: none;
-    width: 100%;
-    max-width: 340px;
-    aspect-ratio: 4 / 3;
-  }
-  .coll-exhibit-feature-title { font-size: 1.75rem; }
-  .coll-exhibit-feature-desc { font-size: 0.95rem; }
-
-  .coll-exhibit-others {
+  .coll-browse { padding: 2rem 1.25rem 2.5rem; }
+  .coll-browse-inner {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 2.5rem;
   }
-  .coll-exhibit-other-img { aspect-ratio: 4 / 3; }
+  .coll-browse-right .country-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

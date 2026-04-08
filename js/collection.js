@@ -346,7 +346,7 @@
       }
       const card = document.createElement('a');
       card.className = 'country-card';
-      card.href = 'gallery.html?location=' + encodeURIComponent(country.name);
+      card.href = 'gallery.html?issuingCountry=' + encodeURIComponent(country.name);
       card.innerHTML =
         '<div class="country-card-image">' +
           (thumbId ? `<img src="thumbnails/${thumbId}.jpg" alt="${escapeHtml(country.name)}" loading="lazy">` : '') +
@@ -371,12 +371,9 @@
     const collMain = document.getElementById('coll-main');
     if (collMain) collMain.style.display = exhibitMode ? 'none' : '';
 
-    // Show/hide the exhibits + country browse sections
+    // Show/hide the browse section (exhibit + country + type/era options)
     const exhibitsSection = document.getElementById('coll-exhibits-section');
     if (exhibitsSection) exhibitsSection.style.display = exhibitMode ? '' : 'none';
-
-    const countrySection = document.getElementById('coll-country-section');
-    if (countrySection) countrySection.style.display = exhibitMode ? '' : 'none';
 
     if (!exhibitMode) {
       // Scroll to top when transitioning from exhibit mode to search mode
