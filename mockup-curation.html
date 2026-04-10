@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mockup B: Curation — Collection</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+
+    /* ── Version label ── */
+    .mockup-label {
+      background: var(--gold);
+      color: var(--navy);
+      text-align: center;
+      padding: 0.5rem 1rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ── Editorial Hero ── */
+    .cur-hero {
+      position: relative;
+      background: var(--navy);
+      min-height: 520px;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+    }
+    .cur-hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('thumbnails/goetzmann1021.jpg');
+      background-size: cover;
+      background-position: center 20%;
+      filter: brightness(0.38) saturate(0.7);
+    }
+    .cur-hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 3rem 2rem 4rem;
+      display: flex;
+      align-items: flex-end;
+      gap: 3rem;
+    }
+    .cur-hero-left {
+      flex: 1;
+    }
+    .cur-hero-eyebrow {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.9rem;
+    }
+    .cur-hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 400;
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 1.25rem;
+      max-width: 640px;
+    }
+    .cur-hero-title em {
+      color: var(--gold);
+      font-style: italic;
+    }
+    .cur-hero-desc {
+      font-size: 1.05rem;
+      color: rgba(255,255,255,0.72);
+      line-height: 1.75;
+      max-width: 560px;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+    .cur-hero-actions {
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+    }
+    .cur-btn-primary {
+      padding: 0.8rem 1.75rem;
+      background: var(--gold);
+      color: var(--navy);
+      border: none;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-weight: 700;
+      font-family: 'Source Sans 3', sans-serif;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .cur-btn-ghost {
+      padding: 0.8rem 1.75rem;
+      background: transparent;
+      color: rgba(255,255,255,0.8);
+      border: 1px solid rgba(255,255,255,0.3);
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-family: 'Source Sans 3', sans-serif;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .cur-hero-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      padding-bottom: 0.5rem;
+    }
+    .cur-hero-stat {
+      text-align: center;
+    }
+    .cur-hero-stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      font-weight: 400;
+      color: var(--white);
+      line-height: 1;
+    }
+    .cur-hero-stat-label {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.45);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 0.3rem;
+    }
+    .cur-hero-stat-divider {
+      width: 1px;
+      height: 2rem;
+      background: rgba(255,255,255,0.15);
+    }
+
+    /* ── Exhibitions ── */
+    .cur-exhibits {
+      background: var(--white);
+      padding: 4rem 2rem;
+    }
+    .cur-exhibits-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .cur-section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--navy);
+    }
+    .cur-section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.55rem;
+      font-weight: 400;
+      color: var(--navy);
+      letter-spacing: 0.01em;
+    }
+    .cur-section-link {
+      font-size: 0.85rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+    }
+
+    .cur-exhibit-grid {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 1.75rem;
+    }
+    .cur-exhibit-card {
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--parchment-dark);
+      border-radius: 4px;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+    .cur-exhibit-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.12); }
+    .cur-exhibit-card-img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      overflow: hidden;
+      background: var(--parchment-dark);
+    }
+    .cur-exhibit-card-img img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.4s;
+    }
+    .cur-exhibit-card:hover .cur-exhibit-card-img img { transform: scale(1.04); }
+    .cur-exhibit-card-body {
+      padding: 1.5rem 1.75rem 1.75rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .cur-exhibit-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.55rem;
+    }
+    .cur-exhibit-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.35rem;
+      font-weight: 400;
+      color: var(--navy);
+      line-height: 1.3;
+      margin-bottom: 0.75rem;
+    }
+    .cur-exhibit-desc {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      line-height: 1.65;
+      flex: 1;
+    }
+    .cur-exhibit-meta {
+      margin-top: 1.1rem;
+      font-size: 0.78rem;
+      color: var(--text-light);
+      padding-top: 0.9rem;
+      border-top: 1px solid var(--parchment-dark);
+    }
+
+    /* ── Thematic Pathways ── */
+    .cur-themes {
+      background: var(--parchment);
+      padding: 4rem 2rem;
+      border-top: 1px solid var(--parchment-dark);
+      border-bottom: 1px solid var(--parchment-dark);
+    }
+    .cur-themes-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .cur-themes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .cur-theme-card {
+      text-decoration: none;
+      color: var(--text);
+      background: var(--white);
+      border-radius: 4px;
+      overflow: hidden;
+      border: 1px solid var(--parchment-dark);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .cur-theme-card:hover {
+      box-shadow: 0 8px 28px rgba(0,0,0,0.11);
+      transform: translateY(-2px);
+    }
+    .cur-theme-imgs {
+      position: relative;
+      height: 160px;
+      background: var(--navy);
+      overflow: hidden;
+    }
+    .cur-theme-img-primary {
+      position: absolute;
+      left: 0; top: 0;
+      width: 62%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-right: 3px solid var(--white);
+    }
+    .cur-theme-img-secondary {
+      position: absolute;
+      right: 0; top: 0;
+      width: 38%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      opacity: 0.75;
+    }
+    .cur-theme-body {
+      padding: 1.3rem 1.4rem 1.5rem;
+    }
+    .cur-theme-num {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.45rem;
+    }
+    .cur-theme-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1.3;
+      margin-bottom: 0.6rem;
+    }
+    .cur-theme-desc {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+    .cur-theme-count {
+      margin-top: 0.9rem;
+      font-size: 0.75rem;
+      color: var(--text-light);
+      font-style: italic;
+    }
+
+    /* ── Collection Spotlight ── */
+    .cur-spotlight {
+      background: var(--navy);
+      padding: 4.5rem 2rem;
+    }
+    .cur-spotlight-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1.4fr;
+      gap: 4rem;
+      align-items: center;
+    }
+    .cur-spotlight-img-wrap {
+      position: relative;
+    }
+    .cur-spotlight-img {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      border-radius: 3px;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+    }
+    .cur-spotlight-badge {
+      position: absolute;
+      top: -0.9rem;
+      left: 1.25rem;
+      background: var(--gold);
+      color: var(--navy);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.7rem;
+      border-radius: 2px;
+    }
+    .cur-spotlight-body {
+      color: var(--white);
+    }
+    .cur-spotlight-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .cur-spotlight-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 400;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    .cur-spotlight-subtitle {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 1.75rem;
+      font-style: italic;
+    }
+    .cur-spotlight-pullquote {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      font-style: italic;
+      color: rgba(255,255,255,0.85);
+      line-height: 1.6;
+      border-left: 3px solid var(--gold);
+      padding-left: 1.25rem;
+      margin-bottom: 1.75rem;
+    }
+    .cur-spotlight-text {
+      font-size: 0.92rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.75;
+      margin-bottom: 2rem;
+    }
+    .cur-spotlight-meta {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    .cur-spotlight-meta-item {
+      border-top: 1px solid rgba(255,255,255,0.15);
+      padding-top: 0.6rem;
+    }
+    .cur-spotlight-meta-label {
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: rgba(255,255,255,0.35);
+      margin-bottom: 0.2rem;
+    }
+    .cur-spotlight-meta-value {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.8);
+    }
+    .cur-spotlight-link {
+      display: inline-block;
+      padding: 0.8rem 1.75rem;
+      background: var(--gold);
+      color: var(--navy);
+      text-decoration: none;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+    /* ── Highlights strip ── */
+    .cur-highlights {
+      background: var(--white);
+      padding: 4rem 2rem;
+    }
+    .cur-highlights-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .cur-highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1.25rem;
+    }
+    .cur-highlight-card {
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+    }
+    .cur-highlight-img {
+      width: 100%;
+      aspect-ratio: 3/4;
+      background: var(--parchment-dark);
+      overflow: hidden;
+      border-radius: 3px;
+      margin-bottom: 0.65rem;
+    }
+    .cur-highlight-img img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.3s;
+    }
+    .cur-highlight-card:hover .cur-highlight-img img { transform: scale(1.05); }
+    .cur-highlight-title {
+      font-size: 0.83rem;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.4;
+      margin-bottom: 0.2rem;
+    }
+    .cur-highlight-meta {
+      font-size: 0.75rem;
+      color: var(--text-light);
+    }
+
+    /* ── Quiet Search Prompt ── */
+    .cur-search-prompt {
+      background: var(--parchment);
+      padding: 3.5rem 2rem;
+      text-align: center;
+      border-top: 1px solid var(--parchment-dark);
+    }
+    .cur-search-prompt-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-bottom: 0.75rem;
+    }
+    .cur-search-prompt-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: var(--navy);
+      margin-bottom: 0.75rem;
+    }
+    .cur-search-prompt-sub {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      margin-bottom: 1.75rem;
+    }
+    .cur-search-row {
+      display: flex;
+      max-width: 540px;
+      margin: 0 auto 1.5rem;
+      gap: 0.5rem;
+    }
+    .cur-search-input {
+      flex: 1;
+      padding: 0.8rem 1.1rem;
+      font-size: 0.95rem;
+      font-family: 'Source Sans 3', sans-serif;
+      border: 1.5px solid var(--parchment-dark);
+      border-radius: var(--radius);
+      background: var(--white);
+      color: var(--text);
+    }
+    .cur-search-input:focus {
+      outline: none;
+      border-color: var(--navy);
+    }
+    .cur-search-btn {
+      padding: 0.8rem 1.5rem;
+      background: var(--navy);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-weight: 600;
+      font-family: 'Source Sans 3', sans-serif;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .cur-browse-links {
+      display: flex;
+      gap: 1.5rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .cur-browse-link {
+      font-size: 0.85rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .cur-browse-link-divider {
+      color: var(--parchment-dark);
+      font-size: 0.85rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="mockup-label">Mockup B &mdash; Curation</div>
+
+  <header class="site-header">
+    <h1><a href="index.html">Origins of <span>Value</span></a></h1>
+    <nav class="header-nav">
+      <a href="collection.html" class="header-nav-link active">Collection</a>
+      <div class="nav-dropdown">
+        <a href="gallery.html" class="header-nav-link nav-dropdown-toggle">Search</a>
+        <div class="nav-dropdown-menu">
+          <a href="gallery.html" class="nav-dropdown-item">Search</a>
+          <a href="search.html" class="nav-dropdown-item">Text Search</a>
+        </div>
+      </div>
+      <a href="map.html" class="header-nav-link">Map</a>
+      <a href="exhibits.html" class="header-nav-link">Exhibits</a>
+    </nav>
+  </header>
+
+  <!-- Editorial Hero -->
+  <section class="cur-hero">
+    <div class="cur-hero-bg"></div>
+    <div class="cur-hero-content">
+      <div class="cur-hero-left">
+        <div class="cur-hero-eyebrow">Origins of Value &mdash; The Collection</div>
+        <h2 class="cur-hero-title">Four centuries of <em>financial history</em>, told through paper</h2>
+        <p class="cur-hero-desc">Bonds, stock certificates, banknotes, and more &mdash; 545 documents from 65 countries, assembled at Yale&rsquo;s International Center for Finance. Each piece a window into how societies organized capital, financed empires, and weathered crises.</p>
+        <div class="cur-hero-actions">
+          <a href="exhibits.html" class="cur-btn-primary">Explore Exhibitions</a>
+          <a href="highlights.html" class="cur-btn-ghost">Collection Highlights</a>
+        </div>
+      </div>
+      <div class="cur-hero-right">
+        <div class="cur-hero-stat">
+          <div class="cur-hero-stat-num">545</div>
+          <div class="cur-hero-stat-label">Documents</div>
+        </div>
+        <div class="cur-hero-stat-divider"></div>
+        <div class="cur-hero-stat">
+          <div class="cur-hero-stat-num">65</div>
+          <div class="cur-hero-stat-label">Countries</div>
+        </div>
+        <div class="cur-hero-stat-divider"></div>
+        <div class="cur-hero-stat">
+          <div class="cur-hero-stat-num">400+</div>
+          <div class="cur-hero-stat-label">Years of History</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exhibitions -->
+  <section class="cur-exhibits">
+    <div class="cur-exhibits-inner">
+      <div class="cur-section-header">
+        <h2 class="cur-section-title">Online Exhibitions</h2>
+        <a href="exhibits.html" class="cur-section-link">View all exhibitions &rarr;</a>
+      </div>
+      <div class="cur-exhibit-grid">
+
+        <!-- Primary exhibit (large) -->
+        <a href="exhibit-women-investors.html" class="cur-exhibit-card">
+          <div class="cur-exhibit-card-img">
+            <img src="images/exhibits/goetzmann0491.jpg" alt="Women as Investors" loading="lazy">
+          </div>
+          <div class="cur-exhibit-card-body">
+            <span class="cur-exhibit-label">Online Exhibit</span>
+            <h3 class="cur-exhibit-title">Women as Investors</h3>
+            <p class="cur-exhibit-desc">A hidden history of capital: nine documents tracing women&rsquo;s participation in financial markets from 18th-century Paris to 1930s America. Long overlooked in financial histories, women were active investors, inheritors, and market participants across centuries and continents.</p>
+            <div class="cur-exhibit-meta">9 items &middot; France, Netherlands, United Kingdom, United States</div>
+          </div>
+        </a>
+
+        <!-- Secondary exhibit -->
+        <a href="exhibit-stock-market.html" class="cur-exhibit-card">
+          <div class="cur-exhibit-card-img">
+            <img src="images/exhibits/goetzmann1021.jpg" alt="The Birth of the Stock Market" loading="lazy">
+          </div>
+          <div class="cur-exhibit-card-body">
+            <span class="cur-exhibit-label">Online Exhibit</span>
+            <h3 class="cur-exhibit-title">The Birth of the Stock Market</h3>
+            <p class="cur-exhibit-desc">Six documents tracing the origins of equity markets, from a 14th-century French mill company to the Dutch Golden Age and the first joint-stock companies.</p>
+            <div class="cur-exhibit-meta">6 items &middot; Netherlands, Belgium, France</div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Thematic Pathways -->
+  <section class="cur-themes">
+    <div class="cur-themes-inner">
+      <div class="cur-section-header">
+        <h2 class="cur-section-title">Thematic Pathways</h2>
+        <a href="gallery.html" class="cur-section-link">Browse full collection &rarr;</a>
+      </div>
+      <div class="cur-themes-grid">
+
+        <a href="gallery.html?q=south+sea+bubble" class="cur-theme-card">
+          <div class="cur-theme-imgs">
+            <img class="cur-theme-img-primary" src="thumbnails/goetzmann0028.jpg" alt="South Sea Bubble" loading="lazy">
+            <img class="cur-theme-img-secondary" src="thumbnails/goetzmann0079.jpg" alt="Dutch Wind Cards" loading="lazy">
+          </div>
+          <div class="cur-theme-body">
+            <div class="cur-theme-num">Pathway I</div>
+            <div class="cur-theme-title">The Anatomy of a Bubble</div>
+            <p class="cur-theme-desc">From Amsterdam&rsquo;s &ldquo;wind trade&rdquo; to London&rsquo;s South Sea collapse &mdash; the earliest recorded speculative manias, preserved in satirical cards, printed sheets, and ruined certificates.</p>
+            <div class="cur-theme-count">18th Century &middot; Netherlands, Britain, France</div>
+          </div>
+        </a>
+
+        <a href="gallery.html?q=east+india+company" class="cur-theme-card">
+          <div class="cur-theme-imgs">
+            <img class="cur-theme-img-primary" src="thumbnails/goetzmann1021.jpg" alt="VOC" loading="lazy">
+            <img class="cur-theme-img-secondary" src="thumbnails/goetzmann0302.jpg" alt="China bond" loading="lazy">
+          </div>
+          <div class="cur-theme-body">
+            <div class="cur-theme-num">Pathway II</div>
+            <div class="cur-theme-title">Commerce Across Empires</div>
+            <p class="cur-theme-desc">The earliest joint-stock companies financed by thousands of shareholders. VOC obligation receipts, East India bonds, and colonial loan instruments from the height of the age of exploration.</p>
+            <div class="cur-theme-count">17th &ndash; 19th Century &middot; Netherlands, UK, China</div>
+          </div>
+        </a>
+
+        <a href="gallery.html?country=United+States" class="cur-theme-card">
+          <div class="cur-theme-imgs">
+            <img class="cur-theme-img-primary" src="thumbnails/goetzmann0340.jpg" alt="Confederate Bond" loading="lazy">
+            <img class="cur-theme-img-secondary" src="thumbnails/goetzmann0181.jpg" alt="US document" loading="lazy">
+          </div>
+          <div class="cur-theme-body">
+            <div class="cur-theme-num">Pathway III</div>
+            <div class="cur-theme-title">War, Crisis, and Capital</div>
+            <p class="cur-theme-desc">Confederate cotton bonds, railroad certificates, and wartime debt instruments document how nations financed conflict and how markets priced the risk of collapse &mdash; sometimes catastrophically.</p>
+            <div class="cur-theme-count">19th &ndash; 20th Century &middot; United States, Europe</div>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection Spotlight -->
+  <section class="cur-spotlight">
+    <div class="cur-spotlight-inner">
+      <div class="cur-spotlight-img-wrap">
+        <span class="cur-spotlight-badge">Collection Spotlight</span>
+        <img class="cur-spotlight-img" src="thumbnails/goetzmann1021.jpg" alt="VOC Obligation Receipt, 1622">
+      </div>
+      <div class="cur-spotlight-body">
+        <div class="cur-spotlight-eyebrow">Featured Item</div>
+        <h2 class="cur-spotlight-title">VOC Obligation Receipt</h2>
+        <div class="cur-spotlight-subtitle">Dutch East India Company &mdash; Amsterdam, 1622</div>
+        <blockquote class="cur-spotlight-pullquote">&ldquo;The world&rsquo;s first multinational corporation, financed by thousands of individual investors who received printed receipts like this one.&rdquo;</blockquote>
+        <p class="cur-spotlight-text">Issued just twenty years after the founding of the Vereenigde Oost-Indische Compagnie, this obligation receipt represents an early form of corporate debt &mdash; a promise to repay a subscriber who had funded the Company&rsquo;s voyages to the East Indies. The VOC was the first company to offer shares to the general public, laying the groundwork for modern capital markets.</p>
+        <div class="cur-spotlight-meta">
+          <div class="cur-spotlight-meta-item">
+            <div class="cur-spotlight-meta-label">Date</div>
+            <div class="cur-spotlight-meta-value">1622</div>
+          </div>
+          <div class="cur-spotlight-meta-item">
+            <div class="cur-spotlight-meta-label">Origin</div>
+            <div class="cur-spotlight-meta-value">Netherlands</div>
+          </div>
+          <div class="cur-spotlight-meta-item">
+            <div class="cur-spotlight-meta-label">Type</div>
+            <div class="cur-spotlight-meta-value">Certificate</div>
+          </div>
+          <div class="cur-spotlight-meta-item">
+            <div class="cur-spotlight-meta-label">Language</div>
+            <div class="cur-spotlight-meta-value">Dutch</div>
+          </div>
+        </div>
+        <a href="viewer.html?id=goetzmann1021" class="cur-spotlight-link">View this item &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection Highlights strip -->
+  <section class="cur-highlights">
+    <div class="cur-highlights-inner">
+      <div class="cur-section-header">
+        <h2 class="cur-section-title">Collection Highlights</h2>
+        <a href="highlights.html" class="cur-section-link">View all highlights &rarr;</a>
+      </div>
+      <div class="cur-highlights-grid">
+        <a href="viewer.html?id=goetzmann0004" class="cur-highlight-card">
+          <div class="cur-highlight-img"><img src="thumbnails/goetzmann0004.jpg" alt="" loading="lazy"></div>
+          <div class="cur-highlight-title">Groote Tafereel der Dwaasheid</div>
+          <div class="cur-highlight-meta">Netherlands &middot; 1720</div>
+        </a>
+        <a href="viewer.html?id=goetzmann0491" class="cur-highlight-card">
+          <div class="cur-highlight-img"><img src="thumbnails/goetzmann0491.jpg" alt="" loading="lazy"></div>
+          <div class="cur-highlight-title">Compagnie des Indes Share Certificate</div>
+          <div class="cur-highlight-meta">France &middot; 1745</div>
+        </a>
+        <a href="viewer.html?id=goetzmann0302" class="cur-highlight-card">
+          <div class="cur-highlight-img"><img src="thumbnails/goetzmann0302.jpg" alt="" loading="lazy"></div>
+          <div class="cur-highlight-title">Banque Industrielle de Chine</div>
+          <div class="cur-highlight-meta">China &middot; 1913</div>
+        </a>
+        <a href="viewer.html?id=goetzmann0540" class="cur-highlight-card">
+          <div class="cur-highlight-img"><img src="thumbnails/goetzmann0540.jpg" alt="" loading="lazy"></div>
+          <div class="cur-highlight-title">British Railway Debenture</div>
+          <div class="cur-highlight-meta">United Kingdom &middot; 1848</div>
+        </a>
+        <a href="viewer.html?id=goetzmann0915" class="cur-highlight-card">
+          <div class="cur-highlight-img"><img src="thumbnails/goetzmann0915.jpg" alt="" loading="lazy"></div>
+          <div class="cur-highlight-title">Soci&eacute;t&eacute; du Bazacle Share</div>
+          <div class="cur-highlight-meta">France &middot; 14th Century</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quiet search prompt -->
+  <section class="cur-search-prompt">
+    <div class="cur-search-prompt-eyebrow">Archive Access</div>
+    <h2 class="cur-search-prompt-title">Search all 545 documents</h2>
+    <p class="cur-search-prompt-sub">Full-text search across titles, descriptions, countries, currencies, and more.</p>
+    <div class="cur-search-row">
+      <input class="cur-search-input" type="text" placeholder="e.g. &ldquo;Dutch East India Company&rdquo; or &ldquo;1890 railroad bond&rdquo;&hellip;">
+      <button class="cur-search-btn">Search</button>
+    </div>
+    <div class="cur-browse-links">
+      <a href="gallery.html" class="cur-browse-link">Browse by type</a>
+      <span class="cur-browse-link-divider">/</span>
+      <a href="map.html" class="cur-browse-link">Browse by country</a>
+      <span class="cur-browse-link-divider">/</span>
+      <a href="gallery.html?period=19th+Century" class="cur-browse-link">Browse by era</a>
+      <span class="cur-browse-link-divider">/</span>
+      <a href="glossary.html" class="cur-browse-link">Document type glossary</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
+  </footer>
+
+</body>
+</html>
