@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mockup D: Graphic — Collection</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+
+    /* ── Version label ── */
+    .mockup-label {
+      background: var(--gold);
+      color: var(--navy);
+      text-align: center;
+      padding: 0.5rem 1rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ── Split Hero ── */
+    .gfx-hero {
+      display: grid;
+      grid-template-columns: 1fr 42%;
+      min-height: 90vh;
+    }
+    .gfx-hero-left {
+      background: var(--navy);
+      padding: 5rem 4rem 5rem 3rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      border-right: 4px solid var(--gold);
+    }
+    .gfx-hero-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+    }
+    .gfx-hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.6rem;
+      font-weight: 400;
+      color: var(--white);
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.01em;
+    }
+    .gfx-hero-title strong {
+      color: var(--gold);
+      font-weight: 700;
+    }
+    .gfx-hero-rule {
+      width: 60px;
+      height: 3px;
+      background: var(--gold);
+      margin: 1.5rem 0;
+    }
+    .gfx-hero-desc {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.75;
+      max-width: 480px;
+      margin-bottom: 1.5rem;
+    }
+    .gfx-hero-desc-2 {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.7);
+      line-height: 1.75;
+      max-width: 480px;
+      margin-bottom: 2.5rem;
+    }
+    .gfx-hero-cta {
+      display: inline-block;
+      padding: 0.75rem 2rem;
+      background: var(--gold);
+      color: var(--navy);
+      text-decoration: none;
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      border-radius: var(--radius);
+      border: 2px solid var(--gold);
+      align-self: flex-start;
+      transition: all 0.2s;
+    }
+    .gfx-hero-cta:hover { background: transparent; color: var(--gold); }
+    .gfx-hero-right {
+      background: var(--navy);
+      position: relative;
+      overflow: hidden;
+    }
+    .gfx-hero-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+      opacity: 0.85;
+    }
+    .gfx-hero-img-label {
+      position: absolute;
+      bottom: 2rem;
+      left: 2rem;
+      right: 2rem;
+      background: rgba(10,20,45,0.8);
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1rem;
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.7);
+      letter-spacing: 0.03em;
+    }
+    .gfx-hero-img-label strong {
+      display: block;
+      color: var(--white);
+      font-size: 0.85rem;
+      margin-bottom: 0.2rem;
+    }
+
+    /* ── Stats band ── */
+    .gfx-stats {
+      background: var(--gold);
+      padding: 0;
+    }
+    .gfx-stats-inner {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .gfx-stat {
+      padding: 2rem 1.5rem;
+      text-align: center;
+      border-right: 1px solid rgba(15,31,63,0.15);
+    }
+    .gfx-stat:last-child { border-right: none; }
+    .gfx-stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1;
+      display: block;
+    }
+    .gfx-stat-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: rgba(15,31,63,0.65);
+      margin-top: 0.4rem;
+      display: block;
+    }
+
+    /* ── Shared section scaffolding ── */
+    .gfx-section {
+      padding: 5rem 3rem;
+    }
+    .gfx-section-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .gfx-section-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 6rem;
+      font-weight: 700;
+      color: var(--parchment-dark);
+      line-height: 1;
+      margin-bottom: -1.5rem;
+      display: block;
+      user-select: none;
+    }
+    .gfx-section-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+    .gfx-section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.2rem;
+      font-weight: 400;
+      color: var(--navy);
+      line-height: 1.15;
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.25rem;
+      border-bottom: 2px solid var(--navy);
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+    }
+    .gfx-section-title a {
+      font-size: 0.85rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+      font-family: 'Source Sans 3', sans-serif;
+      letter-spacing: 0.03em;
+    }
+
+    /* ── Exhibitions ── */
+    .gfx-exhibits { background: var(--white); }
+    .gfx-exhibit-primary {
+      display: grid;
+      grid-template-columns: 48% 1fr;
+      margin-bottom: 1.25rem;
+      border: 1px solid var(--parchment-dark);
+      border-radius: 4px;
+      overflow: hidden;
+      text-decoration: none;
+      color: var(--text);
+      transition: box-shadow 0.2s;
+      min-height: 300px;
+    }
+    .gfx-exhibit-primary:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.12); }
+    .gfx-exhibit-primary-img {
+      overflow: hidden;
+      background: var(--parchment-dark);
+    }
+    .gfx-exhibit-primary-img img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.5s;
+    }
+    .gfx-exhibit-primary:hover .gfx-exhibit-primary-img img { transform: scale(1.04); }
+    .gfx-exhibit-primary-body {
+      padding: 2.5rem 2.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: var(--navy);
+    }
+    .gfx-exhibit-primary-badge {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+    .gfx-exhibit-primary-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem;
+      font-weight: 400;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+    .gfx-exhibit-primary-desc {
+      font-size: 0.92rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.7;
+      margin-bottom: 1.5rem;
+    }
+    .gfx-exhibit-primary-cta {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--gold);
+      letter-spacing: 0.04em;
+    }
+    .gfx-exhibit-secondary {
+      display: grid;
+      grid-template-columns: 30% 1fr;
+      border: 1px solid var(--parchment-dark);
+      border-radius: 4px;
+      overflow: hidden;
+      text-decoration: none;
+      color: var(--text);
+      transition: box-shadow 0.2s;
+      height: 120px;
+    }
+    .gfx-exhibit-secondary:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.1); }
+    .gfx-exhibit-secondary-img {
+      overflow: hidden;
+      background: var(--parchment-dark);
+    }
+    .gfx-exhibit-secondary-img img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.4s;
+    }
+    .gfx-exhibit-secondary:hover .gfx-exhibit-secondary-img img { transform: scale(1.05); }
+    .gfx-exhibit-secondary-body {
+      padding: 1.1rem 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: var(--parchment);
+    }
+    .gfx-exhibit-secondary-badge {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.3rem;
+    }
+    .gfx-exhibit-secondary-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1rem;
+      color: var(--navy);
+      font-weight: 400;
+      line-height: 1.3;
+    }
+
+    /* ── Browse themes ── */
+    .gfx-themes { background: var(--navy); }
+    .gfx-themes .gfx-section-num { color: rgba(255,255,255,0.06); }
+    .gfx-themes .gfx-section-label { color: var(--gold); }
+    .gfx-themes .gfx-section-title { color: var(--white); border-bottom-color: rgba(255,255,255,0.2); }
+    .gfx-themes .gfx-section-title a { color: var(--gold); }
+    .gfx-themes-grid {
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr;
+      gap: 1rem;
+    }
+    .gfx-theme-card {
+      position: relative;
+      text-decoration: none;
+      border-radius: 3px;
+      overflow: hidden;
+      display: block;
+    }
+    .gfx-theme-card-tall { aspect-ratio: 3/4; }
+    .gfx-theme-card-short { aspect-ratio: 4/3; }
+    .gfx-theme-img {
+      position: absolute;
+      inset: 0;
+    }
+    .gfx-theme-img img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s;
+      filter: brightness(0.6) saturate(0.8);
+    }
+    .gfx-theme-card:hover .gfx-theme-img img {
+      transform: scale(1.06);
+      filter: brightness(0.5) saturate(0.8);
+    }
+    .gfx-theme-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(10,20,45,0.9) 0%, transparent 60%);
+    }
+    .gfx-theme-body {
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      padding: 1.5rem 1.5rem 1.75rem;
+    }
+    .gfx-theme-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+    .gfx-theme-card-tall .gfx-theme-title { font-size: 1.65rem; }
+    .gfx-theme-desc {
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.72);
+      line-height: 1.55;
+    }
+    .gfx-right-col {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    /* ── Highlights mosaic ── */
+    .gfx-highlights { background: var(--parchment); border-top: 1px solid var(--parchment-dark); }
+    .gfx-mosaic {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: 200px 200px;
+      gap: 0.5rem;
+    }
+    .gfx-mosaic-item {
+      position: relative;
+      overflow: hidden;
+      text-decoration: none;
+      border-radius: 2px;
+      background: var(--navy);
+    }
+    .gfx-mosaic-item:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+    .gfx-mosaic-item:nth-child(2) { grid-column: span 2; }
+    .gfx-mosaic-item:nth-child(3) { grid-column: span 2; }
+    .gfx-mosaic-item:nth-child(4) { grid-column: span 1; }
+    .gfx-mosaic-item:nth-child(5) { grid-column: span 1; }
+    .gfx-mosaic-item:nth-child(6) { grid-column: span 2; }
+    .gfx-mosaic-img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.4s, opacity 0.3s;
+    }
+    .gfx-mosaic-item:hover .gfx-mosaic-img { transform: scale(1.06); opacity: 0.7; }
+    .gfx-mosaic-label {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 1rem;
+      background: linear-gradient(to top, rgba(10,20,45,0.85) 0%, transparent 55%);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+    .gfx-mosaic-item:hover .gfx-mosaic-label { opacity: 1; }
+    .gfx-mosaic-title {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--white);
+      line-height: 1.35;
+    }
+    .gfx-mosaic-meta {
+      font-size: 0.72rem;
+      color: rgba(255,255,255,0.65);
+    }
+
+    /* ── Archive access ── */
+    .gfx-archive {
+      background: var(--navy);
+      padding: 4rem 3rem;
+      text-align: center;
+    }
+    .gfx-archive-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+    .gfx-archive-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 400;
+      color: var(--white);
+      margin-bottom: 0.75rem;
+    }
+    .gfx-archive-sub {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.55);
+      margin-bottom: 2rem;
+    }
+    .gfx-archive-row {
+      display: flex;
+      max-width: 560px;
+      margin: 0 auto 1.75rem;
+      gap: 0.5rem;
+    }
+    .gfx-archive-input {
+      flex: 1;
+      padding: 0.85rem 1.2rem;
+      font-size: 0.95rem;
+      font-family: 'Source Sans 3', sans-serif;
+      border: 1.5px solid rgba(255,255,255,0.2);
+      border-radius: var(--radius);
+      background: rgba(255,255,255,0.07);
+      color: var(--white);
+    }
+    .gfx-archive-input::placeholder { color: rgba(255,255,255,0.35); }
+    .gfx-archive-input:focus { outline: none; border-color: var(--gold); }
+    .gfx-archive-btn {
+      padding: 0.85rem 1.75rem;
+      background: var(--gold);
+      color: var(--navy);
+      border: none;
+      border-radius: var(--radius);
+      font-size: 0.9rem;
+      font-weight: 700;
+      font-family: 'Source Sans 3', sans-serif;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .gfx-archive-links {
+      display: flex;
+      gap: 1.75rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .gfx-archive-link {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.5);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .gfx-archive-link:hover { color: var(--gold); }
+
+  </style>
+</head>
+<body>
+
+  <div class="mockup-label">Mockup D &mdash; Graphic</div>
+
+  <header class="site-header">
+    <h1><a href="index.html">Origins of <span>Value</span></a></h1>
+    <nav class="header-nav">
+      <a href="collection.html" class="header-nav-link active">Collection</a>
+      <a href="map.html" class="header-nav-link">Map</a>
+      <a href="exhibits.html" class="header-nav-link">Exhibits</a>
+    </nav>
+  </header>
+
+  <!-- Split Hero -->
+  <section class="gfx-hero">
+    <div class="gfx-hero-left">
+      <div class="gfx-hero-eyebrow">About the Collection</div>
+      <h2 class="gfx-hero-title">Origins<br>of <strong>Value</strong></h2>
+      <div class="gfx-hero-rule"></div>
+      <p class="gfx-hero-desc">The Origins of Value collection comprises 545 historical financial documents &mdash; bonds, stock certificates, banknotes, prospectuses, and more &mdash; spanning the 17th through 20th centuries and drawn from 65 countries. Assembled at the International Center for Finance at the Yale School of Management.</p>
+      <p class="gfx-hero-desc-2">Representing 77 languages and 131 currencies, each document tells a story of commerce, innovation, and risk. Together, they form a remarkable record of how societies have organized capital, financed exploration, and weathered financial crises from the South Sea Bubble to the modern era.</p>
+      <a href="gallery.html" class="gfx-hero-cta">Search the collection &rarr;</a>
+    </div>
+    <div class="gfx-hero-right">
+      <img class="gfx-hero-img" src="thumbnails/goetzmann1021.jpg" alt="VOC Obligation Receipt, 1622">
+      <div class="gfx-hero-img-label">
+        <strong>VOC Obligation Receipt &mdash; Amsterdam, 1622</strong>
+        Among the earliest surviving share certificates of a joint-stock company
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats band -->
+  <div class="gfx-stats">
+    <div class="gfx-stats-inner">
+      <div class="gfx-stat">
+        <span class="gfx-stat-num">545</span>
+        <span class="gfx-stat-label">Documents</span>
+      </div>
+      <div class="gfx-stat">
+        <span class="gfx-stat-num">65</span>
+        <span class="gfx-stat-label">Countries</span>
+      </div>
+      <div class="gfx-stat">
+        <span class="gfx-stat-num">77</span>
+        <span class="gfx-stat-label">Languages</span>
+      </div>
+      <div class="gfx-stat">
+        <span class="gfx-stat-num">131</span>
+        <span class="gfx-stat-label">Currencies</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Exhibitions -->
+  <section class="gfx-section gfx-exhibits">
+    <div class="gfx-section-inner">
+      <span class="gfx-section-num">01</span>
+      <h2 class="gfx-section-title">
+        Online Exhibitions
+        <a href="exhibits.html">View all &rarr;</a>
+      </h2>
+
+      <a href="exhibit-women-investors.html" class="gfx-exhibit-primary">
+        <div class="gfx-exhibit-primary-img">
+          <img src="images/exhibits/goetzmann0491.jpg" alt="Women as Investors" loading="lazy">
+        </div>
+        <div class="gfx-exhibit-primary-body">
+          <div class="gfx-exhibit-primary-badge">Online Exhibit</div>
+          <h3 class="gfx-exhibit-primary-title">Women as Investors</h3>
+          <p class="gfx-exhibit-primary-desc">A hidden history of capital: nine documents tracing women&rsquo;s participation in financial markets from 18th-century Paris to 1930s America.</p>
+          <span class="gfx-exhibit-primary-cta">Enter exhibition &rarr;</span>
+        </div>
+      </a>
+
+      <a href="exhibit-stock-market.html" class="gfx-exhibit-secondary">
+        <div class="gfx-exhibit-secondary-img">
+          <img src="images/exhibits/goetzmann1021.jpg" alt="The Birth of the Stock Market" loading="lazy">
+        </div>
+        <div class="gfx-exhibit-secondary-body">
+          <div class="gfx-exhibit-secondary-badge">Online Exhibit</div>
+          <div class="gfx-exhibit-secondary-title">The Birth of the Stock Market</div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- Browse the Collection -->
+  <section class="gfx-section gfx-themes">
+    <div class="gfx-section-inner">
+      <span class="gfx-section-num">02</span>
+      <h2 class="gfx-section-title">
+        Browse the Collection
+        <a href="gallery.html">Full archive &rarr;</a>
+      </h2>
+
+      <div class="gfx-themes-grid">
+
+        <!-- Tall primary card -->
+        <a href="gallery.html?q=railway" class="gfx-theme-card gfx-theme-card-tall">
+          <div class="gfx-theme-img">
+            <img src="thumbnails/goetzmann0540.jpg" alt="" loading="lazy">
+          </div>
+          <div class="gfx-theme-overlay"></div>
+          <div class="gfx-theme-body">
+            <div class="gfx-theme-title">Railways: Iron Roads &amp; Paper Promises</div>
+            <p class="gfx-theme-desc">Railway bonds, mining certificates, and industrial debentures &mdash; the instruments that built the modern world.</p>
+          </div>
+        </a>
+
+        <!-- Right column: two stacked -->
+        <div class="gfx-right-col">
+          <a href="gallery.html?q=groote+tafereel" class="gfx-theme-card gfx-theme-card-short">
+            <div class="gfx-theme-img">
+              <img src="thumbnails/goetzmann0004.jpg" alt="" loading="lazy">
+            </div>
+            <div class="gfx-theme-overlay"></div>
+            <div class="gfx-theme-body">
+              <div class="gfx-theme-title">The Great Mirror of Folly</div>
+              <p class="gfx-theme-desc">Amsterdam, 1720 &mdash; satire, speculation, and collapse.</p>
+            </div>
+          </a>
+          <a href="gallery.html?type=Tontine" class="gfx-theme-card gfx-theme-card-short">
+            <div class="gfx-theme-img">
+              <img src="thumbnails/goetzmann0606.jpg" alt="" loading="lazy">
+            </div>
+            <div class="gfx-theme-overlay"></div>
+            <div class="gfx-theme-body">
+              <div class="gfx-theme-title">Tontines</div>
+              <p class="gfx-theme-desc">A collective annuity where each death enriched the survivors.</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection Highlights mosaic -->
+  <section class="gfx-section gfx-highlights">
+    <div class="gfx-section-inner">
+      <span class="gfx-section-num">03</span>
+      <h2 class="gfx-section-title">
+        Collection Highlights
+        <a href="highlights.html">View all &rarr;</a>
+      </h2>
+      <div class="gfx-mosaic">
+        <a href="viewer.html?id=goetzmann1021" class="gfx-mosaic-item">
+          <img class="gfx-mosaic-img" src="thumbnails/goetzmann1021.jpg" alt="" loading="lazy">
+          <div class="gfx-mosaic-label">
+            <div class="gfx-mosaic-title">Dutch East India Company Obligation</div>
+            <div class="gfx-mosaic-meta">Netherlands &middot; 1622</div>
+          </div>
+        </a>
+        <a href="viewer.html?id=goetzmann0491" class="gfx-mosaic-item">
+          <img class="gfx-mosaic-img" src="thumbnails/goetzmann0491.jpg" alt="" loading="lazy">
+          <div class="gfx-mosaic-label">
+            <div class="gfx-mosaic-title">Compagnie des Indes Share</div>
+            <div class="gfx-mosaic-meta">France &middot; 1745</div>
+          </div>
+        </a>
+        <a href="viewer.html?id=goetzmann0302" class="gfx-mosaic-item">
+          <img class="gfx-mosaic-img" src="thumbnails/goetzmann0302.jpg" alt="" loading="lazy">
+          <div class="gfx-mosaic-label">
+            <div class="gfx-mosaic-title">Banque Industrielle de Chine</div>
+            <div class="gfx-mosaic-meta">China &middot; 1913</div>
+          </div>
+        </a>
+        <a href="viewer.html?id=goetzmann0028" class="gfx-mosaic-item">
+          <img class="gfx-mosaic-img" src="thumbnails/goetzmann0028.jpg" alt="" loading="lazy">
+          <div class="gfx-mosaic-label">
+            <div class="gfx-mosaic-title">South Sea Bubble Playing Card</div>
+            <div class="gfx-mosaic-meta">Britain &middot; c.1720</div>
+          </div>
+        </a>
+        <a href="viewer.html?id=goetzmann0915" class="gfx-mosaic-item">
+          <img class="gfx-mosaic-img" src="thumbnails/goetzmann0915.jpg" alt="" loading="lazy">
+          <div class="gfx-mosaic-label">
+            <div class="gfx-mosaic-title">Soci&eacute;t&eacute; du Bazacle Share</div>
+            <div class="gfx-mosaic-meta">France &middot; 14th Century</div>
+          </div>
+        </a>
+        <a href="viewer.html?id=goetzmann0540" class="gfx-mosaic-item">
+          <img class="gfx-mosaic-img" src="thumbnails/goetzmann0540.jpg" alt="" loading="lazy">
+          <div class="gfx-mosaic-label">
+            <div class="gfx-mosaic-title">British Railway Debenture</div>
+            <div class="gfx-mosaic-meta">United Kingdom &middot; 1848</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Archive Access -->
+  <section class="gfx-archive">
+    <div class="gfx-archive-eyebrow">Archive Access</div>
+    <h2 class="gfx-archive-title">Search all 545 documents</h2>
+    <p class="gfx-archive-sub">Full-text search across titles, descriptions, countries, currencies, and more.</p>
+    <div class="gfx-archive-row">
+      <input class="gfx-archive-input" type="text" placeholder="e.g. &ldquo;Dutch East India Company&rdquo; or &ldquo;1890 railroad bond&rdquo;&hellip;">
+      <button class="gfx-archive-btn">Search</button>
+    </div>
+    <div class="gfx-archive-links">
+      <a href="gallery.html" class="gfx-archive-link">Browse by type</a>
+      <a href="map.html" class="gfx-archive-link">Browse by country</a>
+      <a href="gallery.html?period=19th+Century" class="gfx-archive-link">Browse by era</a>
+      <a href="glossary.html" class="gfx-archive-link">Document type glossary</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
+  </footer>
+
+</body>
+</html>
