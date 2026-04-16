@@ -918,12 +918,12 @@ body.homepage {
 
 .hero-cta {
   display: inline-block;
-  padding: 0.9rem 2.5rem;
+  padding: 0.6rem 1.5rem;
   background: var(--gold);
   color: var(--navy);
   text-decoration: none;
   font-family: 'Source Sans 3', sans-serif;
-  font-size: 1.05rem;
+  font-size: 0.88rem;
   font-weight: 600;
   letter-spacing: 0.03em;
   border-radius: var(--radius);
