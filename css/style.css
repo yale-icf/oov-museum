@@ -927,7 +927,7 @@ body.homepage {
   font-weight: 600;
   letter-spacing: 0.03em;
   border-radius: var(--radius);
-  border: 2px solid rgba(255,255,255,0.5);
+  border: 2px solid var(--gold);
   transition: all 0.2s ease;
 }
 
