@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mockup C: Combined — Collection</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+
+    /* ── Version label ── */
+    .mockup-label {
+      background: var(--gold);
+      color: var(--navy);
+      text-align: center;
+      padding: 0.5rem 1rem;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    /* ── Hero (ICF hallway + editorial text) ── */
+    .cmb-hero {
+      position: relative;
+      min-height: 540px;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      border-top: 3px solid var(--gold);
+    }
+    .cmb-hero-bg {
+      position: absolute;
+      inset: 0;
+      background-image: url('images/ICF_Hallway.png');
+      background-size: cover;
+      background-position: center;
+      filter: brightness(0.35) saturate(0.6);
+    }
+    .cmb-hero-content {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 3rem 2rem 4.5rem;
+      display: flex;
+      align-items: flex-end;
+      gap: 4rem;
+    }
+    .cmb-hero-left { flex: 1; }
+    .cmb-hero-eyebrow {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .cmb-hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.6rem;
+      font-weight: 400;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 1.25rem;
+      max-width: 620px;
+    }
+    .cmb-hero-desc {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.72);
+      line-height: 1.75;
+      max-width: 560px;
+      margin-bottom: 2rem;
+      font-weight: 300;
+    }
+    .cmb-hero-cta {
+      display: inline-block;
+      padding: 0.7rem 1.75rem;
+      background: var(--gold);
+      color: var(--navy);
+      text-decoration: none;
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 0.9rem;
+      font-weight: 700;
+      border-radius: var(--radius);
+      border: 2px solid var(--gold);
+      transition: all 0.2s;
+      letter-spacing: 0.02em;
+    }
+    .cmb-hero-cta:hover {
+      background: transparent;
+      color: var(--gold);
+    }
+    .cmb-hero-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+      padding-bottom: 0.5rem;
+      flex-shrink: 0;
+    }
+    .cmb-hero-stat { text-align: center; }
+    .cmb-hero-stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      font-weight: 400;
+      color: var(--white);
+      line-height: 1;
+    }
+    .cmb-hero-stat-label {
+      font-size: 0.7rem;
+      color: rgba(255,255,255,0.45);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-top: 0.3rem;
+    }
+    .cmb-hero-divider {
+      width: 1px;
+      height: 2rem;
+      background: rgba(255,255,255,0.15);
+    }
+
+    /* ── Shared section header ── */
+    .cmb-section {
+      padding: 4rem 2rem;
+    }
+    .cmb-section-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .cmb-section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 2rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 2px solid var(--navy);
+    }
+    .cmb-section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.55rem;
+      font-weight: 400;
+      color: var(--navy);
+    }
+    .cmb-section-link {
+      font-size: 0.85rem;
+      color: var(--gold);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    /* ── Exhibitions ── */
+    .cmb-exhibits { background: var(--white); }
+    .cmb-exhibit-grid {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr;
+      gap: 1.75rem;
+    }
+    .cmb-exhibit-card {
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      border: 1px solid var(--parchment-dark);
+      border-radius: 4px;
+      overflow: hidden;
+      transition: box-shadow 0.2s;
+    }
+    .cmb-exhibit-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.11); }
+    .cmb-exhibit-img {
+      width: 100%;
+      aspect-ratio: 16/9;
+      overflow: hidden;
+      background: var(--parchment-dark);
+    }
+    .cmb-exhibit-img img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.4s;
+    }
+    .cmb-exhibit-card:hover .cmb-exhibit-img img { transform: scale(1.04); }
+    .cmb-exhibit-body {
+      padding: 1.5rem 1.75rem 1.75rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .cmb-exhibit-badge {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+    .cmb-exhibit-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      font-weight: 400;
+      color: var(--navy);
+      line-height: 1.3;
+      margin-bottom: 0.65rem;
+    }
+    .cmb-exhibit-desc {
+      font-size: 0.9rem;
+      color: var(--text-light);
+      line-height: 1.65;
+      flex: 1;
+    }
+    .cmb-exhibit-meta {
+      margin-top: 1rem;
+      font-size: 0.78rem;
+      color: var(--text-light);
+      padding-top: 0.85rem;
+      border-top: 1px solid var(--parchment-dark);
+    }
+
+    /* ── Thematic Pathways ── */
+    .cmb-themes {
+      background: var(--parchment);
+      border-top: 1px solid var(--parchment-dark);
+      border-bottom: 1px solid var(--parchment-dark);
+    }
+    .cmb-themes-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+    .cmb-theme-card {
+      text-decoration: none;
+      color: var(--text);
+      background: var(--white);
+      border-radius: 4px;
+      overflow: hidden;
+      border: 1px solid var(--parchment-dark);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+    .cmb-theme-card:hover {
+      box-shadow: 0 8px 28px rgba(0,0,0,0.1);
+      transform: translateY(-2px);
+    }
+    .cmb-theme-imgs {
+      position: relative;
+      height: 155px;
+      background: var(--navy);
+      overflow: hidden;
+    }
+    .cmb-theme-img-a {
+      position: absolute;
+      left: 0; top: 0;
+      width: 62%; height: 100%;
+      object-fit: cover;
+      border-right: 3px solid var(--white);
+    }
+    .cmb-theme-img-b {
+      position: absolute;
+      right: 0; top: 0;
+      width: 38%; height: 100%;
+      object-fit: cover;
+      opacity: 0.75;
+    }
+    .cmb-theme-body { padding: 1.3rem 1.4rem 1.5rem; }
+    .cmb-theme-num {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.4rem;
+    }
+    .cmb-theme-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--navy);
+      line-height: 1.3;
+      margin-bottom: 0.55rem;
+    }
+    .cmb-theme-desc {
+      font-size: 0.84rem;
+      color: var(--text-light);
+      line-height: 1.6;
+    }
+
+    /* ── Collection Highlights ── */
+    .cmb-highlights { background: var(--white); }
+    .cmb-highlights-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 1.25rem;
+    }
+    .cmb-highlight-card {
+      text-decoration: none;
+      color: var(--text);
+    }
+    .cmb-highlight-img {
+      width: 100%;
+      aspect-ratio: 3/4;
+      background: var(--parchment-dark);
+      overflow: hidden;
+      border-radius: 3px;
+      margin-bottom: 0.6rem;
+    }
+    .cmb-highlight-img img {
+      width: 100%; height: 100%; object-fit: cover;
+      transition: transform 0.3s;
+    }
+    .cmb-highlight-card:hover .cmb-highlight-img img { transform: scale(1.05); }
+    .cmb-highlight-title {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.4;
+      margin-bottom: 0.2rem;
+    }
+    .cmb-highlight-meta {
+      font-size: 0.74rem;
+      color: var(--text-light);
+    }
+
+    /* ── Browse grid (country + type + era) ── */
+    .cmb-browse { background: var(--parchment); border-top: 1px solid var(--parchment-dark); }
+    .cmb-browse-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3rem;
+    }
+    .cmb-browse-sub-header {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.13em;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--parchment-dark);
+    }
+    .cmb-country-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.75rem;
+      margin-bottom: 2.5rem;
+    }
+    .cmb-country-card {
+      text-decoration: none;
+      color: var(--text);
+      background: var(--white);
+      border: 1px solid var(--parchment-dark);
+      border-radius: 3px;
+      overflow: hidden;
+      transition: box-shadow 0.15s;
+    }
+    .cmb-country-card:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+    .cmb-country-img {
+      width: 100%; aspect-ratio: 4/3; overflow: hidden;
+      background: var(--parchment-dark);
+    }
+    .cmb-country-img img { width: 100%; height: 100%; object-fit: cover; }
+    .cmb-country-body { padding: 0.5rem 0.6rem 0.6rem; }
+    .cmb-country-name {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--navy);
+    }
+    .cmb-country-count {
+      font-size: 0.72rem;
+      color: var(--text-light);
+    }
+    .cmb-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 2.5rem;
+    }
+    .cmb-pill {
+      padding: 0.35rem 0.85rem;
+      background: var(--white);
+      border: 1px solid var(--parchment-dark);
+      border-radius: 2px;
+      font-size: 0.82rem;
+      color: var(--navy);
+      text-decoration: none;
+      transition: border-color 0.15s, background 0.15s;
+    }
+    .cmb-pill:hover {
+      border-color: var(--gold);
+      background: var(--parchment);
+    }
+
+    /* ── Publication cards ── */
+    .cmb-pub-row {
+      display: flex;
+      gap: 0.75rem;
+    }
+    .cmb-pub-card {
+      flex: 1;
+      min-width: 0;
+      text-decoration: none;
+      color: var(--text);
+      background: var(--white);
+      border: 1px solid var(--parchment-dark);
+      border-radius: 3px;
+      overflow: hidden;
+      transition: box-shadow 0.15s;
+    }
+    .cmb-pub-card:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.08); }
+    .cmb-pub-imgs {
+      height: 72px;
+      display: flex;
+      gap: 2px;
+      background: var(--navy);
+      overflow: hidden;
+    }
+    .cmb-pub-imgs img {
+      flex: 1; min-width: 0;
+      object-fit: cover;
+    }
+    .cmb-pub-body { padding: 0.6rem 0.7rem 0.7rem; }
+    .cmb-pub-title {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--navy);
+      line-height: 1.35;
+    }
+    .cmb-pub-desc {
+      font-size: 0.72rem;
+      color: var(--text-light);
+      margin-top: 0.2rem;
+      line-height: 1.4;
+    }
+
+    /* ── Collection Spotlight ── */
+    .cmb-spotlight {
+      background: var(--navy);
+      padding: 4.5rem 2rem;
+    }
+    .cmb-spotlight-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1.5fr;
+      gap: 4rem;
+      align-items: center;
+    }
+    .cmb-spotlight-img-wrap { position: relative; }
+    .cmb-spotlight-img {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+      border-radius: 3px;
+      box-shadow: 0 16px 48px rgba(0,0,0,0.5);
+      display: block;
+    }
+    .cmb-spotlight-badge {
+      position: absolute;
+      top: -0.9rem;
+      left: 1.25rem;
+      background: var(--gold);
+      color: var(--navy);
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.75rem;
+      border-radius: 2px;
+    }
+    .cmb-spotlight-eyebrow {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+    .cmb-spotlight-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      font-weight: 400;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 0.4rem;
+    }
+    .cmb-spotlight-subtitle {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.5);
+      font-style: italic;
+      margin-bottom: 1.75rem;
+    }
+    .cmb-spotlight-quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.15rem;
+      font-style: italic;
+      color: rgba(255,255,255,0.85);
+      line-height: 1.6;
+      border-left: 3px solid var(--gold);
+      padding-left: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .cmb-spotlight-text {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.62);
+      line-height: 1.75;
+      margin-bottom: 1.75rem;
+    }
+    .cmb-spotlight-meta {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+    .cmb-spotlight-meta-item {
+      border-top: 1px solid rgba(255,255,255,0.12);
+      padding-top: 0.55rem;
+    }
+    .cmb-spotlight-meta-label {
+      font-size: 0.67rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: rgba(255,255,255,0.32);
+      margin-bottom: 0.2rem;
+    }
+    .cmb-spotlight-meta-value {
+      font-size: 0.88rem;
+      color: rgba(255,255,255,0.78);
+    }
+    .cmb-spotlight-link {
+      display: inline-block;
+      padding: 0.75rem 1.75rem;
+      background: var(--gold);
+      color: var(--navy);
+      text-decoration: none;
+      border-radius: var(--radius);
+      font-size: 0.88rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="mockup-label">Mockup C &mdash; Combined</div>
+
+  <header class="site-header">
+    <h1><a href="index.html">Origins of <span>Value</span></a></h1>
+    <nav class="header-nav">
+      <a href="collection.html" class="header-nav-link active">Collection</a>
+      <a href="map.html" class="header-nav-link">Map</a>
+      <a href="exhibits.html" class="header-nav-link">Exhibits</a>
+    </nav>
+  </header>
+
+  <!-- Hero: ICF hallway photo + editorial text + stats -->
+  <section class="cmb-hero">
+    <div class="cmb-hero-bg"></div>
+    <div class="cmb-hero-content">
+      <div class="cmb-hero-left">
+        <div class="cmb-hero-eyebrow">About the Collection</div>
+        <h2 class="cmb-hero-title">545 historical documents. 65 countries. Four centuries of financial history.</h2>
+        <p class="cmb-hero-desc">Bonds, stock certificates, banknotes, and more, assembled at Yale&rsquo;s International Center for Finance. Each document a window into how societies organized capital, financed exploration, and weathered crises from the South Sea Bubble to the modern era.</p>
+        <a href="gallery.html" class="cmb-hero-cta">Search the collection</a>
+      </div>
+      <div class="cmb-hero-right">
+        <div class="cmb-hero-stat">
+          <div class="cmb-hero-stat-num">545</div>
+          <div class="cmb-hero-stat-label">Documents</div>
+        </div>
+        <div class="cmb-hero-divider"></div>
+        <div class="cmb-hero-stat">
+          <div class="cmb-hero-stat-num">65</div>
+          <div class="cmb-hero-stat-label">Countries</div>
+        </div>
+        <div class="cmb-hero-divider"></div>
+        <div class="cmb-hero-stat">
+          <div class="cmb-hero-stat-num">77</div>
+          <div class="cmb-hero-stat-label">Languages</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exhibitions -->
+  <section class="cmb-section cmb-exhibits">
+    <div class="cmb-section-inner">
+      <div class="cmb-section-header">
+        <h2 class="cmb-section-title">Online Exhibitions</h2>
+        <a href="exhibits.html" class="cmb-section-link">View all &rarr;</a>
+      </div>
+      <div class="cmb-exhibit-grid">
+        <a href="exhibit-women-investors.html" class="cmb-exhibit-card">
+          <div class="cmb-exhibit-img">
+            <img src="images/exhibits/goetzmann0491.jpg" alt="Women as Investors" loading="lazy">
+          </div>
+          <div class="cmb-exhibit-body">
+            <span class="cmb-exhibit-badge">Online Exhibit</span>
+            <h3 class="cmb-exhibit-title">Women as Investors</h3>
+            <p class="cmb-exhibit-desc">A hidden history of capital: nine documents tracing women&rsquo;s participation in financial markets from 18th-century Paris to 1930s America. Long overlooked in financial histories, women were active investors, inheritors, and market participants across centuries and continents.</p>
+            <div class="cmb-exhibit-meta">9 items &middot; France, Netherlands, United Kingdom, United States</div>
+          </div>
+        </a>
+        <a href="exhibit-stock-market.html" class="cmb-exhibit-card">
+          <div class="cmb-exhibit-img">
+            <img src="images/exhibits/goetzmann1021.jpg" alt="The Birth of the Stock Market" loading="lazy">
+          </div>
+          <div class="cmb-exhibit-body">
+            <span class="cmb-exhibit-badge">Online Exhibit</span>
+            <h3 class="cmb-exhibit-title">The Birth of the Stock Market</h3>
+            <p class="cmb-exhibit-desc">Six documents tracing the origins of equity markets, from a 14th-century French mill company to the Dutch Golden Age and the first joint-stock companies.</p>
+            <div class="cmb-exhibit-meta">6 items &middot; Netherlands, Belgium, France</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Thematic Pathways -->
+  <section class="cmb-section cmb-themes">
+    <div class="cmb-section-inner">
+      <div class="cmb-section-header">
+        <h2 class="cmb-section-title">Thematic Pathways</h2>
+        <a href="gallery.html" class="cmb-section-link">Browse full collection &rarr;</a>
+      </div>
+      <div class="cmb-themes-grid">
+        <a href="gallery.html?q=south+sea+bubble" class="cmb-theme-card">
+          <div class="cmb-theme-imgs">
+            <img class="cmb-theme-img-a" src="thumbnails/goetzmann0028.jpg" alt="" loading="lazy">
+            <img class="cmb-theme-img-b" src="thumbnails/goetzmann0079.jpg" alt="" loading="lazy">
+          </div>
+          <div class="cmb-theme-body">
+            <div class="cmb-theme-num">Pathway I</div>
+            <div class="cmb-theme-title">The Anatomy of a Bubble</div>
+            <p class="cmb-theme-desc">From Amsterdam&rsquo;s &ldquo;wind trade&rdquo; to London&rsquo;s South Sea collapse &mdash; the earliest recorded speculative manias preserved in satirical cards and ruined certificates.</p>
+          </div>
+        </a>
+        <a href="gallery.html?q=east+india+company" class="cmb-theme-card">
+          <div class="cmb-theme-imgs">
+            <img class="cmb-theme-img-a" src="thumbnails/goetzmann1021.jpg" alt="" loading="lazy">
+            <img class="cmb-theme-img-b" src="thumbnails/goetzmann0302.jpg" alt="" loading="lazy">
+          </div>
+          <div class="cmb-theme-body">
+            <div class="cmb-theme-num">Pathway II</div>
+            <div class="cmb-theme-title">Commerce Across Empires</div>
+            <p class="cmb-theme-desc">VOC obligation receipts, East India bonds, and colonial loan instruments from the height of the age of exploration and joint-stock finance.</p>
+          </div>
+        </a>
+        <a href="gallery.html?country=United+States" class="cmb-theme-card">
+          <div class="cmb-theme-imgs">
+            <img class="cmb-theme-img-a" src="thumbnails/goetzmann0340.jpg" alt="" loading="lazy">
+            <img class="cmb-theme-img-b" src="thumbnails/goetzmann0181.jpg" alt="" loading="lazy">
+          </div>
+          <div class="cmb-theme-body">
+            <div class="cmb-theme-num">Pathway III</div>
+            <div class="cmb-theme-title">War, Crisis, and Capital</div>
+            <p class="cmb-theme-desc">Confederate cotton bonds, railroad certificates, and wartime debt instruments &mdash; documents that survived financial catastrophe and the collapse of nations.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection Highlights -->
+  <section class="cmb-section cmb-highlights">
+    <div class="cmb-section-inner">
+      <div class="cmb-section-header">
+        <h2 class="cmb-section-title">Collection Highlights</h2>
+        <a href="highlights.html" class="cmb-section-link">View all &rarr;</a>
+      </div>
+      <div class="cmb-highlights-grid">
+        <a href="viewer.html?id=goetzmann1021" class="cmb-highlight-card">
+          <div class="cmb-highlight-img"><img src="thumbnails/goetzmann1021.jpg" alt="" loading="lazy"></div>
+          <div class="cmb-highlight-title">Dutch East India Company (VOC) Obligation</div>
+          <div class="cmb-highlight-meta">Netherlands &middot; 1622</div>
+        </a>
+        <a href="viewer.html?id=goetzmann0302" class="cmb-highlight-card">
+          <div class="cmb-highlight-img"><img src="thumbnails/goetzmann0302.jpg" alt="" loading="lazy"></div>
+          <div class="cmb-highlight-title">Banque Industrielle de Chine</div>
+          <div class="cmb-highlight-meta">China &middot; 1913</div>
+        </a>
+        <a href="viewer.html?id=goetzmann0028" class="cmb-highlight-card">
+          <div class="cmb-highlight-img"><img src="thumbnails/goetzmann0028.jpg" alt="" loading="lazy"></div>
+          <div class="cmb-highlight-title">South Sea Bubble Playing Card</div>
+          <div class="cmb-highlight-meta">Great Britain &middot; c. 1720</div>
+        </a>
+        <a href="viewer.html?id=goetzmann0491" class="cmb-highlight-card">
+          <div class="cmb-highlight-img"><img src="thumbnails/goetzmann0491.jpg" alt="" loading="lazy"></div>
+          <div class="cmb-highlight-title">Compagnie des Indes Share Certificate</div>
+          <div class="cmb-highlight-meta">France &middot; 1745</div>
+        </a>
+        <a href="viewer.html?id=goetzmann0915" class="cmb-highlight-card">
+          <div class="cmb-highlight-img"><img src="thumbnails/goetzmann0915.jpg" alt="" loading="lazy"></div>
+          <div class="cmb-highlight-title">Soci&eacute;t&eacute; du Bazacle Share</div>
+          <div class="cmb-highlight-meta">France &middot; 14th Century</div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Browse: Country + Document Type + Publication + Era -->
+  <section class="cmb-section cmb-browse">
+    <div class="cmb-section-inner">
+      <div class="cmb-section-header">
+        <h2 class="cmb-section-title">Browse the Collection</h2>
+        <a href="map.html" class="cmb-section-link">View map &rarr;</a>
+      </div>
+      <div class="cmb-browse-cols">
+
+        <!-- Left col: countries + document types -->
+        <div>
+          <div class="cmb-browse-sub-header">Explore by Country</div>
+          <div class="cmb-country-grid">
+            <a href="gallery.html?country=United+Kingdom" class="cmb-country-card">
+              <div class="cmb-country-img"><img src="thumbnails/goetzmann0540.jpg" alt="" loading="lazy"></div>
+              <div class="cmb-country-body">
+                <div class="cmb-country-name">United Kingdom</div>
+                <div class="cmb-country-count">191 items</div>
+              </div>
+            </a>
+            <a href="gallery.html?country=United+States" class="cmb-country-card">
+              <div class="cmb-country-img"><img src="thumbnails/goetzmann0181.jpg" alt="" loading="lazy"></div>
+              <div class="cmb-country-body">
+                <div class="cmb-country-name">United States</div>
+                <div class="cmb-country-count">132 items</div>
+              </div>
+            </a>
+            <a href="gallery.html?country=Netherlands" class="cmb-country-card">
+              <div class="cmb-country-img"><img src="thumbnails/goetzmann0004.jpg" alt="" loading="lazy"></div>
+              <div class="cmb-country-body">
+                <div class="cmb-country-name">Netherlands</div>
+                <div class="cmb-country-count">88 items</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="cmb-browse-sub-header">Browse by Document Type</div>
+          <div class="cmb-pills">
+            <a href="glossary.html#bond" class="cmb-pill">Bond</a>
+            <a href="glossary.html#stock-certificate" class="cmb-pill">Stock Certificate</a>
+            <a href="glossary.html#certificate" class="cmb-pill">Certificate</a>
+            <a href="glossary.html#banknote" class="cmb-pill">Banknote</a>
+            <a href="glossary.html#coupon" class="cmb-pill">Coupon</a>
+            <a href="glossary.html#tontine" class="cmb-pill">Tontine</a>
+            <a href="glossary.html#prospectus" class="cmb-pill">Prospectus</a>
+          </div>
+        </div>
+
+        <!-- Right col: publications + era -->
+        <div>
+          <div class="cmb-browse-sub-header">Explore by Publication</div>
+          <div class="cmb-pub-row" style="margin-bottom: 2.5rem;">
+            <a href="gallery.html?q=groote+tafereel" class="cmb-pub-card">
+              <div class="cmb-pub-imgs">
+                <img src="thumbnails/goetzmann0004.jpg" alt="" loading="lazy">
+                <img src="thumbnails/goetzmann0011.jpg" alt="" loading="lazy">
+                <img src="thumbnails/goetzmann0019.jpg" alt="" loading="lazy">
+              </div>
+              <div class="cmb-pub-body">
+                <div class="cmb-pub-title">The Great Mirror of Folly</div>
+                <div class="cmb-pub-desc">Amsterdam, 1720</div>
+              </div>
+            </a>
+            <a href="gallery.html?q=south+sea+playing+card" class="cmb-pub-card">
+              <div class="cmb-pub-imgs">
+                <img src="thumbnails/goetzmann0028.jpg" alt="" loading="lazy">
+              </div>
+              <div class="cmb-pub-body">
+                <div class="cmb-pub-title">South Sea Bubble Playing Cards</div>
+                <div class="cmb-pub-desc">Britain, c. 1720</div>
+              </div>
+            </a>
+            <a href="gallery.html?q=windkaart" class="cmb-pub-card">
+              <div class="cmb-pub-imgs">
+                <img src="thumbnails/goetzmann0079.jpg" alt="" loading="lazy">
+              </div>
+              <div class="cmb-pub-body">
+                <div class="cmb-pub-title">Dutch Wind Cards</div>
+                <div class="cmb-pub-desc">Netherlands, c. 1720</div>
+              </div>
+            </a>
+          </div>
+
+          <div class="cmb-browse-sub-header">Browse by Era</div>
+          <div class="cmb-pills">
+            <a href="gallery.html?period=Pre-17th+Century" class="cmb-pill">Pre-17th Century</a>
+            <a href="gallery.html?period=17th+Century" class="cmb-pill">17th Century</a>
+            <a href="gallery.html?period=18th+Century" class="cmb-pill">18th Century</a>
+            <a href="gallery.html?period=19th+Century" class="cmb-pill">19th Century</a>
+            <a href="gallery.html?period=20th+Century" class="cmb-pill">20th Century</a>
+            <a href="gallery.html?period=21st+Century" class="cmb-pill">21st Century</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Collection Spotlight -->
+  <section class="cmb-spotlight">
+    <div class="cmb-spotlight-inner">
+      <div class="cmb-spotlight-img-wrap">
+        <span class="cmb-spotlight-badge">Collection Spotlight</span>
+        <img class="cmb-spotlight-img" src="thumbnails/goetzmann1021.jpg" alt="VOC Obligation Receipt, 1622">
+      </div>
+      <div>
+        <div class="cmb-spotlight-eyebrow">Featured Item</div>
+        <h2 class="cmb-spotlight-title">VOC Obligation Receipt</h2>
+        <div class="cmb-spotlight-subtitle">Dutch East India Company &mdash; Amsterdam, 1622</div>
+        <blockquote class="cmb-spotlight-quote">The world&rsquo;s first multinational corporation, financed by thousands of individual investors who received printed receipts like this one.</blockquote>
+        <p class="cmb-spotlight-text">Issued just twenty years after the founding of the Vereenigde Oost-Indische Compagnie, this obligation receipt represents an early form of corporate debt &mdash; a promise to repay a subscriber who had funded the Company&rsquo;s voyages to the East Indies. The VOC was the first company to offer shares to the general public, laying the groundwork for modern capital markets.</p>
+        <div class="cmb-spotlight-meta">
+          <div class="cmb-spotlight-meta-item">
+            <div class="cmb-spotlight-meta-label">Date</div>
+            <div class="cmb-spotlight-meta-value">1622</div>
+          </div>
+          <div class="cmb-spotlight-meta-item">
+            <div class="cmb-spotlight-meta-label">Origin</div>
+            <div class="cmb-spotlight-meta-value">Netherlands</div>
+          </div>
+          <div class="cmb-spotlight-meta-item">
+            <div class="cmb-spotlight-meta-label">Type</div>
+            <div class="cmb-spotlight-meta-value">Certificate</div>
+          </div>
+          <div class="cmb-spotlight-meta-item">
+            <div class="cmb-spotlight-meta-label">Language</div>
+            <div class="cmb-spotlight-meta-value">Dutch</div>
+          </div>
+        </div>
+        <a href="viewer.html?id=goetzmann1021" class="cmb-spotlight-link">View this item &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
+  </footer>
+
+</body>
+</html>
