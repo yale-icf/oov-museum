@@ -91,33 +91,74 @@
       background: transparent;
       color: var(--gold);
     }
-    .cmb-hero-right {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 1.5rem;
-      padding-bottom: 0.5rem;
+    .cmb-hero-spotlight {
       flex-shrink: 0;
+      width: 260px;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 4px;
+      overflow: hidden;
+      text-decoration: none;
+      display: block;
+      transition: border-color 0.2s;
     }
-    .cmb-hero-stat { text-align: center; }
-    .cmb-hero-stat-num {
+    .cmb-hero-spotlight:hover { border-color: var(--gold); }
+    .cmb-hero-spotlight-badge {
+      background: var(--gold);
+      color: var(--navy);
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.28rem 0.75rem;
+      display: block;
+    }
+    .cmb-hero-spotlight-img {
+      width: 100%;
+      height: 190px;
+      object-fit: cover;
+      object-position: top;
+      display: block;
+    }
+    .cmb-hero-spotlight-body {
+      padding: 0.9rem 1rem 1rem;
+    }
+    .cmb-hero-spotlight-title {
       font-family: 'Playfair Display', serif;
-      font-size: 2.4rem;
+      font-size: 0.92rem;
       font-weight: 400;
       color: var(--white);
-      line-height: 1;
+      line-height: 1.3;
+      margin-bottom: 0.25rem;
     }
-    .cmb-hero-stat-label {
-      font-size: 0.7rem;
+    .cmb-hero-spotlight-sub {
+      font-size: 0.74rem;
       color: rgba(255,255,255,0.45);
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      margin-top: 0.3rem;
+      font-style: italic;
+      margin-bottom: 0.85rem;
     }
-    .cmb-hero-divider {
-      width: 1px;
-      height: 2rem;
-      background: rgba(255,255,255,0.15);
+    .cmb-hero-spotlight-meta {
+      display: flex;
+      gap: 1rem;
+      padding-top: 0.6rem;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      margin-bottom: 0.85rem;
+    }
+    .cmb-hero-spotlight-meta-label {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: rgba(255,255,255,0.3);
+      margin-bottom: 0.15rem;
+    }
+    .cmb-hero-spotlight-meta-value {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.7);
+    }
+    .cmb-hero-spotlight-link {
+      font-size: 0.78rem;
+      color: var(--gold);
+      font-weight: 600;
     }
 
     /* ── Shared section header ── */
@@ -498,111 +539,6 @@
       font-size: 0.85rem;
     }
 
-    /* ── Collection Spotlight ── */
-    .cmb-spotlight {
-      background: var(--navy);
-      padding: 4.5rem 2rem;
-    }
-    .cmb-spotlight-inner {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 1fr 1.5fr;
-      gap: 4rem;
-      align-items: center;
-    }
-    .cmb-spotlight-img-wrap { position: relative; }
-    .cmb-spotlight-img {
-      width: 100%;
-      aspect-ratio: 3/4;
-      object-fit: cover;
-      border-radius: 3px;
-      box-shadow: 0 16px 48px rgba(0,0,0,0.5);
-      display: block;
-    }
-    .cmb-spotlight-badge {
-      position: absolute;
-      top: -0.9rem;
-      left: 1.25rem;
-      background: var(--gold);
-      color: var(--navy);
-      font-size: 0.68rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      padding: 0.3rem 0.75rem;
-      border-radius: 2px;
-    }
-    .cmb-spotlight-eyebrow {
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.14em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 1rem;
-    }
-    .cmb-spotlight-title {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      font-weight: 400;
-      color: var(--white);
-      line-height: 1.2;
-      margin-bottom: 0.4rem;
-    }
-    .cmb-spotlight-subtitle {
-      font-size: 0.95rem;
-      color: rgba(255,255,255,0.5);
-      font-style: italic;
-      margin-bottom: 1.75rem;
-    }
-    .cmb-spotlight-quote {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.15rem;
-      font-style: italic;
-      color: rgba(255,255,255,0.85);
-      line-height: 1.6;
-      border-left: 3px solid var(--gold);
-      padding-left: 1.25rem;
-      margin-bottom: 1.5rem;
-    }
-    .cmb-spotlight-text {
-      font-size: 0.9rem;
-      color: rgba(255,255,255,0.62);
-      line-height: 1.75;
-      margin-bottom: 1.75rem;
-    }
-    .cmb-spotlight-meta {
-      display: flex;
-      gap: 2rem;
-      margin-bottom: 2rem;
-    }
-    .cmb-spotlight-meta-item {
-      border-top: 1px solid rgba(255,255,255,0.12);
-      padding-top: 0.55rem;
-    }
-    .cmb-spotlight-meta-label {
-      font-size: 0.67rem;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      color: rgba(255,255,255,0.32);
-      margin-bottom: 0.2rem;
-    }
-    .cmb-spotlight-meta-value {
-      font-size: 0.88rem;
-      color: rgba(255,255,255,0.78);
-    }
-    .cmb-spotlight-link {
-      display: inline-block;
-      padding: 0.75rem 1.75rem;
-      background: var(--gold);
-      color: var(--navy);
-      text-decoration: none;
-      border-radius: var(--radius);
-      font-size: 0.88rem;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-    }
-
   </style>
 </head>
 <body>
@@ -628,22 +564,29 @@
         <p class="cmb-hero-desc" style="margin-top:-0.75rem;">Representing 77 languages and 131 currencies, each document tells a story of commerce, innovation, and risk. Together, they form a remarkable record of how societies have organized capital, financed exploration, and weathered financial crises from the South Sea Bubble to the modern era.</p>
         <a href="gallery.html" class="cmb-hero-cta">Search the collection</a>
       </div>
-      <div class="cmb-hero-right">
-        <div class="cmb-hero-stat">
-          <div class="cmb-hero-stat-num">545</div>
-          <div class="cmb-hero-stat-label">Documents</div>
+      <a href="viewer.html?id=goetzmann1021" class="cmb-hero-spotlight">
+        <span class="cmb-hero-spotlight-badge">Collection Spotlight</span>
+        <img class="cmb-hero-spotlight-img" src="thumbnails/goetzmann1021.jpg" alt="VOC Obligation Receipt, 1622">
+        <div class="cmb-hero-spotlight-body">
+          <div class="cmb-hero-spotlight-title">VOC Obligation Receipt</div>
+          <div class="cmb-hero-spotlight-sub">Dutch East India Company &mdash; Amsterdam, 1622</div>
+          <div class="cmb-hero-spotlight-meta">
+            <div>
+              <div class="cmb-hero-spotlight-meta-label">Date</div>
+              <div class="cmb-hero-spotlight-meta-value">1622</div>
+            </div>
+            <div>
+              <div class="cmb-hero-spotlight-meta-label">Origin</div>
+              <div class="cmb-hero-spotlight-meta-value">Netherlands</div>
+            </div>
+            <div>
+              <div class="cmb-hero-spotlight-meta-label">Type</div>
+              <div class="cmb-hero-spotlight-meta-value">Certificate</div>
+            </div>
+          </div>
+          <span class="cmb-hero-spotlight-link">View this item &rarr;</span>
         </div>
-        <div class="cmb-hero-divider"></div>
-        <div class="cmb-hero-stat">
-          <div class="cmb-hero-stat-num">65</div>
-          <div class="cmb-hero-stat-label">Countries</div>
-        </div>
-        <div class="cmb-hero-divider"></div>
-        <div class="cmb-hero-stat">
-          <div class="cmb-hero-stat-num">77</div>
-          <div class="cmb-hero-stat-label">Languages</div>
-        </div>
-      </div>
+      </a>
     </div>
   </section>
 
@@ -780,42 +723,6 @@
       <a href="gallery.html?period=19th+Century" class="cmb-archive-link">Browse by era</a>
       <span class="cmb-archive-divider">/</span>
       <a href="glossary.html" class="cmb-archive-link">Document type glossary</a>
-    </div>
-  </section>
-
-  <!-- Collection Spotlight -->
-  <section class="cmb-spotlight">
-    <div class="cmb-spotlight-inner">
-      <div class="cmb-spotlight-img-wrap">
-        <span class="cmb-spotlight-badge">Collection Spotlight</span>
-        <img class="cmb-spotlight-img" src="thumbnails/goetzmann1021.jpg" alt="VOC Obligation Receipt, 1622">
-      </div>
-      <div>
-        <div class="cmb-spotlight-eyebrow">Featured Item</div>
-        <h2 class="cmb-spotlight-title">VOC Obligation Receipt</h2>
-        <div class="cmb-spotlight-subtitle">Dutch East India Company &mdash; Amsterdam, 1622</div>
-        <blockquote class="cmb-spotlight-quote">The world&rsquo;s first multinational corporation, financed by thousands of individual investors who received printed receipts like this one.</blockquote>
-        <p class="cmb-spotlight-text">Issued just twenty years after the founding of the Vereenigde Oost-Indische Compagnie, this obligation receipt represents an early form of corporate debt &mdash; a promise to repay a subscriber who had funded the Company&rsquo;s voyages to the East Indies. The VOC was the first company to offer shares to the general public, laying the groundwork for modern capital markets.</p>
-        <div class="cmb-spotlight-meta">
-          <div class="cmb-spotlight-meta-item">
-            <div class="cmb-spotlight-meta-label">Date</div>
-            <div class="cmb-spotlight-meta-value">1622</div>
-          </div>
-          <div class="cmb-spotlight-meta-item">
-            <div class="cmb-spotlight-meta-label">Origin</div>
-            <div class="cmb-spotlight-meta-value">Netherlands</div>
-          </div>
-          <div class="cmb-spotlight-meta-item">
-            <div class="cmb-spotlight-meta-label">Type</div>
-            <div class="cmb-spotlight-meta-value">Certificate</div>
-          </div>
-          <div class="cmb-spotlight-meta-item">
-            <div class="cmb-spotlight-meta-label">Language</div>
-            <div class="cmb-spotlight-meta-value">Dutch</div>
-          </div>
-        </div>
-        <a href="viewer.html?id=goetzmann1021" class="cmb-spotlight-link">View this item &rarr;</a>
-      </div>
     </div>
   </section>
 
