@@ -154,64 +154,60 @@
     .cmb-exhibit-grid {
       display: grid;
       grid-template-columns: 1.6fr 1fr;
-      gap: 1.75rem;
+      gap: 1.5rem;
     }
     .cmb-exhibit-card {
+      position: relative;
       text-decoration: none;
-      color: var(--text);
-      display: flex;
-      flex-direction: column;
-      border: 1px solid var(--parchment-dark);
+      color: var(--white);
+      display: block;
       border-radius: 4px;
       overflow: hidden;
+      height: 260px;
       transition: box-shadow 0.2s;
     }
-    .cmb-exhibit-card:hover { box-shadow: 0 6px 24px rgba(0,0,0,0.11); }
+    .cmb-exhibit-card:hover { box-shadow: 0 8px 28px rgba(0,0,0,0.25); }
     .cmb-exhibit-img {
-      width: 100%;
-      height: 150px;
-      overflow: hidden;
-      background: var(--parchment-dark);
+      position: absolute;
+      inset: 0;
     }
     .cmb-exhibit-img img {
       width: 100%; height: 100%; object-fit: cover;
-      transition: transform 0.4s;
+      transition: transform 0.5s;
     }
-    .cmb-exhibit-card:hover .cmb-exhibit-img img { transform: scale(1.04); }
+    .cmb-exhibit-card:hover .cmb-exhibit-img img { transform: scale(1.05); }
+    .cmb-exhibit-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(10,20,45,0.92) 0%, rgba(10,20,45,0.35) 55%, transparent 100%);
+    }
     .cmb-exhibit-body {
-      padding: 1rem 1.25rem 1.25rem;
-      flex: 1;
-      display: flex;
-      flex-direction: column;
+      position: absolute;
+      bottom: 0;
+      left: 0; right: 0;
+      padding: 1.25rem 1.4rem 1.4rem;
     }
     .cmb-exhibit-badge {
-      font-size: 0.68rem;
+      font-size: 0.67rem;
       font-weight: 700;
       letter-spacing: 0.12em;
       text-transform: uppercase;
       color: var(--gold);
-      margin-bottom: 0.35rem;
+      margin-bottom: 0.4rem;
+      display: block;
     }
     .cmb-exhibit-title {
       font-family: 'Playfair Display', serif;
-      font-size: 1.05rem;
+      font-size: 1.2rem;
       font-weight: 400;
-      color: var(--navy);
-      line-height: 1.3;
+      color: var(--white);
+      line-height: 1.25;
       margin-bottom: 0.45rem;
     }
     .cmb-exhibit-desc {
-      font-size: 0.85rem;
-      color: var(--text-light);
-      line-height: 1.6;
-      flex: 1;
-    }
-    .cmb-exhibit-meta {
-      margin-top: 1rem;
-      font-size: 0.78rem;
-      color: var(--text-light);
-      padding-top: 0.85rem;
-      border-top: 1px solid var(--parchment-dark);
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.75);
+      line-height: 1.55;
     }
 
     /* ── Thematic Pathways ── */
@@ -589,20 +585,22 @@
           <div class="cmb-exhibit-img">
             <img src="images/exhibits/goetzmann0491.jpg" alt="Women as Investors" loading="lazy">
           </div>
+          <div class="cmb-exhibit-overlay"></div>
           <div class="cmb-exhibit-body">
             <span class="cmb-exhibit-badge">Online Exhibit</span>
             <h3 class="cmb-exhibit-title">Women as Investors</h3>
-            <p class="cmb-exhibit-desc">They financed empires, inherited fortunes, and took risks in markets that rarely acknowledged their names. Nine documents reveal a hidden history of women and capital &mdash; from 18th-century Paris to 1930s America.</p>
+            <p class="cmb-exhibit-desc">A hidden history of capital: nine documents tracing women&rsquo;s participation in financial markets from 18th-century Paris to 1930s America.</p>
           </div>
         </a>
         <a href="exhibit-stock-market.html" class="cmb-exhibit-card">
           <div class="cmb-exhibit-img">
             <img src="images/exhibits/goetzmann1021.jpg" alt="The Birth of the Stock Market" loading="lazy">
           </div>
+          <div class="cmb-exhibit-overlay"></div>
           <div class="cmb-exhibit-body">
             <span class="cmb-exhibit-badge">Online Exhibit</span>
             <h3 class="cmb-exhibit-title">The Birth of the Stock Market</h3>
-            <p class="cmb-exhibit-desc">Before Wall Street, before the London Exchange, there was Amsterdam. Six documents trace the moment humanity invented a new way to share risk &mdash; and changed the course of global commerce forever.</p>
+            <p class="cmb-exhibit-desc">Six documents tracing the origins of equity markets, from a 14th-century French mill company to the Dutch Golden Age and the first joint-stock companies.</p>
           </div>
         </a>
       </div>
