@@ -932,8 +932,9 @@ body.homepage {
 }
 
 .hero-cta:hover {
-  background: transparent;
-  color: var(--gold);
+  background: var(--gold);
+  color: var(--navy);
+  border-color: var(--gold);
 }
 
 .hero-cta-group {
@@ -949,9 +950,9 @@ body.homepage {
 }
 
 .hero-cta-ghost:hover {
-  background: transparent;
-  color: var(--white);
-  border-color: var(--white);
+  background: var(--gold);
+  color: var(--navy);
+  border-color: var(--gold);
 }
 
 /* ===== Hero Stats ===== */
