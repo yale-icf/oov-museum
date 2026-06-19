@@ -15,8 +15,8 @@ Applying `DESCRIPTION_STYLE_GUIDE.md` across the collection. Multi-session effor
 - [x] Title edits applied (pending master-Excel sync): 0004, 0186, 0226, 0383, 0454, 0677
 - [x] **Conformance pass — ALL 477 standalone descriptions revised** (image-based; description + title + issueYear). Drafts archived in `drafts/applied/`. Legacy essays (0900/0904/0908/0909/0910) deliberately preserved per guide §4.
 - [x] **Per-page image descriptions DONE** — all 63 multi-page items: 57 small items (primary + per-page), 3 pamphlets (primary + terse page stubs: 0191/0236/0274), 3 illustration sets per-card (0028 51 cards / 0079 55 cards / 0134 45 lottery handbills). 0020 rewritten + dated 1705. Zero non-legacy boilerplate remains.
-- [ ] **Metadata-field fixes** for "+1 shift" / mislabeled records: agents corrected description+title+issueYear but NOT currency/language/issuingCountry/creator — see flags log (e.g. 0499, 0501, 0502, 0599, 0649).
-- [ ] Transcription/translation audit + regenerate garbled (e.g. 0004)
+- [x] **Metadata-field fixes** DONE — 22 mislabeled/composite candidates reconciled via agents (read corrected description + image → fix currency/language/issuingCountry/subjectCountry/creator/type). 19 changed, 3 already clean (0335, 0610, 0990). Logged in `docs/CLEANUP_METADATA_CHANGES.md`.
+- [x] Transcription/translation audit DONE — 0004 regenerated (Dutch original + English, page-structured, ~27.8k chars). Audit of all 545 transcriptions (markers + coherence heuristics): no other garbled records; all 545 unique.
 - [ ] 0020: rewrite from images + `issueYear` 1705
 - [ ] Exhibit corrections surfaced by the pass: 0473 (holder S.B. Way, not "Mary E. Carey"; Class A stock not warrant) in exhibit-women-investors; 0529 Anne Brown bill 1776→1778.
 - [ ] Final: sync titles/issueYear → `oov_data_master.xlsx`, commit, update title-date memory
