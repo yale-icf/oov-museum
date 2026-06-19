@@ -72,7 +72,9 @@ for it in items:
         if pid and pid != pid0:
             page_desc[pid] = p.get('description', '')
 
-wb = openpyxl.load_workbook('oov_data_new.xlsx')
+INP = next((a[5:] for a in sys.argv if a.startswith('--in=')), 'oov_data_new.xlsx')
+OUT = next((a[6:] for a in sys.argv if a.startswith('--out=')), 'oov_data_master.xlsx')
+wb = openpyxl.load_workbook(INP)
 ws = wb.active
 hdr = [c.value for c in ws[1]]
 C = {n: i+1 for i, n in enumerate(hdr)}
@@ -129,5 +131,5 @@ for iid, a, b in orphans[:40]:
     print('   %s: %r -> %r' % (iid, a[:50], b[:50]))
 
 if '--write' in sys.argv:
-    wb.save('oov_data_master.xlsx')
-    print('\nWROTE oov_data_master.xlsx')
+    wb.save(OUT)
+    print('\nWROTE ' + OUT)
