@@ -18,8 +18,10 @@ Applying `DESCRIPTION_STYLE_GUIDE.md` across the collection. Multi-session effor
 - [x] **Metadata-field fixes** DONE — 22 mislabeled/composite candidates reconciled via agents (read corrected description + image → fix currency/language/issuingCountry/subjectCountry/creator/type). 19 changed, 3 already clean (0335, 0610, 0990). Logged in `docs/CLEANUP_METADATA_CHANGES.md`.
 - [x] Transcription/translation audit DONE — 0004 regenerated (Dutch original + English, page-structured, ~27.8k chars). Audit of all 545 transcriptions (markers + coherence heuristics): no other garbled records; all 545 unique.
 - [ ] 0020: rewrite from images + `issueYear` 1705
-- [ ] Exhibit corrections surfaced by the pass: 0473 (holder S.B. Way, not "Mary E. Carey"; Class A stock not warrant) in exhibit-women-investors; 0529 Anne Brown bill 1776→1778.
-- [ ] Final: sync titles/issueYear → `oov_data_master.xlsx`, commit, update title-date memory
+- [x] Exhibit corrections DONE (commit b9b516c): 0529 Anne Brown bill corrected (1778, Anne not Annie, 1500 livres, drawn on Paris commissioners, Hopkinson+Tho. Smith). Piece #9 0473 (holder "Mrs. S.B. Way", not the misread "Mary E. Carey") REPLACED with 0234 (American Trust Co., Boston 1910, Harriette S. Foster in her own name) — new exhibit image, intro/preview/banner range 1745-1910 updated.
+- [x] Full JSON→`oov_data_master.xlsx` export DONE (`_rebuild_master2.py`, built fresh from pristine `oov_data_new.xlsx`): 868 rows; 545 primary descriptions + 323 per-page descriptions; new-convention titles; metadata fields (type/currency/language/country/creator); 138 issueYear corrections (year-only where changed, M/D preserved otherwise); 0 orphans. Backup: `oov_data_master.xlsx.bak_precleanup`.
+- [x] Title-date memory updated (oov-project.md notes §8 supersession).
+- [ ] Final: push `guide-cleanup` / open PR (user-gated).
 
 ## Conformance pass — COMPLETE
 All standalone records revised. Per-record corrections + flags are in `docs/CLEANUP_FACTUAL_CHANGES.md`.
