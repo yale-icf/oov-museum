@@ -84,5 +84,6 @@ for iid, a, b in orphans:
     print(f'  {iid}: {a[:60]!r} -> {b[:60]!r}')
 
 if '--write' in sys.argv:
-    wb.save('oov_data_master.xlsx')
-    print('\nWROTE oov_data_master.xlsx')
+    # oov_data_master.xlsx was removed as redundant; oov_data_new.xlsx is the single workbook.
+    wb.save('oov_data_new.xlsx')
+    print('\nWROTE oov_data_new.xlsx')

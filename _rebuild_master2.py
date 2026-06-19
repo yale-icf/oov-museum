@@ -1,6 +1,10 @@
-"""Full export of the curated JSON into oov_data_master.xlsx (page-level, 868 rows).
+"""Full export of the curated JSON into oov_data_new.xlsx (page-level, 868 rows).
 
-Builds fresh from pristine oov_data_new.xlsx, then overlays the live JSON:
+oov_data_new.xlsx is the single canonical workbook (the old derived
+oov_data_master.xlsx was removed as redundant). By default this reads and rewrites
+oov_data_new.xlsx in place; pass --in=/--out= to target a different file.
+
+Loads the workbook, then overlays the live JSON:
   - standalone & multi-page PRIMARY rows: title, description, type, currency,
     language, issuingCountry, subjectCountry, creator from JSON; issueDate year
     corrected only where it differs (month/day precision preserved otherwise).
@@ -73,7 +77,7 @@ for it in items:
             page_desc[pid] = p.get('description', '')
 
 INP = next((a[5:] for a in sys.argv if a.startswith('--in=')), 'oov_data_new.xlsx')
-OUT = next((a[6:] for a in sys.argv if a.startswith('--out=')), 'oov_data_master.xlsx')
+OUT = next((a[6:] for a in sys.argv if a.startswith('--out=')), 'oov_data_new.xlsx')
 wb = openpyxl.load_workbook(INP)
 ws = wb.active
 hdr = [c.value for c in ws[1]]
