@@ -1627,3 +1627,256 @@ Audit trail for the conformance pass. Full old/new text is in git history; this 
 ### goetzmann0955
 - This is the reverse (back) of the bond; no issue date appears on this side, so the issue year 1840 is taken from the catalogue/obverse, not verified from this image. Image confirms: agent = Agency of the Bank of the United States in London; value = four hundred and fifty pounds sterling (£450), matching the red overprint 'No. 562, £450, Redeemable Feby. 5th, 1850'; coupons each £11 5s sterling. Old description's '450 pounds' and signatures S. Gwin (cashier) / H. G. Runnels (president) are confirmed; the '$2,000' figure is not visible on this reverse. Handwritten amount at top edge partly cropped/faint but consistent with £450.
 
+### goetzmann0179
+- issueYear -> 1760
+- 2 page descriptions revised
+- issueYear corrected 1759->1760: document 'FAIT à Paris ... mars mil sept cent soixante' (March 1760), registered Sept 1760; the 1759 in the existing record is the founding edict/fiscal exercise, not the issue date.
+
+### goetzmann0184
+- 2 page descriptions revised
+- clean
+
+### goetzmann0186
+- title: "United States Continental Congress Lottery Ticket Philadelphia 1776" -> "United States Continental Congress Lottery Ticket, Philadelphia 1776"
+- 2 page descriptions revised
+- Title 'Class S'/currency framing in source data is questionable: front clearly reads 'CLASS the THIRD' and the 'S.' is a separate lower-left mark, not a class. No $20 price or commissioner names appear on the document (catalogue research, not image). Verso name reads 'Asa Lathrop'.
+
+### goetzmann0216
+- 2 page descriptions revised
+- clean
+
+### goetzmann0218
+- title: "Antwerp Exchange Obligation, Generale Keyserlyke Company" -> "Antwerp Exchange Obligation, Generale Keyserlyke Indische Compagnie"
+- 2 page descriptions revised
+- DATE: printed form year reads 1725 and matches the catalogue's stated 17 April signing, but manuscript notations cite transport/delivery dates in October 1730 and the verso bleed-through shows a 1728 header digit, so the obligation may have been executed or reused 1728-1730; issueYear 1725 retained from the form but uncertain. Currency not stated on document.
+
+### goetzmann0221
+- 2 page descriptions revised
+- clean
+
+### goetzmann0226
+- title: "State of Massachusetts Bay War Bond issued to Seth Davenport 1777" -> "State of Massachusetts-Bay War Bond issued to Seth Davenport, 1777"
+- 2 page descriptions revised
+- clean
+
+### goetzmann0477
+- 2 page descriptions revised
+- Primary description rewritten in house style and de-anachronised; serial number removed per rules. Confirmed issue year 1894 from document. The two pages are the same coupon sheet printed in four languages (Russian/French and German/English), not separate sequential coupon ranges as the old description implied; corrected accordingly.
+
+### goetzmann0479
+- title: "Chinese Imperial Government Gold Loan Bond" -> "Chinese Imperial Government 5% Gold Loan Bond, 1903"
+- issueYear -> 1905
+- 2 page descriptions revised
+- issueYear corrected 1907->1905 (document reads 'Bruxelles, le 12 Avril 1905'); loan purpose is the Kaifeng-Fou to Honan-Fou railway, not unspecified government expenditure
+
+### goetzmann0481
+- title: "Imperial Russian Gold Loan Bond" -> "Imperial Russian 4% Gold Loan Bond, Sixth Issue (125 Rubles)"
+- 2 page descriptions revised
+- clean
+
+### goetzmann0547
+- title: "Pekin Syndicate Bearer Certificate" -> "Pekin Syndicate Limited Bearer Share Warrant"
+- issueYear -> 1919
+- 2 page descriptions revised
+- issueYear corrected from catalogue 1900 to 1919 (document dated November 1919; the 1900 and 1923 dates are an unrelated reference and the Paris tax stamp). Certificate number reads 835603, not 835003.
+
+### goetzmann0556
+- 2 page descriptions revised
+- issueYear corrected 1907->1958 (1907 is the printed founding year; document issued 1958)
+
+### goetzmann0004
+- 7 page descriptions revised
+- No explicit date printed on the leaves; issue year 1720 rests on the document's inclusion in Het Groote Tafereel der Dwaasheid and the catalogue record. Article numbers and ranges read from low-resolution images and are approximate.
+
+### goetzmann0012
+- 7 page descriptions revised
+- clean
+
+### goetzmann0020
+- title: "Project for the Ruin of the Turkish Pirates of Algiers, Tunis, Tripoli and Sale" -> "Project for the Ruin of the Turkish Pirates of Algiers, Tunis, Tripoli and Salé"
+- issueYear -> 1705
+- 8 page descriptions revised
+- issueYear inferred, not stated: no dateline appears; the only dated reference is a cited placard of 1705 (terminus post quem), so issueYear set to 1705 (current record's 1720 reflects the binding date of the Groote Tafereel-era compilation, not printing). Existing record's per-page boilerplate (catalogue context about 1720 project culture) replaced with image-based descriptions.
+
+### goetzmann0181
+- 3 page descriptions revised
+- issueYear corrected/confirmed as 1777 from the dated letter (Winchester, 24 July 1777). Prior record gave currency as USD and a £375 sterling total appears on the document alongside the thousand-dollar remittance; type is a subscriber list/letter, not strictly a receipt.
+
+### goetzmann0188
+- 3 page descriptions revised
+- clean
+
+### goetzmann0223
+- 3 page descriptions revised
+- CURRENCY MISMATCH: amounts on the list (page 0224) are recorded in pounds/shillings/pence (£ s d columns), not USD as tagged in the metadata. Surname "Pickard" signer's given name reads as Joshua on the image (catalogue gives "[?] Pickard"); list contains some illegible/abbreviated town-of-residence notations.
+
+### goetzmann0553
+- issueYear -> 1910
+- 3 page descriptions revised
+- issueYear corrected 1901->1910 (cert dated 6 April 1910; Trust Deed 25 March 1910); trustee 'Charles Eden' in imported text is wrong, image reads 'Charles Colin Macrae'
+
+### goetzmann0558
+- title: "Mexico Consolidated National Debt Bond" -> "Mexico Consolidated Debt Bond and Ethiopian Railway Share"
+- issueYear -> 1851
+- 4 page descriptions revised
+- MISMATCH: record groups two unrelated documents — a Mexican 3% consolidated debt bond (pages 0558, 0559) and an Imperial Ethiopian railway 500-franc share (pages 0560, 0563); the latter belongs to a separate item. Metadata also lists issueYear 1845, but the Mexican certificate is dated 1 January 1851; Ethiopian share is 20th-century French/Amharic and not reflected in any metadata.
+
+### goetzmann0564
+- title: "Chinese Republic Railway Equipment Loan Treasury Note" -> "Chinese Republic 8% Railway Equipment Loan Treasury Note"
+- 3 page descriptions revised
+- clean
+
+### goetzmann0568
+- 2 page descriptions revised
+- clean
+
+### goetzmann0572
+- title: "Chinese Republic Industrial Gold Loan Bond" -> "Chinese Republic 5% Gold Industrial Loan, 500-Franc Bond (1914)"
+- 2 page descriptions revised
+- clean
+
+### goetzmann0576
+- title: "Republic of Peru Gold Bond" -> "Republic of Peru 5% Gold Bond, £10"
+- issueYear -> 1921
+- 4 page descriptions revised
+- DATE: catalogue says "May 1920"; bond face is signed/dated 25 May 1921 (General Bond dated 24 May 1921; enabling instrument 21 March 1921). "1920" is the issue's name (Law of 7 June 1920) and the interest start, not the date issued — issueYear set to 1921. AGENT: catalogue "Embiricos Syndicate" is wrong; image reads ETHELBURGA SYNDICATE LIMITED. SIGNATORY: not the Minister of Finance / "Lewise H. Walker"; signed by the syndicate's authorised representative, with Director General of Finance Dr. Heraclides Perez named in the General Bond.
+
+### goetzmann0580
+- title: "Bulgarian Government Gold Loan Bond" -> "Bulgarian 5% State Gold Loan Bond of 1904"
+- issueYear -> 1905
+- 4 page descriptions revised
+- issueYear corrected from 1904 (loan name) to 1905 (date on document: Sofia, 10/23 May 1905)
+
+### goetzmann0584
+- title: "Bulgarian Government Gold Loan Bond (Conditions)" -> "Bulgarian 4½% Gold Loan of 1907 Bond"
+- issueYear -> 1907
+- 3 page descriptions revised
+- CATALOGUE DATA WRONG: image is the 4½% Gold Loan of 1907 (issued 1907), not the '5% Gold Loan' / issueYear 1909 recorded in the data. Rate and year corrected from the bond face and coupons.
+
+### goetzmann0588
+- 2 page descriptions revised
+- issueYear confirmed 1865 from both sheets (matches record)
+
+### goetzmann0589
+- title: "Uzinele de Fier și Domeniile din Resita Registered Shares" -> "Uzinele de Fier și Domeniile din Reșița Registered Shares"
+- 2 page descriptions revised
+- clean
+
+### goetzmann0593
+- 2 page descriptions revised
+- clean
+
+### goetzmann0595
+- title: "Japanese Financial Document, Handwritten Manuscript with Official Seals, Meiji Era" -> "Chinese Account Ledger of Loans in Copper Cash, Reckoned at New Year, Tongzhi 13 (1874)"
+- issueYear -> 1874
+- 2 page descriptions revised
+- MAJOR: catalogue misidentifies this as a Japanese Meiji-era yen bond; it is a Qing-dynasty CHINESE account ledger dated Tongzhi 13 (1874), denominated in copper cash (錢/文), language Chinese not Japanese. issueYear corrected 1870 -> 1874; type 'Bond' is better 'account/ledger'; currency 'Japanese yen' wrong; country/language Japan/Japanese wrong (China/Chinese).
+
+### goetzmann0726
+- 2 page descriptions revised
+- MISMATCH: page goetzmann0727 is NOT a Romanian Monopoles document. It is an Ottoman Public Debt arrears bond (Bons Représentatifs des Annuités Arriérées de la Dette Publique Ottomane, Série A 1928, quadrilingual FR/EN/DE/TR, denomination 7 fr. 50 c. / £0.6.0). It does not belong with goetzmann0726 (Romanian Caisse Autonome des Monopoles 7% 1929 loan). Catalogue record incorrectly groups them and mislabels 0727. Recommend separating 0727 and re-cataloguing as an Ottoman/Turkish Public Debt obligation (issuing/subject country Turkey/Ottoman Empire, year 1928).
+
+### goetzmann0728
+- 2 page descriptions revised
+- CONTENT MISMATCH: page goetzmann0729 is NOT part of this Ottoman Public Debt item. Its image is the face of a Bulgarian 4 1/2% Gold Loan bond of 1907 (Principality of Bulgaria, 500 francs, dated Sofia 1907), an unrelated document. The page should be re-associated or the image re-scanned. The catalogue had described goetzmann0729 as the Ottoman coupon/contract reverse, which the image contradicts.
+
+### goetzmann0731
+- 2 page descriptions revised
+- clean
+
+### goetzmann0912
+- 2 page descriptions revised
+- clean
+
+### goetzmann0916
+- 2 page descriptions revised
+- no issue year determinable (undated specimen, blank date line)
+
+### goetzmann0591
+- 2 page descriptions revised
+- DATE CORRECTED: image reads "Constantinople, le 5 janvier 1870" (5 Jan), not 3 Jan as in catalogue. ISSUER CORRECTED: signed by La Societe Imperiale des Chemins de Fer de la Turquie d'Europe (Hirsch railway concession) under government authorization, not a "General Agent in Paris." Interest is 12 francs/year; payable Paris, Constantinople, Vienna, Frankfurt, Amsterdam.
+
+### goetzmann0918
+- 2 page descriptions revised
+- clean
+
+### goetzmann0920
+- title: "Nobino Seigai Partnership Share Certificate" -> "Silk-Reeling Partnership Share Certificate"
+- 2 page descriptions revised
+- Company-name romanization uncertain: catalogue gives 'Nobino Seigai'; the certificate appears to read 常滋野/常經野製絲 (silk-reeling), not 製糸 'seigai'. Holder catalogued as 'Konishi Kichitaro' but image shows 小西吉之助 (Konishi Kichinosuke). A stray pencil '1880' on the reverse contradicts the printed Meiji 33 (1900) date; issue year taken as 1900 from the document.
+
+### goetzmann0922
+- 2 page descriptions revised
+- Owner name discrepancy: imported description reads 'Shirai Harabei' but the signature on the face is 白井源兵衛 (Shirai Genbei).
+
+### goetzmann0924
+- title: "Kokubun Petroleum Association Share Certificate" -> "Kokueki Petroleum Association Share Certificate"
+- issueYear -> 1900
+- 2 page descriptions revised
+- Title/issuer corrected: kanji 国益 reads 'Kokueki' (National-Profit), not 'Kokubun/Kokuban' as in prior record. issueYear 1900 inferred from earliest dividend entry (Meiji 33) on reverse; no clearly legible issue date on face — hedged.
+
+### goetzmann0926
+- 4 page descriptions revised
+- Item is a certificate plus its registration docket and a 1796 assignment deed (with verso) transferring the share to James W. Galpin for $8,000; primary issue year is 1795 (certificate date), assignment is 1796.
+
+### goetzmann0931
+- title: "Share Receipt for Garphytte Iron and Alum Works" -> "Share Receipt (Recepis) for the Garphytte Iron and Alum Works and Beata Christina Alum Work"
+- 3 page descriptions revised
+- Page 3 (goetzmann0933) is a wholly different document: a 1757 Brussels marine insurance policy for James Dormer on the corvette la Byzantine, not part of the 1776 Garphytte share receipt. Catalogue readings adjusted from images: director signs as "G.L. Claeywanger" (catalogue "Caaypranger"); notary reads "Paulus Huntum/Runtum" (uncertain); coupon sheet signed "M.H. Coster." Second director's signature illegible.
+
+### goetzmann0934
+- 2 page descriptions revised
+- clean
+
+### goetzmann0936
+- title: "Chambre Imperiale et Royale d'Assurance d'Anvers Marine Insurance Policy" -> "Antwerp Marine Insurance Policy (1761) with an Amsterdam Survivorship Contract (1774)"
+- issueYear -> 1761
+- 5 page descriptions revised
+- COMPOSITE/MISMATCH: item bundles two distinct documents — a 1761 Antwerp marine policy (page 1) and an unrelated 1774 Amsterdam survivorship/tontine contract (pages 2-5); original title and description cover only the marine policy. Catalogue issueYear (1811) and 'Constantinople/Borges' details are wrong; policy is dated 25 April 1761, signed De Bie and Crol. 'Impériale et Royale' = Austrian (Habsburg) Netherlands, not Napoleonic.
+
+### goetzmann0941
+- title: "French Consular Certificate of Egyptian Financial Document" -> "Egyptian Treasury Payment Order to Oppenheim & Cie, Legalized at Alexandria"
+- 2 page descriptions revised
+- Existing record was inaccurate: it cited a “numero 932” and an unspecified sum and dated certification to 17 June 1866. Images show the actual sum is £E 195,000 (390 bourses) payable 8 November 1866 to Oppenheim Neveux & Cie, signed Mohamed Hafiz Pacha (23 Zilhicce 1282 AH); all legalizations are dated 12 May 1866, not 17 June. Visible reference numbers are No 106 and bankers’ stamp No 1694, not 932.
+
+### goetzmann0943
+- title: "Dutch Negotiation Contract Subscriber List" -> "Dutch Life-Annuity Negotiation Deed and Nominee List"
+- 3 page descriptions revised
+- Type/title corrected: catalogued as a "Stock Certificate" subscriber list, but the document is a life-annuity (lijfrente) negotiation deed whose listed women are nominee lives, not shareholders. Most names are handwritten/illegible and not transcribed. Creator field garbled ("Hendrik Vollemioven"); reads Hendrik Vollenhoven.
+
+### goetzmann0947
+- 2 page descriptions revised
+- clean
+
+### goetzmann0949
+- 2 page descriptions revised
+- clean
+
+### goetzmann0956
+- 3 page descriptions revised
+- issueYear (1929, document executed) differs from maturity year 1958 used in series name and prior page-count title; primary issueYear set to 1929 per spec.
+
+### goetzmann0959
+- issueYear -> 1945
+- 2 page descriptions revised
+- issueYear corrected 1929->1945 (dated as of Aug 1 1945 per witness clause); maturity corrected 1955->1965 (Sep 1 1965 per text); seal carries incorporation year 1934
+
+### goetzmann0961
+- title: "Times Square Building First Mortgage Gold Bond" -> "Times Square 46th Street Building First Mortgage Gold Bond"
+- 2 page descriptions revised
+- Trustee is Interstate Trust Company, not Hanover Trust Company as the old catalogue stated; old description's bond number (N840) is a serial and cut; item has 2 pages, not 3.
+
+### goetzmann0964
+- 3 page descriptions revised
+- clean
+
+### goetzmann1015
+- issueYear -> 1925
+- 3 page descriptions revised
+- issueYear corrected 1927->1925 (certificate dated as of October 1, 1925; coupons confirm)
+
+### goetzmann1018
+- issueYear -> 1890
+- 3 page descriptions revised
+- issueYear corrected 1892->1890 (bond dated and company incorporated 1890; metadata wrong); vignette is Nashville, Tenn. civic building (not generic 'residential estate'); trustee is 'American Loan & Trust Company' (coupons), interest payable quarterly at $7.50/coupon
+
