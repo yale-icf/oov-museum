@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "node build-obfuscated.js"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.100.0",
+    "javascript-obfuscator": "^5.4.3",
+    "sharp": "^0.34.5"
+  }
+}
