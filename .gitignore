@@ -1,6 +1,9 @@
 # Large asset directories (hosted separately)
 tiles/
 
+# JS source files — readable source, never push (obfuscated versions live in js/)
+js-src/
+
 # Google Cloud credentials (never commit)
 *.json
 !data/*.json
@@ -185,4 +188,9 @@ cython_debug/
 #  exclude from AI features like autocomplete and code analysis. Recommended for sensitive data
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
-.cursorindexingignorenode_modules/
+.cursorindexingignore
+node_modules/
+
+# Allow package manifests (overrides *.json rule above)
+!package.json
+!package-lock.json
