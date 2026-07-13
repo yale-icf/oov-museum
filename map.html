@@ -1,73 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Map - Origins of Value Virtual Museum</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="css/map.css">
-  <script src="js/auth.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Map — Origins of Value</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="css/museum.css">
+<link rel="stylesheet" href="css/map.css">
+<script src="js/auth.js"></script>
 </head>
-<body>
+<body class="catalogue">
 
-  <header class="site-header">
-    <h1><a href="index.html">Origins of <span>Value</span></a></h1>
-    <nav class="header-nav">
-      <a href="collection.html" class="header-nav-link">Collection</a>
-      <div class="nav-dropdown">
-          <a href="gallery.html" class="header-nav-link nav-dropdown-toggle">Search</a>
-          <div class="nav-dropdown-menu">
-            <a href="gallery.html" class="nav-dropdown-item">Search</a>
-            <a href="search.html" class="nav-dropdown-item">Text Search</a>
-          </div>
-        </div>
-      <a href="map.html" class="header-nav-link active">Map</a>
-      <a href="exhibits.html" class="header-nav-link">Exhibits</a>
-    </nav>
-  </header>
-
-  <div id="map-container">
-    <div id="map"></div>
-
-    <div class="map-controls">
-      <h3>Filter by Period</h3>
-      <div class="map-filter-options">
-        <label class="map-filter-option">
-          <input type="checkbox" value="18th Century or before" checked>
-          <span class="color-swatch" style="background:#8B4513"></span>
-          18th Century or before
-        </label>
-        <label class="map-filter-option">
-          <input type="checkbox" value="19th Century" checked>
-          <span class="color-swatch" style="background:#B8860B"></span>
-          19th Century
-        </label>
-        <label class="map-filter-option">
-          <input type="checkbox" value="20th Century" checked>
-          <span class="color-swatch" style="background:#4682B4"></span>
-          20th Century
-        </label>
-        <label class="map-filter-option">
-          <input type="checkbox" value="21st Century" checked>
-          <span class="color-swatch" style="background:#2C2C2C"></span>
-          21st Century
-        </label>
-      </div>
-      <div class="map-legend-divider"></div>
-      <div class="map-legend-item">
-        <span class="color-swatch" style="background:#d8d4cd"></span>
-        Not in collection
-      </div>
-      <div class="map-stats" id="map-stats"></div>
+<!-- NAV (sticky top banner) -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><b>Origins of Value</b><span>A Virtual Museum of Financial History</span></a>
+    <div class="navlinks">
+      <a href="exhibits.html">Exhibits</a>
+      <a class="on" href="map.html">Map</a>
+      <a href="about.html">About</a>
+      <a class="search" href="search.html">⌕ Search</a>
     </div>
   </div>
+</header>
 
-  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="js/map.js"></script>
+<div class="wrap">
+  <div class="cat-head">
+    <div class="eyebrow cap">Collection</div>
+    <h1>The collection on the map</h1>
+    <p class="map-deck">Where the documents were issued, and where their money went. Shading shows
+      how many documents in the collection are tied to each country; select a period to narrow the view.</p>
+  </div>
+</div>
 
-  <footer class="site-footer">
-    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
-  </footer>
+<div id="map-container">
+  <div id="map"></div>
+
+  <div class="map-controls">
+    <h3>Filter by period</h3>
+    <div class="map-filter-options">
+      <label class="map-filter-option">
+        <input type="checkbox" value="18th Century or before" checked>
+        <span class="color-swatch" style="background:#8B4513"></span>
+        18th Century or before
+      </label>
+      <label class="map-filter-option">
+        <input type="checkbox" value="19th Century" checked>
+        <span class="color-swatch" style="background:#B8860B"></span>
+        19th Century
+      </label>
+      <label class="map-filter-option">
+        <input type="checkbox" value="20th Century" checked>
+        <span class="color-swatch" style="background:#4682B4"></span>
+        20th Century
+      </label>
+      <label class="map-filter-option">
+        <input type="checkbox" value="21st Century" checked>
+        <span class="color-swatch" style="background:#2C2C2C"></span>
+        21st Century
+      </label>
+    </div>
+    <div class="map-legend-divider"></div>
+    <div class="map-legend-item">
+      <span class="color-swatch" style="background:#d8d4cd"></span>
+      Not in collection
+    </div>
+    <div class="map-stats" id="map-stats"></div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="js/map.js"></script>
+
+<footer class="copyright">© 2026 Yale School of Management — International Center for Finance. All rights reserved.</footer>
+
 </body>
 </html>

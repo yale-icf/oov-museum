@@ -1,57 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document Viewer - Origins of Value Virtual Museum</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/auth.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Record — Origins of Value</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/museum.css">
+<script src="js/auth.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
 </head>
-<body>
+<body class="theme-light bg-cream">
 
-  <header class="site-header">
-    <h1><a href="gallery.html">Origins of <span>Value</span></a></h1>
-    <nav class="header-nav">
-      <a href="collection.html" class="header-nav-link">Collection</a>
-      <div class="nav-dropdown">
-          <a href="gallery.html" class="header-nav-link nav-dropdown-toggle">Search</a>
-          <div class="nav-dropdown-menu">
-            <a href="gallery.html" class="nav-dropdown-item">Search</a>
-            <a href="search.html" class="nav-dropdown-item">Text Search</a>
-          </div>
-        </div>
-      <a href="map.html" class="header-nav-link">Map</a>
-      <a href="exhibits.html" class="header-nav-link">Exhibits</a>
-    </nav>
-  </header>
 
-  <div class="viewer-header">
-    <a href="gallery.html" class="back-btn" id="back-btn">&larr; Search</a>
-    <span class="viewer-title" id="viewer-title">Loading...</span>
-    <div class="viewer-nav">
-      <button class="nav-btn" id="prev-btn" disabled>&larr; Prev</button>
-      <button class="nav-btn" id="next-btn" disabled>Next &rarr;</button>
+<!-- NAV (sticky top banner) -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><b>Origins of Value</b><span>A Virtual Museum of Financial History</span></a>
+    <div class="navlinks">
+      <a href="exhibits.html">Exhibits</a>
+      <a href="map.html">Map</a>
+      <a href="about.html">About</a>
+      <a class="search" href="search.html">⌕ Search</a>
     </div>
   </div>
+</header>
 
-  <div class="page-nav" id="page-nav" style="display:none">
-    <button id="page-prev" disabled>&larr;</button>
-    <span id="page-info">Page 1 of 1</span>
-    <button id="page-next">&rarr;</button>
+<!-- DARK STAGE: deep-zoom viewer + detail navigator -->
+<div class="rec-top">
+  <div class="rec-crumb" id="crumb"></div>
+  <div class="rec-stage">
+    <!-- viewer -->
+    <div class="rec-viewer">
+      <div id="osd"></div>
+      <div class="rec-vctl">
+        <span id="zoom-in" title="Zoom in">+</span>
+        <span id="zoom-out" title="Zoom out">−</span>
+        <span id="zoom-home" title="Reset">⤢</span>
+      </div>
+      <div class="rec-zoominfo"><span>⊕</span> Scroll to zoom, drag to pan</div>
+      <div class="rec-sides" id="pagenav"></div>
+    </div>
+    <!-- navigator sidebar -->
+    <div class="rec-nav">
+      <div>
+        <div class="lbl">Detail navigator</div>
+        <div class="rec-navigator" id="navigator"></div>
+        <div class="hint">Drag the frame to inspect fine detail.</div>
+      </div>
+      <div id="alsobox" style="display:none">
+        <div class="lbl">Also in this file</div>
+        <div class="rec-alsofiles" id="alsofiles"></div>
+      </div>
+      <div class="rec-actions">
+        <a class="btn cite" href="#">Cite</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LIGHT DETAILS -->
+<div class="rec-body">
+  <!-- left: description -->
+  <div>
+    <div class="rec-eyebrow" id="eyebrow"></div>
+    <h1 class="rec-title" id="title">Loading…</h1>
+    <div class="rec-subtitle" id="subtitle"></div>
+    <div class="rec-desc" id="desc"></div>
   </div>
 
-  <div id="osd-viewer"></div>
-
-  <div class="metadata-panel" id="metadata-panel">
-    <h2 id="meta-title"></h2>
-    <div id="meta-rows"></div>
+  <!-- right: object details + on view -->
+  <div>
+    <div class="rec-details">
+      <div class="lbl">Object details</div>
+      <div id="details"></div>
+    </div>
+    <div class="rec-onview" id="onview" style="display:none">
+      <div class="lbl">On view</div>
+      <div class="t" id="onview-t"></div>
+      <div class="s" id="onview-s"></div>
+    </div>
   </div>
+</div>
 
-  <script src="js/viewer.js"></script>
+<!-- RELATED -->
+<div class="rec-related" id="relatedbox" style="display:none">
+  <div class="rec-related-head">
+    <h2>Related objects</h2>
+    <span class="lbl" id="related-lbl"></span>
+  </div>
+  <div class="rec-related-grid" id="related"></div>
+</div>
 
-  <footer class="site-footer">
-    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
-  </footer>
+<footer class="copyright">© 2026 Yale School of Management — International Center for Finance. All rights reserved.</footer>
+
+<script src="js/museum-record.js"></script>
+
 </body>
 </html>

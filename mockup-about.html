@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Origins of Value — About (mockup)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mockup-museum.css">
+</head>
+<body class="catalogue">
+
+<div class="flagbar">Design mockup · “museum” direction · real Origins of Value collection · About</div>
+
+<!-- NAV (sticky top banner) -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="mockup-museum.html"><b>Origins of Value</b><span>A Virtual Museum of Financial History</span></a>
+    <div class="navlinks">
+      <a href="mockup-exhibits.html">Exhibits</a>
+      <a href="map.html">Map</a>
+      <a class="on" href="mockup-about.html">About</a>
+      <a class="search" href="mockup-search.html">⌕ Search</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- NAVY HERO -->
+  <div class="abhero">
+    <div class="eyebrow cap">About the museum</div>
+    <h1>The origins of value, told through the objects that created it.</h1>
+  </div>
+
+  <!-- CREAM BODY -->
+  <div class="abbody">
+    <div>
+      <p>The Origins of Value collection comprises 545 historical financial documents —
+        bonds, stock certificates, banknotes, prospectuses and more — spanning the 17th
+        through 20th centuries and drawn from 65 countries. Assembled at Yale’s
+        International Center for Finance, it is one of the most significant collections of
+        early financial instruments in the world.</p>
+      <p>Representing 77 languages and 131 currencies, each document tells a story of
+        commerce, innovation and risk. Together, they form a remarkable record of how
+        societies have organized capital, financed exploration and weathered financial
+        crises — from the South Sea Bubble to the modern era.</p>
+    </div>
+    <div class="abstats">
+      <div class="s"><b>545</b><span class="cap">Documents</span></div>
+      <div class="s"><b>1608</b><span class="cap">Earliest object</span></div>
+      <div class="s"><b>65</b><span class="cap">Countries</span></div>
+      <div class="s"><b>77</b><span class="cap">Languages</span></div>
+    </div>
+  </div>
+
+  <!-- IMAGE + CONTACT -->
+  <div class="abvisit">
+    <div class="pic"><img class="cover" src="images/ICF_Hallway.png" alt="Yale International Center for Finance"></div>
+    <div class="info">
+      <div class="h cap">Contact</div>
+      <div class="body">
+        <strong>Yale School of Management</strong><br>
+        International Center for Finance<br><br>
+        Questions or research inquiries? Send us a note.
+      </div>
+      <form class="contact-form" id="contact-form" novalidate>
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" rows="4" placeholder="Your message" required></textarea>
+        <button type="submit">Send message</button>
+        <p class="form-note" id="form-note">Thank you for your message. We will respond as soon as possible.</p>
+      </form>
+    </div>
+  </div>
+
+</div><!-- /wrap -->
+
+<footer class="copyright">© 2026 Yale School of Management — International Center for Finance. All rights reserved.</footer>
+
+<script>
+  document.getElementById('contact-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    if (!this.checkValidity()) { this.reportValidity(); return; }
+    this.reset();
+    document.getElementById('form-note').style.display = 'block';
+  });
+</script>
+
+</body>
+</html>

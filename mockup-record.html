@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Origins of Value — Record (mockup)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mockup-museum.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
+</head>
+<body class="theme-light bg-cream">
+
+<div class="flagbar">Design mockup · “museum” direction · real Origins of Value collection · Record</div>
+
+<!-- NAV (sticky top banner) -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="mockup-museum.html"><b>Origins of Value</b><span>A Virtual Museum of Financial History</span></a>
+    <div class="navlinks">
+      <a href="mockup-exhibits.html">Exhibits</a>
+      <a href="map.html">Map</a>
+      <a href="mockup-about.html">About</a>
+      <a class="search" href="mockup-search.html">⌕ Search</a>
+    </div>
+  </div>
+</header>
+
+<!-- DARK STAGE: deep-zoom viewer + detail navigator -->
+<div class="rec-top">
+  <div class="rec-crumb" id="crumb"></div>
+  <div class="rec-stage">
+    <!-- viewer -->
+    <div class="rec-viewer">
+      <div id="osd"></div>
+      <div class="rec-vctl">
+        <span id="zoom-in" title="Zoom in">+</span>
+        <span id="zoom-out" title="Zoom out">−</span>
+        <span id="zoom-home" title="Reset">⤢</span>
+      </div>
+      <div class="rec-zoominfo"><span>⊕</span> Scroll to zoom, drag to pan</div>
+      <div class="rec-sides" id="pagenav"></div>
+    </div>
+    <!-- navigator sidebar -->
+    <div class="rec-nav">
+      <div>
+        <div class="lbl">Detail navigator</div>
+        <div class="rec-navigator" id="navigator"></div>
+        <div class="hint">Drag the frame to inspect fine detail.</div>
+      </div>
+      <div id="alsobox" style="display:none">
+        <div class="lbl">Also in this file</div>
+        <div class="rec-alsofiles" id="alsofiles"></div>
+      </div>
+      <div class="rec-actions">
+        <a class="btn cite" href="#">Cite</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- LIGHT DETAILS -->
+<div class="rec-body">
+  <!-- left: description -->
+  <div>
+    <div class="rec-eyebrow" id="eyebrow"></div>
+    <h1 class="rec-title" id="title">Loading…</h1>
+    <div class="rec-subtitle" id="subtitle"></div>
+    <div class="rec-desc" id="desc"></div>
+  </div>
+
+  <!-- right: object details + on view -->
+  <div>
+    <div class="rec-details">
+      <div class="lbl">Object details</div>
+      <div id="details"></div>
+    </div>
+    <div class="rec-onview" id="onview" style="display:none">
+      <div class="lbl">On view</div>
+      <div class="t" id="onview-t"></div>
+      <div class="s" id="onview-s"></div>
+    </div>
+  </div>
+</div>
+
+<!-- RELATED -->
+<div class="rec-related" id="relatedbox" style="display:none">
+  <div class="rec-related-head">
+    <h2>Related objects</h2>
+    <span class="lbl" id="related-lbl"></span>
+  </div>
+  <div class="rec-related-grid" id="related"></div>
+</div>
+
+<footer class="copyright">© 2026 Yale School of Management — International Center for Finance. All rights reserved.</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var R2 = 'https://pub-1eab5fd66b714905892d924cc8227d94.r2.dev/';
+  var FALLBACK_ID = 'goetzmann1021';
+
+  // which records sit in which online exhibition (same order as the exhibit pages)
+  var EXHIBITS = [
+    { page: 'mockup-exhibit.html', name: 'The Birth of the Stock Market',
+      ids: ['goetzmann0915','goetzmann1021','goetzmann0500','goetzmann0536','goetzmann0606','goetzmann0507'] },
+    { page: 'mockup-exhibit-women.html', name: 'Women as Investors',
+      ids: ['goetzmann0491','goetzmann0179','goetzmann0529','goetzmann0485','goetzmann0629',
+            'goetzmann0486','goetzmann0655','goetzmann0663','goetzmann0234'] },
+    { page: 'mockup-exhibit-war.html', name: 'Financing War',
+      ids: ['goetzmann0226','goetzmann0186','goetzmann0340','goetzmann0677','goetzmann0454','goetzmann0383'] }
+  ];
+
+  var items = [], item = null, page = 0, viewer = null;
+
+  fetch('data/museum-data.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      items = data;
+      var id = new URLSearchParams(window.location.search).get('id') || FALLBACK_ID;
+      item = items.filter(function (x) { return x.id === id; })[0];
+
+      if (!item) {
+        document.getElementById('title').textContent = 'Record not found';
+        document.getElementById('desc').innerHTML =
+          '<p>No record with the id <code>' + esc(id) + '</code>. ' +
+          '<a class="piece-link" href="mockup-search.html">Back to the collection →</a></p>';
+        return;
+      }
+      render();
+    })
+    .catch(function () {
+      document.getElementById('title').textContent = 'Could not load the collection';
+      document.getElementById('desc').innerHTML =
+        '<p>This page reads <code>data/museum-data.json</code>, so it needs a local web server — ' +
+        'opening the file directly won’t work. Run <code>py -m http.server 8000</code> in the repo.</p>';
+    });
+
+  // ---- helpers ----
+  function esc(s) { var d = document.createElement('div'); d.textContent = s; return d.innerHTML; }
+  function first(a) { return (a && a.length) ? a[0] : ''; }
+  function pages() { return (item.pages && item.pages.length > 1) ? item.pages : null; }
+  function tileId() { return pages() ? pages()[page].id : item.id; }
+
+  // ---- render ----
+  function render() {
+    var ex = exhibitOf(item.id);
+
+    // breadcrumb
+    var type = first(item.type);
+    var crumb = '<a href="mockup-search.html">Collection</a>';
+    if (type) {
+      crumb += '<span class="sep">/</span><a href="mockup-search.html?type=' +
+        encodeURIComponent(type) + '">' + esc(type) + '</a>';
+    }
+    crumb += '<span class="sep">/</span><span class="cur">' + esc(item.title) + '</span>';
+    document.getElementById('crumb').innerHTML = crumb;
+
+    // headline block
+    document.getElementById('eyebrow').textContent = type;
+    document.getElementById('title').textContent = item.title;
+    document.title = item.title + ' — Origins of Value (mockup)';
+
+    var sub = [];
+    if (item.creator) sub.push(item.creator);
+    if (first(item.issueYear)) sub.push(first(item.issueYear));
+    document.getElementById('subtitle').textContent = sub.join(' · ');
+
+    // object details — the five fields kept in this design
+    var rows = [
+      ['Date',     first(item.issueYear)],
+      ['Type',     (item.type || []).join(', ')],
+      ['Country',  (item.issuingCountry || []).join(', ')],
+      ['Language', (item.language || []).join(', ')],
+      ['Period',   (item.period || []).join(', ')]
+    ].filter(function (r) { return r[1]; });
+    document.getElementById('details').innerHTML = rows.map(function (r) {
+      return '<div class="row"><span class="k">' + esc(r[0]) + '</span>' +
+             '<span class="v">' + esc(r[1]) + '</span></div>';
+    }).join('');
+
+    // on view in an exhibition
+    if (ex) {
+      var n = ex.ids.indexOf(item.id) + 1;
+      document.getElementById('onview').style.display = '';
+      document.getElementById('onview-t').innerHTML =
+        '<a href="' + ex.page + '?object=' + n + '">' + esc(ex.name) + '</a>';
+      document.getElementById('onview-s').textContent =
+        'Online exhibition · Object ' + n + ' of ' + ex.ids.length;
+    }
+
+    renderRelated(ex);
+    renderPageNav();
+    openViewer();
+    renderDescription();
+  }
+
+  // description follows the selected page on multi-page records
+  function renderDescription() {
+    var p = pages();
+    var text = (p && p[page].description) ? p[page].description : item.description;
+    document.getElementById('desc').innerHTML = '<p>' + esc(text) + '</p>';
+  }
+
+  function exhibitOf(id) {
+    return EXHIBITS.filter(function (e) { return e.ids.indexOf(id) !== -1; })[0] || null;
+  }
+
+  // ---- deep-zoom viewer ----
+  // R2 only sends CORS headers to yale-icf.github.io, so a localhost preview must use
+  // the tiles in the repo instead — same DZI layout, just served same-origin.
+  function dziBase() {
+    return /github\.io$/.test(window.location.hostname) ? R2 : 'tiles/';
+  }
+
+  function openViewer() {
+    var id = tileId();
+    var dzi = dziBase() + id + '/' + id + '.dzi';
+    if (viewer) { viewer.open(dzi); return; }
+
+    viewer = OpenSeadragon({
+      id: 'osd',
+      tileSources: dzi,
+      prefixUrl: 'https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/',
+      showNavigator: true,
+      navigatorId: 'navigator',        // OSD draws the navigator into our styled sidebar box
+      showNavigationControl: true,     // ...but the controls are our own elements, below
+      zoomInButton: 'zoom-in',
+      zoomOutButton: 'zoom-out',
+      homeButton: 'zoom-home',
+      animationTime: 0.3,
+      minZoomImageRatio: 0.8,
+      maxZoomPixelRatio: 4,
+      visibilityRatio: 0.5,
+      constrainDuringPan: true,
+      gestureSettingsMouse: { scrollToZoom: true },
+      gestureSettingsTouch: { pinchToZoom: true }
+    });
+
+    // if the tiles can't be reached, still show the document rather than an error
+    viewer.addHandler('open-failed', function () {
+      document.getElementById('osd').innerHTML =
+        '<img src="thumbnails/' + tileId() + '.jpg" alt="' + esc(item.title) + '" ' +
+        'style="width:100%;height:100%;object-fit:contain;padding:30px;box-sizing:border-box">';
+    });
+  }
+
+  // ---- multi-page records ----
+  function renderPageNav() {
+    var p = pages();
+    var nav = document.getElementById('pagenav');
+    if (!p) { nav.innerHTML = ''; return; }   // single-sheet records get no page chrome at all
+
+    nav.innerHTML = '';
+    var prev = document.createElement('span');
+    prev.textContent = '‹';
+    prev.setAttribute('aria-disabled', page === 0 ? 'true' : 'false');
+    prev.addEventListener('click', function () { if (page > 0) goPage(page - 1); });
+
+    var label = document.createElement('span');
+    label.className = 'pg';
+    label.textContent = 'Page ' + (page + 1) + ' of ' + p.length;
+
+    var next = document.createElement('span');
+    next.textContent = '›';
+    next.setAttribute('aria-disabled', page === p.length - 1 ? 'true' : 'false');
+    next.addEventListener('click', function () { if (page < p.length - 1) goPage(page + 1); });
+
+    nav.appendChild(prev); nav.appendChild(label); nav.appendChild(next);
+    renderAlsoFiles();
+  }
+
+  // "Also in this file" only exists for multi-page documents
+  function renderAlsoFiles() {
+    var p = pages();
+    if (!p) return;
+
+    document.getElementById('alsobox').style.display = '';
+    var box = document.getElementById('alsofiles');
+    box.innerHTML = '';
+
+    var SHOW = 6;
+    p.slice(0, SHOW).forEach(function (pg, i) {
+      var f = document.createElement('div');
+      f.className = 'f' + (i === page ? ' on' : '');
+      var img = document.createElement('img');
+      img.src = 'thumbnails/' + pg.id + '.jpg';
+      img.alt = '';
+      img.loading = 'lazy';
+      var span = document.createElement('span');
+      span.textContent = i + 1;
+      f.appendChild(img); f.appendChild(span);
+      f.addEventListener('click', function () { goPage(i); });
+      box.appendChild(f);
+    });
+
+    if (p.length > SHOW) {
+      var more = document.createElement('div');
+      more.className = 'f more';
+      more.textContent = '+' + (p.length - SHOW) + ' more';
+      box.appendChild(more);
+    }
+  }
+
+  function goPage(i) {
+    page = i;
+    renderPageNav();
+    openViewer();
+    renderDescription();
+  }
+
+  // ---- related objects ----
+  function renderRelated(ex) {
+    var picks, label;
+
+    if (ex) {
+      label = 'More from this exhibition';
+      picks = ex.ids
+        .filter(function (id) { return id !== item.id; })
+        .map(function (id) { return byId(id); })
+        .filter(Boolean)
+        .slice(0, 4);
+    } else {
+      label = 'Related by type and origin';
+      var type = first(item.type), country = first(item.issuingCountry);
+      var pool = items.filter(function (x) {
+        return x.id !== item.id && (x.type || []).indexOf(type) !== -1;
+      });
+      // same country first, then anything else of the same type
+      var same = pool.filter(function (x) { return (x.issuingCountry || []).indexOf(country) !== -1; });
+      picks = same.concat(pool.filter(function (x) { return same.indexOf(x) === -1; })).slice(0, 4);
+    }
+
+    if (!picks.length) return;
+
+    document.getElementById('relatedbox').style.display = '';
+    document.getElementById('related-lbl').textContent = label;
+    var grid = document.getElementById('related');
+    grid.innerHTML = '';
+    picks.forEach(function (x) {
+      var a = document.createElement('a');
+      a.className = 'rec-rel';
+      a.href = 'mockup-record.html?id=' + encodeURIComponent(x.id);
+      var ph = document.createElement('div');
+      ph.className = 'ph';
+      var img = document.createElement('img');
+      img.src = 'thumbnails/' + x.file;
+      img.alt = '';
+      img.loading = 'lazy';
+      ph.appendChild(img);
+      var t = document.createElement('div');
+      t.className = 't';
+      t.textContent = x.title;
+      a.appendChild(ph); a.appendChild(t);
+      grid.appendChild(a);
+    });
+  }
+
+  function byId(id) {
+    return items.filter(function (x) { return x.id === id; })[0];
+  }
+})();
+</script>
+
+</body>
+</html>

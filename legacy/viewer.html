@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="../">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document Viewer - Origins of Value Virtual Museum</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/auth.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
+</head>
+<body>
+<div style="background:#7c3a2d;color:#fff;text-align:center;font:700 12px/1.4 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:7px 12px">Archived &middot; the original Origins of Value design, before the 2026 redesign</div>
+
+  <header class="site-header">
+    <h1><a href="legacy/gallery.html">Origins of <span>Value</span></a></h1>
+    <nav class="header-nav">
+      <a href="legacy/collection.html" class="header-nav-link">Collection</a>
+      <div class="nav-dropdown">
+          <a href="legacy/gallery.html" class="header-nav-link nav-dropdown-toggle">Search</a>
+          <div class="nav-dropdown-menu">
+            <a href="legacy/gallery.html" class="nav-dropdown-item">Search</a>
+            <a href="legacy/search.html" class="nav-dropdown-item">Text Search</a>
+          </div>
+        </div>
+      <a href="legacy/map.html" class="header-nav-link">Map</a>
+      <a href="legacy/exhibits.html" class="header-nav-link">Exhibits</a>
+    </nav>
+  </header>
+
+  <div class="viewer-header">
+    <a href="legacy/gallery.html" class="back-btn" id="back-btn">&larr; Search</a>
+    <span class="viewer-title" id="viewer-title">Loading...</span>
+    <div class="viewer-nav">
+      <button class="nav-btn" id="prev-btn" disabled>&larr; Prev</button>
+      <button class="nav-btn" id="next-btn" disabled>Next &rarr;</button>
+    </div>
+  </div>
+
+  <div class="page-nav" id="page-nav" style="display:none">
+    <button id="page-prev" disabled>&larr;</button>
+    <span id="page-info">Page 1 of 1</span>
+    <button id="page-next">&rarr;</button>
+  </div>
+
+  <div id="osd-viewer"></div>
+
+  <div class="metadata-panel" id="metadata-panel">
+    <h2 id="meta-title"></h2>
+    <div id="meta-rows"></div>
+  </div>
+
+  <script src="js/viewer.js"></script>
+
+  <footer class="site-footer">
+    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
+  </footer>
+</body>
+</html>

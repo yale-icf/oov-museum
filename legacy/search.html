@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="../">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Search - Origins of Value Virtual Museum</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/auth.js"></script>
+  <style>
+    /* ── Main area ──────────────────────────────────────── */
+    .cs-main {
+      padding: 24px 32px;
+      max-width: 900px;
+      margin: 0 auto;
+      min-height: calc(100vh - 200px);
+      font-family: Georgia, serif;
+      color: #2c1a0e;
+    }
+    .cs-search-bar { display: flex; gap: 8px; margin-bottom: 6px; }
+    .cs-search-bar input[type=text] {
+      flex: 1; padding: 8px 12px;
+      border: 1px solid #c4a87a; background: #fdf8ef;
+      color: #2c1a0e; border-radius: 4px;
+      font-size: 1rem; font-family: Georgia, serif;
+    }
+    .cs-search-bar button {
+      padding: 8px 18px; background: #3b2008; color: #f5efe0;
+      border: none; border-radius: 4px; cursor: pointer;
+      font-size: .9rem; font-family: Georgia, serif;
+    }
+    .cs-search-bar button:hover { background: #5a3e2b; }
+    .cs-year-row {
+      display: flex; gap: 6px; align-items: center;
+      margin-bottom: 10px; font-size: .85rem; color: #7a5533;
+      font-family: Georgia, serif;
+    }
+    .cs-year-row input[type=number] {
+      width: 72px; padding: 4px 6px;
+      border: 1px solid #c4a87a; background: #fdf8ef;
+      color: #2c1a0e; border-radius: 3px; font-size: .85rem;
+    }
+    .cs-hint { font-size: .78rem; color: #9e8060; margin: 4px 0 16px; }
+    .cs-hint code { background: #ece3ce; padding: 1px 4px; border-radius: 2px; font-size: .78rem; }
+    .cs-stats { font-size: .8rem; color: #7a5533; margin-bottom: 16px; }
+    .cs-status { font-size: .9rem; color: #7a5533; font-style: italic; padding: 20px 0; }
+    .cs-result-count { font-size: .85rem; color: #7a5533; margin-bottom: 14px; }
+
+    /* ── Chart ──────────────────────────────────────────── */
+    .cs-chart-box {
+      background: #ece3ce; border: 1px solid #c4a87a;
+      border-radius: 4px; padding: 10px 14px 6px; margin-bottom: 16px;
+    }
+    .cs-chart-box h3 { margin: 0 0 6px; font-size: .78rem; color: #5a3e2b; text-transform: uppercase; letter-spacing: .04em; }
+
+    /* ── Result cards ───────────────────────────────────── */
+    .cs-results { list-style: none; margin: 0; padding: 0; }
+    .cs-card {
+      background: #fdf8ef; border: 1px solid #c4a87a;
+      border-radius: 4px; padding: 12px 14px;
+      margin-bottom: 10px; display: flex; gap: 12px; align-items: flex-start;
+    }
+    .cs-thumb {
+      flex-shrink: 0; width: 100px;
+      border: 1px solid #c4a87a; border-radius: 3px;
+      cursor: zoom-in; display: block;
+    }
+    .cs-body { flex: 1; min-width: 0; }
+    .cs-card h4 { margin: 0 0 3px; font-size: .95rem; color: #3b2008; }
+    .cs-meta { color: #7a5533; font-size: .78rem; margin-bottom: 4px; }
+    .cs-snippet {
+      font-size: .83rem; color: #3e2a14; margin: 5px 0 0;
+      line-height: 1.5; border-left: 3px solid #c4a87a; padding-left: 9px;
+    }
+    .cs-snippet mark { background: #f0c040; color: #2c1a0e; padding: 0 1px; border-radius: 2px; }
+    .cs-no-ocr { color: #9e8060; font-style: italic; font-size: .8rem; }
+
+    /* ── Lightbox ───────────────────────────────────────── */
+    #cs-lb {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,.88); z-index: 9999;
+      flex-direction: column; align-items: center; justify-content: center;
+    }
+    #cs-lb.open { display: flex; }
+    #cs-lb-osd {
+      width: 88vw; height: 82vh;
+      border: 2px solid #c4a87a; border-radius: 4px; background: #111;
+    }
+    #cs-lb-close {
+      position: absolute; top: 12px; right: 18px;
+      color: #f5efe0; font-size: 1.6rem; cursor: pointer;
+      line-height: 1; background: none; border: none;
+    }
+    #cs-lb-close:hover { color: #f0c040; }
+    #cs-lb-footer { margin-top: 8px; text-align: center; }
+    #cs-lb-footer a { color: #f0c040; font-size: .85rem; text-decoration: none; }
+    #cs-lb-footer a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+<div style="background:#7c3a2d;color:#fff;text-align:center;font:700 12px/1.4 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:7px 12px">Archived &middot; the original Origins of Value design, before the 2026 redesign</div>
+
+  <header class="site-header">
+    <h1><a href="legacy/index.html">Origins of <span>Value</span></a></h1>
+    <nav class="header-nav">
+      <a href="legacy/collection.html" class="header-nav-link">Collection</a>
+      <div class="nav-dropdown">
+          <a href="legacy/gallery.html" class="header-nav-link nav-dropdown-toggle active">Search</a>
+          <div class="nav-dropdown-menu">
+            <a href="legacy/gallery.html" class="nav-dropdown-item">Search</a>
+            <a href="legacy/search.html" class="nav-dropdown-item active">Text Search</a>
+          </div>
+        </div>
+      <a href="legacy/map.html" class="header-nav-link">Map</a>
+      <a href="legacy/exhibits.html" class="header-nav-link">Exhibits</a>
+    </nav>
+  </header>
+
+  <div class="page-banner">
+    <div class="page-banner-inner">
+      <h2>Text Search</h2>
+      <p>Full-text search of OCR transcriptions across the collection</p>
+    </div>
+  </div>
+
+  <form id="cs-form" onsubmit="csSearch(); return false;">
+  <main class="cs-main">
+
+    <div class="cs-search-bar">
+      <input type="text" id="cs-q"
+        placeholder='Search OCR text — try "dividend" or "bearer bond" or "société"'>
+      <button type="submit">Search</button>
+    </div>
+
+    <div class="cs-year-row">
+      <span>Year:</span>
+      <input type="number" id="cs-min-year" placeholder="from" min="1000" max="2100">
+      <span>–</span>
+      <input type="number" id="cs-max-year" placeholder="to" min="1000" max="2100">
+    </div>
+
+    <p class="cs-hint">
+      All words must appear in the document. Searches are case-insensitive.
+    </p>
+    <p class="cs-stats" id="cs-stats"></p>
+    <p class="cs-status" id="cs-status">Loading search index…</p>
+
+    <div id="cs-results-area" style="display:none">
+      <p class="cs-result-count" id="cs-result-count"></p>
+      <div class="cs-chart-box" id="cs-chart-box" style="display:none">
+        <h3>Hits per Year</h3>
+        <div id="cs-chart-svg"></div>
+      </div>
+      <ul class="cs-results" id="cs-results-list"></ul>
+      <p id="cs-no-results" style="display:none; color:#7a5533; font-style:italic">No results found.</p>
+    </div>
+
+  </main>
+  </form>
+
+  <footer class="site-footer">
+    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
+  </footer>
+
+  <!-- Lightbox -->
+  <div id="cs-lb" onclick="if(event.target===this)csCloseLb()">
+    <button id="cs-lb-close" onclick="csCloseLb()">✕</button>
+    <div id="cs-lb-osd"></div>
+    <div id="cs-lb-footer">
+      <a id="cs-lb-link" href="#" target="_blank">Open in museum viewer ↗</a>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sql.js@1.10.2/dist/sql-wasm.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/openseadragon.min.js"></script>
+  <script>
+  'use strict';
+
+  var csDb = null;
+  var csLbBoxes = null;
+  var csLbQuery = '';
+  var csOsdViewer = null;
+  var R2_BASE = 'https://pub-1eab5fd66b714905892d924cc8227d94.r2.dev/';
+
+  // ── DB init ────────────────────────────────────────────────────────────────
+  async function csInitDb() {
+    const SQL = await initSqlJs({
+      locateFile: function(f) {
+        return 'https://cdn.jsdelivr.net/npm/sql.js@1.10.2/dist/' + f;
+      }
+    });
+    const resp = await fetch('scripts/corpus.db');
+    if (!resp.ok) throw new Error('corpus.db not found (' + resp.status + ')');
+    csDb = new SQL.Database(new Uint8Array(await resp.arrayBuffer()));
+  }
+
+  function csRows(sql, params) {
+    var res = csDb.exec(sql, params);
+    if (!res.length) return [];
+    var cols = res[0].columns;
+    return res[0].values.map(function(row) {
+      var obj = {};
+      cols.forEach(function(c, i) { obj[c] = row[i]; });
+      return obj;
+    });
+  }
+
+  // ── Stats ──────────────────────────────────────────────────────────────────
+  function csUpdateStats() {
+    var rows = csRows('SELECT key, value FROM corpus_stats');
+    var s = {};
+    rows.forEach(function(r) { s[r.key] = r.value; });
+    var parts = [];
+    if (s.total_docs)  parts.push(s.total_docs + ' documents');
+    if (s.total_words) parts.push(Number(s.total_words).toLocaleString() + ' words indexed');
+    document.getElementById('cs-stats').textContent = parts.join(' · ');
+  }
+
+  // ── Snippet extraction ─────────────────────────────────────────────────────
+  function csSnippet(text, terms, contextLen) {
+    contextLen = contextLen || 220;
+    if (!text) return '';
+    if (!terms.length) return csEsc(text.slice(0, contextLen)) + (text.length > contextLen ? ' …' : '');
+    var lower = text.toLowerCase();
+    var bestPos = -1;
+    for (var i = 0; i < terms.length; i++) {
+      var p = lower.indexOf(terms[i]);
+      if (p !== -1) { bestPos = p; break; }
+    }
+    var start = bestPos === -1 ? 0 : Math.max(0, bestPos - 80);
+    var end = Math.min(text.length, start + contextLen);
+    var raw = (start > 0 ? '… ' : '') + text.slice(start, end) + (end < text.length ? ' …' : '');
+    var escaped = csEsc(raw);
+    terms.forEach(function(term) {
+      var re = new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi');
+      escaped = escaped.replace(re, function(m) { return '<mark>' + m + '</mark>'; });
+    });
+    return escaped;
+  }
+
+  // ── Search ─────────────────────────────────────────────────────────────────
+  function csSearch() {
+    if (!csDb) return;
+
+    var query   = document.getElementById('cs-q').value.trim();
+    var minYear = parseInt(document.getElementById('cs-min-year').value) || null;
+    var maxYear = parseInt(document.getElementById('cs-max-year').value) || null;
+    var terms   = query.toLowerCase().split(/\s+/).filter(function(t) { return t.length >= 1; });
+
+    var rows;
+    try {
+      if (terms.length) {
+        var where  = terms.map(function() { return "lower(ocr_text) LIKE lower(?)"; }).join(' AND ');
+        var params = terms.map(function(t) { return '%' + t + '%'; });
+        rows = csRows(
+          "SELECT id, title, type, period, issuing_country, subject_country, " +
+          "issue_year, language, owner, word_count, ocr_text FROM docs WHERE " +
+          where + " ORDER BY issue_year", params
+        );
+      } else {
+        rows = csRows(
+          "SELECT id, title, type, period, issuing_country, subject_country, " +
+          "issue_year, language, owner, word_count, ocr_text FROM docs ORDER BY issue_year"
+        );
+      }
+    } catch(e) {
+      csShowStatus('Search error: ' + e.message);
+      return;
+    }
+
+    var results = [];
+    var yearCounts = {};
+    for (var i = 0; i < rows.length; i++) {
+      var r = rows[i];
+      if (minYear && r.issue_year && r.issue_year < minYear) continue;
+      if (maxYear && r.issue_year && r.issue_year > maxYear) continue;
+      r._terms = terms;
+      results.push(r);
+      if (r.issue_year) yearCounts[r.issue_year] = (yearCounts[r.issue_year] || 0) + 1;
+      if (results.length >= 200) break;
+    }
+
+    csRenderResults(results, query, yearCounts);
+  }
+
+  // ── Render ─────────────────────────────────────────────────────────────────
+  function csRenderResults(results, query, yearCounts) {
+    document.getElementById('cs-status').style.display = 'none';
+    document.getElementById('cs-results-area').style.display = '';
+
+    var label = results.length === 1 ? '1 result' : results.length + ' results';
+    var forStr = query ? ' for <strong>' + csEsc(query) + '</strong>' : '';
+    var limitStr = results.length === 200 ? ' (showing first 200)' : '';
+    document.getElementById('cs-result-count').innerHTML = label + forStr + limitStr;
+
+    var chartBox = document.getElementById('cs-chart-box');
+    if (Object.keys(yearCounts).length) {
+      document.getElementById('cs-chart-svg').innerHTML = csMakeChart(yearCounts);
+      chartBox.style.display = '';
+    } else {
+      chartBox.style.display = 'none';
+    }
+
+    var list = document.getElementById('cs-results-list');
+    var noResults = document.getElementById('cs-no-results');
+
+    if (!results.length) {
+      list.innerHTML = '';
+      noResults.style.display = '';
+      return;
+    }
+    noResults.style.display = 'none';
+
+    list.innerHTML = results.map(function(r) {
+      var meta = [r.id, r.type, r.period, r.issuing_country,
+                  r.issue_year, r.language, r.owner]
+        .filter(Boolean).join(' · ');
+      var snippetHtml = r.ocr_text
+        ? '<div class="cs-snippet">' + csSnippet(r.ocr_text, r._terms || []) + '</div>'
+        : '<div class="cs-no-ocr">No OCR text available.</div>';
+      var qEsc = csEscJs(query);
+      return '<li class="cs-card">' +
+        '<img class="cs-thumb" src="thumbnails/' + r.id + '.jpg" alt="' + csEsc(r.id) + '"' +
+        ' title="Click to view document" onclick="csLb(\'' + r.id + '\',\'' + qEsc + '\')"' +
+        ' onerror="this.style.display=\'none\'">' +
+        '<div class="cs-body">' +
+        '<h4>' + csEsc(r.title || r.id) + '</h4>' +
+        '<div class="cs-meta">' + csEsc(meta) + '</div>' +
+        snippetHtml +
+        '</div></li>';
+    }).join('');
+  }
+
+  function csShowStatus(msg) {
+    var s = document.getElementById('cs-status');
+    s.textContent = msg;
+    s.style.display = '';
+  }
+
+  // ── Year chart ─────────────────────────────────────────────────────────────
+  function csMakeChart(yearCounts, width, height) {
+    width = width || 720; height = height || 120;
+    var years = Object.keys(yearCounts).map(Number).sort(function(a,b){return a-b;});
+    var counts = years.map(function(y){return yearCounts[y];});
+    var maxC = Math.max.apply(null, counts) || 1;
+    var n = years.length;
+    var pL=5, pR=5, pT=8, pB=20;
+    var cW=width-pL-pR, cH=height-pT-pB;
+    var bW = Math.max(1, cW/n - 1);
+    var bars = years.map(function(yr, i) {
+      var cnt = counts[i];
+      var x = pL + i*(cW/n), bH = cnt/maxC*cH, y = pT+cH-bH;
+      return '<rect x="'+x.toFixed(1)+'" y="'+y.toFixed(1)+'" width="'+bW.toFixed(1)+
+        '" height="'+bH.toFixed(1)+'" fill="#8b5e3c" opacity="0.75">' +
+        '<title>'+yr+': '+cnt+' hit'+(cnt!==1?'s':'')+'</title></rect>';
+    });
+    var labels = years.reduce(function(acc, yr, i) {
+      if (n <= 20 || yr % 50 === 0) {
+        var x = pL + i*(cW/n) + bW/2;
+        acc.push('<text x="'+x.toFixed(1)+'" y="'+(height-2)+
+          '" text-anchor="middle" font-size="9" fill="#5a3e2b">'+yr+'</text>');
+      }
+      return acc;
+    }, []);
+    return '<svg xmlns="http://www.w3.org/2000/svg" width="'+width+'" height="'+height+
+      '" style="display:block">'+bars.join('')+labels.join('')+'</svg>';
+  }
+
+  // ── Lightbox ───────────────────────────────────────────────────────────────
+  function csLb(docId, query) {
+    csLbBoxes = null;
+    csLbQuery = (query || '').trim();
+
+    // Load bounding boxes synchronously before opening OSD
+    if (csLbQuery && csDb) {
+      try {
+        var rows = csRows('SELECT words_json FROM boxes WHERE image_id = ?', [docId]);
+        if (rows.length) csLbBoxes = JSON.parse(rows[0].words_json);
+      } catch(e) {}
+    }
+
+    document.getElementById('cs-lb-link').href = 'viewer.html?id=' + docId;
+    document.getElementById('cs-lb').classList.add('open');
+
+    var dziUrl = R2_BASE + docId + '/' + docId + '.dzi';
+    if (!csOsdViewer) {
+      csOsdViewer = OpenSeadragon({
+        id: 'cs-lb-osd',
+        tileSources: dziUrl,
+        prefixUrl: 'https://cdnjs.cloudflare.com/ajax/libs/openseadragon/4.1.1/images/',
+        showNavigator: false,
+        showFullPageControl: false,
+        showZoomControl: true,
+        showHomeControl: true,
+        animationTime: 0.3,
+        gestureSettingsMouse: { scrollToZoom: true },
+        gestureSettingsTouch: { pinchToZoom: true }
+      });
+      csOsdViewer.addHandler('open', csAddOverlays);
+    } else {
+      csOsdViewer.open(dziUrl);
+    }
+  }
+
+  function csAddOverlays() {
+    csOsdViewer.clearOverlays();
+    if (!csLbBoxes || !csLbQuery) return;
+    var terms = csLbQuery.toLowerCase().split(/\s+/).filter(function(t){return t.length>=2;});
+    if (!terms.length) return;
+    var item = csOsdViewer.world.getItemAt(0);
+    if (!item) return;
+    var imgSize = item.getContentSize();
+    var imgW = imgSize.x, imgH = imgSize.y;
+    csLbBoxes.forEach(function(w) {
+      var wt = (w.text || '').toLowerCase();
+      for (var i = 0; i < terms.length; i++) {
+        if (wt.includes(terms[i])) {
+          var rect = csOsdViewer.viewport.imageToViewportRectangle(
+            w.x0 * imgW, w.y0 * imgH,
+            (w.x1 - w.x0) * imgW, (w.y1 - w.y0) * imgH
+          );
+          var el = document.createElement('div');
+          el.style.cssText = 'background:rgba(255,200,0,0.45);pointer-events:none;';
+          csOsdViewer.addOverlay({element: el, location: rect});
+          break;
+        }
+      }
+    });
+  }
+
+  function csCloseLb() {
+    document.getElementById('cs-lb').classList.remove('open');
+    csLbBoxes = null;
+  }
+  document.addEventListener('keydown', function(e) { if (e.key==='Escape') csCloseLb(); });
+
+  // ── Helpers ────────────────────────────────────────────────────────────────
+  function csEsc(s) {
+    return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function csEscJs(s) {
+    return String(s||'').replace(/\\/g,'\\\\').replace(/'/g,"\\'");
+  }
+
+  // ── Init ───────────────────────────────────────────────────────────────────
+  window.addEventListener('DOMContentLoaded', async function() {
+    try {
+      await csInitDb();
+      csUpdateStats();
+      document.getElementById('cs-status').style.display = 'none';
+    } catch(e) {
+      csShowStatus('Error loading search index: ' + e.message);
+      return;
+    }
+    // Auto-search if ?q= param present (e.g. redirected from Search page)
+    var params = new URLSearchParams(window.location.search);
+    var q = params.get('q');
+    if (q) {
+      document.getElementById('cs-q').value = q;
+      csSearch();
+    }
+  });
+  </script>
+
+</body>
+</html>
