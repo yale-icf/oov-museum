@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <base href="../">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Origins of Value Virtual Museum - Historical Financial Documents</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .login-overlay {
+      position: fixed;
+      inset: 0;
+      z-index: 9999;
+      background: #0d1a2d;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .login-overlay.hidden { display: none; }
+    .login-box {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      max-width: 380px;
+      width: 100%;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      text-align: center;
+      border-top: 4px solid var(--gold);
+    }
+    .login-box h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      color: var(--navy);
+      margin-bottom: 0.3rem;
+    }
+    .login-box h1 span { color: var(--gold); }
+    .login-subtitle {
+      font-size: 0.85rem;
+      color: var(--text-light);
+      margin-bottom: 1.5rem;
+    }
+    .login-input {
+      width: 100%;
+      padding: 0.7rem 1rem;
+      border: 1px solid #c8c0b0;
+      border-radius: var(--radius);
+      font-size: 0.95rem;
+      font-family: 'Source Sans 3', sans-serif;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .login-input:focus {
+      outline: none;
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(201,168,76,0.2);
+    }
+    .login-btn {
+      width: 100%;
+      padding: 0.7rem;
+      background: var(--navy);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius);
+      font-size: 0.95rem;
+      font-family: 'Source Sans 3', sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+    .login-btn:hover { background: var(--navy-light); }
+    .login-error {
+      color: #c0392b;
+      font-size: 0.85rem;
+      margin-top: 0.75rem;
+      display: none;
+    }
+  </style>
+</head>
+<body class="homepage">
+<div style="background:#7c3a2d;color:#fff;text-align:center;font:700 12px/1.4 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:7px 12px">Archived &middot; the original Origins of Value design, before the 2026 redesign</div>
+
+  <div class="login-overlay" id="login-overlay">
+    <div class="login-box">
+      <h1>Origins of <span>Value</span></h1>
+      <p class="login-subtitle">Enter the password to access the museum</p>
+      <form id="login-form">
+        <input type="password" class="login-input" id="password" placeholder="Password" autofocus>
+        <button type="submit" class="login-btn">Enter</button>
+        <p class="login-error" id="login-error">Incorrect password. Please try again.</p>
+      </form>
+    </div>
+  </div>
+
+  <header class="homepage-header">
+    <a href="legacy/index.html" class="homepage-logo">Origins of <span>Value</span> Virtual Museum</a>
+    <div class="homepage-nav">
+      <a href="legacy/collection.html" class="homepage-nav-link">Collection</a>
+      <a href="legacy/gallery.html" class="homepage-nav-link">Search</a>
+      <a href="legacy/map.html" class="homepage-nav-link">Map</a>
+      <a href="legacy/exhibits.html" class="homepage-nav-link">Exhibits</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg" style="background-image: url('images/hero-goetzmann0454.jpg')"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">Origins of Value Virtual Museum</h1>
+      <p class="hero-subtitle">Historical Financial Documents</p>
+      <p class="hero-desc">An extensive archive of bonds, stock certificates, banknotes, and more, spanning four centuries of financial history from around the world. Explore the collection from Yale&rsquo;s International Center for Finance.</p>
+      <div class="hero-cta-group">
+        <a href="legacy/exhibits.html" class="hero-cta hero-cta-ghost">Exhibitions</a>
+        <a href="legacy/collection.html" class="hero-cta">Collection</a>
+        <a href="#news" class="hero-cta hero-cta-ghost">In the News</a>
+      </div>
+      <div class="hero-stats" id="hero-stats"></div>
+    </div>
+  </section>
+
+  <section class="news-section" id="news">
+    <h2 class="featured-heading">In the News</h2>
+    <div class="news-grid">
+      <a href="https://yalealumnimagazine.org/articles/5627-infinity-has-a-price" class="news-card" target="_blank" rel="noopener">
+        <span class="news-source">Yale Alumni Magazine</span>
+        <h3 class="news-title">Infinity Has a Price</h3>
+        <p class="news-description">A 375-year-old Dutch perpetual bond owned by Yale still pays interest &mdash; a testament to the ingenuity of early financial instruments.</p>
+      </a>
+      <a href="https://som.yale.edu/story/2026/analysis-1959-sednaoui-share-certificate" class="news-card" target="_blank" rel="noopener">
+        <span class="news-source">Yale School of Management</span>
+        <h3 class="news-title">An Analysis of the 1959 Sednaoui Share Certificate</h3>
+        <p class="news-description">An Egyptian department store stock certificate reveals a story of mercantile success and state nationalization under Nasser.</p>
+      </a>
+      <a href="https://insights.som.yale.edu/insights/beauty-power-art-and-finance" class="news-card" target="_blank" rel="noopener">
+        <span class="news-source">Yale Insights</span>
+        <h3 class="news-title">Beauty, Power, Art, and Finance</h3>
+        <p class="news-description">How art, money, and power have historically intertwined &mdash; from establishing social hierarchy to generating speculative bubbles.</p>
+      </a>
+    </div>
+  </section>
+
+  <footer class="homepage-footer">
+    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
+  </footer>
+
+  <script src="js/homepage.js"></script>
+  <script>
+    (function () {
+      function getHash(str) {
+        var hash = 0;
+        for (var i = 0; i < str.length; i++) {
+          hash = ((hash << 5) - hash) + str.charCodeAt(i);
+          hash |= 0;
+        }
+        return hash.toString();
+      }
+      var EXPECTED = getHash('oov26icf');
+      var overlay = document.getElementById('login-overlay');
+
+      // Already authenticated — hide overlay
+      if (sessionStorage.getItem('oov_auth') === EXPECTED) {
+        overlay.classList.add('hidden');
+      } else {
+        document.getElementById('login-form').addEventListener('submit', function (e) {
+          e.preventDefault();
+          var pw = document.getElementById('password').value;
+          if (getHash(pw) === EXPECTED) {
+            sessionStorage.setItem('oov_auth', EXPECTED);
+            overlay.classList.add('hidden');
+          } else {
+            document.getElementById('login-error').style.display = 'block';
+            document.getElementById('password').value = '';
+            document.getElementById('password').focus();
+          }
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

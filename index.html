@@ -1,177 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Origins of Value Virtual Museum - Historical Financial Documents</title>
-  <link rel="stylesheet" href="css/style.css">
-  <style>
-    .login-overlay {
-      position: fixed;
-      inset: 0;
-      z-index: 9999;
-      background: #0d1a2d;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .login-overlay.hidden { display: none; }
-    .login-box {
-      background: var(--white);
-      border-radius: var(--radius);
-      padding: 2.5rem;
-      max-width: 380px;
-      width: 100%;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-      text-align: center;
-      border-top: 4px solid var(--gold);
-    }
-    .login-box h1 {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.6rem;
-      color: var(--navy);
-      margin-bottom: 0.3rem;
-    }
-    .login-box h1 span { color: var(--gold); }
-    .login-subtitle {
-      font-size: 0.85rem;
-      color: var(--text-light);
-      margin-bottom: 1.5rem;
-    }
-    .login-input {
-      width: 100%;
-      padding: 0.7rem 1rem;
-      border: 1px solid #c8c0b0;
-      border-radius: var(--radius);
-      font-size: 0.95rem;
-      font-family: 'Source Sans 3', sans-serif;
-      margin-bottom: 1rem;
-      text-align: center;
-    }
-    .login-input:focus {
-      outline: none;
-      border-color: var(--gold);
-      box-shadow: 0 0 0 3px rgba(201,168,76,0.2);
-    }
-    .login-btn {
-      width: 100%;
-      padding: 0.7rem;
-      background: var(--navy);
-      color: var(--white);
-      border: none;
-      border-radius: var(--radius);
-      font-size: 0.95rem;
-      font-family: 'Source Sans 3', sans-serif;
-      font-weight: 600;
-      cursor: pointer;
-      transition: background 0.2s ease;
-    }
-    .login-btn:hover { background: var(--navy-light); }
-    .login-error {
-      color: #c0392b;
-      font-size: 0.85rem;
-      margin-top: 0.75rem;
-      display: none;
-    }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Origins of Value — A Virtual Museum of Financial History</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/museum.css">
 </head>
-<body class="homepage">
+<body>
 
-  <div class="login-overlay" id="login-overlay">
-    <div class="login-box">
-      <h1>Origins of <span>Value</span></h1>
-      <p class="login-subtitle">Enter the password to access the museum</p>
-      <form id="login-form">
-        <input type="password" class="login-input" id="password" placeholder="Password" autofocus>
-        <button type="submit" class="login-btn">Enter</button>
-        <p class="login-error" id="login-error">Incorrect password. Please try again.</p>
-      </form>
+<!-- PASSWORD GATE (every other page redirects here via js/auth.js) -->
+<div class="login-overlay" id="login-overlay">
+  <div class="login-box">
+    <div class="brand-mark">Origins of Value</div>
+    <p class="login-subtitle">Enter the password to access the museum</p>
+    <form id="login-form">
+      <input type="password" class="login-input" id="password" placeholder="Password" autofocus>
+      <button type="submit" class="login-btn">Enter</button>
+      <p class="login-error" id="login-error">Incorrect password. Please try again.</p>
+    </form>
+  </div>
+</div>
+
+<!-- NAV (sticky top banner) -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><b>Origins of Value</b><span>A Virtual Museum of Financial History</span></a>
+    <div class="navlinks">
+      <a href="exhibits.html">Exhibits</a>
+      <a href="map.html">Map</a>
+      <a href="about.html">About</a>
+      <a class="search" href="search.html">⌕ Search</a>
     </div>
   </div>
+</header>
 
-  <header class="homepage-header">
-    <a href="index.html" class="homepage-logo">Origins of <span>Value</span> Virtual Museum</a>
-    <div class="homepage-nav">
-      <a href="collection.html" class="homepage-nav-link">Collection</a>
-      <a href="gallery.html" class="homepage-nav-link">Search</a>
-      <a href="map.html" class="homepage-nav-link">Map</a>
-      <a href="exhibits.html" class="homepage-nav-link">Exhibits</a>
+<!-- FULL-BLEED HERO -->
+<section class="hero-full">
+  <div class="hero-full-bg" style="background-image:url('images/hero-goetzmann0454.jpg')"></div>
+  <div class="hero-full-overlay"></div>
+  <div class="hero-full-content">
+    <h1 class="head">Origins of Value</h1>
+    <div class="head-sub">Virtual Museum</div>
+    <p class="deck">An extensive archive of bonds, stock certificates, banknotes and more —
+      the engraved and handwritten documents through which capital was promised, transferred
+      and remembered, spanning four centuries of financial history from around the world.</p>
+    <div class="cta">
+      <a class="btn solid" href="search.html">Browse the collection</a>
+      <a class="btn ghost" href="map.html">Explore the map</a>
     </div>
-  </header>
+  </div>
+</section>
 
-  <section class="hero">
-    <div class="hero-bg" style="background-image: url('images/hero-goetzmann0454.jpg')"></div>
-    <div class="hero-overlay"></div>
-    <div class="hero-content">
-      <h1 class="hero-title">Origins of Value Virtual Museum</h1>
-      <p class="hero-subtitle">Historical Financial Documents</p>
-      <p class="hero-desc">An extensive archive of bonds, stock certificates, banknotes, and more, spanning four centuries of financial history from around the world. Explore the collection from Yale&rsquo;s International Center for Finance.</p>
-      <div class="hero-cta-group">
-        <a href="exhibits.html" class="hero-cta hero-cta-ghost">Exhibitions</a>
-        <a href="collection.html" class="hero-cta">Collection</a>
-        <a href="#news" class="hero-cta hero-cta-ghost">In the News</a>
-      </div>
-      <div class="hero-stats" id="hero-stats"></div>
+<div class="wrap">
+
+  <!-- EXHIBITION BAND -->
+  <div class="exband">
+    <div class="copy">
+      <div class="eyebrow cap">Now on view</div>
+      <h3><a href="exhibit-stock-market.html">The Birth of the Stock Market</a></h3>
+      <p>From a medieval French mill cooperative to the first securities price-lists of
+        Amsterdam — six documents tracing how the idea of a tradable share was invented on paper.</p>
+      <a class="more" href="exhibits.html">View all exhibitions →</a>
     </div>
-  </section>
+    <div class="art"><img class="cover" src="thumbnails/goetzmann0915.jpg" alt="Société Toulousaine du Bazacle share"></div>
+  </div>
 
-  <section class="news-section" id="news">
-    <h2 class="featured-heading">In the News</h2>
-    <div class="news-grid">
-      <a href="https://yalealumnimagazine.org/articles/5627-infinity-has-a-price" class="news-card" target="_blank" rel="noopener">
-        <span class="news-source">Yale Alumni Magazine</span>
-        <h3 class="news-title">Infinity Has a Price</h3>
-        <p class="news-description">A 375-year-old Dutch perpetual bond owned by Yale still pays interest &mdash; a testament to the ingenuity of early financial instruments.</p>
-      </a>
-      <a href="https://som.yale.edu/story/2026/analysis-1959-sednaoui-share-certificate" class="news-card" target="_blank" rel="noopener">
-        <span class="news-source">Yale School of Management</span>
-        <h3 class="news-title">An Analysis of the 1959 Sednaoui Share Certificate</h3>
-        <p class="news-description">An Egyptian department store stock certificate reveals a story of mercantile success and state nationalization under Nasser.</p>
-      </a>
-      <a href="https://insights.som.yale.edu/insights/beauty-power-art-and-finance" class="news-card" target="_blank" rel="noopener">
-        <span class="news-source">Yale Insights</span>
-        <h3 class="news-title">Beauty, Power, Art, and Finance</h3>
-        <p class="news-description">How art, money, and power have historically intertwined &mdash; from establishing social hierarchy to generating speculative bubbles.</p>
-      </a>
+  <!-- COLLECTION HIGHLIGHTS -->
+  <div class="pad">
+    <div class="sec-head" style="border-top:1px solid var(--line)">
+      <h2>Collection highlights</h2>
+      <a class="meta cap" href="search.html">View all →</a>
     </div>
-  </section>
+  </div>
+  <div class="hl-grid">
+    <a class="work" href="viewer.html?id=goetzmann1021">
+      <div class="ph"><img class="cover" src="thumbnails/goetzmann1021.jpg" alt=""></div>
+      <div class="t">Dutch East India Company obligation receipts</div>
+      <div class="s">1622</div></a>
+    <a class="work" href="viewer.html?id=goetzmann0302">
+      <div class="ph"><img class="cover" src="thumbnails/goetzmann0302.jpg" alt=""></div>
+      <div class="t">Banque Industrielle de Chine share</div>
+      <div class="s">1913</div></a>
+    <a class="work" href="viewer.html?id=goetzmann0028">
+      <div class="ph"><img class="cover" src="thumbnails/goetzmann0028.jpg" alt=""></div>
+      <div class="t">South Sea Bubble satirical playing cards</div>
+      <div class="s">1720</div></a>
+  </div>
 
-  <footer class="homepage-footer">
-    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
-  </footer>
+  <!-- IN THE NEWS -->
+  <div class="pad" id="news">
+    <div class="sec-head" style="border-top:1px solid var(--line)">
+      <h2>In the news</h2>
+    </div>
+  </div>
+  <div class="news-grid">
+    <a class="news-card" href="https://yalealumnimagazine.org/articles/5627-infinity-has-a-price" target="_blank" rel="noopener">
+      <span class="src cap">Yale Alumni Magazine</span>
+      <h3>Infinity Has a Price</h3>
+      <p>A 375-year-old Dutch perpetual bond owned by Yale still pays interest — a testament
+        to the ingenuity of early financial instruments.</p>
+    </a>
+    <a class="news-card" href="https://som.yale.edu/story/2026/analysis-1959-sednaoui-share-certificate" target="_blank" rel="noopener">
+      <span class="src cap">Yale School of Management</span>
+      <h3>An Analysis of the 1959 Sednaoui Share Certificate</h3>
+      <p>An Egyptian department store stock certificate reveals a story of mercantile success
+        and state nationalization under Nasser.</p>
+    </a>
+    <a class="news-card" href="https://insights.som.yale.edu/insights/beauty-power-art-and-finance" target="_blank" rel="noopener">
+      <span class="src cap">Yale Insights</span>
+      <h3>Beauty, Power, Art, and Finance</h3>
+      <p>How art, money, and power have historically intertwined — from establishing social
+        hierarchy to generating speculative bubbles.</p>
+    </a>
+  </div>
 
-  <script src="js/homepage.js"></script>
-  <script>
-    (function () {
-      function getHash(str) {
-        var hash = 0;
-        for (var i = 0; i < str.length; i++) {
-          hash = ((hash << 5) - hash) + str.charCodeAt(i);
-          hash |= 0;
-        }
-        return hash.toString();
-      }
-      var EXPECTED = getHash('oov26icf');
-      var overlay = document.getElementById('login-overlay');
+</div><!-- /wrap -->
 
-      // Already authenticated — hide overlay
-      if (sessionStorage.getItem('oov_auth') === EXPECTED) {
-        overlay.classList.add('hidden');
-      } else {
-        document.getElementById('login-form').addEventListener('submit', function (e) {
-          e.preventDefault();
-          var pw = document.getElementById('password').value;
-          if (getHash(pw) === EXPECTED) {
-            sessionStorage.setItem('oov_auth', EXPECTED);
-            overlay.classList.add('hidden');
-          } else {
-            document.getElementById('login-error').style.display = 'block';
-            document.getElementById('password').value = '';
-            document.getElementById('password').focus();
-          }
-        });
-      }
-    })();
-  </script>
+<footer class="copyright">© 2026 Yale School of Management — International Center for Finance. All rights reserved.</footer>
+
+<script src="js/login.js"></script>
+
 </body>
 </html>

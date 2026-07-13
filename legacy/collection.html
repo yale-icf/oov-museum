@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <base href="../">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Collection - Origins of Value Virtual Museum</title>
@@ -8,13 +9,14 @@
   <script src="js/auth.js"></script>
 </head>
 <body>
+<div style="background:#7c3a2d;color:#fff;text-align:center;font:700 12px/1.4 system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;padding:7px 12px">Archived &middot; the original Origins of Value design, before the 2026 redesign</div>
 
   <header class="site-header">
-    <h1><a href="index.html">Origins of <span>Value</span></a></h1>
+    <h1><a href="legacy/index.html">Origins of <span>Value</span></a></h1>
     <nav class="header-nav">
-      <a href="collection.html" class="header-nav-link active">Collection</a>
-      <a href="map.html" class="header-nav-link">Map</a>
-      <a href="exhibits.html" class="header-nav-link">Exhibits</a>
+      <a href="legacy/collection.html" class="header-nav-link active">Collection</a>
+      <a href="legacy/map.html" class="header-nav-link">Map</a>
+      <a href="legacy/exhibits.html" class="header-nav-link">Exhibits</a>
     </nav>
   </header>
 
@@ -23,7 +25,7 @@
       <h2>About the Collection</h2>
       <p>The Origins of Value collection comprises 545 historical financial documents &mdash; bonds, stock certificates, banknotes, prospectuses, and more &mdash; spanning the 17th through 20th centuries and drawn from 65 countries. Assembled at the <a href="https://som.yale.edu/centers/international-center-for-finance" class="about-link" target="_blank" rel="noopener">International Center for Finance</a> at the Yale School of Management, it traces the evolution of financial instruments from the earliest share certificates of Dutch colonial companies to twentieth-century securities issued across Europe, Asia, and the Americas.</p>
       <p>Representing 77 languages and 131 currencies, each document tells a story of commerce, innovation, and risk. Together, they form a remarkable record of how societies have organized capital, financed exploration, and weathered financial crises from the South Sea Bubble to the modern era.</p>
-      <a href="gallery.html" class="about-cta">Search the collection</a>
+      <a href="legacy/gallery.html" class="about-cta">Search the collection</a>
     </div>
   </section>
 
@@ -35,9 +37,9 @@
       <div class="coll-browse-left">
         <div class="coll-browse-col-header">
           <span class="coll-browse-col-label">Exhibitions</span>
-          <a href="exhibits.html" class="coll-browse-col-link">View all &rarr;</a>
+          <a href="legacy/exhibits.html" class="coll-browse-col-link">View all &rarr;</a>
         </div>
-        <a href="exhibit-women-investors.html" class="coll-exhibit-compact">
+        <a href="legacy/exhibit-women-investors.html" class="coll-exhibit-compact">
           <div class="coll-exhibit-compact-img">
             <img src="images/exhibits/goetzmann0491.jpg" alt="Women as Investors">
           </div>
@@ -48,7 +50,7 @@
             <span class="exhibit-card-meta">9 items &middot; France, Netherlands, United Kingdom, United States</span>
           </div>
         </a>
-        <a href="exhibit-stock-market.html" class="coll-exhibit-compact">
+        <a href="legacy/exhibit-stock-market.html" class="coll-exhibit-compact">
           <div class="coll-exhibit-compact-img">
             <img src="images/exhibits/goetzmann1021.jpg" alt="The Birth of the Stock Market">
           </div>
@@ -68,7 +70,7 @@
         <div class="coll-browse-option">
           <div class="coll-browse-col-header">
             <span class="coll-browse-col-label">Collection Highlights</span>
-            <a href="highlights.html" class="coll-browse-col-link">View all &rarr;</a>
+            <a href="legacy/highlights.html" class="coll-browse-col-link">View all &rarr;</a>
           </div>
           <div class="featured-grid" id="featured-grid"></div>
         </div>
@@ -77,7 +79,7 @@
         <div class="coll-browse-option">
           <div class="coll-browse-col-header">
             <span class="coll-browse-col-label">Explore by Country</span>
-            <a href="map.html" class="coll-browse-col-link">View all &rarr;</a>
+            <a href="legacy/map.html" class="coll-browse-col-link">View all &rarr;</a>
           </div>
           <div class="country-grid" id="country-grid"></div>
         </div>
@@ -88,13 +90,13 @@
             <span class="coll-browse-col-label">Browse by Document Type</span>
           </div>
           <div class="coll-browse-pills">
-            <a href="glossary.html#bond" class="coll-browse-pill">Bond</a>
-            <a href="glossary.html#stock-certificate" class="coll-browse-pill">Stock Certificate</a>
-            <a href="glossary.html#certificate" class="coll-browse-pill">Certificate</a>
-            <a href="glossary.html#banknote" class="coll-browse-pill">Banknote</a>
-            <a href="glossary.html#coupon" class="coll-browse-pill">Coupon</a>
-            <a href="glossary.html#tontine" class="coll-browse-pill">Tontine</a>
-            <a href="glossary.html#prospectus" class="coll-browse-pill">Prospectus</a>
+            <a href="legacy/glossary.html#bond" class="coll-browse-pill">Bond</a>
+            <a href="legacy/glossary.html#stock-certificate" class="coll-browse-pill">Stock Certificate</a>
+            <a href="legacy/glossary.html#certificate" class="coll-browse-pill">Certificate</a>
+            <a href="legacy/glossary.html#banknote" class="coll-browse-pill">Banknote</a>
+            <a href="legacy/glossary.html#coupon" class="coll-browse-pill">Coupon</a>
+            <a href="legacy/glossary.html#tontine" class="coll-browse-pill">Tontine</a>
+            <a href="legacy/glossary.html#prospectus" class="coll-browse-pill">Prospectus</a>
           </div>
         </div>
 
@@ -112,12 +114,12 @@
             <span class="coll-browse-col-label">Browse by Era</span>
           </div>
           <div class="coll-browse-pills">
-            <a href="gallery.html?period=Pre-17th+Century" class="coll-browse-pill">Pre-17th Century</a>
-            <a href="gallery.html?period=17th+Century" class="coll-browse-pill">17th Century</a>
-            <a href="gallery.html?period=18th+Century" class="coll-browse-pill">18th Century</a>
-            <a href="gallery.html?period=19th+Century" class="coll-browse-pill">19th Century</a>
-            <a href="gallery.html?period=20th+Century" class="coll-browse-pill">20th Century</a>
-            <a href="gallery.html?period=21st+Century" class="coll-browse-pill">21st Century</a>
+            <a href="legacy/gallery.html?period=Pre-17th+Century" class="coll-browse-pill">Pre-17th Century</a>
+            <a href="legacy/gallery.html?period=17th+Century" class="coll-browse-pill">17th Century</a>
+            <a href="legacy/gallery.html?period=18th+Century" class="coll-browse-pill">18th Century</a>
+            <a href="legacy/gallery.html?period=19th+Century" class="coll-browse-pill">19th Century</a>
+            <a href="legacy/gallery.html?period=20th+Century" class="coll-browse-pill">20th Century</a>
+            <a href="legacy/gallery.html?period=21st+Century" class="coll-browse-pill">21st Century</a>
           </div>
         </div>
 

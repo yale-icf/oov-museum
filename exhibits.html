@@ -1,88 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Online Exhibits - Origins of Value Virtual Museum</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/auth.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Online Exhibitions — Origins of Value</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/museum.css">
+<script src="js/auth.js"></script>
 </head>
-<body>
+<body class="theme-light bg-cream">
 
-  <header class="site-header">
-    <h1><a href="index.html">Origins of <span>Value</span></a></h1>
-    <nav class="header-nav">
-      <a href="collection.html" class="header-nav-link">Collection</a>
-      <div class="nav-dropdown">
-          <a href="gallery.html" class="header-nav-link nav-dropdown-toggle">Search</a>
-          <div class="nav-dropdown-menu">
-            <a href="gallery.html" class="nav-dropdown-item">Search</a>
-            <a href="search.html" class="nav-dropdown-item">Text Search</a>
-          </div>
-        </div>
-      <a href="map.html" class="header-nav-link">Map</a>
-      <a href="exhibits.html" class="header-nav-link active">Exhibits</a>
-    </nav>
-  </header>
 
-  <div class="exhibits-hero">
-    <div class="exhibits-hero-inner">
-      <h2 class="exhibits-title">Online Exhibits</h2>
-      <p class="exhibits-subtitle">Curated selections from the collection with historical context and commentary</p>
+<!-- NAV (sticky top banner) -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><b>Origins of Value</b><span>A Virtual Museum of Financial History</span></a>
+    <div class="navlinks">
+      <a class="on" href="exhibits.html">Exhibits</a>
+      <a href="map.html">Map</a>
+      <a href="about.html">About</a>
+      <a class="search" href="search.html">⌕ Search</a>
     </div>
   </div>
+</header>
 
-  <main class="exhibits-main">
-    <div class="exhibits-grid">
+<div class="wrap">
 
-      <a href="exhibit-women-investors.html" class="exhibit-card">
-        <div class="exhibit-card-images">
-          <img src="images/exhibits/goetzmann0491.jpg" alt="">
-          <img src="images/exhibits/goetzmann0655.jpg" alt="">
-          <img src="images/exhibits/goetzmann0234.jpg" alt="">
-        </div>
-        <div class="exhibit-card-body">
-          <span class="exhibit-card-label">Online Exhibit</span>
-          <h3 class="exhibit-card-title">Women as Investors</h3>
-          <p class="exhibit-card-desc">A hidden history of capital: nine documents that trace women&rsquo;s participation in financial markets from 18th-century Paris to early-twentieth-century America.</p>
-          <span class="exhibit-card-meta">9 items &middot; France, Netherlands, United Kingdom, United States</span>
-        </div>
-      </a>
+  <!-- PAGE HEAD -->
+  <div class="exidx-head">
+    <div class="eyebrow cap">Exhibitions</div>
+    <h1>Online Exhibitions</h1>
+  </div>
 
-      <a href="exhibit-financing-war.html" class="exhibit-card">
-        <div class="exhibit-card-images">
-          <img src="images/exhibits/goetzmann0226.jpg" alt="">
-          <img src="images/exhibits/goetzmann0677.jpg" alt="">
-          <img src="images/exhibits/goetzmann0383.jpg" alt="">
-        </div>
-        <div class="exhibit-card-body">
-          <span class="exhibit-card-label">Online Exhibit</span>
-          <h3 class="exhibit-card-title">Financing War</h3>
-          <p class="exhibit-card-desc">How governments borrowed to fight: six documents tracing war finance from the American Revolution to the Second World War &mdash; and the promises they kept and broke.</p>
-          <span class="exhibit-card-meta">6 items &middot; United States, Russia, Austria, Japan</span>
-        </div>
-      </a>
+  <!-- EXHIBIT LIST -->
+  <div class="exlist">
 
-      <a href="exhibit-stock-market.html" class="exhibit-card">
-        <div class="exhibit-card-images">
-          <img src="images/exhibits/goetzmann1021.jpg" alt="">
-          <img src="images/exhibits/goetzmann0500.jpg" alt="">
-          <img src="images/exhibits/goetzmann0507.jpg" alt="">
-        </div>
-        <div class="exhibit-card-body">
-          <span class="exhibit-card-label">Online Exhibit</span>
-          <h3 class="exhibit-card-title">The Birth of the Stock Market</h3>
-          <p class="exhibit-card-desc">The Dutch East India Company and the origins of equity finance in 17th-century Amsterdam &mdash; the world&rsquo;s first publicly traded company and the market it created.</p>
-          <span class="exhibit-card-meta">6 items &middot; Netherlands, Belgium, France</span>
-        </div>
-      </a>
+    <a class="excard" href="exhibit-stock-market.html">
+      <div class="pic"><img class="cover" src="thumbnails/goetzmann0915.jpg" alt=""></div>
+      <div class="body">
+        <div class="label cap">On view · Featured</div>
+        <h2>The Birth of the Stock Market</h2>
+        <p>The Dutch East India Company and the origins of equity finance in 17th-century
+          Amsterdam — the world’s first publicly traded company and the market it created.</p>
+        <div class="meta cap">6 DOCUMENTS · c. 1373–1822 · NETHERLANDS, FRANCE, BELGIUM</div>
+      </div>
+    </a>
 
-    </div>
-  </main>
+    <a class="excard" href="exhibit-women-investors.html">
+      <div class="pic"><img class="cover" src="thumbnails/goetzmann0491.jpg" alt=""></div>
+      <div class="body">
+        <div class="label cap">On view</div>
+        <h2>Women as Investors</h2>
+        <p>A hidden history of capital: nine documents that trace women’s participation in
+          financial markets from 18th-century Paris to early-twentieth-century America.</p>
+        <div class="meta cap">9 DOCUMENTS · 1745–1910 · FRANCE, NETHERLANDS, UK, USA</div>
+      </div>
+    </a>
 
-  <footer class="site-footer">
-    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
-  </footer>
+    <a class="excard" href="exhibit-financing-war.html">
+      <div class="pic"><img class="cover" src="thumbnails/goetzmann0340.jpg" alt=""></div>
+      <div class="body">
+        <div class="label cap">On view</div>
+        <h2>Financing War</h2>
+        <p>How governments borrowed to fight: six documents tracing war finance from the
+          American Revolution to the Second World War — and the promises they kept and broke.</p>
+        <div class="meta cap">6 DOCUMENTS · 1776–1942 · USA, RUSSIA, AUSTRIA, JAPAN</div>
+      </div>
+    </a>
+
+  </div>
+
+</div><!-- /wrap -->
+
+<footer class="copyright">© 2026 Yale School of Management — International Center for Finance. All rights reserved.</footer>
 
 </body>
 </html>

@@ -1,158 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>The Birth of the Stock Market – Origins of Value Virtual Museum</title>
-  <link rel="stylesheet" href="css/style.css">
-  <script src="js/auth.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Birth of the Stock Market — Origins of Value</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/museum.css">
+<script src="js/auth.js"></script>
 </head>
-<body>
+<body class="theme-light bg-cream">
 
-  <header class="site-header">
-    <h1><a href="index.html">Origins of <span>Value</span></a></h1>
-    <nav class="header-nav">
-      <a href="collection.html" class="header-nav-link">Collection</a>
-      <div class="nav-dropdown">
-          <a href="gallery.html" class="header-nav-link nav-dropdown-toggle">Search</a>
-          <div class="nav-dropdown-menu">
-            <a href="gallery.html" class="nav-dropdown-item">Search</a>
-            <a href="search.html" class="nav-dropdown-item">Text Search</a>
-          </div>
-        </div>
-      <a href="map.html" class="header-nav-link">Map</a>
-      <a href="exhibits.html" class="header-nav-link active">Exhibits</a>
-    </nav>
-  </header>
 
-  <!-- Hero -->
-  <div class="exhibit-hero">
-    <div class="exhibit-hero-inner">
-      <span class="exhibit-label">Online Exhibit</span>
-      <h1 class="exhibit-title">The Birth of the Stock Market</h1>
-      <p class="exhibit-subtitle">The Dutch East India Company and the Origins of Equity Finance in Amsterdam</p>
+<!-- NAV (sticky top banner) -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="index.html"><b>Origins of Value</b><span>A Virtual Museum of Financial History</span></a>
+    <div class="navlinks">
+      <a class="on" href="exhibits.html">Exhibits</a>
+      <a href="map.html">Map</a>
+      <a href="about.html">About</a>
+      <a class="search" href="search.html">⌕ Search</a>
     </div>
   </div>
+</header>
 
-  <!-- Introduction -->
-  <div class="exhibit-intro">
-    <div class="exhibit-intro-inner">
-      <p class="exhibit-intro-text">On March 20, 1602, a document was signed in Amsterdam that changed the history of finance. The Vereenigde Oost-Indische Compagnie &mdash; the Dutch East India Company, known by its initials VOC &mdash; became the world&rsquo;s first publicly traded joint-stock company. For the first time, a company raised capital not from a small circle of wealthy backers but from any citizen who could afford the price: a minimum subscription of 3 guilders, at a time when a skilled craftsman earned about 1 guilder per day. Some 1,800 investors subscribed, and the VOC opened with 6.4 million guilders in capital &mdash; the largest single capital raising in history up to that point.</p>
-      <p class="exhibit-intro-text">The innovation was as much financial as organizational. The VOC was not the first joint-stock company &mdash; merchants had pooled capital for individual voyages for decades, and medieval Italian communes had issued transferable shares in public debt for centuries before that. But it was the first to issue shares tradeable on an open market to all comers. Within years of the 1602 offering, a secondary market emerged on the Amsterdam Bourse, complete with options, forward contracts, and short selling &mdash; the full apparatus of modern equity markets, invented four centuries ago in a city of some 60,000 people.</p>
-      <p class="exhibit-intro-text">The six documents in this exhibit trace the VOC&rsquo;s world across time. They begin before Amsterdam, with a medieval mill cooperative in southern France that may be the oldest joint-stock enterprise in history. They move through the VOC&rsquo;s early decades, the parallel development of Dutch sovereign debt, and the ecosystem of financial instruments that made Amsterdam the financial capital of the world &mdash; a position it would hold until London&rsquo;s rise in the 18th century. They end with a weekly securities price list from 1822, two centuries after the VOC&rsquo;s founding: the company itself had collapsed, but the market it created had not.</p>
-    </div>
+<!-- HERO (large image fading behind the text) -->
+<section class="ex-hero">
+  <div class="ex-hero-bg" style="background-image:url('images/exhibits/goetzmann0915.jpg')"></div>
+  <div class="ex-hero-content">
+    <div class="eyebrow cap">Exhibition · Online</div>
+    <h1 class="extitle">The Birth of the<br>Stock Market</h1>
+  </div>
+</section>
+
+<div class="wrap">
+
+  <!-- INTRODUCTION -->
+  <div class="ex-intro">
+    <p>On March 20, 1602, a document was signed in Amsterdam that changed the history of
+      finance. The Vereenigde Oost-Indische Compagnie — the Dutch East India Company, known by
+      its initials VOC — became the world’s first publicly traded joint-stock company. For the
+      first time, a company raised capital not from a small circle of wealthy backers but from
+      any citizen who could afford the price: a minimum subscription of 3 guilders, at a time
+      when a skilled craftsman earned about 1 guilder per day. Some 1,800 investors subscribed,
+      and the VOC opened with 6.4 million guilders in capital — the largest single capital
+      raising in history up to that point.</p>
+    <p>The innovation was as much financial as organizational. The VOC was not the first
+      joint-stock company — merchants had pooled capital for individual voyages for decades, and
+      medieval Italian communes had issued transferable shares in public debt for centuries
+      before that. But it was the first to issue shares tradeable on an open market to all
+      comers. Within years of the 1602 offering, a secondary market emerged on the Amsterdam
+      Bourse, complete with options, forward contracts, and short selling — the full apparatus
+      of modern equity markets, invented four centuries ago in a city of some 60,000 people.</p>
+    <p>The six documents in this exhibit trace the VOC’s world across time. They begin before
+      Amsterdam, with a medieval mill cooperative in southern France that may be the oldest
+      joint-stock enterprise in history. They move through the VOC’s early decades, the parallel
+      development of Dutch sovereign debt, and the ecosystem of financial instruments that made
+      Amsterdam the financial capital of the world — a position it would hold until London’s
+      rise in the 18th century. They end with a weekly securities price list from 1822, two
+      centuries after the VOC’s founding: the company itself had collapsed, but the market it
+      created had not.</p>
   </div>
 
-  <!-- Pieces -->
-  <div class="exhibit-pieces">
+  <!-- EXHIBITION OBJECTS -->
+  <div class="ex-objects">
+    <div class="sec-head">
+      <h2>Exhibition objects</h2>
+      <span class="meta cap">6 documents · select an object to read more</span>
+    </div>
+    <div class="objgrid" id="objgrid"></div>
+  </div>
 
-    <!-- 1 -->
-    <section class="exhibit-piece">
-      <div class="exhibit-piece-img">
-        <img src="images/exhibits/goetzmann0915.jpg" alt="Société Toulousaine du Bazacle, Part de Fondateur, 1927">
-      </div>
-      <div class="exhibit-piece-body">
-        <span class="exhibit-num">1</span>
-        <h2 class="exhibit-piece-title">Before Amsterdam: The Medieval Origins of the Joint-Stock Company</h2>
-        <p class="exhibit-piece-meta">France &middot; 1927 (origins c. 1373) &middot; 20th Century</p>
-        <div class="exhibit-piece-desc">
-          <p>The VOC was the world&rsquo;s first publicly traded company &mdash; but not the first joint-stock company. That distinction belongs to a number of earlier experiments, of which the most remarkable is the Soci&eacute;t&eacute; du Bazacle in Toulouse. The Bazacle mill had been operating as a share-based enterprise since at least the 13th century. Its owners held divisible shares called <em>uchaux</em> that were transferable and occasionally priced on a local market &mdash; a proto-stock exchange in medieval Languedoc, three centuries before Amsterdam.</p>
-          <p>This 1927 bearer share in the Soci&eacute;t&eacute; Toulousaine du Bazacle &mdash; a twentieth-century utility company &mdash; is the direct descendant of that medieval mill cooperative. What distinguished the VOC from its predecessors was not the idea of divisible, transferable shares: that was already ancient. It was the scale of the public offering and, above all, the creation of a continuous, liquid secondary market. When Amsterdam merchants began trading VOC shares on the Bourse in 1602, any citizen could enter or exit the market at a published price. That combination of public access and secondary liquidity was genuinely new.</p>
-        </div>
-        <a href="viewer.html?id=goetzmann0915" class="exhibit-view-link">View record in collection &rarr;</a>
-      </div>
-    </section>
+</div><!-- /wrap -->
 
-    <!-- 2 -->
-    <section class="exhibit-piece reverse">
-      <div class="exhibit-piece-img">
-        <img src="images/exhibits/goetzmann1021.jpg" alt="VOC Middelburg Chamber Obligation Receipts, 1622–1623">
-      </div>
-      <div class="exhibit-piece-body">
-        <span class="exhibit-num">2</span>
-        <h2 class="exhibit-piece-title">The VOC Itself: Obligation Receipts from the Middelburg Chamber</h2>
-        <p class="exhibit-piece-meta">Netherlands &middot; 1622&ndash;1623 &middot; 17th Century</p>
-        <div class="exhibit-piece-desc">
-          <p>These two small printed forms from the Middelburg (Zeeland) Chamber of the VOC are among the most historically significant documents in the collection. Twenty years after the company&rsquo;s founding, they record the satisfaction of financial obligations &mdash; payments received, interest settled, the ordinary paperwork of a company that had by then sent dozens of fleets to Asia and reshaped the global spice trade.</p>
-          <p>The VOC was chartered by the States General of the Dutch Republic in 1602 with a twenty-one-year monopoly on Dutch trade east of the Cape of Good Hope and west of the Strait of Magellan. Its six regional chambers &mdash; in Amsterdam, Middelburg, Delft, Rotterdam, Hoorn, and Enkhuizen &mdash; each raised capital and conducted business independently, but under a single corporate umbrella. The Middelburg Chamber, based in the prosperous port city of Zeeland, ran its own fleets and kept its own accounts. That ordinary documents like these survive from 1622 is a reminder of something extraordinary: the VOC created the infrastructure of modern corporate finance, including the record-keeping, the transferable obligations, and the shareholder registers, that later generations would take for granted.</p>
-        </div>
-        <a href="viewer.html?id=goetzmann1021" class="exhibit-view-link">View record in collection &rarr;</a>
-      </div>
-    </section>
+<footer class="copyright">© 2026 Yale School of Management — International Center for Finance. All rights reserved.</footer>
 
-    <!-- 3 -->
-    <section class="exhibit-piece">
-      <div class="exhibit-piece-img">
-        <img src="images/exhibits/goetzmann0500.jpg" alt="Share Subscription and Forward Contract, Generale Keijserlijke Indische Compagnie, 1608">
-      </div>
-      <div class="exhibit-piece-body">
-        <span class="exhibit-num">3</span>
-        <h2 class="exhibit-piece-title">The Market for Shares: Subscriptions, Premiums, and Forward Contracts</h2>
-        <p class="exhibit-piece-meta">Belgium &middot; 1608 &middot; 17th Century</p>
-        <div class="exhibit-piece-desc">
-          <p>Just six years after the VOC&rsquo;s founding, its model had already inspired imitators. This document from Antwerp, signed April 30, 1608, is a share subscription contract for the Generale Keijserlijke Indische Compagnie &mdash; a Habsburg-backed rival East India venture organized from Antwerp. But what makes it remarkable is not the subscription itself: it is the derivative embedded within it. In exchange for a cash premium received upfront, the subscriber commits to deliver and transfer shares at a future date.</p>
-          <p>This is among the earliest known equity derivatives &mdash; a forward contract on company shares, written within a decade of the world&rsquo;s first public offering. It is evidence that Amsterdam&rsquo;s financial innovations spread quickly. By the early 1600s, VOC shares were already being traded with options and forward contracts on the Amsterdam Bourse, techniques described in vivid detail by Joseph de la Vega in his 1688 book <em>Confusion de Confusiones</em> &mdash; the world&rsquo;s first treatise on the stock market. The idea that equities could be not just held but traded, hedged, and speculated upon was born in Amsterdam, and this Antwerp document shows it spreading almost immediately.</p>
-        </div>
-        <a href="viewer.html?id=goetzmann0500" class="exhibit-view-link">View record in collection &rarr;</a>
-      </div>
-    </section>
-
-    <!-- 4 -->
-    <section class="exhibit-piece reverse">
-      <div class="exhibit-piece-img">
-        <img src="images/exhibits/goetzmann0536.jpg" alt="Willem, Prince of Orange-Nassau: Dutch Princely Bond, 1640">
-      </div>
-      <div class="exhibit-piece-body">
-        <span class="exhibit-num">4</span>
-        <h2 class="exhibit-piece-title">Sovereign Debt Alongside Equity: The House of Orange Borrows</h2>
-        <p class="exhibit-piece-meta">Netherlands &middot; 1640 &middot; 17th Century</p>
-        <div class="exhibit-piece-desc">
-          <p>Amsterdam&rsquo;s rise as the financial capital of the world was not solely the story of the VOC. Alongside the equity market, the Amsterdam Bourse developed one of Europe&rsquo;s most sophisticated sovereign debt markets. The Dutch Republic &mdash; fighting the Eighty Years&rsquo; War against Spain for much of the 17th century &mdash; was a prodigious borrower, and Dutch investors proved willing lenders, accepting lower interest rates than any other European sovereign could command.</p>
-          <p>This printed obligation, issued by Willem, Prince of Orange-Nassau in 1640, references the financial obligations of the House of Orange and its Treasurer General and Rentmeester. It is a document of that parallel market. The same Amsterdam merchant class that held VOC shares also held obligations of the Dutch princes and the States General &mdash; moving between equities and government bonds as returns and risks shifted, in a diversification strategy that would be recognizable to any modern portfolio manager. The world&rsquo;s first stock market and the world&rsquo;s most sophisticated sovereign debt market grew up together, in the same city, served by the same brokers, financed by the same investors.</p>
-        </div>
-        <a href="viewer.html?id=goetzmann0536" class="exhibit-view-link">View record in collection &rarr;</a>
-      </div>
-    </section>
-
-    <!-- 5 -->
-    <section class="exhibit-piece">
-      <div class="exhibit-piece-img">
-        <img src="images/exhibits/goetzmann0606.jpg" alt="Dutch Life Annuity Tontine Conditions, 1688">
-      </div>
-      <div class="exhibit-piece-body">
-        <span class="exhibit-num">5</span>
-        <h2 class="exhibit-piece-title">The Ecosystem of Innovation: Tontines, Annuities, and the Amsterdam Market</h2>
-        <p class="exhibit-piece-meta">Netherlands &middot; 1688 &middot; 17th Century</p>
-        <div class="exhibit-piece-desc">
-          <p>The VOC did not emerge in isolation. Amsterdam in the 17th century was the site of a broader revolution in financial instruments: life annuities, tontines, insurance contracts, forward markets, and options all developed in the same decades, in the same city, among the same community of merchants and investors. This tontine document from 1688 &mdash; setting out the conditions for a 500-guilder investment on twenty lives, with payments contingent on survivors &mdash; represents the life annuity and mortality-based side of that revolution.</p>
-          <p>The date is worth noting. In 1688, the same year this tontine was issued, Joseph de la Vega published <em>Confusion de Confusiones</em> in Amsterdam: the world&rsquo;s first book devoted to explaining the workings of a stock exchange. De la Vega described VOC share trading in extraordinary detail &mdash; the bulls and bears, the options traders, the short-sellers, the psychology of the market &mdash; suggesting that by 1688 these techniques were well established enough to require a popular guide. The VOC share market and the tontine market were different instruments serving different needs, but they were products of the same financial culture: a city that had learned to put capital to work at scale.</p>
-        </div>
-        <a href="viewer.html?id=goetzmann0606" class="exhibit-view-link">View record in collection &rarr;</a>
-      </div>
-    </section>
-
-    <!-- 6 -->
-    <section class="exhibit-piece reverse">
-      <div class="exhibit-piece-img">
-        <img src="images/exhibits/goetzmann0507.jpg" alt="Amsterdam Prys-Courant der Effecten, 1822">
-      </div>
-      <div class="exhibit-piece-body">
-        <span class="exhibit-num">6</span>
-        <h2 class="exhibit-piece-title">Two Centuries On: The Amsterdam Market in 1822</h2>
-        <p class="exhibit-piece-meta">Netherlands &middot; 1822 &middot; 19th Century</p>
-        <div class="exhibit-piece-desc">
-          <p>By 1822, the VOC itself was gone. Bankrupt and heavily indebted after decades of war and mismanagement, it had been nationalized by the Batavian Republic in 1799 and formally dissolved &mdash; nearly two centuries after its revolutionary founding. But the market it had created lived on. This weekly securities price list, the <em>Prys-Courant der Effecten</em> No. 39 of 1822, records prices for dozens of instruments traded in Amsterdam: Dutch government bonds, plantation negotiaties, British Consols, French and Austrian and Russian sovereign debt, and American securities.</p>
-          <p>The list is a document of remarkable continuity. The infrastructure of the Amsterdam capital market &mdash; the price lists, the broker networks, the exchange building, the settlement conventions &mdash; had outlasted the company that created it by a generation. Investors in 1822 could trade instruments from a dozen nations through Amsterdam, just as their grandparents had traded VOC shares and Dutch government debt. The VOC had failed; the idea of the publicly traded company had not. Within decades, new stock exchanges would open in London, Paris, and New York, carrying Amsterdam&rsquo;s 1602 innovation into the industrial age.</p>
-        </div>
-        <a href="viewer.html?id=goetzmann0507" class="exhibit-view-link">View record in collection &rarr;</a>
-      </div>
-    </section>
-
-  </div><!-- /.exhibit-pieces -->
-
-  <footer class="site-footer">
-    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
-  </footer>
+<script>
+  window.EXHIBIT_OBJECTS = [
+    {
+      id: 'goetzmann0915',
+      img: 'images/exhibits/goetzmann0915.jpg',
+      title: 'Before Amsterdam: The Medieval Origins of the Joint-Stock Company',
+      meta: 'France · 1927 (origins c. 1373)',
+      alt: 'Société Toulousaine du Bazacle share, 1927',
+      text: [
+        'The VOC was the world’s first publicly traded company — but not the first joint-stock company. That distinction belongs to a number of earlier experiments, of which the most remarkable is the Société du Bazacle in Toulouse. The Bazacle mill had been operating as a share-based enterprise since at least the 13th century. Its owners held divisible shares called <em>uchaux</em> that were transferable and occasionally priced on a local market — a proto-stock exchange in medieval Languedoc, three centuries before Amsterdam.',
+        'This 1927 bearer share in the Société Toulousaine du Bazacle — a twentieth-century utility company — is the direct descendant of that medieval mill cooperative. What distinguished the VOC from its predecessors was not the idea of divisible, transferable shares: that was already ancient. It was the scale of the public offering and, above all, the creation of a continuous, liquid secondary market. When Amsterdam merchants began trading VOC shares on the Bourse in 1602, any citizen could enter or exit the market at a published price. That combination of public access and secondary liquidity was genuinely new.'
+      ]
+    },
+    {
+      id: 'goetzmann1021',
+      img: 'images/exhibits/goetzmann1021.jpg',
+      title: 'The VOC Itself: Obligation Receipts from the Middelburg Chamber',
+      meta: 'Netherlands · 1622–1623',
+      alt: 'VOC Middelburg Chamber obligation receipts, 1622–1623',
+      text: [
+        'These two small printed forms from the Middelburg (Zeeland) Chamber of the VOC are among the most historically significant documents in the collection. Twenty years after the company’s founding, they record the satisfaction of financial obligations — payments received, interest settled, the ordinary paperwork of a company that had by then sent dozens of fleets to Asia and reshaped the global spice trade.',
+        'The VOC was chartered by the States General of the Dutch Republic in 1602 with a twenty-one-year monopoly on Dutch trade east of the Cape of Good Hope and west of the Strait of Magellan. Its six regional chambers — in Amsterdam, Middelburg, Delft, Rotterdam, Hoorn, and Enkhuizen — each raised capital and conducted business independently, but under a single corporate umbrella. That ordinary documents like these survive from 1622 is a reminder of something extraordinary: the VOC created the infrastructure of modern corporate finance — the record-keeping, the transferable obligations, and the shareholder registers — that later generations would take for granted.'
+      ]
+    },
+    {
+      id: 'goetzmann0500',
+      img: 'images/exhibits/goetzmann0500.jpg',
+      title: 'The Market for Shares: Subscriptions, Premiums, and Forward Contracts',
+      meta: 'Belgium · 1608',
+      alt: 'Share subscription and forward contract, Antwerp, 1608',
+      text: [
+        'Just six years after the VOC’s founding, its model had already inspired imitators. This document from Antwerp, signed April 30, 1608, is a share subscription contract for the Generale Keijserlijke Indische Compagnie — a Habsburg-backed rival East India venture organized from Antwerp. But what makes it remarkable is not the subscription itself: it is the derivative embedded within it. In exchange for a cash premium received upfront, the subscriber commits to deliver and transfer shares at a future date.',
+        'This is among the earliest known equity derivatives — a forward contract on company shares, written within a decade of the world’s first public offering. By the early 1600s, VOC shares were already being traded with options and forward contracts on the Amsterdam Bourse, techniques described in vivid detail by Joseph de la Vega in his 1688 book <em>Confusion de Confusiones</em> — the world’s first treatise on the stock market. The idea that equities could be not just held but traded, hedged, and speculated upon was born in Amsterdam, and this Antwerp document shows it spreading almost immediately.'
+      ]
+    },
+    {
+      id: 'goetzmann0536',
+      img: 'images/exhibits/goetzmann0536.jpg',
+      title: 'Sovereign Debt Alongside Equity: The House of Orange Borrows',
+      meta: 'Netherlands · 1640',
+      alt: 'Dutch princely bond, House of Orange, 1640',
+      text: [
+        'Amsterdam’s rise as the financial capital of the world was not solely the story of the VOC. Alongside the equity market, the Amsterdam Bourse developed one of Europe’s most sophisticated sovereign debt markets. The Dutch Republic — fighting the Eighty Years’ War against Spain for much of the 17th century — was a prodigious borrower, and Dutch investors proved willing lenders, accepting lower interest rates than any other European sovereign could command.',
+        'This printed obligation, issued by Willem, Prince of Orange-Nassau in 1640, is a document of that parallel market. The same Amsterdam merchant class that held VOC shares also held obligations of the Dutch princes and the States General — moving between equities and government bonds as returns and risks shifted, in a diversification strategy that would be recognizable to any modern portfolio manager. The world’s first stock market and the world’s most sophisticated sovereign debt market grew up together, in the same city, served by the same brokers, financed by the same investors.'
+      ]
+    },
+    {
+      id: 'goetzmann0606',
+      img: 'images/exhibits/goetzmann0606.jpg',
+      title: 'The Ecosystem of Innovation: Tontines, Annuities, and the Amsterdam Market',
+      meta: 'Netherlands · 1688',
+      alt: 'Dutch life annuity tontine conditions, 1688',
+      text: [
+        'The VOC did not emerge in isolation. Amsterdam in the 17th century was the site of a broader revolution in financial instruments: life annuities, tontines, insurance contracts, forward markets, and options all developed in the same decades, in the same city, among the same community of merchants and investors. This tontine document from 1688 — setting out the conditions for a 500-guilder investment on twenty lives, with payments contingent on survivors — represents the life-annuity and mortality-based side of that revolution.',
+        'The date is worth noting. In 1688, the same year this tontine was issued, Joseph de la Vega published <em>Confusion de Confusiones</em> in Amsterdam: the world’s first book devoted to explaining the workings of a stock exchange. He described VOC share trading in extraordinary detail — the bulls and bears, the options traders, the short-sellers, the psychology of the market — suggesting that by 1688 these techniques were well established enough to require a popular guide. The share market and the tontine market were different instruments serving different needs, but they were products of the same financial culture: a city that had learned to put capital to work at scale.'
+      ]
+    },
+    {
+      id: 'goetzmann0507',
+      img: 'images/exhibits/goetzmann0507.jpg',
+      title: 'Two Centuries On: The Amsterdam Market in 1822',
+      meta: 'Netherlands · 1822',
+      alt: 'Amsterdam Prys-Courant der Effecten, 1822',
+      text: [
+        'By 1822, the VOC itself was gone. Bankrupt and heavily indebted after decades of war and mismanagement, it had been nationalized by the Batavian Republic in 1799 and formally dissolved — nearly two centuries after its revolutionary founding. But the market it had created lived on. This weekly securities price list, the <em>Prys-Courant der Effecten</em> No. 39 of 1822, records prices for dozens of instruments traded in Amsterdam: Dutch government bonds, plantation negotiaties, British Consols, French and Austrian and Russian sovereign debt, and American securities.',
+        'The list is a document of remarkable continuity. The infrastructure of the Amsterdam capital market — the price lists, the broker networks, the exchange building, the settlement conventions — had outlasted the company that created it by a generation. The VOC had failed; the idea of the publicly traded company had not. Within decades, new stock exchanges would open in London, Paris, and New York, carrying Amsterdam’s 1602 innovation into the industrial age.'
+      ]
+    }
+  ];
+</script>
+<script src="js/museum-exhibit.js"></script>
 
 </body>
 </html>
