@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Origins of Value — Search the Collection (mockup)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400;500;600;700&family=Hanken+Grotesk:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="mockup-museum.css">
+</head>
+<body class="catalogue">
+
+<div class="flagbar">Design mockup · “museum” direction · real Origins of Value collection · Search</div>
+
+<!-- NAV (sticky top banner) -->
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="mockup-museum.html"><b>Origins of Value</b><span>A Virtual Museum of Financial History</span></a>
+    <div class="navlinks">
+      <a href="mockup-exhibits.html">Exhibits</a>
+      <a href="map.html">Map</a>
+      <a href="mockup-about.html">About</a>
+      <a class="search on" href="mockup-search.html">⌕ Search</a>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <!-- PAGE HEAD + SEARCH -->
+  <div class="cat-head">
+    <div class="eyebrow cap">Collection</div>
+    <h1>Search the collection</h1>
+    <div class="srch">
+      <div class="srch-field">
+        <span class="ico">⌕</span>
+        <input type="text" id="q" placeholder="Search titles, descriptions, keywords…" autocomplete="off">
+      </div>
+      <select id="mode" aria-label="Search mode">
+        <option value="metadata">Title &amp; description</option>
+        <option value="fulltext">Full text (OCR)</option>
+      </select>
+    </div>
+  </div>
+
+  <!-- RESULT BAR -->
+  <div class="cat-bar">
+    <span id="count">Loading…</span>
+    <span class="sort">
+      <label for="sort">Sort</label>
+      <select id="sort">
+        <option value="default">Catalogue order</option>
+        <option value="year-asc">Year — oldest first</option>
+        <option value="year-desc">Year — newest first</option>
+        <option value="title">Title — A to Z</option>
+      </select>
+    </span>
+  </div>
+
+  <!-- RESULTS -->
+  <div class="cat-body nofacets">
+    <main>
+      <!-- BROWSE STATE — shown until a search or filter narrows the collection -->
+      <div id="browse" style="display:none">
+
+        <div class="browse-sec">
+          <div class="browse-head">
+            <span class="lbl">Collection highlights</span>
+            <button class="more" id="browse-all">Browse all 545 documents →</button>
+          </div>
+          <div class="browse-hl" id="browse-hl"></div>
+        </div>
+
+        <div class="browse-sec">
+          <div class="browse-head">
+            <span class="lbl">Explore by country</span>
+            <a class="more" href="map.html">View the map →</a>
+          </div>
+          <div class="browse-country" id="browse-country"></div>
+        </div>
+
+        <div class="deptband">
+          <div class="browse-head">
+            <span class="lbl">Browse the collection</span>
+            <span class="meta" id="dept-meta"></span>
+          </div>
+          <div class="depts" id="browse-depts"></div>
+        </div>
+
+        <div class="browse-sec">
+          <div class="browse-head"><span class="lbl">Explore by publication</span></div>
+          <div class="browse-pubs" id="browse-pubs"></div>
+        </div>
+
+        <div class="browse-sec">
+          <div class="browse-head"><span class="lbl">Browse by era</span></div>
+          <div class="browse-pills" id="browse-era"></div>
+        </div>
+
+      </div>
+
+      <!-- RESULTS -->
+      <div id="results" style="display:none">
+        <div class="chips" id="chips"></div>
+        <div class="grid" id="grid"></div>
+        <div class="empty" id="empty">
+          <h2>No documents found</h2>
+          <p>Try adjusting your search terms or clearing some filters.</p>
+        </div>
+        <div class="pager" id="pager"></div>
+      </div>
+
+      <div class="loadnote" id="loadnote">Loading the collection…</div>
+    </main>
+  </div>
+
+</div><!-- /wrap -->
+
+<footer class="copyright">© 2026 Yale School of Management — International Center for Finance. All rights reserved.</footer>
+
+<script>
+(function () {
+  'use strict';
+
+  var PER_PAGE = 36;
+
+  // ---- browse-state content (lifted from the original collection page) ----
+  var HIGHLIGHTS = [
+    { id: 'goetzmann1021', title: 'Dutch East India Company (VOC) obligation receipts', meta: '17th Century · Netherlands' },
+    { id: 'goetzmann0302', title: 'Banque Industrielle de Chine, 500 franc share',      meta: '20th Century · China' },
+    { id: 'goetzmann0028', title: 'Temple Mills (South Sea Bubble playing card)',       meta: '18th Century · Great Britain' }
+  ];
+
+  // counts come from filter-index at render time, so they can't drift from the data
+  var COUNTRIES = [
+    { name: 'United Kingdom', thumb: 'goetzmann0540' },
+    { name: 'United States',  thumb: 'goetzmann0181' },
+    { name: 'Netherlands',    thumb: 'goetzmann0004' }
+  ];
+
+  var PUBLICATIONS = [
+    { title: 'The Great Mirror of Folly', query: 'groote tafereel',
+      images: ['goetzmann0004', 'goetzmann0011', 'goetzmann0019'],
+      desc: 'A Dutch satirical compilation documenting the speculative mania of 1720.' },
+    { title: 'South Sea Bubble Playing Cards', query: 'south sea playing card',
+      images: ['goetzmann0028'],
+      desc: 'An English satirical card deck mocking the South Sea Company bubble.' },
+    { title: 'Dutch Wind Cards', query: 'windkaart',
+      images: ['goetzmann0079'],
+      desc: 'Dutch satirical playing cards lampooning speculative stock schemes of 1720.' }
+  ];
+
+  // Departments group the 19 document types into six browsable shelves.
+  // Between them they cover every type in the data — nothing is unreachable.
+  var DEPARTMENTS = [
+    { name: 'Bonds & Securities',       sub: 'War loans, rails, republics',
+      types: ['Bond', 'Coupon', 'Security', 'Debt'] },
+    { name: 'Stock Certificates',       sub: 'Scripophily & engraved shares',
+      types: ['Stock Certificate'] },
+    { name: 'Certificates & Receipts',  sub: 'Proof of title and payment',
+      types: ['Certificate', 'Receipt', 'Invoice'] },
+    { name: 'Banknotes, Notes & Checks', sub: 'Circulating & promissory instruments',
+      types: ['Banknote', 'Draft', 'Promissory Note', 'Check'] },
+    { name: 'Tontines & Indentures',    sub: 'Life annuities and sealed contracts',
+      types: ['Tontine', 'Indenture'] },
+    { name: 'Prospectuses & Print',     sub: 'The printed pitch',
+      types: ['Prospectus', 'Pamphlet', 'Illustration', 'Correspondence', 'Register'] }
+  ];
+
+  var ERA_PILLS  = ['Pre-17th Century', '17th Century', '18th Century',
+                    '19th Century', '20th Century', '21st Century'];
+
+  var items = [], index = {}, results = [];
+  var active = { period: [], issuingCountry: [], type: [], language: [] };
+  var query = '', sort = 'default', page = 1;
+  var browseAll = false;   // "Browse all documents" — drops the browse state without any filter
+
+  var elChips   = document.getElementById('chips');
+  var elGrid    = document.getElementById('grid');
+  var elPager   = document.getElementById('pager');
+  var elCount   = document.getElementById('count');
+  var elEmpty   = document.getElementById('empty');
+  var elNote    = document.getElementById('loadnote');
+  var elQ       = document.getElementById('q');
+  var elSort    = document.getElementById('sort');
+  var elMode    = document.getElementById('mode');
+
+  // ---- init ----
+  Promise.all([
+    fetch('data/museum-data.json').then(function (r) { return r.json(); }),
+    fetch('data/filter-index.json').then(function (r) { return r.json(); })
+  ]).then(function (res) {
+    items = res[0];
+    index = res[1];
+    elNote.style.display = 'none';
+    buildBrowse();
+    readURL();
+    bind();
+    run();
+  }).catch(function () {
+    elNote.innerHTML = 'This page loads the collection from <code>data/museum-data.json</code>, ' +
+      'so it needs a local web server — opening the file directly won’t work.<br>' +
+      'Run <code>py -m http.server 8000</code> in the repo, then visit ' +
+      '<code>localhost:8000/mockup-search.html</code>.';
+  });
+
+  function toggle(field, value, on) {
+    if (on) {
+      if (active[field].indexOf(value) === -1) active[field].push(value);
+    } else {
+      active[field] = active[field].filter(function (v) { return v !== value; });
+    }
+    page = 1;
+    run();
+  }
+
+  // with no facet sidebar, filters are set by the browse shortcuts and cleared from the chips
+  function applyFacet(field, value) {
+    toggle(field, value, true);
+  }
+
+  function countOf(field, value) {
+    var hit = (index[field] || []).filter(function (v) { return v.value === value; })[0];
+    return hit ? hit.count : 0;
+  }
+
+  // a document can carry more than one type, so count documents, not type tallies
+  function docsInDept(d) {
+    return items.filter(function (it) {
+      return (it.type || []).some(function (t) { return d.types.indexOf(t) !== -1; });
+    }).length;
+  }
+
+  // ---- browse state ----
+  function buildBrowse() {
+    // highlights
+    var hl = document.getElementById('browse-hl');
+    HIGHLIGHTS.forEach(function (h) {
+      var a = document.createElement('a');
+      a.href = 'mockup-record.html?id=' + encodeURIComponent(h.id);
+      a.innerHTML =
+        '<div class="ph"><img src="thumbnails/' + h.id + '.jpg" alt="" loading="lazy"></div>' +
+        '<div class="t"></div><div class="s"></div>';
+      a.querySelector('.t').textContent = h.title;
+      a.querySelector('.s').textContent = h.meta;
+      hl.appendChild(a);
+    });
+
+    // countries
+    var co = document.getElementById('browse-country');
+    COUNTRIES.forEach(function (c) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.innerHTML =
+        '<img src="thumbnails/' + c.thumb + '.jpg" alt="" loading="lazy">' +
+        '<span class="ov"><span class="nm"></span>' +
+        '<span class="ct">' + countOf('issuingCountry', c.name) + ' documents</span></span>';
+      b.querySelector('.nm').textContent = c.name;
+      b.addEventListener('click', function () { applyFacet('issuingCountry', c.name); });
+      co.appendChild(b);
+    });
+
+    // departments
+    var de = document.getElementById('browse-depts');
+    DEPARTMENTS.forEach(function (d, i) {
+      var n = docsInDept(d);
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'dept';
+      b.innerHTML =
+        '<div class="n">' + (i < 9 ? '0' : '') + (i + 1) + '</div>' +
+        '<div class="d"></div><div class="sub"></div>' +
+        '<div class="ct">' + n + (n === 1 ? ' document' : ' documents') + '</div>';
+      b.querySelector('.d').textContent = d.name;
+      b.querySelector('.sub').textContent = d.sub;
+      b.addEventListener('click', function () {
+        active.type = d.types.slice();   // several types, OR'd together
+        page = 1;
+        run();
+      });
+      de.appendChild(b);
+    });
+    document.getElementById('dept-meta').textContent =
+      DEPARTMENTS.length + ' departments · ' + items.length + ' objects';
+
+    // source publications
+    var pu = document.getElementById('browse-pubs');
+    PUBLICATIONS.forEach(function (p) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.innerHTML =
+        '<div class="strip">' + p.images.map(function (id) {
+          return '<img src="thumbnails/' + id + '.jpg" alt="" loading="lazy">';
+        }).join('') + '</div>' +
+        '<div class="k">Source publication</div>' +
+        '<div class="t"></div><div class="d"></div>';
+      b.querySelector('.t').textContent = p.title;
+      b.querySelector('.d').textContent = p.desc;
+      b.addEventListener('click', function () {
+        query = p.query;
+        elQ.value = p.query;
+        page = 1;
+        run();
+      });
+      pu.appendChild(b);
+    });
+
+    // era pills
+    var er = document.getElementById('browse-era');
+    ERA_PILLS.forEach(function (e) {
+      var n = countOf('period', e);
+      if (!n) return;
+      er.appendChild(pill(e, n, function () { applyFacet('period', e); }));
+    });
+
+    document.getElementById('browse-all').addEventListener('click', function () {
+      browseAll = true;
+      run();
+    });
+  }
+
+  function pill(label, count, onClick) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    var t = document.createElement('span');
+    t.textContent = label;
+    var c = document.createElement('span');
+    c.className = 'c';
+    c.textContent = count;
+    b.appendChild(t); b.appendChild(c);
+    b.addEventListener('click', onClick);
+    return b;
+  }
+
+  // the browse state stands in for results until something actually narrows the collection
+  function isIdle() {
+    if (browseAll || query) return false;
+    return Object.keys(active).every(function (f) { return !active[f].length; });
+  }
+
+  function clearAll() {
+    active = { period: [], issuingCountry: [], type: [], language: [] };
+    query = ''; elQ.value = ''; page = 1;
+    browseAll = false;   // clearing everything returns you to the browse state
+    run();
+  }
+
+  // ---- events ----
+  function bind() {
+    var t;
+    elQ.addEventListener('input', function () {
+      clearTimeout(t);
+      t = setTimeout(function () {
+        query = elQ.value.trim().toLowerCase();
+        page = 1;
+        run();
+      }, 180);
+    });
+
+    // Full-text mode hands off to the OCR search page
+    function toFullText() {
+      var q = elQ.value.trim();
+      window.location.href = 'search.html' + (q ? '?q=' + encodeURIComponent(q) : '');
+    }
+    elMode.addEventListener('change', function () {
+      if (elMode.value === 'fulltext') toFullText();
+    });
+    elQ.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' && elMode.value === 'fulltext') { e.preventDefault(); toFullText(); }
+    });
+
+    elSort.addEventListener('change', function () {
+      sort = elSort.value;
+      page = 1;
+      run();
+    });
+  }
+
+  // ---- filter + sort + render ----
+  function run() {
+    results = items.filter(function (it) {
+      if (query) {
+        var hay = (it.title + ' ' + it.description + ' ' +
+          (it.keywords || []).join(' ') + ' ' +
+          (it.namedIndividuals || []).join(' ')).toLowerCase();
+        if (hay.indexOf(query) === -1) return false;
+      }
+      for (var field in active) {
+        var sel = active[field];
+        if (!sel.length) continue;
+        var vals = it[field] || [];
+        var hit = sel.some(function (s) { return vals.indexOf(s) !== -1; });
+        if (!hit) return false;
+      }
+      return true;
+    });
+
+    if (sort === 'title') {
+      results.sort(function (a, b) { return a.title.localeCompare(b.title); });
+    } else if (sort === 'year-asc' || sort === 'year-desc') {
+      var dir = sort === 'year-asc' ? 1 : -1;
+      results.sort(function (a, b) { return (year(a) - year(b)) * dir; });
+    }
+
+    var idle = isIdle();
+    document.getElementById('browse').style.display  = idle ? '' : 'none';
+    document.getElementById('results').style.display = idle ? 'none' : '';
+
+    if (!idle) {
+      renderChips();
+      renderGrid();
+      renderPager();
+    }
+    writeURL();
+
+    elCount.innerHTML = idle
+      ? '<span class="n">' + items.length + '</span> documents in the collection'
+      : '<span class="n">' + results.length + '</span> ' +
+        (results.length === 1 ? 'document' : 'documents') +
+        (results.length !== items.length ? ' of ' + items.length : '');
+  }
+
+  function year(it) {
+    var y = (it.issueYear || [])[0];
+    var n = parseInt(y, 10);
+    return isNaN(n) ? 999999 : n;   // undated sink to the end of an ascending sort
+  }
+
+  function renderChips() {
+    elChips.innerHTML = '';
+    var n = 0;
+
+    Object.keys(active).forEach(function (field) {
+      active[field].forEach(function (value) {
+        n++;
+        var chip = document.createElement('span');
+        chip.className = 'chip';
+        chip.appendChild(document.createTextNode(value));
+        var x = document.createElement('span');
+        x.className = 'x';
+        x.textContent = '×';
+        chip.appendChild(x);
+        chip.addEventListener('click', function () { toggle(field, value, false); });
+        elChips.appendChild(chip);
+      });
+    });
+
+    // the chips are now the only way to drop a filter, so always offer a way back out
+    if (n || query || browseAll) {
+      var clear = document.createElement('button');
+      clear.className = 'chip-clear';
+      clear.textContent = n > 1 ? 'Clear all filters' : 'Back to browse';
+      clear.addEventListener('click', clearAll);
+      elChips.appendChild(clear);
+    }
+  }
+
+  function renderGrid() {
+    elGrid.innerHTML = '';
+    elEmpty.style.display = results.length ? 'none' : 'block';
+
+    var start = (page - 1) * PER_PAGE;
+    results.slice(start, start + PER_PAGE).forEach(function (it) {
+      var a = document.createElement('a');
+      a.className = 'card';
+      a.href = 'mockup-record.html?id=' + encodeURIComponent(it.id);
+
+      var ph = document.createElement('div');
+      ph.className = 'ph';
+      var img = document.createElement('img');
+      img.className = 'cover';
+      img.src = 'thumbnails/' + it.file;
+      img.alt = it.title;
+      img.loading = 'lazy';
+      ph.appendChild(img);
+      if (it.pages && it.pages.length > 1) {
+        var pg = document.createElement('span');
+        pg.className = 'pages';
+        pg.textContent = it.pages.length + ' PP';
+        ph.appendChild(pg);
+      }
+      a.appendChild(ph);
+
+      var t = document.createElement('div');
+      t.className = 't';
+      t.textContent = it.title;
+      a.appendChild(t);
+
+      var meta = [];
+      if ((it.issueYear || [])[0]) meta.push(it.issueYear[0]);
+      if ((it.type || [])[0]) meta.push(it.type[0]);
+      var s = document.createElement('div');
+      s.className = 's';
+      s.textContent = meta.join(' · ');
+      a.appendChild(s);
+
+      elGrid.appendChild(a);
+    });
+  }
+
+  function renderPager() {
+    elPager.innerHTML = '';
+    var total = Math.ceil(results.length / PER_PAGE);
+    if (total <= 1) return;
+
+    elPager.appendChild(btn('←', page - 1, page === 1));
+    pageRange(page, total).forEach(function (p) {
+      if (p === '…') {
+        var d = document.createElement('span');
+        d.className = 'dots';
+        d.textContent = '…';
+        elPager.appendChild(d);
+      } else {
+        var b = btn(p, p, false);
+        if (p === page) b.classList.add('on');
+        elPager.appendChild(b);
+      }
+    });
+    elPager.appendChild(btn('→', page + 1, page === total));
+  }
+
+  function btn(text, target, disabled) {
+    var b = document.createElement('button');
+    b.textContent = text;
+    b.disabled = disabled;
+    b.addEventListener('click', function () {
+      page = target;
+      renderGrid();
+      renderPager();
+      writeURL();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    return b;
+  }
+
+  function pageRange(cur, total) {
+    if (total <= 7) {
+      var all = [];
+      for (var i = 1; i <= total; i++) all.push(i);
+      return all;
+    }
+    var out = [1];
+    if (cur > 3) out.push('…');
+    for (var p = Math.max(2, cur - 1); p <= Math.min(total - 1, cur + 1); p++) out.push(p);
+    if (cur < total - 2) out.push('…');
+    out.push(total);
+    return out;
+  }
+
+  // ---- URL state (shareable searches) ----
+  function writeURL() {
+    var p = new URLSearchParams();
+    if (query) p.set('q', query);
+    if (page > 1) p.set('page', page);
+    if (sort !== 'default') p.set('sort', sort);
+    if (browseAll) p.set('all', '1');
+    Object.keys(active).forEach(function (f) {
+      if (active[f].length) p.set(f, active[f].join('|'));
+    });
+    var qs = p.toString();
+    history.replaceState(null, '', window.location.pathname + (qs ? '?' + qs : ''));
+  }
+
+  function readURL() {
+    var p = new URLSearchParams(window.location.search);
+    if (p.has('q')) { query = p.get('q').toLowerCase(); elQ.value = p.get('q'); }
+    if (p.has('page')) page = parseInt(p.get('page'), 10) || 1;
+    if (p.has('sort')) { sort = p.get('sort'); elSort.value = sort; }
+    if (p.get('all') === '1') browseAll = true;
+
+    Object.keys(active).forEach(function (f) {
+      if (p.has(f)) active[f] = p.get(f).split('|').filter(Boolean);
+    });
+  }
+})();
+</script>
+
+</body>
+</html>
