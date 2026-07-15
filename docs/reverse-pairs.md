@@ -31,9 +31,9 @@ Status: **mapping only, 2026-07-15.** Fronts marked *confirm* still need an imag
 | Back | Likely front | Document | Note |
 |------|--------------|----------|------|
 | goetzmann0540 | goetzmann0506 | Poyaisian Land Grant | ✅ **RESOLVED 2026-07-15.** Image confirms "POYAISIAN LAND GRANT" (Gregor MacGregor's Poyais fraud). The record was wrong throughout — title, description, transcription, creator, notes, and geography (said "Potosian"/Bolivia). All corrected to Poyais / Honduras / 1834, matching front 0506. |
-| goetzmann0599 | goetzmann0634 *or* 0722 | City of Baku 5% Loan Bond (1910) | Two candidate fronts, both 1910 Baku loans — check which the back belongs to. |
-| goetzmann0730 | goetzmann0734 | Principality of Bulgaria Gold Loan Bond | Front is filed **after** the back (0734 > 0730). |
-| goetzmann0738 | goetzmann0695 *or* 0696 | Kingdom of Serbia 4% Amortizable Loan of 1895 | Two candidate fronts. |
+| goetzmann0599 | **goetzmann0634** | City of Baku 5% Loan Bond (1910) | ✅ **Confirmed by user 2026-07-15** — front is 0634 (not 0722). |
+| goetzmann0730 | goetzmann0734? | Principality of Bulgaria Gold Loan Bond | ⏸ **On hold** — not confirmed; leave for now. |
+| goetzmann0738 | goetzmann0695 / 0696? | Kingdom of Serbia 4% Amortizable Loan of 1895 | ⏸ **On hold** — not confirmed; leave for now. |
 
 ## C. Needs review — no obvious front in the collection
 
