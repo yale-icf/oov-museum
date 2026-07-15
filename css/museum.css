@@ -540,6 +540,27 @@ h1.extitle{margin:22px 0 0;font-family:'Spectral',serif;font-weight:400;
 .rec-onview .t{margin-top:9px;font-size:15px;font-weight:700;color:var(--ink)}
 .rec-onview .t a:hover{color:var(--oxblood)}
 .rec-onview .s{font-size:13px;color:var(--muted-cream);margin-top:3px}
+/* transcription & translation (collapsible) */
+.rec-transcription{max-width:1440px;margin:0 auto;padding:30px 56px 6px;border-top:1px solid var(--paper-line)}
+.rec-trans > summary{cursor:pointer;list-style:none;display:flex;align-items:center;gap:14px;
+  font-family:'Spectral',serif;font-weight:400;font-size:26px;color:var(--ink)}
+.rec-trans > summary::-webkit-details-marker{display:none}
+.rec-trans > summary::after{content:"Show";margin-left:auto;font-family:'Space Mono',monospace;
+  font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--oxblood);
+  border:1px solid var(--paper-line);border-radius:20px;padding:6px 14px}
+.rec-trans[open] > summary::after{content:"Hide"}
+.rec-trans > summary:hover::after{border-color:var(--oxblood)}
+.rec-trans-body{margin-top:24px;max-width:840px;font-size:15px;line-height:1.7;color:#3a3830;padding-bottom:14px}
+.rec-trans-body p{margin:0 0 16px}
+.rec-trans-body p:last-child{margin-bottom:0}
+.rec-trans-body strong{color:var(--ink)}
+.rec-trans-body h4{margin:26px 0 10px;line-height:1.2;color:var(--ink)}
+.rec-trans-body h4.th1{font-family:'Spectral',serif;font-weight:400;font-size:22px}
+.rec-trans-body h4.th2{font-weight:700;font-size:16px;letter-spacing:.01em}
+.rec-trans-body h4.th3{font-family:'Space Mono',monospace;font-weight:700;font-size:12px;
+  letter-spacing:.12em;text-transform:uppercase;color:var(--muted-cream)}
+.rec-trans-body hr{border:none;border-top:1px solid var(--paper-line);margin:22px 0}
+
 .rec-related{max-width:1440px;margin:0 auto;padding:34px 56px 52px;border-top:1px solid var(--ink)}
 .rec-related-head{display:flex;justify-content:space-between;align-items:baseline}
 .rec-related-head h2{margin:0;font-family:'Spectral',serif;font-weight:400;font-size:28px;color:var(--ink)}
