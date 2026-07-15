@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&family=Archivo+Expanded:wght@500;600;700;800&family=Schibsted+Grotesk:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+  body { margin: 0; background: #2c2c2e; }
+  a { color: inherit; }
+  .cap { font-family:'Space Mono',monospace; }
+</style>
+</helmet>
+
+<div style="display:none;position:absolute"><x-import component-from-global-scope="image-slot" from="./image-slot.js" hint-size="0,0"></x-import></div>
+
+<section data-screen-label="Turn 2 — hybrid, full page set">
+<div style="display:flex;flex-wrap:wrap;gap:80px;padding:72px 80px;align-items:flex-start;font-family:'Archivo',sans-serif">
+
+  <!-- ===================== 2A · HOMEPAGE (navy/brass) ===================== -->
+  <article id="2a" style="display:flex;flex-direction:column;gap:16px">
+    <div style="display:flex;align-items:baseline;gap:14px">
+      <a href="#2a" style="background:#c9a24b;color:#0c1a2e;font-weight:800;font-size:15px;letter-spacing:.04em;padding:5px 12px;border-radius:3px;text-decoration:none">2A</a>
+      <span style="color:#e6e2d8;font-size:20px;font-weight:700">Homepage</span>
+      <span style="color:#9a968c;font-size:14px">Navy / brass · marketing mode</span>
+    </div>
+
+    <div style="width:1440px;background:#0c1a2e;color:#f4f1ea">
+      <!-- shared navy nav -->
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:22px 56px;border-bottom:1px solid #21344d">
+        <div style="display:flex;flex-direction:column;line-height:1">
+          <span style="font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:21px;letter-spacing:.02em">THE LEDGER</span>
+          <span class="cap" style="font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:#8f97a5;margin-top:6px">Museum of Financial Documents</span>
+        </div>
+        <div style="display:flex;gap:30px;font-size:13px;font-weight:600;letter-spacing:.02em"><span style="color:#c9a24b">Collection</span><span>Exhibitions</span><span>About</span><span>Visit</span><span style="color:#8f97a5">⌕ Search</span></div>
+      </div>
+
+      <!-- hero -->
+      <div style="display:grid;grid-template-columns:1.15fr .85fr;gap:56px;padding:76px 56px 64px 56px;align-items:center">
+        <div>
+          <div class="cap" style="font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#c9a24b;margin-bottom:26px">The material culture of money</div>
+          <h1 style="margin:0;font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:76px;line-height:.98;letter-spacing:-.02em">The paper that moved the&nbsp;world.</h1>
+          <p style="margin:30px 0 0 0;font-size:19px;line-height:1.55;color:#c3cad6;max-width:520px">Four centuries of certificates, banknotes, bonds and ledgers — the engraved documents through which capital was promised, transferred and remembered.</p>
+          <div style="display:flex;gap:14px;margin-top:38px">
+            <span style="background:#c9a24b;color:#0c1a2e;font-weight:700;font-size:15px;padding:14px 28px;border-radius:3px">Browse the collection</span>
+            <span style="border:1px solid #34496320;border-color:#34496a;color:#f4f1ea;font-weight:600;font-size:15px;padding:14px 28px;border-radius:3px">Plan your visit</span>
+          </div>
+        </div>
+        <div>
+          <div style="background:#12243b;padding:22px;border:1px solid #21344d;position:relative">
+            <div style="position:absolute;top:32px;right:32px;z-index:2;display:flex;align-items:center;gap:7px;background:rgba(12,26,46,.82);border:1px solid #34496a;color:#f4f1ea;font-size:12px;font-weight:600;padding:7px 12px;border-radius:20px"><span style="font-size:14px">⊕</span> Deep zoom</div>
+            <div style="width:100%;height:440px;background:#0a1728"><image-slot id="h-hero" fit="cover" placeholder="VOC share, Enkhuizen, 1606"></image-slot></div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:16px;padding:0 2px">
+            <div><div style="font-size:16px;font-weight:700">Dutch East India Company share</div><div style="font-size:13px;color:#8f97a5;margin-top:3px">Enkhuizen chamber, 1606 · the earliest known share</div></div>
+            <div class="cap" style="font-size:12px;color:#c9a24b">ACC. 1934.02.1</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- department grid -->
+      <div style="padding:8px 56px 20px 56px">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #21344d;padding-top:26px">
+          <h2 style="margin:0;font-family:'Archivo Expanded',sans-serif;font-weight:700;font-size:28px">Browse the collection</h2>
+          <span class="cap" style="font-size:12px;color:#8f97a5">6 DEPARTMENTS · 41,208 OBJECTS</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#21344d;margin-top:28px;border:1px solid #21344d">
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">01</div><div style="font-size:20px;font-weight:700;margin-top:14px">Stock Certificates</div><div style="font-size:13px;color:#8f97a5;margin-top:6px">Scripophily & engraved shares</div></div>
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">02</div><div style="font-size:20px;font-weight:700;margin-top:14px">Banknotes & Currency</div><div style="font-size:13px;color:#8f97a5;margin-top:6px">Sovereign & private issue</div></div>
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">03</div><div style="font-size:20px;font-weight:700;margin-top:14px">Bonds & Securities</div><div style="font-size:13px;color:#8f97a5;margin-top:6px">War loans, rails, republics</div></div>
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">04</div><div style="font-size:20px;font-weight:700;margin-top:14px">Ledgers & Account Books</div><div style="font-size:13px;color:#8f97a5;margin-top:6px">Double-entry manuscripts</div></div>
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">05</div><div style="font-size:20px;font-weight:700;margin-top:14px">Notes & Checks</div><div style="font-size:13px;color:#8f97a5;margin-top:6px">Promissory instruments</div></div>
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">06</div><div style="font-size:20px;font-weight:700;margin-top:14px">Prospectuses & Broadsides</div><div style="font-size:13px;color:#8f97a5;margin-top:6px">The printed pitch</div></div>
+        </div>
+      </div>
+
+      <!-- exhibition band -->
+      <div style="display:grid;grid-template-columns:.9fr 1.1fr;margin-top:36px;border-top:1px solid #21344d">
+        <div style="padding:56px;display:flex;flex-direction:column;justify-content:center">
+          <div class="cap" style="font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#c9a24b">Now on view</div>
+          <h3 style="margin:18px 0 0 0;font-family:'Archivo Expanded',sans-serif;font-weight:700;font-size:40px;line-height:1.02">Engraved Trust</h3>
+          <p style="margin:16px 0 0 0;font-size:16px;line-height:1.55;color:#c3cad6;max-width:400px">The art of the security, 1850–1929: how vignettes, guilloché and steel engraving manufactured confidence on paper.</p>
+          <span class="cap" style="font-size:12px;color:#8f97a5;margin-top:26px">GALLERY 2 · THROUGH MAY 2027</span>
+        </div>
+        <div style="height:360px;background:#0a1728;border-left:1px solid #21344d"><image-slot id="h-exh" fit="cover" placeholder="Exhibition installation view"></image-slot></div>
+      </div>
+
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:34px 56px;border-top:1px solid #21344d;color:#8f97a5;font-size:13px">
+        <span style="font-family:'Archivo Expanded',sans-serif;font-weight:700;color:#f4f1ea">THE LEDGER</span>
+        <span>200 Water Street · Open Tues–Sun 10–6</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- ===================== 2B · COLLECTION (cream catalogue) ===================== -->
+  <article id="2b" style="display:flex;flex-direction:column;gap:16px">
+    <div style="display:flex;align-items:baseline;gap:14px">
+      <a href="#2b" style="background:#7c3a2d;color:#efe9dd;font-weight:800;font-size:15px;letter-spacing:.04em;padding:5px 12px;border-radius:3px;text-decoration:none">2B</a>
+      <span style="color:#e6e2d8;font-size:20px;font-weight:700">Collection browse</span>
+      <span style="color:#9a968c;font-size:14px">Cream catalogue · archive mode</span>
+    </div>
+
+    <div style="width:1440px;background:#efe9dd;color:#16273f">
+      <!-- shared navy nav -->
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:22px 56px;background:#0c1a2e;color:#f4f1ea">
+        <div style="display:flex;flex-direction:column;line-height:1">
+          <span style="font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:21px;letter-spacing:.02em">THE LEDGER</span>
+          <span class="cap" style="font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:#8f97a5;margin-top:6px">Museum of Financial Documents</span>
+        </div>
+        <div style="display:flex;gap:30px;font-size:13px;font-weight:600"><span style="color:#c9a24b">Collection</span><span>Exhibitions</span><span>About</span><span>Visit</span><span style="color:#8f97a5">⌕ Search</span></div>
+      </div>
+
+      <!-- page head -->
+      <div style="padding:44px 56px 24px 56px;border-bottom:2px solid #16273f">
+        <div class="cap" style="font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:#7c3a2d">Collection</div>
+        <h1 style="margin:14px 0 0 0;font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:52px;letter-spacing:-.02em">Objects of record</h1>
+      </div>
+
+      <!-- toolbar -->
+      <div class="cap" style="display:flex;justify-content:space-between;align-items:center;padding:16px 56px;border-bottom:1px solid #cdc4b1;font-size:12px;letter-spacing:.08em;color:#6b6555">
+        <span>SHOWING 1–9 OF 41,208</span>
+        <span>SORT: DATE, EARLIEST ↓</span>
+      </div>
+
+      <!-- body: facets + grid -->
+      <div style="display:grid;grid-template-columns:240px 1fr;gap:44px;padding:36px 56px 48px 56px">
+        <!-- facets -->
+        <div style="font-size:14px">
+          <div style="border-bottom:1px solid #cdc4b1;padding-bottom:18px;margin-bottom:18px">
+            <div class="cap" style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#7c3a2d;margin-bottom:14px">Department</div>
+            <div style="display:flex;flex-direction:column;gap:11px;color:#3a3830">
+              <span style="font-weight:700">Stock Certificates <span style="color:#9a927e">9,412</span></span>
+              <span>Banknotes &amp; Currency <span style="color:#9a927e">14,077</span></span>
+              <span>Bonds &amp; Securities <span style="color:#9a927e">7,930</span></span>
+              <span>Ledgers &amp; Account Books <span style="color:#9a927e">3,318</span></span>
+              <span>Notes &amp; Checks <span style="color:#9a927e">4,102</span></span>
+            </div>
+          </div>
+          <div style="border-bottom:1px solid #cdc4b1;padding-bottom:18px;margin-bottom:18px">
+            <div class="cap" style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#7c3a2d;margin-bottom:14px">Century</div>
+            <div style="display:flex;flex-direction:column;gap:11px;color:#3a3830"><span>17th</span><span>18th</span><span>19th</span><span>20th</span></div>
+          </div>
+          <div>
+            <div class="cap" style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#7c3a2d;margin-bottom:14px">Origin</div>
+            <div style="display:flex;flex-direction:column;gap:11px;color:#3a3830"><span>Netherlands</span><span>United States</span><span>United Kingdom</span><span>France</span></div>
+          </div>
+        </div>
+
+        <!-- grid -->
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px">
+          <div><div style="height:220px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="col-1" fit="cover" placeholder="VOC share, 1606"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700;line-height:1.25">Dutch East India Company share</div><div style="font-size:13px;color:#6b6555;margin-top:2px">Enkhuizen, 1606 · engraving on laid paper</div><div class="cap" style="font-size:11px;color:#7c3a2d;margin-top:6px">ACC. 1934.02.1</div></div>
+          <div><div style="height:220px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="col-2" fit="cover" placeholder="Mississippi Company share, 1719"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700;line-height:1.25">Compagnie des Indes action</div><div style="font-size:13px;color:#6b6555;margin-top:2px">Paris, 1719 · letterpress & manuscript</div><div class="cap" style="font-size:11px;color:#7c3a2d;margin-top:6px">ACC. 1962.11.4</div></div>
+          <div><div style="height:220px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="col-3" fit="cover" placeholder="Bank of England note, 1797"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700;line-height:1.25">Bank of England £1 note</div><div style="font-size:13px;color:#6b6555;margin-top:2px">London, 1797 · intaglio on rag paper</div><div class="cap" style="font-size:11px;color:#7c3a2d;margin-top:6px">ACC. 1948.07.2</div></div>
+          <div><div style="height:220px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="col-4" fit="cover" placeholder="Republic of Texas bond, 1839"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700;line-height:1.25">Republic of Texas bond</div><div style="font-size:13px;color:#6b6555;margin-top:2px">1839 · $1,000, engraved</div><div class="cap" style="font-size:11px;color:#7c3a2d;margin-top:6px">ACC. 1971.44</div></div>
+          <div><div style="height:220px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="col-5" fit="cover" placeholder="Union Pacific stock, 1899"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700;line-height:1.25">Union Pacific Railroad stock</div><div style="font-size:13px;color:#6b6555;margin-top:2px">1899 · steel-engraved vignette</div><div class="cap" style="font-size:11px;color:#7c3a2d;margin-top:6px">ACC. 1955.19.7</div></div>
+          <div><div style="height:220px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="col-6" fit="cover" placeholder="Liberty Bond, 1918"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700;line-height:1.25">Fourth Liberty Loan bond</div><div style="font-size:13px;color:#6b6555;margin-top:2px">United States, 1918 · $50</div><div class="cap" style="font-size:11px;color:#7c3a2d;margin-top:6px">ACC. 1980.03.1</div></div>
+          <div><div style="height:220px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="col-7" fit="cover" placeholder="Weimar 1M mark note, 1923"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700;line-height:1.25">One million mark note</div><div style="font-size:13px;color:#6b6555;margin-top:2px">Germany, 1923 · inflation issue</div><div class="cap" style="font-size:11px;color:#7c3a2d;margin-top:6px">ACC. 1991.08.12</div></div>
+          <div><div style="height:220px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="col-8" fit="cover" placeholder="Florentine ledger leaf, 1470"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700;line-height:1.25">Florentine ledger leaf</div><div style="font-size:13px;color:#6b6555;margin-top:2px">c. 1470 · double-entry, iron-gall ink</div><div class="cap" style="font-size:11px;color:#7c3a2d;margin-top:6px">ACC. 1938.22.1</div></div>
+          <div><div style="height:220px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="col-9" fit="cover" placeholder="Medici bill of exchange, 1520"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700;line-height:1.25">Medici bill of exchange</div><div style="font-size:13px;color:#6b6555;margin-top:2px">Florence, c. 1520 · manuscript</div><div class="cap" style="font-size:11px;color:#7c3a2d;margin-top:6px">ACC. 1941.15.3</div></div>
+        </div>
+      </div>
+
+      <div class="cap" style="display:flex;justify-content:space-between;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8a8271;padding:26px 56px;border-top:2px solid #16273f">
+        <span>200 Water Street, New York</span><span>Open Tues–Sun · 10–6</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- ===================== 2C · EXHIBITION (navy immersive) ===================== -->
+  <article id="2c" style="display:flex;flex-direction:column;gap:16px">
+    <div style="display:flex;align-items:baseline;gap:14px">
+      <a href="#2c" style="background:#c9a24b;color:#0c1a2e;font-weight:800;font-size:15px;letter-spacing:.04em;padding:5px 12px;border-radius:3px;text-decoration:none">2C</a>
+      <span style="color:#e6e2d8;font-size:20px;font-weight:700">Exhibition landing</span>
+      <span style="color:#9a968c;font-size:14px">Navy immersive · feature mode</span>
+    </div>
+
+    <div style="width:1440px;background:#0c1a2e;color:#f4f1ea">
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:22px 56px;border-bottom:1px solid #21344d">
+        <div style="display:flex;flex-direction:column;line-height:1">
+          <span style="font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:21px;letter-spacing:.02em">THE LEDGER</span>
+          <span class="cap" style="font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:#8f97a5;margin-top:6px">Museum of Financial Documents</span>
+        </div>
+        <div style="display:flex;gap:30px;font-size:13px;font-weight:600"><span>Collection</span><span style="color:#c9a24b">Exhibitions</span><span>About</span><span>Visit</span><span style="color:#8f97a5">⌕ Search</span></div>
+      </div>
+
+      <!-- hero -->
+      <div style="padding:72px 56px 44px 56px">
+        <div class="cap" style="font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#c9a24b">Exhibition · Gallery 2</div>
+        <h1 style="margin:22px 0 0 0;font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:96px;line-height:.94;letter-spacing:-.02em">Engraved Trust</h1>
+        <div style="display:flex;gap:40px;align-items:flex-start;margin-top:30px">
+          <p style="margin:0;font-size:20px;line-height:1.55;color:#c3cad6;max-width:620px">The art of the security, 1850–1929. Before trust was a database entry, it was manufactured on paper — through allegorical vignettes, machine-turned guilloché and steel engraving too fine to counterfeit. Ninety documents trace how finance learned to look believable.</p>
+          <div style="border-left:1px solid #34496a;padding-left:28px;font-size:14px;line-height:1.9;color:#8f97a5;white-space:nowrap"><div class="cap" style="color:#c9a24b">DATES</div>Through 17 May 2027<br><div class="cap" style="color:#c9a24b;margin-top:12px">CURATOR</div>Dr. M. Halloran<br><div class="cap" style="color:#c9a24b;margin-top:12px">ADMISSION</div>Free with entry</div>
+        </div>
+      </div>
+      <div style="height:520px;background:#0a1728;margin:0 56px;border:1px solid #21344d"><image-slot id="exh-hero" fit="cover" placeholder="Engraved Trust — hero installation / key object"></image-slot></div>
+
+      <!-- selected works -->
+      <div style="padding:56px">
+        <h2 style="margin:0 0 28px 0;font-family:'Archivo Expanded',sans-serif;font-weight:700;font-size:26px">Selected works</h2>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:28px">
+          <div><div style="height:300px;background:#12243b;border:1px solid #21344d"><image-slot id="exh-1" fit="cover" placeholder="Union Pacific stock, 1899"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700">Union Pacific Railroad stock</div><div style="font-size:13px;color:#8f97a5;margin-top:2px">1899 · steel-engraved vignette</div></div>
+          <div><div style="height:300px;background:#12243b;border:1px solid #21344d"><image-slot id="exh-2" fit="cover" placeholder="Banque de France note, 1862"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700">Banque de France 100 francs</div><div style="font-size:13px;color:#8f97a5;margin-top:2px">1862 · guilloché borders</div></div>
+          <div><div style="height:300px;background:#12243b;border:1px solid #21344d"><image-slot id="exh-3" fit="cover" placeholder="Panama Canal Co. bond, 1888"></image-slot></div><div style="margin-top:12px;font-size:15px;font-weight:700">Panama Canal Company bond</div><div style="font-size:13px;color:#8f97a5;margin-top:2px">1888 · allegorical vignette</div></div>
+        </div>
+      </div>
+
+      <!-- pull quote -->
+      <div style="padding:24px 56px 64px 56px;border-top:1px solid #21344d;margin:0 56px">
+        <p style="margin:44px 0 0 0;font-family:'Archivo Expanded',sans-serif;font-weight:600;font-size:38px;line-height:1.18;letter-spacing:-.01em;max-width:1000px;text-wrap:balance">“A share certificate had to <span style="color:#c9a24b">perform solvency</span> — every flourish was an argument that the money was real.”</p>
+        <div class="cap" style="font-size:13px;color:#8f97a5;margin-top:24px">— Wall text, Room 1</div>
+      </div>
+
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:34px 56px;border-top:1px solid #21344d;color:#8f97a5;font-size:13px">
+        <span style="font-family:'Archivo Expanded',sans-serif;font-weight:700;color:#f4f1ea">THE LEDGER</span>
+        <span>200 Water Street · Open Tues–Sun 10–6</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- ===================== 2D · ABOUT (navy hero + cream body) ===================== -->
+  <article id="2d" style="display:flex;flex-direction:column;gap:16px">
+    <div style="display:flex;align-items:baseline;gap:14px">
+      <a href="#2d" style="background:#c9a24b;color:#0c1a2e;font-weight:800;font-size:15px;letter-spacing:.04em;padding:5px 12px;border-radius:3px;text-decoration:none">2D</a>
+      <span style="color:#e6e2d8;font-size:20px;font-weight:700">About</span>
+      <span style="color:#9a968c;font-size:14px">Navy hero → cream body · shows the switch</span>
+    </div>
+
+    <div style="width:1440px;background:#efe9dd;color:#16273f">
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:22px 56px;background:#0c1a2e;color:#f4f1ea">
+        <div style="display:flex;flex-direction:column;line-height:1">
+          <span style="font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:21px;letter-spacing:.02em">THE LEDGER</span>
+          <span class="cap" style="font-size:10px;letter-spacing:.28em;text-transform:uppercase;color:#8f97a5;margin-top:6px">Museum of Financial Documents</span>
+        </div>
+        <div style="display:flex;gap:30px;font-size:13px;font-weight:600"><span>Collection</span><span>Exhibitions</span><span style="color:#c9a24b">About</span><span>Visit</span><span style="color:#8f97a5">⌕ Search</span></div>
+      </div>
+
+      <!-- navy hero -->
+      <div style="background:#0c1a2e;color:#f4f1ea;padding:80px 56px 76px 56px">
+        <div class="cap" style="font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#c9a24b">About the museum</div>
+        <h1 style="margin:24px 0 0 0;font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:64px;line-height:1.02;letter-spacing:-.02em;max-width:1050px;text-wrap:balance">We collect the paper on which trust was drawn.</h1>
+      </div>
+
+      <!-- cream body -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;padding:60px 56px 40px 56px">
+        <div>
+          <p style="margin:0;font-size:18px;line-height:1.6;color:#3a3830">Founded in 1934 in the aftermath of the Crash, The Ledger is the only museum devoted entirely to the flat documents of finance. Our holdings span a Florentine ledger leaf of 1470 to the last engraved certificates of the twentieth century.</p>
+          <p style="margin:20px 0 0 0;font-size:18px;line-height:1.6;color:#3a3830">We conserve these objects, study them as material culture, and make them legible — because how money was written down is a history of how people agreed to believe one another.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1px;background:#cdc4b1;border:1px solid #cdc4b1;align-self:start">
+          <div style="background:#efe9dd;padding:24px"><div style="font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:34px">41,208</div><div class="cap" style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#7c3a2d;margin-top:8px">Objects</div></div>
+          <div style="background:#efe9dd;padding:24px"><div style="font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:34px">1470</div><div class="cap" style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#7c3a2d;margin-top:8px">Earliest object</div></div>
+          <div style="background:#efe9dd;padding:24px"><div style="font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:34px">1934</div><div class="cap" style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#7c3a2d;margin-top:8px">Founded</div></div>
+          <div style="background:#efe9dd;padding:24px"><div style="font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:34px">6</div><div class="cap" style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#7c3a2d;margin-top:8px">Departments</div></div>
+        </div>
+      </div>
+
+      <!-- building image + visit -->
+      <div style="display:grid;grid-template-columns:1.3fr .7fr;gap:40px;padding:20px 56px 56px 56px">
+        <div style="height:340px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="ab-building" fit="cover" placeholder="The museum building, 200 Water Street"></image-slot></div>
+        <div style="border-top:2px solid #16273f;padding-top:20px">
+          <div class="cap" style="font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#7c3a2d;margin-bottom:16px">Visit</div>
+          <div style="font-size:16px;line-height:1.85"><strong>200 Water Street</strong><br>New York, NY 10038<br><br>Tuesday–Sunday · 10–6<br>Closed Mondays<br><br><span style="color:#7c3a2d;font-weight:700">Admission free</span></div>
+        </div>
+      </div>
+
+      <div class="cap" style="display:flex;justify-content:space-between;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8a8271;padding:26px 56px;border-top:2px solid #16273f">
+        <span>The Ledger · Est. 1934</span><span>Open Tues–Sun · 10–6</span>
+      </div>
+    </div>
+  </article>
+
+</div>
+</section>
+
+<section data-screen-label="Turn 1 — homepage directions">
+<div style="display:flex;flex-wrap:wrap;gap:80px;padding:72px 80px;align-items:flex-start">
+
+  <!-- ============ OPTION 1A · VAULT ============ -->
+  <article id="1a" style="display:flex;flex-direction:column;gap:16px">
+    <div style="display:flex;align-items:baseline;gap:14px;font-family:'Archivo',sans-serif">
+      <a href="#1a" style="background:#c9a24b;color:#0c1a2e;font-weight:800;font-size:15px;letter-spacing:.04em;padding:5px 12px;border-radius:3px;text-decoration:none">1A</a>
+      <span style="color:#e6e2d8;font-size:20px;font-weight:700;letter-spacing:.02em">Vault</span>
+      <span style="color:#9a968c;font-size:14px">Dark, bold-editorial · brass on near-black</span>
+    </div>
+
+    <div style="width:1440px;background:#0c1a2e;color:#f4f1ea;font-family:'Archivo',sans-serif">
+      <!-- nav -->
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:26px 56px;border-bottom:1px solid #21344d">
+        <div style="display:flex;flex-direction:column;line-height:1">
+          <span style="font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:24px;letter-spacing:.02em">THE LEDGER</span>
+          <span style="font-size:11px;letter-spacing:.32em;text-transform:uppercase;color:#8f8a7e;margin-top:6px">Museum of Financial Documents</span>
+        </div>
+        <div style="display:flex;gap:36px;font-size:14px;font-weight:600;letter-spacing:.02em">
+          <span>Collection</span><span>Exhibitions</span><span>About</span><span>Visit</span>
+          <span style="color:#c9a24b">Search</span>
+        </div>
+      </div>
+
+      <!-- hero -->
+      <div style="display:grid;grid-template-columns:1.15fr .85fr;gap:56px;padding:76px 56px 64px 56px;align-items:center">
+        <div>
+          <div class="cap" style="font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#c9a24b;margin-bottom:26px">The material culture of money</div>
+          <h1 style="margin:0;font-family:'Archivo Expanded',sans-serif;font-weight:800;font-size:78px;line-height:.98;letter-spacing:-.02em">The paper that moved the&nbsp;world.</h1>
+          <p style="margin:30px 0 0 0;font-size:19px;line-height:1.55;color:#c8c3b7;max-width:520px">Four centuries of certificates, banknotes, bonds and ledgers — the engraved documents through which capital was promised, transferred and remembered.</p>
+          <div style="display:flex;gap:14px;margin-top:38px">
+            <span style="background:#c9a24b;color:#0c1a2e;font-weight:700;font-size:15px;padding:14px 28px;border-radius:3px">Browse the collection</span>
+            <span style="border:1px solid #3a3a34;color:#f4f1ea;font-weight:600;font-size:15px;padding:14px 28px;border-radius:3px">Plan your visit</span>
+          </div>
+        </div>
+        <!-- featured object -->
+        <div>
+          <div style="background:#12243b;padding:22px;border:1px solid #21344d;position:relative">
+            <div style="position:absolute;top:32px;right:32px;z-index:2;display:flex;align-items:center;gap:7px;background:rgba(12,26,46,.82);backdrop-filter:blur(4px);border:1px solid #3a3a34;color:#f4f1ea;font-size:12px;font-weight:600;padding:7px 12px;border-radius:20px">
+              <span style="font-size:14px">⊕</span> Deep zoom
+            </div>
+            <div style="width:100%;height:440px;background:#0a1728">
+              <image-slot id="a-hero" fit="cover" placeholder="VOC share, Enkhuizen, 1606"></image-slot>
+            </div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:16px;padding:0 2px">
+            <div>
+              <div style="font-size:16px;font-weight:700">Dutch East India Company share</div>
+              <div style="font-size:13px;color:#9a968c;margin-top:3px">Enkhuizen chamber, 1606 · the earliest known share</div>
+            </div>
+            <div class="cap" style="font-size:12px;color:#c9a24b">ACC. 1934.02.1</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- collection index -->
+      <div style="padding:8px 56px 20px 56px">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #21344d;padding-top:26px">
+          <h2 style="margin:0;font-family:'Archivo Expanded',sans-serif;font-weight:700;font-size:28px">Browse the collection</h2>
+          <span class="cap" style="font-size:12px;color:#8f8a7e">6 DEPARTMENTS · 41,208 OBJECTS</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:#21344d;margin-top:28px;border:1px solid #21344d">
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">01</div><div style="font-size:20px;font-weight:700;margin-top:14px">Stock Certificates</div><div style="font-size:13px;color:#9a968c;margin-top:6px">Scripophily & engraved shares</div></div>
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">02</div><div style="font-size:20px;font-weight:700;margin-top:14px">Banknotes & Currency</div><div style="font-size:13px;color:#9a968c;margin-top:6px">Sovereign & private issue</div></div>
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">03</div><div style="font-size:20px;font-weight:700;margin-top:14px">Bonds & Securities</div><div style="font-size:13px;color:#9a968c;margin-top:6px">War loans, rails, republics</div></div>
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">04</div><div style="font-size:20px;font-weight:700;margin-top:14px">Ledgers & Account Books</div><div style="font-size:13px;color:#9a968c;margin-top:6px">Double-entry manuscripts</div></div>
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">05</div><div style="font-size:20px;font-weight:700;margin-top:14px">Notes & Checks</div><div style="font-size:13px;color:#9a968c;margin-top:6px">Promissory instruments</div></div>
+          <div style="background:#0c1a2e;padding:26px 24px"><div class="cap" style="font-size:12px;color:#c9a24b">06</div><div style="font-size:20px;font-weight:700;margin-top:14px">Prospectuses & Broadsides</div><div style="font-size:13px;color:#9a968c;margin-top:6px">The printed pitch</div></div>
+        </div>
+      </div>
+
+      <!-- exhibition band -->
+      <div style="display:grid;grid-template-columns:.9fr 1.1fr;gap:0;margin-top:36px;border-top:1px solid #21344d">
+        <div style="padding:56px;display:flex;flex-direction:column;justify-content:center">
+          <div class="cap" style="font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#c9a24b">Now on view</div>
+          <h3 style="margin:18px 0 0 0;font-family:'Archivo Expanded',sans-serif;font-weight:700;font-size:40px;line-height:1.02">Engraved Trust</h3>
+          <p style="margin:16px 0 0 0;font-size:16px;line-height:1.55;color:#c8c3b7;max-width:400px">The art of the security, 1850–1929: how vignettes, guilloché and steel engraving manufactured confidence on paper.</p>
+          <span class="cap" style="font-size:12px;color:#8f8a7e;margin-top:26px">GALLERY 2 · THROUGH MAY 2027</span>
+        </div>
+        <div style="height:360px;background:#0a1728;border-left:1px solid #21344d">
+          <image-slot id="a-exh" fit="cover" placeholder="Exhibition installation view"></image-slot>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:34px 56px;border-top:1px solid #21344d;color:#8f8a7e;font-size:13px">
+        <span style="font-family:'Archivo Expanded',sans-serif;font-weight:700;color:#f4f1ea;letter-spacing:.02em">THE LEDGER</span>
+        <span>200 Water Street · Open Tues–Sun 10–6</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ OPTION 1B · ARCHIVE ============ -->
+  <article id="1b" style="display:flex;flex-direction:column;gap:16px">
+    <div style="display:flex;align-items:baseline;gap:14px;font-family:'Schibsted Grotesk',sans-serif">
+      <a href="#1b" style="background:#7c3a2d;color:#efe9dd;font-weight:800;font-size:15px;letter-spacing:.04em;padding:5px 12px;border-radius:3px;text-decoration:none">1B</a>
+      <span style="color:#e6e2d8;font-size:20px;font-weight:700;letter-spacing:.02em">Archive</span>
+      <span style="color:#9a968c;font-size:14px">Warm catalogue · oxblood ink on cream</span>
+    </div>
+
+    <div style="width:1440px;background:#efe9dd;color:#16273f;font-family:'Schibsted Grotesk',sans-serif">
+      <!-- top meta rule -->
+      <div class="cap" style="display:flex;justify-content:space-between;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8a8271;padding:14px 56px;border-bottom:1px solid #cdc4b1">
+        <span>The Ledger · Museum of Financial Documents</span>
+        <span>New York · Est. 1934</span>
+      </div>
+      <!-- nav -->
+      <div style="display:flex;justify-content:space-between;align-items:flex-end;padding:30px 56px 24px 56px">
+        <span style="font-family:'Schibsted Grotesk',sans-serif;font-weight:800;font-size:30px;letter-spacing:-.01em">The Ledger</span>
+        <div style="display:flex;gap:32px;font-size:14px;font-weight:600">
+          <span>Collection</span><span>Exhibitions</span><span>About</span><span>Visit</span><span style="color:#7c3a2d">Search</span>
+        </div>
+      </div>
+
+      <!-- hero: title + deck, ruled -->
+      <div style="display:grid;grid-template-columns:1.3fr .7fr;gap:48px;padding:26px 56px 44px 56px;border-top:2px solid #16273f;border-bottom:1px solid #cdc4b1">
+        <h1 style="margin:0;font-weight:800;font-size:66px;line-height:1.0;letter-spacing:-.02em;max-width:760px">A catalogue of how capital was written down.</h1>
+        <p style="margin:8px 0 0 0;font-size:16px;line-height:1.6;color:#4a4638">From a 1606 share in the Dutch East India Company to the last engraved certificate, The Ledger collects, conserves and studies the flat documents of finance — the paper on which trust was drawn.</p>
+      </div>
+
+      <!-- index table -->
+      <div style="padding:36px 56px 20px 56px">
+        <div class="cap" style="display:flex;justify-content:space-between;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#8a8271;margin-bottom:8px">
+          <span>Collection index</span><span>Objects / Dept.</span>
+        </div>
+        <!-- rows -->
+        <div style="display:grid;grid-template-columns:64px 1fr 200px 120px;align-items:center;gap:20px;padding:18px 0;border-top:1px solid #cdc4b1">
+          <span class="cap" style="font-size:13px;color:#7c3a2d">I</span>
+          <div><div style="font-size:22px;font-weight:700">Stock Certificates</div><div style="font-size:13px;color:#6b6555;margin-top:2px">Scripophily & engraved shares, 1606–1980</div></div>
+          <div style="height:70px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="b-1" fit="cover" placeholder="thumb"></image-slot></div>
+          <span class="cap" style="font-size:15px;text-align:right">9,412</span>
+        </div>
+        <div style="display:grid;grid-template-columns:64px 1fr 200px 120px;align-items:center;gap:20px;padding:18px 0;border-top:1px solid #cdc4b1">
+          <span class="cap" style="font-size:13px;color:#7c3a2d">II</span>
+          <div><div style="font-size:22px;font-weight:700">Banknotes & Currency</div><div style="font-size:13px;color:#6b6555;margin-top:2px">Sovereign and private issue</div></div>
+          <div style="height:70px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="b-2" fit="cover" placeholder="thumb"></image-slot></div>
+          <span class="cap" style="font-size:15px;text-align:right">14,077</span>
+        </div>
+        <div style="display:grid;grid-template-columns:64px 1fr 200px 120px;align-items:center;gap:20px;padding:18px 0;border-top:1px solid #cdc4b1">
+          <span class="cap" style="font-size:13px;color:#7c3a2d">III</span>
+          <div><div style="font-size:22px;font-weight:700">Bonds & Securities</div><div style="font-size:13px;color:#6b6555;margin-top:2px">War loans, railways, republics</div></div>
+          <div style="height:70px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="b-3" fit="cover" placeholder="thumb"></image-slot></div>
+          <span class="cap" style="font-size:15px;text-align:right">7,930</span>
+        </div>
+        <div style="display:grid;grid-template-columns:64px 1fr 200px 120px;align-items:center;gap:20px;padding:18px 0;border-top:1px solid #cdc4b1;border-bottom:1px solid #cdc4b1">
+          <span class="cap" style="font-size:13px;color:#7c3a2d">IV</span>
+          <div><div style="font-size:22px;font-weight:700">Ledgers & Account Books</div><div style="font-size:13px;color:#6b6555;margin-top:2px">Double-entry manuscripts</div></div>
+          <div style="height:70px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="b-4" fit="cover" placeholder="thumb"></image-slot></div>
+          <span class="cap" style="font-size:15px;text-align:right">3,318</span>
+        </div>
+      </div>
+
+      <!-- featured + exhibition two-up -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:40px;padding:34px 56px 12px 56px">
+        <div>
+          <div class="cap" style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#7c3a2d;margin-bottom:14px">Object in focus · deep zoom</div>
+          <div style="height:300px;background:#e4dcc9;border:1px solid #cdc4b1;position:relative">
+            <div style="position:absolute;bottom:14px;right:14px;z-index:2;background:#16273f;color:#efe9dd;font-size:12px;font-weight:600;padding:7px 12px;border-radius:3px">⊕ Examine detail</div>
+            <image-slot id="b-focus" fit="cover" placeholder="Bond of the Republic of Texas, $1,000, 1839"></image-slot>
+          </div>
+          <div style="display:flex;justify-content:space-between;margin-top:12px"><span style="font-size:14px;font-weight:700">Republic of Texas bond, 1839</span><span class="cap" style="font-size:12px;color:#7c3a2d">ACC. 1971.44</span></div>
+        </div>
+        <div>
+          <div class="cap" style="font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#7c3a2d;margin-bottom:14px">Now on view</div>
+          <div style="height:300px;background:#e4dcc9;border:1px solid #cdc4b1"><image-slot id="b-exh" fit="cover" placeholder="Exhibition view"></image-slot></div>
+          <h3 style="margin:14px 0 0 0;font-size:26px;font-weight:800;letter-spacing:-.01em">Engraved Trust</h3>
+          <p style="margin:6px 0 0 0;font-size:14px;color:#4a4638;line-height:1.5">The art of the security, 1850–1929. Gallery 2, through May 2027.</p>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div class="cap" style="display:flex;justify-content:space-between;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#8a8271;padding:26px 56px;margin-top:24px;border-top:2px solid #16273f">
+        <span>200 Water Street, New York</span><span>Open Tues–Sun · 10–6</span>
+      </div>
+    </div>
+  </article>
+
+  <!-- ============ OPTION 1C · BOURSE ============ -->
+  <article id="1c" style="display:flex;flex-direction:column;gap:16px">
+    <div style="display:flex;align-items:baseline;gap:14px;font-family:'Space Grotesk',sans-serif">
+      <a href="#1c" style="background:#1f4bd8;color:#fff;font-weight:800;font-size:15px;letter-spacing:.04em;padding:5px 12px;border-radius:3px;text-decoration:none">1C</a>
+      <span style="color:#e6e2d8;font-size:20px;font-weight:700;letter-spacing:.02em">Bourse</span>
+      <span style="color:#9a968c;font-size:14px">Minimal gallery · ink-blue on white, lots of air</span>
+    </div>
+
+    <div style="width:1440px;background:#fafafa;color:#12243f;font-family:'Space Grotesk',sans-serif">
+      <!-- nav -->
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:34px 72px">
+        <span style="font-weight:700;font-size:19px;letter-spacing:.14em">THE&nbsp;LEDGER</span>
+        <div style="display:flex;gap:40px;font-size:14px;color:#444">
+          <span>Collection</span><span>Exhibitions</span><span>About</span><span>Visit</span><span style="color:#1f4bd8">Search</span>
+        </div>
+      </div>
+
+      <!-- hero: airy, centered object in focus -->
+      <div style="padding:96px 72px 108px 72px;text-align:center">
+        <div class="cap" style="font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:#1f4bd8">Object in focus</div>
+        <h1 style="margin:26px auto 0 auto;font-weight:500;font-size:56px;line-height:1.08;letter-spacing:-.02em;max-width:820px">The flat documents through which capital was promised.</h1>
+
+        <!-- deep zoom viewer -->
+        <div style="margin:56px auto 0 auto;max-width:720px">
+          <div style="position:relative;height:440px;background:#eee;border:1px solid #e2e2e2">
+            <image-slot id="c-focus" fit="cover" placeholder="VOC share, Enkhuizen, 1606"></image-slot>
+            <!-- zoom chrome -->
+            <div style="position:absolute;top:16px;left:16px;display:flex;gap:8px">
+              <div style="width:34px;height:34px;background:#fff;border:1px solid #e2e2e2;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:500">+</div>
+              <div style="width:34px;height:34px;background:#fff;border:1px solid #e2e2e2;border-radius:4px;display:flex;align-items:center;justify-content:center;font-size:18px;font-weight:500">−</div>
+            </div>
+            <div class="cap" style="position:absolute;bottom:16px;right:16px;background:rgba(255,255,255,.9);border:1px solid #e2e2e2;font-size:11px;padding:6px 10px;border-radius:4px;color:#1f4bd8">240% · drag to pan</div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:16px">
+            <span style="font-size:15px;font-weight:500">Dutch East India Company share · Enkhuizen, 1606</span>
+            <span class="cap" style="font-size:12px;color:#888">ACC. 1934.02.1</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- collection rows -->
+      <div style="padding:0 72px 40px 72px">
+        <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid #12243f;padding-top:20px">
+          <span style="font-size:15px;font-weight:500">Collection</span>
+          <span class="cap" style="font-size:12px;color:#888">SIX DEPARTMENTS</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:26px 0;border-bottom:1px solid #e2e2e2"><span style="font-size:30px;font-weight:400;letter-spacing:-.01em">Stock Certificates</span><span class="cap" style="font-size:13px;color:#888">01 — 9,412</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:26px 0;border-bottom:1px solid #e2e2e2"><span style="font-size:30px;font-weight:400;letter-spacing:-.01em">Banknotes &amp; Currency</span><span class="cap" style="font-size:13px;color:#888">02 — 14,077</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:26px 0;border-bottom:1px solid #e2e2e2"><span style="font-size:30px;font-weight:400;letter-spacing:-.01em">Bonds &amp; Securities</span><span class="cap" style="font-size:13px;color:#888">03 — 7,930</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center;padding:26px 0;border-bottom:1px solid #e2e2e2"><span style="font-size:30px;font-weight:400;letter-spacing:-.01em">Ledgers &amp; Account Books</span><span class="cap" style="font-size:13px;color:#888">04 — 3,318</span></div>
+      </div>
+
+      <!-- exhibition -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center;padding:60px 72px 96px 72px">
+        <div style="height:380px;background:#eee;border:1px solid #e2e2e2"><image-slot id="c-exh" fit="cover" placeholder="Exhibition installation view"></image-slot></div>
+        <div>
+          <div class="cap" style="font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:#1f4bd8">Now on view</div>
+          <h3 style="margin:20px 0 0 0;font-weight:500;font-size:40px;letter-spacing:-.02em;line-height:1.05">Engraved Trust</h3>
+          <p style="margin:18px 0 0 0;font-size:16px;line-height:1.6;color:#555;max-width:420px">The art of the security, 1850–1929: how vignettes and guilloché manufactured confidence on paper.</p>
+          <div style="margin-top:30px;font-size:14px;font-weight:500;color:#1f4bd8;border-bottom:1px solid #1f4bd8;display:inline-block;padding-bottom:2px">View exhibition →</div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div style="display:flex;justify-content:space-between;align-items:center;padding:30px 72px;border-top:1px solid #12243f;font-size:13px;color:#555">
+        <span style="font-weight:700;letter-spacing:.14em;color:#12243f">THE&nbsp;LEDGER</span>
+        <span>200 Water Street · Open Tues–Sun 10–6</span>
+      </div>
+    </div>
+  </article>
+
+</div>
+</section>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  renderVals() { return {}; }
+}
+</script>
+</body>
+</html>

@@ -1,5 +1,5 @@
 const xlsx = require('../node_modules/xlsx');
-const path = 'C:/Users/ks2479/Documents/GitHub/oov-virtual-museum02/oov_data_new.xlsx';
+const path = 'C:/Users/ks2479/Documents/GitHub/oov-museum/oov_data_new.xlsx';
 
 const wb = xlsx.readFile(path);
 const ws = wb.Sheets['Documents'];

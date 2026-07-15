@@ -1,6 +1,6 @@
 import zipfile, re, shutil, os, pandas as pd
 
-src = r'C:\Users\ks2479\Documents\GitHub\oov-virtual-museum02\oov_data_new.xlsx'
+src = r'C:\Users\ks2479\Documents\GitHub\oov-museum\oov_data_new.xlsx'
 repair_copy = src + '.bak'
 fixed = src + '.fixed.xlsx'
 

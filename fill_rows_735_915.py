@@ -2,7 +2,7 @@
 import zipfile, re, shutil, os
 import pandas as pd
 
-base = r'C:\Users\ks2479\Documents\GitHub\oov-virtual-museum02'
+base = r'C:\Users\ks2479\Documents\GitHub\oov-museum'
 src  = os.path.join(base, 'oov_data_new.xlsx')
 repair_copy = os.path.join(base, 'oov_data_repair.xlsx')
 fixed = os.path.join(base, 'oov_data_fixed.xlsx')
