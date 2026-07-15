@@ -22,7 +22,11 @@
 body{margin:0;background:var(--navy);color:var(--fg);
   font-family:'Hanken Grotesk',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
-img{display:block;max-width:100%}
+/* casual save-deterrent: block drag-to-save and iOS long-press-save on images.
+   NOT real protection — screenshots and devtools bypass it entirely. */
+img{display:block;max-width:100%;
+  -webkit-user-drag:none;user-drag:none;
+  -webkit-touch-callout:none;user-select:none}
 .cap{font-family:'Space Mono',monospace}
 .wrap{max-width:1440px;margin:0 auto}
 .pad{padding-left:56px;padding-right:56px}
