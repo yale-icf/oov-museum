@@ -1,2 +1,2 @@
-# oov-virtual-museum02
+# oov-museum
 Origins of Value Virtual Museum
