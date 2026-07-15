@@ -1,14 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Search — Origins of Value</title>
-<!-- The old gallery and collection pages were merged into search.html. -->
-<link rel="canonical" href="search.html">
-<script>window.location.replace('search.html' + window.location.search);</script>
-<meta http-equiv="refresh" content="0;url=search.html">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search - Origins of Value Virtual Museum</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/auth.js"></script>
 </head>
 <body>
-<p>This page has moved to <a href="search.html">Search the collection</a>.</p>
+
+  <header class="site-header">
+    <h1><a href="index.html">Origins of <span>Value</span></a></h1>
+    <nav class="header-nav">
+      <div class="nav-dropdown">
+          <a href="gallery.html" class="header-nav-link nav-dropdown-toggle active">Search</a>
+          <div class="nav-dropdown-menu">
+            <a href="gallery.html" class="nav-dropdown-item active">Search</a>
+            <a href="search.html" class="nav-dropdown-item">Text Search</a>
+          </div>
+        </div>
+      <a href="map.html" class="header-nav-link">Map</a>
+      <a href="exhibits.html" class="header-nav-link">Exhibits</a>
+    </nav>
+  </header>
+
+  <div class="search-container">
+    <div class="search-box">
+      <input type="text" id="search-input" placeholder="Search titles, descriptions, keywords..." autocomplete="off">
+    </div>
+    <select class="search-mode-select" id="search-mode">
+      <option value="metadata">Title &amp; Description</option>
+      <option value="fulltext">Full Text (OCR)</option>
+    </select>
+    <span class="result-count" id="result-count"></span>
+  </div>
+
+  <script>
+    (function () {
+      var modeSelect = document.getElementById('search-mode');
+      var searchInput = document.getElementById('search-input');
+      modeSelect.addEventListener('change', function () {
+        if (modeSelect.value === 'fulltext') {
+          var q = searchInput.value.trim();
+          window.location.href = 'search.html?mode=fulltext' + (q ? '&q=' + encodeURIComponent(q) : '');
+        }
+      });
+      searchInput.addEventListener('keydown', function (e) {
+        if (e.key === 'Enter' && modeSelect.value === 'fulltext') {
+          e.preventDefault();
+          var q = searchInput.value.trim();
+          window.location.href = 'search.html?mode=fulltext' + (q ? '&q=' + encodeURIComponent(q) : '');
+        }
+      });
+    })();
+  </script>
+
+  <div class="main-content">
+    <aside class="sidebar" id="sidebar">
+      <div class="filter-section" data-filter="period">
+        <h3>Period</h3>
+        <div class="filter-options" id="filter-period"></div>
+      </div>
+      <div class="filter-section" data-filter="issuingCountry">
+        <h3>Issuing Country</h3>
+        <div class="filter-options" id="filter-issuingCountry"></div>
+      </div>
+      <div class="filter-section" data-filter="type">
+        <h3>Document Type</h3>
+        <div class="filter-options" id="filter-type"></div>
+      </div>
+      <div class="filter-section" data-filter="language">
+        <h3>Language</h3>
+        <div class="filter-options" id="filter-language"></div>
+      </div>
+      <button class="clear-filters" id="clear-filters">Clear All Filters</button>
+    </aside>
+
+    <main class="gallery-container">
+      <div class="active-filters" id="active-filters"></div>
+      <div class="gallery-grid" id="gallery-grid"></div>
+      <div class="pagination" id="pagination"></div>
+      <div class="empty-state" id="empty-state" style="display:none">
+        <h2>No documents found</h2>
+        <p>Try adjusting your search or filters.</p>
+      </div>
+      <div class="loading" id="loading">
+        <div class="spinner"></div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/app.js"></script>
+
+  <footer class="site-footer">
+    <p>&copy; Yale School of Management &mdash; International Center for Finance</p>
+  </footer>
 </body>
 </html>
