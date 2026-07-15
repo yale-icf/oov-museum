@@ -2,11 +2,11 @@
   "type": [
     {
       "value": "Bond",
-      "count": 275
+      "count": 250
     },
     {
       "value": "Stock Certificate",
-      "count": 115
+      "count": 113
     },
     {
       "value": "Certificate",
@@ -17,16 +17,12 @@
       "count": 27
     },
     {
-      "value": "Coupon",
-      "count": 14
-    },
-    {
       "value": "Draft",
       "count": 9
     },
     {
       "value": "Pamphlet",
-      "count": 8
+      "count": 7
     },
     {
       "value": "Tontine",
@@ -39,6 +35,10 @@
     {
       "value": "Indenture",
       "count": 6
+    },
+    {
+      "value": "Coupon",
+      "count": 5
     },
     {
       "value": "Prospectus",
@@ -84,42 +84,38 @@
     },
     {
       "value": "Netherlands",
-      "count": 73
+      "count": 72
     },
     {
       "value": "Russia",
-      "count": 70
+      "count": 61
     },
     {
       "value": "France",
-      "count": 50
+      "count": 49
     },
     {
       "value": "United Kingdom",
-      "count": 45
+      "count": 42
     },
     {
       "value": "China",
-      "count": 33
+      "count": 28
     },
     {
       "value": "Germany",
-      "count": 22
-    },
-    {
-      "value": "Bulgaria",
-      "count": 18
+      "count": 20
     },
     {
       "value": "Belgium",
-      "count": 17
+      "count": 16
+    },
+    {
+      "value": "Bulgaria",
+      "count": 16
     },
     {
       "value": "Egypt",
-      "count": 14
-    },
-    {
-      "value": "Austria",
       "count": 11
     },
     {
@@ -131,8 +127,8 @@
       "count": 11
     },
     {
-      "value": "Great Britain",
-      "count": 9
+      "value": "Austria",
+      "count": 10
     },
     {
       "value": "Mexico",
@@ -145,6 +141,10 @@
     {
       "value": "Turkey",
       "count": 9
+    },
+    {
+      "value": "Great Britain",
+      "count": 8
     },
     {
       "value": "Hungary",
@@ -175,19 +175,11 @@
       "count": 6
     },
     {
-      "value": "Serbia",
-      "count": 6
-    },
-    {
-      "value": "Argentina",
-      "count": 5
-    },
-    {
       "value": "Bolivia",
       "count": 5
     },
     {
-      "value": "Indonesia",
+      "value": "Serbia",
       "count": 5
     },
     {
@@ -199,15 +191,19 @@
       "count": 5
     },
     {
+      "value": "Argentina",
+      "count": 4
+    },
+    {
       "value": "Brazil",
       "count": 4
     },
     {
-      "value": "Canada",
+      "value": "Colombia",
       "count": 4
     },
     {
-      "value": "Colombia",
+      "value": "Indonesia",
       "count": 4
     },
     {
@@ -239,10 +235,6 @@
       "count": 2
     },
     {
-      "value": "Ethiopia",
-      "count": 2
-    },
-    {
       "value": "Greece",
       "count": 2
     },
@@ -271,6 +263,10 @@
       "count": 1
     },
     {
+      "value": "Canada",
+      "count": 1
+    },
+    {
       "value": "Confederate States of America",
       "count": 1
     },
@@ -288,6 +284,10 @@
     },
     {
       "value": "Estonia",
+      "count": 1
+    },
+    {
+      "value": "Ethiopia",
       "count": 1
     },
     {
@@ -346,42 +346,38 @@
     },
     {
       "value": "Netherlands",
-      "count": 72
-    },
-    {
-      "value": "Russia",
-      "count": 53
+      "count": 71
     },
     {
       "value": "France",
-      "count": 47
+      "count": 45
+    },
+    {
+      "value": "Russia",
+      "count": 45
     },
     {
       "value": "United Kingdom",
-      "count": 43
+      "count": 40
     },
     {
       "value": "China",
-      "count": 23
-    },
-    {
-      "value": "Germany",
       "count": 20
     },
     {
-      "value": "Bulgaria",
-      "count": 17
+      "value": "Germany",
+      "count": 18
     },
     {
       "value": "Belgium",
-      "count": 16
+      "count": 15
+    },
+    {
+      "value": "Bulgaria",
+      "count": 15
     },
     {
       "value": "Austria",
-      "count": 13
-    },
-    {
-      "value": "Egypt",
       "count": 12
     },
     {
@@ -389,12 +385,12 @@
       "count": 10
     },
     {
-      "value": "Spain",
+      "value": "Egypt",
       "count": 9
     },
     {
-      "value": "Great Britain",
-      "count": 8
+      "value": "Spain",
+      "count": 9
     },
     {
       "value": "Italy",
@@ -405,15 +401,15 @@
       "count": 8
     },
     {
+      "value": "Great Britain",
+      "count": 7
+    },
+    {
       "value": "Poland",
       "count": 7
     },
     {
       "value": "Hungary",
-      "count": 6
-    },
-    {
-      "value": "Serbia",
       "count": 6
     },
     {
@@ -433,8 +429,8 @@
       "count": 5
     },
     {
-      "value": "Canada",
-      "count": 4
+      "value": "Serbia",
+      "count": 5
     },
     {
       "value": "Turkey",
@@ -446,7 +442,7 @@
     },
     {
       "value": "Argentina",
-      "count": 3
+      "count": 2
     },
     {
       "value": "Bolivia",
@@ -467,6 +463,10 @@
     {
       "value": "Sweden",
       "count": 2
+    },
+    {
+      "value": "Canada",
+      "count": 1
     },
     {
       "value": "Confederate States of America",
@@ -504,27 +504,27 @@
     },
     {
       "value": "FRF",
-      "count": 49
+      "count": 46
     },
     {
       "value": "GBP",
-      "count": 45
-    },
-    {
-      "value": "RUB",
-      "count": 39
+      "count": 36
     },
     {
       "value": "NLG",
-      "count": 33
+      "count": 32
+    },
+    {
+      "value": "RUB",
+      "count": 32
     },
     {
       "value": "British pound sterling",
-      "count": 26
+      "count": 23
     },
     {
       "value": "French franc",
-      "count": 13
+      "count": 11
     },
     {
       "value": "United States dollar",
@@ -536,11 +536,11 @@
     },
     {
       "value": "CNY",
-      "count": 8
+      "count": 7
     },
     {
       "value": "BEF",
-      "count": 7
+      "count": 6
     },
     {
       "value": "DEM",
@@ -579,10 +579,6 @@
       "count": 4
     },
     {
-      "value": "Russian ruble; French franc; British pound sterling; Dutch guilder",
-      "count": 4
-    },
-    {
       "value": "Bolivian peso",
       "count": 3
     },
@@ -604,6 +600,10 @@
     },
     {
       "value": "Russian ruble (gold); French franc; German mark; British pound sterling; Dutch guilder",
+      "count": 3
+    },
+    {
+      "value": "Russian ruble; French franc; British pound sterling; Dutch guilder",
       "count": 3
     },
     {
@@ -639,10 +639,6 @@
       "count": 2
     },
     {
-      "value": "French franc; Serbian dinar; German mark",
-      "count": 2
-    },
-    {
       "value": "French livres",
       "count": 2
     },
@@ -651,19 +647,11 @@
       "count": 2
     },
     {
-      "value": "Gulden (Austrian)",
-      "count": 2
-    },
-    {
       "value": "PEN",
       "count": 2
     },
     {
       "value": "PLN",
-      "count": 2
-    },
-    {
-      "value": "Pesos",
       "count": 2
     },
     {
@@ -831,6 +819,10 @@
       "count": 1
     },
     {
+      "value": "French franc; Serbian dinar; German mark",
+      "count": 1
+    },
+    {
       "value": "French livre",
       "count": 1
     },
@@ -860,6 +852,10 @@
     },
     {
       "value": "Gulden",
+      "count": 1
+    },
+    {
+      "value": "Gulden (Austrian)",
       "count": 1
     },
     {
@@ -904,6 +900,10 @@
     },
     {
       "value": "Peruvian sol",
+      "count": 1
+    },
+    {
+      "value": "Pesos",
       "count": 1
     },
     {
@@ -1018,27 +1018,27 @@
   "language": [
     {
       "value": "English",
-      "count": 213
+      "count": 195
     },
     {
       "value": "French",
-      "count": 157
+      "count": 143
     },
     {
       "value": "Dutch",
-      "count": 80
-    },
-    {
-      "value": "Russian",
-      "count": 57
+      "count": 79
     },
     {
       "value": "German",
-      "count": 56
+      "count": 49
+    },
+    {
+      "value": "Russian",
+      "count": 49
     },
     {
       "value": "Spanish",
-      "count": 30
+      "count": 28
     },
     {
       "value": "Chinese",
@@ -1046,7 +1046,7 @@
     },
     {
       "value": "Bulgarian",
-      "count": 16
+      "count": 15
     },
     {
       "value": "Japanese",
@@ -1054,7 +1054,7 @@
     },
     {
       "value": "Serbian",
-      "count": 10
+      "count": 9
     },
     {
       "value": "Italian",
@@ -1132,15 +1132,15 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 230
+      "count": 216
     },
     {
       "value": "19th Century",
-      "count": 194
+      "count": 177
     },
     {
       "value": "18th Century",
-      "count": 93
+      "count": 92
     },
     {
       "value": "17th Century",
