@@ -16881,7 +16881,7 @@
     "id": "goetzmann0584",
     "title": "Bulgarian 4½% Gold Loan of 1907 Bond",
     "description": "A bearer bond of the Kingdom of Bulgaria's 4½% Gold Loan of 1907 (ЦАРСТВО БЪЛГАРИЯ / ROYAUME DE BULGARIE — БЪЛГАРСКИ 4½% ДЪРЖАВЕНЪ ЗАЕМЪ ВЪ ЗЛАТО ОТЪ 1907 ГОД. / EMPRUNT BULGARE 4½% OR 1907), printed in four parallel languages: Bulgarian, French, German, and English. The obligation carries interest at four and a half per cent, paid in two equal half-yearly coupons reckoned in gold and quoted across European money centres (11.25 gold leva = 11.25 francs = 4.22 roubles = 9.11½ marks = 5.40 Dutch florins = 10.71 Austrian crowns = £0.8.11). Principal is repayable at par within sixty years by half-yearly drawings held at Sofia, with redemption schedule and conditions printed in full. The note declares the French text alone authoritative.",
-    "file": "goetzmann0586.jpg",
+    "file": "goetzmann0584.jpg",
     "type": [
       "Bond"
     ],
@@ -16896,12 +16896,12 @@
     "owner": "",
     "pages": [
       {
-        "id": "goetzmann0586",
-        "description": "Face of the bond. The title block names ЦАРСТВО БЪЛГАРИЯ / ROYAUME DE BULGARIE and the 4½% Or 1907 obligation, beside a TALON entitling the bearer to draw a fresh coupon sheet from the Direction de la Dette Publique. A strip of attached half-yearly coupons follows, each payable in Paris at francs 11.25 on 1 February and 1 August, running into the early 1940s. Page 3 of 3."
-      },
-      {
         "id": "goetzmann0584",
         "description": "Reverse of the bond. Quadrilingual conditions of the loan (УСЛОВИЯ НА ЗАЕМА / CONDITIONS DE L'EMPRUNT / BEDINGUNGEN DER ANLEIHE / CONDITIONS OF THE LOAN) set the 4½% rate, the coupon currency equivalents, the cities of payment, and redemption at par over sixty years by drawing. Below runs the amortization table (ТАБЛИЦА ЗА ПОГАШЕНИЕ / TABLEAU D'AMORTISSEMENT / TILGUNGS-PLAN / TABLE OF AMORTISATION), tabulating dates of payment, obligations to be amortized, amortization, and interest from 1909 onward. Page 1 of 3."
+      },
+      {
+        "id": "goetzmann0586",
+        "description": "Face of the bond. The title block names ЦАРСТВО БЪЛГАРИЯ / ROYAUME DE BULGARIE and the 4½% Or 1907 obligation, beside a TALON entitling the bearer to draw a fresh coupon sheet from the Direction de la Dette Publique. A strip of attached half-yearly coupons follows, each payable in Paris at francs 11.25 on 1 February and 1 August, running into the early 1940s. Page 3 of 3."
       },
       {
         "id": "goetzmann0585",
