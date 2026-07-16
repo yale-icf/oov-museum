@@ -194,3 +194,4 @@ node_modules/
 # Allow package manifests (overrides *.json rule above)
 !package.json
 !package-lock.json
+images/*.docx
