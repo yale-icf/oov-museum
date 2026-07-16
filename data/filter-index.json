@@ -2,7 +2,7 @@
   "type": [
     {
       "value": "Bond",
-      "count": 250
+      "count": 252
     },
     {
       "value": "Stock Certificate",
@@ -104,7 +104,7 @@
     },
     {
       "value": "Germany",
-      "count": 20
+      "count": 22
     },
     {
       "value": "Belgium",
@@ -366,7 +366,7 @@
     },
     {
       "value": "Germany",
-      "count": 18
+      "count": 20
     },
     {
       "value": "Belgium",
@@ -619,11 +619,11 @@
       "count": 2
     },
     {
-      "value": "CUP",
+      "value": "Connecticut pound",
       "count": 2
     },
     {
-      "value": "Connecticut pound",
+      "value": "CUP",
       "count": 2
     },
     {
@@ -635,15 +635,19 @@
       "count": 2
     },
     {
-      "value": "FRF; GBP; TRY",
-      "count": 2
-    },
-    {
       "value": "French livres",
       "count": 2
     },
     {
+      "value": "FRF; GBP; TRY",
+      "count": 2
+    },
+    {
       "value": "Guilder",
+      "count": 2
+    },
+    {
+      "value": "multiple",
       "count": 2
     },
     {
@@ -656,6 +660,10 @@
     },
     {
       "value": "Pounds Sterling",
+      "count": 2
+    },
+    {
+      "value": "Reichsmark",
       "count": 2
     },
     {
@@ -672,10 +680,6 @@
     },
     {
       "value": "USD; PLN",
-      "count": 2
-    },
-    {
-      "value": "multiple",
       "count": 2
     },
     {
@@ -707,15 +711,15 @@
       "count": 1
     },
     {
-      "value": "BGN; FRF",
-      "count": 1
-    },
-    {
       "value": "Belgian Francs",
       "count": 1
     },
     {
       "value": "Benzol (commodity-linked)",
+      "count": 1
+    },
+    {
+      "value": "BGN; FRF",
       "count": 1
     },
     {
@@ -751,11 +755,11 @@
       "count": 1
     },
     {
-      "value": "CLP",
+      "value": "Chinese copper cash",
       "count": 1
     },
     {
-      "value": "Chinese copper cash",
+      "value": "CLP",
       "count": 1
     },
     {
@@ -771,15 +775,15 @@
       "count": 1
     },
     {
-      "value": "EUR",
-      "count": 1
-    },
-    {
       "value": "Egyptian pound",
       "count": 1
     },
     {
       "value": "Estonian kroon",
+      "count": 1
+    },
+    {
+      "value": "EUR",
       "count": 1
     },
     {
@@ -827,15 +831,15 @@
       "count": 1
     },
     {
-      "value": "GRD",
-      "count": 1
-    },
-    {
       "value": "German mark (Reichsmark)",
       "count": 1
     },
     {
       "value": "German mark; Russian ruble; French franc; British pound sterling",
+      "count": 1
+    },
+    {
+      "value": "GRD",
       "count": 1
     },
     {
@@ -875,10 +879,6 @@
       "count": 1
     },
     {
-      "value": "MXN",
-      "count": 1
-    },
-    {
       "value": "Mark Banco",
       "count": 1
     },
@@ -891,11 +891,11 @@
       "count": 1
     },
     {
-      "value": "PTE",
+      "value": "MXN",
       "count": 1
     },
     {
-      "value": "PTE; FRF; GBP",
+      "value": "no par value",
       "count": 1
     },
     {
@@ -915,6 +915,22 @@
       "count": 1
     },
     {
+      "value": "PTE",
+      "count": 1
+    },
+    {
+      "value": "PTE; FRF; GBP",
+      "count": 1
+    },
+    {
+      "value": "Riksdaler",
+      "count": 1
+    },
+    {
+      "value": "Romanian leu",
+      "count": 1
+    },
+    {
       "value": "RON",
       "count": 1
     },
@@ -924,14 +940,6 @@
     },
     {
       "value": "RUB; FRF",
-      "count": 1
-    },
-    {
-      "value": "Riksdaler",
-      "count": 1
-    },
-    {
-      "value": "Romanian leu",
       "count": 1
     },
     {
@@ -947,11 +955,11 @@
       "count": 1
     },
     {
-      "value": "Russian rubles / British pounds sterling",
+      "value": "Russian ruble|British pound sterling|French franc",
       "count": 1
     },
     {
-      "value": "Russian ruble|British pound sterling|French franc",
+      "value": "Russian rubles / British pounds sterling",
       "count": 1
     },
     {
@@ -983,18 +991,6 @@
       "count": 1
     },
     {
-      "value": "US dollar",
-      "count": 1
-    },
-    {
-      "value": "USD / French livres tournois",
-      "count": 1
-    },
-    {
-      "value": "UYU",
-      "count": 1
-    },
-    {
       "value": "United States dollar; French franc",
       "count": 1
     },
@@ -1007,11 +1003,19 @@
       "count": 1
     },
     {
-      "value": "VEN",
+      "value": "US dollar",
       "count": 1
     },
     {
-      "value": "no par value",
+      "value": "USD / French livres tournois",
+      "count": 1
+    },
+    {
+      "value": "UYU",
+      "count": 1
+    },
+    {
+      "value": "VEN",
       "count": 1
     }
   ],
@@ -1030,7 +1034,7 @@
     },
     {
       "value": "German",
-      "count": 49
+      "count": 51
     },
     {
       "value": "Russian",
@@ -1132,7 +1136,7 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 216
+      "count": 218
     },
     {
       "value": "19th Century",
