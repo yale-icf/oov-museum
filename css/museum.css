@@ -223,7 +223,8 @@ h1.head{margin:26px 0 0;font-family:'Spectral',serif;font-weight:400;
 .browse-hl a:hover .ph img{transform:scale(1.04)}
 .browse-hl .t{margin-top:12px;font-size:15px;font-weight:700;line-height:1.3;color:var(--ink)}
 .browse-hl a:hover .t{color:var(--oxblood)}
-.browse-hl .s{margin-top:4px;font-size:13px;color:var(--muted-cream)}
+.browse-hl .d{margin-top:6px;font-size:13.5px;line-height:1.5;color:var(--muted-cream)}
+.browse-hl .s{margin-top:6px;font-size:13px;color:var(--muted-cream)}
 
 /* country cards (image + dark overlay) */
 .browse-country{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
@@ -420,7 +421,8 @@ h1.extitle{margin:22px 0 0;font-family:'Spectral',serif;font-weight:400;
 .works .grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
 .work .ph{height:300px;background:var(--navy-2);border:1px solid var(--line);overflow:hidden}
 .work .t{margin-top:12px;font-size:15px;font-weight:700;line-height:1.3}
-.work .s{font-size:13px;color:var(--muted);margin-top:3px}
+.work .d{margin-top:6px;font-size:13.5px;line-height:1.5;color:var(--muted)}
+.work .s{font-size:13px;color:var(--muted);margin-top:6px}
 .pull{padding:24px 56px 60px;border-top:1px solid var(--line);margin:0 56px}
 .pull p{margin:44px 0 0;font-family:'Spectral',serif;font-weight:400;font-size:34px;
   line-height:1.22;letter-spacing:-.01em;max-width:1000px}
@@ -674,6 +676,7 @@ body.theme-light .exband .art{background:var(--cream-2);border-left-color:var(--
 body.theme-light .work .ph{background:var(--cream-2);border-color:var(--paper-line)}
 body.theme-light .work .t{color:var(--ink)}
 body.theme-light .work:hover .t{color:var(--oxblood)}
+body.theme-light .work .d{color:var(--muted-cream)}
 body.theme-light .work .s{color:var(--muted-cream)}
 /* exhibitions index */
 body.theme-light .exidx-head .eyebrow{color:var(--oxblood)}
