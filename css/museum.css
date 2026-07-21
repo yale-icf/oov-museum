@@ -447,6 +447,10 @@ h1.extitle{margin:22px 0 0;font-family:'Spectral',serif;font-weight:400;
 .abvisit .info .h{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--oxblood);margin-bottom:16px}
 .abvisit .info .body{font-size:16px;line-height:1.85;color:#3a3830}
 .abvisit .info .body a{color:var(--oxblood);font-weight:700}
+.abnote{padding:4px 56px 44px}
+.abnote .h{border-top:2px solid var(--ink);padding-top:20px;font-size:11px;letter-spacing:.16em;
+  text-transform:uppercase;color:var(--oxblood);margin-bottom:14px}
+.abnote p{margin:0;max-width:840px;font-size:16px;line-height:1.75;color:#3a3830}
 
 /* contact form */
 .contact-form{display:flex;flex-direction:column;gap:12px;margin-top:20px;max-width:440px}
@@ -716,7 +720,7 @@ body.theme-light .pull .attr{color:var(--muted-cream)}
   h1.extitle{font-size:52px}
   .abhero h1{font-size:40px}
   .cat-head h1{font-size:38px}
-  .topbar-inner,.nav,.stat,.cat-head,.cat-bar,.cat-body,.works,.pull,.exhero,.exbig,.ex-hero-content,.ex-intro,.pieces,.abhero,.abbody,.abvisit,.exidx-head,.exlist,.hl-grid,.rec-crumb,.rec-body,.rec-related,.foot,.cat-foot{padding-left:32px;padding-right:32px}
+  .topbar-inner,.nav,.stat,.cat-head,.cat-bar,.cat-body,.works,.pull,.exhero,.exbig,.ex-hero-content,.ex-intro,.pieces,.abhero,.abbody,.abnote,.abvisit,.exidx-head,.exlist,.hl-grid,.rec-crumb,.rec-body,.rec-related,.foot,.cat-foot{padding-left:32px;padding-right:32px}
   .excard{grid-template-columns:1fr;gap:20px}
   .piece{grid-template-columns:1fr;gap:22px}
   .piece.reverse .piece-img{order:0}
