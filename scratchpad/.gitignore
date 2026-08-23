@@ -1,0 +1,6 @@
+# Crops and renders made while checking a scan against the catalogue are throwaway --
+# they are reproducible from the masters in one sharp() call. Scripts here are tracked.
+*.jpg
+*.jpeg
+*.png
+*.webp
