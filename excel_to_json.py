@@ -14,6 +14,16 @@ JSON_PATH = "data/museum-data.json"
 FILTER_PATH = "data/filter-index.json"
 
 
+# Spelling variants that would otherwise split out as their own facet value alongside the
+# form the rest of the collection uses. Not a full currency vocabulary -- codes and names
+# still coexist (USD alongside "United States dollar"), which is a separate cleanup.
+CURRENCY_ALIASES = {
+    'Russian rubles': 'Russian ruble',
+    'British pounds sterling': 'British pound sterling',
+    'French livres tournois': 'Livres Tournois',
+}
+
+
 def parse_list(val, sep=None):
     """Split a cell value into a list, stripping whitespace and blanks."""
     if not val or (isinstance(val, float)):
@@ -73,8 +83,15 @@ def update_item(item, row):
     item['issuingCountry'] = parse_list(row.get('issuingCountry', ''))
     item['subjectCountry'] = parse_list(row.get('subjectCountry', ''))
 
-    # currency: separate field for filter
-    item['currency'] = parse_list(row.get('currency', ''), sep=r',\s*')
+    # currency: separate field for filter. Multi-currency cells are written inconsistently
+    # -- "USD; FRF", "British pound sterling|French franc", "Russian rubles / British pounds
+    # sterling" -- so split on all of them. Splitting only on commas left the whole cell as a
+    # single facet value, and the filter offered "Russian ruble; German mark; French franc;
+    # British pound sterling; Dutch guilder" as though it were one currency.
+    item['currency'] = [
+        CURRENCY_ALIASES.get(c, c)
+        for c in parse_list(row.get('currency', ''), sep=r'\s*[|;]\s*|\s+/\s+|,\s*')
+    ]
 
     # language: separate field for filter
     item['language'] = parse_list(row.get('language', ''), sep=r',\s*')

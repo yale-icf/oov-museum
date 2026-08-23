@@ -1994,7 +1994,8 @@
       "Netherlands"
     ],
     "currency": [
-      "British pound sterling|Dutch guilder"
+      "British pound sterling",
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -2155,7 +2156,9 @@
       "Russia"
     ],
     "currency": [
-      "Russian ruble|British pound sterling|French franc"
+      "Russian ruble",
+      "British pound sterling",
+      "French franc"
     ],
     "language": [
       "Russian",
@@ -2505,7 +2508,10 @@
       "Hungary"
     ],
     "currency": [
-      "Austro-Hungarian krone|German mark|French franc|British pound sterling"
+      "Austro-Hungarian krone",
+      "German mark",
+      "French franc",
+      "British pound sterling"
     ],
     "language": [
       "Hungarian",
@@ -2542,7 +2548,8 @@
       "Hungary"
     ],
     "currency": [
-      "Austro-Hungarian krone|French franc"
+      "Austro-Hungarian krone",
+      "French franc"
     ],
     "language": [
       "Hungarian",
@@ -2579,7 +2586,8 @@
       "Argentina"
     ],
     "currency": [
-      "British pound sterling|French franc"
+      "British pound sterling",
+      "French franc"
     ],
     "language": [
       "English",
@@ -2653,7 +2661,9 @@
       "Portugal"
     ],
     "currency": [
-      "Portuguese real|French franc|British pound sterling"
+      "Portuguese real",
+      "French franc",
+      "British pound sterling"
     ],
     "language": [
       "Portuguese",
@@ -2691,7 +2701,8 @@
       "Bulgaria"
     ],
     "currency": [
-      "Bulgarian lev|French franc"
+      "Bulgarian lev",
+      "French franc"
     ],
     "language": [
       "Bulgarian",
@@ -2802,7 +2813,10 @@
       "Cuba"
     ],
     "currency": [
-      "United States dollar|British pound sterling|German mark|French franc"
+      "United States dollar",
+      "British pound sterling",
+      "German mark",
+      "French franc"
     ],
     "language": [
       "English"
@@ -2875,7 +2889,8 @@
       "Egypt"
     ],
     "currency": [
-      "British pound sterling|French franc"
+      "British pound sterling",
+      "French franc"
     ],
     "language": [
       "English",
@@ -3062,7 +3077,8 @@
       "Serbia"
     ],
     "currency": [
-      "French franc; Serbian dinar"
+      "French franc",
+      "Serbian dinar"
     ],
     "language": [
       "French",
@@ -3159,7 +3175,8 @@
       "Greece"
     ],
     "currency": [
-      "Greek drachma; French franc"
+      "Greek drachma",
+      "French franc"
     ],
     "language": [
       "Greek",
@@ -3397,7 +3414,8 @@
       "Bulgaria"
     ],
     "currency": [
-      "French franc; Bulgarian lev"
+      "French franc",
+      "Bulgarian lev"
     ],
     "language": [
       "French",
@@ -3445,7 +3463,8 @@
       "Bulgaria"
     ],
     "currency": [
-      "French franc; Bulgarian lev"
+      "French franc",
+      "Bulgarian lev"
     ],
     "language": [
       "French",
@@ -3491,7 +3510,11 @@
       "Russia"
     ],
     "currency": [
-      "Russian ruble; German mark; French franc; British pound sterling; Dutch guilder"
+      "Russian ruble",
+      "German mark",
+      "French franc",
+      "British pound sterling",
+      "Dutch guilder"
     ],
     "language": [
       "Russian"
@@ -3545,7 +3568,10 @@
       "Russia"
     ],
     "currency": [
-      "German mark; Russian ruble; French franc; British pound sterling"
+      "German mark",
+      "Russian ruble",
+      "French franc",
+      "British pound sterling"
     ],
     "language": [
       "Russian"
@@ -3592,7 +3618,11 @@
       "Russia"
     ],
     "currency": [
-      "Russian ruble; French franc; German mark; Dutch guilder; British pound sterling"
+      "Russian ruble",
+      "French franc",
+      "German mark",
+      "Dutch guilder",
+      "British pound sterling"
     ],
     "language": [
       "Russian"
@@ -3639,7 +3669,11 @@
       "Russia"
     ],
     "currency": [
-      "Russian ruble; French franc; British pound sterling; German mark; Dutch guilder"
+      "Russian ruble",
+      "French franc",
+      "British pound sterling",
+      "German mark",
+      "Dutch guilder"
     ],
     "language": [
       "Russian",
@@ -3688,7 +3722,10 @@
       "Russia"
     ],
     "currency": [
-      "Russian ruble; French franc; British pound sterling; Dutch guilder"
+      "Russian ruble",
+      "French franc",
+      "British pound sterling",
+      "Dutch guilder"
     ],
     "language": [
       "Russian"
@@ -3735,7 +3772,11 @@
       "Russia"
     ],
     "currency": [
-      "Russian ruble (gold); French franc; German mark; British pound sterling; Dutch guilder"
+      "Russian ruble (gold)",
+      "French franc",
+      "German mark",
+      "British pound sterling",
+      "Dutch guilder"
     ],
     "language": [
       "Russian"
@@ -3879,7 +3920,8 @@
       "Peru"
     ],
     "currency": [
-      "British pound sterling; Peruvian sol"
+      "British pound sterling",
+      "Peruvian sol"
     ],
     "language": [
       "English"
@@ -3938,7 +3980,8 @@
       "United Kingdom"
     ],
     "currency": [
-      "United States dollar; French franc"
+      "United States dollar",
+      "French franc"
     ],
     "language": [
       "French",
@@ -3996,7 +4039,8 @@
       "Serbia"
     ],
     "currency": [
-      "Serbian dinar; French franc"
+      "Serbian dinar",
+      "French franc"
     ],
     "language": [
       "Serbian",
@@ -4057,7 +4101,9 @@
       "Serbia"
     ],
     "currency": [
-      "French franc; Serbian dinar; German mark"
+      "French franc",
+      "Serbian dinar",
+      "German mark"
     ],
     "language": [
       "French",
@@ -4185,7 +4231,8 @@
       "France"
     ],
     "currency": [
-      "French franc; British pound sterling"
+      "French franc",
+      "British pound sterling"
     ],
     "language": [
       "French",
@@ -4399,7 +4446,8 @@
       "Mexico"
     ],
     "currency": [
-      "British pound sterling; Mexican peso"
+      "British pound sterling",
+      "Mexican peso"
     ],
     "language": [
       "Spanish"
@@ -4449,7 +4497,12 @@
       "Mexico"
     ],
     "currency": [
-      "Mexican peso; French franc; British pound sterling; German mark; US dollar; Dutch guilder"
+      "Mexican peso",
+      "French franc",
+      "British pound sterling",
+      "German mark",
+      "US dollar",
+      "Dutch guilder"
     ],
     "language": [
       "Spanish"
@@ -4496,7 +4549,8 @@
       "France"
     ],
     "currency": [
-      "Turkish lira (livre turque); French franc"
+      "Turkish lira (livre turque)",
+      "French franc"
     ],
     "language": [
       "French"
@@ -4546,7 +4600,8 @@
       "France"
     ],
     "currency": [
-      "Turkish franc; French franc"
+      "Turkish franc",
+      "French franc"
     ],
     "language": [
       "French",
@@ -4598,7 +4653,9 @@
       "Netherlands"
     ],
     "currency": [
-      "Turkish lira; British pound sterling; French franc"
+      "Turkish lira",
+      "British pound sterling",
+      "French franc"
     ],
     "language": [
       "French"
@@ -4697,7 +4754,9 @@
       "Poland"
     ],
     "currency": [
-      "French franc; Polish zloty; Swiss franc"
+      "French franc",
+      "Polish zloty",
+      "Swiss franc"
     ],
     "language": [
       "French",
@@ -4744,7 +4803,8 @@
       "Poland"
     ],
     "currency": [
-      "USD; PLN"
+      "USD",
+      "PLN"
     ],
     "language": [
       "Polish"
@@ -4833,7 +4893,9 @@
       "Portugal"
     ],
     "currency": [
-      "PTE; FRF; GBP"
+      "PTE",
+      "FRF",
+      "GBP"
     ],
     "language": [
       "Portuguese"
@@ -5110,7 +5172,8 @@
       "Bulgaria"
     ],
     "currency": [
-      "BGN; FRF"
+      "BGN",
+      "FRF"
     ],
     "language": [
       "Bulgarian",
@@ -13726,7 +13789,11 @@
       "Russia"
     ],
     "currency": [
-      "Russian ruble (gold); French franc; German mark; British pound sterling; Dutch guilder"
+      "Russian ruble (gold)",
+      "French franc",
+      "German mark",
+      "British pound sterling",
+      "Dutch guilder"
     ],
     "language": [
       "Russian",
@@ -16055,7 +16122,8 @@
       "China"
     ],
     "currency": [
-      "British pound sterling|Belgian franc"
+      "British pound sterling",
+      "Belgian franc"
     ],
     "language": [
       "French",
@@ -16595,7 +16663,8 @@
       "United Kingdom"
     ],
     "currency": [
-      "British pound sterling|French franc"
+      "British pound sterling",
+      "French franc"
     ],
     "language": [
       "English",
@@ -16714,7 +16783,11 @@
       "China"
     ],
     "currency": [
-      "British pound sterling|French franc|German mark|Russian ruble|Japanese yen"
+      "British pound sterling",
+      "French franc",
+      "German mark",
+      "Russian ruble",
+      "Japanese yen"
     ],
     "language": [
       "English",
@@ -17052,7 +17125,8 @@
       "Cuba"
     ],
     "currency": [
-      "United States dollar|French franc"
+      "United States dollar",
+      "French franc"
     ],
     "language": [
       "Spanish",
@@ -18262,7 +18336,8 @@
       "Romania"
     ],
     "currency": [
-      "USD; FRF"
+      "USD",
+      "FRF"
     ],
     "language": [
       "French",
@@ -18318,7 +18393,8 @@
       "Romania"
     ],
     "currency": [
-      "USD; FRF"
+      "USD",
+      "FRF"
     ],
     "language": [
       "French",
@@ -18365,7 +18441,9 @@
       "Turkey"
     ],
     "currency": [
-      "FRF; GBP; TRY"
+      "FRF",
+      "GBP",
+      "TRY"
     ],
     "language": [
       "French",
@@ -18425,7 +18503,9 @@
       "Turkey"
     ],
     "currency": [
-      "FRF; GBP; TRY"
+      "FRF",
+      "GBP",
+      "TRY"
     ],
     "language": [
       "French",
@@ -19504,7 +19584,8 @@
       "Egypt"
     ],
     "currency": [
-      "Francs; Pounds Sterling"
+      "Francs",
+      "Pounds Sterling"
     ],
     "language": [
       "French",
@@ -20864,7 +20945,8 @@
       "Russia"
     ],
     "currency": [
-      "Russian rubles / British pounds sterling"
+      "Russian ruble",
+      "British pound sterling"
     ],
     "language": [
       "Russian"
@@ -20961,7 +21043,8 @@
       "United States"
     ],
     "currency": [
-      "USD / French livres tournois"
+      "USD",
+      "Livres Tournois"
     ],
     "language": [
       "English"
