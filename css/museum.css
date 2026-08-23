@@ -543,6 +543,13 @@ h1.extitle{margin:22px 0 0;font-family:'Spectral',serif;font-weight:400;
 .rec-desc{margin:26px 0 0;font-size:17px;line-height:1.7;color:#3a3830}
 .rec-desc p{margin:0 0 18px}
 .rec-desc p:last-child{margin-bottom:0}
+/* the leaf currently on screen, captioned beneath the record's main entry */
+.rec-pagenote{margin:26px 0 0;border-left:2px solid var(--paper-line);padding:2px 0 2px 20px}
+.rec-pagenote .lbl{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted-cream);margin-bottom:8px}
+.rec-pagenote-body{font-size:15px;line-height:1.65;color:var(--muted-cream)}
+.rec-pagenote-body p{margin:0 0 14px}
+.rec-pagenote-body p:last-child{margin-bottom:0}
+.rec-pagenote-body strong{color:#3a3830}
 .rec-prov{margin-top:28px;border-top:1px solid var(--paper-line);padding-top:22px}
 .rec-prov .lbl{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--oxblood)}
 .rec-prov .row{display:grid;grid-template-columns:74px 1fr;gap:20px;padding:12px 0;border-bottom:1px solid var(--paper-line);font-size:14.5px}
