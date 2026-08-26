@@ -3,6 +3,11 @@ excel_to_json.py
 Regenerate data/museum-data.json and data/filter-index.json from oov_data_new.xlsx.
 Preserves: namedIndividuals, transcription, pages structure from existing JSON.
 Updates: title, description, type, location, period, keywords, owner from Excel.
+
+`identifiers` (internal, search-only: serial / loan / certificate numbers) comes from
+an optional Excel column of the same name. While that column is absent from the sheet,
+whatever the JSON already holds is preserved -- so the seeded values survive an import
+from an older workbook. Once the column exists, a blank cell clears the field.
 """
 
 import json
@@ -63,7 +68,7 @@ def build_excel_lookup(df):
     return lookup
 
 
-def update_item(item, row):
+def update_item(item, row, has_identifiers_col=False):
     """Update JSON item fields from Excel row, preserving namedIndividuals/transcription/pages."""
     item['title'] = str_val(row.get('title', ''))
     item['description'] = str_val(row.get('description', ''))
@@ -115,6 +120,15 @@ def update_item(item, row):
     item['creator'] = str_val(row.get('creator', ''))
     item['notes'] = str_val(row.get('notes', ''))
 
+    # identifiers: internal only -- searched by museum-search.js, never rendered by
+    # viewer.js. Serial / certificate / series / loan designations. Split on | or ;
+    # ONLY: these values carry their own commas and periods ("No. 008,255",
+    # "Serie 1,790"), so parse_list's default comma fallback would shred them.
+    if has_identifiers_col:
+        item['identifiers'] = parse_list(row.get('identifiers', ''), sep=r'\s*[|;]\s*')
+    else:
+        item.setdefault('identifiers', [])
+
     return item
 
 
@@ -147,7 +161,9 @@ def main():
     print("Reading Excel...")
     df = pd.read_excel(EXCEL_PATH)
     excel = build_excel_lookup(df)
+    has_ids = 'identifiers' in df.columns
     print(f"  {len(excel)} rows loaded from Excel")
+    print("  identifiers column: " + ("present" if has_ids else "absent -- keeping existing JSON values"))
 
     print("Reading existing museum-data.json...")
     with open(JSON_PATH, encoding='utf-8') as f:
@@ -165,7 +181,7 @@ def main():
         row = excel.get(item_id)
 
         if row is not None:
-            update_item(item, row)
+            update_item(item, row, has_ids)
             updated += 1
         else:
             not_found += 1
@@ -174,7 +190,7 @@ def main():
                 primary_id = item['pages'][0].get('id', '')
                 row = excel.get(primary_id)
                 if row is not None:
-                    update_item(item, row)
+                    update_item(item, row, has_ids)
                     updated += 1
                     not_found -= 1
 
