@@ -539,7 +539,6 @@ h1.extitle{margin:22px 0 0;font-family:'Spectral',serif;font-weight:400;
 .rec-body{max-width:1440px;margin:0 auto;display:grid;grid-template-columns:1.15fr .85fr;gap:60px;padding:56px 56px 24px}
 .rec-eyebrow{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--oxblood)}
 .rec-title{margin:16px 0 0;font-family:'Spectral',serif;font-weight:400;font-size:46px;line-height:1.06;letter-spacing:-.01em;color:var(--ink)}
-.rec-subtitle{margin:12px 0 0;font-size:16px;color:var(--muted-cream)}
 .rec-desc{margin:26px 0 0;font-size:17px;line-height:1.7;color:#3a3830}
 .rec-desc p{margin:0 0 18px}
 .rec-desc p:last-child{margin-bottom:0}
