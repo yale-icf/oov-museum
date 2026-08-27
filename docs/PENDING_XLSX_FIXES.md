@@ -6,6 +6,40 @@ keywords, owner, currency, language, issueYear, creator and **notes** from the s
 made directly in `data/museum-data.json` is silently reverted at the next import. Each of these
 has to land in the workbook — or be re-applied to the JSON immediately after an import.
 
+## ✅ DONE — the six issueDate corrections and the `identifiers` column
+
+Both written to `oov_data_new_edit_2.xlsx` on 2026-08-27, each verified 0 collateral.
+
+**issueDate** (`scratchpad/fix-issuedates.py`, 7 cells). The script refuses to write a value that
+would not re-derive the `issueYear` already in the JSON, so the sheet and the JSON cannot drift
+apart again through this route.
+
+| Row | Record | Was | Now |
+|---|---|---|---|
+| 641 | `0640` | `ca. 1965-1980` | `February 1990` |
+| 642 | `0641` | `ca. 1970-1985` | `1 October 1987` |
+| 639 | `0638` | `ca. 1928-1933` | `1 April 1914` |
+| 647 | `0646` | `ca. 1927-1935` | `1 September 1930` |
+| 632 | `0631` | `December 31, 1832` | `31 December 1825` |
+| 344 | `0343` | `1920-01-01` | `ca. 1928` |
+
+It is **six, not the five listed further down** — `0343` was settled from the image after that
+section was written. The certificate carries no date at all, only a printed notice that stamp duty
+was discharged under an authorisation published in the *Journal Officiel* of 3 April 1928, so the
+cell reads `ca. 1928`: an inference, written as one. `0631`'s `notes` carried the same impossible
+pair (a certificate dated two years before its own prospectus) and were corrected with it.
+
+**`identifiers` column** added at index 21, **359 primary rows filled**, 124 left blank, sub-page
+rows skipped. Values joined with ` | ` — never a comma, which these numbers contain. The workbook
+is now 868 rows × 21 columns.
+
+## ⚠️ `excel_to_json.py` pointed at the wrong workbook — fixed
+
+`EXCEL_PATH` was hardcoded to **`oov_data_new.xlsx`**, which predates every edit above. Running the
+import would have silently reverted the 356 labels, the six dates, the identifiers column and the
+duplicate notes in one go. The default is now `oov_data_new_edit_2.xlsx`, with a `--file` override
+and a refusal to read a workbook that is open in Excel.
+
 ## ✅ DONE — the 356 rewritten labels are in the workbook
 
 Applied 2026-08-27 by `scratchpad/apply-rewrites.py`: **358 cells, 356 `description` + 2 `notes`,

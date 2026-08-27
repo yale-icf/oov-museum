@@ -1,6 +1,12 @@
 """
 excel_to_json.py
-Regenerate data/museum-data.json and data/filter-index.json from oov_data_new.xlsx.
+Regenerate data/museum-data.json and data/filter-index.json from the workbook.
+
+WHICH WORKBOOK. The default is `oov_data_new_edit_2.xlsx`, which is the live source:
+it holds the user's own edited descriptions (rows 1-381), the 356 rewritten labels
+(rows 382-869), the corrected issueDate cells, the duplicate / off-the-website notes
+and the `identifiers` column. The older `oov_data_new.xlsx` predates all of that, so
+importing from it would silently revert the lot -- pass --file only when you mean it.
 Preserves: namedIndividuals, transcription, pages structure from existing JSON.
 Updates: title, description, type, location, period, keywords, owner from Excel.
 
@@ -10,11 +16,15 @@ whatever the JSON already holds is preserved -- so the seeded values survive an 
 from an older workbook. Once the column exists, a blank cell clears the field.
 """
 
+import argparse
 import json
+import os
 import re
+import sys
+
 import pandas as pd
 
-EXCEL_PATH = "oov_data_new.xlsx"
+EXCEL_PATH = "oov_data_new_edit_2.xlsx"
 JSON_PATH = "data/museum-data.json"
 FILTER_PATH = "data/filter-index.json"
 
@@ -158,8 +168,17 @@ def build_filter_index(items):
 
 
 def main():
-    print("Reading Excel...")
-    df = pd.read_excel(EXCEL_PATH)
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--file', default=EXCEL_PATH, help='workbook to import (default: %(default)s)')
+    args = ap.parse_args()
+
+    lock = os.path.join(os.path.dirname(os.path.abspath(args.file)),
+                        '~$' + os.path.basename(args.file))
+    if os.path.exists(lock):
+        sys.exit('REFUSING: %s is open in Excel. Close it first.' % args.file)
+
+    print("Reading Excel from %s ..." % args.file)
+    df = pd.read_excel(args.file)
     excel = build_excel_lookup(df)
     has_ids = 'identifiers' in df.columns
     print(f"  {len(excel)} rows loaded from Excel")
