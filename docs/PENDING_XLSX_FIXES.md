@@ -6,6 +6,26 @@ keywords, owner, currency, language, issueYear, creator and **notes** from the s
 made directly in `data/museum-data.json` is silently reverted at the next import. Each of these
 has to land in the workbook — or be re-applied to the JSON immediately after an import.
 
+## ⚠️ Before you import: two records will regress
+
+`excel_to_json.py` overwrites from the sheet. Two records hold work that went straight into
+`data/museum-data.json` and was never synced back, so **importing without repairing them first
+silently reverts both**:
+
+| Record | What the import would destroy |
+|---|---|
+| `goetzmann0729` | The merged 0730→0729 description — four parallel languages, the amortisation schedule, the nine paying agents — roughly three times the length of the pre-merge text still in the sheet. Its `title`, `keywords`, `creator` and the "recto 0729, verso 0730" note go back too. |
+| `goetzmann0295` | The corrected figures. The sheet still says `No. 011666` / `100,000,000 lei`; the right values are `No. 011648` / `160,000,000 lei`, read off the master in commit `01be13c`. |
+
+Repair both in the workbook, or re-apply them to the JSON immediately after the import. Everything
+else on this page is additive; these two are the only ones that lose existing work.
+
+## Which workbook
+
+**`oov_data_new_edit_2.xlsx` supersedes `oov_data_new_edit.xlsx`.** The `_2` file holds all 84 edits
+from the earlier one plus rows 342–381, with nothing lost. The user's editing frontier is **row
+381**. Importing the older file would drop 40 records' worth of work.
+
 **Do not write to a workbook while an Excel lock file (`~$name.xlsx`) sits beside it** — the
 open session's next save clobbers whatever the script wrote.
 

@@ -394,6 +394,23 @@ reverse), `0560` (no date in source, and the one record with no transcription).
 `0407`, `0474`, `0533`, `0547`, `0560`, `0728`, `0916`. Mostly unissued blanks, specimens and
 reverses.
 
+## Tools built for this pass
+
+All in `scratchpad/`, all tracked. The image reader is the one worth knowing about.
+
+| Script | What it does |
+|---|---|
+| **`reconstruct.js <id> [out]`** | **Rebuilds any record at full resolution from its local DZI tiles.** This settled more open questions than every text-based method combined: the Confederate serials (No. 283 vs No. 2070), all five rate and amount conflicts, `0450`'s "Premier Juin" misread as February, `0343` having no date at all, `0560`'s 1910 capital reduction, and `0584` having no face. When a question is "what does the document actually say", use this rather than the transcription. |
+| `duplicate-sweep.js` | Scores every record pair sharing an issue year on shared totals, denominations, title tokens and type/country; penalises far-apart serials. Note the serial-adjacency test is unreliable below about serial 100. |
+| `find-asides.js` | Finds cataloguer notes sitting in the visitor-facing description field. |
+| `flag-conflicts.js` | Transcription-vs-description conflicts, and how much survives deletion. |
+| `extract-identifiers.js` | Seeded the `identifiers` field; `--write` required, bare form is a dry run. |
+| `date-fix-2.js`, `mark-duplicates.js`, `split-0558-transcription.js` | One-off audited passes, kept as worked examples. |
+
+**`identifiers` is the fast discriminator for duplicate questions** — it cleared the Bulgarian 1892
+cluster and the Russian 1902 pair in seconds, and its absence is why the Confederate pair needed
+images.
+
 ## Process note
 
 **The 60–110 word ceiling I enforced early is not in your guide** — it came from the draft I
