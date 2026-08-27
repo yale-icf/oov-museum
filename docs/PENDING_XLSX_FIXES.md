@@ -74,6 +74,30 @@ and replace with:
 
 Row 494 (`goetzmann0493`, the dropped one) is already correct — leave it alone.
 
+## goetzmann0640 — issueDate, corrected in JSON, still needed in the sheet
+
+**Applied to `data/museum-data.json` 2026-08-27:** `issueYear` **1965 → 1990**.
+
+The sheet's `issueDate` cell reads **"ca. 1965-1980"**, an estimate. `excel_to_json.py` correctly
+takes the first four-digit year from it, so the pipeline is not at fault — the estimate is simply
+wrong. The bond is dated **Belgrade, February 1990** on its face, with coupons maturing through
+1996, 1997 and 1998, and it was issued by the Socialist Republic of Serbia, which existed until
+1990. Every signal agrees on 1990.
+
+| Sheet column | Current | Should be |
+|---|---|---|
+| `issueDate` | `ca. 1965-1980` | `February 1990` |
+
+`period` is already "20th Century" and needs no change. Until the sheet is corrected, the next
+import will revert `issueYear` to 1965.
+
+**What `issueYear` actually affects** (I had overstated this earlier — it is *not* a facet; the
+facets are type, location, issuingCountry, currency, language, period and namedIndividuals):
+
+- the date sort on the search page (`year()` in `js-src/museum-search.js`)
+- the year printed on each search result card
+- the "Date" row in the record viewer's details table
+
 ---
 
 ## Related, larger passes still open

@@ -24,13 +24,13 @@ could pull against each other, so I would rather you ruled than have me decide q
 
 ## 2. Metadata errors — these affect the live site
 
-**`issueYear` drives the period facet and the date sort.** A sweep across all 483 records (not
+**`issueYear` drives the date sort, the year on search result cards, and the "Date" row in the record viewer.** (Not the period facet — I said that earlier and it was wrong; `period` is its own Excel column.) A sweep across all 483 records (not
 just my queue) found 21 whose `issueYear` appears nowhere in their description. Triaged, these
 look like genuine errors:
 
 | Record | `issueYear` | Document says |
 |---|---|---|
-| `0640` | 1965 | **February 1990** — a 1990 bond currently files under the 1960s |
+| ~~`0640`~~ | ~~1965~~ | **FIXED in JSON 2026-08-27** → 1990. Sheet `issueDate` still reads "ca. 1965-1980"; queued in PENDING_XLSX_FIXES.md |
 | `0641` | 1970 | **1 October 1987** |
 | `0638` | 1928 | **1 April 1914** |
 | `0631` | 1832 | **31 December 1825** |
