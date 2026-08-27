@@ -1526,41 +1526,6 @@
     "identifiers": []
   },
   {
-    "id": "goetzmann0393",
-    "title": "Ancient Papyrus Greek or Coptic Financial Document",
-    "description": "A fragment of ancient papyrus, torn and holed, bearing several lines of cursive script in Greek or Coptic, the everyday administrative hand of Egypt under Ptolemaic, Roman, or Byzantine rule, roughly the third century BCE to the seventh century CE. The content cannot be read with confidence from the fragment. Documents of this form are typically financial or administrative: a tax receipt, a grain account, a loan agreement, or a land lease.",
-    "file": "goetzmann0393.jpg",
-    "type": [
-      "Certificate"
-    ],
-    "location": [
-      "Egypt"
-    ],
-    "period": [
-      "Pre-17th Century"
-    ],
-    "namedIndividuals": [],
-    "keywords": [],
-    "owner": "",
-    "issuingCountry": [
-      "Egypt"
-    ],
-    "currency": [],
-    "language": [
-      "Greek"
-    ],
-    "issueYear": [
-      "0200"
-    ],
-    "creator": "Unknown (Egyptian administrative scribal office)",
-    "notes": "Ancient papyrus fragment with cursive Greek or Coptic script. Likely a financial or administrative document (tax receipt, grain account, or land lease). Ptolemaic, Roman, or Byzantine Egypt, ca. 1st–7th century CE. Oldest item in the collection.",
-    "subjectCountry": [
-      "Egypt"
-    ],
-    "transcription": "# Fragmentary Egyptian Papyrus Document (Greek/Coptic Cursive) — Transcription\n\n## Original:\n\nScript: a rapid documentary cursive of the Greco-Roman/Byzantine Egyptian type. Several letterforms resemble Coptic rather than pure Greek majuscule, so the hand is best described as Greek or Coptic cursive; it cannot be assigned with confidence from this fragment.\n\nLayout: the sheet is torn along the top and holed throughout, laid out in TWO COLUMNS of text. Each column preserves roughly 20–25 lines; the ink is faded and abraded over much of the surface. A modern cataloguer has drawn ink circles/underlines around a few individual words (an editorial annotation, not part of the ancient text).\n\nLegibility: continuous reading is NOT possible. Only disconnected clusters of letters can be made out, and even these are uncertain. No complete word or phrase can be transcribed with confidence.\n\nTentative isolated letter-sequences (uncertain, offered only as scattered traces — not a running text):\n- One line in the upper right column shows a cluster resembling: ο υ μ ν τ … ρ ε υ … (?) [uncertain]\n- A circled word in the left column opens with what may be κ ε φ … / ⲕⲉⲫ … (?) [uncertain]\n\nEverything else: [illegible]\n\nRight column: [illegible — ~20–25 lines of cursive, mostly abraded]\nLeft column: [illegible — ~20–25 lines of cursive, mostly abraded]\n\n---\n\n## English Translation:\n\nThe text is not confidently legible. Beyond identifying it as a two-column documentary papyrus in a Greek/Coptic cursive hand, no reliable words or phrases can be read, and therefore no honest translation can be given. The catalogue classification (a Roman-period Egyptian financial/administrative document) is plausible for a papyrus of this form but cannot be confirmed from the surviving, abraded text itself.\n",
-    "identifiers": []
-  },
-  {
     "id": "goetzmann0403",
     "title": "New York Central Rail Road Company Bond",
     "description": "An engraved $1,000 bond of the New York Central Rail Road Company, dated the first day of August 1858. It certifies that the holder, being a stockholder in one or more of the several railroad companies authorized to be consolidated, is entitled to one thousand dollars, to be paid out of the revenues arising from the road, with interest at six percent a year payable half-yearly on the last day of May and the first day of November against the interest warrants apportioned to it, payable in the City of New York. The certificate is transferable only on the books of the company, upon surrender and written assignment. It is signed by the president and the treasurer and struck with a large red CANCELLED stamp. The company had been formed in 1853 by consolidating the lines linking Albany to Buffalo.",
@@ -6646,7 +6611,7 @@
       "China"
     ],
     "period": [
-      "17th Century"
+      "Pre-17th Century"
     ],
     "namedIndividuals": [],
     "keywords": [
