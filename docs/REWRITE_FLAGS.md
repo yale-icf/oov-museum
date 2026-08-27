@@ -238,7 +238,7 @@ a visitor looking at that image needs. Say the word if you would rather it went.
 
 ⚠️ **These are only fixed once the rewrite is applied.** Until then all six are live.
 
-## 8. Labels left thin — six of seven now written up
+## 8. Labels left thin — all seven now written up
 
 These came out at 39–58 words because deletion removed nearly everything the old description had.
 Rewritten from their transcriptions:
@@ -253,8 +253,26 @@ Rewritten from their transcriptions:
 | `0729` | 39w | **72w** — Bulgarian 1907 gold loan; the reverse's conditions and amortisation table |
 | `0558` | 46w | **67w** — Mexican consolidated debt; the 3 percent rate was missing entirely |
 
-**`0560` remains thin at 49 words** — Ethiopian railway share. See §12: it had no transcription at
-all, and the one now attached is too garbled to build on.
+**`0560` — 49w → 146w, written from the image.** It had no transcription, and the one recovered
+from `0558` proved badly garbled ("CHEHINS DE FER ÉTHIOPIEN", "AU CAPITAL IMPERIALE", a stray
+"date reference to 1827"). Rebuilt from the DZI tiles, the share reads clearly and carries far more
+than either source suggested:
+
+- Statutes deposited **7 August 1896** before Maître Rey, notary in Paris; registered office Paris.
+- Capital **8,000,000 francs raised to 18,000,000** by extraordinary general meeting of
+  **12 December 1899**, divided into **36,000 shares of 500 francs**.
+- This share dated **Paris, 14 December 1899**, serial **No. 01,927**, now in `identifiers`.
+- **Two later overstamps tell the company's fate:** the general meeting of **4 June 1910** reduced
+  the capital to **3,600,000 francs**, and the share was restruck as one of **one hundred francs**.
+  The arithmetic confirms it — 36,000 × 500 = 18,000,000 written down to 36,000 × 100 = 3,600,000,
+  a five-fold reduction. Neither the old description nor the transcription mentioned any of this.
+- Printed by **Imprimerie Chaix, 20 Rue Bergère, Paris**; the vignette is signed **L. Bombled**,
+  left out of the label as decorative attribution but recorded here.
+
+⚠️ **`0560`'s transcription should be regenerated from the image.** The text now attached to it is
+wrong in nearly every proper noun.
+
+**Every one of the 356 labels is now 60 words or more.**
 
 ⚠️ **`0403`'s president is held back.** Its transcription reads "Austin Corwin, President." The New
 York Central's president in 1858 was Erastus Corning, so this looks like a misreading. The label
