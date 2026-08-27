@@ -106,13 +106,37 @@ Two further facts from the images, worth having:
 ### Titling problems the sweep exposed
 
 - **`0341` and `0342` are both titled "Confederate States of America Bond"** and are different
-  bonds: `0341` is under the Act of 19 August 1861, dated 31 July 1862; `0342` under the Act of
-  20 February 1863, dated 2 March 1863 at 7 percent. Identical titles, different instruments.
-- **`0447` carries two serials, "No. 3276" and "No. 2106", and `0446` carries "No. 2106".** The
-  shared number is probably an extraction artifact — my identifier seeder pulled a second "No."
-  from the description. The two records are otherwise clearly distinct emissions (1895 second
-  emission at 1,000,000 rubles capital; 1896 at 600,000). Worth checking the actual serials.
+  bonds: `0341` under the Act of 19 August 1861, dated 31 July 1862; `0342` under the Act of
+  20 February 1863, dated 2 March 1863 at 7 percent.
+- **`0447` and `0446` share the serial "No. 2106"**, probably an extraction artifact — my seeder
+  pulled a second "No." out of the description. The records are otherwise clearly distinct
+  emissions. Worth checking the real serials.
+- **`0450` carried "No. 22" in `identifiers`** — the street number in "Rue Caumartin No. 22".
+  Removed; the real serial, read from the image, is **No. 1,735**.
 
+### ✅ `0584` / `0729` — resolved from the images, and not a titling error
+
+The two records genuinely differ, and the difference is historically coherent.
+
+**`0729`'s face is headed "Principality of Bulgaria"** — the 1907 original, issued while Bulgaria
+was still a principality under nominal Ottoman suzerainty.
+
+**`0584` has no face at all.** Its three leaves are the reverse (conditions in four languages above
+an amortisation table running 1908–1967 against 290,000 obligations), a **talon and coupon sheet**,
+and a trimmed offcut repeating the coupon payment-place table. The talon is headed **"Royaume de
+Bulgarie" — Kingdom** — because the coupon sheets, whose coupons run to 1944, were reprinted after
+Bulgaria became a kingdom in October 1908. Same loan, two printings either side of the change in
+statehood. Nothing to correct.
+
+⚠️ **But two real errors turned up:**
+
+1. **`0586`'s page description called a talon "Face of the bond."** This is exactly the error the
+   July 2026 reorder flagged and it was never fixed — the ordering was corrected, the description
+   was not. **Rewritten** (`pages[]` is not Excel-backed, so the fix survives imports).
+2. **`0584` belongs in `reverse-pairs.md` §C as frontless**, alongside `0345` and `0567`. Its label
+   is rewritten to say so rather than opening "A bearer bond of…", which it is not.
+
+### Confirmed NOT duplicates by the sweep
 ### Confirmed NOT duplicates by the sweep
 
 The five Continental Loan Office bills (`0496`, `0529`, `0531`, `0532`, `1038`) all scored high on
