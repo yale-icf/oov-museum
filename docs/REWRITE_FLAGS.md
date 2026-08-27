@@ -46,7 +46,7 @@ Others in the sweep are undated objects where `issueYear` is a reasonable estima
 
 `0916` has **no `issueYear` at all** — the field is empty.
 
-## 3. Probable duplicate pairs — five
+## 3. Probable duplicate pairs — seven
 
 Two shapes, wanting different remedies.
 
@@ -72,6 +72,47 @@ used `0389`'s figures for both labels.
 | `0544` / `0545` | Daniel Changuion plantation loan, 1816 — same f400,000, 6%, ten-year term; typed differently (Prospectus / Regulatory Document) |
 | `0485` / `0943` | Stadnitski & Vollenhoven life-annuity negotiation, 1 May 1787 — deed and nominee register, same directors, same notary |
 | `0734` / `0735` | Bulgarian 5% Gold Loan of 1902 — bond and conditions sheet; `issueYear` also disagrees, 1903 vs 1902 |
+
+### Sweep results — two more pairs found
+
+`scratchpad/duplicate-sweep.js` compared all 483 records, scoring shared headline totals, shared
+denominations, distinctive title tokens and type/country agreement, with a penalty when both
+records carry serials that are far apart. 19 candidates scored 7 or above. Two are new and real:
+
+**`0354` / `0980` — Grand Russian Railway 3% bond, Third Emission.** Both 125 silver-metallic
+rubles, both from the issue of 105,176 bonds totalling 13,147,000 rubles, both with the same
+currency equivalents (500 francs, £20, 402 marks, 236 guilders). Decisively: `0354` is dated
+"23 December 1880 / 4 January 1881" and `0980` "4 January 1881" — **the same day, Julian and
+Gregorian.** `0354` carries serial No. 220757; `0980` carries none but its notes say "Page 1 of 4;
+coupon sheets in goetzmann0982-0983," so it is the multi-page version. Their `issueYear` values
+differ, 1880 and 1881, purely from which half of the dual date was taken.
+⚠️ **`0354` sits in the block you already rewrote**, so this could only have surfaced from a sweep
+of all 483, not from my queue.
+
+**`0340` / `0604` — Confederate cotton loan bond.** Both $1,000, both under the Act of Congress
+approved 30 April 1863, both 6 percent, both executed at Richmond on 1 June 1863, both maturing
+1 June 1883, both payable in cotton of New Orleans Middling at the same list of cities. **Neither
+carries a serial**, which is exactly why nothing could separate them automatically. Thumbnails
+differ in size, so they are not the same file. Needs a serial read off the two images.
+
+### Titling problems the sweep exposed
+
+- **`0341` and `0342` are both titled "Confederate States of America Bond"** and are different
+  bonds: `0341` is under the Act of 19 August 1861, dated 31 July 1862; `0342` under the Act of
+  20 February 1863, dated 2 March 1863 at 7 percent. Identical titles, different instruments.
+- **`0447` carries two serials, "No. 3276" and "No. 2106", and `0446` carries "No. 2106".** The
+  shared number is probably an extraction artifact — my identifier seeder pulled a second "No."
+  from the description. The two records are otherwise clearly distinct emissions (1895 second
+  emission at 1,000,000 rubles capital; 1896 at 600,000). Worth checking the actual serials.
+
+### Confirmed NOT duplicates by the sweep
+
+The five Continental Loan Office bills (`0496`, `0529`, `0531`, `0532`, `1038`) all scored high on
+title overlap and tripped the serial-adjacency rule, because their bill numbers are small integers
+that fall within 50 of each other. They are five different drafts with different payees — Jeremiah
+Green, Jesse White, John Simpkins, Anne Brown, Moses Frazier — and different dates in Oct-Nov 1778.
+Likewise the two 1776 Continental lottery tickets (`0186` No. 1A, `0215` No. 16m) are different
+tickets of the same lottery. **The adjacency rule is unreliable below about serial 100.**
 
 **Recommend a systematic sweep** rather than more catching by eye. `identifiers` is the fast
 discriminator — it settled the Bulgarian 1892 cluster (`0648`/`0665`/`0666`, three distinct
