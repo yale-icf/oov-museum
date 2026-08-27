@@ -89,11 +89,19 @@ differ, 1880 and 1881, purely from which half of the dual date was taken.
 ⚠️ **`0354` sits in the block you already rewrote**, so this could only have surfaced from a sweep
 of all 483, not from my queue.
 
-**`0340` / `0604` — Confederate cotton loan bond.** Both $1,000, both under the Act of Congress
-approved 30 April 1863, both 6 percent, both executed at Richmond on 1 June 1863, both maturing
-1 June 1883, both payable in cotton of New Orleans Middling at the same list of cities. **Neither
-carries a serial**, which is exactly why nothing could separate them automatically. Thumbnails
-differ in size, so they are not the same file. Needs a serial read off the two images.
+**`0340` / `0604` — Confederate cotton loan bond. ✅ RESOLVED: not duplicates.**
+Both are $1,000 bonds under the Act of 30 April 1863, both executed at Richmond on 1 June 1863,
+both payable in New Orleans Middling cotton at the same cities — and neither carried a serial in
+the catalogue, which is why nothing could separate them. Read off the images at full resolution
+from the DZI tiles: **`0340` is No. 283, `0604` is No. 2070.** Different bonds of the same issue.
+Both serials are now recorded in `identifiers`.
+
+Two further facts from the images, worth having:
+- Both were **printed by Evans & Cogswell, Columbia, S.C.**, imprinted at the foot. Added to
+  `0604`'s label; `0340` sits in the block you rewrote, so its label is yours to change.
+- **`0340` retains its attached coupon sheet** — four "C.S. COTTON COUPON LOAN, APRIL 30, 1863"
+  strips of sixty dollars each along the lower edge. `0604` has none. That is the plainest physical
+  difference between the two and neither description mentions it.
 
 ### Titling problems the sweep exposed
 
