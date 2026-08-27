@@ -181,17 +181,30 @@ of the 450,000,000-tael indemnity. Sources: Spink lot CSS36000003, numistoria li
 | `0398` | Transcription gives the printer as "Imp. F. Pano, **Paris**" on a warrant sealed at **London** under the English Companies Acts. Possibly misfiled. Not used. |
 | `0903` | The two transcriptions give different printers for the same pair of Rostock bonds. Not used. |
 
-## 7. Editorial asides found in the public description field
+## 7. Editorial asides in the public description field — swept, all already fixed
 
-Notes written for cataloguers, sitting in the visitor-facing field. Cut from the labels, recorded
-here so the content is not lost.
+Notes written for cataloguers, sitting in the visitor-facing field. Two turned up during the
+rewrite, so I swept all 483 (`scratchpad/find-asides.js`, results in
+`scratchpad/editorial-asides.tsv`).
 
-- **`0595`** ended: *"The document is Qing-dynasty Chinese, not the Japanese yen instrument of
-  earlier cataloguing."*
-- **`0933`** ended: *"It was formerly bound with the Garphytte share receipt (goetzmann0931) and is
-  here catalogued as a separate item."*
+**Six hits across five records, currently live on the site:**
 
-**Worth a grep at the end** for others of this kind across all 483.
+| Record | The aside |
+|---|---|
+| `0595` | *"…is Qing-dynasty Chinese, not the Japanese yen instrument of earlier cataloguing."* |
+| `0933` | *"It was formerly bound with the Garphytte share receipt (goetzmann0931) and is here catalogued as a separate item."* — also the only description that cross-references another record by id |
+| `0393` | *"It is in all likelihood the oldest item in the collection."* — a claim about the collection, not the object, and unverified |
+| `0468` | *"the obligors — Nathan H. Mallon[?] …"* — an unresolved reading marker meant for staff |
+| `1021` | *"…among them Cornelis Jauckly[?]."* — same |
+
+**All five are records I rewrote, and every aside is already gone from the shipping text.** None
+appear in the 121 descriptions you rewrote — that block is clean.
+
+One borderline case left in deliberately: `1021` opens "Two related documents of 1622 and 1623 …
+photographed together." That describes how the two sheets are presented in the single image, which
+a visitor looking at that image needs. Say the word if you would rather it went.
+
+⚠️ **These are only fixed once the rewrite is applied.** Until then all six are live.
 
 ## 8. Labels left thin — six of seven now written up
 
