@@ -152,21 +152,53 @@ here so the content is not lost.
 
 **Worth a grep at the end** for others of this kind across all 483.
 
-## 8. Labels left thin — deletion removed nearly everything
+## 8. Labels left thin — six of seven now written up
 
-These need writing up from the transcription rather than editing down. Not yet done.
+These came out at 39–58 words because deletion removed nearly everything the old description had.
+Rewritten from their transcriptions:
 
-| Record | Words | Note |
+| Record | Before | After |
 |---|---|---|
-| `0729` | 39 | Bulgarian 4½% Gold Loan of 1907; source was 48w |
-| `0558` | 46 | Mexico Consolidated Debt; short at source, from the July split |
-| `0403` | 48 | New York Central RR bond, 1858; old description was almost all vignette |
-| `0720` | 48 | USSR State Loan 1946; old description was almost all interpretation |
-| `0453` | 49 | Sixth Austrian War Loan, 1917 |
-| `0560` | 49 | Ethiopian railway share; **the one record with no transcription at all** |
-| `0454` | 58 | Eighth Austrian War Loan, 1918 |
+| `0403` | 48w | **140w** — New York Central RR bond; the certificate's own consolidation clause, interest warrants, and transfer restriction recovered |
+| `0453` | 49w | **141w** — Sixth Austrian War Loan; series size, seven denominations, 1928–1957 drawing schedule, Wiener Zeitung publication |
+| `0454` | 58w | **128w** — Eighth Austrian War Loan; twenty-two coupons, September drawings, 1 March repayment |
+| `0903` | 69w | **113w** — Rostock 50 RM; the clause deferring all interest until reparations are extinguished |
+| `0720` | 48w | **87w** — USSR 1946 loan; series, bond and category numbers, the union-republic micro-text band |
+| `0729` | 39w | **72w** — Bulgarian 1907 gold loan; the reverse's conditions and amortisation table |
+| `0558` | 46w | **67w** — Mexican consolidated debt; the 3 percent rate was missing entirely |
 
-## 9. Date position — found and fixed
+**`0560` remains thin at 49 words** — Ethiopian railway share. See §12: it had no transcription at
+all, and the one now attached is too garbled to build on.
+
+⚠️ **`0403`'s president is held back.** Its transcription reads "Austin Corwin, President." The New
+York Central's president in 1858 was Erastus Corning, so this looks like a misreading. The label
+says "signed by the president and the treasurer" without naming either.
+
+## 9. Repaired: `0558` was holding `0560`'s transcription
+
+The July 2026 split of a mixed record into **goetzmann0558** (Mexican consolidated debt bond) and
+**goetzmann0560** (Ethiopian railway share) moved the description but not the transcription. 0558
+kept the combined text of both documents, 4,923 characters in four sections; 0560 was left with
+none — which is why it was the only record in the collection with an empty transcription.
+
+**Split and applied** (`scratchpad/split-0558-transcription.js`, classified by language marker
+rather than position): 0558 keeps the two Spanish sections, 2,474 chars; 0560 receives the two
+French sections, 2,457 chars. Nothing dropped, and a field-by-field comparison against the previous
+commit confirms **no record changed outside those two transcriptions**. `transcription` is not
+Excel-backed, so this survives the next import. **Every record in the collection now has one.**
+
+⚠️ **It also exposed a date problem on `0558`.** Three different years are in play:
+
+| Source | Year |
+|---|---|
+| `issueYear` and the description | **1851** |
+| The bond certificate, per its own transcription | **"Emitido en junio de 1881"** |
+| The accompanying decree text | **1858–1859** |
+
+1851 appears nowhere in the transcription. I kept the description's date in the label, per
+description-wins, but one of these is wrong and the 30-year gap is not a rounding error.
+
+## 10. Date position — found and fixed
 
 Your rule is the date in the opening sentence. My per-batch check had a broken abbreviation guard
 and under-reported, so I re-audited the finished set. Of 42 initially flagged: **12 were false
@@ -187,7 +219,7 @@ date now opens the sentence, and the duplicate mention later in the label was re
 **No date at all in the label:** `0407` (unissued remainder), `0474` (blank form), `0728` (a
 reverse), `0560` (no date in source, and the one record with no transcription).
 
-## 10. Deliberately left long
+## 11. Deliberately left long
 
 - `0498` (184w) — Massachusetts commodity-indexed note, 1780. Enumerates its own market basket
   (five bushels of corn, 68 4/7 lb of beef, 10 lb of wool, 16 lb of sole leather) and the 32.5-fold
@@ -196,7 +228,7 @@ reverse), `0560` (no date in source, and the one record with no transcription).
 - `0511`, `0537`, `0625`, `1033`, `1035` — royal annuity and sovereign loan contracts whose terms
   *are* the document.
 
-## 11. Objects with no date on them
+## 12. Objects with no date on them
 
 `0407`, `0474`, `0533`, `0547`, `0560`, `0728`, `0916`. Mostly unissued blanks, specimens and
 reverses.
