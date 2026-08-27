@@ -31,12 +31,12 @@ look like genuine errors:
 | Record | `issueYear` | Document says |
 |---|---|---|
 | ~~`0640`~~ | ~~1965~~ | **FIXED in JSON 2026-08-27** → 1990. Sheet `issueDate` still reads "ca. 1965-1980"; queued in PENDING_XLSX_FIXES.md |
-| `0641` | 1970 | **1 October 1987** |
-| `0638` | 1928 | **1 April 1914** |
-| `0631` | 1832 | **31 December 1825** |
-| `0646` | 1927 | **1 September 1930** |
-| `0317` | 1902 | **2002** appears; likely a maturity, worth a look |
-| `0343` | 1920 | stamp duty authorised **1928** |
+| ~~`0641`~~ | ~~1970~~ | **FIXED → 1987.** Sheet reads "ca. 1970-1985"; queued |
+| ~~`0638`~~ | ~~1928~~ | **FIXED → 1914.** Sheet reads "ca. 1928-1933"; queued |
+| ~~`0631`~~ | ~~1832~~ | **FIXED → 1825.** The notes dated it two years before its own prospectus; queued |
+| ~~`0646`~~ | ~~1927~~ | **FIXED → 1930.** Sheet reads "ca. 1927-1935"; queued |
+| `0317` | 1902 | **CORRECT as catalogued** — "2002" is the maturity of a hundred-year bond, not a typo |
+| `0343` | 1920 | **Unresolved.** A stamp-duty notice printed on the certificate is dated 3 April 1928, so it cannot predate that. Needs the image |
 
 Others in the sweep are undated objects where `issueYear` is a reasonable estimate. Full list:
 `scratchpad/issueyear-mismatches.json`.

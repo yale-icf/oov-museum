@@ -74,7 +74,38 @@ and replace with:
 
 Row 494 (`goetzmann0493`, the dropped one) is already correct — leave it alone.
 
-## goetzmann0640 — issueDate, corrected in JSON, still needed in the sheet
+## issueYear corrections — applied to JSON, still needed in the sheet
+
+All five applied to `data/museum-data.json` 2026-08-27. `excel_to_json.py` derives `issueYear` from
+the `issueDate` column, so the sheet edits below are what make them stick; without them the next
+import reverts every one. `period` is correct in all five cases and needs no change.
+
+| Record | `issueYear` | Sheet `issueDate` now | Should be | Evidence |
+|---|---|---|---|---|
+| `0640` | 1965 → **1990** | `ca. 1965-1980` | `February 1990` | Dated Belgrade, February 1990 on its face; coupons mature 1996-98; the Socialist Republic of Serbia existed until 1990. |
+| `0641` | 1970 → **1987** | `ca. 1970-1985` | `1 October 1987` | Signed at Sarajevo 1 October 1987; four annuity coupons payable 1990-1993. |
+| `0638` | 1928 → **1914** | `ca. 1928-1933` | `1 April 1914` | The loan names itself "of 1914"; issued Sarajevo and Vienna 1 April 1914; signed by Governor Oskar Potiorek, in post 1911-1914. The estimate was fourteen years late. |
+| `0646` | 1927 → **1930** | `ca. 1927-1935` | `1 September 1930` | Dated 1 September 1930 at Újpest. |
+| `0631` | 1832 → **1825** | `December 31, 1832` | `31 December 1825` | ⚠️ Not an estimate — a real conflict. The `notes` say "Amsterdam December 31, 1832; prospectus of June 30, 1834", which would date the certificate **two years before its own prospectus**. The description says 31 December 1825 under a prospectus of 30 June 1824, and the transcription independently carries 1824. Siblings `0525` (30 June 1825) and `0616` (7 October 1824) fit the same series. The 1832/1834 pair is internally impossible. |
+
+⚠️ **`0631`'s `notes` carry the same error** and need the same correction: "Amsterdam December 31,
+1832; prospectus of June 30, 1834" → "Amsterdam December 31, 1825; prospectus of June 30, 1824".
+
+### Checked and NOT changed
+
+- **`0317` — `issueYear` 1902 is correct.** The sweep flagged it because "2002" appears in the
+  description, but that is the maturity: a Chicago, Rock Island and Pacific bond styled the "Gold
+  Bond of 2002" and due 1 November 2002. A hundred-year bond, not a typo.
+- **`0343` — left at 1920, but the evidence is against it.** The sheet says `1920-01-01`. The
+  description records a notice printed on the certificate that the stamp duty was discharged under
+  an authorisation published in the *Journal Officiel* of **3 April 1928** — so the sheet cannot
+  predate April 1928. Nothing else on the record carries a date; the transcription has none. Either
+  the company was founded in 1920 and this certificate printed later, or the issue date is wrong.
+  **Needs the image.** Not changed unilaterally.
+
+---
+
+## goetzmann0640 — superseded by the table above
 
 **Applied to `data/museum-data.json` 2026-08-27:** `issueYear` **1965 → 1990**.
 
