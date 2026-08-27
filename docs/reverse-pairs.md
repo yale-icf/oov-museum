@@ -41,6 +41,7 @@ Status: **mapping only, 2026-07-15.** Fronts marked *confirm* still need an imag
 |------|----------|------|
 | goetzmann0235 | Anglo-Argentine Tramways Co. Debenture Stock Certificate (London, 1910) | No matching front found — the back may be the only side digitised. |
 | goetzmann0728 | Ottoman Public Debt Administration Bond | Already a **multi-page** record itself; front unclear (0711/0712 are related Ottoman Public Debt *receipts*, a different instrument). |
+| goetzmann0345 | State of South Carolina Six Per Cent Consolidation Bond, $500, No. 1602 | **Added 2026-08-27 — found by image, not by title flag** (the title says nothing about a reverse, so it is exactly the case the caveat below anticipates). The scan is the outside of the folded bond: two ornamental `$500` counterfoils, a vertical "CONSOLIDATION BOND" spine label with "Registered at the … President" in script, and the docket title block. No promise-to-pay text, signatures, seal or issue date — those are on the face. The coupon sheet is folded behind and pokes out along the top edge, ink-signed and stamped `1602` in blue. **No front exists in the collection:** 0345 is the only one of the 483 records mentioning Carolina in any field, and across all 867 OCR files the only other "South Carolina" hit is goetzmann0290 (a page of 0274 — a 1751 British Act naming "Daniel Huger of South Carolina"). "Consolidation Bond" appears in no other scan. |
 
 ## Caveats
 - This only covers backs **flagged by title** ("reverse"/"verso"). Other front/back pairs whose
