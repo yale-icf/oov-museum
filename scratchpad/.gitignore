@@ -4,3 +4,8 @@
 *.jpeg
 *.png
 *.webp
+
+# The finished rewrite is the only copy of that work until it is applied to
+# museum-data.json and the workbook; the root *.json credential rule would
+# otherwise leave it untracked. Narrow on purpose -- credentials stay ignored.
+!rewrites.json
