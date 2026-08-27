@@ -172,7 +172,33 @@ share); `0954`/`0682` (Mississippi Union Bank bond, and the 1925 London deposit 
 that repudiated issue); `0980`/`1010` (Grand Russian Railway bond, and a 1924 receipt for its
 talons).
 
-## 5. Facts held back — not printed, per "never print a guess"
+## 5. Facts held back — two now verified and restored
+
+✅ **`0703` — Melgarejo restored.** Sources confirm the debased "feble" coin was struck under
+Mariano Melgarejo and circulated as the *peso Melgarejo*, and that a projected loan to convert it
+"could not be cancelled" — matching this bond's annulled Empréstito de 1870 exactly. The conversion
+was only achieved later under Daza. Sources: encyclopedia.com on Melgarejo; bolivian.com, *La
+Moneda Republicana*.
+
+✅ **`0591` — Hirsch restored, and the match is exact.** Hirsch took the Ottoman railway concession
+on 17 April 1869 and placed "nearly two million Ottoman railroad bonds" simultaneously across some
+twenty-eight exchanges. This bond's emission is **1,980,000 obligations** — the same issue. Sources:
+Wikipedia, *Chemins de fer Orientaux* and *Maurice de Hirsch*; Stanford UP, *The Baron*.
+
+⚠️ **`0708` — searched, still not confirmed.** The 1913 "Bono del Tesoro, 6% Oro, 10 Años" series is
+well attested, and its multi-currency face matches this label exactly ($Mex.195 = 505 francs = £20
+= 409 marks = $97 = 242 guilders). But no source found ties the issue to the Huerta government, and
+the bond names only the Federal Government of the United Mexican States. Stays out.
+
+**Deliberately left parked even though verifiable:**
+- `0707`'s Díaz and Limantour — true of the 1899 conversion, but neither name is on the document,
+  and the officers rule keeps names off unless they appear on it.
+- `0556`'s "shortly before the company's nationalisation" — Egyptian nationalisations came in 1961,
+  three years after this share. Verifiable, but "shortly before" is significance, not fact.
+
+### Still held back
+
+
 
 | Record | Held back | Why |
 |---|---|---|
