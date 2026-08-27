@@ -6,6 +6,33 @@ keywords, owner, currency, language, issueYear, creator and **notes** from the s
 made directly in `data/museum-data.json` is silently reverted at the next import. Each of these
 has to land in the workbook — or be re-applied to the JSON immediately after an import.
 
+## ✅ DONE — the 356 rewritten labels are in the workbook
+
+Applied 2026-08-27 by `scratchpad/apply-rewrites.py`: **358 cells, 356 `description` + 2 `notes`,
+verified 0 collateral.** Descriptions 54,241 → 37,200 words, a 31% cut. Sheet rows 382–869. The
+labels now live in the workbook only — they reach `data/museum-data.json` at the next
+`excel_to_json.py` run, which has not been done.
+
+**Nothing hand-edited was overwritten.** `scratchpad/rewrite-overlap-check.py` confirmed all 356
+target rows still held the JSON text verbatim, clear of the user's edited block (rows 1–381); the
+apply script re-checks this per row and skips any that has drifted.
+
+**The duplicate and off-the-website notes were the thing at risk.** The rewrite strips cataloguing
+asides out of the visitor-facing description, so anything the description alone was carrying had to
+land in `notes` first. `scratchpad/preserve-audit.py` found the whole exposure to be two records:
+
+| Record | What would have been lost |
+|---|---|
+| `goetzmann0595` | The cut sentence "not the Japanese yen instrument of earlier cataloguing" was the **only** place the correction lived — `notes` still described a Meiji-era Japanese document. Notes now record the Qing reading, the 同治十三年新正月 title slip and that the yen attribution is superseded. |
+| `goetzmann0494` | "A faded copy … catalogued as goetzmann0493 and dropped from the website" existed in the JSON only; the next import would have reverted it. |
+
+`goetzmann0933`'s "formerly bound with goetzmann0931" already read the same in both. Sixteen
+duplicate / off-the-website notes are now carried by the workbook, including the retained rows for
+`0493` and `1031` — records dropped from the live site whose sheet rows preserve the numbering.
+Verify any time with `scratchpad/verify-rewrites.py`.
+
+Backup: `oov_data_new_edit_2.xlsx.bak-before-rewrites`.
+
 ## ✅ DONE — the two import regressions are closed
 
 `goetzmann0729` and `goetzmann0295` held work that went straight into `data/museum-data.json` and
