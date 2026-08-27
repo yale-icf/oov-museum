@@ -6,19 +6,33 @@ keywords, owner, currency, language, issueYear, creator and **notes** from the s
 made directly in `data/museum-data.json` is silently reverted at the next import. Each of these
 has to land in the workbook — or be re-applied to the JSON immediately after an import.
 
-## ⚠️ Before you import: two records will regress
+## ✅ DONE — the two import regressions are closed
 
-`excel_to_json.py` overwrites from the sheet. Two records hold work that went straight into
-`data/museum-data.json` and was never synced back, so **importing without repairing them first
-silently reverts both**:
+`goetzmann0729` and `goetzmann0295` held work that went straight into `data/museum-data.json` and
+was never synced back, so an import would have silently reverted both. **Written into
+`oov_data_new_edit_2.xlsx` on 2026-08-27** by `scratchpad/save-0729-0295.py`; the workbook now
+survives an import without losing either.
 
-| Record | What the import would destroy |
-|---|---|
-| `goetzmann0729` | The merged 0730→0729 description — four parallel languages, the amortisation schedule, the nine paying agents — roughly three times the length of the pre-merge text still in the sheet. Its `title`, `keywords`, `creator` and the "recto 0729, verso 0730" note go back too. |
-| `goetzmann0295` | The corrected figures. The sheet still says `No. 011666` / `100,000,000 lei`; the right values are `No. 011648` / `160,000,000 lei`, read off the master in commit `01be13c`. |
+| Row | Record | Cells written |
+|---|---|---|
+| 730 | `goetzmann0729` | `title`, `description`, `notes`, `keywords`, `creator` |
+| 296 | `goetzmann0295` | `notes` only |
 
-Repair both in the workbook, or re-apply them to the JSON immediately after the import. Everything
-else on this page is additive; these two are the only ones that lose existing work.
+**`0729` was losing four fields, not one.** The sheet held the 48-word pre-merge description against
+the JSON's 120-word merged version, blank `notes` and `keywords`, and a title carrying a serial
+against §5 of the style guide.
+
+⚠️ **Its `creator` was wrong too, which was not on any list.** The sheet read **"Kingdom of
+Bulgaria"** for a bond of 1907. The face is headed КНЯЖЕСТВО БЪЛГАРИЯ — **Principality** — verified
+from the image; Bulgaria did not become a kingdom until 1908. Corrected in the same pass.
+
+`0295`'s **description still differs from the JSON, and that is correct**: row 296 sits inside the
+user's edited block, so the sheet holds their 131-word rewrite and the import is meant to overwrite
+the JSON there. Only `notes` needed saving, and their description cell was not touched.
+
+The pre-write workbook is kept as `oov_data_new_edit_2.xlsx.bak-before-0729-0295`. The script works
+on a copy, verifies all 868 rows and 20 columns are untouched but for the intended cells, and only
+then swaps in — it refuses to run against an open workbook.
 
 ## Which workbook
 
