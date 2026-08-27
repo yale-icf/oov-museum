@@ -199,18 +199,49 @@ of the 450,000,000-tael indemnity. Sources: Spink lot CSS36000003, numistoria li
 
 ## 6. Contradictions inside the source descriptions
 
+### ✅ Rate and amount conflicts — all five resolved from the images
+
+Every one resolves **in the description's favour**. The transcriptions were wrong in all five, and
+in a consistent way: they dropped or garbled the figure rather than reading a different one. This
+is good evidence for the description-wins rule, and equally good evidence that a transcription
+should never be used to *correct* a description.
+
+| Record | Description | Transcription | The image says |
+|---|---|---|---|
+| `0636` | 6 per cent | 5 per cent | **"the £6 per Cent Government Loan"** — description right |
+| `0964` | 6.5% | 4.5% | **"six and one-half per cent (6½%)"** — description right |
+| `1021` | 6.25 per cent | 6% | **"metten Interesse van dien jegens 6¼"** — description right; the transcription dropped the fraction |
+| `0668` | total 85,412,400 | not found | **spelled out in words on the face**, with equivalents in five currencies — description right |
+| `0676` | total 310,498,000 | not found | **spelled out in words on the face**, likewise — description right |
+
+⚠️ **But `0636` carried three errors of its own that I had copied forward.** The old description said
+"bond No. 442, dated 17 February 1872 for £400". The certificate's own table reads **No. 2442,
+7th February 1872, £100**. All three corrected, and `identifiers` cleaned up with it. This is the
+risk I flagged at the outset — delete-and-modernize faithfully carries whatever is wrong in the
+source — and it is the only place so far it has actually bitten.
+
+**Facts the images added, now folded into the labels:**
+
+- `0964` — the issue is capped at **$1,300,000** outstanding, under an indenture of mortgage dated
+  **1 May 1925**, and it was printed by the **Hamilton Bank Note Co., New York**. The bond now
+  carries its date in the opening sentence, which it could not before.
+- `0676` — it is **Series A**, interest is paid **quarterly** (20 March, 19 June, 19 September,
+  20 December, old style) rather than half-yearly as my label implied, redemption runs **81 years**,
+  and it was payable at **eight** centres including New York.
+- `0668` and `0676` — serials **No. 097530** and **No. 579950** confirmed; a spurious "No. 38"
+  removed from `0668`.
+
+### Still open
+
 | Record | Problem |
 |---|---|
-| `0450` | Certificate dated **1 February 1853**, but the constituting deed before Maître Fould is **2 April 1853** — the share would predate the company's formation by two months. |
-| `0345` | `notes` say "principal due July 1876"; the docket reads **JULY 1893**, and the description agrees. Already in `PENDING_XLSX_FIXES.md`. |
-| `0584` / `0729` | Same 1907 loan, one titled "**Kingdom** of Bulgaria," the other "**Principality**." Bulgaria became a kingdom in 1908, so a 1907 loan is Principality-era. |
-| `0648` / `0665` / `0666` | Same 1892 Bulgarian loan under three different titles ("State Mortgage Loan," "Hypothecary State Loan," "Hypothecary State Loan Double"). |
-| `0636` | Description says 6 per cent, transcription says 5. `notes` independently support 6. |
-| `0964` | Description 6.5%, transcription 4.5%. `notes` support 6.5%. |
-| `1021` | Description 6.25 per cent, transcription 6%. |
-| `0668` | Description's 85,412,400 appears nowhere in the transcription. |
-| `0676` | Description's 310,498,000 appears nowhere in the transcription. |
-| `0398` | Transcription gives the printer as "Imp. F. Pano, **Paris**" on a warrant sealed at **London** under the English Companies Acts. Possibly misfiled. Not used. |
+| `0558` | Three candidate dates: `issueYear` and description say **1851**, the bond reads **"Emitido en junio de 1881"**, the decree text carries **1858–59**. Image-answerable, not yet done. |
+| `0450` | ✅ Resolved — the dateline reads "Premier Juin 1853", not February. |
+| `0345` | `notes` say "principal due July 1876"; the docket reads **JULY 1893**. Queued in PENDING_XLSX_FIXES.md. |
+| `0584` / `0729` | ✅ Resolved — genuinely different printings, Principality and Kingdom. |
+| `0648` / `0665` / `0666` | Same 1892 Bulgarian loan under three different titles. |
+| `0341` / `0342` | Identical titles for bonds under different acts. |
+| `0398` | ✅ Resolved — the Paris printer is real. |
 | `0903` | The two transcriptions give different printers for the same pair of Rostock bonds. Not used. |
 
 ## 7. Editorial asides in the public description field — swept, all already fixed
