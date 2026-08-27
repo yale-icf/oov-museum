@@ -36,14 +36,43 @@ or refuted from the image. Left as catalogued.
 
 ## goetzmann0295 — Banca Românească share
 
-Carried over from the earlier backlog; figures read off the 3872×6070 master in commit `01be13c`.
+Carried over from the earlier backlog: the sheet says `No. 011666` / `100,000,000 lei`, both
+wrong; the correct `No. 011648` / `160,000,000 lei` were read off the 3872×6070 master in commit
+`01be13c`. **Confirmed still outstanding in the workbook 2026-08-27.**
 
-| Field | Should be |
-|-------|-----------|
-| `notes` | `Banca Românească, 500 lei share No. 011648, Capital 160,000,000 lei, Bucharest 1920` |
+→ Folded into the row-296 replacement text in the next section, which fixes both figures and adds
+the dropped-variant marker in one cell. Use that text; do not apply this one separately.
 
-The sheet may still carry the wrong `No. 011666` and `100,000,000`. Check before assuming this
-one is still outstanding.
+---
+
+## Dropped-duplicate markers — rows 295, 296, 495
+
+Applied to `data/museum-data.json` 2026-08-27, but `notes` is Excel-backed, so these must land
+in the sheet or be re-applied after the next import.
+
+The collection already has a convention for this: the **kept** record's `notes` name the dropped
+id and the relationship (`goetzmann1027` → 1031, `goetzmann0729` → 0730). Two of the four dropped
+records were missing from it, and one was recorded backwards.
+
+**Row 296 — `goetzmann0295`** (kept). Also carries the two figure corrections queued above, so
+this one cell settles both. Replace with:
+
+> Banca Românească, 500 lei share No. 011648, Capital 160,000,000 lei, Bucharest 1920. A 1938 share from the same engraved plate — Emisiunea VIII-A, capital 350,000,000 lei — was catalogued as goetzmann0294 and dropped as a design variant on 2026-08-23; its scan, tiles and OCR text remain on disk.
+
+**Row 295 — `goetzmann0294`** (dropped, row kept for numbering). The cell has the right
+distinguishing facts but no marker. Append to what is already there:
+
+> [DUPLICATE — design variant struck from the same engraved plate as goetzmann0295, the 1920 issue kept on the website. Dropped from the website collection; row kept here to preserve numbering. 2026-08-23.]
+
+**Row 495 — `goetzmann0494`** (kept). ⚠️ This cell currently holds the *dropped* row's marker
+verbatim, so it reads "a poorer, faded copy of goetzmann0494" while sitting on 0494 — it claims
+the record is a copy of itself. Bleed from the 2026-07-17 notes-offset repair, which recovered
+0494's notes from the retained 0493 row and brought the marker along. Strip the bracketed marker
+and replace with:
+
+> C. Perpetual Mortgage Debenture No. 291, £100 at 3½% p.a. Liverpool Corn Trade Association, Ltd. Issue of £100,000. Capital £60,000 in 400 shares of £150. 8 Brunswick Street, Liverpool. Common Seal, June 1897. Secretary: Edward Graham. A poorer, faded copy of this same debenture was catalogued as goetzmann0493 and dropped from the website collection on 2026-07-15; its row is kept in the workbook to preserve numbering.
+
+Row 494 (`goetzmann0493`, the dropped one) is already correct — leave it alone.
 
 ---
 
