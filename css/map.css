@@ -13,6 +13,14 @@ body.map-page {
   min-height: 100vh;
 }
 
+/* The heading block was taking ~254px of an 800px viewport, leaving the map about
+   392px and cropping the world top and bottom. Tightened on this page only — the
+   collection and search pages keep the full-size treatment. Roughly 100px goes back
+   to the map. */
+body.map-page .cat-head { padding: 26px 56px 14px; }
+body.map-page .cat-head h1 { margin: 8px 0 0; font-size: 34px; }
+body.map-page .map-deck { margin: 10px 0 0; font-size: 15.5px; max-width: 620px; }
+
 #map-container {
   position: relative;
   z-index: 0;
