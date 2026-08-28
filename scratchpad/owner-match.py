@@ -35,6 +35,15 @@ if os.path.exists('~$' + BOOK):
 # "Emprunt industriel du gouvernement de la Republique Chinoise", "Kriegsanleihe". Each was
 # read against our title by eye on 2026-08-28 and is unmistakably the same object, so they
 # are admitted explicitly rather than by loosening the threshold for everything.
+# The four Beinecke provenance variants collapse to plain "Beinecke" -- user decision
+# 2026-08-28. Applied on read so this script is idempotent and cannot undo it.
+COLLAPSE = {
+    'Beinecke (Purchased by ICF transferred to Beinecke)': 'Beinecke',
+    'Part of DLJ Collection - Joint purchase with ICF/Beinecke': 'Beinecke',
+    'Joint ICF Beinecke Purchase': 'Beinecke',
+    'Purchased by ICF transferred to Beinecke in 2003': 'Beinecke',
+}
+
 VERIFIED_WEAK = {
     'goetzmann0218', 'goetzmann0226', 'goetzmann0314', 'goetzmann0324', 'goetzmann0343',
     'goetzmann0361', 'goetzmann0387', 'goetzmann0390', 'goetzmann0399', 'goetzmann0412',
@@ -75,9 +84,12 @@ for r in rows:
     k = str(f).strip()
     if not k.lower().startswith('goetzmann'):
         continue
-    rid = k[:-4] if k.lower().endswith('.jpg') else k
+    # ⚠️ 12 rows spell the id with a capital G ("Goetzmann0900"); lowercase the KEY,
+    # not just the filter, or those records silently miss out. Seven of ours did.
+    rid = (k[:-4] if k.lower().endswith('.jpg') else k).lower()
     # ten cells end in a stray " = ", a spreadsheet artifact, and five hold a lone space
     owner = re.sub(r'[\s=]+$', '', str(get(r, 'Owner') or '')).strip()
+    owner = COLLAPSE.get(owner, owner)
     src[rid] = {
         'owner': owner,
         'tok': tokens(get(r, 'Document Title'), get(r, 'Description')),
