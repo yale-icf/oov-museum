@@ -73,18 +73,20 @@ class as `0416`'s "Cadenet" for Cadenat, found only because the image was alread
 - `0685` — 1946 and 1916 are later transfer stamps; the transcription simply omits the
   issue date.
 
-## Still open — 6 records
+## ✅ All 27 worked — the last six, 2026-08-28
 
-Not yet image-checked:
+| Record | Outcome |
+|---|---|
+| `0432` | **Description right on all three dates.** The liquidator's stamp reads `special resolution passed on 27th April 1949` and `On 23th May 1952 a Winding-up Order was made`; the seal is `this 1st day of October 1912`. Transcription's 1940 and 1953 corrected. Its 1913 and 1908 are genuine — the French listing decree and the Companies (Consolidation) Act. |
+| `0558` | **No change.** The face reads `Sesta serie, Letra F, Número 548 · BONO DE 5.000 PS. · Gana 3 p%. desde 1.º de Enero de 1851`, exactly as described. The transcription's "Junio de 1881" is not on this leaf and was not acted on. |
+| `0602` | **Description right.** `as of the fifteenth day of July, One thousand nine hundred and twenty-two`, interest from July 15 1922. Transcription 1914 → 1922. |
+| `0613` | **Description right.** `Amsterdam, 8 December 18\|86`. Transcription 1890 → 1886. ⚠️ Its **1880 is genuine** — the Administratie-Kantoor's notice of December 1880 — and was left alone. |
+| `0683` | **Description wrong on the warrants**, right on rate, series and maturity. The footnote reads `ONE VOID AFTER DECEMBER 31, 1930, AND THE OTHER VOID AFTER DECEMBER 31, 1934`; the description said 1933. Its **notes described a different instrument entirely** — "7% Gold Debenture, Series A, Due January 1, 1949" against the plate's `TEN-YEAR 6% GOLD DEBENTURE, SERIES B, DUE JANUARY 1, 1940`. |
+| `1034` | **Description wrong by 23 years.** Signed `Middelburg den Eersten Januarij 1771`, not 1794 — corroborated twice over: the printed terms run interest from `primo January 1700 Een en Zeventig` (1771) with first due date 1772, and the coupon renewals endorsed on the sheet run in decades back from 1799, which lands on 1771 and cannot reach 1794. Its number is **No. 572**, not the No. 502 in notes and identifiers. `issueYear` 1794 → **1771**. |
 
-| Record | description | transcription |
-|---|---|---|
-| `0432` | 1912 / 1949 / 1952 | 1913 / 1908 / 1940 / 1953 |
-| `0558` | 1851 | 1881 / 1858 / 1859 |
-| `0602` | 1922 | 1914 |
-| `0613` | 1886 | 1880 / 1890 |
-| `0683` | 1930 / 1940 | 1946 / 1926 |
-| `1034` | 1794 | 1819–1848 (later coupon endorsements — may be no conflict) |
+**Remaining 13 conflicts are not date conflicts to chase:** 4 are checker false positives
+(`0218` `0622` `0685` `0954`), `0232` and `0558` are settled as no-change, and the rest are
+the serial and total conflicts, still open.
 
 ✅ **`0568` settled by the user 2026-08-27 — it is 1890.** The year is written **over** the
 printed "188…", which is why the strokes read as 1880, 1888 and 1890 at once. `issueYear`
