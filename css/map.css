@@ -13,13 +13,19 @@ body.map-page {
   min-height: 100vh;
 }
 
+/* ⚠️ .wrap carries `margin: 0 auto`. Once body.map-page became a flex column that
+   stopped centring a full-width block and started shrink-to-fitting the item, which
+   indented the heading away from the page's left edge. Force it full width so the
+   text sits on the same 56px margin as every other page. */
+body.map-page > .wrap { width: 100%; }
+
 /* The heading block was taking ~254px of an 800px viewport, leaving the map about
    392px and cropping the world top and bottom. Tightened on this page only — the
-   collection and search pages keep the full-size treatment. Roughly 100px goes back
-   to the map. */
-body.map-page .cat-head { padding: 26px 56px 14px; }
-body.map-page .cat-head h1 { margin: 8px 0 0; font-size: 34px; }
-body.map-page .map-deck { margin: 10px 0 0; font-size: 15.5px; max-width: 620px; }
+   collection and search pages keep the full-size treatment. The deck is given a wider
+   measure so it sets in two lines rather than three. */
+body.map-page .cat-head { padding: 18px 56px 10px; }
+body.map-page .cat-head h1 { margin: 6px 0 0; font-size: 30px; }
+body.map-page .map-deck { margin: 8px 0 0; font-size: 15px; line-height: 1.5; max-width: 900px; }
 
 #map-container {
   position: relative;
