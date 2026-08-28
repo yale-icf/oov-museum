@@ -6,15 +6,15 @@ keywords, owner, currency, language, issueYear, creator and **notes** from the s
 made directly in `data/museum-data.json` is silently reverted at the next import. Each of these
 has to land in the workbook — or be re-applied to the JSON immediately after an import.
 
-## goetzmann0416 — registered office is No. 5, not No. 1
+## ✅ DONE — goetzmann0416: registered office No. 5, and the printer is Cadenat
 
 Verified from the image 2026-08-27 (`scratchpad/reconstruct.js goetzmann0416`). The certificate
 reads **`SIÈGE SOCIAL: 5, Allées Paul-Riquet, BÉZIERS`**. Both the `description` and the `notes`
-say **1, Allées Paul Riquet**. Both fields are Excel-backed, so this needs the sheet.
+say **1, Allées Paul Riquet**. Both fields are Excel-backed, so both the sheet and the JSON were written 2026-08-27 by `scratchpad/fix-0416.py` (verified 0 collateral). A second error surfaced in the same check: the imprint reads **`LITH. CADENAT FRÈRES. BÉZIERS`**, where the description had written *Cadenet*.
 
 | Row | Field | Now | Should be |
 |---|---|---|---|
-| 417 | `description` | `…seated at 1, Allées Paul Riquet in Béziers…` | `…at 5, Allées Paul-Riquet…` |
+| 417 | `description` | `…at 1, Allées Paul Riquet…` · `Cadenet Frères` | `…at 5, Allées Paul-Riquet…` · `Cadenat Frères` |
 | 417 | `notes` | `…1, Allées Paul Riquet.` | `…5, Allées Paul-Riquet.` |
 
 ⚠️ **Do not remove this record as a poster.** It reads like one — a lavish Art Nouveau design with
