@@ -1,7 +1,37 @@
 /* ===== Map Page Layout ===== */
+/* The page is a full-height column — topbar, heading, map, footer — so the map takes
+   exactly the room the others leave and the page does not scroll. Before this the map
+   was a fixed calc(100vh - 62px) and the page ran ~260px long, so scrolling slid the
+   map underneath the sticky topbar; both are navy, so it read as the map sitting on
+   top of the nav. min-height keeps the map usable on short viewports, where the page
+   is allowed to scroll again.
+   z-index:0 makes the container its own stacking context, so Leaflet's panes (400)
+   and controls (800, and .map-controls at 1000) can never paint over the topbar (200). */
+body.map-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 #map-container {
   position: relative;
+  z-index: 0;
   height: calc(100vh - 62px);
+}
+
+body.map-page #map-container {
+  flex: 1 1 auto;
+  height: auto;
+  min-height: 380px;
+  /* #map is height:100%, which resolves to ZERO against a flex-auto parent — the map
+     silently disappears while its SVG paths stay in the DOM, so scripted checks still
+     pass. Make this a flex parent and let #map grow instead of measuring a percentage. */
+  display: flex;
+}
+
+body.map-page #map {
+  flex: 1 1 auto;
+  height: auto;
 }
 
 #map {
