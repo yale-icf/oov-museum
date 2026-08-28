@@ -29,6 +29,26 @@ function nums(s, re) {
   return out;
 }
 
+/* Conflicts investigated 2026-08-27/28 and found NOT to be errors. The checker
+ * cannot tell these apart on its own: it matches any "No." and any large number
+ * without knowing what the number is. Listed with the reason so a later run does
+ * not re-open a settled question. See docs/DATE_CONFLICTS.md. */
+const SETTLED = {
+  'goetzmann0668|total': 'transcription figures are the same total in other currencies',
+  'goetzmann0676|total': 'transcription figures are the same total in other currencies',
+  'goetzmann0218|year': 'description 1727 is the Ostend Co. suspension, historical context',
+  'goetzmann0232|year': 'transcription 1919 is genuine printed boilerplate, not the issue date',
+  'goetzmann0558|year': 'face reads "desde 1.º de Enero de 1851"; the 1881 is not on this leaf',
+  'goetzmann0622|year': '"No. 1869" is a serial, not a year',
+  'goetzmann0685|year': '1946 and 1916 are later transfer stamps',
+  'goetzmann0954|year': '"2000" is the $2,000 denomination',
+  'goetzmann0450|serial': 'description "No. 22" is a street address, Rue Caumartin',
+  'goetzmann0485|serial': 'a nominee register carries many numbers; No. 74 and No. 30 differ legitimately',
+  'goetzmann0509|serial': 'transcription "No. 1799" is a coupon range, not a serial',
+  'goetzmann0576|serial': 'description "No. 4131" is the Peruvian law authorising the loan',
+};
+const SHOW_SETTLED = process.argv.includes('--all');
+
 const rows = [];
 for (const r of recs) {
   const d = r.description || '', t = r.transcription || '';
@@ -56,6 +76,10 @@ for (const r of recs) {
   }
 }
 
+const suppressed = rows.filter(x => SETTLED[x[0] + '|' + x[1]] && !SHOW_SETTLED);
+const live = SHOW_SETTLED ? rows : rows.filter(x => !SETTLED[x[0] + '|' + x[1]]);
+rows.length = 0; rows.push(...live);
+
 const byKind = {};
 rows.forEach(x => (byKind[x[1]] = (byKind[x[1]] || []).concat([x])));   // concat([x]), not concat(x)
 for (const [kind, list] of Object.entries(byKind)) {
@@ -66,7 +90,8 @@ for (const [kind, list] of Object.entries(byKind)) {
   console.log('');
 }
 const ids = new Set(rows.map(x => x[0]));
-console.log(rows.length + ' conflicts across ' + ids.size + ' records, of ' + recs.length + '.');
+console.log(rows.length + ' unsettled conflict(s) across ' + ids.size + ' record(s), of ' + recs.length + '.');
+if (suppressed.length) console.log(suppressed.length + ' settled conflict(s) suppressed -- run with --all to see them.');
 fs.writeFileSync('scratchpad/conflict-flags.tsv',
   'id\tkind\tdescription\ttranscription\n' + rows.map(x => x.join('\t')).join('\n') + '\n');
 console.log('-> scratchpad/conflict-flags.tsv');

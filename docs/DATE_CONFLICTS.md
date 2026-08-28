@@ -1,4 +1,4 @@
-# Date conflicts — description vs transcription
+# Conflicts — description vs transcription
 
 `scratchpad/conflict-audit.js` compares each record's description against its
 transcription and reports where the two state a **different** value of the same kind.
@@ -84,9 +84,41 @@ class as `0416`'s "Cadenet" for Cadenat, found only because the image was alread
 | `0683` | **Description wrong on the warrants**, right on rate, series and maturity. The footnote reads `ONE VOID AFTER DECEMBER 31, 1930, AND THE OTHER VOID AFTER DECEMBER 31, 1934`; the description said 1933. Its **notes described a different instrument entirely** — "7% Gold Debenture, Series A, Due January 1, 1949" against the plate's `TEN-YEAR 6% GOLD DEBENTURE, SERIES B, DUE JANUARY 1, 1940`. |
 | `1034` | **Description wrong by 23 years.** Signed `Middelburg den Eersten Januarij 1771`, not 1794 — corroborated twice over: the printed terms run interest from `primo January 1700 Een en Zeventig` (1771) with first due date 1772, and the coupon renewals endorsed on the sheet run in decades back from 1799, which lands on 1771 and cannot reach 1794. Its number is **No. 572**, not the No. 502 in notes and identifiers. `issueYear` 1794 → **1771**. |
 
-**Remaining 13 conflicts are not date conflicts to chase:** 4 are checker false positives
-(`0218` `0622` `0685` `0954`), `0232` and `0558` are settled as no-change, and the rest are
-the serial and total conflicts, still open.
+## ✅ The serial and total conflicts — all 7 worked, 2026-08-28
+
+**Five were false positives.** The checker matches any "No." and any large number without
+knowing what the number is:
+
+- `0668`, `0676` — the transcription's huge figures are the **same total restated in other
+  currencies**, printed on the face: `310,498,000 gold rubles = 1,241,992,000 francs`
+  (exactly 4×) `= 1,003,529,536 marks`, and so on.
+- `0450` — the description's "No. 22" is a **street address**, Rue Caumartin No. 22. The share
+  number, No. 1,735, was already in identifiers.
+- `0576` — the description's "No. 4131" is the **Peruvian law** authorising the loan. The
+  bond's serial, No. 71547, was already in identifiers.
+- `0485` — a nominee register legitimately carries many numbers; No. 74 in the margin and
+  No. 30 in the list are different things. (Its transcription did misread that list entry as
+  No. 50; corrected.)
+
+**Two were real.**
+
+`goetzmann0509` — dated **1 January 1768, not 1760**, confirmed three ways: the signature
+reads `17` printed with a handwritten `68`; the printed terms run interest from `primo January
+1700 Agt en Zestig` (1768) with the first due date `Negen en Zestig` (1769); and the coupon
+renewals endorsed on the sheet run in decades back to 1769. `issueYear` 1760 → **1768**. Its
+notes were wrong twice more — bond **No. 90**, not No. 99, and **600 guilders courant**
+(`Zes Honderd Guldens Courant` on the sheet), not "~500 Livres". The description had both right.
+
+`goetzmann0375` — **description right.** The banner reads `EIGHT PER CENT FUND OF $1,500,000 /
+CREATED BY ACT OF CONGRESS FEB. 5TH 1840`, repeated on all ten coupons; the transcription's
+"$5,000,000" is wrong. The bond is **No. 1995** and identifiers was empty, so that was added.
+
+## The checker now suppresses settled conflicts
+
+Twelve conflicts are structural and would re-flag forever — a street address, a law number,
+currency equivalents. `conflict-audit.js` carries them in a `SETTLED` map with the reason for
+each, so a later run reports **0 unsettled conflicts** rather than re-opening closed questions.
+Run it with `--all` to see them again.
 
 ✅ **`0568` settled by the user 2026-08-27 — it is 1890.** The year is written **over** the
 printed "188…", which is why the strokes read as 1880, 1888 and 1890 at once. `issueYear`
