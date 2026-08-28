@@ -19,8 +19,10 @@ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
  console.log('external requests (non-font, non-leaflet):',[...new Set(ext)].length?[...new Set(ext)]:'none');
  // click a country that is in the collection
  const clicked=await t.evaluate(()=>{
+   // only the data layer uses the period colours; the land underlay is #2c3c60
+   const DATA=['#8b4513','#b8860b','#4682b4','#2c2c2c','#999999'];
    const p=[...document.querySelectorAll('.leaflet-overlay-pane path')]
-     .find(x=>{const f=x.getAttribute('fill')||''; return f && f.toLowerCase()!=='#d8d4cd';});
+     .find(x=>DATA.includes((x.getAttribute('fill')||'').toLowerCase()));
    if(!p) return null; p.dispatchEvent(new MouseEvent('click',{bubbles:true})); return p.getAttribute('fill');});
  await sleep(600);
  console.log('clicked a shaded country (fill '+clicked+'); popup:',
