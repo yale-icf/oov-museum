@@ -212,9 +212,10 @@ h1.head{margin:26px 0 0;font-family:'Spectral',serif;font-weight:400;
   padding-bottom:7px;margin-bottom:26px;border-bottom:2px solid var(--paper-line)}
 .browse-head .lbl{font-size:18px;letter-spacing:.1em;text-transform:uppercase;
   color:var(--oxblood);font-weight:800;line-height:1.15}
-.browse-head .more{font-size:12px;font-weight:700;color:var(--muted-cream);
-  background:none;border:none;padding:0;cursor:pointer;font-family:inherit}
-.browse-head .more:hover{color:var(--oxblood)}
+.browse-head .more{font-size:15.5px;font-weight:700;color:var(--oxblood);
+  background:none;border:none;padding:0;cursor:pointer;font-family:inherit;
+  letter-spacing:.01em;white-space:nowrap}
+.browse-head .more:hover{text-decoration:underline;text-underline-offset:3px}
 
 /* highlights */
 .browse-hl{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
