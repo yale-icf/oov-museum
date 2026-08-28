@@ -73,7 +73,7 @@ class as `0416`'s "Cadenet" for Cadenat, found only because the image was alread
 - `0685` — 1946 and 1916 are later transfer stamps; the transcription simply omits the
   issue date.
 
-## Still open — 7 records
+## Still open — 6 records
 
 Not yet image-checked:
 
@@ -81,14 +81,21 @@ Not yet image-checked:
 |---|---|---|
 | `0432` | 1912 / 1949 / 1952 | 1913 / 1908 / 1940 / 1953 |
 | `0558` | 1851 | 1881 / 1858 / 1859 |
-| `0568` | 1888 | 1880 |
 | `0602` | 1922 | 1914 |
 | `0613` | 1886 | 1880 / 1890 |
 | `0683` | 1930 / 1940 | 1946 / 1926 |
 | `1034` | 1794 | 1819–1848 (later coupon endorsements — may be no conflict) |
 
-⚠️ **`0568` was image-checked and could not be settled.** The Costa Rica Railway £100
-Second Debenture is sealed "the 28th day of February 18▨0", and the final digits are
-genuinely ambiguous in that hand — 1880, 1888 and 1890 all fit the strokes. The
-description says 1888, the transcription 1880. Worth noting the company's own
-registration date would settle it from outside the document.
+✅ **`0568` settled by the user 2026-08-27 — it is 1890.** The year is written **over** the
+printed "188…", which is why the strokes read as 1880, 1888 and 1890 at once. `issueYear`
+1888 → **1890**, sealed 28 February.
+
+Two further errors surfaced with the image open for that, neither on any list:
+
+- the plate reads `BEARING INTEREST AT THE RATE OF 6 PER CENT PER ANNUM`; the description and
+  notes both said **five** percent;
+- the imprint reads `DOHERTY & Cᵒ, 6, Gᵀ. NEWPORT ST, W.C.`; the description said **"Goertz &
+  Co., 57 W.C."** — wrong name and wrong address.
+
+A reminder that a date conflict is often just the thread that pulls: the record was wrong about
+its rate and its printer too, and neither would ever have been flagged by comparing years.
