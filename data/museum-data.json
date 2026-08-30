@@ -1,8 +1,8 @@
 [
   {
     "id": "goetzmann0001",
-    "title": "Austrian State Treasury Note for Five Thousand Crowns",
-    "description": "A Viennese bearer treasury note issued by the Austrian state in 1920 for 5,000 Kronen, this note is designated as tax-free and interest-bearing, with provisions for redemption by the state debt administration. The note's design reveals how the visual language of Art Nouveau had permeated the visual culture of the Viennese state. Issued in the immediate aftermath of World War I and the dissolution of the Habsburg Empire, this bond represents the new Austrian republic's efforts to raise capital during a period of severe economic instability and hyperinflation. This is further in conversation with the values of opulence, wealth, and extravagance espoused by the aesthetic values of Art Nouveau rippling throughout Europe at the time.",
+    "title": "Austrian Republic State Treasury Note",
+    "description": "An Austrian Republic state treasury note for 5,000 Kronen, dated at Vienna, 1 September 1920, and payable to the bearer. Issued under a law of 22 July 1920, it is tax-free and pays 6 percent interest half-yearly on 1 March and 1 September, running six years, callable at par by the holder on a quarter's notice and due no later than 1 September 1926. It is payable at the State Central Treasury in Vienna and entered in the ledger of the state debt. Twelve coupons are attached, the first due 1 March 1921; it is signed by the Secretary of State for Finance and the President of the State Court of Audit.",
     "file": "goetzmann0001.jpg",
     "type": [
       "Bond"
@@ -42,7 +42,7 @@
   {
     "id": "goetzmann0002",
     "title": "Burmese Government Bond",
-    "description": "This is a rare surviving example of financial documentation from wartime Burma, notable for its exclusive use of the indigenous script at a politically turbulent moment in Burmese history. A Burmese government bond written in native Burmese script, denominated Ten Kyat. The note's design speaks to the juxtaposition of Burmese script with European visual motifs, and the assertion of a uniquely post-colonial Burmese identity. Beneath the central vignette runs the national slogan, \"One Blood, One Voice, One Command,\" the rallying motto of Ba Maw's wartime State of Burma. The footer carries a date in the Burmese calendar — year 1305 (1943/44 CE) — when Burma operated as a nominally independent state under Japanese occupation, following decades of British colonial rule.",
+    "description": "A ten-kyat government savings certificate issued by the State of Burma, the nominally independent government under Ba Maw set up during the Japanese occupation, toward its independence fund. The text is Burmese throughout and payable to the bearer, and it is signed by the Minister of Finance. Beneath the central device runs the state motto, \"One Blood, One Voice, One Command.\" The foot carries a date in the Burmese era, year 1305, corresponding to 1943/44.",
     "file": "goetzmann0002.jpg",
     "type": [
       "Bond"
@@ -78,8 +78,8 @@
   },
   {
     "id": "goetzmann0003",
-    "title": "Internal State Loan for National Defense",
-    "description": "A Bulgarian government bearer bond for the 5% Internal State Loan of 1941, raised \"for the National Defense\" — 5,000 leva at 5% interest, issued through the Main Directorate of State and State-Guaranteed Debts. By 1941 Tsar Boris III's government had aligned Bulgaria with the Axis and needed to pay for mobilization, but sharply higher taxes risked resentment at home and heavy foreign borrowing would have strained the currency. Selling patriotic national-defense bonds to Bulgarians offered a third path: the state raised capital from its own citizens and promised repayment with interest rather than simply taxing them — turning private savings into war finance, and the people funding the war into its creditors.",
+    "title": "Bulgarian Internal State Loan for National Defense",
+    "description": "A 5,000-leva bearer bond of the Kingdom of Bulgaria's 5 percent Internal State Loan of 1941 for the national defense, issued through the Main Directorate of State and State-Guaranteed Debts. It pays 5 percent interest half-yearly against coupons on 15 January and 15 July, the first due 15 July 1942, and is redeemed over fifteen years by twice-yearly drawings by lot, with coupons and drawn bonds paid by the Bulgarian National Bank. It is authorized by a law of 24 May 1941 and dated at Sofia, 15 December 1941, signed by the Main Director of State Debts and the Minister of Finance.",
     "file": "goetzmann0003.jpg",
     "type": [
       "Bond"
@@ -117,7 +117,7 @@
   },
   {
     "id": "goetzmann0079",
-    "title": "Pasquin's Windkaart: Dutch Satirical Playing Cards on the 1720 Windhandel",
+    "title": "Pasquin's Windkaart: Dutch Satirical Playing Cards",
     "description": "A set of fifty-five satirical playing cards, Pasquin's Wind-Card, from the Dutch compilation Het Groote Tafereel der Dwaasheid (\"The Great Mirror of Folly\"). The cards mock the windhandel, the speculative \"wind trade\" in company shares that gripped the Dutch Republic in 1720, each pairing an engraved figure with a Dutch verse that caricatures the speculators and promoters of the bubble. The King of Spades, for instance, shows a periwigged gentleman holding a balance in which a spade and a sheet of paper outweigh a purse of gold, paper wealth made absurdly heavier than real coin. As an object of shared play, the deck shows that financial satire reached beyond the elite forms of pamphlet and essay, traveling through cheap everyday print and the sociable spaces of taverns, coffeehouses, and parlors, where people handled cards and traded opinions.",
     "file": "goetzmann0079.jpg",
     "type": [
@@ -377,7 +377,7 @@
   {
     "id": "goetzmann0179",
     "title": "French Royal Tontine Certificate",
-    "description": "A subscription certificate to the tenth royal tontine of France, created by royal edict in December 1759 and entered here in the eighth class. Combining engraved wording with a clerk's hand, it records that Jean Marie Joseph François Gueneau de Vauzette, a townsman of Nevers, has paid two hundred livres for a share whose annuity depends on the life of Victoire Sophie de Noailles, aged seventy-one. Joseph Micault d'Harvelay, Keeper of the Royal Treasury, issued it, and the annuity falls due twice a year. Tontines like this were a favored borrowing tool of the crown under Louis XV. Subscribers were pooled into age-classes and drew annuities that grew as fellow members died, with the last survivor inheriting the whole, so the monarchy financed itself through wagers on longevity.",
+    "description": "A treasury receipt for one share in the tenth royal tontine of France, created by edict of December 1759 and taken here in the eighth class. A tontine is a state loan whose subscribers, grouped by age, draw life annuities that pass to the survivors of their age-class as members die. Issued by Joseph Micault d'Harvelay, Keeper of the Royal Treasury, it acknowledges that a townsman of Nevers has paid 200 livres for a life annuity of 24 livres, beginning 1 January 1760 and charged on the revenues of the royal post farm and the aides and salt tax. The annuity runs on the life of Marie Victoire Sophie de Noailles, Countess of Toulouse, then aged seventy-one, widow of the Count of Toulouse. It is dated at Paris in 1760 and drawn before the notary De May.",
     "file": "goetzmann0179.jpg",
     "type": [
       "Tontine"
@@ -424,7 +424,7 @@
   {
     "id": "goetzmann0181",
     "title": "Continental Lottery Subscriber List",
-    "description": "A manuscript subscriber list with an accompanying letter for the United States (Continental) Lottery, kept by William Holliday, the lottery's agent at Winchester, Virginia, and sent on to James Searle, one of Congress's lottery managers in Philadelphia. In a tight column the sheets record each purchaser by name, the number of tickets taken, and their ticket numbers, all under the prefix \"No 52,\" running to one hundred tickets at ten dollars each, a sum the agent totals in sterling as £375. A covering letter of 24 July 1777 remits one thousand dollars by the hand of Samuel Gilkeson. Congress ran the lottery to help pay for the Revolutionary War, and the densely filled sheet shows how briskly tickets sold in the Virginia backcountry, where buying one joined a popular flutter to the work of the cause.",
+    "description": "A manuscript subscriber list for the United States Lottery, the national lottery run by the Continental Congress, whose tickets sold at ten dollars each. In one clerk's hand it records each purchaser by name, the number of tickets taken, and the ticket numbers, all entered under the prefix \"No. 52,\" with holdings running from one ticket to ten. At the foot the count is carried forward, eighty tickets \"carried over\" to a continuation sheet. Page 1 of 3.",
     "file": "goetzmann0181.jpg",
     "type": [
       "Register"
@@ -477,7 +477,7 @@
   {
     "id": "goetzmann0184",
     "title": "Continental Lottery Ticket Sales List",
-    "description": "A handwritten account drawn up by Robert Traill, a local agent at Easton, Pennsylvania, recording his sales for the United States Lottery, \"Class the Second.\" Congress authorized the lottery in 1776 to raise funds for the Revolutionary War, releasing it in successive classes through agents who carried tickets into country towns and sent the proceeds back to the commissioners in Philadelphia. The sheet lists the numbers of twenty-five tickets sold at twenty dollars each and tallies the return at five hundred dollars. Traill dated it December 27, 1778, and signed it, and it documents the mechanics of Revolutionary War finance at its smallest scale, where the new nation raised its credit one ticket at a time through a chain of named local agents.",
+    "description": "A manuscript list of tickets sold for the United States Lottery, the national lottery run by the Continental Congress, here in its second class, for which tickets sell at twenty dollars each. Headed as the list of Robert Traill of Easton, Pennsylvania, it sets out the numbers of the twenty-five tickets he sold, under the prefix \"No. 90,\" and tallies the return at five hundred dollars. It is dated at Easton, 27 December 1778, and signed by Traill.",
     "file": "goetzmann0184.jpg",
     "type": [
       "Register"
@@ -623,8 +623,8 @@
   },
   {
     "id": "goetzmann0191",
-    "title": "The Decline and Fall of the English System of Finance",
-    "description": "Thomas Paine's pamphlet \"The Decline and Fall of the English System of Finance,\" written in Paris in 1796 and reprinted in Philadelphia the same year by John Page for Benjamin Franklin Bache. Paine argues that Britain's national debt and its paper bank notes, no longer convertible to gold, are heading toward collapse on a fixed and calculable path: each war piles a new layer of debt and paper onto the last, driving down the value of the currency until the government can no longer pay in coin and the whole system ends in bankruptcy. Drawing on Adam Smith and the costs of successive wars, he forecasts the failure of the Bank of England and sets the French and English systems against each other. A convention speech on the constitution and the Declaration of Rights is appended. Paine's timing looked briefly prophetic when the Bank suspended cash payments in 1797, but his larger forecast failed: the English funding system did not collapse, and went on to finance decades more of war.",
+    "title": "The Decline and Fall of the English System of Finance by Thomas Paine",
+    "description": "The outer title leaf of Thomas Paine's pamphlet \"The Decline and Fall of the English System of Finance.\" Page 1 of 23.",
     "file": "goetzmann0191.jpg",
     "type": [
       "Pamphlet"
@@ -756,7 +756,7 @@
   {
     "id": "goetzmann0214",
     "title": "Proposed Lottery Scheme, London",
-    "description": "A printed broadside by Jacob Henriques of London, dated April 1753, proposing a lottery of 100,000 tickets at four pounds each, drawn by sets of four figures so that 25,000 numbers decide the outcome. The scheme lays out a graded table of prizes, from twelve thousand small payouts of £10 up to four grand prizes of £10,000, together 15,272 prizes worth £394,000, with a further £6,000 set aside for the first and last tickets drawn. Henriques makes a selling point of the odds, only about five and a half losing tickets for every prize. Twelve percent would be taken from the winnings, paid in cash or government annuities, which Henriques said would go toward reducing the national debt. That public benefit was the pitch by which Henriques, one of many private schemers of the age, sought Parliament's approval for his plan.",
+    "description": "A printed broadside in which Jacob Henriques of London sets out a proposed lottery, dated April 1753. The scheme offers 100,000 tickets at four pounds each, paid one pound down and one pound a month, raising £400,000, and drawn in sets of four numbers so that 25,000 draws settle the whole. A graded table runs from twelve thousand prizes of £10 up to four of £10,000, 15,272 prizes in all worth £394,000, with a further £6,000 for the first and last tickets drawn. Twelve percent is to be deducted from the prizes, payable in cash or in 3 percent annuities, which Henriques proposes be applied to reducing the national debt.",
     "file": "goetzmann0214.jpg",
     "type": [
       "Prospectus"
@@ -5926,8 +5926,8 @@
   },
   {
     "id": "goetzmann0215",
-    "title": "United States (Continental) Lottery Ticket, Philadelphia",
-    "description": "A printed bearer ticket for the United States Lottery, marked \"CLASS the FIRST,\" entitling its holder to receive whatever prize was drawn against its number under a resolution of Congress passed at Philadelphia on November 18, 1776. The lottery manager D. Jackson signed it by hand. The Continental Congress created the lottery by that resolution to help pay for the Revolutionary War, running it in successive classes of tickets that promised cash prizes drawn by lot. Because whoever held the ticket could claim its prize, it worked much like a public subscription, turning the patriotic gamble of ordinary buyers into wartime revenue for the government.",
+    "title": "United States Lottery Ticket, Philadelphia",
+    "description": "A printed bearer ticket for the United States Lottery, the national lottery of the Continental Congress, here in its first class. It entitles the bearer to receive whatever prize is drawn against its number, under a resolution of Congress passed at Philadelphia on 18 November 1776. It is signed by hand by one of the lottery's managers, D. Jackson.",
     "file": "goetzmann0215.jpg",
     "type": [
       "Lottery Bond"
@@ -5966,7 +5966,7 @@
   {
     "id": "goetzmann0216",
     "title": "South Sea Annuities Dividend Warrant",
-    "description": "A printed dividend warrant, filled in by hand, issued at South Sea House on April 30, 1730. It authorizes payment of half a year's annuity to a named holder out of the South Sea Annuities, the fund Parliament created when it split the company's capital in two and converted one half into annuities for the company's members. The warrant fixes the holding at a 4 percent rate, due at the quarter day, with a printed instruction to sign a receipt on the back. The company's officers authorized it, and it documents the routine servicing of the South Sea Company's reorganized debts in the decade after the Bubble.",
+    "description": "A printed dividend warrant, completed by hand, issued at South Sea House on 30 April 1730. It orders the company's cashier, Conrade de Gols, to pay a named annuitant half a year's annuity on his holding in the South Sea Annuities, the fund Parliament created under an act of 1723 by dividing the South Sea Company's capital in two and converting one half into annuities. The annuity runs at 4 percent, and the half-year, due at the March quarter day, comes to sixteen pounds eight shillings on a holding of £820. The annuitant is directed to sign a discharge on the back, and it is signed by the company's officers. Page 1 of 2.",
     "file": "goetzmann0216.jpg",
     "type": [
       "Bond"
@@ -6016,8 +6016,8 @@
   },
   {
     "id": "goetzmann0218",
-    "title": "Antwerp Exchange Obligation, Generale Keyserlyke Indische Compagnie",
-    "description": "A Dutch obligation, printed and completed by hand, issued at Antwerp Exchange. It records a forward contract for shares in the Imperial Ostend Company, chartered under Habsburg authority. The signer, acting as a profit-agent, binds himself and his goods to deliver and pay for the shares on an appointed day of transfer against a cash premium, and the contract sets terms for repaying legitimate costs, paying dividends, and answering for any failure to deliver. An engraved Imperial coat of arms crowns the sheet, a mark of the Habsburg charter under which the company traded with the Indies until diplomatic pressure forced its suspension in 1727.",
+    "title": "Antwerp Exchange Obligation",
+    "description": "A printed time-bargain dated at Antwerp, 12 April 1730, in shares of the General Imperial India Company (Ostend Company). The writer promises to hand over six of the company's shares to the buyer, or whomever is named, whenever the contract is presented up to 1 October 1730. The buyer must repay what has already been paid in on them plus a further 420 pounds, a premium of 42 percent above their face value. If the buyer does not call for the shares by that date, the contract lapses and the writer keeps the premium. It is arranged through a broker and later passed to another party without guarantee. The company trades under an imperial charter suspended since 1727. Page 1 of 1.",
     "file": "goetzmann0218.jpg",
     "type": [
       "Bond"
@@ -6062,7 +6062,7 @@
   {
     "id": "goetzmann0220",
     "title": "Alexander Hamilton Treasury Circular on Subscription of State Debt Certificates",
-    "description": "A manuscript circular headed \"Treasury Department Oct. 13. 1790\" and signed \"A. Hamilton,\" carrying a ruling from the Secretary of the Treasury to the commissioners of loans. Hamilton reports that one commissioner had read the law narrowly, supposing that certificates of state debt could not be subscribed to the new federal loans unless they expressly stated they were issued for services or supplies toward the late war. Hamilton rejects that reading: it would exclude every certificate that merely acknowledges a sum due, along with all certificates for money loaned to the states, which was not the law's intent. Where a certificate appears, from its wording or from public records, to have been issued for wartime expenditures and the defense of the United States, the commissioners are to accept it. Written as the federal government took on the states' debts under the Funding Act of 1790, the letter shows Hamilton settling, case by case, the eligibility rules that would fold scattered state obligations into a single funded federal debt.",
+    "description": "A manuscript Treasury circular dated 13 October 1790, signed by Alexander Hamilton as Secretary of the Treasury and addressed to the commissioners of loans. Hamilton rejects one commissioner's reading of the funding law of 4 August 1790, that state-debt certificates could be subscribed to the new federal loan only if they expressly stated they were issued for war services or supplies. Such a reading would wrongly shut out certificates that merely acknowledge a debt and those for money loaned to the states. Where a certificate does not appear, by its wording or any public record, to have been issued for some purpose other than the war, the commissioners are to receive it into the loan.",
     "file": "goetzmann0220.jpg",
     "type": [
       "Correspondence"
@@ -6101,7 +6101,7 @@
   {
     "id": "goetzmann0221",
     "title": "Massachusetts Bills of Exchange Schedule",
-    "description": "A handwritten accounting schedule headed \"Massachusetts,\" listing bills of exchange drawn for that state and signed at Philadelphia on September 22, 1778 by Thomas Hopkinson of the loan office. Ten denominations from $12 to $1,200 are set against the number of sets and their running serial ranges, each row giving its amount in dollars, and the columns total 1,803 sets worth $93,000. The Continental Congress produced records like this as part of its wartime effort to fund the war through loan-office certificates and bills payable abroad, and the schedule captures the fine-grained bookkeeping by which the states' shares of a common debt were divided up, denomination by denomination, before the bills entered circulation.",
+    "description": "A Massachusetts bill of exchange schedule dated at Philadelphia, 22 September 1778, and signed by Francis Hopkinson as Treasurer of Loans. It sets ten denominations, from$12 to $1,200, against the number of sets and their running serial ranges, footing to 1,803 sets and $93,000. Page 1 of 2.",
     "file": "goetzmann0221.jpg",
     "type": [
       "Register"
@@ -6149,7 +6149,7 @@
   },
   {
     "id": "goetzmann0223",
-    "title": "Rowley, Massachusetts Selectmen's Fine Warrant",
+    "title": "Massachusetts Selectmen's Fine Warrant",
     "description": "A handwritten warrant of the selectmen of Rowley, Massachusetts, dated August 15, 1782, directing Constable Samuel Searl to collect from each person on the attached list his share of the fine levied on the town's Sixth Class \"for not procuring a man to Serve in the Continental Army.\" Five selectmen signed it: Thomas Mighill, Daniel Spofford, Joseph Poor, Joshua Pickard, and Isaac Smith. The warrant reflects a Massachusetts wartime practice under which a town's men were sorted into classes, each class bound either to furnish a soldier or to pay an assessment in place of service. Here the fine falls on the class as a whole, divided among its members, rather than on any single man who failed to serve.",
     "file": "goetzmann0223.jpg",
     "type": [
@@ -6328,7 +6328,7 @@
   },
   {
     "id": "goetzmann0230",
-    "title": "Kingdom of Greece Guaranteed Gold Loan Bond, Athens",
+    "title": "Kingdom of Greece Gold Loan Bond",
     "description": "A bearer bond of the Kingdom of Greece, issued for its gold-guaranteed loan of 1898, with a face value of 2,500 gold drachmas and a coupon of 2½ percent. Printed in Athens and authenticated in London, it carries the signature of the Greek Minister of Finance and a countersignature for the Bank of England, which served as the loan's paying agent. The loan followed a run of disasters for Greek public finance: a default on the national debt in 1893, then defeat in the 1897 war with the Ottoman Empire. In response, Greece's finances were placed under an International Financial Commission, and the loan was floated under the joint guarantee of France, Britain, and Russia. That guarantee is the document's real subject. It is what let Greece borrow at a coupon as low as 2½ percent, and it is why the bond, for all the Hellenic splendor of its engraved frame and royal arms, records a treasury placed under outside control.",
     "file": "goetzmann0230.jpg",
     "type": [
@@ -6368,7 +6368,7 @@
   },
   {
     "id": "goetzmann0231",
-    "title": "Romania National Defense Fund Army Equipment Bond (Bon pentru Înzestrarea Armatei), Bucharest",
+    "title": "Romania National Defense Fund Army Equipment Bond",
     "description": "A four percent bond of 500 lei issued in 1940 by Romania's Autonomous Administration of the National Defense Fund, under the title \"Bond for the Equipping of the Army.\" Authorized by the Council of Ministers in February 1940, it was to be repaid at full value on March 1, 1945, and its principal and interest were exempted from every present and future tax, due, and state or local levy, a sweetener meant to draw subscribers to an urgent cause. Romania issued it at Bucharest to fund a rushed rearmament drive as the kingdom braced against mounting pressure on its borders. Within months that pressure took concrete form: Romania lost Bessarabia to the Soviet Union and northern Transylvania to Hungary, ceding both without the fight the bond was raising money to prepare for. The certificate is a deliberate showpiece, designed by the painter Gheorghe Chirovici in an emphatically national style: folk-revival interlace and grapevine borders, the royal arms beneath a crown, and three vignettes of a gun crew, a tank, and a military aircraft, picturing the modernization of the three services the loan was meant to equip.",
     "file": "goetzmann0231.jpg",
     "type": [
@@ -6408,7 +6408,7 @@
   },
   {
     "id": "goetzmann0232",
-    "title": "American & British Securities Company Common Stock Certificate, Delaware",
+    "title": "American & British Securities Company Common Stock Certificate",
     "description": "A share certificate for one hundred shares of common stock in the American & British Securities Company, a corporation organized under the laws of Delaware. The shares are issued \"without nominal or par value,\" a form still relatively new in 1923 that the printed text takes care to explain, and the face is overprinted with the word COMMON in bold red, set diagonally to distinguish it from the company's preferred stock. The certificate sets out the basic terms of that two-class structure: each share, common or preferred, carries one vote at stockholders' meetings, while preferred holders take priority in dividends. Dated 1923 and signed by its president and secretary, it belongs to the wave of Anglo-American investment holding companies chartered after the First World War, when Delaware's permissive corporate law and the tightening financial ties between London and New York encouraged such vehicles. Its restrained steel-engraved border follows the conventional banknote manner, signaling security and probity rather than any particular artistic aim.",
     "file": "goetzmann0232.jpg",
     "type": [
@@ -6447,7 +6447,7 @@
   },
   {
     "id": "goetzmann0233",
-    "title": "American Sugar Company Cumulative Preferred Stock Certificate, Delaware",
+    "title": "American Sugar Company Cumulative Preferred Stock Certificate",
     "description": "An engraved certificate for twenty fully paid shares of the 5.44 percent cumulative preferred stock of the American Sugar Company, a Delaware corporation, each share carrying a par value of $12.50. Printed in brown around a steel-engraved central vignette and dated November 6, 1967, it is registered to the brokerage house Shearson Hammill & Co., with Manufacturers Hanover Trust Company as registrar and First National City Bank as transfer agent, and signed by treasurer R. R. Williams and president L. F. Oliver. The fixed cumulative dividend marks it as a senior, income-oriented holding, while its low par value and \"certificate for less than 100 shares\" notation reflect the postwar spread of share ownership among many small holders. The central vignette gathers three idealized classical figures amid a globe, instruments, and emblems of industry and harvest, personifying commerce, industry, and agriculture in the Beaux-Arts manner conventional to American security engraving, and lending the sugar-refining business the dignity of classical allegory.",
     "file": "goetzmann0233.jpg",
     "type": [
@@ -6486,7 +6486,7 @@
   },
   {
     "id": "goetzmann0234",
-    "title": "American Trust Company Capital Stock Certificate (Boston)",
+    "title": "American Trust Company Capital Stock Certificate",
     "description": "An engraved capital-stock certificate of the American Trust Company, a Massachusetts corporation chartered in 1881, certifying that Harriette S. Foster holds nine shares of the company's stock at $100 par value each, transferable on the company's books upon surrender of the certificate. Issued at Boston and dated January 14, 1915, it is printed in green over a tinted security ground, with a red diagonal overprint, \"NOT OVER NINE SHARES,\" guarding a small holding against fraudulent alteration. A later red overprint records the final distribution made when the company was afterward liquidated. The certificate reflects the fiduciary banking that flourished in Boston around the turn of the twentieth century, when trust companies pooled deposits and administered estates. Its engraved eagle signals national solidity and commercial confidence in the manner of the period's financial engraving, the work of the American Bank Note Company.",
     "file": "goetzmann0234.jpg",
     "type": [
@@ -6525,7 +6525,7 @@
   },
   {
     "id": "goetzmann0235",
-    "title": "Anglo-Argentine Tramways Company Debenture Stock Certificate (reverse), London",
+    "title": "Anglo-Argentine Tramways Company Debenture Stock Certificate",
     "description": "The reverse of a £20 five-percent debenture stock certificate of the Anglo-Argentine Tramways Company Limited, a British-registered firm that ran the tramway network of Buenos Aires. Printed in red, it carries a dense extract from the trust deed of June 15, 1910, setting out the conditions of the stock and the trustees' powers, followed by a Certificate of the Registration of a Mortgage or Charge under the Companies (Consolidation) Act of 1908. That certificate records the charge securing the company's entire £1,500,000 debenture issue, registered at London on June 20, 1910 and signed by F. Atterbury, Registrar of Joint Stock Companies. Together they document the legal machinery behind Edwardian Britain's export of capital to South American infrastructure: a loan floated in London, secured by mortgage against tramway assets an ocean away.",
     "file": "goetzmann0235.jpg",
     "type": [
@@ -6563,7 +6563,7 @@
   },
   {
     "id": "goetzmann0236",
-    "title": "Act of Parliament, 8 George I (1722): paying off Exchequer Bills and ease to the South-Sea Company",
+    "title": "Acts of Parliament: South-Sea Company",
     "description": "A printed Act of the Parliament of Great Britain from the eighth year of the reign of George I, printed at London in 1722 by John Baskett, the King's Printer. An act for paying off and canceling one million pounds of Exchequer Bills and for \"giving ease\" to the South Sea Company, it ranks among the principal financial measures enacted after the collapse of the South Sea scheme in 1720. Its many clauses reach across the whole business of the state: they provide for exchanging Exchequer Bills against the Sinking Fund, regulate the dealings of the South Sea and East India Companies, charge the South Sea Company with annuities, set penalties for counterfeiting bills, and appropriate supplies for the army, navy, garrisons, and Chelsea Hospital. Others range further still, granting debentures to the planters of Nevis and St. Christopher and laying new duties on imported apples and pictures. The royal arms and King's Printer imprint mark it as an official statute of the realm.",
     "file": "goetzmann0236.jpg",
     "type": [
@@ -7060,7 +7060,7 @@
   },
   {
     "id": "goetzmann0298",
-    "title": "Bank Małopolski Share Certificate, Kraków",
+    "title": "Bank Małopolski Share Certificate",
     "description": "A joint-stock share certificate of Bank Małopolski, a Kraków bank serving the region of former Austrian Galicia, newly absorbed into the reconstituted Polish Republic. It represents twenty-five shares, dated Kraków, December 15, 1920. Each share carries a doubled denomination — 400 Austrian koron, rendered also as 280 Polish marks — a small record of the unfinished currency unification of a state stitched together from three partitioning empires, with the old Austrian crown still serving as the unit of account beside the new Polish mark. The certificate's later life is stamped across its face: subscription-right endorsements of 1922 and 1923, and an overprint revaluing the shares from 280 to 1,000 marks in 1924, as galloping inflation forced the nominal value upward.",
     "file": "goetzmann0298.jpg",
     "type": [
@@ -7097,7 +7097,7 @@
   },
   {
     "id": "goetzmann0299",
-    "title": "Siberian Commercial Bank, Dividend Coupon Sheet",
+    "title": "Siberian Commercial Bank Dividend Coupon Sheet",
     "description": "A sheet of five dividend coupons of the Siberian Commercial Bank, one of the leading joint-stock banks of the late Russian Empire. Each coupon entitled the holder of two shares to collect a year's dividend, running in sequence from 1917 through 1921. The coupons were printed before the revolution, for dividends reaching years into the future. But the sequence begins in 1917: after the Bolsheviks nationalized the banks that December, dividends for these years were never paid, and the sheet survives uncut and unredeemed. What was meant to be a schedule of future income became a record of income the revolution erased.",
     "file": "goetzmann0299.jpg",
     "type": [
@@ -7134,7 +7134,7 @@
   },
   {
     "id": "goetzmann0300",
-    "title": "St. Petersburg Private Commercial Bank Share, St. Petersburg",
+    "title": "St. Petersburg Private Commercial Bank Share",
     "description": "A bearer share for 200 rubles in the St. Petersburg Private Commercial Bank, issued at St. Petersburg in 1911. The certificate records a joint-stock capital of 20,000,000 rubles divided into 100,000 shares, and cites the imperial confirmation of the bank's charter in 1864. Its text runs in four languages — Russian and French in the body, English and German down the borders — addressing both domestic holders and the Western European markets on which Russian banks drew, at the height of the empire's pre-war industrial boom. A sheet of dividend coupons survives attached at the left, and there the object tells a second story: the coupons run from 1914 through 1920, and those past 1917 remain uncut, dividends that went unpaid after the revolution nationalized the banks.",
     "file": "goetzmann0300.jpg",
     "type": [
@@ -7173,7 +7173,7 @@
   },
   {
     "id": "goetzmann0301",
-    "title": "Sofiyska Banka (Banque de Sofia) Share Certificate",
+    "title": "Sofiyska Banka Share Certificate",
     "description": "A bearer share of one hundred gold leva in the Banque de Sofia, a Bulgarian joint-stock bank in the capital, dated at Sofia in 1917. Printed in parallel Bulgarian and French, the certificate entitles its holder to a proportional share of the bank's capital and profits under its statutes. The share is denominated in gold leva, the gold standard unit of account, rather than in paper currency. The engraved vignette shows Mercury, the classical god of commerce, with his caduceus beside a shield bearing the bank's monogram. It was printed by the German security firm Giesecke & Devrient.",
     "file": "goetzmann0301.jpg",
     "type": [
@@ -7212,7 +7212,7 @@
   },
   {
     "id": "goetzmann0302",
-    "title": "Banque Industrielle de Chine (中法實業銀行) Share, Paris",
+    "title": "Banque Industrielle de Chine Share",
     "description": "An ordinary bearer share, fully paid, of 500 francs in the Banque Industrielle de Chine, the Sino-French Industrial Bank, a joint-stock company seated in Paris under statutes of March 15, 1913. The certificate records a capital of 45,000,000 francs in 90,000 shares, of which 87,000 were ordinary and 3,000 founders' shares, with a marginal overprint noting a later increase of capital. The bank was established to channel French investment into Chinese commerce and industry, and the engraving advertises that purpose: dragons, a temple in the manner of Beijing's Hall of Prayer for Good Harvests, and guardian lions frame a city panorama, binding Parisian capital to its image of China. The bank suspended payments in a much-publicized failure in 1921, an event that caused heavy losses to its many French shareholders.",
     "file": "goetzmann0302.jpg",
     "type": [
@@ -7291,7 +7291,7 @@
   },
   {
     "id": "goetzmann0304",
-    "title": "Beate Uhse Aktiengesellschaft, 1 Euro Share",
+    "title": "Beate Uhse Aktiengesellschaft Share",
     "description": "A registered share of one euro par value in Beate Uhse Aktiengesellschaft, issued at Flensburg in May 1999. The company, a German retailer of erotic goods founded in the postwar years by Beate Uhse, went public on the Frankfurt exchange in 1999, and this certificate marks that flotation — a widely noted moment, as one of the first companies in that trade to enter the public capital markets. The design is unusual for a security: where share certificates conventionally use engraved allegory and ornament to project dignity and trust, this one carries imagery drawn directly from the company's business, openly advertising the issuer rather than dressing its trade in the usual respectable symbolism. It was printed by the German security firm Giesecke & Devrient.",
     "file": "goetzmann0304.jpg",
     "type": [
@@ -7649,7 +7649,7 @@
   },
   {
     "id": "goetzmann0312",
-    "title": "Central Trust Company Stock Certificate, Cambridge, Massachusetts",
+    "title": "Central Trust Company Stock Certificate",
     "description": "A certificate for one thousand and thirty shares of common stock, $100 par value each, in the Central Trust Company of Cambridge, Massachusetts, a state-chartered trust company with a capital stock of $1,500,000. It was issued to Edgar R. Champlin and dated July 16, 1929, about three months before the October stock market crash. Trust companies of this kind combined deposit banking with fiduciary and investment work — a combination that left many of them exposed in the Depression that followed, as asset values fell and depositors withdrew their money.",
     "file": "goetzmann0312.jpg",
     "type": [
@@ -7809,7 +7809,7 @@
   },
   {
     "id": "goetzmann0316",
-    "title": "Chicago, Rock Island & Pacific Rail Road Company Mortgage Bond, Chicago",
+    "title": "Chicago, Rock Island & Pacific Rail Road Company Mortgage Bond",
     "description": "A $5,000 mortgage bond of the Chicago, Rock Island & Pacific Rail Road Company, bearing 6 percent interest payable twice a year, with the principal due July 1, 1917. It was one of a series limited to $12,500,000, secured by a deed of trust of May 1, 1877, with the United States Trust Company of New York as trustee, on the company's main line from Chicago across Illinois and Iowa to Council Bluffs, together with two branch lines. Issued to help finance a western trunk railroad in the years after the financial panic of 1873, the bond was written to run four decades but was redeemed early: it is stamped cancelled in 1881.",
     "file": "goetzmann0316.jpg",
     "type": [
@@ -7924,7 +7924,7 @@
   },
   {
     "id": "goetzmann0319",
-    "title": "Gouvernement Général de l'Indo-Chine Obligation, Paris",
+    "title": "Gouvernement Général de l'Indo-Chine Obligation",
     "description": "A 500-franc bearer bond of the Government-General of Indochina, issued under the French Republic at Paris on August 5, 1902, as part of a 200-million-franc loan authorized in 1898 to build railways in French Indochina. It paid 3 percent interest, was to be repaid over 75 years, and, as its terms state, charged the debt service on the colony's own annual budget rather than on France's treasury. In this the bond shows how colonial railways were financed: investors in France supplied the capital, while the cost of repayment fell on the revenues of the colonized territory itself.",
     "file": "goetzmann0319.jpg",
     "type": [
@@ -8001,7 +8001,7 @@
   },
   {
     "id": "goetzmann0321",
-    "title": "Rent Receipt (收租票) of the Zhou Household, Guangxu 22",
+    "title": "Rent Receipt of the Zhou Household",
     "description": "A woodblock-printed rent receipt on thin fibrous paper, issued by a landlord's estate and dated the tenth month of the twenty-second year of the Guangxu reign, 1896. The form is a printed template with the particulars filled in by hand: it acknowledges rent paid in full by a named tenant farmer against a holding of land, the sum entered in copper cash and authenticated with red seals. Its printed clauses set the terms of tenancy in advance. The rent was to be paid clear by an appointed day, with no arrears allowed, failing which the land would be taken back and let to another. Printed receipts like this show how landholding estates in late Qing rural China standardized the collection of rent, fixing payment dates and the threat of eviction into a routine printed form used across many tenancies.",
     "file": "goetzmann0321.jpg",
     "type": [
@@ -8075,7 +8075,7 @@
   },
   {
     "id": "goetzmann0323",
-    "title": "簡碧鐵路公司 (Jianbi Railway Company) Share Certificate",
+    "title": "Jianbi Railway Company Share Certificate",
     "description": "A railway share certificate of the Jianbi Railway Company, for one full share, dated the tenth month of the second year of the Chinese Republic, late 1913. At the right is a finely engraved route map tracing the projected line through hilly, river-crossed country. Issued two years after the revolution of 1911, it is one of the many railway companies floated in the early Chinese Republic to raise domestic capital for new lines.",
     "file": "goetzmann0323.jpg",
     "type": [
@@ -8112,7 +8112,7 @@
   },
   {
     "id": "goetzmann0324",
-    "title": "日本勧業銀行 (Hypothec Bank of Japan) Discount Debenture, 11th Issue — Sales Poster, July",
+    "title": "Hypothec Bank of Japan Discount Debenture",
     "description": "A sales placard advertising an issue of discount debentures of the Nippon Kangyō Ginkō, the Hypothec Bank of Japan. Founded in 1897, the bank was a government-chartered \"special bank\" created to provide mortgage loans for agriculture and industry, and it raised money for that purpose by issuing these debentures to the public. The bonds worked as a lottery: they carried no interest coupon, but periodic drawings awarded cash prizes to lucky bond numbers, the top prize shown here as 3,000 yen. The placard advertises a short subscription window in July and sets a stylized white Mount Fuji against deep blue, in the flat color and clean lettering of modern commercial design. The lottery principle ran deep in the bank's business: in 1945 it was given the license to operate Japan's national public lottery.",
     "file": "goetzmann0324.jpg",
     "type": [
@@ -8149,7 +8149,7 @@
   },
   {
     "id": "goetzmann0325",
-    "title": "Republic of China Third Lottery Bond (第叁次有獎公債)",
+    "title": "Republic of China Third Lottery Bond",
     "description": "A lottery bond of five yuan issued by the Ministry of Finance of the Nationalist Government of the Republic of China, dated August 1, 1927. Rather than pay fixed interest, bonds like this rewarded holders through periodic prize drawings, combining the appeal of a lottery with the security of a government bond to draw savings from the public. It was issued in the months after the Northern Expedition, the Nationalist military campaign that broke the power of the northern warlords and brought Chiang Kai-shek's Kuomintang government to power at Nanjing. That new government urgently needed revenue, and instruments like this one were part of how it raised money. The bond carries a portrait of Sun Yat-sen, the founder of the Chinese Republic and of the Nationalist Party, set between the crossed flags of the party and the state.",
     "file": "goetzmann0325.jpg",
     "type": [
@@ -8188,7 +8188,7 @@
   },
   {
     "id": "goetzmann0326",
-    "title": "真裕地產股份有限公司 (Zhenyu Real Estate Co., Ltd.) Share Certificate, China",
+    "title": "Zhenyu Real Estate Co., Ltd. Share Certificate",
     "description": "A share certificate of the Zhen-Yu Land Company, Limited, a Chinese joint-stock property company, issued in December 1944. Its share values are stated in enormous figures, counted in thousands and tens of thousands of yuan, but those numbers are a measure of collapse rather than wealth. By late 1944 Nationalist China was in the grip of extreme wartime inflation: the government had financed most of its war spending by printing money, and prices had risen to hundreds of times their prewar level, on the way to more than a thousand times by 1945. A company capitalized in the millions of yuan reflected a currency that was rapidly losing its value, not the real worth of the business.",
     "file": "goetzmann0326.jpg",
     "type": [
@@ -8227,7 +8227,7 @@
   },
   {
     "id": "goetzmann0327",
-    "title": "Carlist Five-Percent Perpetual Rente (Ouvrard Loan), Oñate",
+    "title": "Carlist Five-Percent Perpetual Bond",
     "description": "A certificate of the \"Cinco Por Ciento Español,\" a five percent perpetual bond issued not by the government in Madrid but in the name of Don Carlos, the pretender to the Spanish throne. It was issued at Oñate, in the Basque country, on February 6, 1836, in the midst of the First Carlist War, the civil war between Don Carlos's supporters and the forces of the child queen Isabel II. The certificate promises its holder a fixed yearly payment of forty-seven pesos fuertes, in perpetuity, with the sum given also in florins, pounds, francs, and dollars, payable at Madrid or, at the holder's choice, in Amsterdam, London, Paris, Brussels, or Turin. It was contracted by Gabriel-Julien Ouvrard, one of the great speculative financiers of the Napoleonic era.\n\nWhat makes the bond extraordinary is its condition: the payments were to begin only after Don Carlos entered Madrid as king. Its entire value was staked on his winning the war. He never took Madrid. The Carlists lost the war in 1839, and bonds like this were never honored, leaving them a wager on a victory that never came, issued by a claimant against the security of a throne he never reached.",
     "file": "goetzmann0327.jpg",
     "type": [
@@ -8264,7 +8264,7 @@
   },
   {
     "id": "goetzmann0328",
-    "title": "Citrus Belt Land Company Stock Certificate, California",
+    "title": "Citrus Belt Land Company Stock Certificate",
     "description": "A stock certificate for fifty shares, par value $100 each, in the Citrus Belt Land Company, a corporation organized under the laws of California in 1909 with a capital stock of $250,000. It was issued to S. J. White on January 26, 1911, and signed by the company's president, Geo. R. Murdock, and its secretary. The company's name places it in Southern California's \"citrus belt,\" the region of orange groves that spread east from Pasadena through Riverside to Redlands in the decades around 1900. It belonged to the wave of land-development ventures that subdivided and sold that citrus country during the boom, when new railroads and irrigation turned dry land into groves and townsites.",
     "file": "goetzmann0328.jpg",
     "type": [
@@ -8303,7 +8303,7 @@
   },
   {
     "id": "goetzmann0329",
-    "title": "Clădirea Românească (Romanian Building Society) Share Certificate",
+    "title": "Romanian Building Society Share Certificate",
     "description": "A registered share certificate of Clădirea Românească (\"The Romanian Building\"), a Bucharest real-estate and construction company, issued in January 1946. It conveys fifty registered shares of 500 lei each, from the company's sixth issue, against a capital of 600 million lei. The date gives it its poignancy: in January 1946 Romania was under a Soviet-backed government, but private companies still operated and raised money by selling shares like these. Within little more than two years that world was gone. In June 1948 the communist government nationalized nearly nine thousand private companies by a single law, mostly without compensation, its reach extending even to hundreds of thousands of buildings. A real-estate company like this one would have been swept away, its shares made worthless, in the final abolition of private enterprise in Romania.",
     "file": "goetzmann0329.jpg",
     "type": [
@@ -8420,7 +8420,7 @@
   },
   {
     "id": "goetzmann0332",
-    "title": "Compagnie Occidentale de Madagascar Share, Paris",
+    "title": "Compagnie Occidentale de Madagascar Share",
     "description": "A fully-paid 100-franc bearer share in the Compagnie Occidentale de Madagascar, a French company with its registered office in Paris, issued on September 16, 1910. The certificate records a capital of 3,200,000 francs in 32,000 shares, later raised to 7,000,000 by the overprinted stamp at its head. Its statutes date from 1895, and the company operated in Madagascar, which France had conquered and annexed as a colony in 1896. It was one of the French commercial ventures established to profit from the island after that annexation, drawing capital from investors in Paris to enterprises in a territory brought under French control by force. What the company did on the island is not detailed on the certificate, which records only its corporate structure and its Paris seat.",
     "file": "goetzmann0332.jpg",
     "type": [
@@ -8460,7 +8460,7 @@
   },
   {
     "id": "goetzmann0333",
-    "title": "Compañía Salitrera de Tarapacá y Antofagasta share certificate, Santiago",
+    "title": "Compañía Salitrera de Tarapacá y Antofagasta Share Certificate",
     "description": "A bearer certificate for ten shares of fifty pesos each, fully paid, in the Compañía Salitrera de Tarapacá y Antofagasta, known as COSATAN, a Chilean nitrate company. It was issued at Santiago on April 30, 1937, and the company had been formed in 1934, by the supreme decree named on the certificate, from the merger of thirty-four nitrate producers.\n\nCOSATAN was created out of a catastrophe. Chile's northern deserts had long supplied much of the world's nitrate, used for fertilizer and explosives, an industry that once accounted for around half of the country's income. Then synthetic nitrogen, first produced in Germany early in the century, undercut it: cheap manufactured fertilizer drove prices down while mining costs rose, and the desert industry collapsed. COSATAN was assembled in 1934 from the wreckage, but it inherited heavy debt and by 1960 had itself gone bankrupt. This share, issued in 1937, is a document of that long decline, an investment in an industry a laboratory process had already doomed.",
     "file": "goetzmann0333.jpg",
     "type": [
@@ -8500,7 +8500,7 @@
   },
   {
     "id": "goetzmann0334",
-    "title": "Companhia de Mossamedes Share Warrant to Bearer for Five Shares",
+    "title": "Companhia de Mossamedes Share Warrant",
     "description": "A trilingual bearer share warrant of the Companhia de Mossamedes, a Portuguese colonial company, for five fully-paid shares of 4.50 escudos each. Printed in Portuguese, French, and English and issued to circulate among European investors, it drew capital toward a venture at Moçâmedes (now Namibe), a port in southern Angola, then ruled by Portugal as part of its African empire. The capital and share terms on its face were fixed by company assemblies between 1901 and 1928.\n\nThe certificate belongs to the era of Portuguese colonial enterprise in Angola, when companies raised money in Europe to profit from territories Portugal governed and their populations. Portuguese colonial economies of this period rested heavily on African labor that was often forced or coerced. What this particular company did in Angola is not recorded on the certificate, which shows only its capital structure and its shares.",
     "file": "goetzmann0334.jpg",
     "type": [
@@ -8620,7 +8620,7 @@
   },
   {
     "id": "goetzmann0337",
-    "title": "Compañía La Petrolífera Nacional Bearer Share, San Sebastián",
+    "title": "Compañía La Petrolífera Nacional Bearer Share",
     "description": "A bearer share of 500 pesetas in Compañía La Petrolífera Nacional, a Spanish oil company constituted in 1924 with its registered office at San Sebastián. This Series A share was issued on May 15, 1928, one of 140,000 shares in an authorized capital of 100 million pesetas. The company's name and moment reflect a wave of Spanish oil nationalism: in June 1927 the dictatorship of Primo de Rivera decreed a state petroleum monopoly, expropriating the oil businesses operating in Spain and placing the trade under a new state company, CAMPSA, to wrest the market from the foreign giants that dominated it.",
     "file": "goetzmann0337.jpg",
     "type": [
@@ -8892,7 +8892,7 @@
   },
   {
     "id": "goetzmann0344",
-    "title": "Conseil de la Dette Publique Répartie de l'Ancien Empire Ottoman, Provisional Receipt for the Ottoman Loan of 1914, Paris",
+    "title": "Provisional Receipt for the Ottoman Loan of 1914",
     "description": "A bearer provisional receipt issued in Paris on October 1, 1933, by the Council of the Apportioned Public Debt of the Former Ottoman Empire. It was given in exchange for one unit of the Ottoman 5 percent loan of 1914, of a nominal value of 500 francs (also stated as £19.17 and 22 Turkish pounds), and it carries twelve coupons. A printed table divides the unpaid capital of the loan, some 19,834,205 francs on 804,675 units, among the states that succeeded the Ottoman Empire: Greece, Bulgaria, Transjordan, the Hejaz, Asir, Yemen, and Nejd.",
     "file": "goetzmann0344.jpg",
     "type": [
@@ -9242,7 +9242,7 @@
   },
   {
     "id": "goetzmann0353",
-    "title": "Ostend Company (Generale Keijserlijcke Indische Compagnie) Share Subscription Receipt",
+    "title": "Ostend Company Share Subscription Receipt",
     "description": "A manuscript subscription receipt from the directors of the Generale Keijserlijcke Indische Compagnie, the Imperial or Ostend Company, instructing their cashier Jan Baptist Cogels junior to receive 250 guilders in cash from Anna Rosalia de Bruijn van Aelst. This was the first payment, twenty-five percent, on one share of 1,000 guilders in the company's capital, on the conditions set out in its charter. It is dated at Antwerp, August 16, 1723.",
     "file": "goetzmann0353.jpg",
     "type": [
@@ -9279,7 +9279,7 @@
   },
   {
     "id": "goetzmann0354",
-    "title": "Grand Society of Russian Railways (Главное Общество Российских Железных Дорог) Silver Bond",
+    "title": "Grand Society of Russian Railways Silver Bond",
     "description": "A 3 percent bearer bond of 125 silver rubles issued by the Grand Society of Russian Railways, based in St. Petersburg, from its third issue. The bond's value is given in several currencies alongside the ruble: 500 francs, 20 pounds sterling, 402 German marks, and 236 Dutch guilders. It paid interest twice a year, and it is dated at St. Petersburg, December 23, 1880, by the old Russian calendar, corresponding to January 4, 1881. Paying agents are listed in Paris, Berlin, London, and Brussels.",
     "file": "goetzmann0354.jpg",
     "type": [
@@ -9395,7 +9395,7 @@
   },
   {
     "id": "goetzmann0358",
-    "title": "Société Belge d'Exportation (Jules Van der Laat & Cie) Action de Fondation, Antwerp",
+    "title": "Société Belge d'Exportation Founder's Share",
     "description": "A founder's share of the Société Belge d'Exportation, an Antwerp export company trading under the name Jules Van der Laat & Cie, organized as a partnership limited by shares. The company was constituted in 1881 for a term of thirty years, with a capital of 5,000,000 francs in 10,000 shares of 500 francs. This is a founder's share without fixed value, and this fraction represents one-tenth of a full founder's share. The date line was left blank, filled in only with the printed year 1881, marking this as an unissued share.",
     "file": "goetzmann0358.jpg",
     "type": [
@@ -9513,7 +9513,7 @@
   },
   {
     "id": "goetzmann0361",
-    "title": "Banco giro di Venezia 100-ducat cedula, Venice",
+    "title": "Venetian Banknote",
     "description": "A printed note of the Banco giro di Venezia for 100 ducats, valued at 8 lire each. Its text states that the note was to be accepted as actual money by all royal and public treasuries in payment of customs duties, land taxes, and other contributions, and by the bank's own cashier for transfer in account, in accordance with a proclamation of October 1, 1798.",
     "file": "goetzmann0361.jpg",
     "type": [
@@ -10416,7 +10416,7 @@
   },
   {
     "id": "goetzmann0384",
-    "title": "Japanese Wartime Patriotic Bond (Nippon Kangyō Bank)",
+    "title": "Japanese Wartime Patriotic Bond",
     "description": "Ten yen, fourth series, dated August 1942. The legend on the right panel states that this wartime patriotic bond funded the imperial treasury under the authority of the Ministry of Finance, while the name and seal at left show that it was placed through the Nippon Kangyō Bank. Repayment carried a premium awarded by periodic lottery drawing, and the detachable coupon below carries the matching number. The central seal names the Greater East Asia War.",
     "file": "goetzmann0384.jpg",
     "type": [
@@ -12229,7 +12229,7 @@
   },
   {
     "id": "goetzmann0436",
-    "title": "Walchensee Loan Bond, Munich",
+    "title": "Walchensee Loan Bond",
     "description": "A bearer bond for ten thousand marks in Reich currency, issued at Munich on 20 February 1923 jointly and severally by three Munich electricity utilities, Walchenseewerk A.G., Mittlere Isar A.G. and Bayernwerk A.G., as the Walchensee-Anleihe. Interest is not fixed but floating: the Reichsbank discount rate less two percent, capped at fifteen and floored at seven percent, with half-yearly coupons from 1 March 1923 and repayment at par beginning 1928. The loan funded the Walchensee hydroelectric works in the Bavarian Alps, underwritten by authorizations of the Bavarian Landtag. Printed by Gebr. Parcus A.-G. of Munich.",
     "file": "goetzmann0436.jpg",
     "type": [
@@ -13742,7 +13742,7 @@
   },
   {
     "id": "goetzmann0476",
-    "title": "Eendracht Polder Bond, Zaamslag (Zeeland)",
+    "title": "Eendracht Polder Bond, Zaamslag (Zeeland) Bond",
     "description": "A part-printed, part-manuscript bond recording a debt undertaken by the Heeren van Zaamslag, acting as administrators of the newly diked Eendracht Polder on the island of Axel in Zeeland, sealed at Sluys on the first of July 1779. The undersigned acknowledge themselves indebted to Pieter Paul van Gelce, or the lawful bearer, in the capital sum of one hundred Flemish pounds, borrowed to finance the reclamation and its works, at 3 percent interest a year free of charges. Beyond the fixed interest, the holder shares by lot in the profits of the polder's produce, blending a loan with a claim on the harvest.",
     "file": "goetzmann0476.jpg",
     "type": [
