@@ -37,6 +37,10 @@ CURRENCY_ALIASES = {
     # both as an ISO code and spelled out, so filtering one missed the other.
     # Reichsmark is deliberately NOT folded into German mark -- different currencies.
     'French livres tournois': 'Livres Tournois',
+    'French livres': 'Livres Tournois',
+    'French livre': 'Livres Tournois',
+    'Livres tournois': 'Livres Tournois',
+    'livres tournois': 'Livres Tournois',
     'ATS': 'Austrian krone',
     'Austrian Kronen': 'Austrian krone',
     'Kronen': 'Austrian krone',

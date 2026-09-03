@@ -523,10 +523,6 @@
   ],
   "currency": [
     {
-      "value": "French franc",
-      "count": 103
-    },
-    {
       "value": "United States dollar",
       "count": 96
     },
@@ -535,12 +531,20 @@
       "count": 94
     },
     {
+      "value": "French franc",
+      "count": 92
+    },
+    {
       "value": "Dutch guilder",
       "count": 57
     },
     {
       "value": "Russian ruble",
       "count": 48
+    },
+    {
+      "value": "Livres Tournois",
+      "count": 24
     },
     {
       "value": "German mark",
@@ -571,20 +575,12 @@
       "count": 7
     },
     {
-      "value": "Livres Tournois",
-      "count": 7
-    },
-    {
       "value": "Romanian leu",
       "count": 6
     },
     {
       "value": "Spanish peseta",
       "count": 6
-    },
-    {
-      "value": "French livres",
-      "count": 5
     },
     {
       "value": "Italian lira",
@@ -740,10 +736,6 @@
     },
     {
       "value": "Florins d'Allemagne",
-      "count": 1
-    },
-    {
-      "value": "French livre",
       "count": 1
     },
     {
