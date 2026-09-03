@@ -10,7 +10,7 @@
     },
     {
       "value": "Certificate",
-      "count": 40
+      "count": 42
     },
     {
       "value": "Lottery Bond",
@@ -88,19 +88,19 @@
     },
     {
       "value": "Netherlands",
-      "count": 61
+      "count": 62
     },
     {
       "value": "Russia",
-      "count": 54
+      "count": 55
     },
     {
       "value": "France",
-      "count": 50
+      "count": 51
     },
     {
       "value": "United Kingdom",
-      "count": 42
+      "count": 44
     },
     {
       "value": "China",
@@ -108,19 +108,19 @@
     },
     {
       "value": "Germany",
-      "count": 21
+      "count": 22
     },
     {
       "value": "Belgium",
-      "count": 17
+      "count": 18
+    },
+    {
+      "value": "Austria",
+      "count": 14
     },
     {
       "value": "Bulgaria",
       "count": 14
-    },
-    {
-      "value": "Austria",
-      "count": 13
     },
     {
       "value": "Spain",
@@ -357,11 +357,11 @@
       "count": 45
     },
     {
-      "value": "Russia",
-      "count": 40
+      "value": "United Kingdom",
+      "count": 42
     },
     {
-      "value": "United Kingdom",
+      "value": "Russia",
       "count": 40
     },
     {
@@ -918,7 +918,7 @@
   "language": [
     {
       "value": "English",
-      "count": 188
+      "count": 190
     },
     {
       "value": "French",
@@ -1036,7 +1036,7 @@
     },
     {
       "value": "19th Century",
-      "count": 169
+      "count": 171
     },
     {
       "value": "18th Century",
