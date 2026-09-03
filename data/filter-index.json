@@ -6,7 +6,7 @@
     },
     {
       "value": "Stock Certificate",
-      "count": 122
+      "count": 126
     },
     {
       "value": "Certificate",
@@ -212,6 +212,10 @@
     },
     {
       "value": "Suriname",
+      "count": 4
+    },
+    {
+      "value": "Taiwan",
       "count": 4
     },
     {
@@ -437,6 +441,10 @@
       "count": 5
     },
     {
+      "value": "Taiwan",
+      "count": 4
+    },
+    {
       "value": "Turkey",
       "count": 4
     },
@@ -584,6 +592,10 @@
     },
     {
       "value": "German Marks",
+      "count": 4
+    },
+    {
+      "value": "New Taiwan dollar",
       "count": 4
     },
     {
@@ -942,7 +954,7 @@
     },
     {
       "value": "Chinese",
-      "count": 19
+      "count": 23
     },
     {
       "value": "Bulgarian",
