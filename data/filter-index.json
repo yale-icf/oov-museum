@@ -6,7 +6,7 @@
     },
     {
       "value": "Stock Certificate",
-      "count": 136
+      "count": 138
     },
     {
       "value": "Certificate",
@@ -14,7 +14,7 @@
     },
     {
       "value": "Lottery Bond",
-      "count": 24
+      "count": 25
     },
     {
       "value": "Receipt",
@@ -25,12 +25,12 @@
       "count": 9
     },
     {
-      "value": "Tontine",
+      "value": "Regulatory Document",
       "count": 9
     },
     {
-      "value": "Regulatory Document",
-      "count": 8
+      "value": "Tontine",
+      "count": 9
     },
     {
       "value": "Indenture",
@@ -88,15 +88,15 @@
     },
     {
       "value": "Netherlands",
-      "count": 64
+      "count": 65
+    },
+    {
+      "value": "France",
+      "count": 61
     },
     {
       "value": "Russia",
       "count": 58
-    },
-    {
-      "value": "France",
-      "count": 57
     },
     {
       "value": "United Kingdom",
@@ -112,7 +112,7 @@
     },
     {
       "value": "Belgium",
-      "count": 19
+      "count": 20
     },
     {
       "value": "Austria",
@@ -235,6 +235,10 @@
       "count": 3
     },
     {
+      "value": "Cameroon",
+      "count": 2
+    },
+    {
       "value": "Confederate States of America",
       "count": 2
     },
@@ -268,10 +272,6 @@
     },
     {
       "value": "Belize",
-      "count": 1
-    },
-    {
-      "value": "Cameroon",
       "count": 1
     },
     {
@@ -358,11 +358,11 @@
     },
     {
       "value": "Netherlands",
-      "count": 62
+      "count": 63
     },
     {
       "value": "France",
-      "count": 49
+      "count": 52
     },
     {
       "value": "United Kingdom",
@@ -528,7 +528,7 @@
     },
     {
       "value": "French franc",
-      "count": 44
+      "count": 46
     },
     {
       "value": "GBP",
@@ -544,7 +544,7 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 19
+      "count": 20
     },
     {
       "value": "Russian ruble",
@@ -591,11 +591,11 @@
       "count": 5
     },
     {
-      "value": "ESP",
-      "count": 4
+      "value": "French livres",
+      "count": 5
     },
     {
-      "value": "French livres",
+      "value": "ESP",
       "count": 4
     },
     {
@@ -946,11 +946,11 @@
     },
     {
       "value": "French",
-      "count": 145
+      "count": 148
     },
     {
       "value": "Dutch",
-      "count": 73
+      "count": 74
     },
     {
       "value": "German",
@@ -1056,7 +1056,7 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 231
+      "count": 232
     },
     {
       "value": "19th Century",
@@ -1064,7 +1064,7 @@
     },
     {
       "value": "18th Century",
-      "count": 96
+      "count": 98
     },
     {
       "value": "17th Century",
