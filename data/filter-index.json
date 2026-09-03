@@ -2,11 +2,11 @@
   "type": [
     {
       "value": "Bond",
-      "count": 227
+      "count": 228
     },
     {
       "value": "Stock Certificate",
-      "count": 145
+      "count": 148
     },
     {
       "value": "Certificate",
@@ -92,11 +92,11 @@
     },
     {
       "value": "France",
-      "count": 63
+      "count": 64
     },
     {
       "value": "Russia",
-      "count": 58
+      "count": 60
     },
     {
       "value": "United Kingdom",
@@ -112,7 +112,7 @@
     },
     {
       "value": "Belgium",
-      "count": 20
+      "count": 21
     },
     {
       "value": "Austria",
@@ -263,6 +263,10 @@
       "count": 2
     },
     {
+      "value": "Algeria",
+      "count": 1
+    },
+    {
       "value": "Angola",
       "count": 1
     },
@@ -366,15 +370,15 @@
     },
     {
       "value": "France",
-      "count": 53
+      "count": 54
+    },
+    {
+      "value": "Russia",
+      "count": 44
     },
     {
       "value": "United Kingdom",
       "count": 44
-    },
-    {
-      "value": "Russia",
-      "count": 42
     },
     {
       "value": "China",
@@ -386,7 +390,7 @@
     },
     {
       "value": "Belgium",
-      "count": 18
+      "count": 19
     },
     {
       "value": "Bulgaria",
@@ -523,16 +527,16 @@
       "count": 78
     },
     {
+      "value": "British pound sterling",
+      "count": 53
+    },
+    {
       "value": "FRF",
       "count": 52
     },
     {
-      "value": "British pound sterling",
-      "count": 51
-    },
-    {
       "value": "French franc",
-      "count": 48
+      "count": 49
     },
     {
       "value": "GBP",
@@ -548,23 +552,23 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 20
+      "count": 22
     },
     {
       "value": "Russian ruble",
-      "count": 15
+      "count": 18
     },
     {
       "value": "United States dollar",
       "count": 14
     },
     {
-      "value": "New Taiwan dollar",
+      "value": "German mark",
       "count": 13
     },
     {
-      "value": "German mark",
-      "count": 11
+      "value": "New Taiwan dollar",
+      "count": 13
     },
     {
       "value": "CNY",
@@ -572,10 +576,6 @@
     },
     {
       "value": "BEF",
-      "count": 6
-    },
-    {
-      "value": "DEM",
       "count": 6
     },
     {
@@ -592,6 +592,10 @@
     },
     {
       "value": "BGN",
+      "count": 5
+    },
+    {
+      "value": "DEM",
       "count": 5
     },
     {
@@ -612,6 +616,10 @@
     },
     {
       "value": "Austro-Hungarian krone",
+      "count": 3
+    },
+    {
+      "value": "Belgian franc",
       "count": 3
     },
     {
@@ -656,10 +664,6 @@
     },
     {
       "value": "Austrian krone",
-      "count": 2
-    },
-    {
-      "value": "Belgian franc",
       "count": 2
     },
     {
@@ -954,11 +958,11 @@
   "language": [
     {
       "value": "English",
-      "count": 198
+      "count": 201
     },
     {
       "value": "French",
-      "count": 150
+      "count": 153
     },
     {
       "value": "Dutch",
@@ -966,11 +970,11 @@
     },
     {
       "value": "German",
-      "count": 53
+      "count": 55
     },
     {
       "value": "Russian",
-      "count": 47
+      "count": 49
     },
     {
       "value": "Chinese",
@@ -1068,11 +1072,11 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 239
+      "count": 242
     },
     {
       "value": "19th Century",
-      "count": 171
+      "count": 172
     },
     {
       "value": "18th Century",

@@ -5400,8 +5400,8 @@
   },
   {
     "id": "goetzmann0387",
-    "title": "Imperial Russian Government State Loan of 1905 Bond",
-    "description": "The Imperial Ukase of December 15, 1904 authorized this 4.5 percent Russian State Loan of 1905. The bearer bond's face value of 500 Imperial German marks is restated as 231 rubles 50 kopecks, 294 Dutch guilders, and 24 pounds 7 shillings 6 pence sterling, the multiple denominations of a loan placed at once across several European exchanges. The whole issue totaled 231,500,000 rubles. The holder is entered in the State Debt Book.",
+    "title": "Imperial Russian Government State Loan of 1905 Bond, No. 319459",
+    "description": "A bearer bond of five hundred imperial German marks in the Imperial Russian Government’s four and a half percent State Loan of 1905, authorized by the imperial ukaz of 15 December 1904. Its face value is restated as 231 roubles 50 kopecks, 294 Dutch guilders and 24 pounds 7 shillings 6 pence, the denominations of a loan placed at once across several European exchanges and totalling 231,500,000 roubles. The holder is entered in the State Debt Book. Coupons fell due twice a year, payable in roubles at the State Bank in Russia, in marks at Berlin and Frankfurt, in guilders at Amsterdam and in sterling in London, and the bonds were declared free of every Russian tax.",
     "file": "goetzmann0387.jpg",
     "type": [
       "Bond"
@@ -5419,17 +5419,21 @@
       "Russia"
     ],
     "currency": [
-      "DEM"
+      "German mark",
+      "Russian ruble",
+      "Dutch guilder",
+      "British pound sterling"
     ],
     "language": [
       "Russian",
-      "German"
+      "German",
+      "English"
     ],
     "issueYear": [
       "1905"
     ],
     "creator": "Imperial Russian Government",
-    "notes": "Imperial Russian Government 4½% State Loan 1905. 500 German marks. No. 319459.",
+    "notes": "⚠ A MULTIPLE with goetzmann1193: same loan, same 500-mark denomination, same ukaz of 15 December 1904, differing only in serial. Both carry the same description, per the multiples rule. ⚠ Currency was recorded as \"DEM\", an ISO code for the Deutsche Mark, which postdates this bond by forty years; replaced with the four currencies the bond itself states.",
     "subjectCountry": [
       "Russia"
     ],
@@ -23663,21 +23667,37 @@
   },
   {
     "id": "goetzmann1188",
-    "title": "La Kotto Société Anonyme — Bearer Share Certificate, Paris, 1899",
-    "description": "A 500-franc bearer share in La Kotto, a French company organized in 1899 with capital of five million francs. The certificate’s elaborate illustrations evoke the company’s colonial activities in Africa, depicting tropical vegetation, wildlife, African figures, an elephant, and river transport. The reverse reproduces extracts from the company statutes, while the accompanying sheet retains numerous dividend coupons. The document is a striking example of late nineteenth-century French colonial-era corporate finance and the use of exotic imagery to promote investment in overseas commercial enterprises.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
+    "title": "La Kotto Share, Paris",
+    "description": "A fully paid bearer share of five hundred francs in La Kotto, a société anonyme with its registered office at 7 rue des Italiens, Paris, and a capital of five million francs divided into ten thousand such shares. Its statutes were deposited with the minutes of Maître Lanquest, notary at Paris, on 6 September 1899. The certificate is numbered 6,015, signed by two administrators, and carries a French subscription tax stamp. Its printed dateline, “Paris, le ___”, was left blank, so the share bears no date of issue.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "France"
+    ],
+    "subjectCountry": [
+      "France"
+    ],
+    "issuingCountry": [
+      "France"
+    ],
+    "creator": "La Kotto",
     "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "currency": [
+      "French franc"
+    ],
+    "language": [
+      "French"
+    ],
+    "period": [
+      "19th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "Three leaves. Printed by Imprimerie Chaix, rue Bergère, Paris. ⚠ Undated: the dateline is blank, so no year is given and issueYear is empty; period follows the 1899 statutes, the earliest the share can be. ⚠ The certificate names NO territory. The company name and its engraving of tropical Africa point to the Kotto, a tributary in Ubangi-Shari and today the Central African Republic, and to the French Congo concession companies chartered in 1899. Since the sheet does not say so, subjectCountry is left as France; worth confirming before adding an African country. The engraving shows African figures carrying loads and working alongside a river steamer, with hippopotamus, crocodile and elephant.",
+    "identifiers": [
+      "No. 6,015"
+    ],
     "namedIndividuals": [],
     "transcription": "",
     "pages": [
@@ -23697,21 +23717,39 @@
   },
   {
     "id": "goetzmann1191",
-    "title": "Mines de Fer de Rouina Share Certificate, Algeria, Brussels, 1907",
-    "description": "A 250-franc share certificate in the Belgian company Mines de Fer de Rouina, established in 1907 to develop iron-ore deposits near Rouina in French Algeria. Headquartered in Brussels, the company had a capital of 5 million francs divided into 20,000 shares. The reverse reproduces portions of the company statutes describing its mining properties, railway connections, equipment, and rights associated with the Rouina and Agha deposits. The richly illustrated certificate depicts miners, ore carts, tropical vegetation, and a coastal shipping scene, emphasizing the industrial and colonial character of European mining investment in early twentieth-century Algeria.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
+    "title": "Mines de Fer de Rouina (Algérie) Share, Brussels",
+    "description": "A fully paid bearer share of two hundred and fifty francs in Mines de Fer de Rouina (Algérie), a société anonyme with its registered office at Brussels and a capital of five million francs divided into twenty thousand such shares. The company was constituted by an act received by Maître Lamal, notary at Schaerbeek, standing in for his colleague Maître Delzaert of Dieghem, on 16 February 1907, and published in the Moniteur Belge on 7 March. The certificate is numbered 07,385 and signed by two administrators. It carries no dateline and so no date of issue.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Algeria",
+      "Belgium"
+    ],
+    "subjectCountry": [
+      "Algeria",
+      "Belgium"
+    ],
+    "issuingCountry": [
+      "Belgium"
+    ],
+    "creator": "Mines de Fer de Rouina",
     "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "currency": [
+      "Belgian franc"
+    ],
+    "language": [
+      "French"
+    ],
+    "period": [
+      "20th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "Two leaves. Bears a Brussels registration stamp and a Belgian bearer-securities duty stamp. ⚠ Undated: no dateline is printed, so no year in the title and issueYear is empty; period follows the 1907 constitution. The engraving shows labourers working an open cut with picks and wheelbarrows above a coastline.",
+    "identifiers": [
+      "No. 07,385"
+    ],
     "namedIndividuals": [],
     "transcription": "",
     "pages": [
@@ -23727,21 +23765,45 @@
   },
   {
     "id": "goetzmann1193",
-    "title": "Imperial Russian 4½% State Loan Bond, 1905",
-    "description": "A 500 German Reichsmark bearer bond from the Imperial Russian Government’s 4½% State Loan of 1905, issued under an imperial decree of 15 December 1904. The bond formed part of a large international borrowing denominated in several European currencies, including Russian roubles, German marks, Dutch florins, and British pounds, and paid 4½ percent annual interest in semiannual installments. Issued for sale across major European financial centers, it illustrates Russia’s reliance on international capital markets in the years surrounding the Russo-Japanese War and the Revolution of 1905. The elaborately engraved face, incorporating the Russian imperial double-headed eagle, contrasts with the reverse, which provides the loan terms in German and English.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "title": "Imperial Russian Government State Loan of 1905 Bond, No. 278124",
+    "description": "A bearer bond of five hundred imperial German marks in the Imperial Russian Government’s four and a half percent State Loan of 1905, authorized by the imperial ukaz of 15 December 1904. Its face value is restated as 231 roubles 50 kopecks, 294 Dutch guilders and 24 pounds 7 shillings 6 pence, the denominations of a loan placed at once across several European exchanges and totalling 231,500,000 roubles. The holder is entered in the State Debt Book. Coupons fell due twice a year, payable in roubles at the State Bank in Russia, in marks at Berlin and Frankfurt, in guilders at Amsterdam and in sterling in London, and the bonds were declared free of every Russian tax.",
+    "type": [
+      "Bond"
+    ],
+    "location": [
+      "Russia"
+    ],
+    "subjectCountry": [
+      "Russia"
+    ],
+    "issuingCountry": [
+      "Russia"
+    ],
+    "creator": "Imperial Russian Government",
+    "issueYear": [
+      "1905"
+    ],
+    "currency": [
+      "German mark",
+      "Russian ruble",
+      "Dutch guilder",
+      "British pound sterling"
+    ],
+    "language": [
+      "Russian",
+      "German",
+      "English"
+    ],
+    "period": [
+      "20th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "Two leaves, bond and coupon sheet. Bears a German stamp-duty mark, \"Stempel-Abgabe sechs vom Tausend\". Redemption was to be complete by 1985, by annual drawings from 1917 at 0.228745 percent of nominal capital, the government renouncing early redemption until 1917. ⚠ A MULTIPLE with goetzmann0387: same loan, same denomination, same ukaz, differing only in serial. Both carry this description unchanged, per the multiples rule.",
+    "identifiers": [
+      "No. 278124",
+      "Loan of 1905"
+    ],
     "namedIndividuals": [],
     "transcription": "",
     "pages": [
@@ -23757,21 +23819,42 @@
   },
   {
     "id": "goetzmann1195",
-    "title": "Siberian Commercial Bank Share Certificate, St. Petersburg, 1910",
-    "description": "A bearer certificate for two shares of 250 roubles each in the Siberian Commercial Bank, issued in St. Petersburg in 1910. Founded under statutes approved in 1872, the bank expanded its capital through successive share issues as it financed trade and commercial activity across the Russian Empire. The reverse reproduces portions of the company statutes in Russian and French, including rules governing ownership, dividends, voting rights, and capital increases. The elaborate design combines Russian heraldic imagery with scenes of commerce and regional trade, reflecting the bank’s role in the economic development of Siberia and imperial Russia.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "title": "Siberian Commercial Bank Share, St. Petersburg, 1910",
+    "description": "A bearer certificate for two shares of two hundred and fifty roubles each, numbered 41303 and 41304, in the Siberian Commercial Bank, issued at St Petersburg in 1910. The bank’s statutes had been sanctioned on 28 June 1872. Its headings run in four languages, Russian and French across the face with German and English down the side panels. It is signed by the president and two members of the direction and by the chief accountant. Later stamps record that the right of issue of 1912 was used, and that dividend coupons for 1915 to 1921 inclusive had been given out.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Russia"
+    ],
+    "subjectCountry": [
+      "Russia"
+    ],
+    "issuingCountry": [
+      "Russia"
+    ],
+    "creator": "Banque de Commerce de Sibérie",
+    "issueYear": [
+      "1910"
+    ],
+    "currency": [
+      "Russian ruble"
+    ],
+    "language": [
+      "Russian",
+      "French",
+      "German",
+      "English"
+    ],
+    "period": [
+      "20th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "Two leaves. Bears a Russian stamp-duty mark. Distinct from goetzmann0299, a dividend coupon sheet of the same bank dated 1917.",
+    "identifiers": [
+      "Nos. 41303-41304"
+    ],
     "namedIndividuals": [],
     "transcription": "",
     "pages": [
