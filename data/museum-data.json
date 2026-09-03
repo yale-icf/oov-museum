@@ -23870,64 +23870,102 @@
   },
   {
     "id": "goetzmann1197",
-    "title": "City Bank of New Haven Two-Dollar Banknote, Connecticut",
-    "description": "A two-dollar banknote issued by the City Bank of New Haven, Connecticut, promising payment to the bearer on demand. Printed by the American Bank Note Company of New York, the note features an engraved view of prominent New Haven buildings, an elaborate portrait vignette, and large red “2” denomination overprints. Typical of privately issued American banknotes before the establishment of a uniform national currency, it illustrates the important role local banks played in providing circulating money in the mid-nineteenth-century United States.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
+    "title": "City Bank of New Haven Banknote",
+    "description": "A two-dollar note of the City Bank of New Haven, Connecticut, promising payment of two dollars to the bearer on demand and marked charter perpetual. It was printed by the American Bank Note Company of New York, the denomination set in ornate medallions and repeated twice again in red overprint. The cashier’s and president’s signature lines are blank and the printed date line, which reads 186 with the last figure left open, was never completed, so the note never went into circulation.",
+    "type": [
+      "Banknote"
+    ],
+    "location": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "City Bank of New Haven",
     "issueYear": [],
-    "currency": [],
-    "language": [],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
     "period": [
       "19th Century"
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
+    "notes": "⚠ The record said the note was \"issued by\" the bank. Both signature lines are blank and the date was never filled in: it is an unissued remainder. Dating rests on the printed \"186_\" and on the American Bank Note Company imprint. The face carries an engraved view of the New Haven Green with its churches and the state house, a portrait at the right, and a beehive vignette above the cashier’s line.",
     "identifiers": [],
     "namedIndividuals": [],
     "transcription": ""
   },
   {
     "id": "goetzmann1198",
-    "title": "New Haven County Bank One-Dollar Banknote, Connecticut",
-    "description": "An unissued one-dollar banknote for the New Haven County Bank of Connecticut, payable to the bearer on demand. The note features finely engraved maritime and allegorical scenes, including sailing vessels at sea, a seated workman, and a female figure, with large “1” denomination medallions at the corners. Printed by Toppan & Co. of New York and Philadelphia, it is characteristic of the privately issued banknotes that circulated widely in the United States before the introduction of a standardized national currency during the Civil War.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
+    "title": "New Haven County Bank Banknote",
+    "description": "An unissued one-dollar note of the New Haven County Bank, Connecticut, promising payment of one dollar to the bearer on demand. It was printed by Charles Toppan & Co. of New York and Philadelphia, with the denomination repeated all round the border. The cashier’s and president’s lines are blank and the date line stops at 18, and the note has been cancelled by five punched holes across the foot, marking it a remainder taken out of use rather than a note that ever circulated.",
+    "type": [
+      "Banknote"
+    ],
+    "location": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "New Haven County Bank",
     "issueYear": [],
-    "currency": [],
-    "language": [],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
     "period": [
       "19th Century"
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
+    "notes": "Punch-cancelled, five holes. Plate letter B. Engraved with sailing vessels at sea at the centre, a seated workman with an anvil at the left, a woman with a rake at the right, and a dog guarding a strongbox above the cashier’s line. No date is available beyond the Toppan imprint.",
     "identifiers": [],
     "namedIndividuals": [],
     "transcription": ""
   },
   {
     "id": "goetzmann1199",
-    "title": "Mechanics’ Bank One-Dollar Banknote, New Haven, Connecticut",
-    "description": "An unissued one-dollar banknote for the Mechanics’ Bank of New Haven, Connecticut, payable to the bearer on demand. The note features portraits at either side, an allegorical seated male figure above the title, and ornate engraved denomination medallions. Produced by the bank-note engraving firm Danforth, Wright & Co., it reflects the elaborate visual language used by American banks to distinguish and secure their privately issued currency before the establishment of a uniform national banking system.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
+    "title": "Mechanics' Bank Banknote, New Haven",
+    "description": "An unissued one-dollar note of the Mechanics’ Bank of New Haven, Connecticut, promising payment of one dollar on demand to a named payee or bearer. It carries the arms of Connecticut with the motto Qui transtulit sustinet, and the imprint of A.B. & C. Durand & Wright, the New York engraving house of Asher B. Durand, which places it in about 1828 to 1831. The cashier’s and president’s lines are blank and the date line stops at 18, so it never entered circulation.",
+    "type": [
+      "Banknote"
+    ],
+    "location": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "Mechanics' Bank",
     "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "19th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
+    "notes": "⚠ The record carried no period; set to 19th Century on the Durand & Wright imprint, which was in use roughly 1828-1831. Portraits at either side, and a central engraving of a seated near-naked figure holding a spear before a hut and mountain -- a nineteenth-century allegorical convention, noted here for the About page’s note on the materials rather than described in the visitor-facing text.",
     "identifiers": [],
     "namedIndividuals": [],
     "transcription": ""

@@ -21,6 +21,10 @@
       "count": 21
     },
     {
+      "value": "Banknote",
+      "count": 10
+    },
+    {
       "value": "Draft",
       "count": 9
     },
@@ -31,10 +35,6 @@
     {
       "value": "Tontine",
       "count": 9
-    },
-    {
-      "value": "Banknote",
-      "count": 7
     },
     {
       "value": "Indenture",
@@ -84,7 +84,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 107
+      "count": 110
     },
     {
       "value": "Netherlands",
@@ -362,7 +362,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 95
+      "count": 98
     },
     {
       "value": "Netherlands",
@@ -560,7 +560,7 @@
     },
     {
       "value": "United States dollar",
-      "count": 14
+      "count": 17
     },
     {
       "value": "German mark",
@@ -958,7 +958,7 @@
   "language": [
     {
       "value": "English",
-      "count": 201
+      "count": 204
     },
     {
       "value": "French",
@@ -1076,7 +1076,7 @@
     },
     {
       "value": "19th Century",
-      "count": 172
+      "count": 173
     },
     {
       "value": "18th Century",
