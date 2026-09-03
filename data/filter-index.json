@@ -2,11 +2,11 @@
   "type": [
     {
       "value": "Bond",
-      "count": 224
+      "count": 225
     },
     {
       "value": "Stock Certificate",
-      "count": 131
+      "count": 133
     },
     {
       "value": "Certificate",
@@ -29,11 +29,11 @@
       "count": 9
     },
     {
-      "value": "Indenture",
-      "count": 7
+      "value": "Regulatory Document",
+      "count": 8
     },
     {
-      "value": "Regulatory Document",
+      "value": "Indenture",
       "count": 7
     },
     {
@@ -104,7 +104,7 @@
     },
     {
       "value": "China",
-      "count": 29
+      "count": 31
     },
     {
       "value": "Germany",
@@ -112,7 +112,7 @@
     },
     {
       "value": "Belgium",
-      "count": 18
+      "count": 19
     },
     {
       "value": "Austria",
@@ -147,16 +147,16 @@
       "count": 8
     },
     {
+      "value": "Italy",
+      "count": 8
+    },
+    {
       "value": "Taiwan",
       "count": 8
     },
     {
       "value": "Turkey",
       "count": 8
-    },
-    {
-      "value": "Italy",
-      "count": 7
     },
     {
       "value": "Portugal",
@@ -239,6 +239,10 @@
       "count": 2
     },
     {
+      "value": "Democratic Republic of Congo",
+      "count": 2
+    },
+    {
       "value": "Greece",
       "count": 2
     },
@@ -280,10 +284,6 @@
     },
     {
       "value": "Czechoslovakia",
-      "count": 1
-    },
-    {
-      "value": "Democratic Republic of Congo",
       "count": 1
     },
     {
@@ -370,7 +370,7 @@
     },
     {
       "value": "China",
-      "count": 20
+      "count": 22
     },
     {
       "value": "Germany",
@@ -378,7 +378,7 @@
     },
     {
       "value": "Belgium",
-      "count": 17
+      "count": 18
     },
     {
       "value": "Bulgaria",
@@ -401,16 +401,16 @@
       "count": 8
     },
     {
+      "value": "Italy",
+      "count": 8
+    },
+    {
       "value": "Romania",
       "count": 8
     },
     {
       "value": "Taiwan",
       "count": 8
-    },
-    {
-      "value": "Italy",
-      "count": 7
     },
     {
       "value": "Hungary",
@@ -651,6 +651,10 @@
       "count": 2
     },
     {
+      "value": "Belgian franc",
+      "count": 2
+    },
+    {
       "value": "Connecticut pound",
       "count": 2
     },
@@ -731,10 +735,6 @@
       "count": 1
     },
     {
-      "value": "Belgian franc",
-      "count": 1
-    },
-    {
       "value": "Belgian Francs",
       "count": 1
     },
@@ -752,6 +752,14 @@
     },
     {
       "value": "Chinese copper cash",
+      "count": 1
+    },
+    {
+      "value": "Chinese silver dollar",
+      "count": 1
+    },
+    {
+      "value": "Chinese yuan",
       "count": 1
     },
     {
@@ -930,11 +938,11 @@
   "language": [
     {
       "value": "English",
-      "count": 197
+      "count": 198
     },
     {
       "value": "French",
-      "count": 142
+      "count": 143
     },
     {
       "value": "Dutch",
@@ -949,12 +957,12 @@
       "count": 47
     },
     {
-      "value": "Spanish",
-      "count": 28
+      "value": "Chinese",
+      "count": 29
     },
     {
-      "value": "Chinese",
-      "count": 27
+      "value": "Spanish",
+      "count": 28
     },
     {
       "value": "Bulgarian",
@@ -969,15 +977,15 @@
       "count": 9
     },
     {
+      "value": "Italian",
+      "count": 8
+    },
+    {
       "value": "Romanian",
       "count": 8
     },
     {
       "value": "Hungarian",
-      "count": 7
-    },
-    {
-      "value": "Italian",
       "count": 7
     },
     {
@@ -1044,11 +1052,11 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 230
+      "count": 231
     },
     {
       "value": "19th Century",
-      "count": 171
+      "count": 170
     },
     {
       "value": "18th Century",
