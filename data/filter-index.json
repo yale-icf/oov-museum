@@ -523,55 +523,51 @@
   ],
   "currency": [
     {
-      "value": "USD",
-      "count": 78
-    },
-    {
-      "value": "British pound sterling",
-      "count": 54
-    },
-    {
-      "value": "FRF",
-      "count": 52
-    },
-    {
       "value": "French franc",
-      "count": 49
-    },
-    {
-      "value": "GBP",
-      "count": 37
-    },
-    {
-      "value": "NLG",
-      "count": 31
-    },
-    {
-      "value": "RUB",
-      "count": 30
-    },
-    {
-      "value": "Dutch guilder",
-      "count": 22
-    },
-    {
-      "value": "Russian ruble",
-      "count": 18
+      "count": 103
     },
     {
       "value": "United States dollar",
-      "count": 16
+      "count": 96
+    },
+    {
+      "value": "British pound sterling",
+      "count": 94
+    },
+    {
+      "value": "Dutch guilder",
+      "count": 57
+    },
+    {
+      "value": "Russian ruble",
+      "count": 48
     },
     {
       "value": "German mark",
-      "count": 13
+      "count": 23
     },
     {
       "value": "New Taiwan dollar",
       "count": 13
     },
     {
-      "value": "CNY",
+      "value": "Belgian franc",
+      "count": 10
+    },
+    {
+      "value": "Japanese yen",
+      "count": 10
+    },
+    {
+      "value": "Bulgarian lev",
+      "count": 8
+    },
+    {
+      "value": "Chinese yuan",
+      "count": 8
+    },
+    {
+      "value": "Austrian krone",
       "count": 7
     },
     {
@@ -579,39 +575,39 @@
       "count": 7
     },
     {
-      "value": "BEF",
+      "value": "Romanian leu",
       "count": 6
     },
     {
-      "value": "JPY",
+      "value": "Spanish peseta",
       "count": 6
-    },
-    {
-      "value": "ATS",
-      "count": 5
-    },
-    {
-      "value": "BGN",
-      "count": 5
-    },
-    {
-      "value": "DEM",
-      "count": 5
     },
     {
       "value": "French livres",
       "count": 5
     },
     {
-      "value": "ESP",
+      "value": "Italian lira",
+      "count": 5
+    },
+    {
+      "value": "Mexican peso",
       "count": 4
     },
     {
-      "value": "German Marks",
+      "value": "Peruvian sol",
       "count": 4
     },
     {
-      "value": "ROL",
+      "value": "Polish zloty",
+      "count": 4
+    },
+    {
+      "value": "Serbian dinar",
+      "count": 4
+    },
+    {
+      "value": "Turkish lira",
       "count": 4
     },
     {
@@ -619,39 +615,11 @@
       "count": 3
     },
     {
-      "value": "Belgian franc",
-      "count": 3
-    },
-    {
       "value": "Bolivian peso",
       "count": 3
     },
     {
-      "value": "Bulgarian lev",
-      "count": 3
-    },
-    {
-      "value": "ITL",
-      "count": 3
-    },
-    {
-      "value": "Mexican peso",
-      "count": 3
-    },
-    {
-      "value": "PLN",
-      "count": 3
-    },
-    {
-      "value": "Pounds Sterling",
-      "count": 3
-    },
-    {
-      "value": "Serbian dinar",
-      "count": 3
-    },
-    {
-      "value": "Yen",
+      "value": "Egyptian pound",
       "count": 3
     },
     {
@@ -659,23 +627,11 @@
       "count": 3
     },
     {
-      "value": "Austrian krone",
-      "count": 2
-    },
-    {
       "value": "Connecticut pound",
       "count": 2
     },
     {
-      "value": "CUP",
-      "count": 2
-    },
-    {
-      "value": "Dutch guilder (ƒ)",
-      "count": 2
-    },
-    {
-      "value": "EGP",
+      "value": "Cuban peso",
       "count": 2
     },
     {
@@ -683,15 +639,7 @@
       "count": 2
     },
     {
-      "value": "Francs",
-      "count": 2
-    },
-    {
-      "value": "Guilder",
-      "count": 2
-    },
-    {
-      "value": "Italian lira",
+      "value": "Greek drachma",
       "count": 2
     },
     {
@@ -703,15 +651,7 @@
       "count": 2
     },
     {
-      "value": "PEN",
-      "count": 2
-    },
-    {
-      "value": "Peruvian sol",
-      "count": 2
-    },
-    {
-      "value": "PTE",
+      "value": "Portuguese escudo",
       "count": 2
     },
     {
@@ -723,19 +663,7 @@
       "count": 2
     },
     {
-      "value": "Spanish peseta",
-      "count": 2
-    },
-    {
       "value": "Swiss franc",
-      "count": 2
-    },
-    {
-      "value": "TRY",
-      "count": 2
-    },
-    {
-      "value": "US dollar",
       "count": 2
     },
     {
@@ -759,10 +687,6 @@
       "count": 1
     },
     {
-      "value": "Belgian Francs",
-      "count": 1
-    },
-    {
       "value": "Benzol (commodity-linked)",
       "count": 1
     },
@@ -775,19 +699,15 @@
       "count": 1
     },
     {
+      "value": "Chilean peso",
+      "count": 1
+    },
+    {
       "value": "Chinese copper cash",
       "count": 1
     },
     {
       "value": "Chinese silver dollar",
-      "count": 1
-    },
-    {
-      "value": "Chinese yuan",
-      "count": 1
-    },
-    {
-      "value": "CLP",
       "count": 1
     },
     {
@@ -803,15 +723,11 @@
       "count": 1
     },
     {
-      "value": "Egyptian pound",
-      "count": 1
-    },
-    {
       "value": "Estonian kroon",
       "count": 1
     },
     {
-      "value": "EUR",
+      "value": "Euro",
       "count": 1
     },
     {
@@ -831,18 +747,6 @@
       "count": 1
     },
     {
-      "value": "German mark (Reichsmark)",
-      "count": 1
-    },
-    {
-      "value": "GRD",
-      "count": 1
-    },
-    {
-      "value": "Greek drachma",
-      "count": 1
-    },
-    {
       "value": "Guan (貫)",
       "count": 1
     },
@@ -859,7 +763,7 @@
       "count": 1
     },
     {
-      "value": "HUF",
+      "value": "Hungarian forint",
       "count": 1
     },
     {
@@ -871,15 +775,7 @@
       "count": 1
     },
     {
-      "value": "Japanese yen",
-      "count": 1
-    },
-    {
       "value": "Mark Banco",
-      "count": 1
-    },
-    {
-      "value": "MXN",
       "count": 1
     },
     {
@@ -895,27 +791,11 @@
       "count": 1
     },
     {
-      "value": "Polish zloty",
-      "count": 1
-    },
-    {
       "value": "Portuguese real",
       "count": 1
     },
     {
       "value": "Riksdaler",
-      "count": 1
-    },
-    {
-      "value": "Romanian leu",
-      "count": 1
-    },
-    {
-      "value": "RON",
-      "count": 1
-    },
-    {
-      "value": "RSD",
       "count": 1
     },
     {
@@ -935,23 +815,15 @@
       "count": 1
     },
     {
-      "value": "Turkish lira",
-      "count": 1
-    },
-    {
-      "value": "Turkish lira (livre turque)",
-      "count": 1
-    },
-    {
-      "value": "UYU",
-      "count": 1
-    },
-    {
-      "value": "VEN",
+      "value": "Uruguayan peso",
       "count": 1
     },
     {
       "value": "Venetian ducat",
+      "count": 1
+    },
+    {
+      "value": "Venezuelan bolivar",
       "count": 1
     }
   ],

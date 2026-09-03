@@ -405,7 +405,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -456,7 +456,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -505,7 +505,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -552,7 +552,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -605,7 +605,7 @@
       "Great Britain"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -774,7 +774,7 @@
       "Great Britain"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -811,7 +811,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -862,7 +862,7 @@
       "Great Britain"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -948,7 +948,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -997,7 +997,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -1097,7 +1097,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -1137,7 +1137,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -1174,7 +1174,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -1213,7 +1213,7 @@
       "Greece"
     ],
     "currency": [
-      "GRD"
+      "Greek drachma"
     ],
     "language": [
       "Greek"
@@ -1253,7 +1253,7 @@
       "Romania"
     ],
     "currency": [
-      "RON"
+      "Romanian leu"
     ],
     "language": [
       "Romanian"
@@ -1293,7 +1293,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -1332,7 +1332,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -1371,7 +1371,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -1411,7 +1411,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -1748,7 +1748,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -1787,7 +1787,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -1826,7 +1826,7 @@
       "Romania"
     ],
     "currency": [
-      "ROL"
+      "Romanian leu"
     ],
     "language": [
       "Romanian"
@@ -1862,7 +1862,7 @@
       "Romania"
     ],
     "currency": [
-      "ROL"
+      "Romanian leu"
     ],
     "language": [
       "Romanian"
@@ -1901,7 +1901,7 @@
       "Cuba"
     ],
     "currency": [
-      "CUP"
+      "Cuban peso"
     ],
     "language": [
       "Spanish"
@@ -1941,7 +1941,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -1981,7 +1981,7 @@
       "Poland"
     ],
     "currency": [
-      "PLN"
+      "Polish zloty"
     ],
     "language": [
       "Polish"
@@ -2018,7 +2018,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -2055,7 +2055,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -2094,7 +2094,7 @@
       "Bulgaria"
     ],
     "currency": [
-      "BGN"
+      "Bulgarian lev"
     ],
     "language": [
       "Bulgarian"
@@ -2134,7 +2134,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -2173,7 +2173,7 @@
       "Spain"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -2214,7 +2214,7 @@
       "Germany"
     ],
     "currency": [
-      "EUR"
+      "Euro"
     ],
     "language": [
       "German"
@@ -2254,7 +2254,7 @@
       "Russia"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -2294,7 +2294,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -2334,7 +2334,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -2373,7 +2373,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -2411,7 +2411,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -2451,7 +2451,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -2491,7 +2491,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -2530,7 +2530,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -2571,7 +2571,7 @@
       "Netherlands"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "Dutch"
@@ -2612,7 +2612,7 @@
       "Germany"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "German"
@@ -2651,7 +2651,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -2690,7 +2690,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -2729,7 +2729,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -2768,7 +2768,7 @@
       "China"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "Chinese"
@@ -2806,7 +2806,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -2845,7 +2845,7 @@
       "China"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -2882,7 +2882,7 @@
       "China"
     ],
     "currency": [
-      "CNY"
+      "Chinese yuan"
     ],
     "language": [
       "Chinese"
@@ -2919,7 +2919,7 @@
       "China"
     ],
     "currency": [
-      "CNY"
+      "Chinese yuan"
     ],
     "language": [
       "Chinese"
@@ -2956,7 +2956,7 @@
       "China"
     ],
     "currency": [
-      "CNY"
+      "Chinese yuan"
     ],
     "language": [
       "Chinese"
@@ -2993,7 +2993,7 @@
       "Japan"
     ],
     "currency": [
-      "JPY"
+      "Japanese yen"
     ],
     "language": [
       "Japanese"
@@ -3030,7 +3030,7 @@
       "China"
     ],
     "currency": [
-      "CNY"
+      "Chinese yuan"
     ],
     "language": [
       "Chinese"
@@ -3069,7 +3069,7 @@
       "China"
     ],
     "currency": [
-      "CNY"
+      "Chinese yuan"
     ],
     "language": [
       "Chinese"
@@ -3108,7 +3108,7 @@
       "Spain"
     ],
     "currency": [
-      "ESP"
+      "Spanish peseta"
     ],
     "language": [
       "Spanish"
@@ -3145,7 +3145,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -3184,7 +3184,7 @@
       "Romania"
     ],
     "currency": [
-      "ROL"
+      "Romanian leu"
     ],
     "language": [
       "Romanian"
@@ -3224,7 +3224,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -3262,7 +3262,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -3302,7 +3302,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -3341,7 +3341,7 @@
       "Chile"
     ],
     "currency": [
-      "CLP"
+      "Chilean peso"
     ],
     "language": [
       "Spanish"
@@ -3382,7 +3382,7 @@
       "Portugal"
     ],
     "currency": [
-      "PTE"
+      "Portuguese escudo"
     ],
     "language": [
       "Portuguese"
@@ -3422,7 +3422,7 @@
       "Uruguay"
     ],
     "currency": [
-      "UYU"
+      "Uruguayan peso"
     ],
     "language": [
       "Spanish"
@@ -3462,7 +3462,7 @@
       "Spain"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "Spanish"
@@ -3501,7 +3501,7 @@
       "Spain"
     ],
     "currency": [
-      "ESP"
+      "Spanish peseta"
     ],
     "language": [
       "Spanish"
@@ -3540,7 +3540,7 @@
       "Mexico"
     ],
     "currency": [
-      "MXN"
+      "Mexican peso"
     ],
     "language": [
       "Spanish"
@@ -3580,7 +3580,7 @@
       "Spain"
     ],
     "currency": [
-      "ESP"
+      "Spanish peseta"
     ],
     "language": [
       "Spanish"
@@ -3620,7 +3620,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -3659,7 +3659,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -3696,7 +3696,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -3734,7 +3734,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -3773,7 +3773,7 @@
       "Turkey"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -3814,7 +3814,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -3853,7 +3853,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -3891,7 +3891,7 @@
       "Belgium"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -3931,7 +3931,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -3970,7 +3970,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -4010,7 +4010,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -4047,7 +4047,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -4086,7 +4086,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -4123,7 +4123,7 @@
       "Belgium"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -4160,7 +4160,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -4199,7 +4199,7 @@
       "Italy"
     ],
     "currency": [
-      "ITL"
+      "Italian lira"
     ],
     "language": [
       "Italian"
@@ -4237,7 +4237,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -4276,7 +4276,7 @@
       "Belgium"
     ],
     "currency": [
-      "BEF"
+      "Belgian franc"
     ],
     "language": [
       "French"
@@ -4315,7 +4315,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -4355,7 +4355,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -4394,7 +4394,7 @@
       "Italy"
     ],
     "currency": [
-      "VEN"
+      "Venezuelan bolivar"
     ],
     "language": [
       "Italian"
@@ -4433,7 +4433,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -4472,7 +4472,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -4510,7 +4510,7 @@
       "Belgium"
     ],
     "currency": [
-      "BEF"
+      "Belgian franc"
     ],
     "language": [
       "French"
@@ -4549,7 +4549,7 @@
       "Hungary"
     ],
     "currency": [
-      "HUF"
+      "Hungarian forint"
     ],
     "language": [
       "Hungarian"
@@ -4590,7 +4590,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -4630,7 +4630,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -4669,7 +4669,7 @@
       "Cuba"
     ],
     "currency": [
-      "CUP"
+      "Cuban peso"
     ],
     "language": [
       "Spanish"
@@ -4708,7 +4708,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -4747,7 +4747,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -4786,7 +4786,7 @@
       "Japan"
     ],
     "currency": [
-      "JPY"
+      "Japanese yen"
     ],
     "language": [
       "Japanese"
@@ -4823,7 +4823,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -4862,7 +4862,7 @@
       "Japan"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -4906,7 +4906,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -4945,7 +4945,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -4985,7 +4985,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -5024,7 +5024,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -5064,7 +5064,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -5101,7 +5101,7 @@
       "Russia"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "Russian"
@@ -5141,7 +5141,7 @@
       "Romania"
     ],
     "currency": [
-      "ROL"
+      "Romanian leu"
     ],
     "language": [
       "Romanian"
@@ -5182,7 +5182,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -5219,7 +5219,7 @@
       "Japan"
     ],
     "currency": [
-      "JPY"
+      "Japanese yen"
     ],
     "language": [
       "Japanese"
@@ -5258,7 +5258,7 @@
       "Japan"
     ],
     "currency": [
-      "JPY"
+      "Japanese yen"
     ],
     "language": [
       "Japanese"
@@ -5297,7 +5297,7 @@
       "Japan"
     ],
     "currency": [
-      "JPY"
+      "Japanese yen"
     ],
     "language": [
       "Japanese"
@@ -5337,7 +5337,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian",
@@ -5378,7 +5378,7 @@
       "Russia"
     ],
     "currency": [
-      "DEM"
+      "German mark"
     ],
     "language": [
       "Russian",
@@ -5505,7 +5505,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -5544,7 +5544,7 @@
       "Austria"
     ],
     "currency": [
-      "ATS"
+      "Austrian krone"
     ],
     "language": [
       "German"
@@ -5584,7 +5584,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -5624,7 +5624,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -5663,7 +5663,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -5702,7 +5702,7 @@
       "China"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch",
@@ -5743,7 +5743,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -5783,7 +5783,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -5823,7 +5823,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -5863,7 +5863,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -5902,7 +5902,7 @@
       "Russia"
     ],
     "currency": [
-      "DEM"
+      "German mark"
     ],
     "language": [
       "Russian",
@@ -5944,7 +5944,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -5981,7 +5981,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -6020,7 +6020,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -6059,7 +6059,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -6098,7 +6098,7 @@
       "Italy"
     ],
     "currency": [
-      "ITL"
+      "Italian lira"
     ],
     "language": [
       "Italian"
@@ -6135,7 +6135,7 @@
       "Spain"
     ],
     "currency": [
-      "ESP"
+      "Spanish peseta"
     ],
     "language": [
       "Spanish",
@@ -6175,7 +6175,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -6214,7 +6214,7 @@
       "Peru"
     ],
     "currency": [
-      "PEN"
+      "Peruvian sol"
     ],
     "language": [
       "Spanish"
@@ -6253,7 +6253,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian",
@@ -6295,7 +6295,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -6334,7 +6334,7 @@
       "Belgium"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -6371,7 +6371,7 @@
       "Hungary"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -6410,7 +6410,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -6449,7 +6449,7 @@
       "Austria"
     ],
     "currency": [
-      "ATS"
+      "Austrian krone"
     ],
     "language": [
       "German"
@@ -6491,7 +6491,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -6530,7 +6530,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -6569,7 +6569,7 @@
       "Peru"
     ],
     "currency": [
-      "PEN"
+      "Peruvian sol"
     ],
     "language": [
       "Spanish"
@@ -6606,7 +6606,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -6644,7 +6644,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -6683,7 +6683,7 @@
       "Poland"
     ],
     "currency": [
-      "PLN"
+      "Polish zloty"
     ],
     "language": [
       "Polish"
@@ -6723,7 +6723,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -6762,7 +6762,7 @@
       "Portugal"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -6799,7 +6799,7 @@
       "Serbia"
     ],
     "currency": [
-      "RSD"
+      "Serbian dinar"
     ],
     "language": [
       "German",
@@ -6879,7 +6879,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -6919,7 +6919,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -6956,7 +6956,7 @@
       "Germany"
     ],
     "currency": [
-      "DEM"
+      "German mark"
     ],
     "language": [
       "German"
@@ -6995,7 +6995,7 @@
       "Germany"
     ],
     "currency": [
-      "DEM"
+      "German mark"
     ],
     "language": [
       "German"
@@ -7032,7 +7032,7 @@
       "China"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "French",
@@ -7072,7 +7072,7 @@
       "China"
     ],
     "currency": [
-      "BEF"
+      "Belgian franc"
     ],
     "language": [
       "French",
@@ -7112,7 +7112,7 @@
       "Bulgaria"
     ],
     "currency": [
-      "BGN"
+      "Bulgarian lev"
     ],
     "language": [
       "Bulgarian",
@@ -7154,7 +7154,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English",
@@ -7195,7 +7195,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -7235,7 +7235,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian",
@@ -7315,7 +7315,7 @@
       "Germany"
     ],
     "currency": [
-      "DEM"
+      "German mark"
     ],
     "language": [
       "German"
@@ -7354,7 +7354,7 @@
       "Spain"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "Spanish",
@@ -7432,7 +7432,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -7469,7 +7469,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian",
@@ -7511,7 +7511,7 @@
       "Japan"
     ],
     "currency": [
-      "JPY"
+      "Japanese yen"
     ],
     "language": [
       "French",
@@ -7552,7 +7552,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian",
@@ -7593,7 +7593,7 @@
       "Morocco"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -7633,7 +7633,7 @@
       "Belgium"
     ],
     "currency": [
-      "BEF"
+      "Belgian franc"
     ],
     "language": [
       "French"
@@ -7672,7 +7672,7 @@
       "Bulgaria"
     ],
     "currency": [
-      "BGN"
+      "Bulgarian lev"
     ],
     "language": [
       "Bulgarian",
@@ -7713,7 +7713,7 @@
       "Poland"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian",
@@ -7753,7 +7753,7 @@
       "Poland"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian",
@@ -7794,7 +7794,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian",
@@ -7835,7 +7835,7 @@
       "Belgium"
     ],
     "currency": [
-      "BEF"
+      "Belgian franc"
     ],
     "language": [
       "French"
@@ -7875,7 +7875,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -7915,7 +7915,7 @@
       "Belgium"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -7955,7 +7955,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English",
@@ -7995,7 +7995,7 @@
       "Austria"
     ],
     "currency": [
-      "ATS"
+      "Austrian krone"
     ],
     "language": [
       "German"
@@ -8035,7 +8035,7 @@
       "Austria"
     ],
     "currency": [
-      "ATS"
+      "Austrian krone"
     ],
     "language": [
       "German"
@@ -8075,7 +8075,7 @@
       "Austria"
     ],
     "currency": [
-      "ATS"
+      "Austrian krone"
     ],
     "language": [
       "German"
@@ -8115,7 +8115,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -8156,7 +8156,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -8193,7 +8193,7 @@
       "Bulgaria"
     ],
     "currency": [
-      "BGN"
+      "Bulgarian lev"
     ],
     "language": [
       "Bulgarian",
@@ -8233,7 +8233,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -8274,7 +8274,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -8313,7 +8313,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -8350,7 +8350,7 @@
       "Egypt"
     ],
     "currency": [
-      "EGP"
+      "Egyptian pound"
     ],
     "language": [
       "English",
@@ -8390,7 +8390,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -8427,7 +8427,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -8466,7 +8466,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -8504,7 +8504,7 @@
       "Belgium"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -8543,7 +8543,7 @@
       "Egypt"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "French"
@@ -8582,7 +8582,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -8631,7 +8631,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -8672,7 +8672,7 @@
       "Brazil"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -8712,7 +8712,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -8751,7 +8751,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -8790,7 +8790,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -8830,7 +8830,7 @@
       "Egypt"
     ],
     "currency": [
-      "EGP"
+      "Egyptian pound"
     ],
     "language": [
       "French"
@@ -8867,7 +8867,7 @@
       "Germany"
     ],
     "currency": [
-      "German Marks"
+      "German mark"
     ],
     "language": [
       "German"
@@ -8956,7 +8956,7 @@
       "Belgium"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French",
@@ -9155,7 +9155,7 @@
       "Netherlands"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "Dutch"
@@ -9197,7 +9197,7 @@
       "Netherlands"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Dutch"
@@ -9237,7 +9237,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -9277,7 +9277,7 @@
       "France"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English",
@@ -9319,7 +9319,7 @@
       "Netherlands"
     ],
     "currency": [
-      "German Marks"
+      "German mark"
     ],
     "language": [
       "Dutch"
@@ -9358,7 +9358,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -9397,7 +9397,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -9434,7 +9434,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -9682,7 +9682,7 @@
       "Belgium"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "Dutch"
@@ -9719,7 +9719,7 @@
       "United States"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -9757,7 +9757,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -9795,7 +9795,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch",
@@ -9877,7 +9877,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English",
@@ -9925,7 +9925,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -9965,7 +9965,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch",
@@ -10006,7 +10006,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -10047,7 +10047,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -10087,7 +10087,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -10125,7 +10125,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English",
@@ -10166,7 +10166,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -10207,7 +10207,7 @@
       "Netherlands"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "Dutch"
@@ -10247,7 +10247,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -10287,7 +10287,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -10324,7 +10324,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "French"
@@ -10361,7 +10361,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -10398,7 +10398,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -10436,7 +10436,7 @@
       "Netherlands"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Dutch",
@@ -10477,7 +10477,7 @@
       "Germany"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Dutch"
@@ -10516,7 +10516,7 @@
       "Germany"
     ],
     "currency": [
-      "German Marks"
+      "German mark"
     ],
     "language": [
       "German"
@@ -10557,7 +10557,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -10597,7 +10597,7 @@
       "Netherlands"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Dutch",
@@ -10637,7 +10637,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -10676,7 +10676,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -10715,7 +10715,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -10794,7 +10794,7 @@
       "Germany"
     ],
     "currency": [
-      "German Marks"
+      "German mark"
     ],
     "language": [
       "German"
@@ -10912,7 +10912,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -10949,7 +10949,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -10986,7 +10986,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -11025,7 +11025,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -11063,7 +11063,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -11101,7 +11101,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -11139,7 +11139,7 @@
       "Belgium"
     ],
     "currency": [
-      "Belgian Francs"
+      "Belgian franc"
     ],
     "language": [
       "German",
@@ -11183,7 +11183,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -11221,7 +11221,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch",
@@ -11262,7 +11262,7 @@
       "Netherlands"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "Dutch"
@@ -11304,7 +11304,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -13365,7 +13365,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -13405,7 +13405,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -13442,7 +13442,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -13482,7 +13482,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -13519,7 +13519,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -13558,7 +13558,7 @@
       "United States"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -13597,7 +13597,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -13636,7 +13636,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -13675,7 +13675,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -13714,7 +13714,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -14981,7 +14981,7 @@
       "Germany"
     ],
     "currency": [
-      "German mark (Reichsmark)"
+      "German mark"
     ],
     "language": [
       "German",
@@ -16903,7 +16903,7 @@
       "French franc",
       "British pound sterling",
       "German mark",
-      "US dollar",
+      "United States dollar",
       "Dutch guilder"
     ],
     "language": [
@@ -16954,7 +16954,7 @@
       "France"
     ],
     "currency": [
-      "Turkish lira (livre turque)",
+      "Turkish lira",
       "French franc"
     ],
     "language": [
@@ -17226,8 +17226,8 @@
       "Poland"
     ],
     "currency": [
-      "USD",
-      "PLN"
+      "United States dollar",
+      "Polish zloty"
     ],
     "language": [
       "Polish"
@@ -17277,7 +17277,7 @@
       "Portugal"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -17324,9 +17324,9 @@
       "Portugal"
     ],
     "currency": [
-      "PTE",
-      "FRF",
-      "GBP"
+      "Portuguese escudo",
+      "French franc",
+      "British pound sterling"
     ],
     "language": [
       "Portuguese"
@@ -17376,7 +17376,7 @@
       "Netherlands"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Dutch",
@@ -17427,7 +17427,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -17476,7 +17476,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -17527,7 +17527,7 @@
       "Russia"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -17577,7 +17577,7 @@
       "Italy"
     ],
     "currency": [
-      "ITL"
+      "Italian lira"
     ],
     "language": [
       "Italian"
@@ -17626,8 +17626,8 @@
       "Romania"
     ],
     "currency": [
-      "USD",
-      "FRF"
+      "United States dollar",
+      "French franc"
     ],
     "language": [
       "French",
@@ -17687,8 +17687,8 @@
       "Romania"
     ],
     "currency": [
-      "USD",
-      "FRF"
+      "United States dollar",
+      "French franc"
     ],
     "language": [
       "French",
@@ -17739,9 +17739,9 @@
       "Turkey"
     ],
     "currency": [
-      "FRF",
-      "GBP",
-      "TRY"
+      "French franc",
+      "British pound sterling",
+      "Turkish lira"
     ],
     "language": [
       "French",
@@ -17865,9 +17865,9 @@
       "Turkey"
     ],
     "currency": [
-      "FRF",
-      "GBP",
-      "TRY"
+      "French franc",
+      "British pound sterling",
+      "Turkish lira"
     ],
     "language": [
       "French",
@@ -17920,8 +17920,8 @@
       "Bulgaria"
     ],
     "currency": [
-      "BGN",
-      "FRF"
+      "Bulgarian lev",
+      "French franc"
     ],
     "language": [
       "Bulgarian",
@@ -18524,7 +18524,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "Pounds Sterling"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -18571,7 +18571,7 @@
       "United Kingdom"
     ],
     "currency": [
-      "Pounds Sterling"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -18621,7 +18621,7 @@
       "France"
     ],
     "currency": [
-      "Francs"
+      "French franc"
     ],
     "language": [
       "French"
@@ -18732,7 +18732,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -18789,7 +18789,7 @@
       "Japan"
     ],
     "currency": [
-      "Yen"
+      "Japanese yen"
     ],
     "language": [
       "Japanese"
@@ -18850,7 +18850,7 @@
       "Japan"
     ],
     "currency": [
-      "Yen"
+      "Japanese yen"
     ],
     "language": [
       "Japanese"
@@ -18907,7 +18907,7 @@
       "Japan"
     ],
     "currency": [
-      "Yen"
+      "Japanese yen"
     ],
     "language": [
       "Japanese"
@@ -19209,8 +19209,8 @@
       "Egypt"
     ],
     "currency": [
-      "Francs",
-      "Pounds Sterling"
+      "French franc",
+      "British pound sterling"
     ],
     "language": [
       "French",
@@ -19745,7 +19745,7 @@
       "United States"
     ],
     "currency": [
-      "US dollar"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -19819,7 +19819,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -19876,7 +19876,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -19936,7 +19936,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -20001,7 +20001,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -20050,7 +20050,7 @@
       "Bulgaria"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "Bulgarian",
@@ -20122,7 +20122,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French"
@@ -20183,7 +20183,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -20248,7 +20248,7 @@
       "Canada"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "English"
@@ -20316,7 +20316,7 @@
       "France"
     ],
     "currency": [
-      "FRF"
+      "French franc"
     ],
     "language": [
       "French",
@@ -20377,7 +20377,7 @@
       "Egypt"
     ],
     "currency": [
-      "GBP"
+      "British pound sterling"
     ],
     "language": [
       "French",
@@ -20509,7 +20509,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -20568,7 +20568,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -20628,7 +20628,7 @@
       "China"
     ],
     "currency": [
-      "CNY"
+      "Chinese yuan"
     ],
     "language": [
       "Chinese"
@@ -20688,7 +20688,7 @@
       "Russia"
     ],
     "currency": [
-      "RUB"
+      "Russian ruble"
     ],
     "language": [
       "Russian"
@@ -20748,7 +20748,7 @@
       "China"
     ],
     "currency": [
-      "CNY"
+      "Chinese yuan"
     ],
     "language": [
       "Chinese"
@@ -20806,7 +20806,7 @@
       "Belgium"
     ],
     "currency": [
-      "BEF"
+      "Belgian franc"
     ],
     "language": [
       "French"
@@ -20865,7 +20865,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -20939,7 +20939,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -21002,7 +21002,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -21050,7 +21050,7 @@
       "Netherlands"
     ],
     "currency": [
-      "Guilder"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -21098,7 +21098,7 @@
       "Netherlands"
     ],
     "currency": [
-      "NLG"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -21147,7 +21147,7 @@
       "Netherlands"
     ],
     "currency": [
-      "Guilder"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -21313,7 +21313,7 @@
       "Netherlands"
     ],
     "currency": [
-      "Dutch guilder (ƒ)"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -21470,7 +21470,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -21573,7 +21573,7 @@
       "Netherlands"
     ],
     "currency": [
-      "Dutch guilder (ƒ)"
+      "Dutch guilder"
     ],
     "language": [
       "Dutch"
@@ -21729,7 +21729,7 @@
       "United States"
     ],
     "currency": [
-      "USD"
+      "United States dollar"
     ],
     "language": [
       "English"
@@ -21780,7 +21780,7 @@
       "United States"
     ],
     "currency": [
-      "USD",
+      "United States dollar",
       "Livres Tournois"
     ],
     "language": [
