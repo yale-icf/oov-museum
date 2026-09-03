@@ -6,7 +6,7 @@
     },
     {
       "value": "Stock Certificate",
-      "count": 126
+      "count": 130
     },
     {
       "value": "Certificate",
@@ -147,6 +147,10 @@
       "count": 8
     },
     {
+      "value": "Taiwan",
+      "count": 8
+    },
+    {
       "value": "Turkey",
       "count": 8
     },
@@ -212,10 +216,6 @@
     },
     {
       "value": "Suriname",
-      "count": 4
-    },
-    {
-      "value": "Taiwan",
       "count": 4
     },
     {
@@ -405,6 +405,10 @@
       "count": 8
     },
     {
+      "value": "Taiwan",
+      "count": 8
+    },
+    {
       "value": "Italy",
       "count": 7
     },
@@ -439,10 +443,6 @@
     {
       "value": "Serbia",
       "count": 5
-    },
-    {
-      "value": "Taiwan",
-      "count": 4
     },
     {
       "value": "Turkey",
@@ -555,6 +555,10 @@
       "count": 11
     },
     {
+      "value": "New Taiwan dollar",
+      "count": 8
+    },
+    {
       "value": "CNY",
       "count": 7
     },
@@ -592,10 +596,6 @@
     },
     {
       "value": "German Marks",
-      "count": 4
-    },
-    {
-      "value": "New Taiwan dollar",
       "count": 4
     },
     {
@@ -930,7 +930,7 @@
   "language": [
     {
       "value": "English",
-      "count": 191
+      "count": 195
     },
     {
       "value": "French",
@@ -954,7 +954,7 @@
     },
     {
       "value": "Chinese",
-      "count": 23
+      "count": 27
     },
     {
       "value": "Bulgarian",
