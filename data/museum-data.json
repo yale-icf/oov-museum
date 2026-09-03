@@ -22136,7 +22136,7 @@
   },
   {
     "id": "goetzmann1124",
-    "title": "EVA Airways Corporation Capital Increase Specimen Share, 1996",
+    "title": "EVA Airways Corporation Capital Increase Specimen Share, 100,000 Shares, 1996",
     "description": "A specimen share certificate for the 1996 capital increase of EVA Airways Corporation, dated 10 August 1996. It represents one hundred thousand shares, a total of one million New Taiwan dollars, of ten New Taiwan dollars each and carries the serial 85-NF-000000. Signed by the chairman, vice-chairman and a director beneath their seals, it records the company’s incorporation on 7 April 1989, is overprinted 樣張 for specimen, and is marked valid only when sealed by the certifying institution.",
     "type": [
       "Stock Certificate"
@@ -22174,7 +22174,7 @@
   },
   {
     "id": "goetzmann1125",
-    "title": "EVA Airways Corporation Capital Increase Specimen Share, 1997",
+    "title": "EVA Airways Corporation Capital Increase Specimen Share, 1,000 Shares, 1997",
     "description": "A specimen share certificate for the 1997 capital increase of EVA Airways Corporation, dated 18 August 1997. It represents one thousand shares of ten New Taiwan dollars each and carries the serial 86-ND-0000000. Signed by the chairman, vice-chairman and a director beneath their seals, it records the company’s incorporation on 7 April 1989, is overprinted 樣張 for specimen, and is marked valid only when sealed by the certifying institution.",
     "type": [
       "Stock Certificate"
@@ -23441,121 +23441,223 @@
   },
   {
     "id": "goetzmann1182",
-    "title": "Ewiggeldbrief der Stadt Nürnberg",
-    "description": "Lot # 222 9 March 1797, 1 Share of Capital Stock á US-$ 100, #771, 20 x 24.7 cm, black, beige, folds, OU. The earliest American insurance share we know of. R10 After the American Revolution, shipping grew tremendously. Nevertheless the Maryland legislature chartered no marine insurance companies for a long time. Then in 1795 two competing companies were founded: Maryland Insurance Company and Baltimore Insurance Company. Especially the last one developed very well: Founded with a share capital of US-Dollar 300,000 (divided into shares of US-Dollar 100 each) it was offering all kinds of marine insurances. It is said that the dividends of the company had been so large that after a while the stockholders had been reimbursed the whole amount of their shares - while the capital of the company remained entire. Unfortunately it's only speculation why the company was liquidated in 1830. Maybe it simply failed, maybe it was like a kind of slaughter of the golden calf. 09.03.1797, 1 Share of Capital Stock á US-$ 100, #771, 20 x 24,7 cm, schwarz, beige, Knickfalten, OU. Die älteste uns bekannte US-Versicherungsaktie. R10.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
+    "title": "City of Nuremberg Perpetual Annuity Letter",
+    "description": "A perpetual annuity letter of the city of Nuremberg, written in German on vellum and issued under the city’s pendant seal. The council acknowledges a sum received from Peter Kotzler, a burgher of Nuremberg, and binds the city and its successors to pay him and his heirs a yearly rent in gulden, falling due at Saint Martin’s day, with a right of redemption reserved to the city. Further clauses allow the creditor to distrain upon the city’s citizens and their goods should payment fail. The dating clause survives only in part, giving the thirty-eighth year of a century now illegible.",
+    "type": [
+      "Bond"
+    ],
+    "location": [
+      "Germany"
+    ],
+    "subjectCountry": [
+      "Germany"
+    ],
+    "issuingCountry": [
+      "Germany"
+    ],
+    "creator": "Stadt Nürnberg",
     "issueYear": [],
     "currency": [],
-    "language": [],
+    "language": [
+      "German"
+    ],
     "period": [],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
+    "notes": "⚠ THE SOURCE ROW IS MISMATCHED. To_Add_Files.xlsx pairs this Nuremberg title with a description of a completely different document: \"Lot # 222 9 March 1797, 1 Share of Capital Stock á US-$ 100, #771 ... The earliest American insurance share we know of. R10 After the American Revolution, shipping grew tremendously. Nevertheless the Maryland legislature cha[rtered]...\". That text is preserved here in case the insurance share is found; it does not describe this object. ⚠ UNDATED: the dating clause reads \"... hundert vnd In dem Acht vnd Dreissigisten Iare\", the thirty-eighth year, but the century word is abraded. The hand suggests the 15th century, which would make this among the oldest items in the collection, so the date is left empty rather than guessed. Worth an expert reading. Currency likewise left empty: the text says gulden but does not name the standard. Given on a Pfinztag (Thursday).",
     "identifiers": [],
-    "namedIndividuals": [],
+    "namedIndividuals": [
+      "Peter Kotzler"
+    ],
     "transcription": ""
   },
   {
     "id": "goetzmann1183",
-    "title": "EVA Airways Capital-Increase Share Certificate, 1997 Serial No. 86-NF-0000000-4",
-    "description": "Serial No. 86-NF-0000000-4 EVA Airways Corporation · Taiwan · 1997 A capital-increase share certificate issued by EVA Airways Corporation (長榮航空股份有限公司) in the 86th year of the Republic of China, or 1997. Representing 100,000 shares with a stated value of NT$1,000,000, the certificate documents the airline's raising of additional equity during a period of rapid expansion. Its elaborate blue security border, corporate emblem, official seals, signatures, and barcode combine traditional Taiwanese documentary practices with the increasingly standardized design of late twentieth-century securities.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "title": "EVA Airways Corporation Capital Increase Specimen Share, 100,000 Shares, 1997",
+    "description": "A specimen share certificate of EVA Airways Corporation, dated 18 August 1997. It represents one hundred thousand shares, a total of one million New Taiwan dollars, of ten New Taiwan dollars each and carries the serial 86-NF-0000000. It belongs to the 1997 capital increase, of 200,000,000 shares against an authorized 2,000,000,000, the change registered on 19 July 1997. The company’s incorporation is recorded as 7 April 1989. It is signed by the chairman, vice-chairman and a director beneath their seals, overprinted as a specimen, and marked valid only when sealed by the certifying institution.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Taiwan"
+    ],
+    "subjectCountry": [
+      "Taiwan"
+    ],
+    "issuingCountry": [
+      "Taiwan"
+    ],
+    "creator": "EVA Airways Corporation",
+    "issueYear": [
+      "1997"
+    ],
+    "currency": [
+      "New Taiwan dollar"
+    ],
+    "language": [
+      "Chinese"
+    ],
+    "period": [
+      "20th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "One of NINE EVA specimen certificates in the collection. The letter codes are consistent -- NF = 100,000 shares, ND = 1,000, NX = variable capped at 1,000 -- and the numeric prefix is the ROC year: 84 = 1995 (goetzmann1186, 1184, 1185, dated 16 November), 85 = 1996 (1124, 1187, 1127, dated 10 August), 86 = 1997 (1183, 1125, 1126, dated 18 August). The 1995 and 1996 serials carry six zeros and the 1997 ones seven, each with a boxed check digit. Printed by Yuen Foong Yu Paper Manufacturing.",
+    "identifiers": [
+      "No. 86-NF-0000000"
+    ],
     "namedIndividuals": [],
     "transcription": ""
   },
   {
     "id": "goetzmann1184",
-    "title": "EVA Airways Common Share Certificate, 1995 Serial No. 84-ND-000000-6",
-    "description": "Serial No. 84-ND-000000-6 EVA Airways Corporation · Taiwan · 1995 A common stock certificate of EVA Airways Corporation representing 1,000 shares, with a stated value of NT$10,000. Issued during the airline's early years of international growth, the certificate represents direct ownership in one of Taiwan's major commercial airlines. The ornate blue border, large red corporate seals, handwritten signatures, and central denomination reflect the continued importance of physical share certificates in Taiwan's securities market during the 1990s.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "title": "EVA Airways Corporation Common Stock Specimen Share, 1,000 Shares, 1995",
+    "description": "A specimen common share certificate of EVA Airways Corporation, dated 16 November 1995. It represents one thousand shares, a total of ten thousand New Taiwan dollars, of ten New Taiwan dollars each and carries the serial 84-ND-000000. The certificate is marked as a reissue, against an authorized 1,500,000,000 shares of which 1,170,000,000 had been issued, the change registered on 17 October 1995. The company’s incorporation is recorded as 7 April 1989. It is signed by the chairman, vice-chairman and a director beneath their seals, overprinted as a specimen, and marked valid only when sealed by the certifying institution.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Taiwan"
+    ],
+    "subjectCountry": [
+      "Taiwan"
+    ],
+    "issuingCountry": [
+      "Taiwan"
+    ],
+    "creator": "EVA Airways Corporation",
+    "issueYear": [
+      "1995"
+    ],
+    "currency": [
+      "New Taiwan dollar"
+    ],
+    "language": [
+      "Chinese"
+    ],
+    "period": [
+      "20th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "One of NINE EVA specimen certificates in the collection. The letter codes are consistent -- NF = 100,000 shares, ND = 1,000, NX = variable capped at 1,000 -- and the numeric prefix is the ROC year: 84 = 1995 (goetzmann1186, 1184, 1185, dated 16 November), 85 = 1996 (1124, 1187, 1127, dated 10 August), 86 = 1997 (1183, 1125, 1126, dated 18 August). The 1995 and 1996 serials carry six zeros and the 1997 ones seven, each with a boxed check digit. Printed by Yuen Foong Yu Paper Manufacturing.",
+    "identifiers": [
+      "No. 84-ND-000000"
+    ],
     "namedIndividuals": [],
     "transcription": ""
   },
   {
     "id": "goetzmann1185",
-    "title": "EVA Airways Capital-Increase Share Certificate, 1995 Serial No. 84-NX-000000-9",
-    "description": "Serial No. 84-NX-000000-9 EVA Airways Corporation · Taiwan · 1995 A capital-increase stock certificate issued by EVA Airways Corporation in the 84th year of the Republic of China, or 1995. Unlike a fixed high-denomination certificate, this form was designed to record a variable number of shares, subject to the printed limit stated on the document. It illustrates the administrative machinery through which EVA Airways expanded its shareholder capital during the airline's formative decade, while its seals, signatures, security printing, and barcode demonstrate the transition from traditional paper securities toward computerized shareholder registration.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "title": "EVA Airways Corporation Variable-Denomination Capital Increase Specimen Share, 1995",
+    "description": "A specimen share certificate of EVA Airways Corporation, dated 16 November 1995. It represents a variable number of shares, the face carrying blank place-value fields and a printed limit of one thousand shares, of ten New Taiwan dollars each and carries the serial 84-NX-000000. It belongs to the 1995 capital increase, of 330,000,000 shares against an authorized 1,500,000,000. The company’s incorporation is recorded as 7 April 1989. It is signed by the chairman, vice-chairman and a director beneath their seals, overprinted as a specimen, and marked valid only when sealed by the certifying institution.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Taiwan"
+    ],
+    "subjectCountry": [
+      "Taiwan"
+    ],
+    "issuingCountry": [
+      "Taiwan"
+    ],
+    "creator": "EVA Airways Corporation",
+    "issueYear": [
+      "1995"
+    ],
+    "currency": [
+      "New Taiwan dollar"
+    ],
+    "language": [
+      "Chinese"
+    ],
+    "period": [
+      "20th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "One of NINE EVA specimen certificates in the collection. The letter codes are consistent -- NF = 100,000 shares, ND = 1,000, NX = variable capped at 1,000 -- and the numeric prefix is the ROC year: 84 = 1995 (goetzmann1186, 1184, 1185, dated 16 November), 85 = 1996 (1124, 1187, 1127, dated 10 August), 86 = 1997 (1183, 1125, 1126, dated 18 August). The 1995 and 1996 serials carry six zeros and the 1997 ones seven, each with a boxed check digit. Printed by Yuen Foong Yu Paper Manufacturing.",
+    "identifiers": [
+      "No. 84-NX-000000"
+    ],
     "namedIndividuals": [],
     "transcription": ""
   },
   {
     "id": "goetzmann1186",
-    "title": "EVA Airways Common Share Certificate, 1995 Serial No. 84-NF-000000-0",
-    "description": "Serial No. 84-NF-000000-0 EVA Airways Corporation · Taiwan · 1995 A high-denomination common stock certificate of EVA Airways Corporation representing 100,000 shares, corresponding to NT$1,000,000 in stated share value. The certificate belongs to the physical securities system used by Taiwanese corporations before electronic book-entry ownership became dominant. Its substantial denomination suggests use for a large shareholding or consolidated position, while the decorative blue frame, official red seals, signatures, and machine-readable barcode combine ceremonial corporate design with modern securities administration.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "title": "EVA Airways Corporation Common Stock Specimen Share, 100,000 Shares, 1995",
+    "description": "A specimen common share certificate of EVA Airways Corporation, dated 16 November 1995. It represents one hundred thousand shares, a total of one million New Taiwan dollars, of ten New Taiwan dollars each and carries the serial 84-NF-000000. The certificate is marked as a reissue, against an authorized 1,500,000,000 shares of which 1,170,000,000 had been issued, the change registered on 17 October 1995. The company’s incorporation is recorded as 7 April 1989. It is signed by the chairman, vice-chairman and a director beneath their seals, overprinted as a specimen, and marked valid only when sealed by the certifying institution.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Taiwan"
+    ],
+    "subjectCountry": [
+      "Taiwan"
+    ],
+    "issuingCountry": [
+      "Taiwan"
+    ],
+    "creator": "EVA Airways Corporation",
+    "issueYear": [
+      "1995"
+    ],
+    "currency": [
+      "New Taiwan dollar"
+    ],
+    "language": [
+      "Chinese"
+    ],
+    "period": [
+      "20th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "One of NINE EVA specimen certificates in the collection. The letter codes are consistent -- NF = 100,000 shares, ND = 1,000, NX = variable capped at 1,000 -- and the numeric prefix is the ROC year: 84 = 1995 (goetzmann1186, 1184, 1185, dated 16 November), 85 = 1996 (1124, 1187, 1127, dated 10 August), 86 = 1997 (1183, 1125, 1126, dated 18 August). The 1995 and 1996 serials carry six zeros and the 1997 ones seven, each with a boxed check digit. Printed by Yuen Foong Yu Paper Manufacturing.",
+    "identifiers": [
+      "No. 84-NF-000000"
+    ],
     "namedIndividuals": [],
     "transcription": ""
   },
   {
     "id": "goetzmann1187",
-    "title": "EVA Airways Capital-Increase Share Certificate, 1996 Serial No. 85-ND-000000-8",
-    "description": "Serial No. 85-ND-000000-8 EVA Airways Corporation · Taiwan · 1996 A 1,000-share capital-increase certificate issued by EVA Airways Corporation in the 85th year of the Republic of China, or 1996, with a stated value of NT$10,000. The document records the creation of additional equity as EVA Airways continued to expand during the 1990s. Printed on security paper with an ornate blue border and prominently authenticated by corporate seals and officers' signatures, it is a tangible record of the financing of a rapidly developing Asian international airline.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "title": "EVA Airways Corporation Capital Increase Specimen Share, 1,000 Shares, 1996",
+    "description": "A specimen share certificate of EVA Airways Corporation, dated 10 August 1996. It represents one thousand shares, a total of ten thousand New Taiwan dollars, of ten New Taiwan dollars each and carries the serial 85-ND-000000. It belongs to the 1996 capital increase, the change registered on 11 July 1996 against an authorized 1,800,000,000 shares. The company’s incorporation is recorded as 7 April 1989. It is signed by the chairman, vice-chairman and a director beneath their seals, overprinted as a specimen, and marked valid only when sealed by the certifying institution.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Taiwan"
+    ],
+    "subjectCountry": [
+      "Taiwan"
+    ],
+    "issuingCountry": [
+      "Taiwan"
+    ],
+    "creator": "EVA Airways Corporation",
+    "issueYear": [
+      "1996"
+    ],
+    "currency": [
+      "New Taiwan dollar"
+    ],
+    "language": [
+      "Chinese"
+    ],
+    "period": [
+      "20th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "One of NINE EVA specimen certificates in the collection. The letter codes are consistent -- NF = 100,000 shares, ND = 1,000, NX = variable capped at 1,000 -- and the numeric prefix is the ROC year: 84 = 1995 (goetzmann1186, 1184, 1185, dated 16 November), 85 = 1996 (1124, 1187, 1127, dated 10 August), 86 = 1997 (1183, 1125, 1126, dated 18 August). The 1995 and 1996 serials carry six zeros and the 1997 ones seven, each with a boxed check digit. Printed by Yuen Foong Yu Paper Manufacturing.",
+    "identifiers": [
+      "No. 85-ND-000000"
+    ],
     "namedIndividuals": [],
     "transcription": ""
   },

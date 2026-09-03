@@ -2,11 +2,11 @@
   "type": [
     {
       "value": "Bond",
-      "count": 226
+      "count": 227
     },
     {
       "value": "Stock Certificate",
-      "count": 140
+      "count": 145
     },
     {
       "value": "Certificate",
@@ -108,7 +108,7 @@
     },
     {
       "value": "Germany",
-      "count": 22
+      "count": 23
     },
     {
       "value": "Belgium",
@@ -121,6 +121,10 @@
     {
       "value": "Bulgaria",
       "count": 14
+    },
+    {
+      "value": "Taiwan",
+      "count": 13
     },
     {
       "value": "Spain",
@@ -148,10 +152,6 @@
     },
     {
       "value": "Hungary",
-      "count": 8
-    },
-    {
-      "value": "Taiwan",
       "count": 8
     },
     {
@@ -382,7 +382,7 @@
     },
     {
       "value": "Germany",
-      "count": 19
+      "count": 20
     },
     {
       "value": "Belgium",
@@ -391,6 +391,10 @@
     {
       "value": "Bulgaria",
       "count": 14
+    },
+    {
+      "value": "Taiwan",
+      "count": 13
     },
     {
       "value": "Austria",
@@ -414,10 +418,6 @@
     },
     {
       "value": "Romania",
-      "count": 8
-    },
-    {
-      "value": "Taiwan",
       "count": 8
     },
     {
@@ -559,12 +559,12 @@
       "count": 14
     },
     {
-      "value": "German mark",
-      "count": 11
+      "value": "New Taiwan dollar",
+      "count": 13
     },
     {
-      "value": "New Taiwan dollar",
-      "count": 8
+      "value": "German mark",
+      "count": 11
     },
     {
       "value": "CNY",
@@ -966,19 +966,19 @@
     },
     {
       "value": "German",
-      "count": 52
+      "count": 53
     },
     {
       "value": "Russian",
       "count": 47
     },
     {
-      "value": "Spanish",
-      "count": 30
+      "value": "Chinese",
+      "count": 34
     },
     {
-      "value": "Chinese",
-      "count": 29
+      "value": "Spanish",
+      "count": 30
     },
     {
       "value": "Bulgarian",
@@ -1068,7 +1068,7 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 234
+      "count": 239
     },
     {
       "value": "19th Century",
@@ -1150,6 +1150,10 @@
     },
     {
       "value": "Oliver Phelps",
+      "count": 1
+    },
+    {
+      "value": "Peter Kotzler",
       "count": 1
     },
     {
