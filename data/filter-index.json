@@ -6,7 +6,7 @@
     },
     {
       "value": "Stock Certificate",
-      "count": 133
+      "count": 136
     },
     {
       "value": "Certificate",
@@ -41,11 +41,11 @@
       "count": 6
     },
     {
-      "value": "Coupon",
-      "count": 5
+      "value": "Register",
+      "count": 6
     },
     {
-      "value": "Register",
+      "value": "Coupon",
       "count": 5
     },
     {
@@ -96,7 +96,7 @@
     },
     {
       "value": "France",
-      "count": 56
+      "count": 57
     },
     {
       "value": "United Kingdom",
@@ -124,15 +124,19 @@
     },
     {
       "value": "Spain",
-      "count": 11
+      "count": 12
     },
     {
       "value": "Egypt",
-      "count": 10
+      "count": 11
     },
     {
       "value": "Japan",
       "count": 10
+    },
+    {
+      "value": "Italy",
+      "count": 9
     },
     {
       "value": "Mexico",
@@ -144,10 +148,6 @@
     },
     {
       "value": "Hungary",
-      "count": 8
-    },
-    {
-      "value": "Italy",
       "count": 8
     },
     {
@@ -231,6 +231,10 @@
       "count": 3
     },
     {
+      "value": "Morocco",
+      "count": 3
+    },
+    {
       "value": "Confederate States of America",
       "count": 2
     },
@@ -248,10 +252,6 @@
     },
     {
       "value": "Honduras",
-      "count": 2
-    },
-    {
-      "value": "Morocco",
       "count": 2
     },
     {
@@ -288,6 +288,10 @@
     },
     {
       "value": "Dominica",
+      "count": 1
+    },
+    {
+      "value": "Equatorial Guinea",
       "count": 1
     },
     {
@@ -358,7 +362,7 @@
     },
     {
       "value": "France",
-      "count": 48
+      "count": 49
     },
     {
       "value": "United Kingdom",
@@ -394,15 +398,15 @@
     },
     {
       "value": "Spain",
-      "count": 9
+      "count": 10
     },
     {
       "value": "Egypt",
-      "count": 8
+      "count": 9
     },
     {
       "value": "Italy",
-      "count": 8
+      "count": 9
     },
     {
       "value": "Romania",
@@ -520,11 +524,11 @@
     },
     {
       "value": "British pound sterling",
-      "count": 50
+      "count": 51
     },
     {
       "value": "French franc",
-      "count": 43
+      "count": 44
     },
     {
       "value": "GBP",
@@ -683,6 +687,10 @@
       "count": 2
     },
     {
+      "value": "Italian lira",
+      "count": 2
+    },
+    {
       "value": "multiple",
       "count": 2
     },
@@ -704,6 +712,10 @@
     },
     {
       "value": "Russian ruble (gold)",
+      "count": 2
+    },
+    {
+      "value": "Spanish peseta",
       "count": 2
     },
     {
@@ -847,10 +859,6 @@
       "count": 1
     },
     {
-      "value": "Italian lira",
-      "count": 1
-    },
-    {
       "value": "Japanese yen",
       "count": 1
     },
@@ -907,10 +915,6 @@
       "count": 1
     },
     {
-      "value": "Spanish peseta",
-      "count": 1
-    },
-    {
       "value": "Swedish krona",
       "count": 1
     },
@@ -942,7 +946,7 @@
     },
     {
       "value": "French",
-      "count": 143
+      "count": 145
     },
     {
       "value": "Dutch",
@@ -962,7 +966,7 @@
     },
     {
       "value": "Spanish",
-      "count": 28
+      "count": 29
     },
     {
       "value": "Bulgarian",
@@ -973,12 +977,12 @@
       "count": 10
     },
     {
-      "value": "Serbian",
+      "value": "Italian",
       "count": 9
     },
     {
-      "value": "Italian",
-      "count": 8
+      "value": "Serbian",
+      "count": 9
     },
     {
       "value": "Romanian",
@@ -989,16 +993,16 @@
       "count": 7
     },
     {
+      "value": "Arabic",
+      "count": 4
+    },
+    {
       "value": "Polish",
       "count": 4
     },
     {
       "value": "Portuguese",
       "count": 4
-    },
-    {
-      "value": "Arabic",
-      "count": 3
     },
     {
       "value": "Ottoman Turkish",

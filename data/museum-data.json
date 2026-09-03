@@ -22809,23 +22809,39 @@
   },
   {
     "id": "goetzmann1155",
-    "title": "Crédit Foncier Agricole du Maroc Share (Societe Anonyme)",
-    "description": "A fully-paid bearer share of 100 francs in the Crédit Foncier Agricole du Maroc, a French company with its registered office in Paris. It was capitalized at 1,000,000 francs in 10,000 shares of 100 francs each, and its statutes were deposited before a notary at Étampes on March 17, 1920. The date line is blank, marking this as an unissued share.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
+    "title": "Crédit Foncier Agricole du Maroc Share, Paris",
+    "description": "A fully paid bearer share of one hundred francs in the Crédit Foncier Agricole du Maroc, a French société anonyme with its registered office at 92 rue de Richelieu, Paris, and a capital of one million francs divided into ten thousand such shares. Its statutes were deposited with Maître Lescuyer, notary at Étampes, on 17 March 1920. The certificate is numbered 8495 and signed by two administrators. Its printed dateline, “Paris, le ___ 19__”, was never completed, so the share bears no date of issue.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Morocco",
+      "France"
+    ],
+    "subjectCountry": [
+      "Morocco",
+      "France"
+    ],
+    "issuingCountry": [
+      "France"
+    ],
+    "creator": "Crédit Foncier Agricole du Maroc",
     "issueYear": [],
-    "currency": [],
-    "language": [],
+    "currency": [
+      "French franc"
+    ],
+    "language": [
+      "French"
+    ],
     "period": [
       "20th Century"
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "Two leaves. Bears a French subscription stamp at the head and the company seal in red; printed by Thibaud, Brossier & Cie of Saint-Étienne. ⚠ Undated: the dateline was left blank, so no year is given in the title and issueYear is empty. Period is set from the 1920 statutes, which is the earliest the share can be.",
+    "identifiers": [
+      "No. 8495"
+    ],
     "namedIndividuals": [],
     "transcription": "",
     "pages": [
@@ -22841,23 +22857,41 @@
   },
   {
     "id": "goetzmann1157",
-    "title": "Société Anonyme de Wadi Kom-Ombo Share Certificate, Cairo",
-    "description": "Société Anonyme de Wadi Kom-Ombo · Cairo, Egypt · 1944 This richly illustrated share certificate was issued in Cairo on 1 June 1944 by the Société Anonyme de Wadi Kom-Ombo, an Egyptian agricultural and land-development company established by khedivial decree on 14 April 1904. The certificate represents five fully paid shares of four pounds sterling each, or £20 in total, from the company's fifth issue of shares. Following this issue, the company's stated capital was increased to £1,800,000, divided into 450,000 shares of £4 each. The bearer certificate, numbered 70,668, was accompanied by dividend coupons payable to the holder. The reverse reproduces an extract of the company's statutes, while the surviving coupon sheet preserves numerous unused dividend coupons. The Wadi Kom-Ombo company was created during a major expansion of irrigated agriculture in Upper Egypt following construction of the first Aswan Dam. Its purpose, as stated in the statutes, was to acquire, reclaim, irrigate, develop, and cultivate extensive lands in the Wadi Kom-Ombo region north of Aswan, as well as to construct the canals, roads, buildings, and other infrastructure needed to support agricultural settlement. The company became particularly associated with the reclamation of the Kom Ombo plain and with the expansion of sugar-cane cultivation, part of the broader transformation of Upper Egyptian agriculture in the early twentieth century. Historical research identifies the company as an important component of the interconnected banking, landholding, and sugar interests active in Egypt during this period. The certificate's elaborate design deliberately evokes ancient Egypt. A monumental Pharaonic temple dominates the upper border, while the left-hand vignette combines columns, hieroglyphic imagery, and an idealized female figure in Egyptian dress. Such imagery was common on securities issued by companies operating in Egypt, simultaneously advertising the geographic identity of the enterprise and presenting Egypt's ancient civilization as a symbol of permanence and value. French and Arabic appear prominently on the certificate, reflecting the multilingual commercial culture of twentieth-century Egypt. Issued during the Second World War, this 1944 certificate documents the continuing importance of private joint-stock companies in Egyptian agriculture and land development. More broadly, it illustrates how modern corporate finance, irrigation engineering, agricultural expansion, and European and Egyptian capital combined to reshape the Nile Valley during the first half of the twentieth century. The Wadi Kom Ombo enterprise survived in altered form and remains associated with land reclamation in Egypt today. Object details: Bearer certificate for five shares; £4 sterling per share; fifth share issue; issued Cairo, 1 June 1944; certificate no. 70,668; printed by H. Urwand & Fils; with company statutes and attached dividend-coupon sheet.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
+    "title": "Société Anonyme de Wadi Kom-Ombo Share, Cairo, 1944",
+    "description": "A fully paid bearer certificate for five shares of four pounds sterling each in the Société Anonyme de Wadi Kom-Ombo, issued at Cairo on 1 June 1944, numbered 70668 and covering shares 332836 to 332840. The company had been authorized by decree of the Khedive of Egypt of 14 April 1904, published with its statutes in the Journal Officiel of 18 April and entered on the register of company acts at the Mixed Tribunal of Cairo later that month. This certificate belongs to the fifth emission, of 150,000 shares created by the board on 20 April 1944, which raised the capital from £1,200,000 to £1,800,000 in 450,000 shares.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Egypt"
+    ],
+    "subjectCountry": [
+      "Egypt"
+    ],
+    "issuingCountry": [
+      "Egypt"
+    ],
+    "creator": "Société Anonyme de Wadi Kom-Ombo",
+    "issueYear": [
+      "1944"
+    ],
+    "currency": [
+      "British pound sterling"
+    ],
+    "language": [
+      "French",
+      "Arabic"
+    ],
     "period": [
       "20th Century"
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "Three leaves. Headings in French and Arabic, signed by two administrators beneath Arabic captions. Printed by H. Urwand & Fils. The titles of the fifth emission run 59,301 to 72,300 and 85,001 to 94,160.",
+    "identifiers": [
+      "Titre No. 70668",
+      "Shares 332836-332840"
+    ],
     "namedIndividuals": [],
     "transcription": "",
     "pages": [
@@ -22877,42 +22911,72 @@
   },
   {
     "id": "goetzmann1160",
-    "title": "Colonizadora de la Guinea Continential, S.A. \"Coguisa\"",
-    "description": "Colonizadora de la Guinea Continential, S.A. \"Coguisa\"",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
+    "title": "Colonizadora de la Guinea Continental (Coguisa) Share, Barcelona, 1930",
+    "description": "A bearer share of fifty pesetas in Colonizadora de la Guinea Continental, S.A., known as Coguisa, issued at Barcelona on 19 December 1930 and numbered 000033. The company was constituted at Barcelona before the notary Cruz Usatorre Gracia on 23 October 1929 with a capital of three million pesetas. By a resolution of the extraordinary general meeting of 26 October 1930, recorded before the same notary on 19 November, that capital was represented by sixty thousand bearer shares of fifty pesetas each, numbered 1 to 60,000. The certificate is stamped intransferible a extranjeros, not transferable to foreigners, under article 5 of the statutes.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Equatorial Guinea",
+      "Spain"
+    ],
+    "subjectCountry": [
+      "Equatorial Guinea",
+      "Spain"
+    ],
+    "issuingCountry": [
+      "Spain"
+    ],
+    "creator": "Colonizadora de la Guinea Continental, S.A.",
+    "issueYear": [
+      "1930"
+    ],
+    "currency": [
+      "Spanish peseta"
+    ],
+    "language": [
+      "Spanish"
+    ],
     "period": [
       "20th Century"
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "The company was formed to exploit Spanish continental Guinea, the mainland Río Muni territory of present-day Equatorial Guinea. Printed by Oliva de Vilanova, Barcelona. The certificate is engraved with a European driving a crawler tractor hauling a felled trunk while African labourers manhandle another by hand -- colonial logging shown as the company's business. Recorded here rather than in the description, which carries no vignette wording, but it is the kind of imagery the About page's note on the materials exists to cover.",
+    "identifiers": [
+      "Acción No. 000033"
+    ],
     "namedIndividuals": [],
     "transcription": ""
   },
   {
     "id": "goetzmann1161",
-    "title": "Merchant Account Ledger in Livres, Sols, and Deniers",
-    "description": "Lhis manuscript ledger records a series of financial accounts calculated in livres, sols (sous), and deniers, the traditional monetary system used in France before the Revolution. Written in dense cursive script, the pages consist primarily of names or account headings followed by individual amounts, subtotals, and accumulated balances. The repeated numerical columns and ruled totals suggest that the book was used to keep track of payments, debts, purchases, or settlements involving numerous individuals. The document is particularly striking for the elaborate pen flourishes surrounding headings, names, and completed entries. Such ornament was more than decoration: merchants, clerks, notaries, and bookkeepers often developed distinctive calligraphic marks to separate accounts, indicate settled transactions, and make later additions or alterations more difficult. Crossed-out entries and recalculated totals reveal the ledger as a working financial record rather than a formal presentation document. Accounts of this kind illustrate the practical infrastructure behind early modern commerce. Long before standardized bank statements or decimal currency, merchants and institutions relied on handwritten ledgers to organize networks of credit and obligation. Each sum had to be calculated in a non-decimal system—20 sols to the livre and 12 deniers to the sol—making careful bookkeeping essential. The heavily worked pages, corrections, ink variations, and surviving arithmetic provide an unusually direct glimpse into the everyday mechanics of early modern finance: a world in which economic relationships were recorded one name, payment, and handwritten calculation at a time.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
+    "title": "Merchant Account Ledger in Lire, Soldi and Denari",
+    "description": "A manuscript ledger leaf of merchant accounts, written in Italian in a heavily flourished cursive hand and reckoned in lire, soldi and denari. Names and account headings run down each column with their amounts set against them in three figures, and the columns close with totals carried forward. Several sums are written out in words as well as figures, among them duecento settantasei and settantadue. The upper third of the leaf is given over to elaborate penmanship flourishes. No date or place appears on it.",
+    "type": [
+      "Register"
+    ],
+    "location": [
+      "Italy"
+    ],
+    "subjectCountry": [
+      "Italy"
+    ],
+    "issuingCountry": [
+      "Italy"
+    ],
     "creator": "",
     "issueYear": [],
-    "currency": [],
-    "language": [],
+    "currency": [
+      "Italian lira"
+    ],
+    "language": [
+      "Italian"
+    ],
     "period": [],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
+    "notes": "Four leaves. ⚠ The record called this a French ledger \"in livres, sols (sous), and deniers, the traditional monetary system used in France before the Revolution\". The number words written out on the leaf are Italian -- duecento settantasei, settantadue, sei -- and the column heads read Summa, so it is Italian and the money is lire, soldi and denari. Title, description, language and country all corrected. No legible date, so period is left empty rather than guessed from the hand.",
     "identifiers": [],
     "namedIndividuals": [],
     "transcription": "",
