@@ -2,7 +2,7 @@
   "type": [
     {
       "value": "Bond",
-      "count": 221
+      "count": 222
     },
     {
       "value": "Stock Certificate",
@@ -18,7 +18,7 @@
     },
     {
       "value": "Receipt",
-      "count": 20
+      "count": 21
     },
     {
       "value": "Draft",
@@ -53,12 +53,12 @@
       "count": 4
     },
     {
-      "value": "Pamphlet",
+      "value": "Correspondence",
       "count": 3
     },
     {
-      "value": "Correspondence",
-      "count": 2
+      "value": "Pamphlet",
+      "count": 3
     },
     {
       "value": "Illustration",
@@ -88,23 +88,23 @@
     },
     {
       "value": "Netherlands",
-      "count": 62
+      "count": 63
     },
     {
       "value": "Russia",
-      "count": 55
+      "count": 56
     },
     {
       "value": "France",
-      "count": 51
+      "count": 52
     },
     {
       "value": "United Kingdom",
-      "count": 44
+      "count": 45
     },
     {
       "value": "China",
-      "count": 28
+      "count": 29
     },
     {
       "value": "Germany",
@@ -350,15 +350,15 @@
     },
     {
       "value": "Netherlands",
-      "count": 61
+      "count": 62
     },
     {
       "value": "France",
-      "count": 45
+      "count": 46
     },
     {
       "value": "United Kingdom",
-      "count": 42
+      "count": 43
     },
     {
       "value": "Russia",
@@ -512,7 +512,7 @@
     },
     {
       "value": "British pound sterling",
-      "count": 46
+      "count": 47
     },
     {
       "value": "French franc",
@@ -532,7 +532,7 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 18
+      "count": 19
     },
     {
       "value": "United States dollar",
@@ -918,15 +918,15 @@
   "language": [
     {
       "value": "English",
-      "count": 190
+      "count": 191
     },
     {
       "value": "French",
-      "count": 137
+      "count": 138
     },
     {
       "value": "Dutch",
-      "count": 71
+      "count": 72
     },
     {
       "value": "German",
@@ -1040,11 +1040,11 @@
     },
     {
       "value": "18th Century",
-      "count": 91
+      "count": 93
     },
     {
       "value": "17th Century",
-      "count": 6
+      "count": 7
     },
     {
       "value": "Pre-17th Century",
