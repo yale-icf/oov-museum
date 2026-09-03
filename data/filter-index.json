@@ -87,11 +87,11 @@
       "count": 110
     },
     {
-      "value": "Netherlands",
-      "count": 65
+      "value": "France",
+      "count": 64
     },
     {
-      "value": "France",
+      "value": "Netherlands",
       "count": 64
     },
     {
@@ -112,7 +112,7 @@
     },
     {
       "value": "Belgium",
-      "count": 21
+      "count": 22
     },
     {
       "value": "Austria",
@@ -366,7 +366,7 @@
     },
     {
       "value": "Netherlands",
-      "count": 63
+      "count": 62
     },
     {
       "value": "France",
@@ -385,12 +385,12 @@
       "count": 23
     },
     {
-      "value": "Germany",
+      "value": "Belgium",
       "count": 20
     },
     {
-      "value": "Belgium",
-      "count": 19
+      "value": "Germany",
+      "count": 20
     },
     {
       "value": "Bulgaria",
@@ -528,7 +528,7 @@
     },
     {
       "value": "British pound sterling",
-      "count": 53
+      "count": 54
     },
     {
       "value": "FRF",
@@ -560,7 +560,7 @@
     },
     {
       "value": "United States dollar",
-      "count": 17
+      "count": 16
     },
     {
       "value": "German mark",
@@ -575,15 +575,15 @@
       "count": 7
     },
     {
+      "value": "Livres Tournois",
+      "count": 7
+    },
+    {
       "value": "BEF",
       "count": 6
     },
     {
       "value": "JPY",
-      "count": 6
-    },
-    {
-      "value": "Livres Tournois",
       "count": 6
     },
     {
@@ -632,10 +632,6 @@
     },
     {
       "value": "ITL",
-      "count": 3
-    },
-    {
-      "value": "Massachusetts Pounds",
       "count": 3
     },
     {
@@ -696,6 +692,10 @@
     },
     {
       "value": "Italian lira",
+      "count": 2
+    },
+    {
+      "value": "Massachusetts Pounds",
       "count": 2
     },
     {
