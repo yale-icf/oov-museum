@@ -2,11 +2,11 @@
   "type": [
     {
       "value": "Bond",
-      "count": 225
+      "count": 226
     },
     {
       "value": "Stock Certificate",
-      "count": 138
+      "count": 140
     },
     {
       "value": "Certificate",
@@ -33,12 +33,12 @@
       "count": 9
     },
     {
-      "value": "Indenture",
+      "value": "Banknote",
       "count": 7
     },
     {
-      "value": "Banknote",
-      "count": 6
+      "value": "Indenture",
+      "count": 7
     },
     {
       "value": "Register",
@@ -92,7 +92,7 @@
     },
     {
       "value": "France",
-      "count": 61
+      "count": 63
     },
     {
       "value": "Russia",
@@ -104,7 +104,7 @@
     },
     {
       "value": "China",
-      "count": 31
+      "count": 32
     },
     {
       "value": "Germany",
@@ -131,12 +131,12 @@
       "count": 11
     },
     {
-      "value": "Japan",
+      "value": "Italy",
       "count": 10
     },
     {
-      "value": "Italy",
-      "count": 9
+      "value": "Japan",
+      "count": 10
     },
     {
       "value": "Mexico",
@@ -183,6 +183,10 @@
       "count": 6
     },
     {
+      "value": "Argentina",
+      "count": 5
+    },
+    {
       "value": "Brazil",
       "count": 5
     },
@@ -197,10 +201,6 @@
     {
       "value": "Vietnam",
       "count": 5
-    },
-    {
-      "value": "Argentina",
-      "count": 4
     },
     {
       "value": "Bolivia",
@@ -339,6 +339,10 @@
       "count": 1
     },
     {
+      "value": "Nicaragua",
+      "count": 1
+    },
+    {
       "value": "Republic of the Congo",
       "count": 1
     },
@@ -362,7 +366,7 @@
     },
     {
       "value": "France",
-      "count": 52
+      "count": 53
     },
     {
       "value": "United Kingdom",
@@ -374,7 +378,7 @@
     },
     {
       "value": "China",
-      "count": 22
+      "count": 23
     },
     {
       "value": "Germany",
@@ -393,6 +397,10 @@
       "count": 12
     },
     {
+      "value": "Italy",
+      "count": 10
+    },
+    {
       "value": "Japan",
       "count": 10
     },
@@ -402,10 +410,6 @@
     },
     {
       "value": "Egypt",
-      "count": 9
-    },
-    {
-      "value": "Italy",
       "count": 9
     },
     {
@@ -458,7 +462,7 @@
     },
     {
       "value": "Argentina",
-      "count": 2
+      "count": 3
     },
     {
       "value": "Bolivia",
@@ -528,7 +532,7 @@
     },
     {
       "value": "French franc",
-      "count": 46
+      "count": 48
     },
     {
       "value": "GBP",
@@ -739,6 +743,10 @@
       "count": 1
     },
     {
+      "value": "Argentine peso",
+      "count": 1
+    },
+    {
       "value": "Austrian Krone (K)",
       "count": 1
     },
@@ -937,6 +945,10 @@
     {
       "value": "VEN",
       "count": 1
+    },
+    {
+      "value": "Venetian ducat",
+      "count": 1
     }
   ],
   "language": [
@@ -946,7 +958,7 @@
     },
     {
       "value": "French",
-      "count": 148
+      "count": 150
     },
     {
       "value": "Dutch",
@@ -961,11 +973,11 @@
       "count": 47
     },
     {
-      "value": "Chinese",
-      "count": 29
+      "value": "Spanish",
+      "count": 30
     },
     {
-      "value": "Spanish",
+      "value": "Chinese",
       "count": 29
     },
     {
@@ -973,12 +985,12 @@
       "count": 14
     },
     {
-      "value": "Japanese",
+      "value": "Italian",
       "count": 10
     },
     {
-      "value": "Italian",
-      "count": 9
+      "value": "Japanese",
+      "count": 10
     },
     {
       "value": "Serbian",
@@ -1056,15 +1068,15 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 232
+      "count": 234
     },
     {
       "value": "19th Century",
-      "count": 170
+      "count": 171
     },
     {
       "value": "18th Century",
-      "count": 98
+      "count": 99
     },
     {
       "value": "17th Century",
