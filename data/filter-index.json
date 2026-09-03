@@ -84,11 +84,11 @@
   "location": [
     {
       "value": "United States",
-      "count": 107
+      "count": 106
     },
     {
       "value": "Netherlands",
-      "count": 63
+      "count": 64
     },
     {
       "value": "Russia",
@@ -100,7 +100,7 @@
     },
     {
       "value": "United Kingdom",
-      "count": 45
+      "count": 46
     },
     {
       "value": "China",
@@ -346,7 +346,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 96
+      "count": 95
     },
     {
       "value": "Netherlands",
@@ -358,7 +358,7 @@
     },
     {
       "value": "United Kingdom",
-      "count": 43
+      "count": 44
     },
     {
       "value": "Russia",
@@ -512,7 +512,7 @@
     },
     {
       "value": "British pound sterling",
-      "count": 47
+      "count": 48
     },
     {
       "value": "French franc",
@@ -551,10 +551,6 @@
       "count": 7
     },
     {
-      "value": "Livres Tournois",
-      "count": 7
-    },
-    {
       "value": "BEF",
       "count": 6
     },
@@ -564,6 +560,10 @@
     },
     {
       "value": "JPY",
+      "count": 6
+    },
+    {
+      "value": "Livres Tournois",
       "count": 6
     },
     {
@@ -918,7 +918,7 @@
   "language": [
     {
       "value": "English",
-      "count": 191
+      "count": 190
     },
     {
       "value": "French",
@@ -926,7 +926,7 @@
     },
     {
       "value": "Dutch",
-      "count": 72
+      "count": 73
     },
     {
       "value": "German",
