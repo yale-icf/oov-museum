@@ -21931,21 +21931,40 @@
   },
   {
     "id": "goetzmann1105",
-    "title": "ROYAL LOAN TONTINE - EDIT D'AOUT 1734",
-    "description": "Tontine 1735 PARIS. Contrat + quittance de 1200 Livres. black. No 86. Reference Cat. Shakespeare 341. 5th (of a total of 15) class thus issued to a person at the age of 20-25y. The total issue amounted to 1.463.000 Livres and was oversubscribed. Its proceeds were used to finance the War of the Polish Succession. A rare type.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "title": "Royal Tontine Contract on the Edict of August 1734, Paris, 1735",
+    "description": "A notarial contract dated at Paris 6 October 1735 for a share in the royal tontine created by the edict of August 1734, taken in the fifth class, subdivisions two to five, and numbered 86. Passed before the notaries at the Châtelet, with Michel Estienne Turgot, Prévôt des Marchands, and the city’s échevins, it constitutes one hundred livres of life annuity on the head of Geneviève Claire Coustou, aged just over twenty, whose father Guillaume Coustou, sculptor in ordinary to the King and director of his Academy of Painting and Sculpture, subscribed for her. The annuity was charged on the aides and gabelles and the five great farms.",
+    "type": [
+      "Tontine"
+    ],
+    "location": [
+      "France"
+    ],
+    "subjectCountry": [
+      "France"
+    ],
+    "issuingCountry": [
+      "France"
+    ],
+    "creator": "Prévôt des Marchands et Échevins de la Ville de Paris",
+    "issueYear": [
+      "1735"
+    ],
+    "currency": [
+      "French livres"
+    ],
+    "language": [
+      "French"
+    ],
+    "period": [
+      "18th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "Seven leaves: the printed contract with the manuscript constitution, followed by the parchment quittance. Capital 1,200 livres, four actions of 300, yielding 100 livres of rente viagère. The whole issue was 1,463,000 livres in fifteen age classes and was oversubscribed. The fifth class covered lives aged twenty to twenty-five. goetzmann0465 is a subscription contract for the SAME 1734 tontine but a different subscriber and year -- a companion, not a duplicate. Two échevins named in the printed text are struck through and replaced in manuscript.",
+    "identifiers": [
+      "No. 86",
+      "Shakespeare 341"
+    ],
     "namedIndividuals": [],
     "transcription": "",
     "pages": [
@@ -21981,21 +22000,40 @@
   },
   {
     "id": "goetzmann1112",
-    "title": "ROYAL LOAN TONTINE - EDIT DE DECEMBRE 1759",
-    "description": "1761 PARIS. Contrat + Quittance de 200 Livres. black. No 2432. Some edge damage (splits and folds, brown discolouration at the bottom). Unlike lot 505 this is the normal rente, with separate quittance inside. Shakespeare Ref. 591 - Q1, 4th class.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
-    "period": [],
+    "title": "Tenth Royal Tontine Contract on the Edict of December 1759, Paris, 1761",
+    "description": "A notarial contract dated at Paris 30 January 1761 for a share in the tenth royal tontine, created by the edict of December 1759 and registered in Parlement on the seventeenth of that month. It constitutes eighteen livres of life annuity, the yield of one action of two hundred livres, in the twenty-ninth subdivision of the fourth class, on the head of Christophe Delaporte, a master wigmaker of Paris aged thirty-three of the rue Saint-André-des-Arts. The edict opened the loan to subscribers of any age, sex or condition, including members of religious orders, and to unnaturalized foreigners even where their sovereign was at war with France.",
+    "type": [
+      "Tontine"
+    ],
+    "location": [
+      "France"
+    ],
+    "subjectCountry": [
+      "France"
+    ],
+    "issuingCountry": [
+      "France"
+    ],
+    "creator": "Prévôt des Marchands et Échevins de la Ville de Paris",
+    "issueYear": [
+      "1761"
+    ],
+    "currency": [
+      "French livres"
+    ],
+    "language": [
+      "French"
+    ],
+    "period": [
+      "18th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "Ten leaves, contract and quittance, with six inserts. The edict created three million livres of rentes viagères in eight age classes, paying 14 livres a year per action in the first class rising to 24 in the eighth; the fourth class covered ages thirty to forty. Secured on the general farm of the posts and on the aides and gabelles, and payable half-yearly from October 1759. Subscribers had to prove the nominee’s age by baptismal extract. goetzmann0179 is a treasury receipt in the EIGHTH class of this same tontine -- a companion, not a duplicate.",
+    "identifiers": [
+      "No. 2432",
+      "Shakespeare 591"
+    ],
     "namedIndividuals": [],
     "transcription": "",
     "pages": [
@@ -22043,23 +22081,46 @@
   },
   {
     "id": "goetzmann1122",
-    "title": "Confederate States of America (Ball 157, Criswell 117), Paris",
-    "description": "Paris, 1 June 1863, 7 % Bond for £ 200 = 5,000 Francs = 8,000 Lbs. Cotton, Series C, #482, 45.5 x 26 cm, black, beige, 36 remaining coupons, folds, ink spot, otherwise in good condition, vignette of Liberty holding Confederate \"Stars and Bars\", leaning on bales of cotton and gazing across the sea.",
-    "type": [],
-    "location": [],
-    "subjectCountry": [],
-    "issuingCountry": [],
-    "creator": "",
-    "issueYear": [],
-    "currency": [],
-    "language": [],
+    "title": "Confederate States of America Cotton Loan Bond, Paris, 1863",
+    "description": "A bearer bond for two hundred pounds sterling, or five thousand francs, of the Confederate States of America’s seven percent cotton loan of three million pounds, Series C and numbered 482, signed at Paris on 1 June 1863 under the seal of the Treasury Department. Interest was payable half-yearly at Paris, London, Amsterdam or Frankfurt, and the issue was to be redeemed at par by half-yearly drawings between 1864 and 1883. The holder could instead convert the bond into eight thousand pounds of New Orleans middling cotton at sixpence a pound, deliverable at Charleston, Savannah, Mobile or New Orleans in peacetime, or in war at an interior point within ten miles of a railroad or navigable stream.",
+    "type": [
+      "Bond"
+    ],
+    "location": [
+      "United States",
+      "France",
+      "Confederate States of America"
+    ],
+    "subjectCountry": [
+      "United States",
+      "France"
+    ],
+    "issuingCountry": [
+      "Confederate States of America"
+    ],
+    "creator": "Confederate States of America",
+    "issueYear": [
+      "1863"
+    ],
+    "currency": [
+      "British pound sterling",
+      "French franc"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
     "period": [
       "19th Century"
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "",
-    "identifiers": [],
+    "notes": "The Erlanger loan. Text in parallel English and French; contracted through Émile Erlanger & Cie of Paris, with J. Henry Schröder & Co. of London as agents to the contractors, and signed by C. J. McRae as Agent for the Loan. Authorized by an act of Congress of 29 January 1863, a certified copy being deposited with Freshfields & Newman, solicitors, in London. Thirty-six coupons remain attached (goetzmann1123). Vignette of a figure of Liberty with the Stars and Bars, seated among cotton bales. Companion issues of the same loan: goetzmann0340 and goetzmann0604 (Richmond).",
+    "identifiers": [
+      "Series C, No. 482",
+      "Ball 157",
+      "Criswell 117"
+    ],
     "namedIndividuals": [],
     "transcription": "",
     "pages": [

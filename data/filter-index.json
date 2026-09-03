@@ -2,7 +2,7 @@
   "type": [
     {
       "value": "Bond",
-      "count": 222
+      "count": 223
     },
     {
       "value": "Stock Certificate",
@@ -25,11 +25,11 @@
       "count": 9
     },
     {
-      "value": "Indenture",
-      "count": 7
+      "value": "Tontine",
+      "count": 9
     },
     {
-      "value": "Tontine",
+      "value": "Indenture",
       "count": 7
     },
     {
@@ -84,7 +84,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 106
+      "count": 107
     },
     {
       "value": "Netherlands",
@@ -96,7 +96,7 @@
     },
     {
       "value": "France",
-      "count": 52
+      "count": 55
     },
     {
       "value": "United Kingdom",
@@ -227,6 +227,10 @@
       "count": 3
     },
     {
+      "value": "Confederate States of America",
+      "count": 2
+    },
+    {
       "value": "Costa Rica",
       "count": 2
     },
@@ -264,10 +268,6 @@
     },
     {
       "value": "Canada",
-      "count": 1
-    },
-    {
-      "value": "Confederate States of America",
       "count": 1
     },
     {
@@ -354,7 +354,7 @@
     },
     {
       "value": "France",
-      "count": 46
+      "count": 48
     },
     {
       "value": "United Kingdom",
@@ -461,6 +461,10 @@
       "count": 2
     },
     {
+      "value": "Confederate States of America",
+      "count": 2
+    },
+    {
       "value": "Greece",
       "count": 2
     },
@@ -470,10 +474,6 @@
     },
     {
       "value": "Canada",
-      "count": 1
-    },
-    {
-      "value": "Confederate States of America",
       "count": 1
     },
     {
@@ -512,11 +512,11 @@
     },
     {
       "value": "British pound sterling",
-      "count": 48
+      "count": 49
     },
     {
       "value": "French franc",
-      "count": 42
+      "count": 43
     },
     {
       "value": "GBP",
@@ -576,6 +576,10 @@
     },
     {
       "value": "ESP",
+      "count": 4
+    },
+    {
+      "value": "French livres",
       "count": 4
     },
     {
@@ -656,10 +660,6 @@
     },
     {
       "value": "Francs",
-      "count": 2
-    },
-    {
-      "value": "French livres",
       "count": 2
     },
     {
@@ -918,11 +918,11 @@
   "language": [
     {
       "value": "English",
-      "count": 190
+      "count": 191
     },
     {
       "value": "French",
-      "count": 138
+      "count": 141
     },
     {
       "value": "Dutch",
@@ -1040,7 +1040,7 @@
     },
     {
       "value": "18th Century",
-      "count": 93
+      "count": 95
     },
     {
       "value": "17th Century",
