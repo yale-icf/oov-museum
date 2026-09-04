@@ -536,7 +536,7 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 57
+      "count": 56
     },
     {
       "value": "Russian ruble",
@@ -787,6 +787,10 @@
       "count": 1
     },
     {
+      "value": "Pounds wisselgeld",
+      "count": 1
+    },
+    {
       "value": "Riksdaler",
       "count": 1
     },
@@ -822,7 +826,7 @@
   "language": [
     {
       "value": "English",
-      "count": 204
+      "count": 205
     },
     {
       "value": "French",
@@ -830,7 +834,7 @@
     },
     {
       "value": "Dutch",
-      "count": 74
+      "count": 73
     },
     {
       "value": "German",
