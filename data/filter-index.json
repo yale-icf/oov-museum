@@ -2,7 +2,7 @@
   "type": [
     {
       "value": "Bond",
-      "count": 230
+      "count": 231
     },
     {
       "value": "Stock Certificate",
@@ -10,7 +10,7 @@
     },
     {
       "value": "Certificate",
-      "count": 43
+      "count": 45
     },
     {
       "value": "Lottery Bond",
@@ -42,7 +42,7 @@
     },
     {
       "value": "Register",
-      "count": 7
+      "count": 8
     },
     {
       "value": "Coupon",
@@ -84,11 +84,11 @@
   "location": [
     {
       "value": "United States",
-      "count": 110
+      "count": 111
     },
     {
       "value": "Netherlands",
-      "count": 70
+      "count": 74
     },
     {
       "value": "France",
@@ -96,7 +96,7 @@
     },
     {
       "value": "Russia",
-      "count": 61
+      "count": 63
     },
     {
       "value": "United Kingdom",
@@ -378,7 +378,7 @@
     },
     {
       "value": "Netherlands",
-      "count": 67
+      "count": 71
     },
     {
       "value": "France",
@@ -548,7 +548,7 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 96
+      "count": 97
     },
     {
       "value": "British pound sterling",
@@ -560,11 +560,11 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 61
+      "count": 63
     },
     {
       "value": "Russian ruble",
-      "count": 49
+      "count": 51
     },
     {
       "value": "Livres Tournois",
@@ -854,11 +854,11 @@
     },
     {
       "value": "French",
-      "count": 154
+      "count": 156
     },
     {
       "value": "Dutch",
-      "count": 79
+      "count": 83
     },
     {
       "value": "German",
@@ -968,11 +968,11 @@
     },
     {
       "value": "19th Century",
-      "count": 175
+      "count": 178
     },
     {
       "value": "18th Century",
-      "count": 103
+      "count": 104
     },
     {
       "value": "17th Century",
