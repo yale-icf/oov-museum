@@ -2,11 +2,11 @@
   "type": [
     {
       "value": "Bond",
-      "count": 228
+      "count": 230
     },
     {
       "value": "Stock Certificate",
-      "count": 148
+      "count": 149
     },
     {
       "value": "Certificate",
@@ -87,11 +87,11 @@
       "count": 110
     },
     {
-      "value": "France",
-      "count": 64
+      "value": "Netherlands",
+      "count": 67
     },
     {
-      "value": "Netherlands",
+      "value": "France",
       "count": 64
     },
     {
@@ -163,6 +163,10 @@
       "count": 8
     },
     {
+      "value": "Guyana",
+      "count": 7
+    },
+    {
       "value": "Portugal",
       "count": 7
     },
@@ -171,15 +175,15 @@
       "count": 6
     },
     {
-      "value": "Guyana",
-      "count": 6
-    },
-    {
       "value": "Peru",
       "count": 6
     },
     {
       "value": "Poland",
+      "count": 6
+    },
+    {
+      "value": "Suriname",
       "count": 6
     },
     {
@@ -212,10 +216,6 @@
     },
     {
       "value": "Indonesia",
-      "count": 4
-    },
-    {
-      "value": "Suriname",
       "count": 4
     },
     {
@@ -378,7 +378,7 @@
     },
     {
       "value": "Netherlands",
-      "count": 62
+      "count": 65
     },
     {
       "value": "France",
@@ -556,7 +556,7 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 56
+      "count": 59
     },
     {
       "value": "Russian ruble",
@@ -854,7 +854,7 @@
     },
     {
       "value": "Dutch",
-      "count": 73
+      "count": 76
     },
     {
       "value": "German",
@@ -968,7 +968,7 @@
     },
     {
       "value": "18th Century",
-      "count": 99
+      "count": 102
     },
     {
       "value": "17th Century",

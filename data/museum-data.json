@@ -116,6 +116,184 @@
     ]
   },
   {
+    "id": "goetzmann0004",
+    "title": "Societeit der Plantagiën Beekenhorst en Egmond Share, Amsterdam, 1791",
+    "description": "An act of share in the Societeit der Plantagiën Beekenhorst en Egmond in the colony of Suriname, drawn as an authentic copy of the deed executed at Amsterdam on 15 February 1791 before the notary Anthony Mylius. Dirk Luden appeared as director, with Michiel Hubert tot Hilvarenbeek and François de Vogel as commissioners. The society replaced a negotiatie of 370,000 guilders raised in 1772 by Theodore Passalaigue & Zoon, and divided two plantations on the river Commewijne — Beekenhorst with the grounds Favorita and Byval, 689 akkers, and Egmond, 629 akkers — into 370 shares, each carrying one vote and a three-hundred-and-seventieth part of the property. That property passed with all its appurtenances and dependencies, which on a Suriname plantation meant the enslaved people who worked it.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Suriname",
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "Suriname",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "creator": "Societeit der Plantagiën Beekenhorst en Egmond",
+    "issueYear": [
+      "1791"
+    ],
+    "currency": [
+      "Dutch guilder"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Four leaves; the fourth is the blank verso, docketed \"Acte van Aandeel in de Plantagiën Beekenhorst & Egmond te Suriname by Dirk Luden te Amsterdam\" — which is what fixes the type as a share rather than a charter. The deed is dated 15 February 1791; article 2 required the 370 share acts to be signed on 1 April 1791 and numbered 1 to 370, so that is the issue date. Article 10 provided for shares to be redeemed by lot at 1,000 guilders each out of surplus; article 12 gave one vote per share. ⚠ This number previously held a removed Rotterdam assurance pamphlet; the workbook row was overwritten, not appended.",
+    "identifiers": [
+      "No. 260"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann0004",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0005",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0006",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0007",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann0008",
+    "title": "Hageman Suriname Plantation Negotiatie Bond, Amsterdam, 1770",
+    "description": "A participation of five hundred guilders, numbered 10, in a negotiatie of five hundred thousand guilders raised at Amsterdam on 1 May 1770 under the direction of Roeloff Hageman and secured by mortgage on plantations in the colony of Suriname. The printed conditions bound a borrowing planter to mortgage his plantation and everything depending on it, and to prove clear title before any money was advanced, sums drawn serving to redeem existing mortgages. Each plantation was appraised afresh by sworn assessors, one named by the director's agents and one by the owner, and no more than five-eighths of that value could be lent against it. The appraisal excluded anything not used in working the plantation, so what stood as security was the estate as a going concern, the enslaved people who worked it among it.",
+    "type": [
+      "Bond"
+    ],
+    "location": [
+      "Suriname",
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "Suriname",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "creator": "Roeloff Hageman",
+    "issueYear": [
+      "1770"
+    ],
+    "currency": [
+      "Dutch guilder"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Four leaves, the first being the printed Conditien en Voorwaarden. A struck stamp at the head reads \"Op deze obligatie is betaald f 35.- voor aandeel in tegemoetkomings gelden\". ⚠ This number previously held a removed Middelburg assurance charter; the workbook row was overwritten, not appended.",
+    "identifiers": [
+      "No. 10"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann0008",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0009",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0010",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0011",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann0012",
+    "title": "Middelburg Plantation Bond for Essequibo and Demerara, 1771",
+    "description": "A bond numbered 572 on the Register of Middelburg, by which Kornelis van den Helm Boddaert, director for the money-lenders on plantations in the colony of Essequibo and Demerary, acknowledges a thousand guilders courant received from Anna Susanna van Citters. Interest runs at five percent from 1 January 1771, the first payment falling due a year later and paid free of any deduction at his office, and the borrowers pledged their persons and goods over and above the mortgages on the plantations themselves, which were worked by enslaved people. Endorsements on the face record fresh coupon sheets issued in 1800, 1810, 1819, 1829 and 1839.",
+    "type": [
+      "Bond"
+    ],
+    "location": [
+      "Guyana",
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "Guyana",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "creator": "Kornelis van den Helm Boddaert",
+    "issueYear": [
+      "1771"
+    ],
+    "currency": [
+      "Dutch guilder"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Five leaves. ⚠ The SAME fund as goetzmann0509, \"Middelburg Plantation Bond for Essequibo and Demerara, 1768\" — same director, same register, three years earlier and bond No. 90. Two bonds in one long-running negotiatie, not two copies of one issue, so they are titled alike and separated by year. The coupon endorsements run from 1800 to 1839, so it was still being serviced sixty-eight years after it was written. The collection spells the colony \"Essequibo\"; the master sheet spells it \"Essequebo\". ⚠ This number previously held a removed Utrecht exchange-bank regulation; the workbook row was overwritten, not appended.",
+    "identifiers": [
+      "No. 572"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann0012",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0013",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0014",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0015",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0016",
+        "description": ""
+      }
+    ]
+  },
+  {
     "id": "goetzmann0079",
     "title": "Pasquin's Windkaart: Dutch Satirical Playing Cards, 1720",
     "description": "A set of fifty-five satirical playing cards, Pasquin's Wind-Card, from the Dutch compilation Het Groote Tafereel der Dwaasheid (\"The Great Mirror of Folly\"). The cards mock the windhandel, the speculative \"wind trade\" in company shares that gripped the Dutch Republic in 1720, each pairing an engraved figure with a Dutch verse that caricatures the speculators and promoters of the bubble. The King of Spades, for instance, shows a periwigged gentleman holding a balance in which a spade and a sheet of paper outweigh a purse of gold, paper wealth made absurdly heavier than real coin. As an object of shared play, the deck shows that financial satire reached beyond the elite forms of pamphlet and essay, traveling through cheap everyday print and the sociable spaces of taverns, coffeehouses, and parlors, where people handled cards and traded opinions.",
