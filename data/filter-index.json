@@ -10,7 +10,7 @@
     },
     {
       "value": "Certificate",
-      "count": 42
+      "count": 43
     },
     {
       "value": "Lottery Bond",
@@ -38,11 +38,11 @@
     },
     {
       "value": "Indenture",
-      "count": 7
+      "count": 8
     },
     {
       "value": "Register",
-      "count": 6
+      "count": 7
     },
     {
       "value": "Coupon",
@@ -88,7 +88,7 @@
     },
     {
       "value": "Netherlands",
-      "count": 67
+      "count": 70
     },
     {
       "value": "France",
@@ -96,7 +96,7 @@
     },
     {
       "value": "Russia",
-      "count": 60
+      "count": 61
     },
     {
       "value": "United Kingdom",
@@ -171,6 +171,10 @@
       "count": 7
     },
     {
+      "value": "Suriname",
+      "count": 7
+    },
+    {
       "value": "Cuba",
       "count": 6
     },
@@ -180,10 +184,6 @@
     },
     {
       "value": "Poland",
-      "count": 6
-    },
-    {
-      "value": "Suriname",
       "count": 6
     },
     {
@@ -378,7 +378,7 @@
     },
     {
       "value": "Netherlands",
-      "count": 65
+      "count": 67
     },
     {
       "value": "France",
@@ -537,6 +537,10 @@
       "count": 1
     },
     {
+      "value": "Suriname",
+      "count": 1
+    },
+    {
       "value": "Uruguay",
       "count": 1
     }
@@ -556,11 +560,11 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 59
+      "count": 61
     },
     {
       "value": "Russian ruble",
-      "count": 48
+      "count": 49
     },
     {
       "value": "Livres Tournois",
@@ -850,11 +854,11 @@
     },
     {
       "value": "French",
-      "count": 153
+      "count": 154
     },
     {
       "value": "Dutch",
-      "count": 76
+      "count": 79
     },
     {
       "value": "German",
@@ -964,11 +968,11 @@
     },
     {
       "value": "19th Century",
-      "count": 173
+      "count": 175
     },
     {
       "value": "18th Century",
-      "count": 102
+      "count": 103
     },
     {
       "value": "17th Century",
