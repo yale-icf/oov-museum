@@ -100,7 +100,7 @@
     },
     {
       "value": "United Kingdom",
-      "count": 46
+      "count": 43
     },
     {
       "value": "China",
@@ -151,6 +151,10 @@
       "count": 9
     },
     {
+      "value": "Great Britain",
+      "count": 8
+    },
+    {
       "value": "Hungary",
       "count": 8
     },
@@ -164,10 +168,6 @@
     },
     {
       "value": "Cuba",
-      "count": 6
-    },
-    {
-      "value": "Great Britain",
       "count": 6
     },
     {
@@ -219,10 +219,6 @@
       "count": 4
     },
     {
-      "value": "Yugoslavia",
-      "count": 4
-    },
-    {
       "value": "Chile",
       "count": 3
     },
@@ -232,6 +228,10 @@
     },
     {
       "value": "Morocco",
+      "count": 3
+    },
+    {
+      "value": "Yugoslavia",
       "count": 3
     },
     {
@@ -271,11 +271,19 @@
       "count": 1
     },
     {
+      "value": "Austria-Hungary",
+      "count": 1
+    },
+    {
       "value": "Azerbaijan",
       "count": 1
     },
     {
       "value": "Belize",
+      "count": 1
+    },
+    {
+      "value": "Bosnia and Herzegovina",
       "count": 1
     },
     {
@@ -292,6 +300,10 @@
     },
     {
       "value": "Dominica",
+      "count": 1
+    },
+    {
+      "value": "England",
       "count": 1
     },
     {
@@ -378,7 +390,7 @@
     },
     {
       "value": "United Kingdom",
-      "count": 44
+      "count": 41
     },
     {
       "value": "China",
@@ -425,6 +437,10 @@
       "count": 8
     },
     {
+      "value": "Great Britain",
+      "count": 7
+    },
+    {
       "value": "Hungary",
       "count": 6
     },
@@ -438,10 +454,6 @@
     },
     {
       "value": "Cuba",
-      "count": 5
-    },
-    {
-      "value": "Great Britain",
       "count": 5
     },
     {
@@ -461,11 +473,11 @@
       "count": 4
     },
     {
-      "value": "Yugoslavia",
-      "count": 4
+      "value": "Argentina",
+      "count": 3
     },
     {
-      "value": "Argentina",
+      "value": "Yugoslavia",
       "count": 3
     },
     {
@@ -493,11 +505,19 @@
       "count": 2
     },
     {
+      "value": "Austria-Hungary",
+      "count": 1
+    },
+    {
       "value": "Canada",
       "count": 1
     },
     {
       "value": "Czechoslovakia",
+      "count": 1
+    },
+    {
+      "value": "England",
       "count": 1
     },
     {
