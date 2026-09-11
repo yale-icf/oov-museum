@@ -199,12 +199,28 @@ def build_db(items, checkpoint):
     print("FTS5 index built.")
 
     # --- Load bounding boxes ---
+    # Only for images the collection still shows. ocr_boxes/ keeps files for
+    # records that were later removed or merged away, and without this filter
+    # they rode into the index: 138 of 866 rows pointed at ids that are neither
+    # a record nor a leaf. Unreachable (the lightbox needs a docs row) but they
+    # bloat a file every full-text search downloads.
+    live_images = set()
+    for item in items:
+        live_images.add(item["id"])
+        for page in item.get("pages") or []:
+            if page.get("id"):
+                live_images.add(page["id"])
+
     boxes_loaded = 0
+    boxes_skipped = 0
     if os.path.isdir(BOXES_DIR):
         for fname in sorted(os.listdir(BOXES_DIR)):
             if not fname.endswith(".json"):
                 continue
             image_id = fname[:-5]
+            if image_id not in live_images:
+                boxes_skipped += 1
+                continue
             try:
                 with open(os.path.join(BOXES_DIR, fname), "r", encoding="utf-8") as f:
                     data = json.load(f)
@@ -218,7 +234,9 @@ def build_db(items, checkpoint):
             except Exception as e:
                 print(f"  Warning: {fname}: {e}")
         conn.commit()
-        print(f"Loaded {boxes_loaded} bounding box files into boxes table.")
+        print(f"Loaded {boxes_loaded} bounding box files into boxes table"
+              + (f"; skipped {boxes_skipped} for ids no longer in the collection." if boxes_skipped
+                 else "."))
     else:
         print("No ocr_boxes directory found; boxes table empty.")
 
