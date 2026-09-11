@@ -199,3 +199,4 @@ images/*.docx
 # never commit database/data backups — they are 30MB+ each
 *.bak-*
 *.bak
+retired/
