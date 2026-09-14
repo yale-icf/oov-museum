@@ -25,6 +25,10 @@
       "count": 16
     },
     {
+      "value": "Register",
+      "count": 10
+    },
+    {
       "value": "Draft",
       "count": 9
     },
@@ -41,12 +45,12 @@
       "count": 8
     },
     {
-      "value": "Register",
-      "count": 8
-    },
-    {
       "value": "Coupon",
       "count": 5
+    },
+    {
+      "value": "Pamphlet",
+      "count": 4
     },
     {
       "value": "Prospectus",
@@ -54,10 +58,6 @@
     },
     {
       "value": "Correspondence",
-      "count": 3
-    },
-    {
-      "value": "Pamphlet",
       "count": 3
     },
     {
@@ -84,7 +84,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 117
+      "count": 120
     },
     {
       "value": "Netherlands",
@@ -374,7 +374,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 104
+      "count": 107
     },
     {
       "value": "Netherlands",
@@ -551,11 +551,11 @@
   ],
   "currency": [
     {
-      "value": "British pound sterling",
-      "count": 100
+      "value": "United States dollar",
+      "count": 101
     },
     {
-      "value": "United States dollar",
+      "value": "British pound sterling",
       "count": 100
     },
     {
@@ -684,6 +684,10 @@
     },
     {
       "value": "Reichsmark",
+      "count": 2
+    },
+    {
+      "value": "Spanish milled dollar",
       "count": 2
     },
     {
@@ -847,10 +851,6 @@
       "count": 1
     },
     {
-      "value": "Spanish milled dollar",
-      "count": 1
-    },
-    {
       "value": "Swedish krona",
       "count": 1
     },
@@ -874,7 +874,7 @@
   "language": [
     {
       "value": "English",
-      "count": 216
+      "count": 219
     },
     {
       "value": "French",
@@ -996,7 +996,7 @@
     },
     {
       "value": "18th Century",
-      "count": 115
+      "count": 118
     },
     {
       "value": "17th Century",
