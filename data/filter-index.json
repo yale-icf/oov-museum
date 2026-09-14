@@ -2,7 +2,7 @@
   "type": [
     {
       "value": "Bond",
-      "count": 235
+      "count": 240
     },
     {
       "value": "Stock Certificate",
@@ -91,11 +91,11 @@
       "count": 81
     },
     {
-      "value": "France",
-      "count": 65
+      "value": "Russia",
+      "count": 70
     },
     {
-      "value": "Russia",
+      "value": "France",
       "count": 65
     },
     {
@@ -235,6 +235,10 @@
       "count": 3
     },
     {
+      "value": "Azerbaijan",
+      "count": 2
+    },
+    {
       "value": "Cameroon",
       "count": 2
     },
@@ -272,10 +276,6 @@
     },
     {
       "value": "Austria-Hungary",
-      "count": 1
-    },
-    {
-      "value": "Azerbaijan",
       "count": 1
     },
     {
@@ -386,7 +386,7 @@
     },
     {
       "value": "Russia",
-      "count": 44
+      "count": 48
     },
     {
       "value": "United Kingdom",
@@ -509,6 +509,10 @@
       "count": 1
     },
     {
+      "value": "Azerbaijan",
+      "count": 1
+    },
+    {
       "value": "Canada",
       "count": 1
     },
@@ -547,32 +551,32 @@
   ],
   "currency": [
     {
-      "value": "United States dollar",
-      "count": 98
+      "value": "British pound sterling",
+      "count": 100
     },
     {
-      "value": "British pound sterling",
-      "count": 95
+      "value": "United States dollar",
+      "count": 100
     },
     {
       "value": "French franc",
-      "count": 94
+      "count": 99
     },
     {
       "value": "Dutch guilder",
-      "count": 67
+      "count": 71
     },
     {
       "value": "Russian ruble",
-      "count": 53
+      "count": 56
+    },
+    {
+      "value": "German mark",
+      "count": 25
     },
     {
       "value": "Livres Tournois",
       "count": 24
-    },
-    {
-      "value": "German mark",
-      "count": 23
     },
     {
       "value": "New Taiwan dollar",
@@ -627,6 +631,10 @@
       "count": 4
     },
     {
+      "value": "Russian ruble (gold)",
+      "count": 4
+    },
+    {
       "value": "Serbian dinar",
       "count": 4
     },
@@ -676,10 +684,6 @@
     },
     {
       "value": "Reichsmark",
-      "count": 2
-    },
-    {
-      "value": "Russian ruble (gold)",
       "count": 2
     },
     {
@@ -870,11 +874,11 @@
   "language": [
     {
       "value": "English",
-      "count": 211
+      "count": 216
     },
     {
       "value": "French",
-      "count": 160
+      "count": 165
     },
     {
       "value": "Dutch",
@@ -886,7 +890,7 @@
     },
     {
       "value": "Russian",
-      "count": 49
+      "count": 54
     },
     {
       "value": "Chinese",
@@ -984,11 +988,11 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 244
+      "count": 245
     },
     {
       "value": "19th Century",
-      "count": 180
+      "count": 184
     },
     {
       "value": "18th Century",
