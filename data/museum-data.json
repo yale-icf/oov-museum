@@ -1221,7 +1221,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Two leaves, front and back of one note. ⚠ goetzmann0137, the reverse, is scanned at 90 degrees to the front and will display sideways in the viewer; the front is landscape at 1926x1069, the back portrait at 1065x1949. Worth rotating and retiling. ⚠ This number previously held a card from the removed English Lottery deck.",
+    "notes": "Two leaves, front and back of one note. The reverse is printed perpendicular to the face, as these notes were made: it carries \"Eighteen Pence / To counterfeit is Death\" above a nature-printed leaf — an anti-counterfeiting device taken from a real leaf, so that no engraver could copy the veining — and the imprint \"Burlington in NEW-JERSEY, Printed by Isaac Collins, 1776\" below. ⚠ An earlier note here claimed the reverse was scanned 90 degrees out and would display sideways; that was inferred from the differing dimensions alone and is wrong. Both scans are correctly oriented. ⚠ This number previously held a card from the removed English Lottery deck.",
     "identifiers": [
       "No. 24729"
     ],
@@ -6699,6 +6699,44 @@
     ]
   },
   {
+    "id": "goetzmann0393",
+    "title": "Loterie Nationale de Maisons, Meubles et Effets Ticket, 1795",
+    "description": "A fifty-franc ticket, numbered 745,847, in the Loterie Nationale de Maisons, Meubles et Effets, established by decree of the Convention of 29 Germinal, year III. It entitled the bearer to take part in the drawing of the month of Fructidor, held on the 2nd and 12th of that month, the prizes being set out in a prospectus settled by the Comité des Finances and posted publicly, copies of which lay with the receivers of the registration agency and at the secretariats of the department and district administrations. Delivered by the undersigned receiver in his commune.",
+    "type": [
+      "Lottery Bond"
+    ],
+    "location": [
+      "France"
+    ],
+    "subjectCountry": [
+      "France"
+    ],
+    "issuingCountry": [
+      "France"
+    ],
+    "creator": "Loterie Nationale de Maisons, Meubles et Effets",
+    "issueYear": [
+      "1795"
+    ],
+    "currency": [
+      "French franc"
+    ],
+    "language": [
+      "French"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "A lottery of confiscated houses, furniture and effects. The franc had been created only that April, by the law of 18 Germinal year III, so the denomination is contemporary rather than anachronistic. ⚠ This number previously held a removed papyrus fragment.",
+    "identifiers": [
+      "No. 745,847"
+    ],
+    "namedIndividuals": [],
+    "transcription": ""
+  },
+  {
     "id": "goetzmann0394",
     "title": "Little Miami Rail Road Company Share Certificate, 1862",
     "description": "An engraved certificate for ten shares of fifty dollars each in the capital stock of the Little Miami Rail Road Company, issued at Cincinnati on June 17, 1862, in the name of James G. King's Sons, the New York banking house acting here as trustees. The company was chartered under the State of Ohio, and the stock is transferable only on its own books upon surrender of the instrument. It was incorporated in 1836 to link Cincinnati with the interior toward Springfield. Engraved by Rawdon, Wright & Hatch of Cincinnati.",
@@ -11512,6 +11550,47 @@
     ]
   },
   {
+    "id": "goetzmann0521",
+    "title": "Hope & Co. Certificate of Russian Bank Assignations, Amsterdam, 1825, No. 4031",
+    "description": "A bilingual Dutch and French bearer certificate, numbered 4031, entitling its holder to an inscription of one thousand roubles at six percent in Russian bank assignations, entered in the Great Book of the public debt at St Petersburg in the name of the administration office at Amsterdam. It was issued at Amsterdam on 11 May 1825 by the houses of Hope en Comp., Ketwich en Voombergh and the widow W. Borski, and seen by their notary. The holder could at any time reclaim the original inscription against return of the certificate with its unexpired coupons and the annexed receipt, on payment of the charges named in article 10 of the prospectus.",
+    "type": [
+      "Certificate"
+    ],
+    "location": [
+      "Russia",
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "Russia",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "creator": "Hope en Comp.; Ketwich en Voombergh; Weduwe W. Borski",
+    "issueYear": [
+      "1825"
+    ],
+    "currency": [
+      "Russian ruble"
+    ],
+    "language": [
+      "Dutch",
+      "French"
+    ],
+    "period": [
+      "19th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "⚠ This certificate's number was already recorded on goetzmann0719, which pictures No. 1326 but listed 1326, 4031 and 3074 together. 0719 now keeps only its own; this is No. 4031 and goetzmann0630 is No. 3074. The date follows 0719's, the two being of one issue; the day was not separately read off this plate. Its coupon sheet is missing. ⚠ This number previously held a leaf of a removed record.",
+    "identifiers": [
+      "No. 4031"
+    ],
+    "namedIndividuals": [],
+    "transcription": ""
+  },
+  {
     "id": "goetzmann0522",
     "title": "Sillem, Benecke & Co. Russian Funds Certificate, Hamburg, 1821",
     "description": "A Dutch-language certificate issued at Hamburg on 13 March 1821, representing an inscription of five hundred roubles of 5 percent Russian funds, payable in metallic coin and entered in the great book of Russian inscriptions in the name of an administration established at Hamburg. The bureau was directed by the firm Sillem, Benecke & Comp. together with H.J. Stresow. Interest at 5 percent was collected for the holder's account against coupons under article 5 of the published notice, and the holder could at any time reclaim the original inscription against return of the certificate and unused coupons.",
@@ -14788,6 +14867,47 @@
       "No. 124824",
       "No. 10317"
     ]
+  },
+  {
+    "id": "goetzmann0630",
+    "title": "Hope & Co. Certificate of Russian Bank Assignations, Amsterdam, 1827, No. 3074",
+    "description": "A bilingual Dutch and French bearer certificate, numbered 3074, entitling its holder to an inscription of one thousand roubles at six percent in Russian bank assignations, entered in the Great Book of the public debt at St Petersburg in the name of the administration office at Amsterdam. It was issued at Amsterdam on 7 September 1827 by the houses of Hope en Comp., Ketwich en Voombergh and the widow W. Borski, and seen by their notary. The holder could at any time reclaim the original inscription against return of the certificate with its unexpired coupons and the annexed receipt, on payment of the charges named in article 10 of the prospectus.",
+    "type": [
+      "Certificate"
+    ],
+    "location": [
+      "Russia",
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "Russia",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "creator": "Hope en Comp.; Ketwich en Voombergh; Weduwe W. Borski",
+    "issueYear": [
+      "1827"
+    ],
+    "currency": [
+      "Russian ruble"
+    ],
+    "language": [
+      "Dutch",
+      "French"
+    ],
+    "period": [
+      "19th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Ten half-yearly coupons delivered with it. ⚠ Its number was already recorded on goetzmann0719 among three; 0719 now keeps only No. 1326. Dated two years after 0719 and goetzmann0521, so the year separates the titles from theirs. ⚠ This number previously held a leaf of a removed record.",
+    "identifiers": [
+      "No. 3074"
+    ],
+    "namedIndividuals": [],
+    "transcription": ""
   },
   {
     "id": "goetzmann0631",
@@ -18087,7 +18207,7 @@
   },
   {
     "id": "goetzmann0711",
-    "title": "Ottoman Public Debt Bearer Receipt, Amsterdam, 1930",
+    "title": "Ottoman Public Debt Bearer Receipt, Amsterdam, 1930, No. 100,014",
     "description": "A bearer receipt issued by the Conseil de la Dette Publique Répartie de l'Ancien Empire Ottoman, issued at Amsterdam on 22 April 1930 by the Banque de Paris et des Pays-Bas, recording a nominal claim of 2.20 Turkish pounds, equivalent to £2 or 50 French francs. The document does not bear interest; it is exchangeable for a bearer title of the Bons Représentatifs des Annuités Arriérées de la Dette Publique Ottomane, Série A 1928, with holders invited to combine receipts up to 22 Turkish pounds, £20 or 500 francs to claim unitary bonds. It was created under Article IV of the contract of 13 June 1928 between the Turkish Republic and the bondholders, ratified by Turkish law of 1 December 1928. Unredeemed receipts were to lapse to the benefit of the debtor states within one year. It bears a Dutch 20-centime revenue stamp. Printed by Imprimerie Chaix.",
     "file": "goetzmann0711.jpg",
     "type": [
@@ -18139,9 +18259,51 @@
     "transcription": "# Document Transcription\n\n## Original (French):\n\nCe Reçu devra être échangé avant le _______________\n(Cette date sera à à mai ajoutée à trois mois sur la date de signature)\n\nCONSEIL DE LA DETTE PUBLIQUE RÉPARTIE DE L'ANCIEN EMPIRE OTTOMAN\n\nReçu au Porteur N° 100.014\n\nd'un montant nominal de { Ltqs 2.20\n                         { £ 2.0.0\n                         { Frs fr. 50.—\n\n£ TROIS LIVRES STERLING _______________\n\nÉmis par le Conseil de la Dette Publique Répartie de l'Ancien Empire Ottoman, conformément aux dispositions de l'Article IV, paragraphe o, du Contrat intervenu à la date du 13 Juin 1928 entre le Gouvernement de la République Turque et les Représentants des porteurs de la Dette Publique Ottomane, ratifié par la Grande Assemblée Nationale de Turquie aux termes d'une loi votée le 1er Décembre 1928.\n\nÉCHANGEABLE\n\ncontre un Titre au Porteur de\n\nBons Représentatifs des Annuités Arriérées de la Dette Publique Ottomane \"Série A\" 1928\n\nFaute d'échange dans un délai maximum d'un an à partir du jour de son émission, le présent Reçu sera prescrit au profit des États débiteurs.\n\nIl appartient aux porteurs intéressés de se grouper en vue de présenter à l'échange des Reçus d'un montant total correspondant au montant nominal de Ltqs 22, ou £ 20, ou Frs fr. 500 des titres unitaires des Bons Représentatifs de la Série A.\n\nLe présent Reçu n'est créé que pour les besoins de l'opération bancaire d'échange. Il ne saurait être considéré comme un titre de créance. Il n'est pas productif d'intérêt.\n\nAMSTERDAM, le 22 APR. 1930\n\nPOUR LE CONSEIL DE LA DETTE PUBLIQUE RÉPARTIE\nDE L'ANCIEN EMPIRE OTTOMAN :\n\nLe Président,                        Pour | BANQUE DE PARIS ET DES PAYS-BAS\n[signature]                          PAR PROCURATION\n                                    [signature]\n\n---\n\n## English Translation:\n\nThis Receipt must be exchanged before _______________\n(This date will be added three months from the date of signature)\n\nCOUNCIL OF THE DISTRIBUTED PUBLIC DEBT OF THE FORMER OTTOMAN EMPIRE\n\nReceipt to Bearer No. 100,014\n\nof a nominal amount of { Ltqs 2.20\n                       { £ 2.0.0\n                       { Frs fr. 50.—\n\nTHREE POUNDS STERLING _______________\n\nIssued by the Council of the Distributed Public Debt of the Former Ottoman Empire, in accordance with the provisions of Article IV, paragraph o, of the Contract concluded on 13 June 1928 between the Government of the Turkish Republic and the Representatives of holders of Ottoman Public Debt, ratified by the Grand National Assembly of Turkey by law passed on 1 December 1928.\n\nEXCHANGEABLE\n\nagainst a Bearer Title of\n\nRepresentative Bonds of Arrears of Annuities of the Ottoman Public Debt \"Series A\" 1928\n\nIn the absence of exchange within a maximum period of one year from the date of its issue, the present Receipt shall be forfeited for the benefit of the debtor States.\n\nIt is incumbent upon the interested bearers to group together in order to present for exchange Receipts of a total amount corresponding to the nominal amount of Ltqs 22, or £ 20, or Frs fr. 500 of the unit bonds of the Representative Bonds of Series A.\n\nThe present Receipt is created only for the purposes of the banking exchange operation. It cannot be considered as a debt security. It does not produce interest.\n\nAMSTERDAM, 22 APR. 1930\n\nFOR THE COUNCIL OF THE DISTRIBUTED PUBLIC DEBT\nOF THE FORMER OTTOMAN EMPIRE:\n\nThe President,                        For | BANK OF PARIS AND THE NETHERLANDS\n[signature]                          BY PROXY\n                                    [signature]\n\n---\n\n## Notable Markings:\n\n- **Serial Number:** 100.014\n- **Receipt Number:** Reçu au Porteur N° 100.014\n- **Date:** Amsterdam, 22 APR. 1930\n- **Dutch Revenue Stamp:** 20c denomination stamp (orange/red circular seal) affixed upper right\n- **Signatures:** Two handwritten signatures at bottom (President and Bank representative)\n- **Document Color:** Pink/salmon colored\n- **Issuing Bank:** Banque de Paris et des Pays-Bas (Bank of Paris and the Netherlands)\n- **Decorative Border:** Ornamental frame border around entire document",
     "identifiers": [
       "No. 100,014",
-      "No. 125,515",
       "Serie A 1928"
     ]
+  },
+  {
+    "id": "goetzmann0712",
+    "title": "Ottoman Public Debt Bearer Receipt, Amsterdam, 1930, No. 125,515",
+    "description": "A bearer receipt numbered 125,515, issued by the Conseil de la Dette Publique Répartie de l'Ancien Empire Ottoman for a nominal amount of 4.40 Turkish pounds, £4 or 100 French francs. It was created under article IV, paragraph 9 of the contract of 13 June 1928 between the government of the Turkish Republic and the representatives of the bearers of the Ottoman public debt, ratified by the Grand National Assembly by a law voted on 1 December 1928. The receipt bore no interest and was not itself a title of debt: it existed only to be exchanged, within a year, for bonds representing the arrears of the Ottoman public debt, Series A of 1928. Issued at Amsterdam on 22 April 1930 by the Banque de Paris et des Pays-Bas.",
+    "type": [
+      "Receipt"
+    ],
+    "location": [
+      "Turkey",
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "Turkey",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Turkey"
+    ],
+    "creator": "Conseil de la Dette Publique Répartie de l'Ancien Empire Ottoman",
+    "issueYear": [
+      "1930"
+    ],
+    "currency": [
+      "Turkish lira",
+      "British pound sterling",
+      "French franc"
+    ],
+    "language": [
+      "French"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "⚠ The master sheet gives this receipt a nominal claim of 2.20 Turkish pounds, £2 and 50 francs. Those are goetzmann0711's figures; this plate reads Ltqs 4,40, £4 and Frs 100. ⚠ Its number was already recorded on 0711, which pictures No. 100,014 on pink paper; this one is green. 0711 now keeps only its own number. Bears a Dutch duty stamp of 1930; printed by Imprimerie Chaix, Paris. ⚠ This number previously held a leaf of a removed record.",
+    "identifiers": [
+      "No. 125,515",
+      "Serie A 1928"
+    ],
+    "namedIndividuals": [],
+    "transcription": ""
   },
   {
     "id": "goetzmann0713",
@@ -18253,6 +18415,46 @@
     ]
   },
   {
+    "id": "goetzmann0715",
+    "title": "Republic of Poland Dollar Premium Loan Bond, Warsaw, 1931, No. 1222277",
+    "description": "A bearer bond numbered 1222277 of Series III of the Polish dollar premium loan, issued at Warsaw on 1 February 1931 under the statute of 1 February 1930. Its face value is five United States dollars, given also as 44.57 złotych, bearing four percent a year payable half-yearly on 1 February and 1 August against coupons. The bond took part in premium drawings held publicly at the Ministry of the Treasury six times a year, and winning a premium did not exclude it from later draws. It was redeemable on 1 February 1941, or earlier at the Ministry's option after 1936, in dollars or in złoty at 8.914 to the dollar at the holder's choice.",
+    "type": [
+      "Lottery Bond"
+    ],
+    "location": [
+      "Poland"
+    ],
+    "subjectCountry": [
+      "Poland"
+    ],
+    "issuingCountry": [
+      "Poland"
+    ],
+    "creator": "Rzeczpospolita Polska, Ministerstwo Skarbu",
+    "issueYear": [
+      "1931"
+    ],
+    "currency": [
+      "Polish zloty",
+      "United States dollar"
+    ],
+    "language": [
+      "Polish"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Printed by the Polska Wytwórnia Papierów Wartościowych, Warsaw. ⚠ Its number was already recorded on goetzmann0716, which listed No. 1450669, No. 16 and No. 1222277 together; 0716 now keeps the first two. ⚠ This number previously held a leaf of a removed record.",
+    "identifiers": [
+      "No. 1222277",
+      "Serja III"
+    ],
+    "namedIndividuals": [],
+    "transcription": ""
+  },
+  {
     "id": "goetzmann0716",
     "title": "Republic of Poland Dollar Premium Loan Bond, Warsaw, 1931",
     "description": "A bearer premium-loan bond of Series III of the Dollar Premium Loan issued by the Republic of Poland through its Ministry of the Treasury, at Warsaw on 1 February 1931, under the authorising statute of 1 February 1930. The face value is five United States dollars, rendered also as 44.57 złotych, with attached coupons each worth 0.10 dollar, or 0.89 złoty. It carried prize draws alongside scheduled redemption. Printed by the Polish Security Printing Works, Warsaw.",
@@ -18300,8 +18502,7 @@
     "transcription": "# Republic of Poland — Series III Dollar Premium Loan Bond, Warsaw 1931 — Transcription\n\n## Original:\n\n(Top cartouche:) **$ 5 = ZŁ 44,57**\n\n**RZECZPOSPOLITA POLSKA.**\n\n**OBLIGACJA**\n**SERJI III PREMJOWEJ POŻYCZKI DOLAROWEJ**\n\n**WARTOŚCI 5 DOLARÓW**\nSTANÓW ZJEDNOCZONYCH AMERYKI\n**CZYLI ZŁOTYCH 44,57.**\n\n(Large ornamental \"5\" in medallions at left and right.)\n\nSERJA III PREMJOWEJ POŻYCZKI DOLAROWEJ WYPUSZCZONA JEST NA MOCY USTAWY Z DNIA 1 LUTEGO 1930 R. (DZ. U. R. P. № 10 POZ. 66). ODSETKI OD TEJ POŻYCZKI, W STOSUNKU 4 OD STA ROCZNIE, PŁATNE SĄ PÓŁROCZNIE Z DOŁU W DNIACH 1 LUTEGO I 1 SIERPNIA KAŻDEGO ROKU ZA ZWROTEM ODPOWIEDNICH KUPONÓW.\n\nOBLIGACJA NINIEJSZA UCZESTNICZY W LOSOWANIACH PREMIJ, ODBYWAJĄCYCH SIĘ PUBLICZNIE W MINISTERSTWIE SKARBU SZEŚĆ RAZY DO ROKU ZGODNIE Z PLANEM LOSOWANIA, ZAMIESZCZONYM NA STRONIE ODWROTNEJ OBLIGACJI. WYGRANIE PREMJI NIE WYKLUCZA OBLIGACJI Z LOSOWAŃ NASTĘPNYCH.\n\nOBLIGACJA NINIEJSZA PODLEGA WYKUPOWI W DNIU 1 LUTEGO 1941 R., PRZYCZEM PO DNIU 1 LUTEGO 1936 R. MINISTROWI SKARBU BĘDZIE PRZYSŁUGIWAŁO PRAWO ZARZĄDZENIA WYKUPU PRZEDTERMINOWEGO.\n\nWYKUP OBLIGACJI NINIEJSZEJ ORAZ WYPŁATA ODSETEK I PREMIJ USKUTECZNIANE BĘDĄ W DOLARACH STANÓW ZJEDNOCZONYCH AMERYKI ALBO W ZŁOTYCH WEDŁUG STOSUNKU: 1 DOLAR RÓWNA SIĘ KWOCIE ZŁOTYCH 8,914. WYBÓR WALUTY PRZYSŁUGUJE POSIADACZOWI OBLIGACJI.\n\nOBLIGACJA NINIEJSZA ULEGA PRZEDAWNIENIU W DNIU 1 LUTEGO 1971 R. WZGLĘDNIE PO UPŁYWIE LAT 30 OD DNIA, W KTÓRYM NASTĄPI JEJ PŁATNOŚĆ PRZY WYKUPIE PRZEDTERMINOWYM. KUPONY OD OBLIGACJI PRZEDAWNIAJĄ SIĘ PO LATACH 5 OD DNIA, W KTÓRYM STANĄ SIĘ PŁATNE, ZAŚ PREMJE — PO UPŁYWIE LAT 10 OD DNIA ICH WYLOSOWANIA.\n\n*Warszawa, dnia 1 lutego 1931 r.*\n\n(Signature block, three columns:)\n\nDyrektor\nDepartamentu Obrotu Pieniężnego:\n[handwritten signature]\n\n**KIEROWNIK MINISTERSTWA SKARBU:**\n[handwritten signature]\n\nKomisja\nKontroli Długów Państwa:\n[two handwritten signatures]\n\n(Serial number in ornamental box, centre:) **1450669**\n\n(Printer's imprint, small caps:) POLSKA WYTWÓRNIA PAPIERÓW WARTOŚCIOWYCH WARSZAWA\n\n---\n\n(Coupon strip along bottom, three coupons; printed left to right as 20, 19, 18):\n\n**20**-ty KUPON OD OBLIGACJI SERJI III PREMJOWEJ POŻYCZKI DOLAROWEJ\n1450669 wartości **0,10 dolara,** czyli **0,89 złotego,**\npłatny w ciągu lat 5 od dnia **1 lutego 1941 r.**\nKierownik Ministerstwa Skarbu: [signature]\n\n**19**-ty KUPON OD OBLIGACJI SERJI III PREMJOWEJ POŻYCZKI DOLAROWEJ\n1450669 wartości **0,10 dolara,** czyli **0,89 złotego,**\npłatny w ciągu lat 5 od dnia **1 sierpnia 1940 r.**\nKierownik Ministerstwa Skarbu: [signature]\n\n**18**-ty KUPON OD OBLIGACJI SERJI III PREMJOWEJ POŻYCZKI DOLAROWEJ\n1450669 wartości **0,10 dolara,** czyli **0,89 złotego,**\npłatny w ciągu lat 5 od dnia **1 lutego 1940 r.**\nKierownik Ministerstwa Skarbu: [signature]\n\n---\n\n## English Translation:\n\n(Top cartouche:) **$ 5 = 44.57 zł**\n\n**REPUBLIC OF POLAND.**\n\n**BOND**\n**OF SERIES III OF THE DOLLAR PREMIUM LOAN**\n\n**OF THE VALUE OF 5 DOLLARS**\nOF THE UNITED STATES OF AMERICA\n**THAT IS, 44.57 ZŁOTYCH.**\n\nSeries III of the Dollar Premium Loan is issued by virtue of the Act of 1 February 1930 (Journal of Laws of the Republic of Poland No. 10, item 66). Interest on this loan, at the rate of 4 per hundred per annum, is payable semi-annually in arrears on 1 February and 1 August of each year against surrender of the corresponding coupons.\n\nThis bond participates in the drawings of premiums (prizes), held publicly at the Ministry of the Treasury six times a year in accordance with the drawing plan set out on the reverse of the bond. Winning a premium does not exclude the bond from subsequent drawings.\n\nThis bond is subject to redemption on 1 February 1941, whereas after 1 February 1936 the Minister of the Treasury shall be entitled to order early redemption.\n\nRedemption of this bond and the payment of interest and premiums shall be effected in dollars of the United States of America or in złotych at the rate: 1 dollar equals the amount of 8.914 złotych. The choice of currency belongs to the holder of the bond.\n\nThis bond becomes barred by limitation on 1 February 1971, or upon the lapse of 30 years from the day on which its payment falls due upon early redemption. Coupons of the bond become barred after 5 years from the day on which they become payable, and premiums after the lapse of 10 years from the day of their drawing.\n\n*Warsaw, 1 February 1931.*\n\n(Signature block:)\n\nDirector\nof the Department of Money Circulation:\n[handwritten signature]\n\n**HEAD OF THE MINISTRY OF THE TREASURY:**\n[handwritten signature]\n\nCommission\nfor the Control of the State Debt:\n[two handwritten signatures]\n\n(Serial number:) **1450669**\n\n(Printer's imprint:) Polish Security Printing Works, Warsaw\n\n---\n\n(Coupons, printed 20, 19, 18):\n\nCoupon No. **20** of the Series III bond of the Dollar Premium Loan\n1450669 — of the value of **0.10 dollar,** that is **0.89 złoty,**\npayable within 5 years from **1 February 1941.**\nHead of the Ministry of the Treasury: [signature]\n\nCoupon No. **19** of the Series III bond of the Dollar Premium Loan\n1450669 — of the value of **0.10 dollar,** that is **0.89 złoty,**\npayable within 5 years from **1 August 1940.**\nHead of the Ministry of the Treasury: [signature]\n\nCoupon No. **18** of the Series III bond of the Dollar Premium Loan\n1450669 — of the value of **0.10 dollar,** that is **0.89 złoty,**\npayable within 5 years from **1 February 1940.**\nHead of the Ministry of the Treasury: [signature]\n",
     "identifiers": [
       "No. 1450669",
-      "No. 16",
-      "No. 1222277"
+      "No. 16"
     ]
   },
   {
@@ -18403,7 +18604,7 @@
   },
   {
     "id": "goetzmann0719",
-    "title": "Hope & Co. Certificate of Russian Bank Assignations, Amsterdam, 1825",
+    "title": "Hope & Co. Certificate of Russian Bank Assignations, Amsterdam, 1825, No. 1326",
     "description": "A bilingual Dutch and French certificate, issued at Amsterdam on 11 May 1825, entitling its bearer to an inscription of 1,000 roubles, bearing interest at 6 percent, in Russian Bank Assignations, registered in the Great Book of the public debt at St. Petersburg in the name of the administrative office at Amsterdam. It was issued by the houses of Hope en Comp., Ketwich en Voombergh, and the widow W. Borski. Ten half-yearly coupons accompanied it, running to 1/13 July 1829.",
     "file": "goetzmann0719.jpg",
     "type": [
@@ -18449,9 +18650,7 @@
     ],
     "transcription": "# Transcription\n\n**Original:**\n\nCERTIFICAAT CERTIFICAT\nVan 6 per Cents D'INSCRIPTION RUSSE\nRUSSISCHE FONDSEN à 6 pour Cent\nIN EN\nBank-Assignatien. Assignations de Banque.\n\nNo. 1326. R⁺ 1000:—\n\nHouder dezes is geregtigd tot eene L'PORTEUR à droit à une In-\nInscriptie van DUIZEND ROEBELS scription de MILLE ROUBLES capital\n6 per Cents Russische Fondsen, betaalbaar à 6 pour Cent, de la Dette publique ne\nin BANK-ASSIGNATIEN, ingeschreven in Russe, payable en ASSIGNATIONS DE\nhet Sroef-Boek te St. Petersburg, ten BANQUE, inscrit sur le Srand-Livre à\nname van het ADMINISTRATIE-KAN- St. Pétersbourg, au nom du BUREAU\nTOOR, opgerigt te Amsterdam, onder D'ADMINISTRATION, établi à Am-\ndirectie van sterdam, sous la direction de\n\nHOPE EN COMP., HOPE ET COMP.,\nKETWICH EN VOOMBERGH, KETWICH ET VOOMBERGH,\nEN ET\n\nWed. W. BORSKI. Veuve W. BORSKI.\nWaarvan de Interessen voor rekening Dont les Intérêts seront reçus pour\nen risico van den HOUDER ontvangen en compte et risque du PORTEUR et payés\nuitbetaald zullen worden op Soupert, in- contre la remise des Soupenr, suivant Art. 6\ngevolge Art. 6 van het uitgegeven Berigt. du Prospectus.\n\nDe HOUDER van dit Certificaat zal Le PORTEUR de ce Certificat pourra\nten allen tyde geregtigd zijn de originele en tout temps réclamer L'INSCRIPTION\nINSCRIPTIE terg te vorderen, tegen originale, contre restitution du Certificat,\nteruggage van dit Certificaat, met de on- avec les Soupenr non échus y appartenans,\nverschenen Soupenr, en het daarbij afgege- et la RECONNAISSANCE y annexée pour\nven BEWIS voor nieuwe COUPONS, en obtenir de nouveaux COUPONS, moyennant\ntegen betaling van de onkosten, in Art. 10 le payement des frais, mentionnés dans\nvan het Berigt vermeld. l'Art. 10 du Prospectus.\n\nAmsterdam, den 11 Mei 1825.\n\nGezien bij mij [signatures]\n\n[illegible signature]\nNotaris\n\nHierbij afgegeven Tien Halfjarige COUPONS, Delivré Dix COUPONS de Rentes de Six\ntot 1/13 Julij 1829. Mois, jusques 1/13 Juillet 1829.\n\nGeteekend door Signés par\n\n[signature: Maenschauer]\n\n---\n\n## English Translation:\n\nCERTIFICATE OF INSCRIPTION\nOf 6 Percent Russian Funds in Bank Assignations / Inscription Certificate in Russian 6 Percent Bank Assignations\n\nNo. 1326. R⁺ 1000:—\n\nThe holder of this is entitled to an inscription of ONE THOUSAND RUBLES at 6 percent Russian Funds, payable in BANK ASSIGNATIONS, inscribed in the Debt-Book at St. Petersburg, in the name of the ADMINISTRATION OFFICE, established in Amsterdam, under the direction of\n\nHOPE AND COMPANY,\nKETWICH AND VOOMBERGH,\nAND\n\nWed. W. BORSKI / Widow W. BORSKI\n\nThe interests are received and paid at the holder's/bearer's expense and risk on Coupons, according to Article 6 of the published Notice.\n\nThe HOLDER of this Certificate shall at all times be entitled to claim the original INSCRIPTION in return, against return of this Certificate with the matured Coupons, and shall receive PROOF for new COUPONS, and against payment of costs as mentioned in Article 10 of the Notice.\n\nAmsterdam, 11 May 1825.\n\nTen Half-yearly COUPONS delivered, valid until 1/13 July 1829.\n\n---\n\n## Notable Markings:\n\n- Serial number: **No. 1326**\n- Face value: **1,000 Rubles**\n- Date: **11 May 1825**\n- Multiple signatures (partly illegible)\n- Notary signature\n- Ornamental border throughout\n- Bilingual Dutch/French layout\n- Signature: \"Maenschauer\" at bottom",
     "identifiers": [
-      "No. 1326",
-      "No. 4031",
-      "No. 3074"
+      "No. 1326"
     ]
   },
   {

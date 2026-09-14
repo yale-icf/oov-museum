@@ -10,15 +10,15 @@
     },
     {
       "value": "Certificate",
-      "count": 45
+      "count": 47
     },
     {
       "value": "Lottery Bond",
-      "count": 25
+      "count": 27
     },
     {
       "value": "Receipt",
-      "count": 21
+      "count": 22
     },
     {
       "value": "Banknote",
@@ -88,15 +88,15 @@
     },
     {
       "value": "Netherlands",
-      "count": 78
+      "count": 81
     },
     {
       "value": "France",
-      "count": 64
+      "count": 65
     },
     {
       "value": "Russia",
-      "count": 63
+      "count": 65
     },
     {
       "value": "United Kingdom",
@@ -155,6 +155,10 @@
       "count": 9
     },
     {
+      "value": "Turkey",
+      "count": 9
+    },
+    {
       "value": "Great Britain",
       "count": 8
     },
@@ -167,8 +171,8 @@
       "count": 8
     },
     {
-      "value": "Turkey",
-      "count": 8
+      "value": "Poland",
+      "count": 7
     },
     {
       "value": "Portugal",
@@ -180,10 +184,6 @@
     },
     {
       "value": "Peru",
-      "count": 6
-    },
-    {
-      "value": "Poland",
       "count": 6
     },
     {
@@ -378,11 +378,11 @@
     },
     {
       "value": "Netherlands",
-      "count": 75
+      "count": 77
     },
     {
       "value": "France",
-      "count": 54
+      "count": 55
     },
     {
       "value": "Russia",
@@ -441,11 +441,11 @@
       "count": 7
     },
     {
-      "value": "Hungary",
-      "count": 6
+      "value": "Poland",
+      "count": 7
     },
     {
-      "value": "Poland",
+      "value": "Hungary",
       "count": 6
     },
     {
@@ -470,7 +470,7 @@
     },
     {
       "value": "Turkey",
-      "count": 4
+      "count": 5
     },
     {
       "value": "Argentina",
@@ -548,15 +548,15 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 97
+      "count": 98
     },
     {
       "value": "British pound sterling",
-      "count": 94
+      "count": 95
     },
     {
       "value": "French franc",
-      "count": 92
+      "count": 94
     },
     {
       "value": "Dutch guilder",
@@ -564,7 +564,7 @@
     },
     {
       "value": "Russian ruble",
-      "count": 51
+      "count": 53
     },
     {
       "value": "Livres Tournois",
@@ -611,6 +611,14 @@
       "count": 5
     },
     {
+      "value": "Polish zloty",
+      "count": 5
+    },
+    {
+      "value": "Turkish lira",
+      "count": 5
+    },
+    {
       "value": "Mexican peso",
       "count": 4
     },
@@ -619,15 +627,7 @@
       "count": 4
     },
     {
-      "value": "Polish zloty",
-      "count": 4
-    },
-    {
       "value": "Serbian dinar",
-      "count": 4
-    },
-    {
-      "value": "Turkish lira",
       "count": 4
     },
     {
@@ -874,11 +874,11 @@
     },
     {
       "value": "French",
-      "count": 156
+      "count": 160
     },
     {
       "value": "Dutch",
-      "count": 87
+      "count": 89
     },
     {
       "value": "German",
@@ -921,11 +921,11 @@
       "count": 7
     },
     {
-      "value": "Arabic",
-      "count": 4
+      "value": "Polish",
+      "count": 5
     },
     {
-      "value": "Polish",
+      "value": "Arabic",
       "count": 4
     },
     {
@@ -984,15 +984,15 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 242
+      "count": 244
     },
     {
       "value": "19th Century",
-      "count": 178
+      "count": 180
     },
     {
       "value": "18th Century",
-      "count": 114
+      "count": 115
     },
     {
       "value": "17th Century",
