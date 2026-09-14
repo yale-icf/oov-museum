@@ -33,6 +33,10 @@
       "count": 9
     },
     {
+      "value": "Indenture",
+      "count": 9
+    },
+    {
       "value": "Regulatory Document",
       "count": 9
     },
@@ -41,7 +45,7 @@
       "count": 9
     },
     {
-      "value": "Indenture",
+      "value": "Correspondence",
       "count": 8
     },
     {
@@ -55,10 +59,6 @@
     {
       "value": "Prospectus",
       "count": 4
-    },
-    {
-      "value": "Correspondence",
-      "count": 3
     },
     {
       "value": "Illustration",
@@ -84,7 +84,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 120
+      "count": 125
     },
     {
       "value": "Netherlands",
@@ -96,7 +96,7 @@
     },
     {
       "value": "France",
-      "count": 65
+      "count": 68
     },
     {
       "value": "United Kingdom",
@@ -143,6 +143,10 @@
       "count": 10
     },
     {
+      "value": "Great Britain",
+      "count": 9
+    },
+    {
       "value": "Mexico",
       "count": 9
     },
@@ -157,10 +161,6 @@
     {
       "value": "Turkey",
       "count": 9
-    },
-    {
-      "value": "Great Britain",
-      "count": 8
     },
     {
       "value": "Guyana",
@@ -374,7 +374,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 107
+      "count": 109
     },
     {
       "value": "Netherlands",
@@ -382,7 +382,7 @@
     },
     {
       "value": "France",
-      "count": 55
+      "count": 58
     },
     {
       "value": "Russia",
@@ -433,12 +433,12 @@
       "count": 9
     },
     {
-      "value": "Romania",
+      "value": "Great Britain",
       "count": 8
     },
     {
-      "value": "Great Britain",
-      "count": 7
+      "value": "Romania",
+      "count": 8
     },
     {
       "value": "Poland",
@@ -552,11 +552,11 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 101
+      "count": 104
     },
     {
       "value": "British pound sterling",
-      "count": 100
+      "count": 101
     },
     {
       "value": "French franc",
@@ -571,12 +571,12 @@
       "count": 56
     },
     {
-      "value": "German mark",
-      "count": 25
+      "value": "Livres Tournois",
+      "count": 26
     },
     {
-      "value": "Livres Tournois",
-      "count": 24
+      "value": "German mark",
+      "count": 25
     },
     {
       "value": "New Taiwan dollar",
@@ -655,6 +655,10 @@
       "count": 3
     },
     {
+      "value": "Spanish milled dollar",
+      "count": 3
+    },
+    {
       "value": "Yugoslav dinar",
       "count": 3
     },
@@ -684,10 +688,6 @@
     },
     {
       "value": "Reichsmark",
-      "count": 2
-    },
-    {
-      "value": "Spanish milled dollar",
       "count": 2
     },
     {
@@ -874,11 +874,11 @@
   "language": [
     {
       "value": "English",
-      "count": 219
+      "count": 222
     },
     {
       "value": "French",
-      "count": 165
+      "count": 168
     },
     {
       "value": "Dutch",
@@ -996,7 +996,7 @@
     },
     {
       "value": "18th Century",
-      "count": 118
+      "count": 124
     },
     {
       "value": "17th Century",
@@ -1013,11 +1013,23 @@
       "count": 4
     },
     {
+      "value": "Étienne Clavière",
+      "count": 3
+    },
+    {
+      "value": "Alexander Hamilton",
+      "count": 2
+    },
+    {
       "value": "Daniel Changuion",
       "count": 2
     },
     {
       "value": "Henry Gardner",
+      "count": 2
+    },
+    {
+      "value": "Jacques-Pierre Brissot de Warville",
       "count": 2
     },
     {
@@ -1029,7 +1041,11 @@
       "count": 2
     },
     {
-      "value": "Alexander Hamilton",
+      "value": "Robert Morris",
+      "count": 2
+    },
+    {
+      "value": "Antoine Dareste",
       "count": 1
     },
     {
@@ -1049,6 +1065,18 @@
       "count": 1
     },
     {
+      "value": "Francis Baring",
+      "count": 1
+    },
+    {
+      "value": "Gouverneur Morris",
+      "count": 1
+    },
+    {
+      "value": "J. Hector St. John de Crèvecoeur",
+      "count": 1
+    },
+    {
       "value": "James Dormer",
       "count": 1
     },
@@ -1061,7 +1089,15 @@
       "count": 1
     },
     {
+      "value": "John Hancock",
+      "count": 1
+    },
+    {
       "value": "John Law",
+      "count": 1
+    },
+    {
+      "value": "John Swanwick",
       "count": 1
     },
     {
@@ -1073,7 +1109,15 @@
       "count": 1
     },
     {
+      "value": "Peter Colt",
+      "count": 1
+    },
+    {
       "value": "Peter Kotzler",
+      "count": 1
+    },
+    {
+      "value": "Pierre Charles Blot",
       "count": 1
     },
     {
@@ -1081,7 +1125,11 @@
       "count": 1
     },
     {
-      "value": "Robert Morris",
+      "value": "Ralph Pomeroy",
+      "count": 1
+    },
+    {
+      "value": "Samuel Huntington",
       "count": 1
     },
     {
@@ -1089,7 +1137,19 @@
       "count": 1
     },
     {
+      "value": "Théophile Cazenove",
+      "count": 1
+    },
+    {
+      "value": "Thomas Henchman",
+      "count": 1
+    },
+    {
       "value": "Thomas Paine",
+      "count": 1
+    },
+    {
+      "value": "Thomas Willing",
       "count": 1
     },
     {
