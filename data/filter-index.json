@@ -22,7 +22,7 @@
     },
     {
       "value": "Banknote",
-      "count": 10
+      "count": 16
     },
     {
       "value": "Draft",
@@ -84,7 +84,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 111
+      "count": 117
     },
     {
       "value": "Netherlands",
@@ -374,7 +374,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 98
+      "count": 104
     },
     {
       "value": "Netherlands",
@@ -639,16 +639,16 @@
       "count": 3
     },
     {
+      "value": "Connecticut pound",
+      "count": 3
+    },
+    {
       "value": "Egyptian pound",
       "count": 3
     },
     {
       "value": "Yugoslav dinar",
       "count": 3
-    },
-    {
-      "value": "Connecticut pound",
-      "count": 2
     },
     {
       "value": "Cuban peso",
@@ -743,6 +743,10 @@
       "count": 1
     },
     {
+      "value": "Delaware pound",
+      "count": 1
+    },
+    {
       "value": "Estonian kroon",
       "count": 1
     },
@@ -795,7 +799,19 @@
       "count": 1
     },
     {
+      "value": "Maryland dollar",
+      "count": 1
+    },
+    {
+      "value": "New Jersey pound",
+      "count": 1
+    },
+    {
       "value": "no par value",
+      "count": 1
+    },
+    {
+      "value": "Pennsylvania pound",
       "count": 1
     },
     {
@@ -827,6 +843,10 @@
       "count": 1
     },
     {
+      "value": "Spanish milled dollar",
+      "count": 1
+    },
+    {
       "value": "Swedish krona",
       "count": 1
     },
@@ -850,7 +870,7 @@
   "language": [
     {
       "value": "English",
-      "count": 205
+      "count": 211
     },
     {
       "value": "French",
@@ -972,7 +992,7 @@
     },
     {
       "value": "18th Century",
-      "count": 108
+      "count": 114
     },
     {
       "value": "17th Century",

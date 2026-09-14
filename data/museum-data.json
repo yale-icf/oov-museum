@@ -1143,6 +1143,294 @@
     "identifiers": []
   },
   {
+    "id": "goetzmann0134",
+    "title": "Province of Pennsylvania Note, Philadelphia, 1776",
+    "description": "A two-shilling bill of the Province of Pennsylvania, numbered 10127 and dated at Philadelphia on 25 April 1776, issued according to resolves of the Assembly of the sixth of that month in the sixteenth year of the reign of George III. The royal arms stand at the centre of the face, which spells the province Pennsilvania. Signed by B. Betterton and William Clifton, and printed by Hall and Sellers.",
+    "type": [
+      "Banknote"
+    ],
+    "location": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "Province of Pennsylvania",
+    "issueYear": [
+      "1776"
+    ],
+    "currency": [
+      "Pennsylvania pound"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves, front and back of one note. ⚠ This number previously held a card from the removed English Lottery deck.",
+    "identifiers": [
+      "No. 10127"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann0134",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0135",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann0136",
+    "title": "Colony of New Jersey Note, Burlington, 1776",
+    "description": "An eighteen-pence bill of the Colony of New Jersey, numbered 24729 and dated 25 March 1776, emitted by a law passed in the fourteenth year of the reign of George III and current as one shilling and sixpence proclamation money. The royal arms are struck in red at the centre of the face. Printed at Burlington by Isaac Collins, with the warning along the left border that to counterfeit is death.",
+    "type": [
+      "Banknote"
+    ],
+    "location": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "Colony of New Jersey",
+    "issueYear": [
+      "1776"
+    ],
+    "currency": [
+      "New Jersey pound"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves, front and back of one note. ⚠ goetzmann0137, the reverse, is scanned at 90 degrees to the front and will display sideways in the viewer; the front is landscape at 1926x1069, the back portrait at 1065x1949. Worth rotating and retiling. ⚠ This number previously held a card from the removed English Lottery deck.",
+    "identifiers": [
+      "No. 24729"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann0136",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0137",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann0138",
+    "title": "State of Rhode Island Note, 1780",
+    "description": "A one-dollar interest-bearing bill of the State of Rhode Island and Providence Plantations, numbered 312 and issued under an act of the legislature of 2 July 1780. The possessor was to be paid one Spanish milled dollar by 31 December 1786, with interest in like money at five per centum a year, and a small table at the foot sets out what that came to annually and monthly. Signed by A. Comstock.",
+    "type": [
+      "Banknote"
+    ],
+    "location": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "State of Rhode Island and Providence Plantations",
+    "issueYear": [
+      "1780"
+    ],
+    "currency": [
+      "Spanish milled dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves, front and back of one note. Unlike the other five this is an interest-bearing note of a state rather than a colony, issued after independence. ⚠ This number previously held a card from the removed English Lottery deck.",
+    "identifiers": [
+      "No. 312"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann0138",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0139",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann0140",
+    "title": "Counties upon Delaware Note, 1776",
+    "description": "A half-crown bill of two shillings and sixpence, numbered 18680 and dated the first day of January 1776, to pass current according to an act of the General Assembly of the counties of New Castle, Kent and Sussex upon Delaware, passed in the fifteenth year of the reign of George III. The face carries the royal arms with the garter motto between two engraved columns, and three signatures beneath.",
+    "type": [
+      "Banknote"
+    ],
+    "location": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "Counties of New Castle, Kent and Sussex upon Delaware",
+    "issueYear": [
+      "1776"
+    ],
+    "currency": [
+      "Delaware pound"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves, front and back of one note. ⚠ This number previously held a card from the removed English Lottery deck.",
+    "identifiers": [
+      "No. 18680"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann0140",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0141",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann0142",
+    "title": "Province of Maryland Note, Annapolis, 1774",
+    "description": "An indented bill of two dollars of the Province of Maryland, numbered 9081 and dated at Annapolis the tenth day of April 1774. It entitled the bearer to receive bills of exchange payable in London, or gold and silver, at the rate of four shillings and sixpence sterling to the dollar, according to the directions of an act of assembly. The Maryland arms appear with the motto Crescite et multiplicamini. Signed by J. Clapham and Weddis.",
+    "type": [
+      "Banknote"
+    ],
+    "location": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "Province of Maryland",
+    "issueYear": [
+      "1774"
+    ],
+    "currency": [
+      "Maryland dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves, front and back of one note. ⚠ The master sheet reads the first signature as \"Hapham\"; the plate reads J. Clapham. The earliest of the six, and the only one predating the Revolution. ⚠ This number previously held a card from the removed English Lottery deck.",
+    "identifiers": [
+      "No. 9081"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann0142",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0143",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann0144",
+    "title": "Colony of Connecticut Note, Hartford, 1775",
+    "description": "A twenty-shilling bill of the Colony of Connecticut, numbered 10323 and dated at Hartford the first of July 1775, by which the possessor was to be paid twenty shillings lawful money by the colony's treasurer by the thirty-first day of December 1779, by order of Assembly. The colonial seal of three grapevines with the motto Qui transtulit sustinet stands on the face, and three members of the committee have signed beneath it.",
+    "type": [
+      "Banknote"
+    ],
+    "location": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "Colony of Connecticut",
+    "issueYear": [
+      "1775"
+    ],
+    "currency": [
+      "Connecticut pound"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves, front and back of one note. ⚠ Catalogued at first as two separate notes because the source titles read \"(Hartford)\" and \"(New London)\". They are one sheet: Hartford is where the Assembly ordered the emission, New London where Timothy Green printed it, and his imprint is on the reverse. The dimensions agree to 1.4 percent. ⚠ This number previously held a card from the removed English Lottery deck.",
+    "identifiers": [
+      "No. 10323"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann0144",
+        "description": ""
+      },
+      {
+        "id": "goetzmann0145",
+        "description": ""
+      }
+    ]
+  },
+  {
     "id": "goetzmann0179",
     "title": "French Royal Tontine Certificate, Paris, 1760",
     "description": "A treasury receipt for one share in the tenth royal tontine of France, created by edict of December 1759 and taken here in the eighth class. A tontine is a state loan whose subscribers, grouped by age, draw life annuities that pass to the survivors of their age-class as members die. Issued by Joseph Micault d'Harvelay, Keeper of the Royal Treasury, it acknowledges that a townsman of Nevers has paid 200 livres for a life annuity of 24 livres, beginning 1 January 1760 and charged on the revenues of the royal post farm and the aides and salt tax. The annuity runs on the life of Marie Victoire Sophie de Noailles, Countess of Toulouse, then aged seventy-one, widow of the Count of Toulouse. It is dated at Paris in 1760 and drawn before the notary De May.",
