@@ -2,15 +2,15 @@
   "type": [
     {
       "value": "Bond",
-      "count": 248
+      "count": 249
     },
     {
       "value": "Stock Certificate",
-      "count": 149
+      "count": 157
     },
     {
       "value": "Certificate",
-      "count": 47
+      "count": 48
     },
     {
       "value": "Lottery Bond",
@@ -18,23 +18,23 @@
     },
     {
       "value": "Receipt",
-      "count": 22
+      "count": 23
     },
     {
       "value": "Banknote",
       "count": 17
     },
     {
-      "value": "Regulatory Document",
-      "count": 11
-    },
-    {
       "value": "Indenture",
-      "count": 10
+      "count": 12
     },
     {
       "value": "Register",
-      "count": 10
+      "count": 11
+    },
+    {
+      "value": "Regulatory Document",
+      "count": 11
     },
     {
       "value": "Draft",
@@ -50,6 +50,10 @@
     },
     {
       "value": "Coupon",
+      "count": 6
+    },
+    {
+      "value": "Prospectus",
       "count": 5
     },
     {
@@ -57,8 +61,8 @@
       "count": 4
     },
     {
-      "value": "Prospectus",
-      "count": 4
+      "value": "Invoice",
+      "count": 3
     },
     {
       "value": "Illustration",
@@ -77,22 +81,22 @@
       "count": 1
     },
     {
-      "value": "Invoice",
+      "value": "Proof of title and payment",
       "count": 1
     }
   ],
   "location": [
     {
       "value": "United States",
-      "count": 125
+      "count": 129
     },
     {
       "value": "Netherlands",
-      "count": 82
+      "count": 85
     },
     {
       "value": "France",
-      "count": 73
+      "count": 75
     },
     {
       "value": "Russia",
@@ -100,15 +104,15 @@
     },
     {
       "value": "United Kingdom",
-      "count": 44
+      "count": 45
     },
     {
       "value": "China",
-      "count": 32
+      "count": 33
     },
     {
       "value": "Germany",
-      "count": 30
+      "count": 33
     },
     {
       "value": "Belgium",
@@ -123,6 +127,10 @@
       "count": 14
     },
     {
+      "value": "Spain",
+      "count": 14
+    },
+    {
       "value": "Italy",
       "count": 13
     },
@@ -131,7 +139,7 @@
       "count": 13
     },
     {
-      "value": "Spain",
+      "value": "Great Britain",
       "count": 12
     },
     {
@@ -139,11 +147,11 @@
       "count": 11
     },
     {
-      "value": "Great Britain",
+      "value": "Japan",
       "count": 10
     },
     {
-      "value": "Japan",
+      "value": "Turkey",
       "count": 10
     },
     {
@@ -156,10 +164,6 @@
     },
     {
       "value": "Suriname",
-      "count": 9
-    },
-    {
-      "value": "Turkey",
       "count": 9
     },
     {
@@ -215,15 +219,15 @@
       "count": 4
     },
     {
+      "value": "India",
+      "count": 4
+    },
+    {
       "value": "Indonesia",
       "count": 4
     },
     {
       "value": "Chile",
-      "count": 3
-    },
-    {
-      "value": "India",
       "count": 3
     },
     {
@@ -291,6 +295,10 @@
       "count": 1
     },
     {
+      "value": "Central African Republic",
+      "count": 1
+    },
+    {
       "value": "Croatia",
       "count": 1
     },
@@ -324,6 +332,10 @@
     },
     {
       "value": "Haiti",
+      "count": 1
+    },
+    {
+      "value": "Hong Kong",
       "count": 1
     },
     {
@@ -363,6 +375,10 @@
       "count": 1
     },
     {
+      "value": "Trinidad and Tobago",
+      "count": 1
+    },
+    {
       "value": "Uruguay",
       "count": 1
     },
@@ -374,15 +390,15 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 109
+      "count": 113
     },
     {
       "value": "Netherlands",
-      "count": 77
+      "count": 80
     },
     {
       "value": "France",
-      "count": 63
+      "count": 65
     },
     {
       "value": "Russia",
@@ -390,15 +406,15 @@
     },
     {
       "value": "United Kingdom",
-      "count": 41
+      "count": 42
     },
     {
       "value": "Germany",
-      "count": 27
+      "count": 30
     },
     {
       "value": "China",
-      "count": 23
+      "count": 24
     },
     {
       "value": "Belgium",
@@ -417,6 +433,14 @@
       "count": 12
     },
     {
+      "value": "Spain",
+      "count": 12
+    },
+    {
+      "value": "Great Britain",
+      "count": 11
+    },
+    {
       "value": "Italy",
       "count": 10
     },
@@ -425,15 +449,7 @@
       "count": 10
     },
     {
-      "value": "Spain",
-      "count": 10
-    },
-    {
       "value": "Egypt",
-      "count": 9
-    },
-    {
-      "value": "Great Britain",
       "count": 9
     },
     {
@@ -529,6 +545,10 @@
       "count": 1
     },
     {
+      "value": "Hong Kong",
+      "count": 1
+    },
+    {
       "value": "India",
       "count": 1
     },
@@ -551,20 +571,20 @@
   ],
   "currency": [
     {
-      "value": "United States dollar",
-      "count": 104
+      "value": "British pound sterling",
+      "count": 107
     },
     {
-      "value": "British pound sterling",
-      "count": 103
+      "value": "United States dollar",
+      "count": 105
     },
     {
       "value": "French franc",
-      "count": 99
+      "count": 101
     },
     {
       "value": "Dutch guilder",
-      "count": 71
+      "count": 74
     },
     {
       "value": "Russian ruble",
@@ -591,11 +611,11 @@
       "count": 10
     },
     {
-      "value": "Bulgarian lev",
-      "count": 8
+      "value": "Chinese yuan",
+      "count": 9
     },
     {
-      "value": "Chinese yuan",
+      "value": "Bulgarian lev",
       "count": 8
     },
     {
@@ -656,6 +676,10 @@
     },
     {
       "value": "Spanish milled dollar",
+      "count": 3
+    },
+    {
+      "value": "Thaler",
       "count": 3
     },
     {
@@ -795,6 +819,10 @@
       "count": 1
     },
     {
+      "value": "Hong Kong dollar",
+      "count": 1
+    },
+    {
       "value": "Hungarian forint",
       "count": 1
     },
@@ -843,6 +871,10 @@
       "count": 1
     },
     {
+      "value": "Real de vellón",
+      "count": 1
+    },
+    {
       "value": "Riksdaler",
       "count": 1
     },
@@ -874,19 +906,19 @@
   "language": [
     {
       "value": "English",
-      "count": 229
+      "count": 236
     },
     {
       "value": "French",
-      "count": 176
+      "count": 178
     },
     {
       "value": "Dutch",
-      "count": 89
+      "count": 92
     },
     {
       "value": "German",
-      "count": 62
+      "count": 66
     },
     {
       "value": "Russian",
@@ -894,11 +926,11 @@
     },
     {
       "value": "Chinese",
-      "count": 34
+      "count": 36
     },
     {
       "value": "Spanish",
-      "count": 30
+      "count": 32
     },
     {
       "value": "Bulgarian",
@@ -933,12 +965,12 @@
       "count": 4
     },
     {
-      "value": "Portuguese",
+      "value": "Ottoman Turkish",
       "count": 4
     },
     {
-      "value": "Ottoman Turkish",
-      "count": 3
+      "value": "Portuguese",
+      "count": 4
     },
     {
       "value": "Greek",
@@ -988,15 +1020,15 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 251
+      "count": 256
     },
     {
       "value": "19th Century",
-      "count": 184
+      "count": 188
     },
     {
       "value": "18th Century",
-      "count": 129
+      "count": 139
     },
     {
       "value": "17th Century",
@@ -1010,7 +1042,7 @@
   "namedIndividuals": [
     {
       "value": "Francis Hopkinson",
-      "count": 4
+      "count": 5
     },
     {
       "value": "Étienne Clavière",
@@ -1018,6 +1050,10 @@
     },
     {
       "value": "Alexander Hamilton",
+      "count": 2
+    },
+    {
+      "value": "Archibald Moncrieff",
       "count": 2
     },
     {
@@ -1049,6 +1085,10 @@
       "count": 2
     },
     {
+      "value": "Andrew Allen",
+      "count": 1
+    },
+    {
       "value": "Antoine Dareste",
       "count": 1
     },
@@ -1069,7 +1109,31 @@
       "count": 1
     },
     {
+      "value": "Carl Gottlob Hayn",
+      "count": 1
+    },
+    {
+      "value": "Chan Chiu-fung",
+      "count": 1
+    },
+    {
       "value": "Clement Biddle",
+      "count": 1
+    },
+    {
+      "value": "Cornelis van Homrich",
+      "count": 1
+    },
+    {
+      "value": "Cristóbal Abril",
+      "count": 1
+    },
+    {
+      "value": "D. Brewer",
+      "count": 1
+    },
+    {
+      "value": "Deborah Croft",
       "count": 1
     },
     {
@@ -1077,7 +1141,23 @@
       "count": 1
     },
     {
+      "value": "Edward Tilghman",
+      "count": 1
+    },
+    {
+      "value": "Elizabeth Croft",
+      "count": 1
+    },
+    {
+      "value": "Everard Cornelis Bondt",
+      "count": 1
+    },
+    {
       "value": "F. Depestre",
+      "count": 1
+    },
+    {
+      "value": "Frances Croft",
       "count": 1
     },
     {
@@ -1085,7 +1165,19 @@
       "count": 1
     },
     {
+      "value": "Francisco Joseph Antonio Matthieu",
+      "count": 1
+    },
+    {
+      "value": "Friedrich August III of Saxony",
+      "count": 1
+    },
+    {
       "value": "G. Baechtel",
+      "count": 1
+    },
+    {
+      "value": "George Croft",
       "count": 1
     },
     {
@@ -1101,7 +1193,23 @@
       "count": 1
     },
     {
+      "value": "Harry Capper",
+      "count": 1
+    },
+    {
+      "value": "Hsu Kan",
+      "count": 1
+    },
+    {
       "value": "Hubert Denis",
+      "count": 1
+    },
+    {
+      "value": "Isaac Dixon",
+      "count": 1
+    },
+    {
+      "value": "J. A. Crop",
       "count": 1
     },
     {
@@ -1109,7 +1217,15 @@
       "count": 1
     },
     {
+      "value": "Jacob Fock",
+      "count": 1
+    },
+    {
       "value": "Jacquemart de Stamaure",
+      "count": 1
+    },
+    {
+      "value": "James Croft",
       "count": 1
     },
     {
@@ -1129,11 +1245,27 @@
       "count": 1
     },
     {
+      "value": "Johann Martin Hoppensack",
+      "count": 1
+    },
+    {
+      "value": "Johannes May",
+      "count": 1
+    },
+    {
       "value": "John Bardin",
       "count": 1
     },
     {
       "value": "John Elliott",
+      "count": 1
+    },
+    {
+      "value": "John Garesché du Rocher",
+      "count": 1
+    },
+    {
+      "value": "John Grigg",
       "count": 1
     },
     {
@@ -1153,7 +1285,27 @@
       "count": 1
     },
     {
+      "value": "Joseph Hopkinson",
+      "count": 1
+    },
+    {
+      "value": "Juliane Eleonore Auguste von Schönburg",
+      "count": 1
+    },
+    {
       "value": "Karl VI",
+      "count": 1
+    },
+    {
+      "value": "Kung Hsiang-hsi",
+      "count": 1
+    },
+    {
+      "value": "Legay",
+      "count": 1
+    },
+    {
+      "value": "Lewis Pascault",
       "count": 1
     },
     {
@@ -1170,6 +1322,10 @@
     },
     {
       "value": "Oliver Phelps",
+      "count": 1
+    },
+    {
+      "value": "Olivia Howard Nelson",
       "count": 1
     },
     {
@@ -1201,7 +1357,23 @@
       "count": 1
     },
     {
+      "value": "Robert Fowler",
+      "count": 1
+    },
+    {
       "value": "Robert Meese",
+      "count": 1
+    },
+    {
+      "value": "Robert Smith",
+      "count": 1
+    },
+    {
+      "value": "Robert Young",
+      "count": 1
+    },
+    {
+      "value": "Samuel Capper",
       "count": 1
     },
     {
@@ -1217,7 +1389,19 @@
       "count": 1
     },
     {
+      "value": "Theophilus Richards",
+      "count": 1
+    },
+    {
+      "value": "Thomas Biddle",
+      "count": 1
+    },
+    {
       "value": "Thomas Henchman",
+      "count": 1
+    },
+    {
+      "value": "Thomas P. Roberts",
       "count": 1
     },
     {
@@ -1225,7 +1409,15 @@
       "count": 1
     },
     {
+      "value": "Thomas Salt",
+      "count": 1
+    },
+    {
       "value": "Thomas Willing",
+      "count": 1
+    },
+    {
+      "value": "Tsou Lin",
       "count": 1
     },
     {
@@ -1233,7 +1425,19 @@
       "count": 1
     },
     {
+      "value": "William Bentley",
+      "count": 1
+    },
+    {
       "value": "William Rushton",
+      "count": 1
+    },
+    {
+      "value": "William Thomas",
+      "count": 1
+    },
+    {
+      "value": "William Young",
       "count": 1
     }
   ]
