@@ -6,7 +6,7 @@
     },
     {
       "value": "Stock Certificate",
-      "count": 164
+      "count": 165
     },
     {
       "value": "Certificate",
@@ -18,7 +18,7 @@
     },
     {
       "value": "Receipt",
-      "count": 25
+      "count": 27
     },
     {
       "value": "Banknote",
@@ -26,7 +26,7 @@
     },
     {
       "value": "Indenture",
-      "count": 12
+      "count": 13
     },
     {
       "value": "Register",
@@ -88,7 +88,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 132
+      "count": 133
     },
     {
       "value": "Netherlands",
@@ -96,7 +96,7 @@
     },
     {
       "value": "France",
-      "count": 76
+      "count": 77
     },
     {
       "value": "Russia",
@@ -107,16 +107,16 @@
       "count": 46
     },
     {
+      "value": "Germany",
+      "count": 36
+    },
+    {
       "value": "China",
       "count": 35
     },
     {
-      "value": "Germany",
-      "count": 35
-    },
-    {
       "value": "Belgium",
-      "count": 24
+      "count": 25
     },
     {
       "value": "Austria",
@@ -151,15 +151,15 @@
       "count": 11
     },
     {
+      "value": "Turkey",
+      "count": 11
+    },
+    {
       "value": "Guyana",
       "count": 10
     },
     {
       "value": "Japan",
-      "count": 10
-    },
-    {
-      "value": "Turkey",
       "count": 10
     },
     {
@@ -259,6 +259,10 @@
       "count": 2
     },
     {
+      "value": "England",
+      "count": 2
+    },
+    {
       "value": "Greece",
       "count": 2
     },
@@ -316,10 +320,6 @@
     },
     {
       "value": "Dominica",
-      "count": 1
-    },
-    {
-      "value": "England",
       "count": 1
     },
     {
@@ -418,7 +418,7 @@
     },
     {
       "value": "Germany",
-      "count": 32
+      "count": 33
     },
     {
       "value": "China",
@@ -477,6 +477,10 @@
       "count": 6
     },
     {
+      "value": "Turkey",
+      "count": 6
+    },
+    {
       "value": "Cuba",
       "count": 5
     },
@@ -490,10 +494,6 @@
     },
     {
       "value": "Serbia",
-      "count": 5
-    },
-    {
-      "value": "Turkey",
       "count": 5
     },
     {
@@ -521,6 +521,10 @@
       "count": 2
     },
     {
+      "value": "England",
+      "count": 2
+    },
+    {
       "value": "Greece",
       "count": 2
     },
@@ -542,10 +546,6 @@
     },
     {
       "value": "Czechoslovakia",
-      "count": 1
-    },
-    {
-      "value": "England",
       "count": 1
     },
     {
@@ -580,7 +580,7 @@
   "currency": [
     {
       "value": "British pound sterling",
-      "count": 109
+      "count": 110
     },
     {
       "value": "United States dollar",
@@ -588,7 +588,7 @@
     },
     {
       "value": "French franc",
-      "count": 102
+      "count": 103
     },
     {
       "value": "Dutch guilder",
@@ -643,11 +643,11 @@
       "count": 6
     },
     {
-      "value": "Polish zloty",
-      "count": 5
+      "value": "Turkish lira",
+      "count": 6
     },
     {
-      "value": "Turkish lira",
+      "value": "Polish zloty",
       "count": 5
     },
     {
@@ -687,6 +687,10 @@
       "count": 3
     },
     {
+      "value": "South German Gulden",
+      "count": 3
+    },
+    {
       "value": "Spanish milled dollar",
       "count": 3
     },
@@ -719,6 +723,10 @@
       "count": 2
     },
     {
+      "value": "Pesos",
+      "count": 2
+    },
+    {
       "value": "Portuguese escudo",
       "count": 2
     },
@@ -728,10 +736,6 @@
     },
     {
       "value": "Reichsthaler",
-      "count": 2
-    },
-    {
-      "value": "South German Gulden",
       "count": 2
     },
     {
@@ -867,10 +871,6 @@
       "count": 1
     },
     {
-      "value": "Pesos",
-      "count": 1
-    },
-    {
       "value": "Pesos de a 15 Reales de Vellón",
       "count": 1
     },
@@ -918,11 +918,11 @@
   "language": [
     {
       "value": "English",
-      "count": 241
+      "count": 243
     },
     {
       "value": "French",
-      "count": 180
+      "count": 181
     },
     {
       "value": "Dutch",
@@ -930,7 +930,7 @@
     },
     {
       "value": "German",
-      "count": 68
+      "count": 69
     },
     {
       "value": "Russian",
@@ -942,7 +942,7 @@
     },
     {
       "value": "Spanish",
-      "count": 32
+      "count": 33
     },
     {
       "value": "Bulgarian",
@@ -969,15 +969,15 @@
       "count": 7
     },
     {
+      "value": "Ottoman Turkish",
+      "count": 5
+    },
+    {
       "value": "Polish",
       "count": 5
     },
     {
       "value": "Arabic",
-      "count": 4
-    },
-    {
-      "value": "Ottoman Turkish",
       "count": 4
     },
     {
@@ -1036,7 +1036,7 @@
     },
     {
       "value": "19th Century",
-      "count": 194
+      "count": 197
     },
     {
       "value": "18th Century",
@@ -1044,7 +1044,7 @@
     },
     {
       "value": "17th Century",
-      "count": 8
+      "count": 9
     },
     {
       "value": "Pre-17th Century",
@@ -1115,6 +1115,10 @@
     {
       "value": "Robert Morris",
       "count": 2
+    },
+    {
+      "value": "Adam Klaerner",
+      "count": 1
     },
     {
       "value": "Albertus Bakker",
@@ -1257,6 +1261,10 @@
       "count": 1
     },
     {
+      "value": "Francis Drake",
+      "count": 1
+    },
+    {
       "value": "Francisco Joseph Antonio Matthieu",
       "count": 1
     },
@@ -1301,11 +1309,19 @@
       "count": 1
     },
     {
+      "value": "Gustav Merz",
+      "count": 1
+    },
+    {
       "value": "Harry Capper",
       "count": 1
     },
     {
       "value": "Hendrik van Blomberg",
+      "count": 1
+    },
+    {
+      "value": "Henry Pollexfen",
       "count": 1
     },
     {
@@ -1485,6 +1501,18 @@
       "count": 1
     },
     {
+      "value": "Luis Barrera",
+      "count": 1
+    },
+    {
+      "value": "María Barrera",
+      "count": 1
+    },
+    {
+      "value": "María la Barrera",
+      "count": 1
+    },
+    {
       "value": "Marie Bailly",
       "count": 1
     },
@@ -1514,6 +1542,10 @@
     },
     {
       "value": "Paulus Cordes",
+      "count": 1
+    },
+    {
+      "value": "Pedro Barrera",
       "count": 1
     },
     {
@@ -1645,6 +1677,10 @@
       "count": 1
     },
     {
+      "value": "Thomas Howard",
+      "count": 1
+    },
+    {
       "value": "Thomas P. Roberts",
       "count": 1
     },
@@ -1694,6 +1730,10 @@
     },
     {
       "value": "William Young",
+      "count": 1
+    },
+    {
+      "value": "Ybaldo Ramírez",
       "count": 1
     }
   ]
