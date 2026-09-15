@@ -2,7 +2,7 @@
   "type": [
     {
       "value": "Bond",
-      "count": 255
+      "count": 257
     },
     {
       "value": "Stock Certificate",
@@ -10,7 +10,7 @@
     },
     {
       "value": "Certificate",
-      "count": 48
+      "count": 49
     },
     {
       "value": "Lottery Bond",
@@ -18,7 +18,7 @@
     },
     {
       "value": "Receipt",
-      "count": 27
+      "count": 28
     },
     {
       "value": "Banknote",
@@ -88,7 +88,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 133
+      "count": 134
     },
     {
       "value": "Netherlands",
@@ -96,7 +96,7 @@
     },
     {
       "value": "France",
-      "count": 77
+      "count": 78
     },
     {
       "value": "Russia",
@@ -107,12 +107,12 @@
       "count": 46
     },
     {
-      "value": "Germany",
+      "value": "China",
       "count": 36
     },
     {
-      "value": "China",
-      "count": 35
+      "value": "Germany",
+      "count": 36
     },
     {
       "value": "Belgium",
@@ -127,12 +127,12 @@
       "count": 14
     },
     {
-      "value": "Spain",
+      "value": "Great Britain",
       "count": 14
     },
     {
-      "value": "Great Britain",
-      "count": 13
+      "value": "Spain",
+      "count": 14
     },
     {
       "value": "Italy",
@@ -144,7 +144,7 @@
     },
     {
       "value": "Egypt",
-      "count": 11
+      "count": 12
     },
     {
       "value": "Suriname",
@@ -398,7 +398,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 116
+      "count": 117
     },
     {
       "value": "Netherlands",
@@ -406,7 +406,7 @@
     },
     {
       "value": "France",
-      "count": 66
+      "count": 67
     },
     {
       "value": "Russia",
@@ -422,7 +422,7 @@
     },
     {
       "value": "China",
-      "count": 25
+      "count": 26
     },
     {
       "value": "Belgium",
@@ -433,15 +433,15 @@
       "count": 14
     },
     {
+      "value": "Great Britain",
+      "count": 13
+    },
+    {
       "value": "Taiwan",
       "count": 13
     },
     {
       "value": "Austria",
-      "count": 12
-    },
-    {
-      "value": "Great Britain",
       "count": 12
     },
     {
@@ -580,15 +580,15 @@
   "currency": [
     {
       "value": "British pound sterling",
-      "count": 110
+      "count": 111
     },
     {
       "value": "United States dollar",
-      "count": 106
+      "count": 107
     },
     {
       "value": "French franc",
-      "count": 103
+      "count": 104
     },
     {
       "value": "Dutch guilder",
@@ -687,6 +687,10 @@
       "count": 3
     },
     {
+      "value": "Massachusetts Pounds",
+      "count": 3
+    },
+    {
       "value": "South German Gulden",
       "count": 3
     },
@@ -712,10 +716,6 @@
     },
     {
       "value": "Greek drachma",
-      "count": 2
-    },
-    {
-      "value": "Massachusetts Pounds",
       "count": 2
     },
     {
@@ -918,11 +918,11 @@
   "language": [
     {
       "value": "English",
-      "count": 243
+      "count": 245
     },
     {
       "value": "French",
-      "count": 181
+      "count": 182
     },
     {
       "value": "Dutch",
@@ -938,7 +938,7 @@
     },
     {
       "value": "Chinese",
-      "count": 37
+      "count": 38
     },
     {
       "value": "Spanish",
@@ -1032,15 +1032,15 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 259
+      "count": 260
     },
     {
       "value": "19th Century",
-      "count": 197
+      "count": 198
     },
     {
       "value": "18th Century",
-      "count": 148
+      "count": 150
     },
     {
       "value": "17th Century",
@@ -1085,6 +1085,10 @@
       "count": 2
     },
     {
+      "value": "Hsu Kan",
+      "count": 2
+    },
+    {
       "value": "Jacques-Pierre Brissot de Warville",
       "count": 2
     },
@@ -1105,6 +1109,10 @@
       "count": 2
     },
     {
+      "value": "Kung Hsiang-hsi",
+      "count": 2
+    },
+    {
       "value": "Louis Phélypeaux",
       "count": 2
     },
@@ -1117,11 +1125,19 @@
       "count": 2
     },
     {
+      "value": "Tsou Lin",
+      "count": 2
+    },
+    {
       "value": "Adam Klaerner",
       "count": 1
     },
     {
       "value": "Albertus Bakker",
+      "count": 1
+    },
+    {
+      "value": "Alexander Hodgdon",
       "count": 1
     },
     {
@@ -1245,6 +1261,10 @@
       "count": 1
     },
     {
+      "value": "Elizabeth Scott",
+      "count": 1
+    },
+    {
       "value": "Étienne Le Cordier",
       "count": 1
     },
@@ -1289,6 +1309,10 @@
       "count": 1
     },
     {
+      "value": "George Grenville",
+      "count": 1
+    },
+    {
       "value": "Gideon Adriaan Diederik de Graaff",
       "count": 1
     },
@@ -1322,10 +1346,6 @@
     },
     {
       "value": "Henry Pollexfen",
-      "count": 1
-    },
-    {
-      "value": "Hsu Kan",
       "count": 1
     },
     {
@@ -1465,15 +1485,15 @@
       "count": 1
     },
     {
+      "value": "Joseph Scott",
+      "count": 1
+    },
+    {
       "value": "Juliane Eleonore Auguste von Schönburg",
       "count": 1
     },
     {
       "value": "Karl VI",
-      "count": 1
-    },
-    {
-      "value": "Kung Hsiang-hsi",
       "count": 1
     },
     {
@@ -1514,6 +1534,10 @@
     },
     {
       "value": "Marie Bailly",
+      "count": 1
+    },
+    {
+      "value": "Mary Scott",
       "count": 1
     },
     {
@@ -1641,6 +1665,10 @@
       "count": 1
     },
     {
+      "value": "Sarah Scott",
+      "count": 1
+    },
+    {
       "value": "Sebastiaan van Nooten Jansz.",
       "count": 1
     },
@@ -1697,10 +1725,6 @@
       "count": 1
     },
     {
-      "value": "Tsou Lin",
-      "count": 1
-    },
-    {
       "value": "Willem Gideon Deutz",
       "count": 1
     },
@@ -1718,6 +1742,10 @@
     },
     {
       "value": "William H. Wahl",
+      "count": 1
+    },
+    {
+      "value": "William MacGeorge",
       "count": 1
     },
     {
