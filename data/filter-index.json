@@ -2,11 +2,11 @@
   "type": [
     {
       "value": "Bond",
-      "count": 258
+      "count": 259
     },
     {
       "value": "Stock Certificate",
-      "count": 169
+      "count": 171
     },
     {
       "value": "Certificate",
@@ -88,7 +88,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 140
+      "count": 141
     },
     {
       "value": "Netherlands",
@@ -96,7 +96,7 @@
     },
     {
       "value": "France",
-      "count": 79
+      "count": 80
     },
     {
       "value": "Russia",
@@ -108,7 +108,7 @@
     },
     {
       "value": "China",
-      "count": 36
+      "count": 37
     },
     {
       "value": "Germany",
@@ -398,7 +398,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 123
+      "count": 124
     },
     {
       "value": "Netherlands",
@@ -406,7 +406,7 @@
     },
     {
       "value": "France",
-      "count": 67
+      "count": 68
     },
     {
       "value": "Russia",
@@ -422,7 +422,7 @@
     },
     {
       "value": "China",
-      "count": 26
+      "count": 27
     },
     {
       "value": "Belgium",
@@ -580,7 +580,7 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 113
+      "count": 114
     },
     {
       "value": "British pound sterling",
@@ -588,7 +588,7 @@
     },
     {
       "value": "French franc",
-      "count": 104
+      "count": 105
     },
     {
       "value": "Dutch guilder",
@@ -616,7 +616,7 @@
     },
     {
       "value": "Chinese yuan",
-      "count": 10
+      "count": 11
     },
     {
       "value": "Japanese yen",
@@ -918,11 +918,11 @@
   "language": [
     {
       "value": "English",
-      "count": 251
+      "count": 252
     },
     {
       "value": "French",
-      "count": 185
+      "count": 186
     },
     {
       "value": "Dutch",
@@ -938,7 +938,7 @@
     },
     {
       "value": "Chinese",
-      "count": 38
+      "count": 39
     },
     {
       "value": "Spanish",
@@ -1032,11 +1032,11 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 262
+      "count": 264
     },
     {
       "value": "19th Century",
-      "count": 204
+      "count": 205
     },
     {
       "value": "18th Century",
@@ -1058,6 +1058,18 @@
     },
     {
       "value": "Étienne Clavière",
+      "count": 3
+    },
+    {
+      "value": "Hsu Kan",
+      "count": 3
+    },
+    {
+      "value": "Kung Hsiang-hsi",
+      "count": 3
+    },
+    {
+      "value": "Tsou Lin",
       "count": 3
     },
     {
@@ -1085,10 +1097,6 @@
       "count": 2
     },
     {
-      "value": "Hsu Kan",
-      "count": 2
-    },
-    {
       "value": "Jacques-Pierre Brissot de Warville",
       "count": 2
     },
@@ -1109,10 +1117,6 @@
       "count": 2
     },
     {
-      "value": "Kung Hsiang-hsi",
-      "count": 2
-    },
-    {
       "value": "Louis Phélypeaux",
       "count": 2
     },
@@ -1122,10 +1126,6 @@
     },
     {
       "value": "Robert Morris",
-      "count": 2
-    },
-    {
-      "value": "Tsou Lin",
       "count": 2
     },
     {
@@ -1278,6 +1278,10 @@
     },
     {
       "value": "F. Depestre",
+      "count": 1
+    },
+    {
+      "value": "F. F. Martin",
       "count": 1
     },
     {

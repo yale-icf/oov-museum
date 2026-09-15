@@ -27206,8 +27206,8 @@
   {
     "id": "goetzmann1230",
     "file": "goetzmann1230.jpg",
-    "title": "Chinese National Salvation Loan Bond, 1937",
-    "description": "A ten yuan bond of the National Salvation Loan, issued by the Ministry of Finance under the authority of the National Government on 1 September of the twenty-sixth year of the Republic, 1937. The printed summary of the regulations gives the total issue as 500,000,000 yuan in national currency, in five denominations of 10,000, 1,000, 100, 50 and 10 yuan; interest at four per cent a year paid twice yearly; redemption of principal by annual drawing from the thirtieth year of the Republic, 1941; and a sinking fund for principal and interest to be remitted from the national treasury by the Ministry of Finance at the due dates. It is signed by the Minister of Finance, Kung Hsiang-hsi, and the vice-ministers Tsou Lin and Hsu Kan, with their seals, and carries thirty-three unclipped coupons, all bearing the bond number.",
+    "title": "Chinese National Salvation Loan Bond, Ten Yuan, 1937",
+    "description": "A ten yuan bond of the National Salvation Loan, issued by the Ministry of Finance under the authority of the National Government on 1 September of the twenty-sixth year of the Republic, 1937. The printed summary of the regulations gives the total issue as 500,000,000 yuan in national currency, put out at full face value, in six denominations of 10,000, 1,000, 100, 50, 10 and 5 yuan; interest at four per cent a year, paid once a year at the end of August; redemption of principal by annual drawing from the thirtieth year of the Republic, 1941, the whole to be repaid over thirty years; and a sinking fund for principal and interest remitted from the national treasury by the Ministry of Finance at the due dates. It is signed by the Minister of Finance, Kung Hsiang-hsi, and the vice-ministers Tsou Lin and Hsu Kan, with their seals, and carries thirty-three unclipped coupons, all bearing the bond number.",
     "type": [
       "Bond"
     ],
@@ -27235,7 +27235,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Two leaves, recto and verso; the coupon sheet is part of the same sheet as the bond. The master sheet gives the title only as \"Chinese\" and no description; everything here is read from the plate. The loan was opened in the first weeks of the war with Japan that began in July 1937. A cancelling handstamp and a ten cent adhesive stamp are struck across the head of the bond.",
+    "notes": "Two leaves, recto and verso; the coupon sheet is part of the same sheet as the bond. The master sheet gives the title only as \"Chinese\" and no description; everything here is read from the plate. The loan was opened in the first weeks of the war with Japan that began in July 1937. A cancelling handstamp and a ten cent adhesive stamp are struck across the head of the bond.\n\n⚠ CORRECTED 2026-09-15. This record previously said the loan came in FIVE denominations and that interest was paid TWICE yearly. Both were wrong, and the terms column of [1354] -- the five yuan bond of the same loan, where the same printing is legible -- settles it: 債票種類 ... 六種, six kinds including the five yuan; and 利息 年息四釐 每年八月底一次付給, four per cent paid ONCE a year at the end of August. The title now carries the denomination, since that is all that separates this from [1354].",
     "identifiers": [
       "No. 1454066"
     ],
@@ -29672,6 +29672,55 @@
     "transcription": ""
   },
   {
+    "id": "goetzmann1345",
+    "file": "goetzmann1345.jpg",
+    "title": "Compagnie Immobilière Share, Paris, 1863",
+    "description": "A bearer share of five hundred francs in the Compagnie Immobilière, a société anonyme authorised by imperial decree of 15 June 1863, the company's duration being ninety-nine years from 9 December 1854. The fonds social is represented by 160,000 shares of 500 francs each, and the share gives right to one hundred and sixtieth thousandth part in the property of the company's assets and in its profits. The share is numbered 58,547 and carries enjoyment from the first of July 1863; it is dated at the registered office in Paris the same day and signed by an administrator and by delegation of the board of administration. Printed by Paul Dupont of the rue de Grenelle-Saint-Honoré. Twenty-nine coupons remain attached, numbered 8 to 36 and payable half-yearly from 1 July 1867 to 1 July 1881.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "France"
+    ],
+    "subjectCountry": [
+      "France"
+    ],
+    "issuingCountry": [
+      "France"
+    ],
+    "creator": "Compagnie Immobilière",
+    "issueYear": [
+      "1863"
+    ],
+    "currency": [
+      "French franc"
+    ],
+    "language": [
+      "French"
+    ],
+    "period": [
+      "19th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves; the verso prints extracts from the company's statutes. An embossed seal is struck at the upper right. The company is older than the decree that authorised this issue: the ninety-nine years run from December 1854, so the 1863 decree reconstituted an existing undertaking. ⚠ The first seven coupons, covering 1863 to 1866, have been detached and cashed; everything from July 1867 onward is still attached, so the holder stopped collecting after four years.",
+    "identifiers": [
+      "No. 58.547"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1345",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1346",
+        "description": ""
+      }
+    ]
+  },
+  {
     "id": "goetzmann1347",
     "file": "goetzmann1347.jpg",
     "title": "William S. Pierson & Co. Treasure-Recovery Share, New York, 1846",
@@ -29710,6 +29759,57 @@
       "Abraham G. Thompson"
     ],
     "transcription": ""
+  },
+  {
+    "id": "goetzmann1348",
+    "file": "goetzmann1348.jpg",
+    "title": "National Electric Company Share, 1907",
+    "description": "A certificate for one thousand shares of the capital stock of the National Electric Company, incorporated under the laws of the State of Maine, numbered 43. The capital stock is given as $1,500,000 and the shares as $5.00 each at the foot. The stock is transferable only on the books of the company by the holder in person or by attorney on surrender of the certificate properly endorsed. It is dated the fourteenth day of July 1907, signed by F. F. Martin as treasurer and by the president, and sealed with the company's orange embossed seal, which records its incorporation in Maine in 1903.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "National Electric Company",
+    "issueYear": [
+      "1907"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves, recto and verso; the verso carries the transfer form. ⚠ The holder and the signing president appear to be the SAME MAN -- the name written on the face and the presidential signature read alike -- so the certificate is an officer's own holding. The surname is not confidently read and is not transcribed. A thousand shares at five dollars is five thousand, a third of one per cent of the authorised capital. ⚠ The master sheet gives no date; the year is read from the manuscript \"A.D. 190_\", the final digit formed as a 7.",
+    "identifiers": [
+      "No. 43"
+    ],
+    "namedIndividuals": [
+      "F. F. Martin"
+    ],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1348",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1349",
+        "description": ""
+      }
+    ]
   },
   {
     "id": "goetzmann1350",
@@ -29752,5 +29852,58 @@
       "George T. Hope"
     ],
     "transcription": ""
+  },
+  {
+    "id": "goetzmann1354",
+    "file": "goetzmann1354.jpg",
+    "title": "Chinese National Salvation Loan Bond, Five Yuan, 1937",
+    "description": "A five yuan bond of the National Salvation Loan, issued by the Ministry of Finance under the authority of the National Government, numbered 1950044 and dated the ninth month of the twenty-sixth year of the Republic, 1937. The printed summary of the regulations gives the total issue as 500,000,000 yuan in national currency, put out on 1 September of that year at full face value; the bonds in six denominations of 10,000, 1,000, 100, 50, 10 and 5 yuan; interest at four per cent a year paid once a year at the end of August; redemption of principal by annual drawing from the thirtieth year of the Republic, the whole repaid over thirty years; and the sinking fund for principal and interest remitted by the Ministry of Finance from the national treasury at the due dates. It is signed by the Minister of Finance, Kung Hsiang-hsi, and the vice-ministers Tsou Lin and Hsu Kan. A block of annual coupons is attached below, each repeating the bond number and naming the Central Bank, its commissioned banks or their branches as the places of payment.",
+    "type": [
+      "Bond"
+    ],
+    "location": [
+      "China"
+    ],
+    "subjectCountry": [
+      "China"
+    ],
+    "issuingCountry": [
+      "China"
+    ],
+    "creator": "Ministry of Finance, National Government of China",
+    "issueYear": [
+      "1937"
+    ],
+    "currency": [
+      "Chinese yuan"
+    ],
+    "language": [
+      "Chinese"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves; the sheet is torn at the upper right and along the lower edge, with losses to the last row of coupons. ⚠ NOT a duplicate of [1230]: that is the TEN yuan bond of this same loan and this is the FIVE, the smallest of the six denominations. Their titles are separated by denomination, as the three Italian Dawes bonds are. ⚠ This bond's terms column is legible where 1230's is not, and it corrected two errors in that record -- six denominations, not five, and interest paid once a year, not twice. The loan was opened in the first weeks of the war with Japan.",
+    "identifiers": [
+      "No. 1950044"
+    ],
+    "namedIndividuals": [
+      "Kung Hsiang-hsi",
+      "Tsou Lin",
+      "Hsu Kan"
+    ],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1354",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1355",
+        "description": ""
+      }
+    ]
   }
 ]
