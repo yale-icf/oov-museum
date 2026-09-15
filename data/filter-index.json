@@ -2,11 +2,11 @@
   "type": [
     {
       "value": "Bond",
-      "count": 260
+      "count": 261
     },
     {
       "value": "Stock Certificate",
-      "count": 172
+      "count": 174
     },
     {
       "value": "Certificate",
@@ -88,7 +88,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 142
+      "count": 143
     },
     {
       "value": "Netherlands",
@@ -104,7 +104,7 @@
     },
     {
       "value": "United Kingdom",
-      "count": 47
+      "count": 48
     },
     {
       "value": "China",
@@ -119,6 +119,10 @@
       "count": 25
     },
     {
+      "value": "Spain",
+      "count": 15
+    },
+    {
       "value": "Austria",
       "count": 14
     },
@@ -128,10 +132,6 @@
     },
     {
       "value": "Great Britain",
-      "count": 14
-    },
-    {
-      "value": "Spain",
       "count": 14
     },
     {
@@ -398,7 +398,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 125
+      "count": 126
     },
     {
       "value": "Netherlands",
@@ -414,7 +414,7 @@
     },
     {
       "value": "United Kingdom",
-      "count": 44
+      "count": 45
     },
     {
       "value": "Germany",
@@ -437,15 +437,15 @@
       "count": 13
     },
     {
+      "value": "Spain",
+      "count": 13
+    },
+    {
       "value": "Taiwan",
       "count": 13
     },
     {
       "value": "Austria",
-      "count": 12
-    },
-    {
-      "value": "Spain",
       "count": 12
     },
     {
@@ -580,11 +580,11 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 115
+      "count": 116
     },
     {
       "value": "British pound sterling",
-      "count": 112
+      "count": 113
     },
     {
       "value": "French franc",
@@ -728,6 +728,10 @@
     },
     {
       "value": "Portuguese escudo",
+      "count": 2
+    },
+    {
+      "value": "Real de vellón",
       "count": 2
     },
     {
@@ -883,10 +887,6 @@
       "count": 1
     },
     {
-      "value": "Real de vellón",
-      "count": 1
-    },
-    {
       "value": "Riksdaler",
       "count": 1
     },
@@ -918,7 +918,7 @@
   "language": [
     {
       "value": "English",
-      "count": 254
+      "count": 256
     },
     {
       "value": "French",
@@ -942,7 +942,7 @@
     },
     {
       "value": "Spanish",
-      "count": 33
+      "count": 34
     },
     {
       "value": "Bulgarian",
@@ -1036,11 +1036,11 @@
     },
     {
       "value": "19th Century",
-      "count": 207
+      "count": 209
     },
     {
       "value": "18th Century",
-      "count": 150
+      "count": 151
     },
     {
       "value": "17th Century",
@@ -1157,6 +1157,14 @@
       "count": 1
     },
     {
+      "value": "Antonio de Villanueva",
+      "count": 1
+    },
+    {
+      "value": "Archibald Speirs",
+      "count": 1
+    },
+    {
       "value": "Arnoldus Dix",
       "count": 1
     },
@@ -1269,6 +1277,10 @@
       "count": 1
     },
     {
+      "value": "Domingo Ortiz de la Riva",
+      "count": 1
+    },
+    {
       "value": "Edward Tilghman",
       "count": 1
     },
@@ -1326,6 +1338,10 @@
     },
     {
       "value": "François-Depaule Lefevre d'Ormesson",
+      "count": 1
+    },
+    {
+      "value": "Fred W. Coffin",
       "count": 1
     },
     {
