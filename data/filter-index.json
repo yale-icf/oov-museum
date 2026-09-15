@@ -2,11 +2,11 @@
   "type": [
     {
       "value": "Bond",
-      "count": 249
+      "count": 254
     },
     {
       "value": "Stock Certificate",
-      "count": 157
+      "count": 161
     },
     {
       "value": "Certificate",
@@ -18,7 +18,7 @@
     },
     {
       "value": "Receipt",
-      "count": 23
+      "count": 25
     },
     {
       "value": "Banknote",
@@ -37,11 +37,11 @@
       "count": 11
     },
     {
-      "value": "Draft",
-      "count": 9
+      "value": "Tontine",
+      "count": 10
     },
     {
-      "value": "Tontine",
+      "value": "Draft",
       "count": 9
     },
     {
@@ -50,7 +50,7 @@
     },
     {
       "value": "Coupon",
-      "count": 6
+      "count": 8
     },
     {
       "value": "Prospectus",
@@ -88,31 +88,31 @@
   "location": [
     {
       "value": "United States",
-      "count": 129
+      "count": 131
     },
     {
       "value": "Netherlands",
-      "count": 85
+      "count": 93
     },
     {
       "value": "France",
-      "count": 75
+      "count": 76
     },
     {
       "value": "Russia",
-      "count": 70
+      "count": 71
     },
     {
       "value": "United Kingdom",
       "count": 45
     },
     {
-      "value": "China",
-      "count": 33
+      "value": "Germany",
+      "count": 35
     },
     {
-      "value": "Germany",
-      "count": 33
+      "value": "China",
+      "count": 34
     },
     {
       "value": "Belgium",
@@ -131,6 +131,10 @@
       "count": 14
     },
     {
+      "value": "Great Britain",
+      "count": 13
+    },
+    {
       "value": "Italy",
       "count": 13
     },
@@ -139,12 +143,16 @@
       "count": 13
     },
     {
-      "value": "Great Britain",
-      "count": 12
-    },
-    {
       "value": "Egypt",
       "count": 11
+    },
+    {
+      "value": "Suriname",
+      "count": 11
+    },
+    {
+      "value": "Guyana",
+      "count": 10
     },
     {
       "value": "Japan",
@@ -159,24 +167,16 @@
       "count": 9
     },
     {
+      "value": "Poland",
+      "count": 9
+    },
+    {
       "value": "Romania",
       "count": 9
     },
     {
-      "value": "Suriname",
-      "count": 9
-    },
-    {
-      "value": "Guyana",
-      "count": 8
-    },
-    {
       "value": "Hungary",
       "count": 8
-    },
-    {
-      "value": "Poland",
-      "count": 7
     },
     {
       "value": "Portugal",
@@ -307,6 +307,10 @@
       "count": 1
     },
     {
+      "value": "Denmark",
+      "count": 1
+    },
+    {
       "value": "Dominica",
       "count": 1
     },
@@ -379,6 +383,10 @@
       "count": 1
     },
     {
+      "value": "United States Virgin Islands",
+      "count": 1
+    },
+    {
       "value": "Uruguay",
       "count": 1
     },
@@ -390,15 +398,15 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 113
+      "count": 115
     },
     {
       "value": "Netherlands",
-      "count": 80
+      "count": 88
     },
     {
       "value": "France",
-      "count": 65
+      "count": 66
     },
     {
       "value": "Russia",
@@ -410,7 +418,7 @@
     },
     {
       "value": "Germany",
-      "count": 30
+      "count": 32
     },
     {
       "value": "China",
@@ -433,12 +441,12 @@
       "count": 12
     },
     {
-      "value": "Spain",
+      "value": "Great Britain",
       "count": 12
     },
     {
-      "value": "Great Britain",
-      "count": 11
+      "value": "Spain",
+      "count": 12
     },
     {
       "value": "Italy",
@@ -572,19 +580,19 @@
   "currency": [
     {
       "value": "British pound sterling",
-      "count": 107
+      "count": 108
     },
     {
       "value": "United States dollar",
-      "count": 105
+      "count": 106
     },
     {
       "value": "French franc",
-      "count": 101
+      "count": 102
     },
     {
       "value": "Dutch guilder",
-      "count": 74
+      "count": 81
     },
     {
       "value": "Russian ruble",
@@ -675,6 +683,10 @@
       "count": 3
     },
     {
+      "value": "Flemish Pounds",
+      "count": 3
+    },
+    {
       "value": "Spanish milled dollar",
       "count": 3
     },
@@ -688,10 +700,6 @@
     },
     {
       "value": "Cuban peso",
-      "count": 2
-    },
-    {
-      "value": "Flemish Pounds",
       "count": 2
     },
     {
@@ -716,6 +724,10 @@
     },
     {
       "value": "Reichsmark",
+      "count": 2
+    },
+    {
+      "value": "Reichsthaler",
       "count": 2
     },
     {
@@ -906,19 +918,19 @@
   "language": [
     {
       "value": "English",
-      "count": 236
+      "count": 239
     },
     {
       "value": "French",
-      "count": 178
+      "count": 179
     },
     {
       "value": "Dutch",
-      "count": 92
+      "count": 100
     },
     {
       "value": "German",
-      "count": 66
+      "count": 68
     },
     {
       "value": "Russian",
@@ -1020,15 +1032,15 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 256
+      "count": 257
     },
     {
       "value": "19th Century",
-      "count": 188
+      "count": 193
     },
     {
       "value": "18th Century",
-      "count": 139
+      "count": 147
     },
     {
       "value": "17th Century",
@@ -1061,11 +1073,19 @@
       "count": 2
     },
     {
+      "value": "Everard Cornelis Bondt",
+      "count": 2
+    },
+    {
       "value": "Henry Gardner",
       "count": 2
     },
     {
       "value": "Jacques-Pierre Brissot de Warville",
+      "count": 2
+    },
+    {
+      "value": "Johannes May",
       "count": 2
     },
     {
@@ -1085,11 +1105,19 @@
       "count": 2
     },
     {
+      "value": "Albertus Bakker",
+      "count": 1
+    },
+    {
       "value": "Andrew Allen",
       "count": 1
     },
     {
       "value": "Antoine Dareste",
+      "count": 1
+    },
+    {
+      "value": "Arnoldus Dix",
       "count": 1
     },
     {
@@ -1105,6 +1133,10 @@
       "count": 1
     },
     {
+      "value": "Benjamin Warner",
+      "count": 1
+    },
+    {
       "value": "Calvin Austin",
       "count": 1
     },
@@ -1117,11 +1149,31 @@
       "count": 1
     },
     {
+      "value": "Christoffel Brants",
+      "count": 1
+    },
+    {
+      "value": "Christoffer MacEvoy",
+      "count": 1
+    },
+    {
       "value": "Clement Biddle",
       "count": 1
     },
     {
+      "value": "Cornelis Frymersum",
+      "count": 1
+    },
+    {
+      "value": "Cornelis Frymersum de Jonge",
+      "count": 1
+    },
+    {
       "value": "Cornelis van Homrich",
+      "count": 1
+    },
+    {
+      "value": "Cornelis van Homrigh",
       "count": 1
     },
     {
@@ -1141,15 +1193,27 @@
       "count": 1
     },
     {
+      "value": "Dirk Jan Voombergh",
+      "count": 1
+    },
+    {
+      "value": "Dirk Luden",
+      "count": 1
+    },
+    {
+      "value": "Dirk Wernard van Vloten Abrahamsz.",
+      "count": 1
+    },
+    {
       "value": "Edward Tilghman",
       "count": 1
     },
     {
-      "value": "Elizabeth Croft",
+      "value": "Egbert Thesingh",
       "count": 1
     },
     {
-      "value": "Everard Cornelis Bondt",
+      "value": "Elizabeth Croft",
       "count": 1
     },
     {
@@ -1181,6 +1245,10 @@
       "count": 1
     },
     {
+      "value": "Gideon Adriaan Diederik de Graaff",
+      "count": 1
+    },
+    {
       "value": "Giraudeau",
       "count": 1
     },
@@ -1197,6 +1265,10 @@
       "count": 1
     },
     {
+      "value": "Hendrik van Blomberg",
+      "count": 1
+    },
+    {
       "value": "Hsu Kan",
       "count": 1
     },
@@ -1205,7 +1277,15 @@
       "count": 1
     },
     {
+      "value": "Hugh Ferguson",
+      "count": 1
+    },
+    {
       "value": "Isaac Dixon",
+      "count": 1
+    },
+    {
+      "value": "Isaac Pool",
       "count": 1
     },
     {
@@ -1237,6 +1317,14 @@
       "count": 1
     },
     {
+      "value": "James Vanuxem",
+      "count": 1
+    },
+    {
+      "value": "Jan van Wattens",
+      "count": 1
+    },
+    {
       "value": "Jean de Cuinghien",
       "count": 1
     },
@@ -1245,11 +1333,15 @@
       "count": 1
     },
     {
+      "value": "Johan Gottlieb Detericks",
+      "count": 1
+    },
+    {
       "value": "Johann Martin Hoppensack",
       "count": 1
     },
     {
-      "value": "Johannes May",
+      "value": "Johanna Maria van de Vyver",
       "count": 1
     },
     {
@@ -1289,6 +1381,10 @@
       "count": 1
     },
     {
+      "value": "Joseph Mathieu junior",
+      "count": 1
+    },
+    {
       "value": "Juliane Eleonore Auguste von Schönburg",
       "count": 1
     },
@@ -1301,7 +1397,15 @@
       "count": 1
     },
     {
+      "value": "L. Purvis",
+      "count": 1
+    },
+    {
       "value": "Legay",
+      "count": 1
+    },
+    {
+      "value": "Leonard van Hoesen",
       "count": 1
     },
     {
@@ -1321,6 +1425,10 @@
       "count": 1
     },
     {
+      "value": "Nicolaas Tuite",
+      "count": 1
+    },
+    {
       "value": "Oliver Phelps",
       "count": 1
     },
@@ -1329,11 +1437,27 @@
       "count": 1
     },
     {
+      "value": "Paulus Cordes",
+      "count": 1
+    },
+    {
       "value": "Peter Colt",
       "count": 1
     },
     {
       "value": "Peter Kotzler",
+      "count": 1
+    },
+    {
+      "value": "Peter Wooden",
+      "count": 1
+    },
+    {
+      "value": "Petronella Maria van den Broek",
+      "count": 1
+    },
+    {
+      "value": "Philippus Brouwer",
       "count": 1
     },
     {
@@ -1369,7 +1493,19 @@
       "count": 1
     },
     {
+      "value": "Robert Tuite",
+      "count": 1
+    },
+    {
       "value": "Robert Young",
+      "count": 1
+    },
+    {
+      "value": "Roger Ferral",
+      "count": 1
+    },
+    {
+      "value": "Roswell C. Otis",
       "count": 1
     },
     {
@@ -1385,6 +1521,18 @@
       "count": 1
     },
     {
+      "value": "Sara Petronella Brouwer",
+      "count": 1
+    },
+    {
+      "value": "Sebastiaan van Nooten Jansz.",
+      "count": 1
+    },
+    {
+      "value": "Theobald Bourke",
+      "count": 1
+    },
+    {
       "value": "Théophile Cazenove",
       "count": 1
     },
@@ -1394,6 +1542,10 @@
     },
     {
       "value": "Thomas Biddle",
+      "count": 1
+    },
+    {
+      "value": "Thomas Cuming",
       "count": 1
     },
     {
@@ -1421,7 +1573,15 @@
       "count": 1
     },
     {
+      "value": "Willem Gideon Deutz",
+      "count": 1
+    },
+    {
       "value": "Willem Gideon Duetz",
+      "count": 1
+    },
+    {
+      "value": "Willem Hendrik Cramer",
       "count": 1
     },
     {
