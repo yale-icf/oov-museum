@@ -2,15 +2,15 @@
   "type": [
     {
       "value": "Bond",
-      "count": 257
+      "count": 258
     },
     {
       "value": "Stock Certificate",
-      "count": 165
+      "count": 167
     },
     {
       "value": "Certificate",
-      "count": 49
+      "count": 50
     },
     {
       "value": "Lottery Bond",
@@ -88,19 +88,19 @@
   "location": [
     {
       "value": "United States",
-      "count": 134
+      "count": 137
     },
     {
       "value": "Netherlands",
-      "count": 93
+      "count": 94
     },
     {
       "value": "France",
-      "count": 78
+      "count": 79
     },
     {
       "value": "Russia",
-      "count": 71
+      "count": 72
     },
     {
       "value": "United Kingdom",
@@ -398,11 +398,11 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 117
+      "count": 120
     },
     {
       "value": "Netherlands",
-      "count": 88
+      "count": 89
     },
     {
       "value": "France",
@@ -584,7 +584,7 @@
     },
     {
       "value": "United States dollar",
-      "count": 107
+      "count": 110
     },
     {
       "value": "French franc",
@@ -596,7 +596,7 @@
     },
     {
       "value": "Russian ruble",
-      "count": 56
+      "count": 57
     },
     {
       "value": "Livres Tournois",
@@ -918,19 +918,19 @@
   "language": [
     {
       "value": "English",
-      "count": 245
+      "count": 248
     },
     {
       "value": "French",
-      "count": 182
+      "count": 184
     },
     {
       "value": "Dutch",
-      "count": 101
+      "count": 102
     },
     {
       "value": "German",
-      "count": 69
+      "count": 70
     },
     {
       "value": "Russian",
@@ -1032,11 +1032,11 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 260
+      "count": 262
     },
     {
       "value": "19th Century",
-      "count": 198
+      "count": 200
     },
     {
       "value": "18th Century",
@@ -1178,6 +1178,10 @@
     },
     {
       "value": "Carl Gottlob Hayn",
+      "count": 1
+    },
+    {
+      "value": "Carol M. Conklin",
       "count": 1
     },
     {
@@ -1337,6 +1341,10 @@
       "count": 1
     },
     {
+      "value": "H. E. Alexander",
+      "count": 1
+    },
+    {
       "value": "Harry Capper",
       "count": 1
     },
@@ -1398,6 +1406,10 @@
     },
     {
       "value": "James Dormer",
+      "count": 1
+    },
+    {
+      "value": "James F. Lawrence",
       "count": 1
     },
     {
@@ -1641,11 +1653,19 @@
       "count": 1
     },
     {
+      "value": "Roger B. Smith",
+      "count": 1
+    },
+    {
       "value": "Roger Ferral",
       "count": 1
     },
     {
       "value": "Roswell C. Otis",
+      "count": 1
+    },
+    {
+      "value": "S. P. Tuck",
       "count": 1
     },
     {
