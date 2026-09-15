@@ -6,11 +6,11 @@
     },
     {
       "value": "Stock Certificate",
-      "count": 167
+      "count": 169
     },
     {
       "value": "Certificate",
-      "count": 50
+      "count": 52
     },
     {
       "value": "Lottery Bond",
@@ -88,11 +88,11 @@
   "location": [
     {
       "value": "United States",
-      "count": 137
+      "count": 140
     },
     {
       "value": "Netherlands",
-      "count": 94
+      "count": 95
     },
     {
       "value": "France",
@@ -100,7 +100,7 @@
     },
     {
       "value": "Russia",
-      "count": 72
+      "count": 73
     },
     {
       "value": "United Kingdom",
@@ -398,11 +398,11 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 120
+      "count": 123
     },
     {
       "value": "Netherlands",
-      "count": 89
+      "count": 90
     },
     {
       "value": "France",
@@ -579,12 +579,12 @@
   ],
   "currency": [
     {
-      "value": "British pound sterling",
-      "count": 111
+      "value": "United States dollar",
+      "count": 113
     },
     {
-      "value": "United States dollar",
-      "count": 110
+      "value": "British pound sterling",
+      "count": 111
     },
     {
       "value": "French franc",
@@ -596,7 +596,7 @@
     },
     {
       "value": "Russian ruble",
-      "count": 57
+      "count": 58
     },
     {
       "value": "Livres Tournois",
@@ -918,15 +918,15 @@
   "language": [
     {
       "value": "English",
-      "count": 248
+      "count": 251
     },
     {
       "value": "French",
-      "count": 184
+      "count": 185
     },
     {
       "value": "Dutch",
-      "count": 102
+      "count": 103
     },
     {
       "value": "German",
@@ -1036,7 +1036,7 @@
     },
     {
       "value": "19th Century",
-      "count": 200
+      "count": 204
     },
     {
       "value": "18th Century",
@@ -1127,6 +1127,10 @@
     {
       "value": "Tsou Lin",
       "count": 2
+    },
+    {
+      "value": "Abraham G. Thompson",
+      "count": 1
     },
     {
       "value": "Adam Klaerner",
@@ -1277,6 +1281,10 @@
       "count": 1
     },
     {
+      "value": "F. H. Wallace",
+      "count": 1
+    },
+    {
       "value": "Frances Croft",
       "count": 1
     },
@@ -1317,6 +1325,10 @@
       "count": 1
     },
     {
+      "value": "George T. Hope",
+      "count": 1
+    },
+    {
       "value": "Gideon Adriaan Diederik de Graaff",
       "count": 1
     },
@@ -1338,6 +1350,10 @@
     },
     {
       "value": "Gustav Merz",
+      "count": 1
+    },
+    {
+      "value": "H. A. Perkins",
       "count": 1
     },
     {
@@ -1629,6 +1645,10 @@
       "count": 1
     },
     {
+      "value": "R. S. Ely",
+      "count": 1
+    },
+    {
       "value": "Ralph Pomeroy",
       "count": 1
     },
@@ -1761,6 +1781,10 @@
       "count": 1
     },
     {
+      "value": "William D. Ely",
+      "count": 1
+    },
+    {
       "value": "William H. Wahl",
       "count": 1
     },
@@ -1770,6 +1794,10 @@
     },
     {
       "value": "William Rushton",
+      "count": 1
+    },
+    {
+      "value": "William S. Pierson",
       "count": 1
     },
     {
