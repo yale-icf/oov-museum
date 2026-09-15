@@ -2,15 +2,15 @@
   "type": [
     {
       "value": "Bond",
-      "count": 259
+      "count": 260
     },
     {
       "value": "Stock Certificate",
-      "count": 171
+      "count": 172
     },
     {
       "value": "Certificate",
-      "count": 52
+      "count": 53
     },
     {
       "value": "Lottery Bond",
@@ -88,7 +88,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 141
+      "count": 142
     },
     {
       "value": "Netherlands",
@@ -96,7 +96,7 @@
     },
     {
       "value": "France",
-      "count": 80
+      "count": 81
     },
     {
       "value": "Russia",
@@ -104,7 +104,7 @@
     },
     {
       "value": "United Kingdom",
-      "count": 46
+      "count": 47
     },
     {
       "value": "China",
@@ -398,7 +398,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 124
+      "count": 125
     },
     {
       "value": "Netherlands",
@@ -406,7 +406,7 @@
     },
     {
       "value": "France",
-      "count": 68
+      "count": 69
     },
     {
       "value": "Russia",
@@ -414,7 +414,7 @@
     },
     {
       "value": "United Kingdom",
-      "count": 43
+      "count": 44
     },
     {
       "value": "Germany",
@@ -580,15 +580,15 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 114
+      "count": 115
     },
     {
       "value": "British pound sterling",
-      "count": 111
+      "count": 112
     },
     {
       "value": "French franc",
-      "count": 105
+      "count": 106
     },
     {
       "value": "Dutch guilder",
@@ -918,11 +918,11 @@
   "language": [
     {
       "value": "English",
-      "count": 252
+      "count": 254
     },
     {
       "value": "French",
-      "count": 186
+      "count": 187
     },
     {
       "value": "Dutch",
@@ -1032,11 +1032,11 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 264
+      "count": 265
     },
     {
       "value": "19th Century",
-      "count": 205
+      "count": 207
     },
     {
       "value": "18th Century",
@@ -1165,6 +1165,10 @@
       "count": 1
     },
     {
+      "value": "B. Platt",
+      "count": 1
+    },
+    {
       "value": "Baudouin de Lannoy",
       "count": 1
     },
@@ -1173,7 +1177,15 @@
       "count": 1
     },
     {
+      "value": "Beer Léon Fould",
+      "count": 1
+    },
+    {
       "value": "Benjamin Warner",
+      "count": 1
+    },
+    {
+      "value": "Bertrand",
       "count": 1
     },
     {
@@ -1274,6 +1286,10 @@
     },
     {
       "value": "Étienne Le Cordier",
+      "count": 1
+    },
+    {
+      "value": "Eustace Cecil",
       "count": 1
     },
     {
@@ -1766,6 +1782,10 @@
     },
     {
       "value": "Thomas Willing",
+      "count": 1
+    },
+    {
+      "value": "W. B. Rose",
       "count": 1
     },
     {
