@@ -32,6 +32,26 @@ stereotyped printed forms** — the Dutch plantation obligations are one printed
 sheet with different manuscript, so several intake ids can score >0.88 against
 one record. **A score is never a verdict. Look at the plates.**
 
+### ⚠️ The one class where the picture can never decide it
+
+A Dutch **negotiatie share IS a printed copy of the deed**. Article 5 of the De
+Vyver loan is explicit: *"van de voorsz. Acte van Obligatie en Hypothecquatie,
+zullen werden uytgegeven 160 Copien authenticq … behoorlyk genommert van No. 1.
+tot No. 160."* Every one of the 160 shares is the same printed sheet. They are
+**identical by design**, so the image sweep scores them ~1.0 whatever they are,
+and only the **manuscript number** separates them.
+
+`1403` scored 1.00 against `1292`, which had just been catalogued. It is not a
+duplicate — `1292` is share **No. 92** and `1403` is share **No. 70** of the same
+loan. Read the number off the coupon or the last leaf before deciding.
+
+This cuts both ways: two merges were confirmed *because* the manuscript agreed,
+and both then exposed a catalogue error. `0476` carried the identifier **No. 353**
+and `0603` **No. 306**; the plates read **N° 153** and **N° 106**, and the
+pre-merge scan and the intake scan agree, so the error was in the catalogue, not
+in either image. Both corrected. Same class as `1035`'s *No. 46460* for a plate
+reading **No. 2340** — a long-serif **1** being read as a **3**.
+
 Three of the last four hits above 0.90 turned out to be genuine **multiples**,
 not duplicates: `0614` is 200 Swiss francs against `1702`'s 20 pounds sterling;
 `0292` is 100 shares against `1673`'s 10; `0452` and `1216` are Spassky warrants

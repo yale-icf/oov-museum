@@ -2,11 +2,11 @@
   "type": [
     {
       "value": "Bond",
-      "count": 254
+      "count": 255
     },
     {
       "value": "Stock Certificate",
-      "count": 161
+      "count": 164
     },
     {
       "value": "Certificate",
@@ -88,7 +88,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 131
+      "count": 132
     },
     {
       "value": "Netherlands",
@@ -104,19 +104,19 @@
     },
     {
       "value": "United Kingdom",
-      "count": 45
+      "count": 46
+    },
+    {
+      "value": "China",
+      "count": 35
     },
     {
       "value": "Germany",
       "count": 35
     },
     {
-      "value": "China",
-      "count": 34
-    },
-    {
       "value": "Belgium",
-      "count": 23
+      "count": 24
     },
     {
       "value": "Austria",
@@ -267,6 +267,10 @@
       "count": 2
     },
     {
+      "value": "Kazakhstan",
+      "count": 2
+    },
+    {
       "value": "Panama",
       "count": 2
     },
@@ -343,10 +347,6 @@
       "count": 1
     },
     {
-      "value": "Kazakhstan",
-      "count": 1
-    },
-    {
       "value": "Liberia",
       "count": 1
     },
@@ -398,7 +398,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 115
+      "count": 116
     },
     {
       "value": "Netherlands",
@@ -414,7 +414,7 @@
     },
     {
       "value": "United Kingdom",
-      "count": 42
+      "count": 43
     },
     {
       "value": "Germany",
@@ -422,11 +422,11 @@
     },
     {
       "value": "China",
-      "count": 24
+      "count": 25
     },
     {
       "value": "Belgium",
-      "count": 20
+      "count": 21
     },
     {
       "value": "Bulgaria",
@@ -580,7 +580,7 @@
   "currency": [
     {
       "value": "British pound sterling",
-      "count": 108
+      "count": 109
     },
     {
       "value": "United States dollar",
@@ -615,12 +615,12 @@
       "count": 11
     },
     {
-      "value": "Japanese yen",
+      "value": "Chinese yuan",
       "count": 10
     },
     {
-      "value": "Chinese yuan",
-      "count": 9
+      "value": "Japanese yen",
+      "count": 10
     },
     {
       "value": "Bulgarian lev",
@@ -649,6 +649,10 @@
     {
       "value": "Turkish lira",
       "count": 5
+    },
+    {
+      "value": "Flemish Pounds",
+      "count": 4
     },
     {
       "value": "Mexican peso",
@@ -680,10 +684,6 @@
     },
     {
       "value": "Egyptian pound",
-      "count": 3
-    },
-    {
-      "value": "Flemish Pounds",
       "count": 3
     },
     {
@@ -918,15 +918,15 @@
   "language": [
     {
       "value": "English",
-      "count": 239
+      "count": 241
     },
     {
       "value": "French",
-      "count": 179
+      "count": 180
     },
     {
       "value": "Dutch",
-      "count": 100
+      "count": 101
     },
     {
       "value": "German",
@@ -938,7 +938,7 @@
     },
     {
       "value": "Chinese",
-      "count": 36
+      "count": 37
     },
     {
       "value": "Spanish",
@@ -1032,15 +1032,15 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 257
+      "count": 259
     },
     {
       "value": "19th Century",
-      "count": 193
+      "count": 194
     },
     {
       "value": "18th Century",
-      "count": 147
+      "count": 148
     },
     {
       "value": "17th Century",
@@ -1321,7 +1321,15 @@
       "count": 1
     },
     {
+      "value": "Ignatius Vander Hey",
+      "count": 1
+    },
+    {
       "value": "Isaac Dixon",
+      "count": 1
+    },
+    {
+      "value": "Isaac Norris 3rd",
       "count": 1
     },
     {
@@ -1525,7 +1533,15 @@
       "count": 1
     },
     {
+      "value": "Philip Person",
+      "count": 1
+    },
+    {
       "value": "Philippus Brouwer",
+      "count": 1
+    },
+    {
+      "value": "Philips Jacob de Coninck",
       "count": 1
     },
     {
@@ -1605,6 +1621,10 @@
       "count": 1
     },
     {
+      "value": "Theodore Meulenaer",
+      "count": 1
+    },
+    {
       "value": "Théophile Cazenove",
       "count": 1
     },
@@ -1658,6 +1678,10 @@
     },
     {
       "value": "William Bentley",
+      "count": 1
+    },
+    {
+      "value": "William H. Wahl",
       "count": 1
     },
     {
