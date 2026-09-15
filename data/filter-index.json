@@ -13,11 +13,11 @@
       "count": 53
     },
     {
-      "value": "Lottery Bond",
-      "count": 28
+      "value": "Receipt",
+      "count": 29
     },
     {
-      "value": "Receipt",
+      "value": "Lottery Bond",
       "count": 28
     },
     {
@@ -116,7 +116,7 @@
     },
     {
       "value": "Belgium",
-      "count": 25
+      "count": 26
     },
     {
       "value": "Spain",
@@ -426,7 +426,7 @@
     },
     {
       "value": "Belgium",
-      "count": 21
+      "count": 22
     },
     {
       "value": "Bulgaria",
@@ -592,7 +592,7 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 81
+      "count": 82
     },
     {
       "value": "Russian ruble",
@@ -926,7 +926,7 @@
     },
     {
       "value": "Dutch",
-      "count": 103
+      "count": 104
     },
     {
       "value": "German",
@@ -1040,7 +1040,7 @@
     },
     {
       "value": "18th Century",
-      "count": 151
+      "count": 152
     },
     {
       "value": "17th Century",
@@ -1473,6 +1473,10 @@
       "count": 1
     },
     {
+      "value": "Jan Baptist Cogels junior",
+      "count": 1
+    },
+    {
       "value": "Jan van Wattens",
       "count": 1
     },
@@ -1594,6 +1598,10 @@
     },
     {
       "value": "María la Barrera",
+      "count": 1
+    },
+    {
+      "value": "Maria Laurentia Pauwens",
       "count": 1
     },
     {
