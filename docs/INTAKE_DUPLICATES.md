@@ -6,281 +6,243 @@ The September 2026 intake was bucketed by **ID** — does `goetzmann<NNNN>` alre
 exist? That test cannot see the case that actually matters: a **brand-new id
 holding a document the collection already has under a different id**.
 
-Two were found this way and both were the same shape — the live record was a scan
-of **page 1 only**, and the intake supplied the whole document:
+Four have been found so far, and all four were the same shape — the live record
+was a scan of **page 1 only**, and the intake supplied the whole document:
 
-| live record | intake | what happened |
+| live record | intake | leaves now |
 |---|---|---|
-| `1035` French Royal 3% Rente, 1761 | `1300`–`1304` | same physical sheet; merged, `1035` retiled from the larger master, leaves 1301–1304 added as pages, `1300` purged |
-| `1033` Compagnie des Indes Life-Annuity, 1726 | `1305`–`1308` | same physical sheet; merged the same way, `1305` purged |
+| `1035` French Royal 3% Rente, 1761 | `1300`–`1304` | 5 |
+| `1033` Compagnie des Indes Life-Annuity, 1726 | `1305`–`1308` | 4 |
+| `0426` Reconstitution of a French Royal 3% Rente, 1763 | `1309`–`1313` | 5 |
+| `0465` Royal Tontine on the Edict of August 1734, 2nd class | `1317`–`1321` | 5 |
 
-Both also corrected the live record: `1035` carried the identifier **No. 46460**
-when the plate reads **No. 2340**, and `1033` carried notes describing a
-completely different document (an 1785 company constitution mentioning Bordeaux).
+Each also corrected the live record: `1035` had the identifier **No. 46460** when
+the plate reads **No. 2340**; `1033` carried notes describing a different
+document entirely; `0465` was dated to the **edict year 1734** when the contract
+is of **1736**.
 
-## The rule, for every remaining document in the range
+## ⚠️ Two sweeps, and the picture one is primary
 
-**Before creating a record, check this list.** If the id appears below, compare
-the intake plate against the live record's own image (`node
-scratchpad/reconstruct.js <live id>` rebuilds it full-res from its tiles) before
-doing anything else.
+`0465` ← `1317` was **missed by the text sweep** — the vendor's row and the live
+description shared too few rare words to clear the threshold. It was found by
+comparing the **pictures**. Text matching alone is not safe.
 
-- Same physical sheet, live record shorter → **merge**, do not create a record:
-  `py scratchpad/merge-intake-into-live.py` (retiles, repages, rewrites the
-  workbook, lists the orphan to purge).
-- Genuinely different objects of the same issue → **two records**, titles split
-  by year or serial, per the multiples convention.
-- Same object, live record's scan is as good or better → leave the live record
+| tool | what it compares | run it |
+|---|---|---|
+| **`scratchpad/image-dupe-sweep.js`** — primary | a 16×16 mean-centred grey signature of the intake's first leaf against every live record's thumbnail | `node scratchpad/image-dupe-sweep.js` |
+| `scratchpad/find-intake-dupes.py` — secondary | weighted rare-word overlap between the master sheet's row and the live record's text | `py scratchpad/find-intake-dupes.py` |
+
+All four confirmed merges scored **0.910 – 0.990** on the image sweep. Treat
+**≥ 0.90 as needing a look before anything else**, and check 0.85–0.90 too;
+below that the matches are mostly documents that merely share a layout.
+
+## What to do with a hit
+
+Compare the intake plate against the live record's own image first —
+`node scratchpad/reconstruct.js <live id>` rebuilds it full-res from its tiles.
+
+- **Same physical sheet, live record shorter** → *merge*, do not create a record.
+  `scratchpad/merge-intake-into-live.py` / `merge-pass2.py` show the pattern:
+  retile the live id from the intake's larger master, set `pages` to the live id
+  plus the remaining leaves, rewrite title/description/notes/identifiers in **both
+  the JSON and the workbook** (Excel wins on the next round-trip), append a
+  workbook row per new leaf, then `upload-tiles.js` the live id and
+  `purge-tiles.js` the orphan. Record the orphan in `scratchpad/consumed.json`.
+- **Different objects of the same issue** → two records, titles split by year or
+  serial, per the multiples convention.
+- **Same object, the live scan is as good or better** → leave the live record
   alone and retire the intake id.
-
-Regenerate this list at any time with `py scratchpad/find-intake-dupes.py`.
 
 ## Candidates
 
-Scored on weighted word overlap between the master sheet's row and the live
-record's title, description and notes; rare words count for more. **A score is a
-reason to look, not a verdict.** `1300` scored only 0.29 and was a true merge, so
-low scores are not safe to skip.
+`img` is the image-sweep score, `txt` the text-sweep score where it also fired.
 
-- **`1305`** (4 lv) 1.00 → `1033` Compagnie des Indes Life-Annuity Contract, Paris, 1726 — ✅ MERGED 2026-09-15 into 1033
-  - sheet: Compagnie des Indes Life-Annuity Contract, Paris
-  - shared: deliberation, montpellier, antoinette, généralité, trésorier, despioch, 920, annuitants', d'état, lotteries
-- **`1371`** (2 lv) 1.00 → `0235` Anglo-Argentine Tramways Company Debenture Stock Certificate, London, 
-  - sheet: Anglo-Argentine Tramways Company Limited
-  - shared: argentine, tramways, anglo, debenture, 1910, limited, stock, company
-- **`1373`** (2 lv) 1.00 → `0345` State of South Carolina Consolidation Bond, 1872
-  - sheet: Consolidation Bond
-  - shared: carolina, 1602, 1893, consolidation, south, due, principal, july, january, state
-- **`1403`** (5 lv) 1.00 → `1292` De Vyver Plantation Mortgage Loan Share, Essequibo, 1789
-  - sheet: De Vyver Plantation Mortgage Loan, Essequibo — 6% Loan, 1789
-  - shared: vyver, 1789, essequibo, plantation, mortgage, loan
-  - also 1.00 → `0541` Dutch Essequibo Plantation Negotiatie, 1789
-  - also 0.26 → `0545` Conditions of the Daniel Changuion Plantation Loan, Essequibo and Deme
-- **`1413`** (1 lv) 0.98 → `0549` Vlaardingen Orphanage Negotiatie (Lottery-Loan), Batavian Republic, 9 
-  - sheet: Vlaardingen Orphanage Lottery and Life-Annuity Fund — 1800
-  - shared: vlaardingen, orphanage, 1800, life, annuity, lottery
-  - also 0.98 → `0534` Vlaardingen Orphanage Lottery Loan Conditions, 1800
-- **`1641`** (1 lv) 0.95 → `1285` St. Croix Plantation Loan Conversion Share, Amsterdam, 1778
-  - sheet: 1772 St. Croix Plantation Life-Annuity Receipt — 1,000 Guilders, No. 22
-  - shared: croix, 1772, plantation, life, annuity
-  - also 0.31 → `0509` Middelburg Plantation Bond for Essequibo and Demerara, 1768
-  - also 0.27 → `0037` The Hague Plantation Bond for Essequibo and Demerara, 1772
-- **`1400`** (1 lv) 0.66 → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxhall, 
-  - sheet: Vauxhall Plantation Mortgage, Dominica — 5% Obligation No. 38, 1777
-  - shared: vauxhall, dominica, 1777, plantation, mortgage
-  - also 0.34 → `0608` Stolkert Surinam Plantation Mortgage to Du Plessis & Taunay, Amsterdam
-- **`1401`** (1 lv) 0.66 → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxhall, 
-  - sheet: Vauxhall Plantation Mortgage, Dominica — 5% Obligation No. 38, 1777
-  - shared: vauxhall, dominica, 1777, plantation, mortgage
-  - also 0.34 → `0608` Stolkert Surinam Plantation Mortgage to Du Plessis & Taunay, Amsterdam
-- **`1746`** (1 lv) 0.64 → `0407` Norwich & Worcester Rail Road Company Bond, 1877
-  - sheet: Hartford and New Haven Rail Road Company Stock Certificate
-  - shared: rail, hartford, road, new, company
-  - also 0.56 → `0404` New York, New Haven and Hartford Railroad Harlem River–Port Chester Fi
-  - also 0.47 → `0394` Little Miami Rail Road Company Share Certificate, 1862
-- **`1747`** (1 lv) 0.64 → `0407` Norwich & Worcester Rail Road Company Bond, 1877
-  - sheet: Hartford and New Haven Rail Road Company Stock Certificate
-  - shared: rail, hartford, road, new, company
-  - also 0.56 → `0404` New York, New Haven and Hartford Railroad Harlem River–Port Chester Fi
-  - also 0.47 → `0394` Little Miami Rail Road Company Share Certificate, 1862
-- **`1742`** (1 lv) 0.61 → `0394` Little Miami Rail Road Company Share Certificate, 1862
-  - sheet: New-York and New-Haven Rail-Road Company Stock Certificate
-  - shared: rail, road, york, new, stock, company, certificate
-  - also 0.59 → `0403` New York Central Rail Road Company Bond, 1858
-  - also 0.58 → `0316` Chicago, Rock Island & Pacific Rail Road Company Mortgage Bond, 1880
-- **`1743`** (1 lv) 0.61 → `0394` Little Miami Rail Road Company Share Certificate, 1862
-  - sheet: New-York and New-Haven Rail-Road Company Stock Certificate
-  - shared: rail, road, york, new, stock, company, certificate
-  - also 0.59 → `0403` New York Central Rail Road Company Bond, 1858
-  - also 0.58 → `0316` Chicago, Rock Island & Pacific Rail Road Company Mortgage Bond, 1880
-- **`1780`** (1 lv) 0.57 → `0485` Notarial Register of a French Crown Life-Annuity Loan, 1787
-  - sheet: French Royal Life-Annuity Loan Contract, Directors Pieter Stadnitski & Hendrik Vollenhoven
-  - shared: 1787, pieter, vollenhoven, stadnitski, hendrik, life, annuity, royal, amsterdam, may
-  - also 0.55 → `0943` Dutch Life-Annuity Negotiation Deed and Nominee List, 1787
-  - also 0.27 → `0525` Stadnitski & van Heukelom Russian Loan Certificate, Amsterdam, 1825
-- **`1781`** (1 lv) 0.57 → `0485` Notarial Register of a French Crown Life-Annuity Loan, 1787
-  - sheet: French Royal Life-Annuity Loan Contract, Directors Pieter Stadnitski & Hendrik Vollenhoven
-  - shared: 1787, pieter, vollenhoven, stadnitski, hendrik, life, annuity, royal, amsterdam, may
-  - also 0.55 → `0943` Dutch Life-Annuity Negotiation Deed and Nominee List, 1787
-  - also 0.27 → `0525` Stadnitski & van Heukelom Russian Loan Certificate, Amsterdam, 1825
-- **`1782`** (1 lv) 0.57 → `0485` Notarial Register of a French Crown Life-Annuity Loan, 1787
-  - sheet: French Royal Life-Annuity Loan Contract, Directors Pieter Stadnitski & Hendrik Vollenhoven
-  - shared: 1787, pieter, vollenhoven, stadnitski, hendrik, life, annuity, royal, amsterdam, may
-  - also 0.55 → `0943` Dutch Life-Annuity Negotiation Deed and Nominee List, 1787
-  - also 0.27 → `0525` Stadnitski & van Heukelom Russian Loan Certificate, Amsterdam, 1825
-- **`1783`** (1 lv) 0.57 → `0485` Notarial Register of a French Crown Life-Annuity Loan, 1787
-  - sheet: French Royal Life-Annuity Loan Contract, Directors Pieter Stadnitski & Hendrik Vollenhoven
-  - shared: 1787, pieter, vollenhoven, stadnitski, hendrik, life, annuity, royal, amsterdam, may
-  - also 0.55 → `0943` Dutch Life-Annuity Negotiation Deed and Nominee List, 1787
-  - also 0.27 → `0525` Stadnitski & van Heukelom Russian Loan Certificate, Amsterdam, 1825
-- **`1700`** (1 lv) 0.55 → `0613` Denver & Rio Grande Railway Dutch Bearer Certificate, Amsterdam, 1886
-  - sheet: Denver & Rio Grande Spoorweg-Maatschappij Common Stock Certificate, 1911 — No. 29546
-  - shared: denver, grande, rio, spoorweg, maatschappij, stock, certificate
-- **`1701`** (1 lv) 0.55 → `0613` Denver & Rio Grande Railway Dutch Bearer Certificate, Amsterdam, 1886
-  - sheet: Denver & Rio Grande Spoorweg-Maatschappij Common Stock Certificate, 1911 — No. 29546
-  - shared: denver, grande, rio, spoorweg, maatschappij, stock, certificate
-- **`1342`** (2 lv) 0.54 → `0630` Hope & Co. Certificate of Russian Bank Assignations, Amsterdam, 1827, 
-  - sheet: Russian 6% Government Funds Certificate, 1824
-  - shared: assignations, borski, ketwich, voombergh, widow, hope, administration, petersburg, recorded, russian
-  - also 0.54 → `0521` Hope & Co. Certificate of Russian Bank Assignations, Amsterdam, 1825, 
-  - also 0.53 → `0719` Hope & Co. Certificate of Russian Bank Assignations, Amsterdam, 1825, 
-- **`1533`** (1 lv) 0.52 → `0356` Italian Public Debt Rendita Certificate, Florence, 1864
-  - sheet: Kingdom of Italy Public Debt Certificate
-  - shared: regno, pubblico, debito, d'italia, del, italy, kingdom, public, debt, certificate
-- **`1774`** (1 lv) 0.47 → `0042` Fahraeus & Laurin Suriname Plantation Negotiatie Participation, Amster
-  - sheet: Surinam Plantations Alsimo (Warapper-Creek and Edenburg)1793, No. 28
-  - shared: alsimo, edenburg, creek, 1793, plantations
-- **`1775`** (1 lv) 0.47 → `0042` Fahraeus & Laurin Suriname Plantation Negotiatie Participation, Amster
-  - sheet: Surinam Plantations Alsimo (Warapper-Creek and Edenburg)1793, No. 28
-  - shared: alsimo, edenburg, creek, 1793, plantations
-- **`1776`** (1 lv) 0.47 → `0042` Fahraeus & Laurin Suriname Plantation Negotiatie Participation, Amster
-  - sheet: Surinam Plantations Alsimo (Warapper-Creek and Edenburg)1793, No. 28
-  - shared: alsimo, edenburg, creek, 1793, plantations
-- **`1777`** (1 lv) 0.47 → `0042` Fahraeus & Laurin Suriname Plantation Negotiatie Participation, Amster
-  - sheet: Surinam Plantations Alsimo (Warapper-Creek and Edenburg)1793, No. 28
-  - shared: alsimo, edenburg, creek, 1793, plantations
-- **`1609`** (2 lv) 0.44 → `0515` Vereeniging tot Bevordering van 's Lands Weerbaarheid Lottery Loan Sha
-  - sheet: Dutch Lottery Loan, 1870
-  - shared: weerbaarheid, bevordering, defense, vereeniging, tot, rotterdam, 1870, lands, association, plan
-- **`1387`** (2 lv) 0.44 → `0525` Stadnitski & van Heukelom Russian Loan Certificate, Amsterdam, 1825
-  - sheet: Russian Imperial Public Debt Certificate – 1,000 Rubles
-  - shared: heukelom, assignats, stadnitski, 1825, amortization, inscription, houses, banking, commission, petersburg
-  - also 0.37 → `0631` Russian Public Debt (Assignation Funds) Certificate, Amsterdam, 1825
-  - also 0.37 → `0017` Russian Imperial Public Debt Certificate, Amsterdam, 1824
-- **`1702`** (1 lv) 0.43 → `0614` German External Loan 1924 (Dawes Loan), Swiss Issue — Funding Bond Ent
-  - sheet: German External Loan 1924 (Dawes Loan), Swiss Issue Funding Certificate, 1953 — No. 8691
-  - shared: dawes, swiss, 1953, funding, 1924, external, issue, loan, certificate
-  - also 0.26 → `0617` German External Loan 1924 (Dawes Loan) Rights Certificate, Bad Homburg
-- **`1366`** (5 lv) 0.42 → `0228` Dutch Bond for the French Bourbon Princes in Exile, 1793
-  - sheet: Dutch loan to the pretender to the French Throne, 1793
-  - shared: philippe, throne, croese, xavier, stanislas, princes, bourcourd, bankers, 1793, louis
-  - also 0.34 → `0542` Bourbon Princes in Exile Loan Certificate, Amsterdam, 1793
-- **`1666`** (1 lv) 0.40 → `0915` Société Toulousaine du Bazacle Share, 1928
-  - sheet: Société Toulousaine du Bazacle Founder’s Share Certificate (Part de Fondateur au Porteur),
-  - shared: bazacle, toulousaine, 1928, société, share
-- **`1721`** (1 lv) 0.40 → `0459` Texas and German Emigration Company Certificate of Stock, 1852
-  - sheet: Galveston, Houston & Henderson Railroad Company — Handwritten Bond Sale Agreement — New Yo
-  - shared: houston, galveston, bond, company
-- **`1722`** (1 lv) 0.40 → `0459` Texas and German Emigration Company Certificate of Stock, 1852
-  - sheet: Galveston, Houston & Henderson Railroad Company — Handwritten Bond Sale Agreement — New Yo
-  - shared: houston, galveston, bond, company
-- **`1402`** (1 lv) 0.40 → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxhall, 
-  - sheet: Vauxhall Plantation Mortgage, Dominica — 5% Obligation No. 38, 1777
-  - shared: vauxhall, dominica, 1777, plantation, mortgage
-- **`1787`** (1 lv) 0.40 → `0530` Hessian Rye Loan Bond, 1923
-  - sheet: Central-Landschaft 5% Rye Mortgage Bond for 50 Zentner of Rye, 1923 — No. 515635
-  - shared: zentner, rye, 1923, bond
-- **`1788`** (1 lv) 0.40 → `0530` Hessian Rye Loan Bond, 1923
-  - sheet: Central-Landschaft 5% Rye Mortgage Bond for 10 Zentner of Rye, 1923 — No. 868967
-  - shared: zentner, rye, 1923, bond
-- **`1792`** (1 lv) 0.40 → `0530` Hessian Rye Loan Bond, 1923
-  - sheet: Central-Landschaft 5% Rye Mortgage Bond for 20 Zentner of Rye, 1923 — No. 633858
-  - shared: zentner, rye, 1923, bond
-- **`1752`** (1 lv) 0.38 → `1179` Chinese Republic Lung-Tsing-U-Hai Railway Treasury Bond, Paris, 1925
-  - sheet: Compagnie Générale de Chemins de Fer et de Tramways en Chine — Bearer Share Certificate (2
-  - shared: tramways, générale, chemins, fer, chine, compagnie, francs, bearer
-  - also 0.38 → `0430` Chinese Republic Lung-Tsing-U-Hai Railway Bond, Brussels, 1921
-  - also 0.27 → `0466` Moscow & Russia Tramways Company Share, 1885
-- **`1753`** (1 lv) 0.38 → `1179` Chinese Republic Lung-Tsing-U-Hai Railway Treasury Bond, Paris, 1925
-  - sheet: Compagnie Générale de Chemins de Fer et de Tramways en Chine — Bearer Share Certificate (2
-  - shared: tramways, générale, chemins, fer, chine, compagnie, francs, bearer
-  - also 0.38 → `0430` Chinese Republic Lung-Tsing-U-Hai Railway Bond, Brussels, 1921
-  - also 0.27 → `0466` Moscow & Russia Tramways Company Share, 1885
-- **`1754`** (1 lv) 0.38 → `1179` Chinese Republic Lung-Tsing-U-Hai Railway Treasury Bond, Paris, 1925
-  - sheet: Compagnie Générale de Chemins de Fer et de Tramways en Chine — Bearer Share Certificate (2
-  - shared: tramways, générale, chemins, fer, chine, compagnie, francs, bearer
-  - also 0.38 → `0430` Chinese Republic Lung-Tsing-U-Hai Railway Bond, Brussels, 1921
-  - also 0.27 → `0466` Moscow & Russia Tramways Company Share, 1885
-- **`1380`** (2 lv) 0.37 → `0459` Texas and German Emigration Company Certificate of Stock, 1852
-  - sheet: Galveston, Houston and Henderson Rail Road Company Bond
-  - shared: galveston, houston, texas, related, bond, company, interest
-- **`1513`** (2 lv) 0.37 → `0629` Caisse d'Épargnes Lafarge Tontine Share, Paris, 1793
-  - sheet: Caisse d'Épargnes et de Bienfaisance du Citoyen Lafarge Share
-  - shared: lafarge, bienfaisance, d'épargnes, caisse, savings, action, life, livres, paris, share
-- **`1694`** (1 lv) 0.35 → `0530` Hessian Rye Loan Bond, 1923
-  - sheet: Province of Westphalia 20-Zentner Rye Mortgage Bond (Roggen-Pfandbrief), 1923 — No. 665
-  - shared: zentner, roggen, rye, 1923, bond
-- **`1408`** (5 lv) 0.34 → `0608` Stolkert Surinam Plantation Mortgage to Du Plessis & Taunay, Amsterdam
+- **`1466`** (1 lv) img **0.990** → `0538` Habsburg Imperial Obligation (Deutz Loan), Amsterdam, 1736
+  - sheet: (no title)
+- **`1456`** (1 lv) img **0.983** → `0537` Kingdom of Sweden Royal Loan Bond (Amsterdam), 1784
+  - sheet: (no title)
+- **`1423`** (1 lv) img **0.981** → `0533` Suriname Plantation Loan Conditions, 1760
+  - sheet: (no title)
+- **`1486`** (1 lv) img **0.979** → `0545` Conditions of the Daniel Changuion Plantation Loan, Essequibo and 
+  - sheet: (no title)
+- **`1408`** (5 lv) img **0.976** → `0608` Stolkert Surinam Plantation Mortgage to Du Plessis & Taunay, Amste, txt 0.34
   - sheet: Frederik Cornelis Stolkert Colonial Plantation Mortgage — 5% Obligation No. 139, 1777
-  - shared: stolkert, cornelis, 1777, plantation, mortgage
-- **`1723`** (1 lv) 0.34 → `0346` Continental Investment Co. Stock Certificate, 1929
-  - sheet: St. Louis–San Francisco Railway Company — Certificate for 10 Common Shares, $1,000, No. 21
-  - shared: francisco, san, 1929, common, shares, company, certificate
-- **`1724`** (1 lv) 0.34 → `0346` Continental Investment Co. Stock Certificate, 1929
-  - sheet: St. Louis–San Francisco Railway Company — Certificate for 10 Common Shares, $1,000, No. 21
-  - shared: francisco, san, 1929, common, shares, company, certificate
-- **`1725`** (1 lv) 0.34 → `0346` Continental Investment Co. Stock Certificate, 1929
-  - sheet: St. Louis–San Francisco Railway Company — Certificate for 10 Common Shares, $1,000, No. 21
-  - shared: francisco, san, 1929, common, shares, company, certificate
-- **`1726`** (1 lv) 0.34 → `0346` Continental Investment Co. Stock Certificate, 1929
-  - sheet: St. Louis–San Francisco Railway Company — Certificate for 10 Common Shares, $1,000, No. 21
-  - shared: francisco, san, 1929, common, shares, company, certificate
-- **`1689`** (1 lv) 0.32 → `0439` Sherman & Barnsdall Oil Company Stock Certificate, New York, 1865
-  - sheet: Irving Trust Company Stock Certificate, 1929 — No. 207142
-  - shared: irving, stock, company, certificate
-- **`1690`** (1 lv) 0.32 → `0439` Sherman & Barnsdall Oil Company Stock Certificate, New York, 1865
-  - sheet: Irving Trust Company Stock Certificate, 1929 — No. 207142
-  - shared: irving, stock, company, certificate
-- **`1522`** (1 lv) 0.32 → `0622` Forced Loan Receipt of the Year IV, Ghent, 1796
-  - sheet: French Forced Loan Receipt, Year IV
-  - shared: forcé, l'an, forced, emprunt, receipt, payment, year, loan, under
-- **`1784`** (1 lv) 0.31 → `0454` Eighth Austrian War Loan, 1918
-  - sheet: Austrian Eighth War Loan 5½% Treasury Certificate for 1,000 Kronen, 1918 — No. 032804
-  - shared: 1918, kronen, eighth, austrian, war, loan, 000
-- **`1785`** (1 lv) 0.31 → `0454` Eighth Austrian War Loan, 1918
-  - sheet: Austrian Eighth War Loan 5½% Treasury Certificate for 1,000 Kronen, 1918 — No. 032804
-  - shared: 1918, kronen, eighth, austrian, war, loan, 000
-- **`1786`** (1 lv) 0.31 → `0454` Eighth Austrian War Loan, 1918
-  - sheet: Austrian Eighth War Loan 5½% Treasury Certificate for 1,000 Kronen, 1918 — No. 032804
-  - shared: 1918, kronen, eighth, austrian, war, loan, 000
-- **`1544`** (2 lv) 0.30 → `0539` German Government International Loan of 1930, Belgian Issue (Berlin)
-  - sheet: German Reich 1922 loan bond – 100,000 Marks.
-  - shared: deutschen, reichs, anleihe, world, reich, administration, des, war, debt, face
-- **`1744`** (1 lv) 0.29 → `0363` Eagle Bank of New-Haven Stock Transfer Receipt, 1824
-  - sheet: New Haven and Northampton Company Stock Receipt
-  - shared: haven, receipt, stock, new
-- **`1745`** (1 lv) 0.29 → `0363` Eagle Bank of New-Haven Stock Transfer Receipt, 1824
-  - sheet: New Haven and Northampton Company Stock Receipt
-  - shared: haven, receipt, stock, new
-- **`1673`** (2 lv) 0.29 → `0293` Baltimore and Ohio Rail Road Company Preferred Stock, 1875
+- **`1780`** (1 lv) img **0.976** → `0485` Notarial Register of a French Crown Life-Annuity Loan, 1787, txt 0.57
+  - sheet: French Royal Life-Annuity Loan Contract, Directors Pieter Stadnitski & Hendrik Vollenhoven — Amsterd
+- **`1446`** (1 lv) img **0.973** → `0607` Suriname Plantation Negotiatie Conditions, 1765
+  - sheet: (no title)
+- **`1539`** (2 lv) img **0.971** → `0427` Reichsbank 1,000-Mark Reichsbanknote, Berlin, 1910
+  - sheet: German Reichsbank 1,000 Mark banknote
+- **`1442`** (1 lv) img **0.964** → `0606` Dutch Life-Annuity Tontine Conditions, 1687
+  - sheet: (no title)
+- **`1482`** (1 lv) img **0.962** → `0544` Changuion Plantation Mortgage Loan, Essequibo & Demerara, 1816
+  - sheet: (no title)
+- **`1478`** (1 lv) img **0.960** → `0491` Compagnie des Indes Life Annuity, 1725
+  - sheet: (no title)
+- **`1401`** (1 lv) img **0.956** → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxha, txt 0.66
+  - sheet: Vauxhall Plantation Mortgage, Dominica — 5% Obligation No. 38, 1777
+- **`1463`** (1 lv) img **0.956** → `0476` Eendracht Polder Bond, Zaamslag (Zeeland) Bond, 1779
+  - sheet: (no title)
+- **`1375`** (1 lv) img **0.948** → `0681` Republic of Texas Consolidated Fund Stock Certificate, 1840
+  - sheet: Republic of Texas 10% Consolidated Fund Certificate, 1840
+- **`1468`** (1 lv) img **0.941** → `0538` Habsburg Imperial Obligation (Deutz Loan), Amsterdam, 1736
+  - sheet: (no title)
+- **`1460`** (1 lv) img **0.941** → `0603` Suriname Plantation Fund Conditions, 1785
+  - sheet: (no title)
+- **`1673`** (2 lv) img **0.938** → `0292` Baltimore and Ohio Railroad Company Common Stock, 1934, txt 0.29 → `0293`
   - sheet: Baltimore and Ohio Railroad Company Stock Certificate, 1935, No. D264139
-  - shared: ohio, baltimore, railroad, stock, company, certificate
-  - also 0.29 → `0292` Baltimore and Ohio Railroad Company Common Stock, 1934
-- **`1300`** (5 lv) 0.29 → `1035` French Royal Rente, Paris, 1761 — ✅ MERGED 2026-09-15 into 1035
-  - sheet: French Royal 3% Rente (Droit sur les Cuirs)
-  - shared: gervais, hides, 1762, chosen, ville, hôtel, ties, 1760, 1761, rentes
-- **`1340`** (2 lv) 0.29 → `0719` Hope & Co. Certificate of Russian Bank Assignations, Amsterdam, 1825, 
-  - sheet: Russian 6% Government Funds Certificate, 1825
-  - shared: assignations, borski, ketwich, voombergh, 1825, widow, hope, inscription, administration, petersburg
-  - also 0.28 → `0521` Hope & Co. Certificate of Russian Bank Assignations, Amsterdam, 1825, 
-  - also 0.27 → `0517` Russian Public Debt Inscription, Imperial Sinking-Fund Commission, Sai
-- **`1736`** (1 lv) 0.28 → `0346` Continental Investment Co. Stock Certificate, 1929
-  - sheet: St. Louis–San Francisco Railway Company — Certificate for 10 Non-Cumulative 6% Preferred S
-  - shared: francisco, san, non, shares, company, certificate
-- **`1737`** (1 lv) 0.28 → `0346` Continental Investment Co. Stock Certificate, 1929
-  - sheet: St. Louis–San Francisco Railway Company — Certificate for 10 Non-Cumulative 6% Preferred S
-  - shared: francisco, san, non, shares, company, certificate
-- **`1633`** (2 lv) 0.27 → `0404` New York, New Haven and Hartford Railroad Harlem River–Port Chester Fi
-  - sheet: New York and Harlem Railroad, 1968 N. M1117 $1000
-  - shared: harlem, railroad, york, new
-- **`1385`** (2 lv) 0.27 → `1152` L'Ikelemba Dividend Share, Brussels, 1898
-  - sheet: État Indépendant du Congo – 150 Million Franc Loan
-  - shared: indépendant, état, congo, belgian, state, bearer
-- **`1597`** (1 lv) 0.27 → `0685` West Shore Railroad Company First Mortgage Guaranteed Bond, 1885
-  - sheet: United States Trust Company of New York stock certificate.
-  - shared: punched, cancelled, trust, york, new, company
-- **`1615`** (2 lv) 0.27 → `0317` Chicago, Rock Island and Pacific Railroad Company Gold Bond, 1902
-  - sheet: Chicago, Rock Island and Pacific Railway Company Preferred Stock, 1920
-  - shared: rock, chicago, pacific, standard, island, railway, engraved, company
-- **`1761`** (1 lv) 0.25 → `0631` Russian Public Debt (Assignation Funds) Certificate, Amsterdam, 1825
+- **`1426`** (1 lv) img **0.937** → `0535` "Voor den Armen" Charitable Bond, City of Haarlem, 1805
+  - sheet: (no title)
+- **`1702`** (1 lv) img **0.933** → `0614` German External Loan 1924 (Dawes Loan), Swiss Issue — Funding Bond, txt 0.43
+  - sheet: German External Loan 1924 (Dawes Loan), Swiss Issue Funding Certificate, 1953 — No. 8691
+- **`1775`** (1 lv) img **0.929** → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxha, txt 0.47 → `0042`
+  - sheet: Surinam Plantations Alsimo (Warapper-Creek and Edenburg)1793, No. 28
+- **`1366`** (5 lv) img **0.925** → `0228` Dutch Bond for the French Bourbon Princes in Exile, 1793, txt 0.42
+  - sheet: Dutch loan to the pretender to the French Throne, 1793
+- **`1402`** (1 lv) img **0.924** → `0608` Stolkert Surinam Plantation Mortgage to Du Plessis & Taunay, Amste, txt 0.40 → `0609`
+  - sheet: Vauxhall Plantation Mortgage, Dominica — 5% Obligation No. 38, 1777
+- **`1216`** (2 lv) img **0.921** → `0452` Spassky Copper Mine Share Warrant, London, 1917
+  - sheet: The Spassky Copper Mine, Limited — Share Warrant to Bearer, 1913
+- **`1413`** (1 lv) img **0.920** → `0534` Vlaardingen Orphanage Lottery Loan Conditions, 1800, txt 0.98 → `0549`
+  - sheet: Vlaardingen Orphanage Lottery and Life-Annuity Fund — 1800
+- **`1715`** (1 lv) img **0.916** → `0469` Unilever N.V. Option Certificate, 1937
+  - sheet: Associated Gas and Electric Company, Certificaat voor Tien Aandeelen Class A Stock Serial No. 37495
+- **`1774`** (1 lv) img **0.907** → `0042` Fahraeus & Laurin Suriname Plantation Negotiatie Participation, Am, txt 0.47
+  - sheet: Surinam Plantations Alsimo (Warapper-Creek and Edenburg)1793, No. 28
+- **`1766`** (1 lv) img **0.892** → `0469` Unilever N.V. Option Certificate, 1937
+  - sheet: The Fisk Rubber Company 1926 No. 0944
+- **`1712`** (1 lv) img **0.888** → `0004` Societeit der Plantagiën Beekenhorst en Egmond Share, Amsterdam, 1
+  - sheet: Gewerkschaft Consolidirte Wenceslaus Grube, 5% Kohlenwertanleihe, Serie II, Teilschuldverschreibung 
+- **`1452`** (1 lv) img **0.885** → `0608` Stolkert Surinam Plantation Mortgage to Du Plessis & Taunay, Amste
+  - sheet: (no title)
+- **`1475`** (1 lv) img **0.882** → `0610` Banco Territorial de Cuba (Crédit Foncier Cubain) Bearer Bond, Hav
+  - sheet: (no title)
+- **`1756`** (1 lv) img **0.881** → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxha
+  - sheet: Frans de Wilde Surinam Plantation Mortgage Bond No. 109 1770
+- **`1749`** (1 lv) img **0.879** → `0608` Stolkert Surinam Plantation Mortgage to Du Plessis & Taunay, Amste
+  - sheet: Negotiatie op de Bank van Leening of Lombard, der Stad Amsterdam — Amsterdam Municipal Pawnbank Loan
+- **`1322`** (2 lv) img **0.873** → `0500` Share Subscription Contract for the Ostend Company, 1729
+  - sheet: Keyserlijcke Indische Compagnie (Ostend Company) Share Option Contract — Antwerp, 1730
+- **`1711`** (1 lv) img **0.868** → `1144` Banque de Commerce Russo-Française Share, St. Petersburg, 1912
+  - sheet: Gewerkschaft Consolidirte Wenceslaus Grube, 5% Kohlenwertanleihe, Serie II, Teilschuldverschreibung 
+- **`1453`** (1 lv) img **0.867** → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxha
+  - sheet: (no title)
+- **`1583`** (2 lv) img **0.864** → `0469` Unilever N.V. Option Certificate, 1937
+  - sheet: Detroit Aircraft Corporation
+- **`1731`** (1 lv) img **0.861** → `0220` Alexander Hamilton Treasury Circular on Subscription of State Debt
+  - sheet: N.V. Cultuurmaatschappij Vereenigde Lawoe-Ondernemingen — Certificate for Common Shares, f1,000 (red
+- **`1784`** (1 lv) img **0.861** → `0001` Austrian Republic State Treasury Note, Vienna, 1920, txt 0.31 → `0454`
+  - sheet: Austrian Eighth War Loan 5½% Treasury Certificate for 1,000 Kronen, 1918 — No. 032804
+- **`1750`** (1 lv) img **0.861** → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxha
+  - sheet: Negotiatie op de Bank van Leening of Lombard, der Stad Amsterdam — Amsterdam Municipal Pawnbank Loan
+- **`1738`** (1 lv) img **0.860** → `0469` Unilever N.V. Option Certificate, 1937
+  - sheet: Associated Gas and Electric Company — Certificate for 10 Class A Shares, No. 3280 (1928/1933)
+- **`1651`** (2 lv) img **0.860** → `0432` Russian General Oil Corporation Share Warrant to Bearer, London, 1
+  - sheet: The Russian General Oil Corporation — 25-Share Warrant, 1913, No. C35871
+- **`1740`** (1 lv) img **0.855** → `0433` Imperial Russian Government State Rente Certificate, St. Petersbur
+  - sheet: Associated Gas and Electric Company — Certificate for 10 Class A Shares, No. 3280 (1928/1933)
+- **`1609`** (2 lv) img **0.854** → `0427` Reichsbank 1,000-Mark Reichsbanknote, Berlin, 1910, txt 0.44 → `0515`
+  - sheet: Dutch Lottery Loan, 1870
+- **`1694`** (1 lv) img **0.853** → `0003` Bulgarian Internal State Loan for National Defense, 1941, txt 0.35 → `0530`
+  - sheet: Province of Westphalia 20-Zentner Rye Mortgage Bond (Roggen-Pfandbrief), 1923 — No. 665
+- **`1723`** (1 lv) img **0.851** → `0469` Unilever N.V. Option Certificate, 1937, txt 0.34 → `0346`
+  - sheet: St. Louis–San Francisco Railway Company — Certificate for 10 Common Shares, $1,000, No. 2133 (1917/1
+- **`1762`** (1 lv) img **0.849** → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxha, txt 0.25 → `0631`
   - sheet: 5% Russian Fund Certificate in Silver 1825 No. 263
-  - shared: 1825, fund, russian, certificate
-- **`1762`** (1 lv) 0.25 → `0631` Russian Public Debt (Assignation Funds) Certificate, Amsterdam, 1825
+- **`1683`** (1 lv) img **0.848** → `0469` Unilever N.V. Option Certificate, 1937
+  - sheet: Associated Gas and Electric Company Cumulative Preference Stock Certificate, 1931 — No. 0374
+- **`1403`** (5 lv) img **0.847** → `1292` De Vyver Plantation Mortgage Loan Share, Essequibo, 1789, txt 1.00
+  - sheet: De Vyver Plantation Mortgage Loan, Essequibo — 6% Loan, 1789
+- **`1467`** (1 lv) img **0.846** → `0476` Eendracht Polder Bond, Zaamslag (Zeeland) Bond, 1779
+  - sheet: (no title)
+- **`1755`** (1 lv) img **0.844** → `1292` De Vyver Plantation Mortgage Loan Share, Essequibo, 1789
+  - sheet: Frans de Wilde Surinam Plantation Mortgage Bond No. 109 1770
+- **`1487`** (1 lv) img **0.842** → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxha
+  - sheet: (no title)
+- **`1788`** (1 lv) img **0.842** → `0433` Imperial Russian Government State Rente Certificate, St. Petersbur, txt 0.40 → `0530`
+  - sheet: Central-Landschaft 5% Rye Mortgage Bond for 10 Zentner of Rye, 1923 — No. 868967
+- **`1791`** (1 lv) img **0.842** → `0427` Reichsbank 1,000-Mark Reichsbanknote, Berlin, 1910
+  - sheet: Municipality of Ilmenau 6% Coke-Value Loan for 20 Zentner of Coke, 1923 — No. 0031
+- **`1380`** (2 lv) img **0.841** → `0489` Hollandsche Garantie- & Trust Compagnie German Reich Certificate, , txt 0.37 → `0459`
+  - sheet: Galveston, Houston and Henderson Rail Road Company Bond
+- **`1553`** (1 lv) img **0.832** → `0232` American & British Securities Company Common Stock Certificate, 19
+  - sheet: The Peoples Bank and Trust Company Stock Certificate, 1915
+- **`1496`** (1 lv) img **0.832** → `0469` Unilever N.V. Option Certificate, 1937
+  - sheet: (no title)
+- **`1708`** (1 lv) img **0.829** → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxha
+  - sheet: Gewerkschaft Consolidirte Wenceslaus Grube, 5% Kohlenwertanleihe, Serie IV, Teilschuldverschreibung 
+- **`1550`** (3 lv) img **0.825** → `0236` Acts of Parliament: South-Sea Company, London, 1722
+  - sheet: British Act concerning the South Sea Company, 1751.
+- **`1787`** (1 lv) img **0.822** → `0433` Imperial Russian Government State Rente Certificate, St. Petersbur, txt 0.40 → `0530`
+  - sheet: Central-Landschaft 5% Rye Mortgage Bond for 50 Zentner of Rye, 1923 — No. 515635
+- **`1792`** (1 lv) img **0.822** → `0433` Imperial Russian Government State Rente Certificate, St. Petersbur, txt 0.40 → `0530`
+  - sheet: Central-Landschaft 5% Rye Mortgage Bond for 20 Zentner of Rye, 1923 — No. 633858
+- **`1703`** (1 lv) img **0.821** → `1144` Banque de Commerce Russo-Française Share, St. Petersburg, 1912
+  - sheet: Gewerkschaft Consolidirte Wenceslaus Grube, 5% Kohlenwertanleihe, Serie III, Teilschuldverschreibung
+- **`1751`** (1 lv) img **0.820** → `0537` Kingdom of Sweden Royal Loan Bond (Amsterdam), 1784
+  - sheet: Negotiatie op de Bank van Leening of Lombard, der Stad Amsterdam — Amsterdam Municipal Pawnbank Loan
+- **`1471`** (1 lv) img **0.818** → `0618` German Government International Loan (Young Plan) Dollar Gold Bond
+  - sheet: (no title)
+- **`1444`** (1 lv) img **0.815** → `1292` De Vyver Plantation Mortgage Loan Share, Essequibo, 1789
+  - sheet: (no title)
+- **`1763`** (1 lv) img **0.814** → `0469` Unilever N.V. Option Certificate, 1937
+  - sheet: Consolidated Railway Lighting and Refrigerating Company 1805 No. 2773
+- **`1741`** (1 lv) img **0.814** → `0614` German External Loan 1924 (Dawes Loan), Swiss Issue — Funding Bond
+  - sheet: Associated Gas and Electric Company — Certificate for 10 Class A Shares, No. 3280 (1928/1933)
+- **`1447`** (1 lv) img **0.814** → `0476` Eendracht Polder Bond, Zaamslag (Zeeland) Bond, 1779
+  - sheet: (no title)
+- **`1457`** (1 lv) img **0.813** → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxha
+  - sheet: (no title)
+- **`1790`** (1 lv) img **0.813** → `0530` Hessian Rye Loan Bond, 1923
+  - sheet: Municipality of Ilmenau 6% Coke-Value Loan for 20 Zentner of Coke, 1923 — No. 0031
+- **`1704`** (1 lv) img **0.810** → `0427` Reichsbank 1,000-Mark Reichsbanknote, Berlin, 1910
+  - sheet: Gewerkschaft Consolidirte Wenceslaus Grube, 5% Kohlenwertanleihe, Serie IV, Teilschuldverschreibung 
+- **`1425`** (1 lv) img **0.809** → `0537` Kingdom of Sweden Royal Loan Bond (Amsterdam), 1784
+  - sheet: (no title)
+- **`1451`** (1 lv) img **0.809** → `0228` Dutch Bond for the French Bourbon Princes in Exile, 1793
+  - sheet: (no title)
+- **`1761`** (1 lv) img **0.808** → `0520` Hope & Co. Russian Silver Certificate, Amsterdam, 1857, txt 0.25 → `0631`
   - sheet: 5% Russian Fund Certificate in Silver 1825 No. 263
-  - shared: 1825, fund, russian, certificate
-- **`1581`** (2 lv) 0.25 → `0535` "Voor den Armen" Charitable Bond, City of Haarlem, 1805
-  - sheet: Municipal Real Estate Trust
-  - shared: annotations, municipal, form, under
-- **`1598`** (2 lv) 0.25 → `0934` Unified Debt of Egypt Bearer Bond, Cairo, 1876
-  - sheet: Imperial Russian Government 4% unified rente certificate.
-  - shared: unified, amortization, attached, coupon, through, debt, government
+- **`1434`** (1 lv) img **0.807** → `0608` Stolkert Surinam Plantation Mortgage to Du Plessis & Taunay, Amste
+  - sheet: (no title)
+- **`1533`** (1 lv) img **0.806** → `0614` German External Loan 1924 (Dawes Loan), Swiss Issue — Funding Bond, txt 0.52 → `0356`
+  - sheet: Kingdom of Italy Public Debt Certificate
+- **`1585`** (3 lv) img **0.805** → `0469` Unilever N.V. Option Certificate, 1937
+  - sheet: Central States Electric Corporation
+- **`1607`** (2 lv) img **0.801** → `0469` Unilever N.V. Option Certificate, 1937
+  - sheet: Chicago, Milwaukee, St. Paul and Pacific Railroad Company preferred stock certificate and dividend s
+
+### Text-sweep hits with no strong image match
+
+Lower priority, but a different issue of the same loan is still worth knowing about.
+
+- **`1305`** (4 lv) txt 1.00 → `1033` Compagnie des Indes Life-Annuity Contract, Paris, 1726
+  - sheet: Compagnie des Indes Life-Annuity Contract, Paris
+- **`1371`** (2 lv) txt 1.00 → `0235` Anglo-Argentine Tramways Company Debenture Stock Certificate, Lond
+  - sheet: Anglo-Argentine Tramways Company Limited
+- **`1373`** (2 lv) txt 1.00 → `0345` State of South Carolina Consolidation Bond, 1872
+  - sheet: Consolidation Bond
+- **`1641`** (1 lv) txt 0.95 → `1285` St. Croix Plantation Loan Conversion Share, Amsterdam, 1778
+  - sheet: 1772 St. Croix Plantation Life-Annuity Receipt — 1,000 Guilders, No. 22
+- **`1400`** (1 lv) txt 0.66 → `0609` Heshuysen & Compagnie / James Balmer Mortgage on Plantation Vauxha
+  - sheet: Vauxhall Plantation Mortgage, Dominica — 5% Obligation No. 38, 1777
+- **`1746`** (1 lv) txt 0.64 → `0407` Norwich & Worcester Rail Road Company Bond, 1877
+  - sheet: Hartford and New Haven Rail Road Company Stock Certificate
+- **`1747`** (1 lv) txt 0.64 → `0407` Norwich & Worcester Rail Road Company Bond, 1877
+  - sheet: Hartford and New Haven Rail Road Company Stock Certificate
+- **`1742`** (1 lv) txt 0.61 → `0394` Little Miami Rail Road Company Share Certificate, 1862
+  - sheet: New-York and New-Haven Rail-Road Company Stock Certificate
+- **`1743`** (1 lv) txt 0.61 → `0394` Little Miami Rail Road Company Share Certificate, 1862
+  - sheet: New-York and New-Haven Rail-Road Company Stock Certificate
+- **`1781`** (1 lv) txt 0.57 → `0485` Notarial Register of a French Crown Life-Annuity Loan, 1787
+  - sheet: French Royal Life-Annuity Loan Contract, Directors Pieter Stadnitski & Hendrik Vollenhoven — Amsterd
+- **`1782`** (1 lv) txt 0.57 → `0485` Notarial Register of a French Crown Life-Annuity Loan, 1787
+  - sheet: French Royal Life-Annuity Loan Contract, Directors Pieter Stadnitski & Hendrik Vollenhoven — Amsterd
+- **`1783`** (1 lv) txt 0.57 → `0485` Notarial Register of a French Crown Life-Annuity Loan, 1787
+  - sheet: French Royal Life-Annuity Loan Contract, Directors Pieter Stadnitski & Hendrik Vollenhoven — Amsterd
+- **`1700`** (1 lv) txt 0.55 → `0613` Denver & Rio Grande Railway Dutch Bearer Certificate, Amsterdam, 1
+  - sheet: Denver & Rio Grande Spoorweg-Maatschappij Common Stock Certificate, 1911 — No. 29546
+- **`1701`** (1 lv) txt 0.55 → `0613` Denver & Rio Grande Railway Dutch Bearer Certificate, Amsterdam, 1
+  - sheet: Denver & Rio Grande Spoorweg-Maatschappij Common Stock Certificate, 1911 — No. 29546
+- **`1342`** (2 lv) txt 0.54 → `0630` Hope & Co. Certificate of Russian Bank Assignations, Amsterdam, 18
+  - sheet: Russian 6% Government Funds Certificate, 1824
