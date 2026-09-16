@@ -34841,7 +34841,7 @@
     "transcription": "",
     "title": "Asylum Company Share Certificate No. 670, Philadelphia, 1802",
     "description": "Certificate number 670 declaring that James Gibson of Philadelphia is entitled to one share in the entire property of the Asylum Company, constituted conformably to articles of agreement duly executed and recorded, dated at Philadelphia the twenty-sixth day of October 1801, and transferable only at the company's office in the city by the owner in person or his attorney or other legal representative. It is signed by order of the board of managers on the seventh day of April 1802 by Archibald McCall as president and attested by James Gibson as secretary — the holder being also the company's secretary. The Asylum Company held a great tract on the upper Susquehanna in Pennsylvania, settled in the 1790s by French refugees from the Revolution and from Saint-Domingue. Two leaves; the reverse carries a later endorsement.",
-    "notes": "No. 670, one share; articles of agreement dated 26 October 1801; certificate signed 7 April 1802. James Gibson is both the named shareholder and the attesting secretary. President Arch'd McCall.",
+    "notes": "No. 670, one share; articles of agreement dated 26 October 1801; certificate signed 7 April 1802. James Gibson is both the named shareholder and the attesting secretary. President Arch'd McCall. ⚠ RETILED 2026-09-16 from goetzmann1642/1643, a 22 MP rescan of this same certificate that the intake shipped again in the 1600-1699 folder; the original scans were 0.84 MP. The duplicates are recorded in scratchpad/consumed.json. ⚠ The master spreadsheet dates that rescan 1803; the plate reads \"the Seventh day of April ... one thousand eight hundred and two\".",
     "type": [
       "Stock Certificate"
     ],
@@ -35229,6 +35229,599 @@
     "issueYear": [
       "1912"
     ]
+  },
+  {
+    "id": "goetzmann1625",
+    "file": "goetzmann1625.jpg",
+    "transcription": "",
+    "title": "Lake Shore and Michigan Southern Ten Thousand Dollar Gold Bond No. 564, Rockefeller Foundation, 1930",
+    "description": "A registered bond of the Lake Shore and Michigan Southern Railway Company's twenty-five year four per cent gold bond of 1906, number 564, for ten thousand dollars, payable to the Rockefeller Foundation or assigns in gold coin on 1 May 1931 with interest half-yearly each November and May. The gold dollars are to be of the standard as it existed 1 May 1906. It is one of a series limited to fifty million dollars issued under an indenture of 12 March 1906 to the Guaranty Trust Company of New York as trustee. Executed at New York on 21 November 1930 by the New York Central Railroad Company as successor to the Lake Shore — the bond outliving the company that issued it. Two leaves.",
+    "notes": "No. 564, $10,000, 25-year 4% gold bond of 1906, due 1 May 1931; registered to The Rockefeller Foundation; executed 21 November 1930. Indenture 12 March 1906, Guaranty Trust Company of New York trustee; series limited to $50,000,000.",
+    "type": [
+      "Bond"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "The Lake Shore and Michigan Southern Railway Company; The New York Central Railroad Company",
+    "identifiers": [
+      "No. 564"
+    ],
+    "namedIndividuals": [],
+    "keywords": [
+      "Lake Shore and Michigan Southern",
+      "Rockefeller Foundation",
+      "gold bond",
+      "railroad",
+      "endowment"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1625",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1626",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issueYear": [
+      "1930"
+    ]
+  },
+  {
+    "id": "goetzmann1627",
+    "file": "goetzmann1627.jpg",
+    "transcription": "",
+    "title": "Lake Shore and Michigan Southern Gold Bond No. 1172, Astor Trustees, 1902",
+    "description": "A registered three and one half per cent gold bond of the Lake Shore and Michigan Southern Railway Company, number 1172, for ten thousand dollars, payable to J. Roosevelt Roosevelt, Douglas Robinson and Robert H. M. Ferguson, trustees for Caroline W. Astor, or assigns. The United States Trust Company of New York is one of the trustees under the mortgage, and the bond does not become obligatory until authenticated by its certificate. Executed on the fourth day of December 1902 and struck CANCELLED. Two leaves; the reverse carries the registration panel. The named trustees connect two of the great New York families of the period, Douglas Robinson having married Theodore Roosevelt's sister.",
+    "notes": "No. 1172, $10,000, 3.5% registered gold bond; trustees for Caroline W. Astor; executed 4 December 1902. ⚠ The master spreadsheet gave no serial, date or holder.",
+    "type": [
+      "Bond"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "The Lake Shore and Michigan Southern Railway Company",
+    "identifiers": [
+      "No. 1172"
+    ],
+    "namedIndividuals": [
+      "Caroline W. Astor",
+      "J. Roosevelt Roosevelt",
+      "Douglas Robinson",
+      "Robert H. M. Ferguson"
+    ],
+    "keywords": [
+      "Lake Shore and Michigan Southern",
+      "Astor",
+      "gold bond",
+      "railroad",
+      "trustees"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1627",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1628",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issueYear": [
+      "1902"
+    ]
+  },
+  {
+    "id": "goetzmann1629",
+    "file": "goetzmann1629.jpg",
+    "transcription": "",
+    "title": "New York Central and Hudson River Stock Certificate No. A223434, 1913",
+    "description": "A certificate for thirteen shares of the capital stock of the New York Central and Hudson River Rail Road Company, number A223434, on a form printed for holdings of less than one hundred shares and dated in December 1913. An engraved portrait of Cornelius Vanderbilt occupies the centre. The face is struck through and the reverse carries the executed assignment with the guarantee of the First National Bank, together with a strip of documentary and stock-transfer revenue stamps cancelled across it. Two leaves.",
+    "notes": "No. A223434, thirteen shares, register of transfers December 1913. ⚠ The master spreadsheet describes this as a $1,000 bond; it is a share certificate.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "The New York Central and Hudson River Rail Road Company",
+    "identifiers": [
+      "No. A223434"
+    ],
+    "namedIndividuals": [],
+    "keywords": [
+      "New York Central",
+      "railroad",
+      "revenue stamps",
+      "stock certificate"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1629",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1630",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issueYear": [
+      "1913"
+    ]
+  },
+  {
+    "id": "goetzmann1631",
+    "file": "goetzmann1631.jpg",
+    "transcription": "",
+    "title": "Lake Shore and Michigan Southern Fifty Thousand Dollar Gold Bond No. 1068, Carnegie Corporation, 1913",
+    "description": "A registered three and one half per cent gold bond of the Lake Shore and Michigan Southern Railway Company for fifty thousand dollars, number 1068, payable to the Carnegie Corporation of New York or assigns, and executed on the thirteenth day of March 1913. Like its fellows it is transferable only by the registered holder on the company's books at New York upon surrender and cancellation, and does not become obligatory until authenticated by the United States Trust Company of New York as trustee. Two leaves; the reverse carries the registration panel. With the bond at [1617], it shows the same endowment holding fifty thousand dollars of this railway's paper twice over.",
+    "notes": "No. 1068, $50,000, 3.5% registered gold bond; registered to the Carnegie Corporation of New York; executed 13 March 1913. ⚠ The master spreadsheet gave no serial, date or holder.",
+    "type": [
+      "Bond"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "The Lake Shore and Michigan Southern Railway Company",
+    "identifiers": [
+      "No. 1068"
+    ],
+    "namedIndividuals": [],
+    "keywords": [
+      "Lake Shore and Michigan Southern",
+      "Carnegie Corporation",
+      "gold bond",
+      "railroad",
+      "endowment"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1631",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1632",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issueYear": [
+      "1913"
+    ]
+  },
+  {
+    "id": "goetzmann1633",
+    "file": "goetzmann1633.jpg",
+    "transcription": "",
+    "title": "New York and Harlem Railroad Registered Gold Bond No. M1117, 1968",
+    "description": "A registered three and one half per cent gold bond of the New York and Harlem Railroad Company for one thousand dollars, number M1117, payable to R. W. Pressprich & Co. The bonds of the series are reserved to take up twelve million dollars of bonds secured by the consolidated mortgage, and are issued under and equally secured by a mortgage of 1 June 1897 from the railroad to the Guaranty Trust Company of New York as trustee, covering all the company's property and franchises. It was executed on the twenty-first day of November 1968 — a certificate of a nineteenth-century mortgage still being issued seventy years on, long after the gold clause it carries had been voided. Two leaves; the reverse carries the registration panel.",
+    "notes": "No. M1117, $1,000, 3.5% registered gold bond; holder R. W. Pressprich & Co.; executed 21 November 1968. Mortgage of 1 June 1897 to Guaranty Trust Company of New York; $12,000,000 reserved against the consolidated mortgage.",
+    "type": [
+      "Bond"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "The New York and Harlem Railroad Company",
+    "identifiers": [
+      "No. M1117"
+    ],
+    "namedIndividuals": [],
+    "keywords": [
+      "New York and Harlem Railroad",
+      "gold bond",
+      "consolidated mortgage",
+      "Pressprich"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1633",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1634",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issueYear": [
+      "1968"
+    ]
+  },
+  {
+    "id": "goetzmann1635",
+    "file": "goetzmann1635.jpg",
+    "transcription": "",
+    "title": "Buffalo, Rochester and Pittsburgh Railroad Stock Certificate No. A102",
+    "description": "A certificate declaring that George W. Parsons is entitled to one hundred shares of one hundred dollars each of the common capital stock of the Buffalo, Rochester and Pittsburgh Railroad Company, transferable only on the books of the company in person or by attorney on surrender of the certificate. The engraved border sets a locomotive at the left against a group of hunting dogs at the right, and the face is struck CANCELLED over the registrar's stamp, Central Trust Company of New York. Two leaves; the reverse carries the assignment. The road ran coal north from the Pennsylvania fields to Rochester and Buffalo.",
+    "notes": "No. A102, one hundred shares of $100, holder Geo. W. Parsons. ⚠ The date is struck through by the cancellation and reads only as 189-; issueDate is left blank rather than guessed. ⚠ The master spreadsheet calls the company 'Rochester Pittsburgh Railroad'; the plate reads BUFFALO ROCHESTER AND PITTSBURGH RAILROAD COMPANY.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "19th Century"
+    ],
+    "creator": "Buffalo, Rochester and Pittsburgh Railroad Company",
+    "identifiers": [
+      "No. A102"
+    ],
+    "namedIndividuals": [
+      "George W. Parsons"
+    ],
+    "keywords": [
+      "Buffalo Rochester and Pittsburgh",
+      "railroad",
+      "coal",
+      "New York",
+      "Pennsylvania"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1635",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1636",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issueYear": []
+  },
+  {
+    "id": "goetzmann1637",
+    "file": "goetzmann1637.jpg",
+    "transcription": "",
+    "title": "Missouri Pacific Railroad Common Stock Certificate No. 056809, Amsterdam Holding",
+    "description": "A certificate for ten fully paid and non-assessable shares of the par value of one hundred dollars each of the common capital stock of the Missouri Pacific Railroad Company, incorporated in 1917 under the laws of the State of Missouri, number 056809. The registered holder is the Amsterdam administratiekantoor of American securities founded by Broes & Gosman, Ten Have & Van Essen and Jarman & Zoonen. Printed across the face at length are the articles governing the five per cent cumulative preference of the preferred stock and the order of distribution on liquidation. A Netherlands stamp-duty seal is affixed at the right and the certificate is overprinted CANCELLED; the registrar is the National Bank of the City of New York.",
+    "notes": "No. 056809, ten common shares of $100; holder the Amsterdam administratiekantoor. ⚠ The certificate's own date line is obscured by the cancellation overprint; issueDate is left blank. The company was incorporated in 1917 and the text refers to dividends from 30 June 1918, so the certificate is later than that.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "Missouri Pacific Railroad Company",
+    "identifiers": [
+      "No. 056809"
+    ],
+    "namedIndividuals": [],
+    "keywords": [
+      "Missouri Pacific",
+      "railroad",
+      "Amsterdam",
+      "administratiekantoor",
+      "common stock"
+    ],
+    "owner": "ICF",
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issueYear": []
+  },
+  {
+    "id": "goetzmann1638",
+    "file": "goetzmann1638.jpg",
+    "transcription": "",
+    "title": "English Exchequer Repayment Order to Charles Caesar, London, 1713",
+    "description": "A printed Exchequer order taken on the first day of July 1713 by virtue of the act granting Her Majesty duties upon malt, mum, cyder and perry for the service of the year 1713 — the same act that provided for duplicates of lottery tickets lost, burnt or destroyed, enlarged the time for adjusting claims under earlier lottery acts, and made the forging of lottery orders punishable. It directs that there be paid to Charles Caesar, esquire, or his assigns, one thousand pounds in repayment of the like sum lent by him on the credit of the act and paid into the Receipt of the Exchequer that same day, as a tally bearing the same date appears, together with interest at five pounds per cent per annum at the end of every three months until the principal is repaid. Three leaves: the order, and two carrying the manuscript registrations, the receipt of the contents in May 1716, and the assignment of the order and its tally.",
+    "notes": "No. 335; £1,000 lent on the malt duty act of 1713 at 5 per cent; tally of 1 July 1713; endorsed received in full 4 May 1716, with £140-10-5 noted. Charles Caesar, MP and later Treasurer of the Navy, was a substantial lender to the Crown.",
+    "type": [
+      "Certificate"
+    ],
+    "currency": [
+      "British pound sterling"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "creator": "Exchequer of England",
+    "identifiers": [
+      "No. 335"
+    ],
+    "namedIndividuals": [
+      "Charles Caesar"
+    ],
+    "keywords": [
+      "Exchequer",
+      "malt duty",
+      "tally",
+      "lottery acts",
+      "national debt",
+      "Queen Anne"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1638",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1639",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1640",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United Kingdom"
+    ],
+    "issuingCountry": [
+      "United Kingdom"
+    ],
+    "subjectCountry": [
+      "United Kingdom"
+    ],
+    "issueYear": [
+      "1713"
+    ]
+  },
+  {
+    "id": "goetzmann1641",
+    "file": "goetzmann1641.jpg",
+    "transcription": "",
+    "title": "St. Croix Plantation Life-Annuity Receipt No. 99, Amsterdam, 1772",
+    "description": "A receipt, number 99, acknowledging one thousand guilders taken in at Amsterdam on 4 September 1772 against the delivery, on the first of May 1773, of a life-annuity letter charged on Johannes and Pieter Rogiers, resident on St. Croix in America, under special mortgage of their plantations there, lying in the north-side quarter letter B numbers 22 and 28, at ten per cent a year from that date. In the meantime the receipt itself runs at four per cent, to be settled when it is exchanged. A note at the foot requires the holder to give the office, in April 1773, the name and residence of the owner and of the person on whose life the annuity is to be assigned, failing which it will be set on the subscriber's own life. The plantations mortgaged as security were worked by enslaved people; St. Croix was then a sugar colony of the Danish crown.",
+    "notes": "N. 99, f 1,000; annuity letter due 1 May 1773 at 10% on the plantations of Johannes and Pieter Rogiers, St. Croix, north-side quarter letter B nos. 22 and 28; receipt itself bears 4%. Amsterdam, 4 September 1772.",
+    "type": [
+      "Receipt"
+    ],
+    "currency": [
+      "Dutch guilder"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "creator": "Ter Borch & Zoonen, Amsterdam",
+    "identifiers": [
+      "No. 99"
+    ],
+    "namedIndividuals": [
+      "Johannes Rogiers",
+      "Pieter Rogiers"
+    ],
+    "keywords": [
+      "St. Croix",
+      "Danish West Indies",
+      "plantation loan",
+      "life annuity",
+      "Amsterdam",
+      "slavery"
+    ],
+    "owner": "ICF",
+    "location": [
+      "Netherlands",
+      "United States Virgin Islands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "Netherlands",
+      "United States Virgin Islands"
+    ],
+    "issueYear": [
+      "1772"
+    ]
+  },
+  {
+    "id": "goetzmann1644",
+    "file": "goetzmann1644.jpg",
+    "transcription": "",
+    "title": "Fair Haven and Westville Railroad Blank Stock Certificate No. 4358, New Haven",
+    "description": "An unissued certificate of the Fair Haven and Westville Rail Road Company, number 4358, with the owner, the number of shares, the transfer name and the date all left blank. The engraved vignette across the head shows the New Haven Green, its three churches among the elms, with a horse-drawn street car and a carriage passing in front — the company's own line, which ran horsecars across New Haven from Fair Haven to Westville. Being unfilled, the sheet shows the certificate as it left the printer, before any holding was recorded on it.",
+    "notes": "No. 4358, blank and unissued; the printed margin provides for 100 shares. ⚠ No holder, share count or date, because none was ever entered.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "19th Century"
+    ],
+    "creator": "Fair Haven and Westville Rail Road Company",
+    "identifiers": [
+      "No. 4358"
+    ],
+    "namedIndividuals": [],
+    "keywords": [
+      "street railway",
+      "horsecar",
+      "New Haven",
+      "Connecticut",
+      "unissued"
+    ],
+    "owner": "ICF",
+    "location": [
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States"
+    ],
+    "issueYear": []
+  },
+  {
+    "id": "goetzmann1645",
+    "file": "goetzmann1645.jpg",
+    "transcription": "",
+    "title": "Compañía Nacional de Inversiones Civil Obligation No. 3579, Mexico City",
+    "description": "A title to a single civil obligation, number 3579, of the Compañía Nacional de Inversiones, Sociedad Civil Particular, with its registered office at Mexico City. The text is set in parallel Spanish and French columns, the company's monogram in a laurel wreath at the head, and a revenue stamp affixed at the foot. Three leaves: the title itself, a full sheet of the conditions governing the obligation, and a sheet of numbered coupons, all carrying the same number.",
+    "notes": "Título No. 3579 de una obligación civil No. 003579. Three leaves: title, conditions and coupon sheet. ⚠ The plate carries no date in the fields examined; issueDate is left blank.",
+    "type": [
+      "Bond"
+    ],
+    "currency": [
+      "Mexican peso"
+    ],
+    "language": [
+      "Spanish",
+      "French"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "Compañía Nacional de Inversiones, S.C.P., Mexico D.F.",
+    "identifiers": [
+      "Título No. 3579",
+      "No. 003579"
+    ],
+    "namedIndividuals": [],
+    "keywords": [
+      "Mexico",
+      "investment company",
+      "obligacion civil",
+      "bearer bond",
+      "coupons"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1645",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1646",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1647",
+        "description": ""
+      }
+    ],
+    "location": [
+      "Mexico"
+    ],
+    "issuingCountry": [
+      "Mexico"
+    ],
+    "subjectCountry": [
+      "Mexico"
+    ],
+    "issueYear": []
   },
   {
     "id": "goetzmann1800",
