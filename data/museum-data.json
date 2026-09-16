@@ -30895,5 +30895,267 @@
         "description": ""
       }
     ]
+  },
+  {
+    "id": "goetzmann1490",
+    "file": "goetzmann1490.jpg",
+    "title": "Central States Electric Corporation Certificate, Amsterdam, 1937",
+    "description": "A Dutch depositary certificate, number 8623, for ten common shares of $1 nominal each in the Central States Electric Corporation. The holder is entitled to the ten shares, which are registered in the name of the N.V. Maatschappij tot Beheer van het Administratiekantoor van Amerikaansche Fondsen, founded by Broes & Gosman, Ten Have & van Essen and Jarman & Zoonen of Amsterdam, and deposited with the undersigned notary. The certificate is issued on the conditions of administration settled by deed of 21 June 1929 before the notary H. T. M. Müller at Amsterdam and amended by deed of 1 March 1933 before his deputy, the candidate notary J. W. D. Schaftenaar. Dated Amsterdam, 30 January 1937, seen by the notary and signed for the administration company, with dividend warrants 15 to 20 and a talon issued alongside it. Printed by Joh. Enschedé en Zonen of Haarlem, with a forty-cent Dutch stamp duty of 1937 impressed at the head.",
+    "type": [
+      "Certificate"
+    ],
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "creator": "N.V. Maatschappij tot Beheer van het Administratiekantoor van Amerikaansche Fondsen",
+    "issueYear": [
+      "1937"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves, recto and verso. ⚠ NO ROW in the master spreadsheet; the pairing of the leaves was confirmed on the plates, the verso carrying the same number 8623. This is the same kind of instrument as the Amsterdam certificates over Russian debt a century earlier -- [1340], [1342], [1387] -- a Dutch office holding foreign securities and issuing claims on them, here over an American utility holding company.",
+    "identifiers": [
+      "No. 8623"
+    ],
+    "namedIndividuals": [
+      "H. T. M. Müller",
+      "J. W. D. Schaftenaar"
+    ],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1490",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1491",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann1492",
+    "file": "goetzmann1492.jpg",
+    "title": "Mexican Interest in Arrears Receipt, Class A, New York, 1925",
+    "description": "A receipt, number 1049, deposit number 65-29-227, for a principal amount of fifteen pesos, issued under the agreement dated 1 July 1922 executed in pursuance of the plan and agreement dated 10 June 1922 ratified by the United States of Mexico, for coupons or rights to interest in arrears, Class A. It acknowledges the aggregate principal amount of unpaid coupons or rights to interest matured on or before 1 January 1923 on bonds deposited under the plan. The plan and agreement were executed by the Mexican Minister of Finance and by the International Committee of Bankers on Mexico and ratified by the President and Congress of the United States of Mexico; the deposit agreement is on file at 140 Broadway, New York. Every depositor, by accepting the receipt, assents to and is bound by the terms of the plan and the deposit agreement. Receipts for interest in arrears are to be purchased for retirement out of moneys set aside annually under the plan between January 1923 and January 1928, at less than principal if obtainable and otherwise redeemed at par, and the coupons they represent are cancelled to that extent. The receipt is transferable by delivery. Issued by the Guaranty Trust Company of New York as depositary and signed by its president, William C. Potter; dated New York and stamped 19 January 1925.",
+    "type": [
+      "Receipt"
+    ],
+    "location": [
+      "Mexico",
+      "United States"
+    ],
+    "subjectCountry": [
+      "Mexico",
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "Guaranty Trust Company of New York",
+    "issueYear": [
+      "1925"
+    ],
+    "currency": [
+      "Mexican peso"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves: the English face and a French verso carrying the same text and the same number. ⚠ NO ROW in the master spreadsheet. The amount is overprinted in red in words across the face. ⚠ This is defaulted interest turned into a tradable instrument: Mexico had stopped paying in 1914, and the Lamont-De la Huerta agreement of 1922 funded the ARREARS separately from the principal, in two classes. See [1494] for Class B.",
+    "identifiers": [
+      "No. 1049",
+      "Deposit No. 65-29-227"
+    ],
+    "namedIndividuals": [
+      "William C. Potter"
+    ],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1492",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1493",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann1494",
+    "file": "goetzmann1494.jpg",
+    "title": "Mexican Interest in Arrears Receipt, Class B, New York, 1925",
+    "description": "A receipt, number 42752, deposit number 65-28-208, for a principal amount of four hundred and twenty pesos, issued under the agreement dated 1 July 1922 executed in pursuance of the plan and agreement dated 10 June 1922 ratified by the United States of Mexico, for coupons or rights to interest in arrears, Class B. It acknowledges the aggregate principal amount of unpaid coupons or rights to interest matured on or before 1 January 1923 on bonds deposited under the plan, agreed by the Mexican Minister of Finance with the International Committee of Bankers on Mexico. Receipts of Class A are to be retired before any receipts of Class B, out of the moneys set aside annually under the plan, and holders of Class B receipts take their settlement after Class A is satisfied. The receipt is transferable by delivery and the committee may treat the bearer as absolute owner. Issued by the Guaranty Trust Company of New York as depositary and signed by its president, William C. Potter; dated New York and stamped 20 January 1925. Printed by the American Bank Note Company.",
+    "type": [
+      "Receipt"
+    ],
+    "location": [
+      "Mexico",
+      "United States"
+    ],
+    "subjectCountry": [
+      "Mexico",
+      "United States"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "Guaranty Trust Company of New York",
+    "issueYear": [
+      "1925"
+    ],
+    "currency": [
+      "Mexican peso"
+    ],
+    "language": [
+      "English",
+      "French"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves: the English face and a French verso carrying the same text and the same number. ⚠ NO ROW in the master spreadsheet. ⚠ The two classes are the point of the pair: Class A ranks ahead of Class B for retirement, so [1492] at fifteen pesos stood to be bought in before this one at four hundred and twenty. Both were issued by the same depositary within a day of each other in January 1925.",
+    "identifiers": [
+      "No. 42752",
+      "Deposit No. 65-28-208"
+    ],
+    "namedIndividuals": [
+      "William C. Potter"
+    ],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1494",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1495",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann1496",
+    "file": "goetzmann1496.jpg",
+    "title": "Chicago, Milwaukee, St. Paul and Pacific Railroad Certificate, Amsterdam, 1928",
+    "description": "A Dutch depositary certificate, number 03783, for ten common shares of no par value in the Chicago, Milwaukee, St. Paul and Pacific Railroad Company. The holder is entitled to the ten shares, registered in the name of the N.V. Maatschappij tot Beheer van het Administratiekantoor van Amerikaansche Fondsen, founded by Broes & Gosman, Ten Have & van Essen and Jarman & Zoonen of Amsterdam, and deposited with the undersigned notary. The distributions on the deposited shares are to be received in America for the account and at the risk of the holder, remitted, and paid out at Amsterdam, and certificates with unexpired dividend warrants may be exchanged for the original shares in accordance with the notice of 7 February 1924. Dated Amsterdam, 12 March 1928, seen by the notary Müller and signed for the administration company, with dividend warrants 7 to 20 and a talon. Printed by Joh. Enschedé en Zonen of Haarlem.",
+    "type": [
+      "Certificate"
+    ],
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "creator": "Maatschappij tot Beheer van het Administratiekantoor van Amerikaansche Fondsen",
+    "issueYear": [
+      "1928"
+    ],
+    "currency": [],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves: the certificate and its sheet of dividend warrants with talon, every warrant repeating the number 03783, which is what confirms the pairing. ⚠ NO ROW in the master spreadsheet. The shares are of NO PAR VALUE, so no sum appears and no currency is recorded. A one-guilder-fifty Dutch stamp duty of 1928 is impressed at the head. See [1498], the same certificate form fifteen years later.",
+    "identifiers": [
+      "No. 03783"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1496",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1497",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann1498",
+    "file": "goetzmann1498.jpg",
+    "title": "Chicago, Milwaukee, St. Paul and Pacific Railroad Certificate, Amsterdam, 1943",
+    "description": "A Dutch depositary certificate, number 15903, for ten common shares of no par value in the Chicago, Milwaukee, St. Paul and Pacific Railroad Company, on the same printed form as the company's certificate of 1928. The holder is entitled to the ten shares, registered in the name of the N.V. Maatschappij tot Beheer van het Administratiekantoor van Amerikaansche Fondsen, founded by Broes & Gosman, Ten Have & van Essen and Jarman & Zoonen of Amsterdam, and deposited with the undersigned notary. Distributions on the deposited shares are to be received in America for the account and at the risk of the holder, remitted, and paid out at Amsterdam, and certificates with unexpired dividend warrants may be exchanged for the original shares in accordance with the notice of 7 February 1924. Dated Amsterdam, 28 October 1943, seen by the notary and signed for the administration company, with dividend warrants to 20 and a talon.",
+    "type": [
+      "Certificate"
+    ],
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "creator": "N.V. Maatschappij tot Beheer van het Administratiekantoor van Amerikaansche Fondsen",
+    "issueYear": [
+      "1943"
+    ],
+    "currency": [],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves: the certificate and its warrant sheet, every warrant repeating the number 15903. ⚠ NO ROW in the master spreadsheet. ⚠ The date is the striking thing. This is an Amsterdam office issuing a claim on an AMERICAN railroad in October 1943, with the Netherlands under German occupation and the United States at war with Germany -- the distributions it promises to receive in America and pay out at Amsterdam could not have been remitted. The stamp is a wartime one, under article 67 of the Zegelwet. Compare [1496], the same form of 1928.",
+    "identifiers": [
+      "No. 15903"
+    ],
+    "namedIndividuals": [],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1498",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1499",
+        "description": ""
+      }
+    ]
   }
 ]

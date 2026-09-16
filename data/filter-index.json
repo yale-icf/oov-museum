@@ -10,15 +10,15 @@
     },
     {
       "value": "Certificate",
-      "count": 56
+      "count": 59
+    },
+    {
+      "value": "Receipt",
+      "count": 31
     },
     {
       "value": "Lottery Bond",
       "count": 30
-    },
-    {
-      "value": "Receipt",
-      "count": 29
     },
     {
       "value": "Banknote",
@@ -88,11 +88,11 @@
   "location": [
     {
       "value": "United States",
-      "count": 148
+      "count": 153
     },
     {
       "value": "Netherlands",
-      "count": 97
+      "count": 100
     },
     {
       "value": "France",
@@ -151,6 +151,10 @@
       "count": 11
     },
     {
+      "value": "Mexico",
+      "count": 11
+    },
+    {
       "value": "Suriname",
       "count": 11
     },
@@ -161,10 +165,6 @@
     {
       "value": "Japan",
       "count": 10
-    },
-    {
-      "value": "Mexico",
-      "count": 9
     },
     {
       "value": "Poland",
@@ -398,11 +398,11 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 131
+      "count": 133
     },
     {
       "value": "Netherlands",
-      "count": 92
+      "count": 95
     },
     {
       "value": "France",
@@ -584,7 +584,7 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 120
+      "count": 121
     },
     {
       "value": "British pound sterling",
@@ -639,6 +639,10 @@
       "count": 7
     },
     {
+      "value": "Mexican peso",
+      "count": 6
+    },
+    {
       "value": "Romanian leu",
       "count": 6
     },
@@ -656,10 +660,6 @@
     },
     {
       "value": "Flemish Pounds",
-      "count": 4
-    },
-    {
-      "value": "Mexican peso",
       "count": 4
     },
     {
@@ -922,15 +922,15 @@
   "language": [
     {
       "value": "English",
-      "count": 262
+      "count": 264
     },
     {
       "value": "French",
-      "count": 192
+      "count": 194
     },
     {
       "value": "Dutch",
-      "count": 106
+      "count": 109
     },
     {
       "value": "German",
@@ -1036,7 +1036,7 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 267
+      "count": 272
     },
     {
       "value": "19th Century",
@@ -1150,6 +1150,10 @@
     },
     {
       "value": "Robert Morris",
+      "count": 2
+    },
+    {
+      "value": "William C. Potter",
       "count": 2
     },
     {
@@ -1441,6 +1445,10 @@
       "count": 1
     },
     {
+      "value": "H. T. M. Müller",
+      "count": 1
+    },
+    {
       "value": "Harry Capper",
       "count": 1
     },
@@ -1486,6 +1494,10 @@
     },
     {
       "value": "J. Hector St. John de Crèvecoeur",
+      "count": 1
+    },
+    {
+      "value": "J. W. D. Schaftenaar",
       "count": 1
     },
     {
