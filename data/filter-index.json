@@ -2,7 +2,7 @@
   "type": [
     {
       "value": "Bond",
-      "count": 262
+      "count": 264
     },
     {
       "value": "Stock Certificate",
@@ -10,7 +10,7 @@
     },
     {
       "value": "Certificate",
-      "count": 54
+      "count": 55
     },
     {
       "value": "Lottery Bond",
@@ -88,11 +88,11 @@
   "location": [
     {
       "value": "United States",
-      "count": 145
+      "count": 147
     },
     {
       "value": "Netherlands",
-      "count": 95
+      "count": 96
     },
     {
       "value": "France",
@@ -100,7 +100,7 @@
     },
     {
       "value": "Russia",
-      "count": 73
+      "count": 74
     },
     {
       "value": "United Kingdom",
@@ -398,11 +398,11 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 128
+      "count": 130
     },
     {
       "value": "Netherlands",
-      "count": 90
+      "count": 91
     },
     {
       "value": "France",
@@ -584,7 +584,7 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 117
+      "count": 119
     },
     {
       "value": "British pound sterling",
@@ -600,7 +600,7 @@
     },
     {
       "value": "Russian ruble",
-      "count": 58
+      "count": 59
     },
     {
       "value": "Livres Tournois",
@@ -922,15 +922,15 @@
   "language": [
     {
       "value": "English",
-      "count": 258
+      "count": 260
     },
     {
       "value": "French",
-      "count": 188
+      "count": 189
     },
     {
       "value": "Dutch",
-      "count": 104
+      "count": 105
     },
     {
       "value": "German",
@@ -1036,11 +1036,11 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 265
+      "count": 267
     },
     {
       "value": "19th Century",
-      "count": 212
+      "count": 213
     },
     {
       "value": "18th Century",
@@ -1082,6 +1082,10 @@
     },
     {
       "value": "Archibald Moncrieff",
+      "count": 2
+    },
+    {
+      "value": "B. Platt",
       "count": 2
     },
     {
@@ -1174,10 +1178,6 @@
     },
     {
       "value": "Aymard Lambert",
-      "count": 1
-    },
-    {
-      "value": "B. Platt",
       "count": 1
     },
     {
@@ -1413,6 +1413,10 @@
       "count": 1
     },
     {
+      "value": "Hendrik Oyens",
+      "count": 1
+    },
+    {
       "value": "Hendrik van Blomberg",
       "count": 1
     },
@@ -1454,6 +1458,10 @@
     },
     {
       "value": "Jacob Fock",
+      "count": 1
+    },
+    {
+      "value": "Jacob van Beeck Vollenhoven",
       "count": 1
     },
     {
@@ -1522,6 +1530,10 @@
     },
     {
       "value": "Johanna Maria van de Vyver",
+      "count": 1
+    },
+    {
+      "value": "Johannes Samuel Wurfbain",
       "count": 1
     },
     {
