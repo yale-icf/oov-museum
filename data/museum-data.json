@@ -4934,7 +4934,7 @@
       "1723"
     ],
     "creator": "Generale Keijserlijcke Indische Compagnie (Ostend Company)",
-    "notes": "⚠ RECORD REPAIRED 2026-09-15. This record was titled \"State of South Carolina Consolidation Bond, 1872\" and carried the identifier No. 1602, a description of a $500 six per cent bond and matching notes. Its image -- thumbnail and full tiles alike -- is and always was this Ostend Company receipt. It is NOT a swap: [0353] and [1029], the collection's other two Ostend subscription receipts of August 1723, both hold their own correct images. The text simply belonged to a document this record does not picture, and the September 2026 intake supplied that document, now catalogued as [1373]. The South Carolina text has gone there, corrected -- the bond is of 1874, not 1872. ⚠ The company was chartered by Charles VI and seated at Ostend; the collection holds the first call on three different subscribers within six days of August 1723 -- 13 August [1029], 16 August [0353] and 18 August here.",
+    "notes": "⚠ RECORD REPAIRED 2026-09-15. This record was titled \"State of South Carolina Consolidation Bond, 1872\" and carried the identifier No. 1602, a description of a $500 six per cent bond and matching notes. Its image -- thumbnail and full tiles alike -- is and always was this Ostend Company receipt. It is NOT a swap: [0353] and [1029], the collection's other two Ostend subscription receipts of August 1723, both hold their own correct images. The text simply belonged to a document this record does not picture, and the September 2026 intake supplied that document, now catalogued as [1373]. The South Carolina text has gone there, corrected -- the bond is of 1874, not 1872. ⚠ The company was chartered by Charles VI and seated at Ostend; the collection holds the first call on three different subscribers within six days of August 1723 -- 13 August [1029], 16 August [0353] and 18 August here.\n\n⚠ DIAGNOSIS SHARPENED 2026-09-16: the OCR settles which half was wrong. scripts/ocr/goetzmann0345.txt transcribes the South Carolina consolidation bond -- it agrees with the text this record used to carry and disagrees with the picture. So the text and the transcription were always a pair and it is the IMAGE that was misassigned, at some point AFTER the OCR was made. The transcription and its word boxes have moved to [1373] with the text. This record is left without OCR for now; that is a gap, not an error.",
     "subjectCountry": [
       "Belgium"
     ],
@@ -11324,41 +11324,44 @@
   },
   {
     "id": "goetzmann0511",
-    "title": "Royal Life Annuity Contract, Hôtel de Ville of Paris, 1759",
-    "description": "A partly printed, partly manuscript contract for a French royal life annuity on one head, dated 26 July 1759 and passed before the notaries and gardes-scel of His Majesty at the Châtelet de Paris and the Prévôt des marchands et échevins of the city, Jean-Baptiste-Élie Camus de Pontcarré. It executes the edict of November 1758, registered by the Parlement on 12 December following, which authorized the sale of three million six hundred thousand livres of life annuities, charged by preference upon the royal treasury and payable through the garde du trésor royal. Annuities could be constituted on one or two heads, with returns graduated by the holder's age into six classes, from one hundred livres per thousand of capital in the first class to one hundred forty in the sixth, and eighty per thousand on two heads. The terms recruited even foreigners and members of religious orders, with the inducement that the rents be exempt from the two vingtièmes, the deux sols pour livre, and the droits d'aubaine, bâtardise et confiscation. The manuscript docket names the holder as the Comtesse de Pons-Saint-Maurice.",
+    "title": "Wabash Railroad Company Deposit Certificate, Amsterdam, 1915",
+    "description": "A Dutch deposit certificate, number 40, representing $1,000 of original common shares of the Wabash Railroad Company, deposited on the conditions contained in the plan and agreement concerning the reorganisation of that company dated 28 April 1915. Dated Amsterdam, 2 August 1915, and signed. An orange fifteen-cent Dutch stamp of special stamp duty is affixed at the upper right. Printed by the Amsterdamsche Boek- en Steendrukkerij, formerly Ellerman, Harms & Co.",
     "file": "goetzmann0511.jpg",
     "type": [
-      "Bond",
       "Certificate"
     ],
     "location": [
-      "France"
+      "United States",
+      "Netherlands"
     ],
     "period": [
-      "18th Century"
+      "20th Century"
     ],
     "namedIndividuals": [],
     "keywords": [],
     "owner": "KGR",
     "issuingCountry": [
-      "France"
+      "Netherlands"
     ],
     "currency": [
-      "Livres Tournois"
+      "United States dollar"
     ],
     "language": [
-      "French"
+      "Dutch"
     ],
     "issueYear": [
-      "1759"
+      "1915"
     ],
-    "creator": "Notaires du Châtelet de Paris; Jean-Baptiste-Élie Canus de Pontcaillé",
-    "notes": "Rente Viagère Sur une Tête, Édit de Novembre 1738, Première Classe. Nominee: Comtesse de Saint-Hermaurice. Issued July 26, 1739, Paris. Notaires du Châtelet. Marchands et Echevins financing (4,000 livres capital each). French royal life annuity under Louis XV.",
+    "creator": "",
+    "notes": "⚠ RECORD REPAIRED 2026-09-16. This record was titled \"Royal Life Annuity Contract, Hôtel de Ville of Paris, 1759\" and described a French rente viagère of 26 July 1759. Its image -- thumbnail and full tiles alike -- is and always was this Wabash Railroad deposit certificate. The French text has gone to [1437], the document it actually fits, which the September 2026 intake supplied complete. ⚠ This is the THIRD record found describing something it does not picture; see [0345] and [0549] for the first two, and note that all three surfaced only because the intake happened to supply the missing document. ⚠ No issuing house is named on the face, so the creator field is left empty. The certificate is a claim on deposited shares during a reorganisation -- the Wabash had gone into receivership and the plan of April 1915 is the one this deposit was made under.\n\n⚠ DIAGNOSIS SHARPENED 2026-09-16: the OCR settles which half was wrong. scripts/ocr/goetzmann0511.txt transcribes the French life annuity contract -- it agrees with the text this record used to carry and disagrees with the picture. So the text and the transcription were always a pair and it is the IMAGE that was misassigned, at some point AFTER the OCR was made. The transcription and its word boxes have moved to [1437] with the text. This record is left without OCR for now; that is a gap, not an error.",
     "subjectCountry": [
-      "France"
+      "United States",
+      "Netherlands"
     ],
     "transcription": "# Royal Life Annuity Contract on One Head, Hôtel de Ville of Paris (Edict of November 1758) — Transcription\n\n## Original:\n\n(Handwritten docket, top left):\nMᵈᵉ La Comtesse de Pons St Maurice\n26. Juillet 1759\n\n(Engraved oval seal, center): **GEN. DE PARIS** / [ornamental arms, part illegible] / [...] 3 SOLS\n\n(Right margin, large handwritten flourish + printed word): 1.ᵉ **Classe.**\n\n**RENTES VIAGÈRES SUR UNE TÊTE.**\n\n**Édit de Novembre 1758.**\n\n(Left margin, handwritten): S.ʳ Grosset / ad plias [illegible marginal note]\n\n**PAR-DEVANT** les Conseillers du Roi, Notaires, Gardes-notes & Gardes-scel de Sa Majesté au Châtelet de Paris, soussignés, furent présens, M.ʳᵉ **JEAN-BAPTISTE-ÉLIE CAMUS DE PONTCARRÉ**, seigneur de Viarme, Seugy, Belloy & autres lieux, Conseiller d'État, Prevôt des Marchands;\n\n(Handwritten insertions naming the échevins):\nJean François Bralles Ecuyer Con.ᵉʳ du Roy au l'Hôtel de Ville\nJean Baptiste Vernay Ecuyer.\nJean Olivier Boutray Ecuyer Con.ᵉʳ du Roy quartenier\nEt Jean André [surname illegible] Ecuyer avocat au Parlement et ès Conseils du Roy\n\n**Tous Échevins de cette ville de Paris.**\n\n**LESQUELS** ont dit que Sa Majesté, par son édit du mois de novembre 1758, enregistré au Parlement le 12 décembre suivant, auroit ordonné que par les Commissaires que Sa Majesté nommeroit à cet effet, il seroit vendu & aliéné auxdits sieurs Prevôt des Marchands & Échevins, trois millions six cens mille livres actuelles & effectives de rentes viagères, à prendre sur tous les deniers provenans des droits d'aides, gabelles & cinq grosses fermes, que Sa Majesté a affectés, obligés & hypothéqués par préférence à la partie du trésor royal, au payement des arrérages desdites rentes, qui pourroient être acquises, soit sur une seule tête, à divers taux, suivant l'âge des acquéreurs, ou sur deux têtes indistinctement, à raison de huit pour cent par an.\n\nQue les constitutions particulières desdites rentes, qui ne pourroient être moindres sur une seule tête de cinquante livres, & sur deux têtes de quarante livres de jouissance annuelle, seroient faites par lesdits sieurs Prevôt des Marchands & Échevins, à ceux qui en auroient fourni les capitaux en deniers comptans entre les mains du sieur Savalete de Magnanville, Garde du Trésor royal, pour en jouir par les acquéreurs leur vie durant, soit sur leur tête, soit sur celle ou celles de toutes autres personnes que bon leur sembleroit, & que les contrats seroient passés par-devant tels Notaires du Châtelet de Paris que lesdits acquéreurs voudroient choisir, qui seroient tenus de leur délivrer lesdits contrats sans frais.\n\nQue les rentes qui seroient acquises sur une tête, seroient réparties en six classes, suivant l'âge des acquéreurs; la première, depuis la naissance jusqu'à cinquante ans accomplis; la deuxième, depuis cinquante ans jusqu'à cinquante-cinq; la troisième, depuis cinquante-cinq ans jusqu'à soixante; la quatrième, depuis soixante ans jusqu'à soixante-cinq; la cinquième, depuis soixante-cinq ans jusqu'à soixante-dix; & la sixième, depuis soixante-dix ans jusqu'à soixante-quinze ans & au dessus.\n\nQue les rentes sur deux têtes seroient acquises sans distinction d'âge ni de classe; & dans l'une comme dans l'autre espèce desdites rentes viagères, il seroit justifié de l'âge de ceux sur la tête desquels elles seroient constituées, par des extraits baptistaires ou actes équipolens, suivant & conformément à ce qui a été ci-devant prescrit en pareil cas; & qu'annuellement il seroit payé aux acquéreurs desdites rentes, pendant leur vie ou de ceux sur la tête desquels elles seroient constituées, savoir, pour les rentes sur une seule tête & pour chaque constitution de mille livres en capital dans la première classe, cent livres; dans la deuxième, cent cinq livres; dans la troisième, cent dix livres; dans la quatrième, cent vingt livres; dans la cinquième, cent trente livres; & dans la sixième, cent quarante livres: Et pour les rentes sur deux têtes quatre-vingt livres, aussi pour chaque constitution de mille livres en capital.\n\nQue toutes sortes de personnes indistinctement, de quelque âge, sexe, qualité & condition qu'elles puissent être, même les religieux & religieuses qui, suivant leur Ordre, peuvent avoir quelque pécule, pourroient acquérir lesdites rentes; le survivant des pères & mères qui les auroient acquises sous le nom de leurs enfans, en jouiroit, sans être tenu dans aucun cas de leur en rendre compte; les enfans & autres qui entreroient en religion & feroient profession dans quelque Ordre que ce puisse être, conserveroient par forme de pension alimentaire, celles qui auroient été par eux acquises, ou qui ayant été constituées sur leur tête leur auroient été abandonnées avant leur profession: Comme aussi, que même ceux qui sont demeurans hors du royaume, pays, terres & seigneuries de l'obéissance de Sa Majesté, pourroient, ainsi que ses propres sujets, acquérir lesdites rentes, encore bien qu'ils fussent sujets de Princes & États avec lesquels Elle est ou pourroit être en guerre; en conséquence, Sa Majesté a voulu que lesdites rentes & les arrérages qui en seroient dûs au jour du décès de ces rentiers, soient exemptes de toutes lettres de marque & de représailles, droits d'aubaine, bâtardise, confiscation, ou autres qui pourroient lui appartenir, auxquels Sa Majesté a renoncé, conformément à l'édit du mois de décembre 1674 & autres subséquens.\n\nQue lesdites rentes seroient exemptes de la retenue des deux Vingtièmes, des Deux sols pour livre\n\n(Signature, bottom): M.ᵉ Gervais no.ᵉ [notaire; surname reads \"Gervai(s)\"]\n\n---\n\n## English Translation:\n\n(Handwritten docket, top left):\nMadame the Countess of Pons Saint-Maurice\n26 July 1759\n\n(Engraved oval seal, center): GENERALITY OF PARIS / [...] 3 SOLS\n\n(Right margin): 1st Class.\n\n**LIFE ANNUITIES ON ONE HEAD.**\n\n**Edict of November 1758.**\n\n(Left margin, handwritten): Sieur Grosset / [illegible marginal note]\n\n**BEFORE** the Councillors of the King, Notaries, Keepers of the Minutes & Keepers of the Seal of His Majesty at the Châtelet of Paris, the undersigned, were present Maître **JEAN-BAPTISTE-ÉLIE CAMUS DE PONTCARRÉ**, lord of Viarme, Seugy, Belloy & other places, Councillor of State, Provost of the Merchants;\n\n(Handwritten insertions naming the aldermen):\nJean François Bralles, Esquire, Councillor of the King at the Hôtel de Ville\nJean Baptiste Vernay, Esquire.\nJean Olivier Boutray, Esquire, Councillor of the King, quartenier [ward officer]\nAnd Jean André [surname illegible], Esquire, advocate at the Parlement and in the Councils of the King\n\n**All Aldermen of this city of Paris.**\n\n**WHO** stated that His Majesty, by his edict of the month of November 1758, registered by the Parlement on the 12th of December following, had ordered that, through the Commissioners His Majesty should appoint to that effect, there should be sold & alienated to the said Provost of the Merchants & Aldermen three million six hundred thousand livres, actual & effective, of life annuities, to be taken upon all the revenues arising from the duties of the aides, the gabelles & the five great farms, which His Majesty has assigned, bound & mortgaged by preference to the account of the royal treasury, for the payment of the arrears of the said annuities, which might be acquired either upon a single head, at various rates according to the age of the purchasers, or upon two heads without distinction, at the rate of eight per cent per year.\n\nThat the individual constitutions of the said annuities, which could not be less than fifty livres upon a single head, & forty livres of annual enjoyment upon two heads, should be made by the said Provost of the Merchants & Aldermen to those who should have furnished the capital in ready money into the hands of the Sieur Savalete de Magnanville, Keeper of the Royal Treasury, to be enjoyed by the purchasers during their lifetime, whether upon their own head, or upon that or those of any other persons as should seem good to them, & that the contracts should be passed before such Notaries of the Châtelet of Paris as the said purchasers might choose, who should be bound to deliver the said contracts to them without charge.\n\nThat the annuities acquired upon one head should be divided into six classes according to the age of the purchasers: the first, from birth to fifty years completed; the second, from fifty to fifty-five; the third, from fifty-five to sixty; the fourth, from sixty to sixty-five; the fifth, from sixty-five to seventy; & the sixth, from seventy to seventy-five years & above.\n\nThat the annuities upon two heads should be acquired without distinction of age or class; & in the one as in the other kind of the said life annuities, the age of those upon whose head they should be constituted must be proved by baptismal extracts or equivalent acts, according & conformably to what has heretofore been prescribed in like cases; & that annually there should be paid to the purchasers of the said annuities, during their life or that of those upon whose head they should be constituted, namely, for annuities upon a single head & for each constitution of one thousand livres of capital: in the first class, one hundred livres; in the second, one hundred and five livres; in the third, one hundred and ten livres; in the fourth, one hundred and twenty livres; in the fifth, one hundred and thirty livres; & in the sixth, one hundred and forty livres: And for annuities upon two heads, eighty livres, also for each constitution of one thousand livres of capital.\n\nThat all sorts of persons without distinction, of whatever age, sex, quality & condition they may be, even religious men & women who, according to their Order, may hold some private means, might acquire the said annuities; the survivor of fathers & mothers who had acquired them in the name of their children should enjoy them, without being bound in any case to render account thereof to them; children & others who should enter religion & make profession in whatever Order it might be, should retain by way of alimentary pension those which had been acquired by them, or which, having been constituted upon their head, had been abandoned to them before their profession: Likewise, that even those who dwell outside the kingdom, lands, territories & lordships under the obedience of His Majesty might, like his own subjects, acquire the said annuities, even though they were subjects of Princes & States with which He is or might be at war; in consequence, His Majesty has willed that the said annuities & the arrears due thereon at the day of the death of these annuitants be exempt from all letters of marque & reprisal, rights of aubaine, bastardy, confiscation, or others that might belong to Him, to which His Majesty has renounced, conformably to the edict of the month of December 1674 & others subsequent.\n\nThat the said annuities should be exempt from the withholding of the two Twentieths, of the Two sols per livre\n\n(Signature, bottom): Maître Gervais, notary [surname reads \"Gervai(s)\"]\n",
-    "identifiers": []
+    "identifiers": [
+      "No. 40"
+    ]
   },
   {
     "id": "goetzmann0512",
@@ -12894,7 +12897,7 @@
       "1950"
     ],
     "creator": "Phelps Dodge Corporation",
-    "notes": "⚠ RECORD REPAIRED 2026-09-15. This record was titled \"Vlaardingen Orphanage Negotiatie (Lottery-Loan), Batavian Republic, 9 May, 1800\" and described a 75,000-guilder lottery loan. Its image -- thumbnail and full tiles alike -- is and always was this Phelps Dodge certificate. The Vlaardingen text has gone to [1418], the document it actually fits, which the September 2026 intake supplied. This is the SECOND record found describing something it does not picture; see [0345] for the first. ⚠ The registered owner is worth noting: the share is held not by an investor but by an Amsterdam certificate office, so this is the underlying American share that stood behind Dutch depositary certificates of the kind at [1490], [1496] and [1498].",
+    "notes": "⚠ RECORD REPAIRED 2026-09-15. This record was titled \"Vlaardingen Orphanage Negotiatie (Lottery-Loan), Batavian Republic, 9 May, 1800\" and described a 75,000-guilder lottery loan. Its image -- thumbnail and full tiles alike -- is and always was this Phelps Dodge certificate. The Vlaardingen text has gone to [1418], the document it actually fits, which the September 2026 intake supplied. This is the SECOND record found describing something it does not picture; see [0345] for the first. ⚠ The registered owner is worth noting: the share is held not by an investor but by an Amsterdam certificate office, so this is the underlying American share that stood behind Dutch depositary certificates of the kind at [1490], [1496] and [1498].\n\n⚠ DIAGNOSIS SHARPENED 2026-09-16: the OCR settles which half was wrong. scripts/ocr/goetzmann0549.txt transcribes the Vlaardingen negotiatie -- it agrees with the text this record used to carry and disagrees with the picture. So the text and the transcription were always a pair and it is the IMAGE that was misassigned, at some point AFTER the OCR was made. The transcription and its word boxes have moved to [1418] with the text. This record is left without OCR for now; that is a gap, not an error.",
     "subjectCountry": [
       "United States",
       "Netherlands"
@@ -30285,7 +30288,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Two leaves, recto and verso; struck through with pen strokes. ⚠ UNISSUED: the lines for the comptroller general and the governor are both blank and the seal circle is empty, so the bond was never executed. ⚠ This document's text was until now attached to [0345], which pictures an Ostend Company receipt of 1723; see that record. That text dated the bond 1872 -- the plate reads 1 January 1874, under an act approved 22 December 1873. The coupons being receivable for taxes is what makes this a consolidation bond: the state took its own paper back in payment, which is also why the exception for the school tax is spelled out.",
+    "notes": "Two leaves, recto and verso; struck through with pen strokes. ⚠ UNISSUED: the lines for the comptroller general and the governor are both blank and the seal circle is empty, so the bond was never executed. ⚠ This document's text was until now attached to [0345], which pictures an Ostend Company receipt of 1723; see that record. That text dated the bond 1872 -- the plate reads 1 January 1874, under an act approved 22 December 1873. The coupons being receivable for taxes is what makes this a consolidation bond: the state took its own paper back in payment, which is also why the exception for the school tax is spelled out.\n\n⚠ The transcription and word boxes that were filed under [0345] have been moved to this record: they transcribe THIS document, which is the evidence that the text and the OCR belonged together and only the image was misassigned.",
     "identifiers": [
       "No. 1602"
     ],
@@ -30959,7 +30962,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Three leaves: the broadside, the continuation of the conditions, and the participation. ⚠ NO ROW in the master spreadsheet for any of them; the extent was read off the plates. ⚠ This is the SECOND set of the same negotiatie in the collection -- [0534] holds the first, whose participation is portie No. 55 of fifty guilders, where this one is for a hundred. They are multiples, not duplicates: the broadside is a printed form and each subscriber received one with his own participation. ⚠ This record's text came from [0549], which described this document while picturing a Phelps Dodge certificate of 1950.",
+    "notes": "Three leaves: the broadside, the continuation of the conditions, and the participation. ⚠ NO ROW in the master spreadsheet for any of them; the extent was read off the plates. ⚠ This is the SECOND set of the same negotiatie in the collection -- [0534] holds the first, whose participation is portie No. 55 of fifty guilders, where this one is for a hundred. They are multiples, not duplicates: the broadside is a printed form and each subscriber received one with his own participation. ⚠ This record's text came from [0549], which described this document while picturing a Phelps Dodge certificate of 1950.\n\n⚠ The transcription and word boxes that were filed under [0549] have been moved to this record: they transcribe THIS document, which is the evidence that the text and the OCR belonged together and only the image was misassigned.",
     "identifiers": [],
     "namedIndividuals": [],
     "transcription": "",
@@ -31094,6 +31097,71 @@
       },
       {
         "id": "goetzmann1436",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann1437",
+    "file": "goetzmann1437.jpg",
+    "title": "Royal Life Annuity Contract, Hôtel de Ville of Paris, 1759",
+    "description": "A partly printed, partly manuscript contract for a French royal life annuity on one head, headed RENTES VIAGÈRES SUR UNE TÊTE and marked first class, passed before the councillors of the King, notaries and keepers of the seal at the Châtelet de Paris. There appeared Jean-Baptiste-Élie Camus de Pontcarré, seigneur de Viarme, Seugy and Beloy, councillor of state and provost of the merchants, with four esquires as aldermen of the city of Paris. They declare that by his edict of November 1758, registered in Parlement on 12 December following, the King ordered that three millions six hundred thousand livres of life rentes be sold and alienated to the provost and aldermen, to be taken on all the moneys arising from the duties of aides, gabelles and the five great farms, which His Majesty charged and mortgaged by preference over the royal treasury itself for the payment of the arrears. Rentes on a single head are divided into six classes by the age of the purchaser -- from birth to fifty, then in five-year steps to seventy-five and above -- and pay yearly, for every thousand livres of capital, a hundred livres in the first class rising to a hundred and forty in the sixth; rentes on two heads pay eighty without distinction of age. Persons of every age, sex, quality and condition may acquire them, including monks and nuns who may hold a peculium, and unnaturalised foreigners living outside the kingdom may acquire them as the King's own subjects may, even if they are subjects of princes with whom he is or may be at war; His Majesty renounces for them the droit d'aubaine, bastardy and confiscation and exempts the rentes from all letters of marque and reprisal. The rentes are free of the two vingtièmes and the two sols in the livre. The annuity here is fifty livres, for a capital of five hundred livres -- ten per cent, the first-class rate -- and the Treasury quittance, number 1420, is signed by Charles-Pierre Savalete de Magnanville, keeper of the royal treasury. The contract was registered at the Contrôle général des Finances at Paris on 30 May 1759 and made and passed at the bureau of the Hôtel de Ville on the twenty-sixth day of July 1759, before noon.",
+    "type": [
+      "Bond"
+    ],
+    "location": [
+      "France"
+    ],
+    "subjectCountry": [
+      "France"
+    ],
+    "issuingCountry": [
+      "France"
+    ],
+    "creator": "Notaires du Châtelet de Paris; Jean-Baptiste-Élie Camus de Pontcarré",
+    "issueYear": [
+      "1759"
+    ],
+    "currency": [
+      "Livres Tournois"
+    ],
+    "language": [
+      "French"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Five leaves: the contract and its continuation, the Treasury quittance, the registration at the Contrôle général, and the closing with the signatures. ⚠ None of the five has a row in the master spreadsheet; the extent was read off the plates, the last leaf ending \"FAIT & passé au bureau de l'Hôtel de ville ... le vingt sixième jour de Juillet avant midi\". ⚠ This record's text came from [0511], which described this document while picturing a Wabash Railroad deposit certificate of 1915. A manuscript endorsement at the head names the rentier as Madame la Comtesse de Pons Saint-Maurice and dates it 26 July 1759. The quittance is dated before the contract, which is the normal order: the money was paid to the Treasury first and the contract passed afterwards. Fifty livres on five hundred is the printed first-class rate of ten per cent, so the nominee was under fifty.\n\n⚠ The transcription and word boxes that were filed under [0511] have been moved to this record: they transcribe THIS document, which is the evidence that the text and the OCR belonged together and only the image was misassigned.",
+    "identifiers": [
+      "Quittance No. 1420"
+    ],
+    "namedIndividuals": [
+      "Jean-Baptiste-Élie Camus de Pontcarré",
+      "Charles-Pierre Savalete de Magnanville",
+      "Comtesse de Pons Saint-Maurice"
+    ],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1437",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1438",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1439",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1440",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1441",
         "description": ""
       }
     ]
