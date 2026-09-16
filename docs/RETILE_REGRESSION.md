@@ -1,4 +1,4 @@
-# Twelve records were retiled from the wrong documents
+# Twelve records were retiled from the wrong documents — FIXED
 
 ## What happened
 
@@ -89,7 +89,45 @@ change owner, as happened with the 68 repurposed ids earlier in the intake. It i
 the wrong treatment here, because the cause was a bad retile, not a reuse: the
 record never stopped being its own document.
 
-## Recommended fix
+## ✅ What was done (2026-09-16)
+
+All of it. The detector now reports **one** genuine mismatch left in the whole
+collection, `1027`, which is not one of the twelve and still needs its own look.
+
+**Seven retiled from their own pre-intake originals** and re-uploaded — `0318`,
+`0502`, `0509`, `0526`, `0541`, `0542`, `0549`.
+
+**Three retiled from the INTAKE scan of the same document**, which is larger than
+the pre-intake original, with the intake's further leaves attached — so these end
+up better than they were before the regression:
+
+| record | retiled from | leaves now |
+|---|---|---|
+| `0345` South Carolina consolidation bond | `1373` | 2 |
+| `0511` Royal life annuity, Paris 1759 | `1437` | 5 |
+| `0527` US Treasury deferred stock, 1792 | `1421` | 2 |
+
+The three records created during the mistaken repair — `1373`, `1437`, `1421` —
+are removed; their leaves are now pages of the records above.
+
+**Text reverted** on `0345`, `0549` and `0511` from git, and their transcriptions
+and word boxes moved back. ⚠️ One correction was re-applied afterwards: `0345`
+had the year as **1872**, and the intake's fuller scan shows "Columbia S.C. this
+First day of January A.D. **1874**", under an act approved 22 December 1873. It is
+also unissued.
+
+⚠️ `0549` and `1418` are deliberately **not** merged: `0549`'s own original is
+restored, and `1418` is a second set of the Vlaardingen negotiatie with its own
+hundred-guilder participation. They stand as multiples.
+
+⚠️ The documents that had been wrongly put under these ids are not lost — they are
+the intake masters, still in the TO-ADD folders, and can be catalogued under their
+own ids: an Ostend Company receipt of 1723, a Phelps Dodge share of 1950, a Wabash
+Railroad deposit certificate of 1915, a St. Louis–San Francisco share, a Mexican
+oil share of 1914, a Russian perpetual bond, an International Mercantile Marine
+share, an Italian Dawes bond, a Brazil bond and a coupon sheet.
+
+## The fix as it was planned
 
 1. Retile all twelve from the **original** masters, restoring each record's own
    document, and re-upload to R2.

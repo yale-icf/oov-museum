@@ -6,18 +6,18 @@
     },
     {
       "value": "Stock Certificate",
-      "count": 176
+      "count": 175
     },
     {
       "value": "Certificate",
-      "count": 60
-    },
-    {
-      "value": "Receipt",
-      "count": 31
+      "count": 59
     },
     {
       "value": "Lottery Bond",
+      "count": 31
+    },
+    {
+      "value": "Receipt",
       "count": 30
     },
     {
@@ -88,11 +88,11 @@
   "location": [
     {
       "value": "United States",
-      "count": 156
+      "count": 153
     },
     {
       "value": "Netherlands",
-      "count": 105
+      "count": 103
     },
     {
       "value": "France",
@@ -116,7 +116,7 @@
     },
     {
       "value": "Belgium",
-      "count": 27
+      "count": 26
     },
     {
       "value": "Great Britain",
@@ -398,7 +398,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 135
+      "count": 133
     },
     {
       "value": "Netherlands",
@@ -426,7 +426,7 @@
     },
     {
       "value": "Belgium",
-      "count": 22
+      "count": 21
     },
     {
       "value": "Bulgaria",
@@ -584,7 +584,7 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 124
+      "count": 121
     },
     {
       "value": "British pound sterling",
@@ -922,7 +922,7 @@
   "language": [
     {
       "value": "English",
-      "count": 266
+      "count": 264
     },
     {
       "value": "French",
@@ -930,7 +930,7 @@
     },
     {
       "value": "Dutch",
-      "count": 112
+      "count": 111
     },
     {
       "value": "German",
@@ -1036,15 +1036,15 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 274
+      "count": 272
     },
     {
       "value": "19th Century",
-      "count": 216
+      "count": 217
     },
     {
       "value": "18th Century",
-      "count": 158
+      "count": 156
     },
     {
       "value": "17th Century",
@@ -1094,10 +1094,6 @@
     },
     {
       "value": "B. Platt",
-      "count": 2
-    },
-    {
-      "value": "Clement Biddle",
       "count": 2
     },
     {
@@ -1273,10 +1269,6 @@
       "count": 1
     },
     {
-      "value": "Charles-Pierre Savalete de Magnanville",
-      "count": 1
-    },
-    {
       "value": "Christoffel Brants",
       "count": 1
     },
@@ -1289,7 +1281,7 @@
       "count": 1
     },
     {
-      "value": "Comtesse de Pons Saint-Maurice",
+      "value": "Clement Biddle",
       "count": 1
     },
     {
@@ -1306,10 +1298,6 @@
     },
     {
       "value": "D. Brewer",
-      "count": 1
-    },
-    {
-      "value": "Daniel Crommelin",
       "count": 1
     },
     {
@@ -1422,10 +1410,6 @@
     },
     {
       "value": "George Grenville",
-      "count": 1
-    },
-    {
-      "value": "George R. Drysdale",
       "count": 1
     },
     {
@@ -1565,10 +1549,6 @@
       "count": 1
     },
     {
-      "value": "Jan Baptist Cogels junior",
-      "count": 1
-    },
-    {
       "value": "Jan van Wattens",
       "count": 1
     },
@@ -1590,10 +1570,6 @@
     },
     {
       "value": "Jean-Baptiste Tripart",
-      "count": 1
-    },
-    {
-      "value": "Jean-Baptiste-Élie Camus de Pontcarré",
       "count": 1
     },
     {
@@ -1653,10 +1629,6 @@
       "count": 1
     },
     {
-      "value": "Joseph Nourse",
-      "count": 1
-    },
-    {
       "value": "Joseph Scott",
       "count": 1
     },
@@ -1693,10 +1665,6 @@
       "count": 1
     },
     {
-      "value": "Louis S. Cates",
-      "count": 1
-    },
-    {
       "value": "Lucy Knightley",
       "count": 1
     },
@@ -1710,10 +1678,6 @@
     },
     {
       "value": "María la Barrera",
-      "count": 1
-    },
-    {
-      "value": "Maria Laurentia Pauwens",
       "count": 1
     },
     {
