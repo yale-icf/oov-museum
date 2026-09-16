@@ -2,7 +2,7 @@
   "type": [
     {
       "value": "Bond",
-      "count": 264
+      "count": 265
     },
     {
       "value": "Stock Certificate",
@@ -10,11 +10,11 @@
     },
     {
       "value": "Certificate",
-      "count": 55
+      "count": 56
     },
     {
       "value": "Lottery Bond",
-      "count": 29
+      "count": 30
     },
     {
       "value": "Receipt",
@@ -88,15 +88,15 @@
   "location": [
     {
       "value": "United States",
-      "count": 147
+      "count": 148
     },
     {
       "value": "Netherlands",
-      "count": 96
+      "count": 97
     },
     {
       "value": "France",
-      "count": 83
+      "count": 84
     },
     {
       "value": "Russia",
@@ -147,16 +147,16 @@
       "count": 12
     },
     {
+      "value": "Guyana",
+      "count": 11
+    },
+    {
       "value": "Suriname",
       "count": 11
     },
     {
       "value": "Turkey",
       "count": 11
-    },
-    {
-      "value": "Guyana",
-      "count": 10
     },
     {
       "value": "Japan",
@@ -398,15 +398,15 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 130
+      "count": 131
     },
     {
       "value": "Netherlands",
-      "count": 91
+      "count": 92
     },
     {
       "value": "France",
-      "count": 71
+      "count": 72
     },
     {
       "value": "Russia",
@@ -584,7 +584,7 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 119
+      "count": 120
     },
     {
       "value": "British pound sterling",
@@ -592,11 +592,11 @@
     },
     {
       "value": "French franc",
-      "count": 107
+      "count": 108
     },
     {
       "value": "Dutch guilder",
-      "count": 82
+      "count": 83
     },
     {
       "value": "Russian ruble",
@@ -922,15 +922,15 @@
   "language": [
     {
       "value": "English",
-      "count": 261
+      "count": 262
     },
     {
       "value": "French",
-      "count": 191
+      "count": 192
     },
     {
       "value": "Dutch",
-      "count": 105
+      "count": 106
     },
     {
       "value": "German",
@@ -1040,11 +1040,11 @@
     },
     {
       "value": "19th Century",
-      "count": 213
+      "count": 215
     },
     {
       "value": "18th Century",
-      "count": 155
+      "count": 156
     },
     {
       "value": "17th Century",
@@ -1075,6 +1075,10 @@
     {
       "value": "Tsou Lin",
       "count": 3
+    },
+    {
+      "value": "Albertus Bakker",
+      "count": 2
     },
     {
       "value": "Alexander Hamilton",
@@ -1117,6 +1121,14 @@
       "count": 2
     },
     {
+      "value": "Johan Gottlieb Detericks",
+      "count": 2
+    },
+    {
+      "value": "Johanna Maria van de Vyver",
+      "count": 2
+    },
+    {
       "value": "Johannes May",
       "count": 2
     },
@@ -1126,6 +1138,10 @@
     },
     {
       "value": "Louis Phélypeaux",
+      "count": 2
+    },
+    {
+      "value": "Paulus Cordes",
       "count": 2
     },
     {
@@ -1142,10 +1158,6 @@
     },
     {
       "value": "Adam Klaerner",
-      "count": 1
-    },
-    {
-      "value": "Albertus Bakker",
       "count": 1
     },
     {
@@ -1393,6 +1405,10 @@
       "count": 1
     },
     {
+      "value": "Georges-Eugène Haussmann",
+      "count": 1
+    },
+    {
       "value": "Gideon Adriaan Diederik de Graaff",
       "count": 1
     },
@@ -1541,15 +1557,7 @@
       "count": 1
     },
     {
-      "value": "Johan Gottlieb Detericks",
-      "count": 1
-    },
-    {
       "value": "Johann Martin Hoppensack",
-      "count": 1
-    },
-    {
-      "value": "Johanna Maria van de Vyver",
       "count": 1
     },
     {
@@ -1686,10 +1694,6 @@
     },
     {
       "value": "Paul-Esprit Feydeau de Brou",
-      "count": 1
-    },
-    {
-      "value": "Paulus Cordes",
       "count": 1
     },
     {
@@ -1842,6 +1846,10 @@
     },
     {
       "value": "Thomas Cuming",
+      "count": 1
+    },
+    {
+      "value": "Thomas H. Bain",
       "count": 1
     },
     {
