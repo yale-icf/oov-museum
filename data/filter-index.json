@@ -6,11 +6,11 @@
     },
     {
       "value": "Stock Certificate",
-      "count": 175
+      "count": 176
     },
     {
       "value": "Certificate",
-      "count": 59
+      "count": 60
     },
     {
       "value": "Lottery Bond",
@@ -18,7 +18,7 @@
     },
     {
       "value": "Receipt",
-      "count": 30
+      "count": 31
     },
     {
       "value": "Banknote",
@@ -88,11 +88,11 @@
   "location": [
     {
       "value": "United States",
-      "count": 153
+      "count": 155
     },
     {
       "value": "Netherlands",
-      "count": 103
+      "count": 105
     },
     {
       "value": "France",
@@ -116,7 +116,7 @@
     },
     {
       "value": "Belgium",
-      "count": 26
+      "count": 27
     },
     {
       "value": "Great Britain",
@@ -398,11 +398,11 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 133
+      "count": 134
     },
     {
       "value": "Netherlands",
-      "count": 98
+      "count": 99
     },
     {
       "value": "France",
@@ -426,7 +426,7 @@
     },
     {
       "value": "Belgium",
-      "count": 21
+      "count": 22
     },
     {
       "value": "Bulgaria",
@@ -584,7 +584,7 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 121
+      "count": 123
     },
     {
       "value": "British pound sterling",
@@ -596,7 +596,7 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 85
+      "count": 86
     },
     {
       "value": "Russian ruble",
@@ -922,7 +922,7 @@
   "language": [
     {
       "value": "English",
-      "count": 264
+      "count": 265
     },
     {
       "value": "French",
@@ -930,7 +930,7 @@
     },
     {
       "value": "Dutch",
-      "count": 111
+      "count": 113
     },
     {
       "value": "German",
@@ -1036,7 +1036,7 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 272
+      "count": 274
     },
     {
       "value": "19th Century",
@@ -1044,7 +1044,7 @@
     },
     {
       "value": "18th Century",
-      "count": 156
+      "count": 157
     },
     {
       "value": "17th Century",
@@ -1549,6 +1549,10 @@
       "count": 1
     },
     {
+      "value": "Jan Baptist Cogels junior",
+      "count": 1
+    },
+    {
       "value": "Jan van Wattens",
       "count": 1
     },
@@ -1678,6 +1682,10 @@
     },
     {
       "value": "María la Barrera",
+      "count": 1
+    },
+    {
+      "value": "Maria Laurentia Pauwens",
       "count": 1
     },
     {
