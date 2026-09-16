@@ -34102,8 +34102,8 @@
     "file": "goetzmann1585.jpg",
     "transcription": "",
     "title": "Central States Electric Corporation Amsterdam Certificate No. 6304, 1936",
-    "description": "A Dutch depositary certificate, number 6304, for ten ordinary shares of the common stock of the Central States Electric Corporation, without nominal value. The shares stand in the name of the administratiekantoor of American securities founded by Broes & Gosman, Ten Have & Van Essen and Jarman & Zoonen at Amsterdam, and the certificate is issued on the conditions of administration settled by deed before the notary H. T. M. Müller on 21 June 1929. Dated at Amsterdam 20 February 1936 under a thirty-cent stamp-duty seal, with dividend coupons numbered fifteen to twenty and a talon issued alongside it. A red overprint across the face records a subsequent reorganisation of the corporation. Two leaves, certificate and reverse.",
-    "notes": "No. 6304, ten common shares no par; Amsterdam 20 February 1936; coupons 15-20 and talon issued with it. ⚠ The master spreadsheet numbers this certificate 8623 — that is the number on the talon at [1587], which belongs to a DIFFERENT certificate. This one reads N°. 6304.",
+    "description": "A Dutch depositary certificate, number 6304, for ten ordinary shares of the common stock of the Central States Electric Corporation, without nominal value. The shares stand in the name of the administratiekantoor of American securities founded by Broes & Gosman, Ten Have & Van Essen and Jarman & Zoonen at Amsterdam, and the certificate is issued on the conditions of administration settled by deed before the notary H. T. M. Müller on 21 June 1929. Dated at Amsterdam 20 February 1936 under a thirty-cent stamp-duty seal, with dividend coupons numbered fifteen to twenty and a talon issued alongside it. A red overprint across the face records a subsequent reorganisation of the corporation. Two leaves, certificate and reverse. A third leaf, the talon, was scanned apart from the certificate at the far end of the intake and carries the same number 6304, with the twentieth and nineteenth dividend coupons still attached.",
+    "notes": "No. 6304, ten common shares no par; Amsterdam 20 February 1936; coupons 15-20 and talon issued with it. ⚠ The master spreadsheet numbers this certificate 8623 — that is the number on the talon at [1587], which belongs to a DIFFERENT certificate. This one reads N°. 6304.\n\n⚠ TALON ATTACHED 2026-09-16. goetzmann1720 is the talon of THIS certificate — it reads CERTIFICAAT N°. 6304 and cites the same administration conditions of 21 June 1929 — and was scanned twenty-two places later in the intake. The talon at [1587] belongs to certificate 8623 and remains a separate record.",
     "type": [
       "Stock Certificate"
     ],
@@ -34137,6 +34137,10 @@
       },
       {
         "id": "goetzmann1586",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1720",
         "description": ""
       }
     ],
@@ -37675,6 +37679,480 @@
     "issueYear": [
       "1923"
     ]
+  },
+  {
+    "id": "goetzmann1715",
+    "file": "goetzmann1715.jpg",
+    "transcription": "",
+    "title": "Associated Gas and Electric Class A Amsterdam Certificate No. 37495, 1937",
+    "description": "A Dutch depositary certificate, number 37495, for ten Class A shares of one dollar nominal each in the Associated Gas and Electric Company. The shares stand in the name of the Amsterdam administratiekantoor of American securities founded by Broes & Gosman, Ten Have & Van Essen and Jarman & Zoonen, and are deposited with the undersigned notary. The certificate is issued on the conditions of administration settled by deed of 22 October 1928 before the notary H. T. M. Müller and amended by deed of 29 August 1933 before the notary A. J. B. Blaisse, and is dated at Amsterdam 1 April 1937. Three leaves: the certificate and two full sheets of dividend coupons, all numbered 37495.",
+    "notes": "N° 37495, ten Class A shares of $1 nominal; Amsterdam 1 April 1937; administration deeds of 22 October 1928 and 29 August 1933. A different issue from the $4 cumulative preference certificate at [1683].",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "N.V. Maatschappij tot Beheer van het Administratiekantoor van Amerikaansche Fondsen, Amsterdam",
+    "identifiers": [
+      "No. 37495"
+    ],
+    "namedIndividuals": [
+      "H. T. M. Müller",
+      "A. J. B. Blaisse"
+    ],
+    "keywords": [
+      "Associated Gas and Electric",
+      "Class A stock",
+      "Amsterdam",
+      "administratiekantoor"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1715",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1716",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1717",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issueYear": [
+      "1937"
+    ]
+  },
+  {
+    "id": "goetzmann1718",
+    "file": "goetzmann1718.jpg",
+    "transcription": "",
+    "title": "American Natural Gas Corporation Amsterdam Certificate No. 7811",
+    "description": "A Dutch depositary certificate, number 7811, for ten fully paid ordinary shares without nominal value in the American Natural Gas Corporation of Delaware, registered in the name of the Nieuw Amsterdamsch Administratiekantoor. Dividend coupons numbered one to forty-two were issued with it, together with a talon entitling the holder to a fresh set once the forty-second has been paid. Two leaves, the second carrying the talon and the coupon sheet, every coupon repeating the certificate number.",
+    "notes": "N° 7811, ten common shares without nominal value; coupons 1-42 with talon. ⚠ The master spreadsheet numbers it 7511; the certificate, talon and every coupon read 7811. ⚠ No date is entered on the plate; issueDate is left blank.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "Nieuw Amsterdamsch Administratiekantoor, N.V.",
+    "identifiers": [
+      "No. 7811"
+    ],
+    "namedIndividuals": [],
+    "keywords": [
+      "American Natural Gas",
+      "Delaware",
+      "Amsterdam",
+      "administratiekantoor"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1718",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1719",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issueYear": []
+  },
+  {
+    "id": "goetzmann1721",
+    "file": "goetzmann1721.jpg",
+    "transcription": "",
+    "title": "Galveston, Houston and Henderson Railroad Bond Sale Note, New York, 1867",
+    "description": "A broker's sale note written at New York on 9 August 1867: Edwin Parsons has sold to F. P. James & Co. seventy-one six per cent bonds of one hundred pounds sterling each of the Galveston, Houston and Henderson Rail Road Company, at three hundred and seventy-five dollars for each bond, payable and deliverable at the buyer's option eight months from date, with interest at seven per cent a year. A United States revenue stamp is affixed. Two leaves; the second lists the bonds by number and schedules the coupons past due on them, running back as far as December 1856 — a Texas railroad's sterling debt, long in default, changing hands in New York at a fraction of par two years after the Civil War.",
+    "notes": "71 bonds of £100 at 6 per cent, sold at $375 each, eight months buyer's option, 7 per cent interest; New York 9 August 1867, signed Edwin Parsons. Leaf two schedules coupons past due from 1 December 1856 onward.",
+    "type": [
+      "Receipt"
+    ],
+    "currency": [
+      "British pound sterling"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "19th Century"
+    ],
+    "creator": "Edwin Parsons",
+    "identifiers": [],
+    "namedIndividuals": [
+      "Edwin Parsons"
+    ],
+    "keywords": [
+      "Galveston Houston and Henderson",
+      "Texas",
+      "railroad bonds",
+      "defaulted coupons",
+      "New York"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1721",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1722",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States",
+      "United Kingdom"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "subjectCountry": [
+      "United States",
+      "United Kingdom"
+    ],
+    "issueYear": [
+      "1867"
+    ]
+  },
+  {
+    "id": "goetzmann1723",
+    "file": "goetzmann1723.jpg",
+    "transcription": "",
+    "title": "St. Louis–San Francisco Railway Amsterdam Certificate No. 2133, 1925",
+    "description": "A Dutch depositary certificate of one thousand dollars, number 2133, for ten ordinary shares of one hundred dollars each in the St. Louis–San Francisco Railway Company, registered in the name of the Amsterdamsch Administratiekantoor van Amerikaansche Waarden and dated at Amsterdam 14 January 1925. Four leaves: the certificate, a talon with its sheet of dividend coupons all numbered 2133, and — between them — the kettingverklaring issued for this very certificate, the chain declaration required for dealings in certificates of American shares under the decree of the Secretary-General of the Department of Finance of 22 April 1941, here stamped by Arnold Gilissen's Bank at Rotterdam on 31 August 1944.",
+    "notes": "N° 2133, $1,000 (ten shares of $100); Amsterdam 14 January 1925. Leaves 1724 and 1725 are the kettingverklaring for this certificate, coupure 1/10, under the besluit of 22 April 1941, stamped 31/8/'44. Compare the separate declaration at [1677], which belongs to a Wabash certificate not otherwise in the collection.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "N.V. Amsterdamsch Administratiekantoor van Amerikaansche Waarden",
+    "identifiers": [
+      "No. 2133"
+    ],
+    "namedIndividuals": [],
+    "keywords": [
+      "St. Louis-San Francisco Railway",
+      "Amsterdam",
+      "administratiekantoor",
+      "kettingverklaring",
+      "occupation"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1723",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1724",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1725",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1726",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issueYear": [
+      "1925"
+    ]
+  },
+  {
+    "id": "goetzmann1727",
+    "file": "goetzmann1727.jpg",
+    "transcription": "",
+    "title": "Wabash Railway Participating Preferred Amsterdam Certificate No. 5218, 1940",
+    "description": "A certificate of one thousand dollars, number 5218, of participating preferred A shares of the Wabash Railway Company, issued by the Administratiekantoor van Aandeelen der Wabash Railway Company at Amsterdam — a limited company formed for this single purpose by deed of 10 December 1915 before the notary J. P. Smits, with royal assent given by decree of 17 December 1915. Dividends received on the underlying shares are announced in the Amsterdam papers and the certificate's coupon then made payable; exchange for the shares themselves follows the deed of 22 December 1915. Dated at Amsterdam 8 January 1940, with a fifty-cent stamp seal and the talon and coupon sheet still attached at the foot.",
+    "notes": "N° 5218, $1,000 in participating preferred A shares; Amsterdam 8 January 1940; administratiekantoor founded by deed of 10 December 1915, royal assent 17 December 1915 No. 87.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "Administratiekantoor van Aandeelen der Wabash Railway Company, N.V., Amsterdam",
+    "identifiers": [
+      "No. 5218"
+    ],
+    "namedIndividuals": [
+      "J. P. Smits"
+    ],
+    "keywords": [
+      "Wabash Railway",
+      "Amsterdam",
+      "administratiekantoor",
+      "participating preferred"
+    ],
+    "owner": "ICF",
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issueYear": [
+      "1940"
+    ]
+  },
+  {
+    "id": "goetzmann1728",
+    "file": "goetzmann1728.jpg",
+    "transcription": "",
+    "title": "Vereenigde Lawoe-Ondernemingen Certificate No. 0740 with Restitution Declaration, 1929",
+    "description": "A certificate for a thousand guilders nominal of ordinary shares in the N.V. Cultuurmaatschappij Vereenigde Lawoe-Ondernemingen of The Hague, a planting company working estates on the slopes of Mount Lawu in Java, number 0740. The shares are registered to the N.V. Administratiekantoor Lawoe and deposited under conditions settled by deed of 5 December 1928 before the notary B. Grootenboer; dividend coupons thirteen to forty-two and a talon were issued with it. Dated at The Hague 2 January 1929. Six leaves: the certificate, its printed conditions, two sheets of coupons, the decorative wrapper band, and — last — a declaration of the Council for the Restoration of Rights, its securities registration department, certifying that the paper has been notified under article 44 of the Decree on the Restoration of Legal Intercourse. That last leaf is the post-war counterpart of the wartime chain declarations at [1677] and [1723].",
+    "notes": "N° 0740; certificate reads f 1000 nominal, The Hague 2 January 1929; extraordinary stamp remitted by the Amsterdam receiver 31 January 1938. ⚠ The Rechtsherstel declaration (leaf 1733, BA No. 001932, aanmeldingsformulier 1 250339, codenummer 2472) describes the same number 740 as a certificate of f 750, not f 1000. Both figures are on the plates and neither is altered here.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "Dutch guilder"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "N.V. Administratiekantoor Lawoe, 's-Gravenhage",
+    "identifiers": [
+      "No. 0740",
+      "BA No. 001932"
+    ],
+    "namedIndividuals": [
+      "B. Grootenboer"
+    ],
+    "keywords": [
+      "Lawoe",
+      "Java",
+      "plantation company",
+      "Raad voor het Rechtsherstel",
+      "restitution",
+      "The Hague"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1728",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1729",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1730",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1731",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1732",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1733",
+        "description": ""
+      }
+    ],
+    "location": [
+      "Netherlands",
+      "Indonesia"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "Netherlands",
+      "Indonesia"
+    ],
+    "issueYear": [
+      "1929"
+    ]
+  },
+  {
+    "id": "goetzmann1734",
+    "file": "goetzmann1734.jpg",
+    "transcription": "",
+    "title": "American Natural Gas Corporation Amsterdam Certificate No. 10234",
+    "description": "A second Dutch depositary certificate of the American Natural Gas Corporation of Delaware, number 10234, for ten fully paid ordinary shares without nominal value, registered to the Nieuw Amsterdamsch Administratiekantoor and countersigned as seen by the Amsterdamsch Trustee's Kantoor. Dividend coupons one to forty-two were issued with it and a talon for the next set. Two leaves; the coupon sheet is unclipped and every coupon carries the certificate number.",
+    "notes": "N° 10234, ten common shares without nominal value; coupons 1-42 with talon. Companion to [1718], N° 7811, of the same issue. ⚠ No date is entered on the plate; issueDate is left blank.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "Nieuw Amsterdamsch Administratiekantoor, N.V.; Amsterdamsch Trustee's Kantoor, N.V.",
+    "identifiers": [
+      "No. 10234"
+    ],
+    "namedIndividuals": [],
+    "keywords": [
+      "American Natural Gas",
+      "Delaware",
+      "Amsterdam",
+      "administratiekantoor"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1734",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1735",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issueYear": []
+  },
+  {
+    "id": "goetzmann1736",
+    "file": "goetzmann1736.jpg",
+    "transcription": "",
+    "title": "St. Louis–San Francisco Railway Preferred Amsterdam Certificate No. 0464",
+    "description": "A Dutch depositary certificate of one thousand dollars, number 0464, for ten six per cent non-cumulative preferred shares of one hundred dollars each in the St. Louis–San Francisco Railway Company. The shares are registered to the Amsterdamsch Administratiekantoor van Amerikaansche Waarden and deposited under conditions settled by deed of 14 September 1928 before the notary E. Th. Koopman at Amsterdam. A fifty-cent Netherlands stamp seal is impressed at the left. Two leaves; the second is the printed wrapper, headed for ten six per cent non-cumulative preferred shares of a thousand dollars nominal and carrying the same number.",
+    "notes": "N° 0464, $1,000 in ten 6% non-cumulative preferred shares of $100; administration deed of 14 September 1928 before notary E. Th. Koopman. Companion to the common-stock certificate at [1723]. ⚠ The subscription date is partly obscured by the stamp seal; issueDate is left blank.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "20th Century"
+    ],
+    "creator": "N.V. Amsterdamsch Administratiekantoor van Amerikaansche Waarden",
+    "identifiers": [
+      "No. 0464"
+    ],
+    "namedIndividuals": [
+      "E. Th. Koopman"
+    ],
+    "keywords": [
+      "St. Louis-San Francisco Railway",
+      "preferred stock",
+      "Amsterdam",
+      "administratiekantoor"
+    ],
+    "owner": "ICF",
+    "pages": [
+      {
+        "id": "goetzmann1736",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1737",
+        "description": ""
+      }
+    ],
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issueYear": []
   },
   {
     "id": "goetzmann1800",
