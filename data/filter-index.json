@@ -26,14 +26,14 @@
     },
     {
       "value": "Indenture",
+      "count": 14
+    },
+    {
+      "value": "Regulatory Document",
       "count": 13
     },
     {
       "value": "Register",
-      "count": 11
-    },
-    {
-      "value": "Regulatory Document",
       "count": 11
     },
     {
@@ -96,7 +96,7 @@
     },
     {
       "value": "France",
-      "count": 81
+      "count": 83
     },
     {
       "value": "Russia",
@@ -119,6 +119,10 @@
       "count": 27
     },
     {
+      "value": "Great Britain",
+      "count": 15
+    },
+    {
       "value": "Spain",
       "count": 15
     },
@@ -128,10 +132,6 @@
     },
     {
       "value": "Bulgaria",
-      "count": 14
-    },
-    {
-      "value": "Great Britain",
       "count": 14
     },
     {
@@ -406,7 +406,7 @@
     },
     {
       "value": "France",
-      "count": 69
+      "count": 71
     },
     {
       "value": "Russia",
@@ -434,7 +434,7 @@
     },
     {
       "value": "Great Britain",
-      "count": 13
+      "count": 14
     },
     {
       "value": "Spain",
@@ -604,7 +604,7 @@
     },
     {
       "value": "Livres Tournois",
-      "count": 29
+      "count": 30
     },
     {
       "value": "German mark",
@@ -922,11 +922,11 @@
   "language": [
     {
       "value": "English",
-      "count": 260
+      "count": 261
     },
     {
       "value": "French",
-      "count": 189
+      "count": 191
     },
     {
       "value": "Dutch",
@@ -1044,7 +1044,7 @@
     },
     {
       "value": "18th Century",
-      "count": 152
+      "count": 155
     },
     {
       "value": "17th Century",
@@ -1154,6 +1154,10 @@
     },
     {
       "value": "Andrew Allen",
+      "count": 1
+    },
+    {
+      "value": "Anne Evelyn",
       "count": 1
     },
     {
@@ -1289,7 +1293,15 @@
       "count": 1
     },
     {
+      "value": "Dorothy Medows",
+      "count": 1
+    },
+    {
       "value": "Edmond van Eetvelde",
+      "count": 1
+    },
+    {
+      "value": "Edward Poole",
       "count": 1
     },
     {
@@ -1338,6 +1350,10 @@
     },
     {
       "value": "Francis Drake",
+      "count": 1
+    },
+    {
+      "value": "Francis Wallis",
       "count": 1
     },
     {
@@ -1473,6 +1489,10 @@
       "count": 1
     },
     {
+      "value": "Jael Boscawen",
+      "count": 1
+    },
+    {
       "value": "James Croft",
       "count": 1
     },
@@ -1545,6 +1565,10 @@
       "count": 1
     },
     {
+      "value": "John Evelyn",
+      "count": 1
+    },
+    {
       "value": "John Garesché du Rocher",
       "count": 1
     },
@@ -1566,6 +1590,10 @@
     },
     {
       "value": "John Swanwick",
+      "count": 1
+    },
+    {
+      "value": "John Williams",
       "count": 1
     },
     {
@@ -1682,6 +1710,10 @@
     },
     {
       "value": "Petronella Maria van den Broek",
+      "count": 1
+    },
+    {
+      "value": "Philip Medows",
       "count": 1
     },
     {
