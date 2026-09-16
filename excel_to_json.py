@@ -181,7 +181,10 @@ def update_item(item, row, has_identifiers_col=False):
     ]
 
     # language: separate field for filter
-    item['language'] = parse_list(row.get('language', ''), sep=r',\s*')
+    # ⚠️ the workbook joins multi-value cells with ' | ' (that is what every sync script
+    # writes), so splitting on commas alone collapsed 'German | English' into ONE value
+    # and multi-language records lost their filter facets on every round-trip.
+    item['language'] = parse_list(row.get('language', ''), sep=r'\s*[|;]\s*|,\s*')
 
     # issueYear: extract first 4-digit year from issueDate
     raw_date = str_val(row.get('issueDate', ''))

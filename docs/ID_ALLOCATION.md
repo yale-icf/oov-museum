@@ -24,6 +24,25 @@ Separately, ids of **removed records keep their workbook rows on purpose** (`029
 would silently attach new material to an old row's history. Never reuse a number that has ever
 been used.
 
+⚠️ **`0393` was reused anyway**, by the September 2026 intake, which shipped a 1795 Loterie
+Nationale ticket under it. The number had belonged to a removed record — a Coptic papyrus
+fragment, still in `goetzmann Misc Files Removed/`. The record and its picture agree, so nothing
+is broken, but that row's history is no longer its own. See `REUSED_NUMBERS.md`.
+
+## `1800`–` ` — displaced documents, above the intake ceiling
+
+The September 2026 intake runs to `1799`. Numbers from **`1800`** upward are allocated to
+documents **displaced by a reused number and never rescanned**, so that the intake keeps the
+number it shipped under and the old document still gets one of its own:
+
+| id | document | displaced from |
+|---|---|---|
+| `1800` | Republic of China Construction Gold Bonds US dollar bond, 1940 | `0318` |
+| `1801` | London Stock Exchange WWI good delivery certificate, 1916 | `0526` |
+
+These are tiled from the surviving pre-intake masters, which are byte-identical to the copies in
+`goetzmann Misc Files Removed/`. Full account in `REUSED_NUMBERS.md`.
+
 ## The id space as of 2026-09-03
 
 ```
