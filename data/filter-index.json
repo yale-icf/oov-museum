@@ -2,7 +2,7 @@
   "type": [
     {
       "value": "Bond",
-      "count": 265
+      "count": 266
     },
     {
       "value": "Stock Certificate",
@@ -10,7 +10,7 @@
     },
     {
       "value": "Certificate",
-      "count": 59
+      "count": 60
     },
     {
       "value": "Receipt",
@@ -88,11 +88,11 @@
   "location": [
     {
       "value": "United States",
-      "count": 154
+      "count": 155
     },
     {
       "value": "Netherlands",
-      "count": 101
+      "count": 103
     },
     {
       "value": "France",
@@ -148,7 +148,7 @@
     },
     {
       "value": "Guyana",
-      "count": 11
+      "count": 12
     },
     {
       "value": "Mexico",
@@ -398,11 +398,11 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 134
+      "count": 135
     },
     {
       "value": "Netherlands",
-      "count": 95
+      "count": 96
     },
     {
       "value": "France",
@@ -584,7 +584,7 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 122
+      "count": 123
     },
     {
       "value": "British pound sterling",
@@ -596,7 +596,7 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 83
+      "count": 84
     },
     {
       "value": "Russian ruble",
@@ -922,7 +922,7 @@
   "language": [
     {
       "value": "English",
-      "count": 265
+      "count": 266
     },
     {
       "value": "French",
@@ -930,7 +930,7 @@
     },
     {
       "value": "Dutch",
-      "count": 109
+      "count": 110
     },
     {
       "value": "German",
@@ -1044,7 +1044,7 @@
     },
     {
       "value": "18th Century",
-      "count": 156
+      "count": 158
     },
     {
       "value": "17th Century",
@@ -1090,6 +1090,10 @@
     },
     {
       "value": "B. Platt",
+      "count": 2
+    },
+    {
+      "value": "Clement Biddle",
       "count": 2
     },
     {
@@ -1257,10 +1261,6 @@
       "count": 1
     },
     {
-      "value": "Clement Biddle",
-      "count": 1
-    },
-    {
       "value": "Cornelis Frymersum",
       "count": 1
     },
@@ -1282,6 +1282,10 @@
     },
     {
       "value": "D. Brewer",
+      "count": 1
+    },
+    {
+      "value": "Daniel Crommelin",
       "count": 1
     },
     {
@@ -1629,6 +1633,10 @@
       "count": 1
     },
     {
+      "value": "Joseph Nourse",
+      "count": 1
+    },
+    {
       "value": "Joseph Scott",
       "count": 1
     },
@@ -1638,6 +1646,10 @@
     },
     {
       "value": "Karl VI",
+      "count": 1
+    },
+    {
+      "value": "Kornelis van den Helm Boddaert",
       "count": 1
     },
     {

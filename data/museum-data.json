@@ -30979,6 +30979,126 @@
     ]
   },
   {
+    "id": "goetzmann1421",
+    "file": "goetzmann1421.jpg",
+    "title": "Notarial Copy of a United States Deferred Stock Certificate, 1792",
+    "description": "A notarially certified copy of a certificate of the Treasury of the United States, number 4294, issued at the Register's Office on 16 June 1792 and headed with the arms of the United States. It declares that there is due from the United States of America unto Daniel Crommelin & Sons of Amsterdam, merchants, or their assigns, the sum of ten thousand dollars bearing interest at six per cent a year from the first day of January 1801 inclusively, payable quarter-yearly, and subject to redemption by payments not exceeding in one year, on account both of principal and interest, the proportion of eight dollars upon a hundred of the stock bearing interest at six per cent; created by virtue of an act making provision for the debt of the United States passed on the fourth day of August 1790, the debt being recorded in the office and transferable only by appearance in person or by attorney. It is signed by Joseph Nourse as Register. Beneath, Clement Biddle, notary public for the Commonwealth of Pennsylvania dwelling in the city of Philadelphia, certifies that on the twenty-second day of June 1792 he went to the office of the Register of the Treasury, exhibited the original certificate, compared it word for word and figure for figure and found it to agree, the original being admitted genuine; and that he examined the books of the office and found entered in the Funded Deferred Six Per Cent Ledger, to the credit of Daniel Crommelin & Sons, the sum of ten thousand dollars of deferred six per cent stock. Signed and sealed with his notarial seal.",
+    "type": [
+      "Certificate"
+    ],
+    "location": [
+      "United States",
+      "Netherlands"
+    ],
+    "subjectCountry": [
+      "United States",
+      "Netherlands"
+    ],
+    "issuingCountry": [
+      "United States"
+    ],
+    "creator": "Register's Office of the Treasury of the United States; Clement Biddle (notary)",
+    "issueYear": [
+      "1792"
+    ],
+    "currency": [
+      "United States dollar"
+    ],
+    "language": [
+      "English"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Two leaves, the second continuing the attestation mid-sentence, which is what establishes the pairing; neither has a row in the master spreadsheet. ⚠ The date recorded is that of the NOTARIAL ACT, 22 June 1792; the certificate it copies is of 16 June. ⚠ This is DEFERRED stock, the third of the three securities Hamilton's funding act of 1790 created: it pays nothing at all until 1801, which is why the interest clause names a date nine years in the future. The holder is an Amsterdam house -- Daniel Crommelin & Sons were among the principal Dutch buyers of the new American debt -- and the notarial copy exists because the original had to stay on the register at Philadelphia while proof of title travelled to Holland.",
+    "identifiers": [
+      "No. 4294"
+    ],
+    "namedIndividuals": [
+      "Joseph Nourse",
+      "Clement Biddle",
+      "Daniel Crommelin"
+    ],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1421",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1422",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann1432",
+    "file": "goetzmann1432.jpg",
+    "title": "Boddaert Essequibo and Demerary Plantation Loan Obligation, Middelburg, 1760",
+    "description": "An obligation, number 90, entered in the register of Middelburg, by which Kornelis van den Helm Boddaert, as director and qualified agent of the money-lenders on various plantations in the colony of Essequibo and Demerary under the mortgages held at the secretary's office there, acknowledges a sum received, dated at Middelburg in January 1760 and signed before witnesses. With it are the three printed pages of the project and conditions under which a sum of ƒ300,000 was provisionally advanced to the planters of Essequibo and Demerary by several associated private persons under Boddaert's direction. The money, furnished by the city of Middelburg as well as by private persons, was advanced to the owners of plantations to no more than half, or at the most five-eighths, of the appraised value. For the lenders' security the plantations were valued afresh by sworn persons qualified for it and appointed by the Council of Police over both rivers, then duly mortgaged at the colony's secretary after declaration of existing legal charges, entails and guardianships, married borrowers' wives being bound alongside their husbands. The mortgage is taken on the plantations together with the enslaved people, the horses, the cattle and the further equipment standing on them, and their appurtenances and dependencies, none excepted, so that all the lenders hold one equal mortgage over the whole. The owners must consign the entire annual produce of their plantations to Boddaert, or to whoever holds his office in time to come, to be sold to best advantage and accounted for.",
+    "type": [
+      "Bond"
+    ],
+    "location": [
+      "Netherlands",
+      "Guyana"
+    ],
+    "subjectCountry": [
+      "Netherlands",
+      "Guyana"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "creator": "Kornelis van den Helm Boddaert",
+    "issueYear": [
+      "1760"
+    ],
+    "currency": [
+      "Dutch guilder"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "18th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Five leaves; no row in the master spreadsheet for any of them and the extent was read off the plates. ⚠ ENSLAVED PEOPLE are mortgaged in the document's own printed words, article III, listed between the plantations and the livestock: \"benevens de Slaven, Paarden, Beesten en verdere gereedschappen op-stal ... geen uitgezonderd\" -- none excepted. ⚠ The last leaf is a sheet of coupons of the Middelburg register, payable by Boddaert & Co. against a capital of ƒ600 for interest falling due at the ends of 1841, 1842 and 1845 -- EIGHTY YEARS after this obligation. Those coupons name a negotiatie \"opgerigt den 1 Julij 1766\" by the late Boddaert, where this obligation is of January 1760, so the sheet may belong to a later loan of the same house; it is attached here because it was scanned with the rest and would otherwise stand alone, and the discrepancy is recorded rather than resolved. The day of the month is left blank on the obligation.",
+    "identifiers": [
+      "No. 90"
+    ],
+    "namedIndividuals": [
+      "Kornelis van den Helm Boddaert"
+    ],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1432",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1433",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1434",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1435",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1436",
+        "description": ""
+      }
+    ]
+  },
+  {
     "id": "goetzmann1490",
     "file": "goetzmann1490.jpg",
     "title": "Central States Electric Corporation Certificate, Amsterdam, 1937",
