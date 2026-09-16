@@ -2,7 +2,7 @@
   "type": [
     {
       "value": "Bond",
-      "count": 261
+      "count": 262
     },
     {
       "value": "Stock Certificate",
@@ -10,15 +10,15 @@
     },
     {
       "value": "Certificate",
-      "count": 53
+      "count": 54
+    },
+    {
+      "value": "Lottery Bond",
+      "count": 29
     },
     {
       "value": "Receipt",
       "count": 29
-    },
-    {
-      "value": "Lottery Bond",
-      "count": 28
     },
     {
       "value": "Banknote",
@@ -88,7 +88,7 @@
   "location": [
     {
       "value": "United States",
-      "count": 143
+      "count": 145
     },
     {
       "value": "Netherlands",
@@ -116,7 +116,7 @@
     },
     {
       "value": "Belgium",
-      "count": 26
+      "count": 27
     },
     {
       "value": "Spain",
@@ -231,6 +231,10 @@
       "count": 3
     },
     {
+      "value": "Democratic Republic of Congo",
+      "count": 3
+    },
+    {
       "value": "Morocco",
       "count": 3
     },
@@ -252,10 +256,6 @@
     },
     {
       "value": "Costa Rica",
-      "count": 2
-    },
-    {
-      "value": "Democratic Republic of Congo",
       "count": 2
     },
     {
@@ -398,7 +398,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 126
+      "count": 128
     },
     {
       "value": "Netherlands",
@@ -549,6 +549,10 @@
       "count": 1
     },
     {
+      "value": "Democratic Republic of Congo",
+      "count": 1
+    },
+    {
       "value": "Estonia",
       "count": 1
     },
@@ -580,7 +584,7 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 116
+      "count": 117
     },
     {
       "value": "British pound sterling",
@@ -588,7 +592,7 @@
     },
     {
       "value": "French franc",
-      "count": 106
+      "count": 107
     },
     {
       "value": "Dutch guilder",
@@ -612,7 +616,7 @@
     },
     {
       "value": "Belgian franc",
-      "count": 11
+      "count": 12
     },
     {
       "value": "Chinese yuan",
@@ -671,6 +675,14 @@
       "count": 4
     },
     {
+      "value": "South German Gulden",
+      "count": 4
+    },
+    {
+      "value": "Thaler",
+      "count": 4
+    },
+    {
       "value": "Austro-Hungarian krone",
       "count": 3
     },
@@ -691,15 +703,7 @@
       "count": 3
     },
     {
-      "value": "South German Gulden",
-      "count": 3
-    },
-    {
       "value": "Spanish milled dollar",
-      "count": 3
-    },
-    {
-      "value": "Thaler",
       "count": 3
     },
     {
@@ -918,11 +922,11 @@
   "language": [
     {
       "value": "English",
-      "count": 256
+      "count": 258
     },
     {
       "value": "French",
-      "count": 187
+      "count": 188
     },
     {
       "value": "Dutch",
@@ -1036,7 +1040,7 @@
     },
     {
       "value": "19th Century",
-      "count": 209
+      "count": 212
     },
     {
       "value": "18th Century",
@@ -1217,6 +1221,10 @@
       "count": 1
     },
     {
+      "value": "Charles W. Jenkins",
+      "count": 1
+    },
+    {
       "value": "Christoffel Brants",
       "count": 1
     },
@@ -1278,6 +1286,10 @@
     },
     {
       "value": "Domingo Ortiz de la Riva",
+      "count": 1
+    },
+    {
+      "value": "Edmond van Eetvelde",
       "count": 1
     },
     {
@@ -1697,6 +1709,10 @@
       "count": 1
     },
     {
+      "value": "Richard W. Kimball",
+      "count": 1
+    },
+    {
       "value": "Robert Fowler",
       "count": 1
     },
@@ -1834,6 +1850,10 @@
     },
     {
       "value": "William H. Wahl",
+      "count": 1
+    },
+    {
+      "value": "William Kent",
       "count": 1
     },
     {
