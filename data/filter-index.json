@@ -6,7 +6,7 @@
     },
     {
       "value": "Stock Certificate",
-      "count": 174
+      "count": 175
     },
     {
       "value": "Certificate",
@@ -88,11 +88,11 @@
   "location": [
     {
       "value": "United States",
-      "count": 153
+      "count": 154
     },
     {
       "value": "Netherlands",
-      "count": 100
+      "count": 101
     },
     {
       "value": "France",
@@ -398,7 +398,7 @@
   "issuingCountry": [
     {
       "value": "United States",
-      "count": 133
+      "count": 134
     },
     {
       "value": "Netherlands",
@@ -584,7 +584,7 @@
   "currency": [
     {
       "value": "United States dollar",
-      "count": 121
+      "count": 122
     },
     {
       "value": "British pound sterling",
@@ -922,7 +922,7 @@
   "language": [
     {
       "value": "English",
-      "count": 264
+      "count": 265
     },
     {
       "value": "French",
@@ -1036,7 +1036,7 @@
   "period": [
     {
       "value": "20th Century",
-      "count": 272
+      "count": 273
     },
     {
       "value": "19th Century",
@@ -1405,6 +1405,10 @@
       "count": 1
     },
     {
+      "value": "George R. Drysdale",
+      "count": 1
+    },
+    {
       "value": "George T. Hope",
       "count": 1
     },
@@ -1654,6 +1658,10 @@
     },
     {
       "value": "Louis Despioch",
+      "count": 1
+    },
+    {
+      "value": "Louis S. Cates",
       "count": 1
     },
     {
