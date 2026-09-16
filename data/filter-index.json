@@ -6,7 +6,7 @@
     },
     {
       "value": "Stock Certificate",
-      "count": 175
+      "count": 176
     },
     {
       "value": "Certificate",
@@ -92,7 +92,7 @@
     },
     {
       "value": "Netherlands",
-      "count": 104
+      "count": 105
     },
     {
       "value": "France",
@@ -135,6 +135,10 @@
       "count": 14
     },
     {
+      "value": "Guyana",
+      "count": 13
+    },
+    {
       "value": "Italy",
       "count": 13
     },
@@ -144,10 +148,6 @@
     },
     {
       "value": "Egypt",
-      "count": 12
-    },
-    {
-      "value": "Guyana",
       "count": 12
     },
     {
@@ -402,7 +402,7 @@
     },
     {
       "value": "Netherlands",
-      "count": 97
+      "count": 98
     },
     {
       "value": "France",
@@ -596,7 +596,7 @@
     },
     {
       "value": "Dutch guilder",
-      "count": 84
+      "count": 85
     },
     {
       "value": "Russian ruble",
@@ -930,7 +930,7 @@
     },
     {
       "value": "Dutch",
-      "count": 111
+      "count": 112
     },
     {
       "value": "German",
@@ -1040,7 +1040,7 @@
     },
     {
       "value": "19th Century",
-      "count": 215
+      "count": 216
     },
     {
       "value": "18th Century",
@@ -1062,6 +1062,10 @@
     },
     {
       "value": "Étienne Clavière",
+      "count": 3
+    },
+    {
+      "value": "Everard Cornelis Bondt",
       "count": 3
     },
     {
@@ -1097,6 +1101,14 @@
       "count": 2
     },
     {
+      "value": "Cornelis Frymersum",
+      "count": 2
+    },
+    {
+      "value": "Cornelis Frymersum de Jonge",
+      "count": 2
+    },
+    {
       "value": "Daniel Changuion",
       "count": 2
     },
@@ -1105,7 +1117,11 @@
       "count": 2
     },
     {
-      "value": "Everard Cornelis Bondt",
+      "value": "Dirk Jan Voombergh",
+      "count": 2
+    },
+    {
+      "value": "Dirk Wernard van Vloten Abrahamsz.",
       "count": 2
     },
     {
@@ -1154,6 +1170,14 @@
     },
     {
       "value": "Robert Morris",
+      "count": 2
+    },
+    {
+      "value": "Sebastiaan van Nooten Jansz.",
+      "count": 2
+    },
+    {
+      "value": "Thomas Cuming",
       "count": 2
     },
     {
@@ -1269,14 +1293,6 @@
       "count": 1
     },
     {
-      "value": "Cornelis Frymersum",
-      "count": 1
-    },
-    {
-      "value": "Cornelis Frymersum de Jonge",
-      "count": 1
-    },
-    {
       "value": "Cornelis van Homrich",
       "count": 1
     },
@@ -1305,15 +1321,7 @@
       "count": 1
     },
     {
-      "value": "Dirk Jan Voombergh",
-      "count": 1
-    },
-    {
       "value": "Dirk Luden",
-      "count": 1
-    },
-    {
-      "value": "Dirk Wernard van Vloten Abrahamsz.",
       "count": 1
     },
     {
@@ -1861,10 +1869,6 @@
       "count": 1
     },
     {
-      "value": "Sebastiaan van Nooten Jansz.",
-      "count": 1
-    },
-    {
       "value": "Suzanne Élisabeth Lhermitte de Chateauneuf",
       "count": 1
     },
@@ -1886,10 +1890,6 @@
     },
     {
       "value": "Thomas Biddle",
-      "count": 1
-    },
-    {
-      "value": "Thomas Cuming",
       "count": 1
     },
     {

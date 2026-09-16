@@ -14243,7 +14243,7 @@
       "1687"
     ],
     "creator": "Pieter de Lange (director)",
-    "notes": "Life annuity tontine No. 21; f.500 capital on 20 lives over 30 years; August 1688 first interest payment; 30-year term; early Dutch tontine document\n\n⚠ MERGED 2026-09-15. The collection held this document as a scan of one leaf; the September 2026 intake supplied it in full. The first leaf is the same physical sheet and has been retiled from the larger master. The 2 further leafves are attached as pages. Extent established by: plates identical, \"8 COPIA. N EEN EN TWINTIG\"; 1445 begins a different act. ⚠ The title and description above were written from the single leaf and have NOT been revised against the leaves added here; that is still owed.",
+    "notes": "Life annuity tontine No. 21; f.500 capital on 20 lives over 30 years; August 1688 first interest payment; 30-year term; early Dutch tontine document\n\n⚠ MERGED 2026-09-15. The collection held this document as a scan of one leaf; the September 2026 intake supplied it in full. The first leaf is the same physical sheet and has been retiled from the larger master. The 2 further leafves are attached as pages. Extent established by: plates identical, \"8 COPIA. N EEN EN TWINTIG\"; 1445 begins a different act. ⚠ The title and description above were written from the single leaf and have NOT been revised against the leaves added here; that is still owed.\n\n⚠ EXTENDED 2026-09-16. A fourth leaf attached: the subscriber list and the participation clause. The list names each nominee with an age and a mother's name, and the clause declares that for Mr Dirck Pater, schepen and councillor of this city, on the life of Albert Reynst, five hundred guilders were furnished with forty more for the agio on the obligations, the interest due on them and the costs of setting up the college; it is collated against \"het Origineel onder N. XXI\", passed on the twentieth day of February 1687 and following days before the notary Stephanus Pelgrom, the principal resting in the common IRON CHEST. ⚠ That number XXI is what identifies the leaf as belonging here: this record already carried identifier No. 21. It was left out of the earlier merge because at strip scale its heading looked like a different act.",
     "subjectCountry": [
       "Netherlands"
     ],
@@ -14262,6 +14262,10 @@
       },
       {
         "id": "goetzmann1444",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1445",
         "description": ""
       }
     ]
@@ -28679,7 +28683,7 @@
   {
     "id": "goetzmann1288",
     "file": "goetzmann1288.jpg",
-    "title": "Garden of Eden Plantation Association Share, Demerary, 1817",
+    "title": "Garden of Eden Plantation Association Share No. 222, Demerary, 1817",
     "description": "A printed act of 4 March 1817, passed before the notary Everard Cornelis Bondt at Amsterdam, reconstituting a failed plantation loan as an association of its shareholders. Cornelis Frymersum, merchant on the Keizersgracht, trading as C. Frymersum en Zoon, appears as director of the negotiatie of three hundred thousand guilders charged on Thomas Cuming and secured on his plantations The Garden of Eden and The Kitty in the colony of Demerary, set up in 1792 under the direction of Sebastiaan van Nooten Jansz.; with him Dirk Wernard van Vloten Abrahamsz., broker, and Dirk Jan Voombergh, merchant, as commissioners. The act recites that by arrangement with Cuming and the qualification of the holders of the great majority of the 294 remaining shares of a thousand guilders each, the plantation The Garden of Eden on the east coast of the Demerary river, \"with all its buildings, slaves and further appurtenances\", was on 18 August 1815 ceded and transported in full free ownership before commissioners of the court of criminal and civil justice of the colony of Demerary and Essequebo to Cornelis Frymersum and Cornelis Frymersum the younger as directors of the loan. The plantation now belongs in common to the holders of those 294 shares, in the same terms, and is to be governed and administered by C. Frymersum en Zoon as directors of its fund. The share here is number 222, a 1/294 part, with coupons 18, 19 and 20 for the eighteenth, nineteenth and twentieth distributions still attached, payable at Amsterdam as fixed between the commissioners and the direction and advertised in the Amsterdamsche Courant.",
     "type": [
       "Stock Certificate"
@@ -28710,7 +28714,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Four leaves, the last a coupon sheet; embossed revenue stamp at the head. ⚠ This document enumerates ENSLAVED PEOPLE as part of the property twice, in its own printed words -- \"met alle derzelver gebouwen, slaven en verdere toebehooren\" -- first in the cession of 18 August 1815 and again in describing what the 294 shareholders hold in common. The transfer registration is noted on the face: Amsterdam, 26 February 1817, D.5 f.179 verso, with 59 and a half cents received. The coupons pay distributions, not fixed interest, which is what distinguishes this from the mortgage loans it replaced.",
+    "notes": "Four leaves, the last a coupon sheet; embossed revenue stamp at the head. ⚠ This document enumerates ENSLAVED PEOPLE as part of the property twice, in its own printed words -- \"met alle derzelver gebouwen, slaven en verdere toebehooren\" -- first in the cession of 18 August 1815 and again in describing what the 294 shareholders hold in common. The transfer registration is noted on the face: Amsterdam, 26 February 1817, D.5 f.179 verso, with 59 and a half cents received. The coupons pay distributions, not fixed interest, which is what distinguishes this from the mortgage loans it replaced.\n\n⚠ RETITLED 2026-09-16: the share number is now in the title. The collection also holds [1428], share N. 13 of this same association. They are not duplicates and the printing cannot tell them apart -- the act itself is the share, issued as a printed copy to each of the 294 holders -- so the manuscript number is the only discriminator and it belongs in the title.",
     "identifiers": [
       "No. 222"
     ],
@@ -31032,6 +31036,73 @@
       },
       {
         "id": "goetzmann1422",
+        "description": ""
+      }
+    ]
+  },
+  {
+    "id": "goetzmann1428",
+    "file": "goetzmann1428.jpg",
+    "title": "Garden of Eden Plantation Association Share No. 13, Demerary, 1817",
+    "description": "A printed act of 4 March 1817 passed before Everard Cornelis Bondt, public notary at Amsterdam, reconstituting a failed plantation loan as an association of its shareholders, issued as share number 13. Cornelis Frymersum, merchant on the Keizersgracht trading as C. Frymersum en Zoon, appears as director of the negotiatie of three hundred thousand guilders charged on Thomas Cuming and secured on his plantations The Garden of Eden and The Kitty in the colony of Demerary, set up in 1792 under Sebastiaan van Nooten Jansz.; with him Dirk Wernard van Vloten Abrahamsz., broker, and Dirk Jan Voombergh, merchant, as commissioners. By arrangement with Cuming and the qualification of the holders of the great majority of the 294 remaining shares of a thousand guilders each, the plantation The Garden of Eden on the east coast of the Demerary river, \"with all its buildings, slaves and further appurtenances\", was ceded and transported in full free ownership on 18 August 1815 before commissioners of the court of criminal and civil justice of Demerary and Essequebo to Cornelis Frymersum and Cornelis Frymersum the younger as directors. The plantation now belongs in common to the holders of those 294 shares and is governed by C. Frymersum en Zoon as directors of its fund, who account yearly in February to the commissioners and publish the distributions in the Amsterdamsche Courant. The share was issued with ten coupons for the first to the tenth distribution; three remain attached, numbered 18, 19 and 20, each for a 1/294 part.",
+    "type": [
+      "Stock Certificate"
+    ],
+    "location": [
+      "Netherlands",
+      "Guyana"
+    ],
+    "subjectCountry": [
+      "Netherlands",
+      "Guyana"
+    ],
+    "issuingCountry": [
+      "Netherlands"
+    ],
+    "creator": "C. Frymersum en Zoon",
+    "issueYear": [
+      "1817"
+    ],
+    "currency": [
+      "Dutch guilder"
+    ],
+    "language": [
+      "Dutch"
+    ],
+    "period": [
+      "19th Century"
+    ],
+    "keywords": [],
+    "owner": "ICF",
+    "notes": "Four leaves, the last a sheet of three coupons; red wax seal on the third leaf, signed for expedition. No row in the master spreadsheet for any of them. ⚠ ENSLAVED PEOPLE are enumerated as part of the property in the act's own printed words, twice -- \"met alle derzelver gebouwen, slaven en verdere toebehooren\" -- in the cession of 1815 and again in describing what the 294 shareholders hold in common. ⚠ AND THE MANUSCRIPT ON THE THIRD LEAF RECORDS WHAT FOLLOWED: \"Betaald in 1836 Drie Honderd en Vijftig Guldens op rekening der, ingevolge de Act van 27 Augustus 1833, Ontvangene Compensatie Gelden\", signed by the widow van de Poll, and \"Betaald in 1837 Zes en Zestig Guldens tot Saldo der Ontvangene Compensatie Gelden\". The act of August 1833 is the British Slavery Abolition Act; Demerary had passed to Britain, and this share received 350 guilders in 1836 and 66 more in 1837 out of the compensation paid to owners. ⚠ NOT a duplicate of [1288], which is share No. 222 of this same association.",
+    "identifiers": [
+      "No. 13"
+    ],
+    "namedIndividuals": [
+      "Cornelis Frymersum",
+      "Cornelis Frymersum de Jonge",
+      "Thomas Cuming",
+      "Everard Cornelis Bondt",
+      "Sebastiaan van Nooten Jansz.",
+      "Dirk Wernard van Vloten Abrahamsz.",
+      "Dirk Jan Voombergh"
+    ],
+    "transcription": "",
+    "pages": [
+      {
+        "id": "goetzmann1428",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1429",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1430",
+        "description": ""
+      },
+      {
+        "id": "goetzmann1431",
         "description": ""
       }
     ]
