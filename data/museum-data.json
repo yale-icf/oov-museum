@@ -3013,7 +3013,10 @@
       "Cuban peso"
     ],
     "language": [
-      "Spanish"
+      "Spanish",
+      "French",
+      "English",
+      "German"
     ],
     "issueYear": [
       "1911"
@@ -3206,7 +3209,8 @@
       "Bulgarian lev"
     ],
     "language": [
-      "Bulgarian"
+      "Bulgarian",
+      "French"
     ],
     "issueYear": [
       "1917"
@@ -3724,7 +3728,7 @@
       "Russian ruble"
     ],
     "language": [
-      "German"
+      "Dutch"
     ],
     "issueYear": [
       "1821"
@@ -3763,6 +3767,7 @@
       "British pound sterling"
     ],
     "language": [
+      "French",
       "English"
     ],
     "issueYear": [
@@ -21882,6 +21887,7 @@
     ],
     "currency": [],
     "language": [
+      "Arabic",
       "French"
     ],
     "issueYear": [
