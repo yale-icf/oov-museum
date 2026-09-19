@@ -36337,8 +36337,8 @@
     "file": "goetzmann1666.jpg",
     "transcription": "",
     "title": "Société Toulousaine du Bazacle Founder's Share, Toulouse",
-    "description": "A bearer founder's share, number 010,095, of the Société Toulousaine du Bazacle, a société anonyme with its office at 10 Quai Saint-Pierre in Toulouse and a capital of thirteen million one hundred and fifty thousand francs divided into 131,500 shares of a hundred francs. Its statutes were deposited with the Paris notary Moyne and modified by extraordinary assemblies of 18 March 1927 and 26 April 1928, and the stamp duty was compounded under an authorisation published in the Journal Officiel of 11 February 1930. A part de fondateur carried a share of profits rather than of capital, and was issued to those who brought the undertaking into being. The company worked the weir and mills on the Garonne at the Bazacle, a site held in shares by a company of millers from the Middle Ages and converted to generating electricity in the nineteenth century.",
-    "notes": "N° 010095, part de fondateur au porteur; capital 13,150,000 francs in 131,500 shares of 100 francs; statutes modified 18 March 1927 and 26 April 1928; stamp authorisation JO of 11 February 1930. ⚠ This is the 20th-century société anonyme, NOT the medieval Bazacle milling company whose shares are often called the earliest joint-stock holdings; the two should not be conflated. ⚠ The plate carries no issue date; issueDate is left blank.",
+    "description": "A bearer founder's share, number 010,095, of the Société Toulousaine du Bazacle, a société anonyme with its office at 10 Quai Saint-Pierre in Toulouse and a capital of thirteen million one hundred and fifty thousand francs divided into 131,500 shares of a hundred francs. It was created by a resolution of the extraordinary general meeting of 26 April 1928, printed above the serial, and gives its holder one twenty-thousandth of the advantages the statutes attach to these shares. Those statutes were deposited with the Paris notary Moyne and amended by extraordinary meetings of 18 March 1927 and 26 April 1928, and the stamp duty was compounded under an authorisation published in the Journal Officiel of 11 February 1930. A part de fondateur carried a share of profits rather than of capital, and was issued to those who brought the undertaking into being. The company worked the weir and mills on the Garonne at the Bazacle, a site held in shares by a company of millers from the Middle Ages and converted to generating electricity in the nineteenth century.",
+    "notes": "N° 010095, part de fondateur au porteur; capital 13,150,000 francs in 131,500 shares of 100 francs; statutes modified 18 March 1927 and 26 April 1928; stamp authorisation JO of 11 February 1930. ⚠ This is the 20th-century société anonyme, NOT the medieval Bazacle milling company whose shares are often called the earliest joint-stock holdings; the two should not be conflated. ⚠ DATED 2026-09-18 from the plate. The share carries no \"issued on\" line, but it is created by the resolution printed directly above its serial: \"Délibération de l’Assemblée Générale extraordinaire du 26 Avril 1928\". That resolution is the share’s own authority, so the year is taken from it. ⚠ The sheet itself cannot have been PRINTED before 1930: the stamp-duty authorisation published in the Journal Officiel of 11 February 1930 is printed on it. 1928 dates the issue, not the impression.",
     "type": [
       "Stock Certificate"
     ],
@@ -36373,7 +36373,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1928"
+    ]
   },
   {
     "id": "goetzmann1667",
