@@ -2,21 +2,23 @@
 
 Generated 2026-09-18. **108 documents, 252 leaves, ids `goetzmann1802`–`goetzmann2053`.**
 
-## ⚠️ Why this file exists
+## ✅ The masters have been renamed (2026-09-18)
 
-The source masters in `JPEG Files/TO-ADD_Lottery_Book/` are **NOT named
-`goetzmannNNNN.jpg`** — they keep the album's own pagination, `01.jpg`, `03a.jpg`,
-`10h.jpg` and so on. Every other batch in this collection has source files named by id, and
-`ID_ALLOCATION.md` requires it.
+The source files in `JPEG Files/TO-ADD_Lottery_Book/` were originally named for the album's
+own pagination — `01.jpg`, `03a.jpg`, `10h.jpg` — which no other batch in this collection
+does and which `ID_ALLOCATION.md` forbids. All 252 have been renamed to `goetzmannNNNN.jpg`
+**from this table**, by `scratchpad/lottery-rename.py`. Verified afterwards: 252 files, ids
+1802–2053 with no gaps and nothing extra, and each renamed master still matches its own live
+thumbnail.
 
-That means the link between a record and the file it was tiled from lives **only in this
-table**. Without it, `goetzmann1802` cannot be traced back to `01.jpg`. The working map was
-generated into `scratchpad/lottery-map.json`, which is **git-ignored** — so this tracked file
-is the only durable copy.
+⚠️ **THIS TABLE IS NOW THE ONLY RECORD OF THE ALBUM'S PAGINATION.** The filenames no longer
+carry it, and the pagination is the only thing that says which leaves belong to one physical
+document — that `03`, `03a`, `03b`, `03c` were four views of a single sheet, or that `10a`
+through `10h` were eight pages of one decree. The `pages[]` arrays in `museum-data.json`
+preserve the grouping, but not the album order that produced it. Do not delete this file.
 
-⚠️ If the masters are ever renamed to `goetzmannNNNN.jpg`, do it **from this table** and say
-so here, because the album pagination is the only thing that records which leaves belong to
-one physical document.
+A reversal manifest is at `scratchpad/lottery-rename-manifest.json` (git-ignored, so it will
+not survive a clean checkout — this table is the durable copy).
 
 ## The mapping
 
