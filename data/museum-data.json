@@ -20809,7 +20809,7 @@
   {
     "id": "goetzmann0904",
     "title": "Silesian Loan of Holy Roman Emperor Karl VI, 1736",
-    "description": "An obligation of one thousand guilders at five per cent in the loan of Karl VI, Holy Roman Emperor, number 1254, raised at Amsterdam through Willem Gideon Deutz. The Dutch text opens with the Emperor's full style — elected Roman Emperor, ever Augustus, King in Germany and Spain, of Hungary and Bohemia, Archduke of Austria, Duke of Burgundy — and acknowledges the sum received, the interest charged upon the contributions of the princes and nobles of Silesia. Four leaves. It is signed at the foot by Willem Gideon Deutz in person, then burgomaster of Amsterdam.",
+    "description": "AMSTERDAM. 5% Obligatie Fl.1000. black. No 1254. The Habsburg emperors were always short of money. A large refinancing operation was required by 1734, and Karl VI raised a loan with the Amsterdam banking-house of Willem Gideon Deutz. In guarantee, he offered the Silesia tribute fund, into which payments were made by the princes and nobles of Silesia (thus, the Silesian loan). As interest rates declined, a conversion operation was carried out in 1736. The new bonds, paying 5% interest, were for a total of 700.000 gulden. The new loan was very successful, and within two months had attracted all the capital needed. At first, interest was paid regularly from the contributions by the Silesian nobility. However, after 1742, things changed, when, after the war between Maria Theresia, daughter and successor of Karl VI, and Frederick the Great of Prussia led to Prussian rule over the Silesian territories. There were no further interest payments ; the investors lost everything they had lent. The founder of the important house of Deutz, Willem Gideon Deutz, has signed this bond in person. He was burgomaster of Amsterdam at this time.",
     "file": "goetzmann0904.jpg",
     "type": [
       "Bond"
@@ -20877,12 +20877,12 @@
     "identifiers": [
       "No. 1254"
     ],
-    "notes": "⚠ DESCRIPTION REWRITTEN 2026-09-18. It was a dealer entry followed by company history; only what the plate carries is kept. The removed text is in git history."
+    "notes": "⚠ RESTORED 2026-09-18. This is one of the five legacy Goetzmann essays that docs/DESCRIPTION_STYLE_GUIDE.md marks \"Preserved deliberately; do not rewrite or trim\". It was rewritten facts-first earlier the same day before that rule was checked, and the original text is back. The date correction below is kept: it is a fact read from the plate, not a matter of style."
   },
   {
     "id": "goetzmann0908",
     "title": "Imperial Company of Commerce of Asia and Africa Share No. 194, Antwerp, 1781",
-    "description": "A share of one thousand florins of Germany in the Society of the Commerce of Asia and Africa, established by octroi of His Majesty the Emperor and King in his ports of the Adriatic Sea, number 194. The deputies for its direction order François Emmanuël van Ertborn to receive from J. C. J. Borrekens the sum of two hundred and fifty florins silver of Germany, making at par three hundred florins of exchange, as the first payment on his share under the conditions of the subscription. Subscribed at Antwerp on 1 October 1781 and signed by Guillaume Bolts, the Count Charles de Proli, J. C. J. Borrekens and Domin. Nagels. Printed on hand-made paper, with the later quarterly receipts entered below, the third at Antwerp on 2 January 1782.",
+    "description": "ANVERS. Action de 1000 Florins. black. No 194. - Date: October 1, 1781 -  In 1775 Guilleaume Bolts obtained permission from Empress Maria Theresa to establish a company in the Austrian free port of Trieste, for trading with the East Indies. In 1781 the first shares were issued, with great success. The director was the famous Antwerp businessman Charles de Proli, son of the founder of the Keyserlijke Indische Compagnie, of Ostend; he was also linked with the formation of the Assurance d'Anvers. The company could not compete with the French and English competition, and after an unfortunate expedition to China, the company was unable to meet its liabilities. The Trieste Company is the last of the great trading companies of the Habsburgs. The share is printed on hand-made paper, and is signed by Guillaume Bolts, Count Charles de Proli, and J.C.J. Borrekens.",
     "file": "goetzmann0908.jpg",
     "type": [
       "Stock Certificate"
@@ -20927,12 +20927,12 @@
     "identifiers": [
       "No. 194"
     ],
-    "notes": "⚠ YEAR CORRECTED 2026-09-18, 1723 -> 1781. The plate’s own instalment receipts read \"Anvers le 1 octobre 1781\" and \"Anvers le 2 Janvier 1782\", and this record’s own description already said \"Date: October 1, 1781\". The 1723 almost certainly came from the OSTEND Company — the Keyserlijke Indische Compagnie, chartered 1722/23 — which the description mentions because Charles de Proli was the son of its founder. Different company, sixty years earlier. ⚠ Same printed form and same issue as [1789], share No. 1136; subscriber here is J. C. J. Borrekens, receiver François E. van Ertborn."
+    "notes": "⚠ YEAR CORRECTED 2026-09-18, 1723 -> 1781. The plate’s own instalment receipts read \"Anvers le 1 octobre 1781\" and \"Anvers le 2 Janvier 1782\", and this record’s own description already said \"Date: October 1, 1781\". The 1723 almost certainly came from the OSTEND Company — the Keyserlijke Indische Compagnie, chartered 1722/23 — which the description mentions because Charles de Proli was the son of its founder. Different company, sixty years earlier. ⚠ Same printed form and same issue as [1789], share No. 1136; subscriber here is J. C. J. Borrekens, receiver François E. van Ertborn. ⚠ RESTORED 2026-09-18. This is one of the five legacy Goetzmann essays that docs/DESCRIPTION_STYLE_GUIDE.md marks \"Preserved deliberately; do not rewrite or trim\". It was rewritten facts-first earlier the same day before that rule was checked, and the original text is back. The date correction below is kept: it is a fact read from the plate, not a matter of style."
   },
   {
     "id": "goetzmann0909",
     "title": "The Caracas Company (Real Compañía Guipuzcoana de Caracas), 1752",
-    "description": "A share of the Real Compañía Guipuzcoana de Caracas, number 2530, for five hundred escudos of fifteen reales de vellón entered as paid into the company's treasury. The printed text binds the directors to pay the holder the profits declared upon it in the proportion the company's own declaration sets, and is subscribed at Madrid on the first of June one thousand seven hundred and fifty-two, signed by the directors and countersigned by the secretary. It is printed on vellum from a copper engraving, the arms of Guipúzcoa at the head, and authenticated with a large paper seal bearing the same arms.",
+    "description": "MADRID. 1 June 1752. Accion de 500 escudos. black. #2000. No 2530. The 'Caracas Company', the Real Compania Guipuzcoana de Caracas, was formed by a group of merchants in the Guipuzcoa province, around San Sebastian, in the Basque region of Spain, to trade with the Caracas province of Venezuela, with the further aims of (a) developing its agriculture, especially cocoa, and (b) keeping watch on the coast, from the mouth of the river Orinoco to the river Hacha (later extended to cover Maracaibo). This latter aim was to prevent illegal (in Spanish eyes) trading, particularly by the Dutch from Curaçao. The leader of this group was the Count of Penaflorida. This was the first of the great Spanish overseas trading companies, and the first Spanish trading company known to have issued shares to the general public. The company had the right to send two ships per year from San Sebastian and nearby Pasajes to Venezuela, carrying all types of Spanish goods. For the return voyage the ships brought precious metals, cocoa, sugar, tobacco and leathers, back to Sevilla and, later, Cadiz. In 1730 the company set about establishing a chain of trading-posts along the coast of what is now Venezuela and the offshore islands of Margarita and Trinidad, and in 1732 obtained a monopoly of trade between Caracas and Spain; in 1742 this was extended for an indefinite period. In that same year the company's Head Office was moved from San Sebastian to Madrid. From the outset the company was very profitable, paying large dividends to its shareholders. King Felipe V and the Queen took 100 shares each, for a combined investment of 100,000 escudos. The initial capital was 1,000,000 escudos (2,000 shares of 500 escudos of 15 reales each), but shares were a new idea to the Spanish public, and they did not sell well at first; only 500,000 escudos were sold (including those to the royal house, as above). The capital was later increased, in 1752, and again in 1766. The company's activities expanded rapidly, especially after 1734, when restrictions on the number of sailings were removed. The Caracas production, especially of cocoa, rose sharply. By mid-century the company owned 12 large ocean-going ships and 19 coastal ships, with some 2,500 crew, and carrying 2,500 or more tons of freight annually in each direction. However, the company mis-used its monopoly powers, by charging excessive prices for imported goods, and cutting steadily the already low prices paid to Caracas growers for their produce; this, together with interference in the government of Caracas, led in the end to a rebellion by the the colonists. Not until 1752 was this finally subdued, and these events led the Spanish government to reduce the company's privileges and introduce fixed prices for buying cocoa and other produce. Profits fell sharply, and the company's fortunes went into steady decline. Its investments in Spain were unsuccessful; wars against England in 1761-3 and 1779-83 cost it dearly; the free-trading policies of King Carlos III were the final blow. In 1781 the company lost the monopoly with Venezuela, and in 1785 it was absorbed by the Real Compania de Filipinas. The Caracas shares were exchanged for those of the Filipinas company. The share is very attractive, printed on vellum, with a fine copper-engraving. At the top are the royal arms of Guipuzcoa; on each side, and down the sides is a fine design of leaves, fruit,weapons, and an Indian man, with bow-and-arrow, and woman. Boxes of company freight are all around. There is a fine paper seal, also with the royal arms of Guipuzcoa. This is a share from the fist capital increase.",
     "file": "goetzmann0909.jpg",
     "type": [
       "Stock Certificate"
@@ -20975,12 +20975,12 @@
     "identifiers": [
       "No. 2530"
     ],
-    "notes": "⚠ DESCRIPTION REWRITTEN 2026-09-18. It was a dealer entry followed by company history; only what the plate carries is kept. The removed text is in git history."
+    "notes": "⚠ RESTORED 2026-09-18. This is one of the five legacy Goetzmann essays that docs/DESCRIPTION_STYLE_GUIDE.md marks \"Preserved deliberately; do not rewrite or trim\". It was rewritten facts-first earlier the same day before that rule was checked, and the original text is back. The date correction below is kept: it is a fact read from the plate, not a matter of style."
   },
   {
     "id": "goetzmann0910",
     "title": "Swedish West India Company Share No. 259, Stockholm, 1787",
-    "description": "A share of one hundred riksdaler specie in the Swedish West India Company, number 259, subscribed at Stockholm on 15 December 1787. The printed Swedish text is signed by the undersigned directors of the company as privileged by royal grace, and acknowledges the capital paid upon the share. Two leaves. The face is struck through with a large ink cross, cancelling it, and the instalments are entered by hand along the foot with a director's signature beside each: fifteen per cent in January 1788, twenty in April and twenty in July.",
+    "description": "STOCKHOLM. 15 December 1787. Share of 100 Reichstaler. black. No 259. Folds. As early as 1745 the trading house Abr. Jocab Arfwedson & Co. was given the privilege of creating a West India company, but due to a sharp protest from the Spanish envoy in Stockholm against this undertaking, the firm renounced its privilege. After the Swedish acquisition in 1784 of Saint Barthélemy in the West Indies, town secretary Johan Liljencrants put a proposition to the Chamber of Commerce for the formation of a share-based company to conduct trade in the West Indies. In 1786, the company received a 15-year privilege for commerce and shipping with the Swedish island of Saint Barthélemy and other islands of the West Indies as well as with North America. Liljencrants and the Stockholm wholesale dealers Arfwedson, Schinkel and Pauli were to supervise the subscription. The business did not develop as hoped for, and the first expedition was lost as a consequence of the war with Russia in 1788. Later on, the business was paralysed due to prohibitions of importation of certain goods, especially coffee. High costs caused by captures of ships brought bad commercial results and the company was dissolved in 1805. The island became French, as part of Guadeloupe, in 1878. A 4-page document, ink-cancelled with a large 'X'. Printed, with manuscript additions of payment",
     "file": "goetzmann0910.jpg",
     "type": [
       "Stock Certificate"
@@ -21033,7 +21033,7 @@
     "identifiers": [
       "No. 259"
     ],
-    "notes": "⚠ YEAR CORRECTED 2026-09-18, 1786 → 1787. The plate is subscribed 'Stockholm den 15 December 1787' and the record's own former description said so. 1786 is the year the company received its fifteen-year privilege — the company's date, not the share's. ⚠ DESCRIPTION REWRITTEN 2026-09-18. It was a dealer entry followed by company history; only what the plate carries is kept. The removed text is in git history."
+    "notes": "⚠ YEAR CORRECTED 2026-09-18, 1786 → 1787. The plate is subscribed 'Stockholm den 15 December 1787' and the record's own former description said so. 1786 is the year the company received its fifteen-year privilege — the company's date, not the share's. ⚠ RESTORED 2026-09-18. This is one of the five legacy Goetzmann essays that docs/DESCRIPTION_STYLE_GUIDE.md marks \"Preserved deliberately; do not rewrite or trim\". It was rewritten facts-first earlier the same day before that rule was checked, and the original text is back. The date correction below is kept: it is a fact read from the plate, not a matter of style."
   },
   {
     "id": "goetzmann0912",
@@ -39679,7 +39679,7 @@
     "file": "goetzmann1802.jpg",
     "transcription": "",
     "title": "Ancienne Tontine Twelfth Class Contract No. 252, Paris, 1689",
-    "description": "A contract of the twelfth class of the Ancienne Tontine, number 252, passed before the King's notaries at Paris. The nominee is Dame Henriette Marie Claire Robert, wife of Jean Maupoint, controller general of the household of Monsieur, living at Paris in the Palais Royal, parish of Saint-Eustache. The head of the sheet carries the device of Time with his scythe and the motto Aliorum Crescunt Opes — the wealth of the others grows — with the date 1690. The Ancienne Tontine was the first French state tontine, opened under Louis XIV, subscribers being grouped in classes by age and the share of each dead subscriber passing to the survivors.",
+    "description": "A contract of the twelfth class of the Ancienne Tontine, number 252, passed before the King's notaries at Paris. The nominee is Dame Henriette Marie Claire Robert, wife of Jean Maupoint, controller general of the household of Monsieur, living at Paris in the Palais Royal, parish of Saint-Eustache. The head of the sheet carries the device of Time with his scythe and the motto Aliorum Crescunt Opes, the wealth of the others grows, with the date 1690. The Ancienne Tontine was the first French state tontine, opened under Louis XIV, subscribers being grouped in classes by age and the share of each dead subscriber passing to the survivors.",
     "notes": "12e Classe, No. 252; nominee Henriette Marie Claire Robert, wife of Jean Maupoint. Device dated 1690 with the motto 'Aliorum Crescunt Opes'. ⚠ The engraved plate is dated 1690 and the tontine was created in 1689; the contract's own subscription date is not legible in the band examined.",
     "type": [
       "Tontine"
@@ -40294,7 +40294,7 @@
     "file": "goetzmann1825.jpg",
     "transcription": "",
     "title": "Instructive Notice on the École Royale Militaire Lottery, Paris, 1757",
-    "description": "A printed Avis Instructif on the lottery granted by the King to his École Royale Militaire by decree of the Council of 15 October 1757. It explains that the lottery consists of ninety numbers, of which five are drawn at each of twelve drawings a year, and sets out the five ways of staking — extrait, extrait déterminé, ambe, terne and quaterne — with the sum returned on each and a worked example of every kind. The third leaf is a table of the ambes and ternes against the numbers to be staked. Three leaves. Lotteries of this form, taken from Genoa, priced each stake against its odds.",
+    "description": "A printed Avis Instructif on the lottery granted by the King to his École Royale Militaire by decree of the Council of 15 October 1757. It explains that the lottery consists of ninety numbers, of which five are drawn at each of twelve drawings a year, and sets out the five ways of staking: extrait, extrait déterminé, ambe, terne and quaterne, with the sum returned on each and a worked example of every kind. The third leaf is a table of the ambes and ternes against the numbers to be staked. Three leaves. Lotteries of this form, taken from Genoa, priced each stake against its odds.",
     "notes": "Avis Instructif; arrêt du Conseil du 15 October 1757; 90 numbers, five drawn, twelve drawings a year; stakes extrait, extrait déterminé, ambe, terne, quaterne. Third leaf is the Table des Ambes & Ternes.",
     "type": [
       "Prospectus"
@@ -40351,7 +40351,7 @@
     "file": "goetzmann1828.jpg",
     "transcription": "",
     "title": "École Royale Militaire Lottery Receipt No. 25, Grenoble, 1786",
-    "description": "A reconnoissance of the Lottery of the École Royale Militaire from the généralité of Dauphiné, town of Grenoble, registered number 25, for the drawing of 5 July 1786. A sum is acknowledged to be placed on the numbers 30, 65 and 88, with the stakes set out at the left as extrait, ambe and terne. The printed conditions are those of the Paris office, the receipt to be exchanged against the ticket before the drawing. Done at Grenoble the 14th of June 1786 — the same lottery working through a provincial bureau twenty-four years after the Paris receipt at [1823].",
+    "description": "A reconnoissance of the Lottery of the École Royale Militaire from the généralité of Dauphiné, town of Grenoble, registered number 25, for the drawing of 5 July 1786. A sum is acknowledged to be placed on the numbers 30, 65 and 88, with the stakes set out at the left as extrait, ambe and terne. The printed conditions are those of the Paris office, the receipt to be exchanged against the ticket before the drawing. Done at Grenoble the 14th of June 1786, the same lottery working through a provincial bureau twenty-four years after the Paris receipt at [1823].",
     "notes": "Généralité de Dauphiné, Ville de Grenoble, Enregistré N° 25; numbers 30.65.88; drawing 5 July 1786; Grenoble, 14 June 1786.",
     "type": [
       "Receipt"
@@ -40726,7 +40726,7 @@
     "file": "goetzmann1839.jpg",
     "transcription": "",
     "title": "Thirty-Sixth Hôtel de Ville de Paris Lottery Quarter-Ticket No. 77281, 1763",
-    "description": "A coupon for a quarter of a ticket in the thirty-sixth lottery of the Hôtel de Ville de Paris, number 77,281, for the drawing of December 1763. The bearer is interested for one quarter of a ticket, for which he has paid in cash six livres. With the whole tickets at [1836] and [1837] and the quarter at [1838], the album holds both denominations of both lotteries — the same instrument in its full and its divided form.",
+    "description": "A coupon for a quarter of a ticket in the thirty-sixth lottery of the Hôtel de Ville de Paris, number 77,281, for the drawing of December 1763. The bearer is interested for one quarter of a ticket, for which he has paid in cash six livres. With the whole tickets at [1836] and [1837] and the quarter at [1838], the album holds both denominations of both lotteries, the same instrument in its full and its divided form.",
     "notes": "N° 77281; quart de billet, 6 livres; 36e loterie, tirage de Décembre 1763.",
     "type": [
       "Coupon"
@@ -40964,7 +40964,7 @@
     "file": "goetzmann1855.jpg",
     "transcription": "",
     "title": "Notice of the Third Loterie Générale d'Association Drawing, Paris, 1762",
-    "description": "A Dernier Avis of the Loterie Générale d'Association at three livres the ticket, established by decree of the Council of 31 August 1762, announcing its third drawing on 15 December 1762 from number 99,001. The notice gives the hour and place — the Salle du Luxembourg, in the presence of the lieutenant general of police and of Monsieur Poultier, director and receiver general of the lottery — and prints the division of the lots, from one of fifteen thousand livres down to four hundred and fourteen of fifty. Printed by the widow Thiboust, printer to the King, with the permission of de Sartine.",
+    "description": "A Dernier Avis of the Loterie Générale d'Association at three livres the ticket, established by decree of the Council of 31 August 1762, announcing its third drawing on 15 December 1762 from number 99,001. The notice gives the hour and place: the Salle du Luxembourg, in the presence of the lieutenant general of police and of Monsieur Poultier, director and receiver general of the lottery, and prints the division of the lots, from one of fifteen thousand livres down to four hundred and fourteen of fifty. Printed by the widow Thiboust, printer to the King, with the permission of de Sartine.",
     "notes": "3e tirage, 15 December 1762, from N° 99001; fund 60,000 billets at 3 livres; 432 lots totalling 91,800 livres. Permis d'imprimer 13 December 1762, DE SARTINE.",
     "type": [
       "Regulatory Document"
@@ -41097,7 +41097,7 @@
     "file": "goetzmann1858.jpg",
     "transcription": "",
     "title": "Loterie Générale d'Association Society Share, Paris, 1763",
-    "description": "A share in a society of tickets of the Loterie Générale d'Association for the month of February 1763, running from number 150,988 to number 150,990 inclusive, at three livres each. The bearer is interested for a stated part in the total of the lots that may fall to the tickets named above, and the printed body reserves to the office the settlement of the division. It is made out at Paris and marked BON POUR nine livres — the price of the three tickets pooled.",
+    "description": "A share in a society of tickets of the Loterie Générale d'Association for the month of February 1763, running from number 150,988 to number 150,990 inclusive, at three livres each. The bearer is interested for a stated part in the total of the lots that may fall to the tickets named above, and the printed body reserves to the office the settlement of the division. It is made out at Paris and marked BON POUR nine livres, the price of the three tickets pooled.",
     "notes": "Société, Nos. 150988 to 150990, 3 livres each, Bon pour 9 livres; Février 1763.",
     "type": [
       "Certificate"
@@ -41416,7 +41416,7 @@
     "file": "goetzmann1874.jpg",
     "transcription": "",
     "title": "Loterie de Piété Uncut Sheet of Four Tickets, Paris",
-    "description": "An uncut sheet of four tickets of the Loterie de Piété at twenty-four sols the ticket, numbered 091, 092, 096 and 097, printed two by two and never separated. The month, the holder's name and the signature are all blank: the sheet is as it left the press, before the numbers were completed and the tickets cut apart and sold. Surviving uncut is unusual for an instrument meant to be divided, and it shows the printer's imposition — four to the sheet, with the numbers already set in the forme.",
+    "description": "An uncut sheet of four tickets of the Loterie de Piété at twenty-four sols the ticket, numbered 091, 092, 096 and 097, printed two by two and never separated. The month, the holder's name and the signature are all blank: the sheet is as it left the press, before the numbers were completed and the tickets cut apart and sold. Surviving uncut is unusual for an instrument meant to be divided, and it shows the printer's imposition, four to the sheet, with the numbers already set in the forme.",
     "notes": "Four tickets, Nos. 091, 092, 096, 097, uncut and unissued; month, name and signature blank. ⚠ No date anywhere on the sheet; issueDate is left blank.",
     "type": [
       "Lottery Bond"
@@ -42296,7 +42296,7 @@
     "file": "goetzmann1919.jpg",
     "transcription": "",
     "title": "Third Lottery of the Electorate of Cologne Ticket No. 32049, 1759",
-    "description": "A ticket of the third lottery of the Electorate of Cologne for the year 1759, number 32,049. The sheet is framed in a woodcut border with the words AUDACES FORTUNA JUVAT TIMIDOSQUE REPELLIT running down the sides — fortune favours the bold and rebuffs the timid. The text is in French, the language of administration in the Rhineland electorates. It is the first of two Cologne pieces in this album, the other being the fourth-class subscription at [1920].",
+    "description": "A ticket of the third lottery of the Electorate of Cologne for the year 1759, number 32,049. The sheet is framed in a woodcut border with the words AUDACES FORTUNA JUVAT TIMIDOSQUE REPELLIT running down the sides, fortune favours the bold and rebuffs the timid. The text is in French, the language of administration in the Rhineland electorates. It is the first of two Cologne pieces in this album, the other being the fourth-class subscription at [1920].",
     "notes": "Troisième Loterie de l'Électorat de Cologne, Année 1759, Numéro 32049. Border motto 'Audaces Fortuna Juvat Timidosque Repellit'.",
     "type": [
       "Lottery Bond"
@@ -42634,7 +42634,7 @@
     "file": "goetzmann1938.jpg",
     "transcription": "",
     "title": "Banque de Confiance Gold Note, Series 39, Paris, 1792",
-    "description": "A note of the Banque de Confiance at number 8, rue Notre-Dame des Victoires, headed OR — gold — volume 7, series 39, number 75, dated at Paris 27 April 1792. When the number 75 of the 39th series comes up for payment, or falls within the ten of the first and last number of one of the drawings of the Loterie Royale, the bearer is to receive sixteen louis, paying four louis in assignats. The house used the royal lottery's own drawings to schedule redemption, and exchanged hard coin for depreciating paper at a set ratio.",
+    "description": "A note of the Banque de Confiance at number 8, rue Notre-Dame des Victoires, headed OR, gold, volume 7, series 39, number 75, dated at Paris 27 April 1792. When the number 75 of the 39th series comes up for payment, or falls within the ten of the first and last number of one of the drawings of the Loterie Royale, the bearer is to receive sixteen louis, paying four louis in assignats. The house used the royal lottery's own drawings to schedule redemption, and exchanged hard coin for depreciating paper at a set ratio.",
     "notes": "OR; Vol. 7, Série 39, N° 75; Paris, 27 April 1792. Sixteen louis against four louis in assignats, payable by the numbers of the Loterie Royale drawings. Companion to the silver note at [1939].",
     "type": [
       "Promissory Note"
@@ -42679,7 +42679,7 @@
     "file": "goetzmann1939.jpg",
     "transcription": "",
     "title": "Banque de Confiance Silver Note, Series 69, Paris, 1792",
-    "description": "A note of the Banque de Confiance headed ARGENT — silver — series 69, number 83, dated at Paris 27 April 1792, on the same form as the gold note at [1938]. When the number comes up for payment, or falls within the ten of the first and last number of a Loterie Royale drawing, the bearer is to receive four hundred livres in silver for four hundred livres in assignats. The pair shows the same house dealing in both metals on the same day, at different ratios to the paper.",
+    "description": "A note of the Banque de Confiance headed ARGENT, silver, series 69, number 83, dated at Paris 27 April 1792, on the same form as the gold note at [1938]. When the number comes up for payment, or falls within the ten of the first and last number of a Loterie Royale drawing, the bearer is to receive four hundred livres in silver for four hundred livres in assignats. The pair shows the same house dealing in both metals on the same day, at different ratios to the paper.",
     "notes": "ARGENT; V.C. Série 69, N° 83; Paris, 27 April 1792. Four hundred livres in silver for four hundred livres in assignats — at par, where the gold note at [1938] exchanges sixteen louis for four.",
     "type": [
       "Promissory Note"
@@ -42724,7 +42724,7 @@
     "file": "goetzmann1940.jpg",
     "transcription": "",
     "title": "Letter with Lottery Account Recapitulation, Paris, 1789",
-    "description": "A letter written at Paris on 30 October 1789, answering a correspondent's letter of the 25th about tickets bought and remitted, and closing with a recapitulation of the account in a column of figures totalled at the foot. Two leaves. Letters of this kind are the working correspondence behind the printed instruments elsewhere in the album — the ticket bought in Paris for a buyer in the provinces, and the reckoning that followed.",
+    "description": "A letter written at Paris on 30 October 1789, answering a correspondent's letter of the 25th about tickets bought and remitted, and closing with a recapitulation of the account in a column of figures totalled at the foot. Two leaves. Letters of this kind are the working correspondence behind the printed instruments elsewhere in the album, the ticket bought in Paris for a buyer in the provinces, and the reckoning that followed.",
     "notes": "Paris, 30 October 1789; two leaves, with a 'Récapitulation' of figures. ⚠ Correspondent unnamed in the portion read; the totals are entered in a cursive hand and are not transcribed.",
     "type": [
       "Correspondence"
@@ -42776,7 +42776,7 @@
     "file": "goetzmann1942.jpg",
     "transcription": "",
     "title": "Two Loterie Royale de France Tickets, Bureau 616, 1793",
-    "description": "Two tickets of the Loterie Royale de France photographed side by side, both from bureau 616 — registered numbers 157 and 150 — for the first drawing of one thousand seven hundred and ninety-three. Each carries five numbers written against names, the first Adolphe, Hélène, Yves, Sophie and Lucile, the second Joséphine, Nestor, Basile and Isidore among them. Both are signed Blanquet under the embossed seal. The lottery was still styled Royale and still drawing in 1793.",
+    "description": "Two tickets of the Loterie Royale de France photographed side by side, both from bureau 616, registered numbers 157 and 150, for the first drawing of one thousand seven hundred and ninety-three. Each carries five numbers written against names, the first Adolphe, Hélène, Yves, Sophie and Lucile, the second Joséphine, Nestor, Basile and Isidore among them. Both are signed Blanquet under the embossed seal. The lottery was still styled Royale and still drawing in 1793.",
     "notes": "⚠ TWO TICKETS. Both bureau 616, Enr. 157 and Enr. 150, premier tirage de 1793, signed Blanquet. ⚠ TWO INSTRUMENTS PRINTED ON ONE SHEET, uncut. This is a single physical object and is correctly a single record — not two objects photographed together. Compare the uncut sheet of four Loterie de Piété tickets at [1874].",
     "type": [
       "Lottery Bond"
@@ -42874,7 +42874,7 @@
     "file": "goetzmann1944.jpg",
     "transcription": "",
     "title": "Decree of the National Convention Suppressing All Lotteries, Paris, 1793",
-    "description": "The printed decree of the National Convention of the 25th day of Brumaire, year II of the French Republic one and indivisible, number 1896, which suppresses all lotteries. Article one declares them abolished; the following articles forbid any lottery under whatever name from being drawn after the term fixed, charge the Committee of Finances with settling the accounts of those wound up, and order the decree inserted in the bulletin. Two leaves. Everything earlier in this album — royal, municipal, charitable and military — is ended by this sheet.",
+    "description": "The printed decree of the National Convention of the 25th day of Brumaire, year II of the French Republic one and indivisible, number 1896, which suppresses all lotteries. Article one declares them abolished; the following articles forbid any lottery under whatever name from being drawn after the term fixed, charge the Committee of Finances with settling the accounts of those wound up, and order the decree inserted in the bulletin. Two leaves. It ends every scheme earlier in this album: royal, municipal, charitable and military.",
     "notes": "Décret de la Convention Nationale, 25 Brumaire an II (15 November 1793), N° 1896, 'Qui supprime toutes les Loteries'. ⚠ The Convention's own Loterie Nationale is re-established under the decree of 23 Germinal an III — see [1972] and [1973].",
     "type": [
       "Regulatory Document"
@@ -43156,7 +43156,7 @@
     "file": "goetzmann1969.jpg",
     "transcription": "",
     "title": "Précis sur les Loteries, Paris",
-    "description": "A printed Précis sur les Loteries in three leaves, arguing the case for the instrument. It opens by conceding that the resources of a state are the vices of man, and works through the objections — that lotteries impoverish those least able to bear it, that they draw money from the provinces to the capital — before setting against them the revenue they raise and the difficulty of suppressing a practice that will continue in private hands if the state withdraws from it.",
+    "description": "A printed Précis sur les Loteries in three leaves, arguing the case for the instrument. It opens by conceding that the resources of a state are the vices of man, and works through the objections: that lotteries impoverish those least able to bear it, that they draw money from the provinces to the capital; before setting against them the revenue they raise and the difficulty of suppressing a practice that will continue in private hands if the state withdraws from it.",
     "notes": "Précis sur les Loteries, three leaves. ⚠ No author, printer or date on the leaves examined; issueDate left blank.",
     "type": [
       "Pamphlet"
@@ -43211,7 +43211,7 @@
     "file": "goetzmann1972.jpg",
     "transcription": "",
     "title": "National Lottery of Houses and Furniture Ticket No. 657218, Year III",
-    "description": "A ticket of fifty francs in the National Lottery of Houses, Furniture and Effects, number 657,218, established by decree of the Convention of 23 Germinal year III, for the drawing of the month of Fructidor year III. It is delivered by the municipal steward in the commune named on the form and signed there. The prizes in this lottery were not sums of money but confiscated buildings and their contents — the nationalised property of the Revolution put into a draw.",
+    "description": "A ticket of fifty francs in the National Lottery of Houses, Furniture and Effects, number 657,218, established by decree of the Convention of 23 Germinal year III, for the drawing of the month of Fructidor year III. It is delivered by the municipal steward in the commune named on the form and signed there. The prizes in this lottery were not sums of money but confiscated buildings and their contents, the nationalised property of the Revolution put into a draw.",
     "notes": "N° 657,218; Billet de cinquante francs; décret de la Convention du 23 Germinal an III; tirage du mois de Fructidor an III. Delivered by the Économe municipal.",
     "type": [
       "Lottery Bond"
@@ -43388,7 +43388,7 @@
     "file": "goetzmann1976.jpg",
     "transcription": "",
     "title": "Lottery of a Spun-Glass Piece, Bordeaux, 1808",
-    "description": "A ticket at ten sols in a lottery of a piece of spun glass, to be won by the first number coming out of the lottery of Bordeaux at the third drawing of July 1808, number 9. The office is given as the Marché-Neuf, number 16. Like the muslin garniture at [1975], it is a private lottery of a single object that settles itself on the public drawing — the vendor needing no wheel of his own, only the numbers the state lottery produced.",
+    "description": "A ticket at ten sols in a lottery of a piece of spun glass, to be won by the first number coming out of the lottery of Bordeaux at the third drawing of July 1808, number 9. The office is given as the Marché-Neuf, number 16. Like the muslin garniture at [1975], it is a private lottery of a single object that settles itself on the public drawing, the vendor needing no wheel of his own, only the numbers the state lottery produced.",
     "notes": "N° 9; à 10 sols le billet; won by the first number out of the Loterie de Bordeaux, 3e tirage de Juillet 1808; Au Marché-Neuf, N° 16.",
     "type": [
       "Lottery Bond"
@@ -43432,7 +43432,7 @@
     "file": "goetzmann1977.jpg",
     "transcription": "",
     "title": "Loterie Nationale Public Notice No. 136, Paris",
-    "description": "An Avis au Public of the Loterie Nationale, number 136, issued under the executive Directory. Three leaves. Under the heading Première Classe it tabulates the simple chances — extrait simple, extrait déterminé, ambe simple, ambe déterminé, terne, quaterne, quine — with what each produces, and works each through in a paragraph beneath. It is the Directory's version of the Avis Instructif the École Royale Militaire lottery had printed forty years earlier, at [1825], on the same Genoese scheme of ninety numbers.",
+    "description": "An Avis au Public of the Loterie Nationale, number 136, issued under the executive Directory. Three leaves. Under the heading Première Classe it tabulates the simple chances: extrait simple, extrait déterminé, ambe simple, ambe déterminé, terne, quaterne, quine, with what each produces, and works each through in a paragraph beneath. It is the Directory's version of the Avis Instructif the École Royale Militaire lottery had printed forty years earlier, at [1825], on the same Genoese scheme of ninety numbers.",
     "notes": "[N° 136]; Loterie Nationale, Avis au Public, Directoire exécutif; three leaves. ⚠ No printed date; issueDate is left blank. The Directory ran 1795-1799.",
     "type": [
       "Prospectus"
@@ -43759,7 +43759,7 @@
     "file": "goetzmann1986.jpg",
     "transcription": "",
     "title": "Loterie Nationale Stake Receipts, First Sheet",
-    "description": "A sheet of Loterie Nationale stake receipts headed Première Feuille, printed République française, bureau 1 and registration 1 — the opening numbers of a new register. The forms are ruled for the numbers staked and the several kinds of stake, and are blank: no sum, no numbers and no signature were entered. It shows the instrument as supplied to a bureau, before any subscriber's stake was written on it.",
+    "description": "A sheet of Loterie Nationale stake receipts headed Première Feuille, printed République française, bureau 1 and registration 1, the opening numbers of a new register. The forms are ruled for the numbers staked and the several kinds of stake, and are blank: no sum, no numbers and no signature were entered. It shows the instrument as supplied to a bureau, before any subscriber's stake was written on it.",
     "notes": "[1re Feuille]; B.° 1, Enr.° 1, blank and unissued. ⚠ No date; issueDate is left blank.",
     "type": [
       "Receipt"
@@ -43891,7 +43891,7 @@
     "file": "goetzmann1989.jpg",
     "transcription": "",
     "title": "Imperial Lottery of France Stake Receipt, Bureau 1",
-    "description": "A stake receipt of the Imperial Lottery of France, bureau 1, registration 1, carrying two sets of numbers entered in a clear hand — 30, 36 and 60 above, 83 and 88 below — against the printed lines for the kinds of stake. The heading has changed from République to Impériale, but the form is the one the Directory's lottery used and the royal lottery before it, the wording altered only where the regime is named.",
+    "description": "A stake receipt of the Imperial Lottery of France, bureau 1, registration 1, carrying two sets of numbers entered in a clear hand: 30, 36 and 60 above, 83 and 88 below, against the printed lines for the kinds of stake. The heading has changed from République to Impériale, but the form is the one the Directory's lottery used and the royal lottery before it, the wording altered only where the regime is named.",
     "notes": "B.au 1, Enr.° 1; numbers 30-36-60 and 83-88. ⚠ No legible date; the Loterie Impériale ran from 1804 to 1814.",
     "type": [
       "Receipt"
@@ -43932,7 +43932,7 @@
     "file": "goetzmann1990.jpg",
     "transcription": "",
     "title": "Imperial Lottery of France Stake Receipt Sheet, Brussels",
-    "description": "A sheet headed Première Feuille carrying stake receipts of the Imperial Lottery of France from the bureau at Brussels, the city named at the head above the printed form. The forms are ruled for the numbers staked and the kinds of stake. With the republican coupon at [1988], it shows the same Brussels office under two regimes — the Republic's lottery and then the Emperor's, on the same premises and the same paper.",
+    "description": "A sheet headed Première Feuille carrying stake receipts of the Imperial Lottery of France from the bureau at Brussels, the city named at the head above the printed form. The forms are ruled for the numbers staked and the kinds of stake. With the republican coupon at [1988], it shows the same Brussels office under two regimes, the Republic's lottery and then the Emperor's, on the same premises and the same paper.",
     "notes": "[1re Feuille]; à Bruxelles; Loterie Impériale de France. ⚠ No legible date or registration; left blank rather than guessed.",
     "type": [
       "Receipt"
@@ -43974,7 +43974,7 @@
     "file": "goetzmann1991.jpg",
     "transcription": "",
     "title": "Lottery Bureau Account, Grenoble, 1813",
-    "description": "An account established by the administration for the arrondissement of Grenoble, first series, for January 1813, ruled in two halves headed Recette and Dépense. The receipts and payments of the bureau are entered against the printed heads, with the totals carried to the foot. Two leaves. It is the working record behind the tickets and drawing lists elsewhere in this album — what one provincial office of the Imperial Lottery took in and paid out in a single month.",
+    "description": "An account established by the administration for the arrondissement of Grenoble, first series, for January 1813, ruled in two halves headed Recette and Dépense. The receipts and payments of the bureau are entered against the printed heads, with the totals carried to the foot. Two leaves. It is the working record behind the tickets and drawing lists elsewhere in this album; what one provincial office of the Imperial Lottery took in and paid out in a single month.",
     "notes": "Arrond.t de Grenoble, 1re Série, Janvier 1813; 'Compte établi par l'Administration', Recette and Dépense. ⚠ The figures are entered in a fine hand and are not transcribed.",
     "type": [
       "Register"
@@ -44124,7 +44124,7 @@
     "file": "goetzmann1996.jpg",
     "transcription": "",
     "title": "Lottery of a Fine English Engraving, One Franc the Ticket",
-    "description": "A printed ticket for a lottery of a fine English engraving at one franc the ticket, the number left blank. The sheet carries nothing but the announcement, ruled between plain rules. Like the muslin garniture at [1975] and the spun-glass piece at [1976], it is a private lottery of a single object — here a print, at a price that put a chance at it within reach of almost anyone.",
+    "description": "A printed ticket for a lottery of a fine English engraving at one franc the ticket, the number left blank. The sheet carries nothing but the announcement, ruled between plain rules. Like the muslin garniture at [1975] and the spun-glass piece at [1976], it is a private lottery of a single object, here a print, at a price that put a chance at it within reach of almost anyone.",
     "notes": "'Loterie d'une belle Gravure Anglaise, à un franc le Billet.' ⚠ Number blank and unissued; no date, vendor or address on the sheet, so issueDate and creator are left empty.",
     "type": [
       "Lottery Bond"
@@ -44218,7 +44218,7 @@
     "file": "goetzmann1999.jpg",
     "transcription": "",
     "title": "Loterie Royale de France Public Notice No. 136",
-    "description": "An Avis au Public of the Loterie Royale de France, number 136, citing a government order of the 17th of Vendémiaire and tabulating the simple chances of the first class — extrait simple, extrait déterminé, ambe simple, ambe déterminé, terne, quaterne and quine — with what each produces and a paragraph explaining each. Three leaves. It is the same sheet, number and all, as the republican notice at [1977], reissued under a royal heading.",
+    "description": "An Avis au Public of the Loterie Royale de France, number 136, citing a government order of the 17th of Vendémiaire and tabulating the simple chances of the first class: extrait simple, extrait déterminé, ambe simple, ambe déterminé, terne, quaterne and quine, with what each produces and a paragraph explaining each. Three leaves. It is the same sheet, number and all, as the republican notice at [1977], reissued under a royal heading.",
     "notes": "⚠ CONFUSED HEADING, recorded not resolved. The sheet is headed LOTERIE ROYALE DE FRANCE, 'Rétablie par la loi du 9 Vendémiaire', and cites an arrêté of 17 Vendémiaire — a republican calendar under a royal title. It carries the same number 136 as the Loterie Nationale notice at [1977]. Most likely a Restoration reprint from the republican forme; issueDate is left blank rather than guessed.",
     "type": [
       "Prospectus"
@@ -44449,7 +44449,7 @@
     "file": "goetzmann2006.jpg",
     "transcription": "",
     "title": "Lottery Stake Slips, Paris",
-    "description": "A sheet carrying two small manuscript stake slips headed Paris, each ruled in columns and completed with a set of numbers — 5, 6, 37 and 81 on the first — against the sums staked. They are the working slips of a lottery office rather than printed tickets: what the clerk wrote down as the stake was taken, before it was entered on a numbered form.",
+    "description": "A sheet carrying two small manuscript stake slips headed Paris, each ruled in columns and completed with a set of numbers: 5, 6, 37 and 81 on the first, against the sums staked. They are the working slips of a lottery office rather than printed tickets: what the clerk wrote down as the stake was taken, before it was entered on a numbered form.",
     "notes": "Two manuscript slips headed 'Paris'; numbers 5-6-37-81 on the first. ⚠ Undated and unsigned; issueDate left blank. ⚠ TWO INSTRUMENTS PRINTED ON ONE SHEET, uncut. This is a single physical object and is correctly a single record — not two objects photographed together. Compare the uncut sheet of four Loterie de Piété tickets at [1874].",
     "type": [
       "Receipt"
@@ -44696,7 +44696,7 @@
     "file": "goetzmann2025.jpg",
     "transcription": "",
     "title": "Tontine des Vieillards Receipt No. 9, Paris",
-    "description": "A receipt of the Tontine des Vieillards, number 9, in which the undersigned cashier of that tontine, at the office in the rue Grange-Batelière, acknowledges having received from a subscriber the sum entered on the form. The name of the scheme — the tontine of the aged — marks it as one of the private Paris tontines formed on the lives of older nominees, whose shares therefore fell in sooner and paid the survivors more quickly.",
+    "description": "A receipt of the Tontine des Vieillards, number 9, in which the undersigned cashier of that tontine, at the office in the rue Grange-Batelière, acknowledges having received from a subscriber the sum entered on the form. The name of the scheme, the tontine of the aged, marks it as one of the private Paris tontines formed on the lives of older nominees, whose shares therefore fell in sooner and paid the survivors more quickly.",
     "notes": "N° 9; Tontine des Vieillards, rue Grange-Batelière, Paris. ⚠ The subscriber's name, the sum and the date are entered in a cursive hand and are not read with confidence; issueDate is left blank.",
     "type": [
       "Tontine"
@@ -44973,7 +44973,7 @@
     "file": "goetzmann2040.jpg",
     "transcription": "",
     "title": "Prospectus of the Sieur Argoud's Lottery, Grenoble",
-    "description": "The printed prospectus of the lottery of the sieur Argoud, marble worker at Grenoble, authorised by the magistrate exercising the police of the city of Grenoble. Four leaves, printed at Grenoble by Joseph Cuchet. The scheme is composed of a stated number of tickets and its prizes are the tradesman's own work — a craftsman disposing of his stock by lottery under municipal licence, at the other end of the scale from the royal schemes that fill the rest of this album.",
+    "description": "The printed prospectus of the lottery of the sieur Argoud, marble worker at Grenoble, authorised by the magistrate exercising the police of the city of Grenoble. Four leaves, printed at Grenoble by Joseph Cuchet. The scheme is composed of a stated number of tickets and its prizes are the tradesman's own work, a craftsman disposing of his stock by lottery under municipal licence, at the other end of the scale from the royal schemes that fill the rest of this album.",
     "notes": "Prospectus de la Loterie du sieur Argoud, marbrier à Grenoble; imprimé à Grenoble par Joseph Cuchet. ⚠ No date on the leaves examined; issueDate is left blank.",
     "type": [
       "Prospectus"
@@ -45080,7 +45080,7 @@
     "file": "goetzmann2045.jpg",
     "transcription": "",
     "title": "Loterie Royale de France Public Notice, 1776",
-    "description": "An Avis au Public of the Loterie Royale de France, reciting that the King, by decree of his Council of 3 December 1776, has ordered the arrangements it sets out, and tabulating the simple chances of the first class — extrait simple, extrait déterminé, ambe simple, ambe déterminé, terne, quaterne and quine — with what each produces. Three leaves. The decree it cites is the one at [1893], which suppressed the free premiums and raised the lots; this is how that change was put to the public.",
+    "description": "An Avis au Public of the Loterie Royale de France, reciting that the King, by decree of his Council of 3 December 1776, has ordered the arrangements it sets out, and tabulating the simple chances of the first class: extrait simple, extrait déterminé, ambe simple, ambe déterminé, terne, quaterne and quine, with what each produces. Three leaves. The decree it cites is the one at [1893], which suppressed the free premiums and raised the lots; this is how that change was put to the public.",
     "notes": "Avis au Public citing the arrêt du Conseil of 3 December 1776 — the decree at [1893]. ⚠ A SECOND COPY is at [2048]; the two are kept as multiples.",
     "type": [
       "Prospectus"
@@ -45137,7 +45137,7 @@
     "file": "goetzmann2048.jpg",
     "transcription": "",
     "title": "Loterie Royale de France Public Notice, Second Copy, 1776",
-    "description": "A second copy of the Avis au Public of the Loterie Royale de France citing the decree of 3 December 1776, in three leaves, with the same text and the same table of simple chances as the copy at [2045]. The album keeps both, as it keeps both printings of the decree of 31 August 1762 at [1841] and [1848] — a collector's habit of retaining duplicates that here preserves the small differences between impressions.",
+    "description": "A second copy of the Avis au Public of the Loterie Royale de France citing the decree of 3 December 1776, in three leaves, with the same text and the same table of simple chances as the copy at [2045]. The album keeps both, as it keeps both printings of the decree of 31 August 1762 at [1841] and [1848], a collector's habit of retaining duplicates that here preserves the small differences between impressions.",
     "notes": "Second copy of [2045]. ⚠ Kept as a multiple, not culled: two physical copies in one album are different objects, and the collection's rule culls only duplicate SCANS of a single sheet.",
     "type": [
       "Prospectus"
@@ -45247,7 +45247,7 @@
     "file": "goetzmann2053.jpg",
     "transcription": "",
     "title": "Loterie Royale de France Numerical Table",
-    "description": "A large printed table of the Loterie Royale de France, ruled in fine columns across the whole sheet and filled with figures. It is a working table of the administration rather than an instrument issued to the public — the kind of sheet against which stakes and drawings were checked. It closes the album, whose last leaves are all administrative: the Grenoble account, the tontine account and this.",
+    "description": "A large printed table of the Loterie Royale de France, ruled in fine columns across the whole sheet and filled with figures. It is a working table of the administration rather than an instrument issued to the public; the kind of sheet against which stakes and drawings were checked. It closes the album, whose last leaves are all administrative: the Grenoble account, the tontine account and this.",
     "notes": "⚠ The table's heading and purpose are not legible at the resolution examined, and the columns are not transcribed. Catalogued from what the sheet plainly is; it deserves a closer look.",
     "type": [
       "Register"
