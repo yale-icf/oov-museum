@@ -25590,7 +25590,7 @@
   {
     "id": "goetzmann1161",
     "title": "Merchant Account Ledger in Lire, Soldi and Denari",
-    "description": "A manuscript ledger leaf of merchant accounts, written in Italian in a heavily flourished cursive hand and reckoned in lire, soldi and denari. Names and account headings run down each column with their amounts set against them in three figures, and the columns close with totals carried forward. Several sums are written out in words as well as figures, among them duecento settantasei and settantadue. The upper third of the leaf is given over to elaborate penmanship flourishes. No date or place appears on it.",
+    "description": "A manuscript ledger leaf of merchant accounts, written in Italian in a heavily flourished cursive hand and reckoned in lire, soldi and denari. Names and account headings run down each column with their amounts set against them in three figures, and the columns close with totals carried forward. Several sums are written out in words as well as figures, among them duecento settantasei and settantadue. The upper third of the leaf is given over to elaborate penmanship flourishes. The year 1600 is written at the head of the leaf, with the folio number 22 at the right; no place appears.",
     "type": [
       "Register"
     ],
@@ -25604,17 +25604,21 @@
       "Italy"
     ],
     "creator": "",
-    "issueYear": [],
+    "issueYear": [
+      "1600"
+    ],
     "currency": [
       "Italian lira"
     ],
     "language": [
       "Italian"
     ],
-    "period": [],
+    "period": [
+      "17th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Four leaves. ⚠ The record called this a French ledger \"in livres, sols (sous), and deniers, the traditional monetary system used in France before the Revolution\". The number words written out on the leaf are Italian -- duecento settantasei, settantadue, sei -- and the column heads read Summa, so it is Italian and the money is lire, soldi and denari. Title, description, language and country all corrected. No legible date, so period is left empty rather than guessed from the hand.",
+    "notes": "Four leaves. ⚠ The record called this a French ledger \"in livres, sols (sous), and deniers, the traditional monetary system used in France before the Revolution\". The number words written out on the leaf are Italian -- duecento settantasei, settantadue, sei -- and the column heads read Summa, so it is Italian and the money is lire, soldi and denari. Title, description, language and country all corrected. ⚠ DATED 2026-09-18: the year 1600 is written at the head of the leaf, which an earlier reading missed, and the folio number 22 stands at the right. Period follows the collection’s COMMON century convention, by which 1600 is the 17th Century as 1800 is the 19th.",
     "identifiers": [],
     "namedIndividuals": [],
     "transcription": "",
@@ -26112,10 +26116,12 @@
     "language": [
       "German"
     ],
-    "period": [],
+    "period": [
+      "Pre-17th Century"
+    ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "⚠ THE SOURCE ROW IS MISMATCHED. To_Add_Files.xlsx pairs this Nuremberg title with a description of a completely different document: \"Lot # 222 9 March 1797, 1 Share of Capital Stock á US-$ 100, #771 ... The earliest American insurance share we know of. R10 After the American Revolution, shipping grew tremendously. Nevertheless the Maryland legislature cha[rtered]...\". That text is preserved here in case the insurance share is found; it does not describe this object. ⚠ UNDATED: the dating clause reads \"... hundert vnd In dem Acht vnd Dreissigisten Iare\", the thirty-eighth year, but the century word is abraded. The hand suggests the 15th century, which would make this among the oldest items in the collection, so the date is left empty rather than guessed. Worth an expert reading. Currency likewise left empty: the text says gulden but does not name the standard. Given on a Pfinztag (Thursday).",
+    "notes": "⚠ THE SOURCE ROW IS MISMATCHED. To_Add_Files.xlsx pairs this Nuremberg title with a description of a completely different document: \"Lot # 222 9 March 1797, 1 Share of Capital Stock á US-$ 100, #771 ... The earliest American insurance share we know of. R10 After the American Revolution, shipping grew tremendously. Nevertheless the Maryland legislature cha[rtered]...\". That text is preserved here in case the insurance share is found; it does not describe this object. ⚠ UNDATED: the dating clause reads \"... hundert vnd In dem Acht vnd Dreissigisten Iare\", the thirty-eighth year, but the century word is abraded. The hand suggests the 15th century, which would make this among the oldest items in the collection, so the date is left empty rather than guessed. Worth an expert reading. Currency likewise left empty: the text says gulden but does not name the standard. Given on a Pfinztag (Thursday). ⚠ PERIOD SET 2026-09-18 to Pre-17th Century WITHOUT a year. The year stays unknown because the century word is abraded, but the period does not depend on it: vellum, a pendant seal, a German Gothic charter hand and the dating by Pfinztag after St George’s day place the object before 1600 whichever century the thirty-eighth year belongs to, 1438 or 1538. Leaving period empty had kept a pre-17th-century object out of that facet altogether.",
     "identifiers": [],
     "namedIndividuals": [
       "Peter Kotzler"
