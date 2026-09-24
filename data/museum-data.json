@@ -43859,9 +43859,9 @@
     "id": "goetzmann1989",
     "file": "goetzmann1989.jpg",
     "transcription": "",
-    "title": "Imperial Lottery of France Stake Receipt, Bureau 1",
+    "title": "Imperial Lottery of France Stake Receipt, Bureau 1, 1812",
     "description": "A stake receipt of the Imperial Lottery of France, bureau 1, registration 1, carrying two sets of numbers entered in a clear hand: 30, 36 and 60 above, 83 and 88 below, against the printed lines for the kinds of stake. The heading has changed from République to Impériale, but the form is the one the Directory's lottery used and the royal lottery before it, the wording altered only where the regime is named.",
-    "notes": "B.au 1, Enr.° 1; numbers 30-36-60 and 83-88. ⚠ No legible date; the Loterie Impériale ran from 1804 to 1814.",
+    "notes": "B.au 1, Enr.° 1; numbers 30-36-60 and 83-88. ⚠ No legible date; the Loterie Impériale ran from 1804 to 1814. The drawing is entered by hand as the first of April 1812; issueDate set from the plate.",
     "type": [
       "Receipt"
     ],
@@ -43894,7 +43894,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1812"
+    ]
   },
   {
     "id": "goetzmann1990",
@@ -44243,9 +44245,9 @@
     "id": "goetzmann2002",
     "file": "goetzmann2002.jpg",
     "transcription": "",
-    "title": "Loterie Royale de France Stake Receipt, Paris",
+    "title": "Loterie Royale de France Stake Receipt, Paris, 1818",
     "description": "A stake receipt of the Loterie Royale de France from a Paris bureau, numbered 51, the numbers 17, 6, 27 and 71 entered across the form against the printed lines for the kinds of stake. The heading has returned to Royale after the Empire, on the same form the Directory and the Emperor had used in turn.",
-    "notes": "B. 51; Paris; numbers 17-6-27-71. ⚠ The year is indistinct; the Loterie Royale de France ran under the Restoration from 1814 until the lottery was abolished in 1836.",
+    "notes": "B. 51; Paris; numbers 17-6-27-71. ⚠ The year is indistinct; the Loterie Royale de France ran under the Restoration from 1814 until the lottery was abolished in 1836. The drawing is entered as May 1818; issueDate set from the plate.",
     "type": [
       "Receipt"
     ],
@@ -44279,15 +44281,17 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1818"
+    ]
   },
   {
     "id": "goetzmann2003",
     "file": "goetzmann2003.jpg",
     "transcription": "",
-    "title": "Loterie Royale de France Stake Receipt, Strasbourg",
+    "title": "Loterie Royale de France Stake Receipt, Strasbourg, 1818",
     "description": "A stake receipt of the Loterie Royale de France from the bureau at Strasbourg, the numbers 8, 80 and 88 entered across the printed form with the sum received noted at the right and the receiver's signature at the foot. It is the Restoration counterpart of the imperial drawing list from the same city at [1985].",
-    "notes": "Strasbourg; numbers 8-80-88. ⚠ Bureau, registration and year are faint on this copy and are not recorded.",
+    "notes": "Strasbourg; numbers 8-80-88. ⚠ Bureau, registration and year are faint on this copy and are not recorded. The drawing is stamped 17 September 1818; issueDate set from the plate.",
     "type": [
       "Receipt"
     ],
@@ -44319,7 +44323,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1818"
+    ]
   },
   {
     "id": "goetzmann2004",
@@ -44707,9 +44713,9 @@
     "id": "goetzmann2026",
     "file": "goetzmann2026.jpg",
     "transcription": "",
-    "title": "Notarial Act on a Tontine Life-Annuity Division, Paris",
+    "title": "Notarial Act on a Tontine Life-Annuity Division, Paris, 1779",
     "description": "A manuscript notarial act passed in the presence of the undersigned notaries at Paris, headed with a printed line for the tontine and accroissement agreed in life annuities, tenth division. The body records the appearance of the subscriber and the terms on which his share is entered. Two leaves. The accroissement is the heart of a tontine: the share of each subscriber who dies is added to those of the survivors in his division, so the printed heading names the division as well as the scheme.",
-    "notes": "'Tontine & Accroissement convenus en Rentes Viagères, Dixième Division'; manuscript notarial act, Paris, two leaves. ⚠ The parties, sum and date are in a close hand and are not transcribed.",
+    "notes": "'Tontine & Accroissement convenus en Rentes Viagères, Dixième Division'; manuscript notarial act, Paris, two leaves. ⚠ The parties, sum and date are in a close hand and are not transcribed. Dated by hand \"l'an mil sept cent soixante-dix-neuf le six avril\", 6 April 1779, for arrears of 1778; issueDate set from the plate.",
     "type": [
       "Tontine"
     ],
@@ -44754,7 +44760,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1779"
+    ]
   },
   {
     "id": "goetzmann2028",
