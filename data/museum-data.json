@@ -10955,7 +10955,7 @@
       "Belgium"
     ],
     "currency": [
-      "Pounds wisselgeld"
+      "Flemish Pounds"
     ],
     "language": [
       "Dutch"
@@ -20787,7 +20787,7 @@
       "1736"
     ],
     "currency": [
-      "Gulden"
+      "Austrian gulden"
     ],
     "language": [
       "Dutch"
@@ -21619,7 +21619,7 @@
       "Belgium"
     ],
     "currency": [
-      "Florins"
+      "Brabant florin"
     ],
     "language": [
       "French"
@@ -22924,7 +22924,7 @@
       "Austria"
     ],
     "currency": [
-      "Gulden (Austrian)"
+      "Austrian gulden"
     ],
     "language": [
       "German"
@@ -23848,7 +23848,7 @@
       "Belgium"
     ],
     "currency": [
-      "Guilden"
+      "Brabant florin"
     ],
     "language": [
       "Dutch"
@@ -23895,7 +23895,7 @@
       "Belgium"
     ],
     "currency": [
-      "Florins"
+      "Brabant florin"
     ],
     "language": [
       "French"
@@ -26029,7 +26029,9 @@
     ],
     "creator": "Stadt Nürnberg",
     "issueYear": [],
-    "currency": [],
+    "currency": [
+      "Rhenish gulden"
+    ],
     "language": [
       "German"
     ],
@@ -33302,7 +33304,7 @@
       "Tontine"
     ],
     "currency": [
-      "Florins"
+      "Brabant florin"
     ],
     "language": [
       "French"
@@ -33368,7 +33370,7 @@
       "Tontine"
     ],
     "currency": [
-      "Florins"
+      "Brabant florin"
     ],
     "language": [
       "Dutch"

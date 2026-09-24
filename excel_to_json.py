@@ -116,6 +116,12 @@ CURRENCY_ALIASES = {
     'Austro-Hungarian korona': 'Austro-Hungarian krone',
     'Scudi fiorentini': 'Florentine scudo',
     'Guan (貫)': 'Chinese copper cash',
+    # the gulden/florin family (user's plan, 2026-09-24): Brabant florins of Antwerp, Brussels
+    # and Ostend kept apart from Austrian, South German and Dutch money
+    'Florins': 'Brabant florin',
+    'Guilden': 'Brabant florin',
+    'Gulden (Austrian)': 'Austrian gulden',
+    'Pounds wisselgeld': 'Flemish Pounds',
     # not currencies: notes about the object that landed in the currency cell; dropped below
     'multiple': '',
     'Benzol (commodity-linked)': '',
