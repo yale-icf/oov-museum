@@ -20,7 +20,7 @@
       "Austria"
     ],
     "currency": [
-      "Austrian Krone (K)"
+      "Austrian krone"
     ],
     "language": [
       "German"
@@ -97,7 +97,7 @@
       "Bulgaria"
     ],
     "currency": [
-      "Bulgarian Lev"
+      "Bulgarian lev"
     ],
     "language": [
       "Bulgarian"
@@ -1986,7 +1986,9 @@
     "issuingCountry": [
       "Belgium"
     ],
-    "currency": [],
+    "currency": [
+      "Flemish Pounds"
+    ],
     "language": [
       "Dutch"
     ],
@@ -2124,7 +2126,7 @@
       "United States"
     ],
     "currency": [
-      "Massachusetts Pounds"
+      "Massachusetts pound"
     ],
     "language": [
       "English"
@@ -10348,7 +10350,7 @@
       "United States"
     ],
     "currency": [
-      "Connecticut Pounds"
+      "Connecticut pound"
     ],
     "language": [
       "English"
@@ -10877,7 +10879,7 @@
       "United States"
     ],
     "currency": [
-      "Massachusetts Pounds"
+      "Massachusetts pound"
     ],
     "language": [
       "English"
@@ -16732,7 +16734,7 @@
       "Hungary"
     ],
     "currency": [
-      "Austro-Hungarian korona"
+      "Austro-Hungarian krone"
     ],
     "language": [
       "Hungarian",
@@ -19923,7 +19925,7 @@
       "Argentina"
     ],
     "currency": [
-      "Pesos"
+      "Argentine peso"
     ],
     "language": [
       "Spanish"
@@ -19983,7 +19985,9 @@
       "Serbia"
     ],
     "currency": [
-      "multiple"
+      "French franc",
+      "Serbian dinar",
+      "German mark"
     ],
     "language": [
       "Serbian",
@@ -20616,9 +20620,7 @@
     "issueYear": [
       "1923"
     ],
-    "currency": [
-      "Benzol (commodity-linked)"
-    ],
+    "currency": [],
     "language": [
       "German"
     ],
@@ -21151,9 +21153,7 @@
     "issuingCountry": [
       "United States"
     ],
-    "currency": [
-      "no par value"
-    ],
+    "currency": [],
     "language": [
       "English"
     ],
@@ -21450,9 +21450,7 @@
     "issuingCountry": [
       "United States"
     ],
-    "currency": [
-      "(land shares)"
-    ],
+    "currency": [],
     "language": [
       "English"
     ],
@@ -21501,9 +21499,7 @@
     "issuingCountry": [
       "United States"
     ],
-    "currency": [
-      "(land/property)"
-    ],
+    "currency": [],
     "language": [
       "English"
     ],
@@ -21808,7 +21804,9 @@
     "issuingCountry": [
       "Egypt"
     ],
-    "currency": [],
+    "currency": [
+      "Egyptian pound"
+    ],
     "language": [
       "Arabic",
       "French"
@@ -23682,7 +23680,7 @@
       "China"
     ],
     "currency": [
-      "Guan (貫)"
+      "Chinese copper cash"
     ],
     "language": [
       "Chinese"
@@ -23741,7 +23739,7 @@
       "Italy"
     ],
     "currency": [
-      "Scudi fiorentini"
+      "Florentine scudo"
     ],
     "language": [
       "Italian"
@@ -29420,7 +29418,7 @@
       "1786"
     ],
     "currency": [
-      "Massachusetts Pounds"
+      "Massachusetts pound"
     ],
     "language": [
       "English"

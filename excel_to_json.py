@@ -108,6 +108,20 @@ CURRENCY_ALIASES = {
     'USD': 'United States dollar',
     'UYU': 'Uruguayan peso',
     'VEN': 'Venezuelan bolivar',
+    # 2026-09-24: spelling/format variants that crept back in with the September intake
+    'Austrian Krone (K)': 'Austrian krone',
+    'Bulgarian Lev': 'Bulgarian lev',
+    'Connecticut Pounds': 'Connecticut pound',
+    'Massachusetts Pounds': 'Massachusetts pound',
+    'Austro-Hungarian korona': 'Austro-Hungarian krone',
+    'Scudi fiorentini': 'Florentine scudo',
+    'Guan (貫)': 'Chinese copper cash',
+    # not currencies: notes about the object that landed in the currency cell; dropped below
+    'multiple': '',
+    'Benzol (commodity-linked)': '',
+    'no par value': '',
+    '(land shares)': '',
+    '(land/property)': '',
 }
 
 
@@ -178,6 +192,7 @@ def update_item(item, row, has_identifiers_col=False):
     item['currency'] = [
         CURRENCY_ALIASES.get(c, c)
         for c in parse_list(row.get('currency', ''), sep=r'\s*[|;]\s*|\s+/\s+|,\s*')
+        if CURRENCY_ALIASES.get(c, c)          # an alias of '' means "not a currency"
     ]
 
     # language: separate field for filter
