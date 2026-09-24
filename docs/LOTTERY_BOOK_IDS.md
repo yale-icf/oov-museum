@@ -27,33 +27,33 @@ record id; the rest are its `pages[]`.
 
 | page | record id | title | leaves (album file → id) |
 |---|---|---|---|
-| 1 | `goetzmann1802` | Ancienne Tontine Twelfth Class Contract No. 252, Paris, 1689 | `01.jpg`→`1802` |
-| 2 | `goetzmann1803` | Ancienne Tontine Receipt No. 20, Paris, 1702 | `02.jpg`→`1803` |
-| 3 | `goetzmann1804` | Royal Treasury Lottery Receipt No. 2887 with its Ticket, Paris, 1704 | `03.jpg`→`1804` · `03a.jpg`→`1805` · `03b.jpg`→`1806` · `03c.jpg`→`1807` |
+| 1 | `goetzmann1802` | Ancienne Tontine Twelfth Class Contract, Paris, 1689 | `01.jpg`→`1802` |
+| 2 | `goetzmann1803` | Ancienne Tontine Receipt, Paris, 1702 | `02.jpg`→`1803` |
+| 3 | `goetzmann1804` | Royal Treasury Lottery Receipt with its Ticket, Paris, 1704 | `03.jpg`→`1804` · `03a.jpg`→`1805` · `03b.jpg`→`1806` · `03c.jpg`→`1807` |
 | 4 | `goetzmann1808` | Nouvelle Loterie de la Ville d'Aix-en-Provence Plan, 1730 | `04a.jpg`→`1808` · `04b.jpg`→`1809` |
-| 5 | `goetzmann1810` | Marseille Charity Hospital Lottery Ticket No. 53633, 1730 | `05.jpg`→`1810` |
-| 6 | `goetzmann1811` | Saint-Just de Lyon Collegiate Church Lottery Ticket No. 69418 | `06.jpg`→`1811` |
-| 7 | `goetzmann1812` | Carmes Déchaussés de Bordeaux Lottery Ticket No. 51 | `07.jpg`→`1812` |
+| 5 | `goetzmann1810` | Marseille Charity Hospital Lottery Ticket, 1730 | `05.jpg`→`1810` |
+| 6 | `goetzmann1811` | Saint-Just de Lyon Collegiate Church Lottery Ticket | `06.jpg`→`1811` |
+| 7 | `goetzmann1812` | Carmes Déchaussés de Bordeaux Lottery Ticket | `07.jpg`→`1812` |
 | 8 | `goetzmann1813` | Hôtel de Ville Rentiers Lottery Receipt, Paris, 1729 | `08.jpg`→`1813` |
-| 9 | `goetzmann1814` | Loterie Royale Receipt for the Poor No. 18847, 1742 | `09.jpg`→`1814` |
+| 9 | `goetzmann1814` | Loterie Royale Receipt for the Poor, 1742 | `09.jpg`→`1814` |
 | 10 | `goetzmann1815` | Decree Establishing a Third Loterie Royale, Paris, 1755 | `10a.jpg`→`1815` · `10b.jpg`→`1816` · `10c.jpg`→`1817` · `10d.jpg`→`1818` · `10e.jpg`→`1819` · `10f.jpg`→`1820` · `10g.jpg`→`1821` · `10h.jpg`→`1822` |
-| 11 | `goetzmann1823` | École Royale Militaire Lottery Receipt No. 191, Paris, 1762 | `11.jpg`→`1823` |
+| 11 | `goetzmann1823` | École Royale Militaire Lottery Receipt, Paris, 1762 | `11.jpg`→`1823` |
 | 12 | `goetzmann1824` | École Royale Militaire Lottery Ticket, Paris, 1763 | `12.jpg`→`1824` |
 | 13 | `goetzmann1825` | Instructive Notice on the École Royale Militaire Lottery, Paris, 1757 | `13a.jpg`→`1825` · `13b.jpg`→`1826` · `13c.jpg`→`1827` |
-| 14 | `goetzmann1828` | École Royale Militaire Lottery Receipt No. 23, Grenoble, 1766 | `14.jpg`→`1828` |
+| 14 | `goetzmann1828` | École Royale Militaire Lottery Receipt, Grenoble, 1766 | `14.jpg`→`1828` |
 | 15 | `goetzmann1829` | École Royale Militaire Lottery Receipt, Unissued Form | `15.jpg`→`1829` |
 | 16 | `goetzmann1830` | École Royale Militaire Lottery Ticket, 1768 | `16.jpg`→`1830` |
 | 17 | `goetzmann1831` | Decree Establishing the Hôtel de Ville de Paris Lottery, 1760 | `17a.jpg`→`1831` · `17b.jpg`→`1832` · `17c.jpg`→`1833` · `17d.jpg`→`1834` |
 | 18 | `goetzmann1835` | Notice of the Twenty-Third Hôtel de Ville de Paris Lottery Drawing, 1762 | `18.jpg`→`1835` |
-| 19 | `goetzmann1836` | Twenty-Fourth Hôtel de Ville de Paris Lottery Ticket No. 36721, 1762 | `19.jpg`→`1836` |
-| 20 | `goetzmann1837` | Thirty-Sixth Hôtel de Ville de Paris Lottery Ticket No. 79221, 1763 | `20.jpg`→`1837` |
-| 21 | `goetzmann1838` | Twenty-Fourth Hôtel de Ville de Paris Lottery Quarter-Ticket No. 33053, 1762 | `21.jpg`→`1838` |
-| 22 | `goetzmann1839` | Thirty-Sixth Hôtel de Ville de Paris Lottery Quarter-Ticket No. 77281, 1763 | `22.jpg`→`1839` |
+| 19 | `goetzmann1836` | Twenty-Fourth Hôtel de Ville de Paris Lottery Ticket, 1762 | `19.jpg`→`1836` |
+| 20 | `goetzmann1837` | Thirty-Sixth Hôtel de Ville de Paris Lottery Ticket, 1763 | `20.jpg`→`1837` |
+| 21 | `goetzmann1838` | Twenty-Fourth Hôtel de Ville de Paris Lottery Quarter-Ticket, 1762 | `21.jpg`→`1838` |
+| 22 | `goetzmann1839` | Thirty-Sixth Hôtel de Ville de Paris Lottery Quarter-Ticket, 1763 | `22.jpg`→`1839` |
 | 23 | `goetzmann1840` | Hôtel de Ville de Paris Lottery Society Share, Paris, 1763 | `23.jpg`→`1840` |
 | 24 | `goetzmann1841` | Decree Establishing the Loterie Générale d'Association, Paris, 1762 | `24a.jpg`→`1841` · `24b.jpg`→`1842` · `24c.jpg`→`1843` · `24d.jpg`→`1844` · `24e.jpg`→`1845` · `24f.jpg`→`1846` · `24g.jpg`→`1847` |
 | 25 | `goetzmann1848` | Decree Establishing the Loterie Générale d'Association, Second Printing, Paris, 1762 | `25a.jpg`→`1848` · `25b.jpg`→`1849` · `25c.jpg`→`1850` · `25d.jpg`→`1851` · `25e.jpg`→`1852` · `25f.jpg`→`1853` · `25g.jpg`→`1854` |
 | 26 | `goetzmann1855` | Notice of the Third Loterie Générale d'Association Drawing, Paris, 1762 | `26.jpg`→`1855` |
-| 27 | `goetzmann1856` | Loterie Générale d'Association Ticket No. 157524, Paris, 1763 | `27.jpg`→`1856` |
+| 27 | `goetzmann1856` | Loterie Générale d'Association Ticket, Paris, 1763 | `27.jpg`→`1856` |
 | 28 | `goetzmann1857` | Loterie Générale Ticket, Paris, 1763 | `28.jpg`→`1857` |
 | 29 | `goetzmann1858` | Loterie Générale d'Association Society Share, Paris, 1763 | `29.jpg`→`1858` |
 | 30 | `goetzmann1859` | Loterie Générale d'Association Society Share, Paris, 1762 | `30.jpg`→`1859` |
@@ -70,15 +70,15 @@ record id; the rest are its `pages[]`.
 | 41 | `goetzmann1893` | Decree Suppressing the Loterie Royale Free Premiums, Paris, 1776 | `41a.jpg`→`1893` · `41b.jpg`→`1894` · `41c.jpg`→`1895` · `41d.jpg`→`1896` |
 | 42 | `goetzmann1897` | Loterie Royale de France Receipt No. 14, Grenoble, 1779 | `42.jpg`→`1897` |
 | 43 | `goetzmann1898` | Loterie Royale de France Receipt No. 28, Grenoble, 1779 | `43.jpg`→`1898` |
-| 44 | `goetzmann1899` | Loterie Royale de France Society Ticket No. 24204, 1779 | `44.jpg`→`1899` |
-| 45 | `goetzmann1900` | Loterie Royale de France Ticket No. 1551, 1784 | `45.jpg`→`1900` |
-| 46 | `goetzmann1901` | Loterie Royale de France Ticket No. 234, 1778 | `46.jpg`→`1901` |
+| 44 | `goetzmann1899` | Loterie Royale de France Society Ticket, 1779 | `44.jpg`→`1899` |
+| 45 | `goetzmann1900` | Loterie Royale de France Ticket, 1784 | `45.jpg`→`1900` |
+| 46 | `goetzmann1901` | Loterie Royale de France Ticket, 1778 | `46.jpg`→`1901` |
 | 47 | `goetzmann1902` | Decree Opening a Loan by Way of Lottery, Paris, 1780 | `47a.jpg`→`1902` · `47b.jpg`→`1903` · `47c.jpg`→`1904` · `47d.jpg`→`1905` · `47e.jpg`→`1906` · `47f.jpg`→`1907` · `47g.jpg`→`1908` |
 | 48 | `goetzmann1909` | Decree Naming the Signatories of the Lottery Loan Coupons, Paris, 1780 | `48a.jpg`→`1909` · `48b.jpg`→`1910` |
 | 49 | `goetzmann1911` | Prospectus of a Lottery on the Numbers of the Ville Domain Loan, Paris, 1786 | `49a.jpg`→`1911` · `49b.jpg`→`1912` · `49c.jpg`→`1913` · `49d.jpg`→`1914` |
 | 50 | `goetzmann1915` | Journal de Paris No. 330, 1785 | `50a.jpg`→`1915` · `50b.jpg`→`1916` · `50c.jpg`→`1917` · `50d.jpg`→`1918` |
-| 51 | `goetzmann1919` | Third Lottery of the Electorate of Cologne Ticket No. 32049, 1759 | `51.jpg`→`1919` |
-| 52 | `goetzmann1920` | Cologne Lottery Fourth Class Subscription No. 32022, 1759 | `52.jpg`→`1920` |
+| 51 | `goetzmann1919` | Third Lottery of the Electorate of Cologne Ticket, 1759 | `51.jpg`→`1919` |
+| 52 | `goetzmann1920` | Cologne Lottery Fourth Class Subscription, 1759 | `52.jpg`→`1920` |
 | 53 | `goetzmann1921` | Royal Edict Creating Four Million in Hereditary Rentes, Versailles, 1785 | `53a.jpg`→`1921` · `53b.jpg`→`1922` · `53c.jpg`→`1923` · `53d.jpg`→`1924` |
 | 54 | `goetzmann1925` | Offenburg Privileged Lotto Drawing Notice, 1779 | `54.jpg`→`1925` |
 | 55 | `goetzmann1926` | Letter on a Wied Lottery Scheme, Neuwied, 1788 | `55a.jpg`→`1926` · `55b.jpg`→`1927` · `55c.jpg`→`1928` · `55d.jpg`→`1929` · `55e.jpg`→`1930` · `55f.jpg`→`1931` · `55g.jpg`→`1932` · `55h.jpg`→`1933` · `55i.jpg`→`1934` · `55j.jpg`→`1935` |
@@ -93,7 +93,7 @@ record id; the rest are its `pages[]`.
 | 64 | `goetzmann1953` | Address to the Committee of Legislation on the Lotteries, Paris | `64a.jpg`→`1953` · `64b.jpg`→`1954` · `64c.jpg`→`1955` · `64d.jpg`→`1956` · `64e.jpg`→`1957` · `64f.jpg`→`1958` · `64g.jpg`→`1959` · `64h.jpg`→`1960` |
 | 65 | `goetzmann1961` | Lartigue's Report to the National Convention on the Lotteries, Paris, Year III (1795) | `65a.jpg`→`1961` · `65b.jpg`→`1962` · `65c.jpg`→`1963` · `65d.jpg`→`1964` · `65e.jpg`→`1965` · `65f.jpg`→`1966` · `65g.jpg`→`1967` · `65h.jpg`→`1968` |
 | 66 | `goetzmann1969` | Précis sur les Loteries, Paris | `66a.jpg`→`1969` · `66b.jpg`→`1970` · `66c.jpg`→`1971` |
-| 67 | `goetzmann1972` | National Lottery of Houses and Furniture Ticket No. 657218, Year III (1795) | `67.jpg`→`1972` |
+| 67 | `goetzmann1972` | National Lottery of Houses and Furniture Ticket, Year III (1795) | `67.jpg`→`1972` |
 | 68 | `goetzmann1973` | Second National Lottery of Houses and Furniture Ticket, Year V (1796) | `68.jpg`→`1973` |
 | 69 | `goetzmann1974` | Twelve Million Lottery Bond for Three Hundred Francs, Paris | `69.jpg`→`1974` |
 | 70 | `goetzmann1975` | Prize Notice for a Muslin Garniture, Paris, Year VI (1798) | `70.jpg`→`1975` |
@@ -112,7 +112,7 @@ record id; the rest are its `pages[]`.
 | 83 | `goetzmann1990` | Imperial Lottery of France Stake Receipt Sheet, Brussels | `83.jpg`→`1990` |
 | 84 | `goetzmann1991` | Lottery Bureau Account, Grenoble, 1813 | `84a.jpg`→`1991` · `84b.jpg`→`1992` |
 | 85 | `goetzmann1993` | Imperial Lottery of France Stake Receipts, Caen, 1810 | `85a.jpg`→`1993` · `85b.jpg`→`1994` |
-| 86 | `goetzmann1995` | Kingdom of Westphalia Lottery Ticket No. 18053, Kassel, 1808 | `86.jpg`→`1995` |
+| 86 | `goetzmann1995` | Kingdom of Westphalia Lottery Ticket, Kassel, 1808 | `86.jpg`→`1995` |
 | 87 | `goetzmann1996` | Lottery of a Fine English Engraving, One Franc the Ticket | `87.jpg`→`1996` |
 | 88 | `goetzmann1997` | Imperial Lottery of France Stake Receipts, Brussels, 1811 | `88a.jpg`→`1997` · `88b.jpg`→`1998` |
 | 89 | `goetzmann1999` | Loterie Royale de France Public Notice No. 136 | `89a.jpg`→`1999` · `89b.jpg`→`2000` · `89c.jpg`→`2001` |
@@ -124,7 +124,7 @@ record id; the rest are its `pages[]`.
 | 95 | `goetzmann2007` | Strasbourg Lottery Demand Table | `95a.jpg`→`2007` · `95b.jpg`→`2008` |
 | 96 | `goetzmann2009` | Royal Edict Creating a Lottery in Life and Perpetual Rentes, Versailles, 1757 | `96a.jpg`→`2009` · `96b.jpg`→`2010` · `96c.jpg`→`2011` · `96d.jpg`→`2012` · `96e.jpg`→`2013` · `96f.jpg`→`2014` · `96g.jpg`→`2015` · `96h.jpg`→`2016` |
 | 97 | `goetzmann2017` | Decree Opening a Seven-Year Loan by Way of Lottery, Paris, 1777 | `97a.jpg`→`2017` · `97b.jpg`→`2018` · `97c.jpg`→`2019` · `97d.jpg`→`2020` · `97e.jpg`→`2021` · `97f.jpg`→`2022` · `97g.jpg`→`2023` · `97h.jpg`→`2024` |
-| 98 | `goetzmann2025` | Tontine des Vieillards Receipt No. 9, Paris | `98.jpg`→`2025` |
+| 98 | `goetzmann2025` | Tontine des Vieillards Receipt, Paris | `98.jpg`→`2025` |
 | 99 | `goetzmann2026` | Notarial Act on a Tontine Life-Annuity Division, Paris | `99a.jpg`→`2026` · `99b.jpg`→`2027` |
 | 100 | `goetzmann2028` | Prize Lottery Bulletin on the Edict of December 1785, Paris | `100.jpg`→`2028` |
 | 101 | `goetzmann2029` | Letter of the Loterie Nationale Inspector at Lyon, Year X (1801) | `101a.jpg`→`2029` · `101b.jpg`→`2030` |
