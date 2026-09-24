@@ -1,5 +1,11 @@
 # Pending corrections — waiting on the Excel workbook
 
+> ✅ **CLOSED 2026-09-24.** Every item below was checked against `data/museum-data.json` and the live
+> workbook and has landed: 0295's figures and marker, 0494's notes, the issueYears of 0640 0641 0638 0646
+> 0631 (and 0631's notes), 0343 (1928). The South Carolina bond formerly at 0345 now lives at **1373**,
+> where the notes read JULY 1893 and the description no longer calls the back the face. Kept for history.
+
+
 Field corrections that are **verified but not yet applied**, because the fields they touch are
 Excel-backed. `excel_to_json.py` overwrites title, description, type, location, period,
 keywords, owner, currency, language, issueYear, creator and **notes** from the sheet, so a fix
