@@ -360,3 +360,32 @@ curatorial stance.
 *Cut as interpretation.*
 
 > The company worked the weir and mills on the Garonne at the Bazacle, a site held in shares by a company of millers from the Middle Ages and converted to generating electricity in the nineteenth century.
+
+
+---
+
+## Long-label cuts, 2026-09-24 (batch 5)
+
+## goetzmann0320 — Chinese Government Loan, 1925
+
+*Cut as interpretation.*
+
+> and it illustrates a recurring practice of the era: rather than repay foreign loans it had defaulted on, the government bundled the lapsed debts into a fresh bond at a higher rate of interest, buying relief from creditors while deepening the long-term burden. Such restructurings recurred through the 1920s, when the Republic's finances were so unstable that the finance ministry changed hands dozens of times in little more than a decade.
+
+## goetzmann0230 — Greek gold loan, 1898
+
+*Cut as interpretation.*
+
+> That guarantee is the document's real subject. It is what let Greece borrow at a coupon as low as 2½ percent, and it is why the bond, for all the Hellenic splendor of its engraved frame and royal arms, records a treasury placed under outside control.
+
+## goetzmann0232 — American & British Securities Company, 1923
+
+*Cut as interpretation.*
+
+> it belongs to the wave of Anglo-American investment holding companies chartered after the First World War, when Delaware's permissive corporate law and the tightening financial ties between London and New York encouraged such vehicles. Its restrained steel-engraved border follows the conventional banknote manner, signaling security and probity rather than any particular artistic aim.
+
+## goetzmann0308 — Calvert, Waco & Brazos Valley Railroad, blank certificate
+
+*Cut pending verification. The 1899 charter and Gould connection are unconfirmed, and conflict with the printed "18__" date line and the record year 1890.*
+
+> Chartered in 1899, the company was a vehicle of the Gould railroad family — its first directors included George and Frank Gould, sons of the financier Jay Gould — created to build and finance track in central Texas. It existed only briefly and largely on paper: within about two years its line was absorbed into the Goulds' International and Great Northern Railroad.
