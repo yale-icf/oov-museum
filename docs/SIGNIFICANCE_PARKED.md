@@ -389,3 +389,74 @@ curatorial stance.
 *Cut pending verification. The 1899 charter and Gould connection are unconfirmed, and conflict with the printed "18__" date line and the record year 1890.*
 
 > Chartered in 1899, the company was a vehicle of the Gould railroad family — its first directors included George and Frank Gould, sons of the financier Jay Gould — created to build and finance track in central Texas. It existed only briefly and largely on paper: within about two years its line was absorbed into the Goulds' International and Great Northern Railroad.
+
+
+---
+
+## Interpretive sentences cut, 2026-09-24 (phrasing sweep)
+
+## goetzmann0188
+
+*Cut as interpretation.*
+
+> What makes the scheme striking is its security: the annuities rest on United States government funds, held by London trustees, only a few years after American independence.
+
+## goetzmann0234
+
+*Cut as interpretation.*
+
+> The certificate reflects the fiduciary banking that flourished in Boston around the turn of the twentieth century, when trust companies pooled deposits and administered estates.
+
+## goetzmann0234
+
+*Cut as interpretation.*
+
+> Its engraved eagle signals national solidity and commercial confidence in the manner of the period's financial engraving, the work of the American Bank Note Company.
+
+## goetzmann0303
+
+*Cut as interpretation.*
+
+> What makes the certificate remarkable is its money: the capital
+
+## goetzmann0322
+
+*Cut as interpretation.*
+
+> The certificate is an example of how, in the late Qing reform years, Chinese merchants adopted the Western joint-stock company, with its transferable shares and limited liability, and applied it to long-established Chinese credit practices of lending against pledged goods and storing merchants' wares.
+
+## goetzmann0336
+
+*Cut as interpretation.*
+
+> The share's dual denomination in reales and francs, and its bilingual text, reflect that French capital, which built much of Spain's railway network after the country opened to foreign railway investment under a law of 1855.
+
+## goetzmann0337
+
+*Cut as interpretation.*
+
+> The company's name and moment reflect a wave of Spanish oil nationalism: in June 1927 the dictatorship of Primo de Rivera decreed a state petroleum monopoly, expropriating the oil businesses operating in Spain and placing the trade under a new state company, CAMPSA, to wrest the market from the foreign giants that dominated it.
+
+## goetzmann0495
+
+*Cut as interpretation.*
+
+> Such attestations served Dutch investors holding British consols, furnishing authenticated proof of title for probate, taxation or litigation in the Republic.
+
+## goetzmann0519
+
+*Cut as interpretation.*
+
+> The silver-denominated face reflects the Kankrin reform that anchored the ruble to a silver standard.
+
+## goetzmann0588
+
+*Cut as interpretation.*
+
+> The franc denomination and bilingual issue reflect the debt's placement on European, especially Parisian, markets rather than within Mexico.
+
+## goetzmann1028
+
+*Cut as interpretation.*
+
+> ; the old walled town of Batavia was notorious for poor sanitation and endemic malaria.
