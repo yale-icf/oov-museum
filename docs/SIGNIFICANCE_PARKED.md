@@ -318,3 +318,38 @@ curatorial stance.
 > capital. The stylized geometric monogram "OFF" and the crisp sans-serif lettering of the corners
 > reflect the Art Deco idiom then fashionable in French commercial design, lending a modern,
 > industrial confidence to a speculative venture in a youthful entertainment trade.
+
+
+---
+
+## Vignette and interpretation cuts, 2026-09-24
+
+## goetzmann0233 — American Sugar Company preferred stock, 1967
+
+*Cut as interpretation.*
+
+> The fixed cumulative dividend marks it as a senior, income-oriented holding, while its low par value and "certificate for less than 100 shares" notation reflect the postwar spread of share ownership among many small holders. The central vignette gathers three idealized classical figures amid a globe, instruments, and emblems of industry and harvest, personifying commerce, industry, and agriculture in the Beaux-Arts manner conventional to American security engraving, and lending the sugar-refining business the dignity of classical allegory.
+
+## goetzmann0293 — Baltimore and Ohio preferred stock, 1875
+
+*Cut as interpretation.*
+
+> The certificate shows a railroad funding its post-war growth through preferred capital that stood first in line for a modest but secured return. Its vignette of a steam locomotive hauling cars across the landscape advertises the line itself, the oldest common-carrier railroad in the country, as the engine behind the investor's claim.
+
+## goetzmann0304 — Beate Uhse share, 1999
+
+*Cut pending verification. "One of the first companies in that trade" is a load-bearing claim not checked.*
+
+> this certificate marks that listing — a widely noted moment, as one of the first companies in that trade to enter the public capital markets. The design is unusual for a security: where share certificates conventionally use engraved allegory and ornament to project dignity and trust, this one carries imagery drawn directly from the company's business, openly advertising the issuer rather than dressing its trade in the usual respectable symbolism. It was printed by the German security firm Giesecke & Devrient.
+
+## goetzmann0296 — Banco Territorial de Cuba beneficiary share, 1911
+
+*Cut as interpretation.*
+
+> signaling the European and American capital behind this land-credit institution in the young republic.
+
+## goetzmann0231 — Romania National Defense Fund bond, 1940
+
+*Cut as interpretation (vignette reading).*
+
+> The certificate is a deliberate showpiece, designed by the painter Gheorghe Chirovici in an emphatically national style: folk-revival interlace and grapevine borders, the royal arms beneath a crown, and three vignettes of a gun crew, a tank, and a military aircraft, picturing the modernization of the three services the loan was meant to equip.
