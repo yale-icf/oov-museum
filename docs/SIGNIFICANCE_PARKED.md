@@ -460,3 +460,116 @@ curatorial stance.
 *Cut as interpretation.*
 
 > ; the old walled town of Batavia was notorious for poor sanitation and endemic malaria.
+
+
+---
+
+## Album commentary and significance cut, 2026-09-24
+
+## goetzmann0314
+
+*Cut: interpretation.*
+
+> Issued amid the heavy Russian state borrowing that followed the Napoleonic wars, the certificate shows how the banking houses of a financial center held foreign securities and issued transferable certificates against them, letting local investors own and trade distant sovereign debt without dealing across borders.
+
+## goetzmann0319
+
+*Cut: interpretation.*
+
+> In this the bond shows how colonial railways were financed: investors in France supplied the capital, while the cost of repayment fell on the revenues of the colonized territory itself.
+
+## goetzmann0321
+
+*Cut: interpretation.*
+
+> Printed receipts like this show how landholding estates in late Qing rural China standardized the collection of rent, fixing payment dates and the threat of eviction into a routine printed form used across many tenancies.
+
+## goetzmann0720
+
+*Cut: unverified: "the first of the postwar mass subscription loans".*
+
+> It was the first of the postwar mass subscription loans, floated to fund reconstruction after the Second World War.
+
+## goetzmann1711
+
+*Cut: interpretation.*
+
+> The three together, of two tonnes, one tonne and half a tonne, show how the issue was cut to suit subscribers of different means once the mark could no longer measure any of them.
+
+## goetzmann1839
+
+*Cut: album commentary.*
+
+> With the whole tickets at [1836] and [1837] and the quarter at [1838], the album holds both denominations of both lotteries, the same instrument in its full and its divided form.
+
+## goetzmann1848
+
+*Cut: interpretation.*
+
+> Royal decrees were reset and reprinted as demand required, and the two impressions in this album show the same act as it left two different presses.
+
+## goetzmann1898
+
+*Cut: interpretation.*
+
+> It is signed by the same clerk as the October receipt at [1897] and issued from the same office a month later, so the two show one subscriber's successive stakes in consecutive draws.
+
+## goetzmann1919
+
+*Cut: album commentary.*
+
+> It is the first of two Cologne pieces in this album, the other being the fourth-class subscription at [1920].
+
+## goetzmann1921
+
+*Cut: interpretation.*
+
+> Publishing an edict as a newspaper supplement put the terms of a new issue before subscribers on the day it was registered, and the album keeps it beside the lottery loans it competed with.
+
+## goetzmann1939
+
+*Cut: interpretation.*
+
+> The pair shows the same house dealing in both metals on the same day, at different ratios to the paper.
+
+## goetzmann1990
+
+*Cut: interpretation.*
+
+> With the republican coupon at [1988], it shows the same Brussels office under two regimes, the Republic's lottery and then the Emperor's, on the same premises and the same paper.
+
+## goetzmann1997
+
+*Cut: album commentary.*
+
+> With the republican coupon at [1988] and the blank Brussels sheet at [1990], the album holds the same office's paper across three regimes.
+
+## goetzmann2005
+
+*Cut: album commentary.*
+
+> The album holds the same city's republican drawing list at [1980], a quarter-century earlier.
+
+## goetzmann2017
+
+*Cut: interpretation.*
+
+> It is three years earlier than the nine-year loan at [1902], and the two show the Crown returning to the same device as the American war came on.
+
+## goetzmann2044
+
+*Cut: interpretation.*
+
+> Its companion at [2029] is the Lyon inspector writing to the same office two years earlier, and together they show the chain of supervision running from city to department.
+
+## goetzmann2045
+
+*Cut: interpretation.*
+
+> The decree it cites is the one at [1893], which ended the free premiums and raised the prizes; this is how that change was put to the public.
+
+## goetzmann2048
+
+*Cut: interpretation.*
+
+> The decree it cites is the one at [1893], which ended the free premiums and raised the prizes; this is how that change was put to the public.
