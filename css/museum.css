@@ -529,6 +529,8 @@ h1.extitle{margin:22px 0 0;font-family:'Spectral',serif;font-weight:400;
 .rec-desc{margin:26px 0 0;font-size:17px;line-height:1.7;color:#3a3830}
 .rec-desc p{margin:0 0 18px}
 .rec-desc p:last-child{margin-bottom:0}
+.rec-desc a.xref{color:var(--oxblood);text-decoration:none;border-bottom:1px solid currentColor}
+.rec-desc a.xref:hover{border-bottom-width:2px}
 /* the leaf currently on screen, captioned beneath the record's main entry */
 .rec-prov{margin-top:28px;border-top:1px solid var(--paper-line);padding-top:22px}
 .rec-prov .lbl{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--oxblood)}
