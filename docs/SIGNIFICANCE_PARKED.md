@@ -353,3 +353,10 @@ curatorial stance.
 *Cut as interpretation (vignette reading).*
 
 > The certificate is a deliberate showpiece, designed by the painter Gheorghe Chirovici in an emphatically national style: folk-revival interlace and grapevine borders, the royal arms beneath a crown, and three vignettes of a gun crew, a tank, and a military aircraft, picturing the modernization of the three services the loan was meant to equip.
+
+
+## goetzmann1666 — Société Toulousaine du Bazacle founder's share
+
+*Cut as interpretation.*
+
+> The company worked the weir and mills on the Garonne at the Bazacle, a site held in shares by a company of millers from the Middle Ages and converted to generating electricity in the nineteenth century.
