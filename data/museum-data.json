@@ -31371,7 +31371,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Two leaves, recto and verso. ⚠ NO ROW in the master spreadsheet; the pairing of the leaves was confirmed on the plates, the verso carrying the same number 8623. This is the same kind of instrument as the Amsterdam certificates over Russian debt a century earlier -- [1340], [1342], [1387] -- a Dutch office holding foreign securities and issuing claims on them, here over an American utility holding company.",
+    "notes": "Two leaves, recto and verso. ⚠ NO ROW in the master spreadsheet; the pairing of the leaves was confirmed on the plates, the verso carrying the same number 8623. This is the same kind of instrument as the Amsterdam certificates over Russian debt a century earlier -- [1340], [1342], [1387] -- a Dutch office holding foreign securities and issuing claims on them, here over an American utility holding company. ⚠ MERGED 2026-09-24: the talon and coupons 15-20 of this certificate, catalogued separately as goetzmann1587, are attached as a third leaf; the certificate itself states it was issued with coupons 15 to 20 and a talon.",
     "identifiers": [
       "No. 8623"
     ],
@@ -31388,6 +31388,10 @@
       {
         "id": "goetzmann1491",
         "description": ""
+      },
+      {
+        "id": "goetzmann1587",
+        "description": "Renewal slip and dividend coupons 15 to 20 of certificate No. 8623."
       }
     ]
   },
@@ -34119,50 +34123,6 @@
     "issueYear": [
       "1936"
     ]
-  },
-  {
-    "id": "goetzmann1587",
-    "file": "goetzmann1587.jpg",
-    "transcription": "",
-    "title": "Central States Electric Corporation Talon and Coupons for Certificate No. 8623, Amsterdam",
-    "description": "A sheet of dividend coupons with its talon, belonging to certificate number 8623 for ten ordinary shares of the common stock of the Central States Electric Corporation, each of one dollar nominal, registered in the name of the Amsterdam administratiekantoor of American securities founded by Broes & Gosman, Ten Have & Van Essen and Jarman & Zoonen. The talon provides that after the twentieth dividend coupon has been paid, the holder may surrender it, on announcement, for a fresh set of coupons. The coupons are unclipped.",
-    "notes": "Talon and coupons for CERTIFICAAT N°. 8623. ⚠ Numbered 8623, while the certificate it was scanned alongside is No. 6304 at [1585] — they are not the same object, and the master spreadsheet's page markers grouped them wrongly. Certificate 8623 itself is not in the collection.",
-    "type": [
-      "Coupon"
-    ],
-    "currency": [
-      "United States dollar"
-    ],
-    "language": [
-      "Dutch"
-    ],
-    "period": [
-      "20th Century"
-    ],
-    "creator": "N.V. Maatschappij tot Beheer van het Administratiekantoor van Amerikaansche Fondsen, Amsterdam",
-    "identifiers": [
-      "No. 8623"
-    ],
-    "namedIndividuals": [],
-    "keywords": [
-      "Central States Electric",
-      "talon",
-      "dividend coupons",
-      "Amsterdam"
-    ],
-    "owner": "ICF",
-    "location": [
-      "United States",
-      "Netherlands"
-    ],
-    "issuingCountry": [
-      "Netherlands"
-    ],
-    "subjectCountry": [
-      "United States",
-      "Netherlands"
-    ],
-    "issueYear": []
   },
   {
     "id": "goetzmann1588",
