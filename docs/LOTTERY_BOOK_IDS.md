@@ -40,7 +40,7 @@ record id; the rest are its `pages[]`.
 | 11 | `goetzmann1823` | École Royale Militaire Lottery Receipt No. 191, Paris, 1762 | `11.jpg`→`1823` |
 | 12 | `goetzmann1824` | École Royale Militaire Lottery Ticket, Paris, 1763 | `12.jpg`→`1824` |
 | 13 | `goetzmann1825` | Instructive Notice on the École Royale Militaire Lottery, Paris, 1757 | `13a.jpg`→`1825` · `13b.jpg`→`1826` · `13c.jpg`→`1827` |
-| 14 | `goetzmann1828` | École Royale Militaire Lottery Receipt No. 25, Grenoble, 1786 | `14.jpg`→`1828` |
+| 14 | `goetzmann1828` | École Royale Militaire Lottery Receipt No. 23, Grenoble, 1766 | `14.jpg`→`1828` |
 | 15 | `goetzmann1829` | École Royale Militaire Lottery Receipt, Unissued Form | `15.jpg`→`1829` |
 | 16 | `goetzmann1830` | École Royale Militaire Lottery Ticket, 1768 | `16.jpg`→`1830` |
 | 17 | `goetzmann1831` | Decree Establishing the Hôtel de Ville de Paris Lottery, 1760 | `17a.jpg`→`1831` · `17b.jpg`→`1832` · `17c.jpg`→`1833` · `17d.jpg`→`1834` |
@@ -78,7 +78,7 @@ record id; the rest are its `pages[]`.
 | 49 | `goetzmann1911` | Prospectus of a Lottery on the Numbers of the Ville Domain Loan, Paris, 1786 | `49a.jpg`→`1911` · `49b.jpg`→`1912` · `49c.jpg`→`1913` · `49d.jpg`→`1914` |
 | 50 | `goetzmann1915` | Journal de Paris No. 330, 1785 | `50a.jpg`→`1915` · `50b.jpg`→`1916` · `50c.jpg`→`1917` · `50d.jpg`→`1918` |
 | 51 | `goetzmann1919` | Third Lottery of the Electorate of Cologne Ticket No. 32049, 1759 | `51.jpg`→`1919` |
-| 52 | `goetzmann1920` | Cologne Lottery Fourth Class Subscription No. 32027, 1759 | `52.jpg`→`1920` |
+| 52 | `goetzmann1920` | Cologne Lottery Fourth Class Subscription No. 32022, 1759 | `52.jpg`→`1920` |
 | 53 | `goetzmann1921` | Royal Edict Creating Four Million in Hereditary Rentes, Versailles, 1785 | `53a.jpg`→`1921` · `53b.jpg`→`1922` · `53c.jpg`→`1923` · `53d.jpg`→`1924` |
 | 54 | `goetzmann1925` | Offenburg Privileged Lotto Drawing Notice, 1779 | `54.jpg`→`1925` |
 | 55 | `goetzmann1926` | Letter on a Wied Lottery Scheme, Neuwied, 1788 | `55a.jpg`→`1926` · `55b.jpg`→`1927` · `55c.jpg`→`1928` · `55d.jpg`→`1929` · `55e.jpg`→`1930` · `55f.jpg`→`1931` · `55g.jpg`→`1932` · `55h.jpg`→`1933` · `55i.jpg`→`1934` · `55j.jpg`→`1935` |
