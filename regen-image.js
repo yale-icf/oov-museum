@@ -29,25 +29,41 @@ function findOriginal(id) {
 // so the rotation the editor recorded is baked into real pixels.
 const oriented = (src) => sharp(src).rotate();
 
+// Masters whose PIXELS are sideways, with no EXIF flag to say so. Turned here, degrees
+// clockwise after auto-orientation, rather than by editing the master. Keep this list, or
+// a regen puts them back on their side.
+const EXTRA_ROTATE = {
+  goetzmann0693: 90,   // Russian illustrated bond, back
+  goetzmann0726: 90,   // Romanian monopolies bond, back (leaf of 0725)
+};
+async function source(src, id) {
+  const deg = EXTRA_ROTATE[id];
+  if (!deg) return { img: () => oriented(src) };
+  const buf = await oriented(src).toBuffer();
+  const turned = await sharp(buf).rotate(deg).toBuffer();
+  return { img: () => sharp(turned) };
+}
+
 async function regen(id) {
   const src = findOriginal(id);
-  const meta = await oriented(src).metadata();
+  const S = await source(src, id);
+  const meta = await S.img().metadata();
   console.log(`\n${id}  <- ${path.relative(ORIG_ROOT, src)}  (${meta.width}x${meta.height} after orientation)`);
 
   // thumbnail (400px wide)
-  await oriented(src).resize({ width: 400 }).jpeg({ quality: 82 })
+  await S.img().resize({ width: 400 }).jpeg({ quality: 82 })
     .toFile('thumbnails/' + id + '.jpg');
   console.log('  thumbnails/' + id + '.jpg');
 
   // exhibit / hero, only if they already exist for this id
   const ex = 'images/exhibits/' + id + '.jpg';
   if (fs.existsSync(ex)) {
-    await oriented(src).resize({ width: 900 }).jpeg({ quality: 82 }).toFile(ex);
+    await S.img().resize({ width: 900 }).jpeg({ quality: 82 }).toFile(ex);
     console.log('  ' + ex);
   }
   const hero = 'images/hero-' + id + '.jpg';
   if (fs.existsSync(hero)) {
-    await oriented(src).resize({ width: 1800 }).jpeg({ quality: 84 }).toFile(hero);
+    await S.img().resize({ width: 1800 }).jpeg({ quality: 84 }).toFile(hero);
     console.log('  ' + hero);
   }
 
@@ -55,7 +71,7 @@ async function regen(id) {
   const tdir = 'tiles/' + id;
   fs.rmSync(tdir, { recursive: true, force: true });
   fs.mkdirSync(tdir, { recursive: true });
-  await oriented(src)
+  await S.img()
     .jpeg({ quality: 85 })
     .tile({ size: 512, overlap: 2, layout: 'dz' })
     .toFile(path.join(tdir, id));           // sharp appends .dzi and _files itself
