@@ -1172,3 +1172,32 @@ curatorial stance.
 *Cut as context not on the object.*
 
 > Greek finances were placed under international oversight following the country's defeat in the war of 1897.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0663-0679)
+
+## goetzmann0666
+
+*Cut as context not on the object.*
+
+> Bulgaria was then still nominally under Ottoman rule.
+
+## goetzmann0665
+
+*Cut as context not on the object.*
+
+> Bulgaria was then still nominally under Ottoman rule.
+
+## goetzmann0673
+
+*Cut as context not on the object.*
+
+> The bank was chartered to extend long-term mortgage credit to the hereditary nobility.
+
+## goetzmann0677
+
+*Cut as context not on the object.*
+
+> weeks after the February Revolution
