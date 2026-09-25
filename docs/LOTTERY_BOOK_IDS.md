@@ -99,16 +99,16 @@ record id; the rest are its `pages[]`.
 | 70 | `goetzmann1975` | Prize Notice for a Toucan-Feather Garniture, Paris, Year VI (1798) | `70.jpg`→`1975` |
 | 71 | `goetzmann1976` | Lottery of a Spun-Glass Piece, Bordeaux, 1808 | `71.jpg`→`1976` |
 | 72 | `goetzmann1977` | Loterie Nationale Public Notice No. 136, Paris | `72a.jpg`→`1977` · `72b.jpg`→`1978` · `72c.jpg`→`1979` |
-| 73 | `goetzmann1980` | Loterie Nationale Drawing List, Lyon, 9 Prairial | `73.jpg`→`1980` |
-| 74 | `goetzmann1981` | Loterie Nationale Stake Receipts, Bureau 707, Year VI (1798) | `74.jpg`→`1981` |
-| 75 | `goetzmann1982` | Loterie Nationale Stake Receipt, Nivôse Year VI (1797) | `75.jpg`→`1982` |
+| 73 | `goetzmann1980` | Loterie Nationale Drawing List, Lyon, 9 Prairial Year X (1802) | `73.jpg`→`1980` |
+| 74 | `goetzmann1981` | Loterie Nationale Stake Receipts, Bureau 107, Paris, Year VI (1798) | `74.jpg`→`1981` |
+| 75 | `goetzmann1982` | Loterie Nationale Stake Receipt, Toulon, Prairial Year VI (1798) | `75.jpg`→`1982` |
 | 76 | `goetzmann1983` | Loterie Nationale Stake Receipt No. 1564, Frimaire Year VII (1798) | `76.jpg`→`1983` |
 | 77 | `goetzmann1984` | Imperial Lottery of France Drawing List, Rome, 1813 | `77.jpg`→`1984` |
 | 78 | `goetzmann1985` | Imperial Lottery of France Drawing List, Strasbourg, 1809 | `78.jpg`→`1985` |
-| 79 | `goetzmann1986` | Loterie Nationale Stake Receipts, First Sheet | `79.jpg`→`1986` |
-| 80 | `goetzmann1987` | Loterie Nationale Stake Receipt Sheet, Bureau C.2 | `80.jpg`→`1987` |
+| 79 | `goetzmann1986` | Loterie Nationale Stake Receipt, Voiron, Thermidor Year XI (1803) | `79.jpg`→`1986` |
+| 80 | `goetzmann1987` | Loterie Nationale Stake Receipt, Paris, Fructidor Year XII (1804) | `80.jpg`→`1987` |
 | 81 | `goetzmann1988` | Loterie Nationale Half-Ticket Coupon, Brussels, Year IX (1801) | `81.jpg`→`1988` |
-| 82 | `goetzmann1989` | Imperial Lottery of France Stake Receipt, Bureau 1, 1812 | `82.jpg`→`1989` |
+| 82 | `goetzmann1989` | Imperial Lottery of France Stake Receipt, Paris, 1812 | `82.jpg`→`1989` |
 | 83 | `goetzmann1990` | Imperial Lottery of France Stake Receipt Sheet, Brussels | `83.jpg`→`1990` |
 | 84 | `goetzmann1991` | Lottery Bureau Account, Grenoble, 1813 | `84a.jpg`→`1991` · `84b.jpg`→`1992` |
 | 85 | `goetzmann1993` | Imperial Lottery of France Stake Receipts, Caen, 1810 | `85a.jpg`→`1993` · `85b.jpg`→`1994` |

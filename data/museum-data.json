@@ -43512,9 +43512,9 @@
     "id": "goetzmann1980",
     "file": "goetzmann1980.jpg",
     "transcription": "",
-    "title": "Loterie Nationale Drawing List, Lyon, 9 Prairial",
-    "description": "A printed list of the numbers drawn, issued by the Lyon office of the Loterie Nationale on the 9th of Prairial, headed Liberté, Égalité with a standing figure of Liberty. The draw was made in the hall of the Bourse in the prefecture building, and the numbers that came out of the wheel follow: 37 first, then 60, 1, 75 and 69. The sheet is signed for the Lyon administration. Lists like this were posted and handed out the same day so that holders could check their numbers.",
-    "notes": "Bureau de Lyon, 9 Prairial; numbers drawn 37, 60, 1, 75, 69. ⚠ The republican year after 'an' is indistinct on this copy, so issueDate is left blank; Prairial falls in May-June.",
+    "title": "Loterie Nationale Drawing List, Lyon, 9 Prairial Year X (1802)",
+    "description": "A printed list of the numbers drawn at the Lyon drawing of the Loterie Nationale of 9 Prairial year X, headed Liberté, Égalité with a figure of Fortune. The drawing was made in public in the hall of the Bourse, in the Maison de Saint-Pierre on the Place des Terreaux, before the prefect of the department, the general commissioner of police, the government commissioner at the criminal court and the inspector in chief. The numbers that came out of the wheel were 37, 60, 1, 75 and 69. It is certified as a true extract of the official record by the lottery's inspectors Denoyelle, Litez-Tiverval and Serpolet.",
+    "notes": "Tirage de Lyon, du 9 Prairial an dix (29 May 1802; previously 'year indistinct'); numbers 37, 60, 1, 75, 69; inspectors Denoyelle, Litez-Tiverval, Serpolet (previously 'signed for the Lyon administration'). Denoyelle is presumably the Lyon inspector of [2029]. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Regulatory Document"
     ],
@@ -43547,15 +43547,17 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1802"
+    ]
   },
   {
     "id": "goetzmann1981",
     "file": "goetzmann1981.jpg",
     "transcription": "",
-    "title": "Loterie Nationale Stake Receipts, Bureau 707, Year VI (1798)",
-    "description": "Two betting receipts of the Loterie Nationale, both from office 707, registered as numbers 1544 and 1555, printed one above the other on a single sheet. Each records a stake placed on the numbers written beside it for the next draw, with boxes filled in for bets on one, two, three or four numbers: 21, 36 and 39 on the upper, and a second set below. Both are headed République française and dated in Ventôse of the year VI.",
-    "notes": "⚠ TWO RECEIPTS: B. 707 Enr. 1544 and B. 707 Enr. 1555. Numbers 21-36-39 on the upper. ⚠ TWO INSTRUMENTS PRINTED ON ONE SHEET, uncut. This is a single physical object and is correctly a single record — not two objects photographed together. Compare the uncut sheet of four Loterie de Piété tickets at [1874].",
+    "title": "Loterie Nationale Stake Receipts, Bureau 107, Paris, Year VI (1798)",
+    "description": "Two betting receipts of the Loterie Nationale, re-established by the law of 9 Vendémiaire year VI, printed one above the other on a single sheet, both from office 107 in the commune of Paris, registered numbers 1514 and 1515, for the second drawing of Ventôse year VI. The first stakes on 21, 36 and 39, the second on 9, 21 and 36, each as three two-number bets at four sols and one three-number bet at one sol. Each is receipted for thirteen sols and signed for Louis Mira (the name is hard to read). The printed table shows what each kind of bet paid, from fifteen times the stake for one number to a million times for five.",
+    "notes": "B.au 107, Enr.nt 1514 and 1515 (previously recorded as 707, 1544 and 1555); second tirage de Ventôse an six; commune de Paris; numbers 21-36-39 and 9-21-36; 3 ambes at 4 sols, 1 terne at 1 sol; reçu treize sols. One uncut sheet. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -43570,8 +43572,8 @@
     ],
     "creator": "Loterie Nationale",
     "identifiers": [
-      "B. 707, Enr. 1544",
-      "B. 707, Enr. 1555"
+      "B. 107, Enr. 1514",
+      "B. 107, Enr. 1515"
     ],
     "namedIndividuals": [],
     "keywords": [
@@ -43598,9 +43600,9 @@
     "id": "goetzmann1982",
     "file": "goetzmann1982.jpg",
     "transcription": "",
-    "title": "Loterie Nationale Stake Receipt, Nivôse Year VI (1797)",
-    "description": "A betting receipt of the Loterie Nationale headed République française, for the first drawing of Nivôse in the year VI. The holder has staked on the numbers written across the form, with the printed lines for the different kinds of bet filled in beside them, and the clerk has signed at the foot. The form is the one the royal lottery used, reprinted with a republican heading.",
-    "notes": "1er tirage de Nivôse an VI. ⚠ The bureau and registration numbers are entered in a small hand at the head and are not read with confidence; no identifier is recorded.",
+    "title": "Loterie Nationale Stake Receipt, Toulon, Prairial Year VI (1798)",
+    "description": "A betting receipt of the Loterie Nationale, re-established by the law of 9 Vendémiaire year VI, from office 50 in the commune of Toulon, registered number 85, for the first drawing of Prairial year VI. The holder staked on ten numbers, 4, 11, 17, 31, 36, 37, 43, 45, 46 and 65, as all forty-five two-number bets among them at four sols each, nine livres in all, and it is receipted for nine francs and signed Portal (the name is hard to read).",
+    "notes": "B.au 50, Enr.nt 85 (previously 'not read'); 1er tirage de Prairial an six (previously recorded as Nivôse an VI); commune de Toulon; ten numbers; 45 ambes à quatre sols = 9#; reçu neuf francs; signed Portal(?). Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -43614,7 +43616,9 @@
       "18th Century"
     ],
     "creator": "Loterie Nationale",
-    "identifiers": [],
+    "identifiers": [
+      "B. 50, Enr. 85"
+    ],
     "namedIndividuals": [],
     "keywords": [
       "Loterie Nationale",
@@ -43633,7 +43637,7 @@
       "France"
     ],
     "issueYear": [
-      "1797"
+      "1798"
     ]
   },
   {
@@ -43783,9 +43787,9 @@
     "id": "goetzmann1986",
     "file": "goetzmann1986.jpg",
     "transcription": "",
-    "title": "Loterie Nationale Stake Receipts, First Sheet",
-    "description": "A sheet of Loterie Nationale stake receipts headed Première Feuille, printed République française, bureau 1 and registration 1, the opening numbers of a new register. The forms are ruled for the numbers staked and the several kinds of stake, and are blank: no sum, no numbers and no signature were entered. It shows the instrument as supplied to a bureau, before any subscriber's stake was written on it.",
-    "notes": "[1re Feuille]; B.° 1, Enr.° 1, blank and unissued. ⚠ No date; issueDate is left blank.",
+    "title": "Loterie Nationale Stake Receipt, Voiron, Thermidor Year XI (1803)",
+    "description": "A betting receipt of the Loterie Nationale, sheet 1 of the register, printed \"1re Feuille\" at the head, from office 87 (the number is hard to read), registered number 1, in the commune of Voiron, for a drawing of Thermidor year XI at Lyon. It is filled in: the holder staked on the numbers 1, 8, 9, 40, 64, 68, 70 and 85, as twenty-eight two-number bets and a three-number bet, and it is receipted and signed. Voiron was the office whose receiver, Benoît, the Lyon inspector reported that same month for taking stakes on his own account, at [2029].",
+    "notes": "[1re Feuille]; B.au 87(?), Enr.nt 1; commune de Voiron; Tirage de Lyon, Thermidor an 11 (1803). Filled in and signed: numbers 1-8-9-40-64-68-70-85; 28 ambes. The previous description said the form was blank and unissued. Compare [2029], the Lyon inspector's letter of 10 Thermidor XI about the Voiron receiver Benoît. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -43800,7 +43804,7 @@
     ],
     "creator": "Loterie Nationale",
     "identifiers": [
-      "B. 1, Enr. 1"
+      "B. 87, Enr. 1"
     ],
     "namedIndividuals": [],
     "keywords": [
@@ -43819,15 +43823,17 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1803"
+    ]
   },
   {
     "id": "goetzmann1987",
     "file": "goetzmann1987.jpg",
     "transcription": "",
-    "title": "Loterie Nationale Stake Receipt Sheet, Bureau C.2",
-    "description": "A sheet carrying two stake receipts of the Loterie Nationale, headed République française and marked C.2, with the Paris office named at the right. Each form provides that the bearer has placed a stake for the next drawing on the numbers following, with the boxes for the kinds of stake beside them. One of the two is partly completed and the other left blank.",
-    "notes": "C.2; two forms on one sheet, one partly completed. ⚠ No legible date or registration number; issueDate and identifiers are left minimal.",
+    "title": "Loterie Nationale Stake Receipt, Paris, Fructidor Year XII (1804)",
+    "description": "A betting receipt of the Loterie Nationale, form number 14, from office 48 (the number is hard to read), registered number 164, for a Paris drawing of Fructidor year XII. The holder staked one sol on the numbers 7, 18, 35 and 52 as a four-number bet, a quaterne, which the printed table says paid 75,000 times the stake, and it is receipted for one sol and signed.",
+    "notes": "B.au 48(?), Enr.nt 164; Tirage de Paris, Fructidor an 12 (1804); numbers 7-18-35-52; 1 quaterne at 1 sol; reçu un sol. The previous description spoke of two forms on one sheet marked C.2, one blank; the sheet carries one completed receipt, printed number 14. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -43842,7 +43848,7 @@
     ],
     "creator": "Loterie Nationale",
     "identifiers": [
-      "C.2"
+      "B. 48, Enr. 164"
     ],
     "namedIndividuals": [],
     "keywords": [
@@ -43861,7 +43867,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1804"
+    ]
   },
   {
     "id": "goetzmann1988",
@@ -43915,9 +43923,9 @@
     "id": "goetzmann1989",
     "file": "goetzmann1989.jpg",
     "transcription": "",
-    "title": "Imperial Lottery of France Stake Receipt, Bureau 1, 1812",
-    "description": "A stake receipt of the Imperial Lottery of France, bureau 1, registration 1, carrying two sets of numbers entered in a clear hand: 30, 36 and 60 above, 83 and 88 below, against the printed lines for the kinds of stake. The heading has changed from République to Impériale, but the form is the one the Directory's lottery used and the royal lottery before it, the wording altered only where the regime is named.",
-    "notes": "B.au 1, Enr.° 1; numbers 30-36-60 and 83-88. ⚠ No legible date; the Loterie Impériale ran from 1804 to 1814. The drawing is entered by hand as the first of April 1812; issueDate set from the plate.",
+    "title": "Imperial Lottery of France Stake Receipt, Paris, 1812",
+    "description": "A betting receipt of the Imperial Lottery of France, under the law of 9 Vendémiaire year VI, sheet 1 of the register, from office 851, registered number 551 (both numbers hard to read), for the first Paris drawing of April 1812. The holder staked on the numbers 30, 36 and 40, and 83 and 88, as two-number and three-number bets, and it is receipted and signed. The heading reads Loterie impériale de France; the form is otherwise the one the Republic's lottery used.",
+    "notes": "B.au 851(?), Enr.nt 551(?) (previously recorded as B. 1, Enr. 1; the '1' is the printed sheet number); Premier Tirage d'avril 1812, Paris; numbers 30-36-40 and 83-88 (previously recorded with 60). Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -43932,7 +43940,7 @@
     ],
     "creator": "Loterie Impériale de France",
     "identifiers": [
-      "B.au 1, Enr. 1"
+      "B. 851, Enr. 551"
     ],
     "namedIndividuals": [],
     "keywords": [

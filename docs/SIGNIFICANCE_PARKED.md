@@ -1900,3 +1900,32 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1974
 
 > A ticket of three hundred francs in the Loterie de Douze Millions, redeemable by the Commissariat du Commerce at Paris, the word EMPRUNT set vertically down the left margin. The printed body states that the bearer of the present ticket, belonging to the number written out in words across it, is a shareholder in the lottery of twelve millions. It is signed for the Commissariat du Commerce. A loan of twelve millions divided into three-hundred-franc shares, with the repayment settled by drawing rather than by a fixed schedule.
+
+
+---
+
+## Album follow-up, 2026-09-25 (1980-1989): replaced text
+
+## goetzmann1980
+
+> A printed list of the numbers drawn, issued by the Lyon office of the Loterie Nationale on the 9th of Prairial, headed Liberté, Égalité with a standing figure of Liberty. The draw was made in the hall of the Bourse in the prefecture building, and the numbers that came out of the wheel follow: 37 first, then 60, 1, 75 and 69. The sheet is signed for the Lyon administration. Lists like this were posted and handed out the same day so that holders could check their numbers.
+
+## goetzmann1981
+
+> Two betting receipts of the Loterie Nationale, both from office 707, registered as numbers 1544 and 1555, printed one above the other on a single sheet. Each records a stake placed on the numbers written beside it for the next draw, with boxes filled in for bets on one, two, three or four numbers: 21, 36 and 39 on the upper, and a second set below. Both are headed République française and dated in Ventôse of the year VI.
+
+## goetzmann1982
+
+> A betting receipt of the Loterie Nationale headed République française, for the first drawing of Nivôse in the year VI. The holder has staked on the numbers written across the form, with the printed lines for the different kinds of bet filled in beside them, and the clerk has signed at the foot. The form is the one the royal lottery used, reprinted with a republican heading.
+
+## goetzmann1986
+
+> A sheet of Loterie Nationale stake receipts headed Première Feuille, printed République française, bureau 1 and registration 1, the opening numbers of a new register. The forms are ruled for the numbers staked and the several kinds of stake, and are blank: no sum, no numbers and no signature were entered. It shows the instrument as supplied to a bureau, before any subscriber's stake was written on it.
+
+## goetzmann1987
+
+> A sheet carrying two stake receipts of the Loterie Nationale, headed République française and marked C.2, with the Paris office named at the right. Each form provides that the bearer has placed a stake for the next drawing on the numbers following, with the boxes for the kinds of stake beside them. One of the two is partly completed and the other left blank.
+
+## goetzmann1989
+
+> A stake receipt of the Imperial Lottery of France, bureau 1, registration 1, carrying two sets of numbers entered in a clear hand: 30, 36 and 60 above, 83 and 88 below, against the printed lines for the kinds of stake. The heading has changed from République to Impériale, but the form is the one the Directory's lottery used and the royal lottery before it, the wording altered only where the regime is named.
