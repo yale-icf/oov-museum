@@ -1783,3 +1783,32 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1983
 
 > A stake receipt of the Loterie Nationale, registered number 5462, for the thirty-fourth drawing, the first of Nivôse year VI. The bearer has placed a stake on the numbers 25, 49 and 81, entered in a clear hand across the printed form and repeated against the lines for the several kinds of stake. It is one of four such receipts in this album from the Directory's lottery, the others at [1981] and [1982].
+
+
+---
+
+## Verification pass, 2026-09-25 (1984-2031): replaced text
+
+## goetzmann1984
+
+> A drawing list of the Imperial Lottery of France for the drawing of Rome of 22 September 1813. The drawing was made publicly in the great hall of the Imperial Lottery, in the presence of the prefect of the department, the procureur-general of the imperial court, the mayor of the city of Rome and the chief inspector of the lottery. The numbers out of the wheel were 90, 86, 77, 75 and 78. Rome was then a department of the French Empire, and the sheet is printed in French and signed by the inspectors and the mayor.
+
+## goetzmann1988
+
+> A coupon of sixty centimes for the half of a ticket made at one franc twenty, under the registration 6/224, staked on the numbers 37, 54 and 88 for a drawing of the French Republican lottery at bureau 186, year IX. The printed table gives what the stake produces: 33 francs 15 on one number out, 477 francs 75 on two, and a further sum on three. Signed at Brussels, which was then the chief town of the French department of the Dyle, so the Republic's lottery ran there as in any other department.
+
+## goetzmann2004
+
+> A drawing list of the Loterie Royale de France for the drawing of Bordeaux of 4 May 1823, made publicly in the hall of the administration in the presence of the councillor of state prefect of the department of the Gironde, the procureur-general near the royal court, the mayor of the city and the inspector in chief of the lottery. The numbers out of the wheel were 58, 25, 80, 72 and 41. Signed Bremond as inspector in chief and Valabre.
+
+## goetzmann2009
+
+> A printed Édit du Roi creating a lottery in life and perpetual rentes (yearly payments for life or in perpetuity), given at Versailles in the month of January 1757 and registered in the Parlement on 7 January 1757. It opens Louis, by the grace of God King of France and Navarre, and recites that the situation of our finances requires that we look for the means of providing for the expenses of the war. Eight leaves, with a fine engraved headpiece. The prizes are annuities rather than cash: a subscriber who won was paid an income for life or in perpetuity.
+
+## goetzmann2029
+
+> A letter on the printed letterhead of the Loterie Nationale, Division, written at Lyon on the 10th of Vendémiaire year X by the inspector of the National Lottery at Lyon to the magistrate of safety, provisional substitute for the department of the Isère at Grenoble. It opens Citoyen Magistrat and concerns the conduct of the lottery's business in that department. Two leaves. It is the administrative correspondence behind the tickets: an inspector in one city writing to a magistrate in another about how the offices were being run.
+
+## goetzmann2044
+
+> A letter on the printed heading of the arrondissement of Grenoble, written there in Messidor of the year XI of the French Republic and signed Bottu, inspector of the National Lottery. It is addressed to the citizens composing the magistracy of safety and sets out, in numbered articles, what the lottery requires of them. The letter of the Lyon inspector to the same office, two years earlier, is at [2029].
