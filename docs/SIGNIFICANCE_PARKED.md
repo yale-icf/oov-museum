@@ -869,3 +869,32 @@ curatorial stance.
 *Cut as interpretation or context not on the object.*
 
 > The lottery raised funds by yoking the appeal of a draw to the security of a life annuity: subscribers staked their capital, and the fortunate drew annuities paid from the municipal chamber. [reduced to a gloss]
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0486-0507)
+
+## goetzmann0486
+
+*Cut as interpretation or context not on the object.*
+
+> Such bearer certificates let Amsterdam savers hold Russian sovereign silver debt at one remove, the Dutch houses interposing their own credit.
+
+## goetzmann0389
+
+*Cut as interpretation or context not on the object.*
+
+> The company was by then the Dutch partner in the Royal Dutch/Shell group. [cut when the 0389/0490 description was shared]
+
+## goetzmann0504
+
+*Cut as interpretation or context not on the object.*
+
+> Such pools gathered subscribers' guilders into mortgages and fixed-income paper.
+
+## goetzmann0506
+
+*Cut as interpretation or context not on the object.*
+
+> Poyais was an invented Central American republic, and the certificate belongs to the winding-up of the scheme a decade after it drew British capital. [reduced to one factual clause]
