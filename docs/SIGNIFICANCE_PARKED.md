@@ -1085,3 +1085,20 @@ curatorial stance.
 *Cut as context not on the object or as an error.*
 
 > The company was chartered in 1794 and was among the first joint-stock marine and fire insurers in the United States.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0625-0638)
+
+## goetzmann0632
+
+*Cut as context not on the object.*
+
+> The certificate belongs to Britain's 1932 conversion of its 5 percent War Loan into a cheaper 3.5 percent perpetual.
+
+## goetzmann0633
+
+*Cut as context not on the object.*
+
+> The krone was depreciating rapidly at the time of issue.
