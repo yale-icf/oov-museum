@@ -1201,3 +1201,50 @@ curatorial stance.
 *Cut as context not on the object.*
 
 > weeks after the February Revolution
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0680-0697)
+
+## goetzmann0680
+
+*Cut as context not on the object.*
+
+> weeks after the February Revolution
+
+## goetzmann0683
+
+*Cut as context not on the object.*
+
+> Insull Utility Investments failed in 1932.
+
+## goetzmann0684
+
+*Cut as context not on the object.*
+
+> Middle West Utilities stood at the apex of Samuel Insull's group of interlocking utility holding companies, which collapsed in 1932.
+
+## goetzmann0685
+
+*Cut as context not on the object.*
+
+> a maturity that mirrors the company's long lease to the New York Central.
+
+## goetzmann0687
+
+*Cut as context not on the object.*
+
+> Kreuger's group collapsed in 1932.
+
+## goetzmann0693
+
+*Cut as context not on the object.*
+
+> The loan funded the dismantling of the late Ottoman kmet tenancy and the indemnification of former landholders.
+
+## goetzmann0696
+
+*Cut as context not on the object.*
+
+> The loan consolidated earlier debts and pledged
