@@ -1033,3 +1033,26 @@ curatorial stance.
 *Cut as interpretation or context not on the object.*
 
 > The imperial regime was sustained by French intervention. [cut: context]
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0589-0611)
+
+## goetzmann0589
+
+*Cut as context not on the object.*
+
+> Reșița, in the Banat, was among the oldest and largest ironworking and steel enterprises of the region.
+
+## goetzmann0591
+
+*Cut as context not on the object.*
+
+> the concession Baron Maurice de Hirsch had taken up in 1869 to build the Ottoman railways toward Vienna [cut: not on the bond]
+
+## goetzmann0598
+
+*Cut as context not on the object.*
+
+> The loan was secured on the salt and customs revenues. [cut: the conditions stating this are on the reverse, not in the record]
