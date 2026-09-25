@@ -1633,3 +1633,20 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1036
 
 > A Russian Imperial perpetual-income certificate, dated 1 March 1822 at St Petersburg, promising 5 percent in perpetuity on a principal of 960 silver rubles, rendered also as £148 sterling, a fixed parity of three shillings a penny per silver ruble. The capital is recorded in the State Debt Book of the Commission for the Reduction of Debts, the imperial sinking-fund body. It belongs to the Russian 5 percent loan of 1822, floated through N. M. Rothschild of London, whose embossed seal appears at lower right. The conditions on payment and redemption are printed in Russian and French.
+
+
+---
+
+## Verification pass, 2026-09-25 (1528-1625): cut text
+
+## goetzmann1528
+
+> This was among the earliest of the assignat emissions, made while the paper still bore interest and was treated as a claim on the nationalized estates rather than as currency.
+
+## goetzmann1583
+
+> Detroit Aircraft had been assembled in 1929 as a holding company over several aviation firms, Lockheed among them, and was in receivership within two years of this certificate's date.
+
+## goetzmann1617
+
+> A bond running a full hundred years from its mortgage, it outlasted the company, the gold clause and the railroad itself.
