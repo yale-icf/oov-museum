@@ -717,3 +717,62 @@ curatorial stance.
 *Cut as context not on the object.*
 
 > The note belongs to the early stage of the German monetary collapse of 1921 to 1923, when the Reichsbank was financing government deficits by printing currency.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0431-0442)
+
+## goetzmann0431
+
+*Cut as context not on the object.*
+
+> Bulgaria had proclaimed full independence from the Ottoman Empire in 1908.
+
+## goetzmann0432
+
+*Cut as context not on the object.*
+
+> The corporation was registered in England to hold and work petroleum properties in the Russian Empire.
+
+## goetzmann0434
+
+*Cut as context not on the object.*
+
+> The company was organized to work the forests of the Russian north, where Norwegian capital had long traded in timber.
+
+## goetzmann0435
+
+*Cut as context not on the object.*
+
+> The krone was losing value rapidly at the time of issue.
+
+## goetzmann0437
+
+*Cut as context not on the object.*
+
+> The line linked the sherry district of Jerez de la Frontera to the ports of Seville and Cádiz.
+
+## goetzmann0438
+
+*Cut as context not on the object.*
+
+> The Corporation was a vehicle of the Hongkong and Shanghai Bank and Jardine, Matheson & Co.
+
+## goetzmann0439
+
+*Cut as context not on the object.*
+
+> The company worked the western Pennsylvania oil regions, opened by Edwin Drake's strike at Titusville in 1859.
+
+## goetzmann0440
+
+*Cut as context not on the object.*
+
+> The bank channelled money into Siberian and Trans-Baikal trade.
+
+## goetzmann0442
+
+*Cut as context not on the object.*
+
+> then under Qing suzerainty [cut: not on the share]
