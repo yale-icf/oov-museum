@@ -1547,3 +1547,52 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann0980
 
 > A 3 percent bearer obligation of 125 silver-metallic rubles issued by the Grand Russian Railway Company, signed at St. Petersburg and dated 4 January 1881. The company was the joint-stock concern chartered under an imperially confirmed statute of 3 November 1861 to build the empire's first trunk lines. The bond belongs to the Third Emission of 105,176 obligations, together amounting to 13,147,000 silver rubles, and offers convertible equivalents of 500 francs, 20 pounds sterling, 402 German marks or 236 Dutch guilders.
+
+
+---
+
+## Verification pass, 2026-09-25 (0988-1018): replaced or cut text
+
+## goetzmann0988
+
+> The bank was founded to channel European capital into Chinese railways, ports and industry, and suspended payments in 1921.
+
+## goetzmann0996
+
+> A partial bond of 1847 for twenty gulden in Conventions-Münze on the 20-florin standard, issued by the central treasury of Count Casimir Esterházy von Galántha, an imperial chamberlain and proprietor of lordships in Hungary and Carinthia. The certificate represents one of 50,000 equal partial obligations into which a one-million-gulden loan was divided, bearing five percent interest and redeemed by lottery drawings over forty years beginning in 1848. The underlying principal deed is dated Vienna, 6 November 1847, and a treasury stamp records 15 December 1847. The loan was placed through the Vienna wholesale house Hammer & Karis and secured on the count's Carinthian estates, among them the lordship of Tarvis with its forest districts.
+
+## goetzmann0998
+
+> It belongs to the cycle of mass subscription loans by which the Soviet state drew savings from the population to finance the recovery of industry and agriculture after the Second World War.
+
+## goetzmann1000
+
+> A fifty-ruble bond of the State Internal Lottery Loan of 1982, issued by the government of the USSR. The face bears the denomination spelled in full beside a large numeral 50 and the Soviet state emblem. As a lottery loan it carried no fixed coupon; holders were rewarded instead through periodic prize draws, the printed terms extending the loan's drawings across 1982 to 1990. Its text appears in the languages of the union republics.
+
+## goetzmann1002
+
+> A five-yuan lottery public bond, the Second Issue floated by the Ministry of Finance of the Nationalist Government of China, dated the first day of the eighth month of Year 15 of the Republic, that is 1 August 1926. The summary of regulations states that the government issued this second series, totalling ten million yuan, expressly to develop the commercial harbor at Whampoa in fulfilment of Sun Yat-sen's construction plan, with the debt secured on national revenue assigned to the Central Bank. Rather than paying fixed coupons, principal is retired in three stages through bi-monthly drawings that also distribute cash prizes to holders. It is signed by Finance Minister T. V. Soong and Council Chairman Wang Jingwei.
+
+## goetzmann1004
+
+> A four percent consolidated railway bond of the Imperial Russian Government, First Series, issued on the authority of the Imperial Ukase of 20 February 1889, with a face value of 125 gold rubles bearing interest at four percent. It forms part of a consolidated loan of 175 million gold rubles raised to refund and unify the Treasury's scattered railway debts. The denomination is restated for every market in which the paper was placed: 500 francs, 404 German marks, 19 pounds 15 shillings 6 pence sterling, 239 Dutch guilders, and 96.25 gold dollars.
+
+## goetzmann1006
+
+> The certificate belongs to the earliest wave of joint-stock conversions among Shanghai service enterprises following the resumption of share trading.
+
+## goetzmann1008
+
+> A printed extract of the statutes of the Société de l'Ikelemba, a joint-stock company constituted in 1899, set in French in two columns. Article 1 constitutes the company; Article 2 fixes its registered office in the Congo Free State, in the Ikelemba river basin, with an administrative seat at Brussels. The capital is set at 500,000 francs, divided into 5,000 capital shares of 100 francs each, alongside 5,000 founders' shares of no par value. Louis Lamberts contributes the company's right to acquire some 1,000 hectares of land in the Ikelemba basin, receiving two-tenths of the founders' shares in return. The first financial year closes 31 December 1899 and the first annual general meeting is to be held in 1900, which dates the constitution to 1899.
+
+## goetzmann1010
+
+> A printed receipt of the Amsterdam banking house Lippmann, Rosenthal & Co., issued at Amsterdam on 12 June 1924, acknowledging that it has taken over from Heer Burdet, Druyvestejn the talons of 3 percent bonds of the Grand Russian Railway Company, third emission of 1881, the talon values noted at 125 and 625 roubles. The talon is the stub from which a fresh sheet of interest coupons was drawn once the old sheet was exhausted. A green admonition urges that the receipt be kept for a possible stamping, and an older stamp records a coupon paid 1/14 June 1917, the dual date marking Julian and Gregorian reckoning.
+
+## goetzmann1015
+
+> A coupon bond of the Nineteen John Street Corporation, issued in New York City as of October 1, 1925 and representing a $1,000 share in its First Mortgage Six Per Cent Sinking Fund Gold Loan. The loan financed the Tyler Building and is secured by the premises at 17 to 23 John Street in the Borough of Manhattan, with The New York Trust Company as trustee. Principal falls due October 1, 1953, with half-yearly interest payable in gold coin each April 1 and October 1.
+
+## goetzmann1018
+
+> A six percent mortgage sinking-fund bond for $500 issued by the Maplewood Suburban Home Company, dated the first day of August 1890 at Nashville, Tennessee. The company was a real-estate venture incorporated in 1890 with capital stock of $2,000,000. The bond matures August 1, 1900, with interest payable quarterly and secured by a trust mortgage on the company's lands held by the American Loan & Trust Company as trustee. It is signed by the president and treasurer beneath the corporate seal, and the denomination is repeated as a large screened watermark across the text.

@@ -22861,7 +22861,7 @@
   {
     "id": "goetzmann0988",
     "title": "Banque Industrielle de Chine Share, 1920",
-    "description": "An ordinary bearer share of about 1920, fully paid, for a face value of 500 French francs, issued by the Banque Industrielle de Chine, the Sino-French Industrial Bank, a joint-stock company with a capital of 150,000,000 francs and its registered office in Paris. The text records statutes deposited before the notaries Lavoignat and Moyne on 15 March 1913 and amended by shareholders' general assemblies of 19 May 1919, 28 November 1919 and 7 May 1920, which dates the share to about 1920. The bank was founded to channel European capital into Chinese railways, ports and industry, and suspended payments in 1921.",
+    "description": "An ordinary bearer share of about 1920, fully paid, for a face value of 500 French francs, issued by the Banque Industrielle de Chine, the Sino-French Industrial Bank, a joint-stock company with a capital of 150,000,000 francs in 300,000 shares of 500 francs, 297,000 ordinary and 3,000 founders', and its registered office in Paris. It is number 258,044, signed by the administrator Maspero, with a French stamp-duty mark and coupons 9 to 25 attached. The text records statutes deposited before the notaries Lavoignat and Moyne on 15 March 1913 and amended by shareholders' general assemblies of 19 May 1919, 28 November 1919 and 7 May 1920, which dates the share to about 1920.",
     "file": "goetzmann0988.jpg",
     "type": [
       "Stock Certificate"
@@ -22900,7 +22900,7 @@
       "1920"
     ],
     "creator": "Banque Industrielle de Chine",
-    "notes": "Banque Industrielle de Chine (Sino-French Industrial Bank), Action Ordinaire de 500 Francs au porteur; Capital Social 100,000,000 Francs; Siège Social à Paris; signed by Maspero; bilingual French/Chinese; with attached dividend coupon sheet; No. 258044",
+    "notes": "Banque Industrielle de Chine (Sino-French Industrial Bank), Action Ordinaire de 500 Francs au porteur; Capital Social 150,000,000 Francs in 300,000 shares (previously recorded in the notes as 100,000,000); Siège Social à Paris; signed by Maspero; bilingual French/Chinese; with attached dividend coupon sheet; No. 258044 French \"Titres français abonnement\" stamp. Coupons 9-25 attached. Checked against the plate 2026-09-25.",
     "subjectCountry": [
       "China"
     ],
@@ -22922,7 +22922,7 @@
   {
     "id": "goetzmann0990",
     "title": "East Egyptian Railways Bond, Cairo, 1897",
-    "description": "A 3.5 percent bearer bond for £20 sterling, equal to 504 French francs, issued by the Compagnie des Chemins de Fer Économiques de l'Est Égyptien, a joint-stock company with its registered office in Cairo, dated Cairo, 1 July 1897 and signed by two directors. The bond belongs to an emission of 12,500 obligations of £20 each, representing a total of £250,000 or 6,300,000 francs, raised against the company's authorized capital of £200,000 and sanctioned by Khedival decree of 8 June 1897. Interest of 14 shillings, or 17.64 francs, is payable yearly in gold, half on 1 January and half on 1 July, redeemable by annual drawings within a maximum of seventy years, with coupons honoured in gold at Cairo, Alexandria, Paris, London, Amsterdam, Brussels and Geneva. Its text is set in parallel French and English.",
+    "description": "A 3.5 percent bearer bond for £20 sterling, equal to 504 French francs, issued by the Compagnie des Chemins de Fer Économiques de l'Est Égyptien, a joint-stock company based in Cairo, dated Cairo, 1 July 1897 signed by two directors, one of them Félix Suarès, and countersigned for control. The bond belongs to an emission of 12,500 obligations of £20 each, representing a total of £250,000 or 6,300,000 francs, raised against the company's authorized capital of £200,000 and sanctioned by Khedival decree of 8 June 1897. Interest of 14 shillings, or 17.64 francs, is payable yearly in gold, half on 1 January and half on 1 July, redeemable by annual drawings within a maximum of seventy years, payable at Cairo, Alexandria, Paris, London, Amsterdam, Brussels and Geneva. Its text is set in parallel French and English, and it is number 10,592. Printed by Imprimerie Chaix, Paris.",
     "file": "goetzmann0990.jpg",
     "type": [
       "Bond"
@@ -22961,7 +22961,7 @@
       "1897"
     ],
     "creator": "Compagnie des Chemins de Fer Économiques de l'Est Égyptien",
-    "notes": "Compagnie des Chemins de Fer Économiques de l'Est Égyptien (Egyptian Eastern Light Railways), Société Anonyme; Capital £200,000; 12,500 bonds of £20 each; 3.5% Obligation au Porteur / Bond to Bearer; 504 Francs / Twenty Pounds Sterling; interest payable in gold; Cairo, July 1, 1897; No. R 10,592",
+    "notes": "Compagnie des Chemins de Fer Économiques de l'Est Égyptien (Egyptian Eastern Light Railways), Société Anonyme; Capital £200,000; 12,500 bonds of £20 each; 3.5% Obligation au Porteur / Bond to Bearer; 504 Francs / Twenty Pounds Sterling; interest payable in gold; Cairo, July 1, 1897; No. R 10,592 Signed by Félix Suarès(?) as director; countersigned for control. Printed by Chaix. Previously listed identifiers \"No. 110\", \"No. 111\", \"No. 120\" were not serials. Checked against the plate 2026-09-25.",
     "subjectCountry": [
       "Egypt"
     ],
@@ -22985,17 +22985,13 @@
       }
     ],
     "identifiers": [
-      "No. R 10,592",
-      "No. 10592",
-      "No. 110",
-      "No. 111",
-      "No. 120"
+      "No. 10,592"
     ]
   },
   {
     "id": "goetzmann0996",
     "title": "Esterhazy Central Casse Partial Bond, Vienna, 1847",
-    "description": "A partial bond of 1847 for twenty gulden in Conventions-Münze on the 20-florin standard, issued by the central treasury of Count Casimir Esterházy von Galántha, an imperial chamberlain and proprietor of lordships in Hungary and Carinthia. The certificate represents one of 50,000 equal partial obligations into which a one-million-gulden loan was divided, bearing five percent interest and redeemed by lottery drawings over forty years beginning in 1848. The underlying principal deed is dated Vienna, 6 November 1847, and a treasury stamp records 15 December 1847. The loan was placed through the Vienna wholesale house Hammer & Karis and secured on the count's Carinthian estates, among them the lordship of Tarvis with its forest districts.",
+    "description": "A partial bond, number 14,725, for twenty gulden in Conventions-Münze on the 20-florin standard, one of 50,000 into which Count Casimir Esterházy von Galántha, imperial chamberlain and owner of estates in Hungary and Carinthia, divided a loan of one million gulden contracted through the Vienna wholesale house of Hammer & Karis. The principal deed is dated Vienna, 6 November 1847. The bonds were to be repaid, with the interest added to them, in twenty-eight public drawings from 1848 to 1887, the table on the upper half setting out the prizes and the total of 2,371,900 gulden. As security the count pledged his Carinthian lordships of Federaun and of Tarvis with its forest districts, valued at 3,700,893 gulden. Printed by Bl. Höfel, Vienna.",
     "file": "goetzmann0996.jpg",
     "type": [
       "Bond"
@@ -23033,7 +23029,7 @@
       "1847"
     ],
     "creator": "Gräflich Casimir Esterhazy'sche Central-Casse",
-    "notes": "Partial-Schuldverschreibung (partial bond certificate), 20 Gulden Conventions-Münze; loan of 1,000,000 guilden issued against estate of Count Casimir Esterhazy von Galantha; managed by banking house Hammer & Koch; with lottery repayment recapitulation table; No. 14,725",
+    "notes": "Partial-Schuldverschreibung (partial bond certificate), 20 Gulden Conventions-Münze; loan of 1,000,000 guilden issued against estate of Count Casimir Esterhazy von Galantha; contracted through the wholesale house Hammer & Karis (previously recorded in the notes as \"Hammer & Koch\"); with lottery repayment recapitulation table; No. 14,725 28 drawings, 15 May 1848 to 16 November 1887, total repayments fl. 2,371,900 on 50,000 pieces; the description previously said 5% interest over forty years, which the plate states only as interest added to the drawing plan. Security: lordship Federaun and forest lordship Tarvis, valued C.M. fl. 3,700,893 16 kr. Printed by Bl. Höfel, Vienna.",
     "subjectCountry": [
       "Austria"
     ],
@@ -23055,7 +23051,7 @@
   {
     "id": "goetzmann0998",
     "title": "USSR Third State Loan for Reconstruction Bond, 1948",
-    "description": "A state loan bond with a face value of one hundred rubles, issued under the Third State Loan for the Reconstruction and Development of the National Economy of the USSR and dated 1948. It belongs to the cycle of mass subscription loans by which the Soviet state drew savings from the population to finance the recovery of industry and agriculture after the Second World War. Its text appears in the languages of the union republics.",
+    "description": "A state loan bond with a face value of one hundred rubles, issued under the Third State Loan for the Reconstruction and Development of the National Economy of the USSR and dated 1948. It is series 055726, bond number 23, class 150. Its text appears in the languages of the union republics.",
     "file": "goetzmann0998.jpg",
     "type": [
       "Bond"
@@ -23092,7 +23088,7 @@
       "1948"
     ],
     "creator": "USSR (Soviet Government)",
-    "notes": "USSR Third State Loan for Reconstruction and Development of the National Economy (Tretiy Gosudarstvennyy Zaym Vosstanovleniya i Razvitiya Narodnogo Khozyaystva SSSR), 100 Rubles; 1948; Grade (Razryad) 150; Series No. 055726, Obligation No. 23",
+    "notes": "USSR Third State Loan for Reconstruction and Development of the National Economy (Tretiy Gosudarstvennyy Zaym Vosstanovleniya i Razvitiya Narodnogo Khozyaystva SSSR), 100 Rubles; 1948; Grade (Razryad) 150; Series No. 055726, Obligation No. 23 Checked against the plate 2026-09-25.",
     "subjectCountry": [
       "Russia"
     ],
@@ -23115,7 +23111,7 @@
   {
     "id": "goetzmann1000",
     "title": "USSR State Internal Lottery Loan Bond, 1982",
-    "description": "A fifty-ruble bond of the State Internal Lottery Loan of 1982, issued by the government of the USSR. The face bears the denomination spelled in full beside a large numeral 50 and the Soviet state emblem. As a lottery loan it carried no fixed coupon; holders were rewarded instead through periodic prize draws, the printed terms extending the loan's drawings across 1982 to 1990. Its text appears in the languages of the union republics.",
+    "description": "A fifty-ruble bond of the USSR State Internal Lottery Loan of 1982, series 269867, bond number 087, class 28. The printed conditions on the back state that the loan ran from 1 January 1982 to 1 January 2002 and was sold freely through the savings banks. It paid no fixed interest: instead, 160 prize drawings, eight a year, returned the equivalent of 3 percent a year, and bonds not drawn were repaid at face value at the end. A winner of 10,000 rubles had the right to buy a Volga car out of turn. Bonds and prizes were free of state taxes. Printed by the state printing works, Goznak.",
     "file": "goetzmann1000.jpg",
     "type": [
       "Lottery Bond"
@@ -23151,7 +23147,7 @@
       "1982"
     ],
     "creator": "USSR (Soviet Government)",
-    "notes": "USSR State Internal Lottery Loan 1982 (Gosudarstvennyy vnutrenniy vyigryshnyy zaym 1982 goda); 50 Rubles (Pyatdesyat Rubley); Grade (Razryad) 28; Series No. 269867, Obligation No. 087",
+    "notes": "USSR State Internal Lottery Loan 1982 (Gosudarstvennyy vnutrenniy vyigryshnyy zaym 1982 goda); 50 Rubles (Pyatdesyat Rubley); Grade (Razryad) 28; Series No. 269867, Obligation No. 087 Term 1 January 1982 to 1 January 2002 (the description previously said drawings 1982-1990); 160 drawings, 8 a year; average 3% a year; presentable to 1 January 2004. Checked against the plate 2026-09-25.",
     "subjectCountry": [
       "Russia"
     ],
@@ -23167,15 +23163,15 @@
       }
     ],
     "identifiers": [
-      "No. 269867",
-      "No. 087",
-      "Loan of 1982"
+      "Series No. 269867",
+      "Bond No. 087",
+      "Class 28"
     ]
   },
   {
     "id": "goetzmann1002",
     "title": "Nationalist Government Whampoa Harbour Lottery Bond, Second Issue, Canton, 1926",
-    "description": "A five-yuan lottery public bond, the Second Issue floated by the Ministry of Finance of the Nationalist Government of China, dated the first day of the eighth month of Year 15 of the Republic, that is 1 August 1926. The summary of regulations states that the government issued this second series, totalling ten million yuan, expressly to develop the commercial harbor at Whampoa in fulfilment of Sun Yat-sen's construction plan, with the debt secured on national revenue assigned to the Central Bank. Rather than paying fixed coupons, principal is retired in three stages through bi-monthly drawings that also distribute cash prizes to holders. It is signed by Finance Minister T. V. Soong and Council Chairman Wang Jingwei.",
+    "description": "A five-dollar bond, in Canton currency, of the Second Nationalist Government Lottery Loan, issued by the Ministry of Finance of the Nationalist Government of China and dated the first day of the eighth month of the fifteenth year of the Republic, 1 August 1926. The loan, of ten million dollars, was to finance the building of the port of Whampoa, under regulations sanctioned on 25 June 1926. It was secured on the government's revenues, with the Central Bank of China guaranteeing payment. The bonds were repaid over thirty months by monthly drawings held at the General Chamber of Commerce, Canton, with prizes from $50,000 down to $5, and the back gives the terms in English. It is number 0439850, with the printed signatures of Wang Ching Wai, chairman of the government, and T. V. Soong, Minister of Finance.",
     "file": "goetzmann1002.jpg",
     "type": [
       "Lottery Bond"
@@ -23211,7 +23207,7 @@
       "1926"
     ],
     "creator": "Republic of China, Ministry of Finance",
-    "notes": "Republic of China National Government, Ministry of Finance, Third Patriotic Lottery Bond (Zhonghua Minguo Zhengfu Caizhengbu Di San Ci Aiguo Jiangquan); 5 Yuan (Wu Yuan); issued January 8, 1926 (Republic of China Year 15); No. 0439850",
+    "notes": "國民政府財政部第貳次有獎公債 (Second, not Third as the notes previously said), 伍圓, 中華民國十五年八月一日發行 = 1 August 1926 (previously recorded in the notes as January 8, 1926); No. 0439850; $10,000,000 Canton currency; port of Whampoa; 30 monthly instalments (2%, 3%, 5% of bonds drawn); prizes drawn monthly at the General Chamber of Commerce, Canton (the description previously said bi-monthly, in three stages); secured on government revenues, guaranteed by the Central Bank of China. English terms on the back; purple stamp at right. Facsimile signatures of Wang Ching Wai and T. V. Soong.",
     "subjectCountry": [
       "China"
     ],
@@ -23233,7 +23229,7 @@
   {
     "id": "goetzmann1004",
     "title": "Imperial Russian Government Consolidated Railway Bond, First Series, 1889",
-    "description": "A four percent consolidated railway bond of the Imperial Russian Government, First Series, issued on the authority of the Imperial Ukase of 20 February 1889, with a face value of 125 gold rubles bearing interest at four percent. It forms part of a consolidated loan of 175 million gold rubles raised to refund and unify the Treasury's scattered railway debts. The denomination is restated for every market in which the paper was placed: 500 francs, 404 German marks, 19 pounds 15 shillings 6 pence sterling, 239 Dutch guilders, and 96.25 gold dollars.",
+    "description": "A bearer bond of 125 gold rubles of the Imperial Russian Government's Consolidated 4 Percent Railway Bonds, First Series, letter A, number 236902. The loan, of 175 million gold rubles, was issued under the ukase of 20 February 1889 to convert and redeem the 5 percent bonds of a long list of private railway companies named on the face. Each bond is also valued at 500 francs, 404 German marks, £19 15s 6d, 239 Dutch guilders or 96.25 gold dollars. Interest was paid four times a year, in St. Petersburg, Paris, London, Berlin, Frankfurt, Amsterdam, Brussels and New York, and the loan was repaid over eighty-one years by half-yearly drawings. It is entered in the State Debt Book, book 10, page 102, and a red French stamp of 1898 records additional stamp duty paid.",
     "file": "goetzmann1004.jpg",
     "type": [
       "Bond"
@@ -23271,7 +23267,7 @@
       "1889"
     ],
     "creator": "Imperial Russian Government",
-    "notes": "Imperial Russian Government, Russian Consolidated 4% Railroad Bonds, 1st Series A (Konsolidirovannaya Rossiyskaya Chetyrekhprotsentnaya Zheleznodorozhnaya Obligatsiya 1-y Serii); 125 Gold Rubles; quadrilingual bond (Russian, French, German, English); 30% surcharge stamp affixed; No. 236302",
+    "notes": "Imperial Russian Government, Russian Consolidated 4% Railroad Bonds, 1st Series A (Konsolidirovannaya Rossiyskaya Chetyrekhprotsentnaya Zheleznodorozhnaya Obligatsiya 1-y Serii); 125 Gold Rubles; quadrilingual bond (Russian, French, German, English); red French \"50 c% complément de droit\" stamp, Paris 1898 (previously recorded as a \"30% surcharge stamp\"); No. 236902 (read from the plate; previously recorded as 236302); book 10 p. 102",
     "subjectCountry": [
       "Russia"
     ],
@@ -23287,14 +23283,14 @@
       }
     ],
     "identifiers": [
-      "No. 236302",
-      "Serie 1"
+      "Series 1 A",
+      "No. 236902"
     ]
   },
   {
     "id": "goetzmann1006",
     "title": "Shanghai Pudong Qiangsheng Taxi Co. Share Certificate (Shanghai), 1992",
-    "description": "A share certificate of the Shanghai Pudong Qiangsheng Taxi Co., Ltd., dated the twelfth of February 1992, representing ten shares of ten yuan each, a face value of one hundred yuan in renminbi. The total registered capital is stated as 1,100,000 shares, or 11,000,000 yuan. It was issued at Shanghai and bears the approval of the People's Bank of China, Shanghai Branch, together with the signed seal of the company's legal representative. The certificate belongs to the earliest wave of joint-stock conversions among Shanghai service enterprises following the resumption of share trading.",
+    "description": "A share certificate of the Shanghai Pudong Qiangsheng Taxi Co., Ltd., dated the twelfth of February 1992, representing ten shares of ten yuan each, a face value of one hundred yuan in renminbi. The total registered capital is stated as 1,100,000 shares, or 11,000,000 yuan. It was issued at Shanghai and was approved for issue by document (92) No. 1 of the People's Bank of China, Shanghai Branch. The shareholder's name is left blank. It bears together with the signed seal of the company's legal representative.",
     "file": "goetzmann1006.jpg",
     "type": [
       "Stock Certificate"
@@ -23331,7 +23327,7 @@
       "1992"
     ],
     "creator": "Shanghai Pu Dong Qiang Sheng Taxi Co., Ltd.",
-    "notes": "Shanghai Pu Dong Qiang Sheng Taxi Co., Ltd. (Shanghai Pudong Qiangsheng Chuzuqiche Gufen Youxian Gongsi), stock share certificate; 10 shares at RMB 10 each (100 RMB total); approved by People's Bank of China Shanghai branch; issued February 12, 1992; No. DXII 0068056",
+    "notes": "Shanghai Pu Dong Qiang Sheng Taxi Co., Ltd. (Shanghai Pudong Qiangsheng Chuzuqiche Gufen Youxian Gongsi), stock share certificate; 10 shares at RMB 10 each (100 RMB total); approved by People's Bank of China Shanghai branch; issued February 12, 1992; No. XII 0068056 (previously recorded as \"DXII\")",
     "subjectCountry": [
       "China"
     ],
@@ -23347,13 +23343,13 @@
       }
     ],
     "identifiers": [
-      "No. DXII 0068056"
+      "No. XII 0068056"
     ]
   },
   {
     "id": "goetzmann1008",
-    "title": "Société de l'Ikelemba Share Statutes (Congo Free State), 1899",
-    "description": "A printed extract of the statutes of the Société de l'Ikelemba, a joint-stock company constituted in 1899, set in French in two columns. Article 1 constitutes the company; Article 2 fixes its registered office in the Congo Free State, in the Ikelemba river basin, with an administrative seat at Brussels. The capital is set at 500,000 francs, divided into 5,000 capital shares of 100 francs each, alongside 5,000 founders' shares of no par value. Louis Lamberts contributes the company's right to acquire some 1,000 hectares of land in the Ikelemba basin, receiving two-tenths of the founders' shares in return. The first financial year closes 31 December 1899 and the first annual general meeting is to be held in 1900, which dates the constitution to 1899.",
+    "title": "Société de l'Ikelemba Share, Back with Statutes, and Coupon Sheet (Congo Free State), 1899",
+    "description": "The back of a share of the Société de l'Ikelemba, a Belgian joint-stock company formed in 1899, printed with an extract of its statutes, together with its sheet of thirty dividend coupons; the face of the share is not in the collection. The company had its registered seat in the Congo Free State, in the basin of the Ikelemba River, and its administrative seat in or near Brussels, and was formed for thirty years. Its capital was 500,000 francs in 5,000 shares of 100 francs, with 5,000 dividend shares of no stated value besides. Louis Lamberts contributed the right to acquire 1,000 hectares of land in the Ikelemba basin and received two-tenths of the dividend shares. The first accounts were to close on 31 December 1899 and the first annual meeting to be held in 1900.",
     "file": "goetzmann1008.jpg",
     "type": [
       "Stock Certificate"
@@ -23389,7 +23385,7 @@
       "1899"
     ],
     "creator": "Unknown Belgian Congo company",
-    "notes": "Belgian/French company document, Extrait des Statuts (corporate statutes extract) in French; references to Louis Lambert, general assembly in Brussels, dividends and board of directors; p.1/2",
+    "notes": "Two leaves: goetzmann1008, the back of a share with \"Extrait des Statuts\" (Arts. 1-3, 5, 30, 37, 41); goetzmann1009, a sheet of 30 coupons. The face of the share is not present. Lamberts received two-tenths of the 5,000 dividend shares (actions de dividende; previously described as founders' shares). \"No. 1\" previously listed as an identifier was not a serial.",
     "subjectCountry": [
       "Belgium"
     ],
@@ -23404,14 +23400,12 @@
         "description": "Coupon sheet of thirty dividend coupons, numbers 1 to 30, all still attached."
       }
     ],
-    "identifiers": [
-      "No. 1"
-    ]
+    "identifiers": []
   },
   {
     "id": "goetzmann1010",
     "title": "Lippmann, Rosenthal & Co. Receipt for Russian Railway Bond Talons, Amsterdam, 1924",
-    "description": "A printed receipt of the Amsterdam banking house Lippmann, Rosenthal & Co., issued at Amsterdam on 12 June 1924, acknowledging that it has taken over from Heer Burdet, Druyvestejn the talons of 3 percent bonds of the Grand Russian Railway Company, third emission of 1881, the talon values noted at 125 and 625 roubles. The talon is the stub from which a fresh sheet of interest coupons was drawn once the old sheet was exhausted. A green admonition urges that the receipt be kept for a possible stamping, and an older stamp records a coupon paid 1/14 June 1917, the dual date marking Julian and Gregorian reckoning.",
+    "description": "A printed receipt, number 11437, of the Amsterdam banking house Lippmann, Rosenthal & Co., dated Amsterdam, 12 June 1924, and marked as originally dated 8 June 1916. It records that the bank took over from Burdet and Druyvesteyn (the names are hard to read) one talon of the 3 percent bonds of the Grand Russian Railway Company, third issue of 1881, from bond number 213,779, of 125 rubles. The talon was the stub exchanged for a new sheet of coupons. A green notice asks that the receipt be kept in case it has to be stamped later, and an older stamp records that the coupon of 1/14 June 1917 was paid. The bond collection holds a bond of the same issue, goetzmann0980.",
     "file": "goetzmann1010.jpg",
     "type": [
       "Receipt"
@@ -23448,7 +23442,7 @@
       "1924"
     ],
     "creator": "Lippmann, Rosenthal & Co.",
-    "notes": "Lippmann, Rosenthal & Co. (Amsterdam) coupon talon receipt; Overgenomen van de Heer Burdet, Druyvestejn — Een Talons van 3 pCt. Obligatien Groote Russische Spoorweg Maatschappij, 3de uitgifte 1881 (one talon for 3% Grand Russian Railway Co. obligations, 3rd issue 1881); talon value Rs. 125, total Rs. 625; Amsterdam, June 12, 1924; No. 213,779",
+    "notes": "Lippmann, Rosenthal & Co. (Amsterdam) coupon talon receipt; Overgenomen van de Heer Burdet, Druyvestejn — Een Talons van 3 pCt. Obligatien Groote Russische Spoorweg Maatschappij, 3de uitgifte 1881 (one talon for 3% Grand Russian Railway Co. obligations, 3rd issue 1881); talon value Rs. 125, total Rs. 625; Amsterdam, June 12, 1924; No. 213,779 Receipt No. 11437; talon of bond No. 213,779; one talon at Rb. 125 (the 625 line is blank; the description previously gave talon values of 125 and 625); \"oorspronkelijk gedateerd 8/6/16\". Same issue as goetzmann0980 (bond No. 210979).",
     "subjectCountry": [
       "Netherlands"
     ],
@@ -23464,13 +23458,14 @@
       }
     ],
     "identifiers": [
-      "No. 213,779"
+      "Receipt No. 11437",
+      "Bond No. 213,779"
     ]
   },
   {
     "id": "goetzmann1015",
     "title": "Tyler Building First Mortgage Gold Loan Bond, New York, 1925",
-    "description": "A coupon bond of the Nineteen John Street Corporation, issued in New York City as of October 1, 1925 and representing a $1,000 share in its First Mortgage Six Per Cent Sinking Fund Gold Loan. The loan financed the Tyler Building and is secured by the premises at 17 to 23 John Street in the Borough of Manhattan, with The New York Trust Company as trustee. Principal falls due October 1, 1953, with half-yearly interest payable in gold coin each April 1 and October 1.",
+    "description": "A certificate issued by The New York Trust Company, as of 1 October 1925, number M 1259, representing a $1,000 share or part in the Nineteen John Street Corporation's First Mortgage Six Per Cent Sinking Fund Gold Loan, which financed the Tyler Building at 17 to 23 John Street, Manhattan. The trust company held the bonds and mortgages, up to $1,400,000, and paid holders only out of what it collected on them; the loan was due on 1 October 1953, with interest each 1 April and 1 October. A red overprint states that this is a certificate representing a share or part in the loan. A stamp records that after a judgment of foreclosure of 16 June 1933, a payment was made on account of the deficiency on 6 November 1933. It is signed for the trust company by an assistant secretary. Printed by the American Bank Note Company.",
     "file": "goetzmann1015.jpg",
     "type": [
       "Bond"
@@ -23522,7 +23517,7 @@
       "1925"
     ],
     "creator": "Nineteen John Street Corporation",
-    "notes": "Tyler Building (Nineteen John Street Corporation), State of New York, City of New York; First Mortgage Six Per Cent Sinking Fund Gold Loan; $1,000 denomination; secured by premises at 17-23 John Street, Borough of Manhattan; trustee: The New York Trust Company; red diagonal stamp THIS IS A CERTIFICATE REPRESENTING A SHARE OR PART IN A CONSTRUCTION MORTGAGE BOND; No. M 1259",
+    "notes": "Tyler Building (Nineteen John Street Corporation), State of New York, City of New York; First Mortgage Six Per Cent Sinking Fund Gold Loan; $1,000 denomination; secured by premises at 17-23 John Street, Borough of Manhattan; trustee: The New York Trust Company; red diagonal stamp THIS IS A CERTIFICATE REPRESENTING A SHARE OR PART IN A CONSTRUCTION MORTGAGE BOND; No. M 1259 Issued by The New York Trust Company as trustee (previously described as a bond of the corporation). Loan $1,400,000. Stamp: foreclosure judgment 16 June 1933; payment on account of deficiency judgment, New York, 6 November 1933 (amount handwritten, partly legible). Checked against the plate 2026-09-25.",
     "subjectCountry": [
       "United States"
     ],
@@ -23534,7 +23529,7 @@
   {
     "id": "goetzmann1018",
     "title": "Maplewood Suburban Home Company Mortgage Sinking Fund Bond, 1890",
-    "description": "A six percent mortgage sinking-fund bond for $500 issued by the Maplewood Suburban Home Company, dated the first day of August 1890 at Nashville, Tennessee. The company was a real-estate venture incorporated in 1890 with capital stock of $2,000,000. The bond matures August 1, 1900, with interest payable quarterly and secured by a trust mortgage on the company's lands held by the American Loan & Trust Company as trustee. It is signed by the president and treasurer beneath the corporate seal, and the denomination is repeated as a large screened watermark across the text.",
+    "description": "A six percent mortgage sinking-fund bond for $500 of the Maplewood Suburban Home Company, a corporation organized under the laws of Maine, sealed and signed on 1 August 1890. The company promised to pay the sum to the American Loan and Trust Company of Boston, as trustee, or to the bearer on 1 August 1900, with interest quarterly each November, February, May and August. The bond is one of a series of $300,000 secured by a trust mortgage on the company's lands and property. The heading shows the Tennessee State Capitol at Nashville and gives the company's capital stock as $2,000,000. It is signed by the president, Fred E. Smith (the name is hard to read), and the treasurer, Chas. W. Baldwin. Printed by Forbes Lith. Co., Boston.",
     "file": "goetzmann1018.jpg",
     "type": [
       "Bond"
@@ -23585,7 +23580,7 @@
       "1890"
     ],
     "creator": "Maplewood Suburban Home Company",
-    "notes": "Maplewood Suburban Home Company (incorporated 1910), United States of America; 6% Mortgage Sinking Fund Bond; $500 denomination; Capital Stock $2,000,000; engraved with image of suburban home; signed by President and Treasurer; p.1/3",
+    "notes": "Maplewood Suburban Home Company (incorporated 1890 under the laws of Maine; notes previously said 1910), United States of America; 6% Mortgage Sinking Fund Bond; $500 denomination; Capital Stock $2,000,000; engraved with image of suburban home; signed by President and Treasurer; p.1/3 Trustee American Loan and Trust Company of Boston; series $300,000. \"Nashville\" is the caption of the vignette, not the place of issue. Checked against the plate 2026-09-25.",
     "subjectCountry": [
       "United States"
     ],
