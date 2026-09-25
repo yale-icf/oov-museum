@@ -1746,3 +1746,40 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1902
 
 > A printed royal decree, headed Arrest du Conseil d'État du Roi, of 19 October 1780 ordering the opening of a loan by way of lottery, redeemable in nine years. The loan is to be opened at the Treasury with the sieur Micault d'Harvelay, keeper of the Royal Treasury, in twelve thousand shares of a thousand livres each, forming a capital of twelve million livres, the repayment and the yearly prizes being charged upon it. Seven leaves. Borrowing dressed as a lottery let the Crown pay part of its interest in prizes rather than in a stated rate.
+
+
+---
+
+## Verification pass, 2026-09-25 (1911-1983): replaced text
+
+## goetzmann1911
+
+> A printed prospectus for a lottery built on the numbers of the city of Paris land loan, created by royal edict in September 1786. That edict allowed the provost of merchants and the aldermen to raise thirty million livres in shares of a thousand livres each; this scheme proposes to divide thirty thousand such shares among subscribers, repayable over twenty years. Four leaves, in numbered articles. It is a lottery grafted onto a city loan: a subscriber's number decided both when he was repaid and whether he won a prize.
+
+## goetzmann1921
+
+> A Supplément à la Gazette of Tuesday 27 December 1785, printing an Édit du Roi creating four million livres of hereditary rentes (fixed yearly payments in perpetuity), redeemable at will. It was given at Versailles in the month of December 1785 and registered in the Parlement on 27 December, the day of this supplement. Four leaves.
+
+## goetzmann1938
+
+> A note of the Banque de Confiance at number 8, rue Notre-Dame des Victoires, headed OR, gold, volume 7, series 39, number 75, dated at Paris 27 April 1792. When the number 75 of the 39th series comes up for payment, or falls within the ten of the first and last number of one of the drawings of the Loterie Royale, the bearer is to receive sixteen louis, paying four louis in assignats. The house used the royal lottery's own drawings to schedule redemption, and exchanged hard coin for depreciating paper at a set ratio.
+
+## goetzmann1946
+
+> The printed Règlement of the Petite Loterie Nationale, its administration at number 17, Place des Victoires, headed Liberté, Égalité, and dated 1795, the third year of the French Republic. Seven leaves, printed at Paris by the press of the Fontaine du Pacte Social. The articles govern the tickets, the offices, the drawings and the payment of prizes. It stands two years after the Convention had abolished every lottery in France.
+
+## goetzmann1961
+
+> Lartigue's address to the National Convention, printed by order of the Committee of Finances, from the sitting of 28 Pluviôse of the year III. Eight leaves, headed Citoyens Représentans. It is a considered argument on the lotteries: what they cost the people who play them, what they yield the treasury, and whether the Republic should reopen what it suppressed in Brumaire of the year II. The decree of suppression is at [1944] and the Petite Loterie Nationale's own regulation, printed the same year, at [1946].
+
+## goetzmann1972
+
+> A ticket of fifty francs in the National Lottery of Houses, Furniture and Effects, number 657,218, established by decree of the Convention of 23 Germinal year III, for the drawing of the month of Fructidor year III. It is delivered by the municipal steward in the commune named on the form and signed there. The prizes in this lottery were not sums of money but confiscated buildings and their contents, the nationalized property of the Revolution put into a draw.
+
+## goetzmann1975
+
+> A printed slip announcing that a superb garniture of embroidered muslin, which could not be valued at less than fifty louis by a connoisseur, will fall to the first number drawn in the lottery at the drawing of 17 Floréal of the year VI. The holder of the winning number may come and collect it on the 18th of Floréal at the house of the citoyenne Perrochet, rue Feydeau. A small private lottery of a single luxury object, settled on the public drawing rather than on one of its own.
+
+## goetzmann1983
+
+> A stake receipt of the Loterie Nationale, registered number 5462, for the thirty-fourth drawing, the first of Nivôse year VI. The bearer has placed a stake on the numbers 25, 49 and 81, entered in a clear hand across the printed form and repeated against the lines for the several kinds of stake. It is one of four such receipts in this album from the Directory's lottery, the others at [1981] and [1982].
