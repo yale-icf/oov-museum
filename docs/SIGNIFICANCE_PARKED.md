@@ -1704,3 +1704,20 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1829
 
 > Being unused, it shows the form as it left the printer, before anyone's stake was written on it.
+
+
+---
+
+## Verification pass, 2026-09-25 (1831-1873): replaced or cut text
+
+## goetzmann1831
+
+> A printed decree of the King's Council of 30 July 1760, setting up a lottery of two million four hundred thousand livres for three years in favor of the city of Paris, to be renewed and drawn every two months. The articles give the right to run it to the provost of merchants and the aldermen, who governed the city; fix each drawing at two million four hundred thousand livres in twenty thousand tickets of a hundred and twenty livres; require half the money to come back as prizes; and order the winning numbers published eight days after each draw. Four leaves.
+
+## goetzmann1835
+
+> A final notice of the drawing of the twenty-third city of Paris lottery, set up by decrees of the King's Council of 30 July and 22 December 1760. It announces that the draw will be held in public on 5 November 1762 at eleven in the morning, in the great hall of the Hôtel de Ville, before the provost of merchants and the aldermen, and that the list of prizes will be published straight afterwards. Below is the breakdown of the prizes: twenty thousand tickets at a hundred and twenty livres, and fifty prizes for every thousand tickets.
+
+## goetzmann1838
+
+> Selling tickets in quarters brought a twenty-four-livre stake within reach of a smaller purse.
