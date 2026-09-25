@@ -19251,7 +19251,7 @@
       "1931"
     ],
     "creator": "Republic of Poland",
-    "notes": "Republic of Poland, Obligacja Serji III Premjowej Pożyczki Dolarowej. No. 1450669. $5 = zł 44.57. Warsaw, February 1, 1931. Law of 1 February 1930; 4% semi-annual (1 Feb / 1 Aug), six lottery draws a year at the Ministry of the Treasury. Three coupons (nos. 20, 19, 18, each also numbered 1450669) attached at bottom; previously misread as nos. 16, 19, 20. A second example of this same $5 Series III bond, No. 1222277, is goetzmann0715.",
+    "notes": "Republic of Poland, Obligacja Serji III Premjowej Pożyczki Dolarowej. No. 1450669. $5 = zł 44.57. Warsaw, February 1, 1931. Law of 1 February 1930; 4% semi-annual (1 Feb / 1 Aug), six lottery draws a year at the Ministry of the Treasury. Three coupons (nos. 20, 19, 18, each also numbered 1450669) attached at bottom; previously misread as nos. 16, 19, 20. A second example of this same $5 Series III bond, No. 1222277, is goetzmann0715. Checked against the plate 2026-09-25; no corrections.",
     "subjectCountry": [
       "Poland"
     ],
@@ -19300,7 +19300,7 @@
       "1853"
     ],
     "creator": "Financial Agency of the Portuguese Government in London",
-    "notes": "Conversion of the External Debt of Portugal, Decree of December 18, 1852. Provisional Certificate of Deferred Stock. No. 1463. Three Per Cent. Deferred Stock, interest from January 1, 1863. Amount: Three Pence. Signed by Financial Agent of the Portuguese Government in London. Printed by Whiting, London.",
+    "notes": "Conversion of the External Debt of Portugal, Decree of December 18, 1852. Provisional Certificate of Deferred Stock. No. 1463. Three Per Cent. Deferred Stock, interest from January 1, 1863. Amount: Three Pence. Signed by Financial Agent of the Portuguese Government in London. Printed by Whiting, London. Issued under Article 25 of the Regulations approved by decree of 23 March 1853. Checked against the plate 2026-09-25.",
     "subjectCountry": [
       "Portugal"
     ],
@@ -19312,7 +19312,7 @@
   {
     "id": "goetzmann0718",
     "title": "Portuguese External Fund Zero-Coupon Bond, Lisbon, 1902",
-    "description": "A single zero-coupon bond of the Fundo Externo Portuguez, third series, issued by the Junta do Crédito Público at Lisbon and dated 31 December 1902. It carries a face value of 308$000 réis, set out in parallel as £6 12s 8d, 166.67 francs, 135.34 marks and 79.34 florins. Bearing no interest, the title promised only its eventual reimbursement, drawn by public lottery from a total emission of 477,517 obligations; the holder, as the text concedes, gained no advantage beyond his timely reimbursement. It was issued under the debt-conversion law of 14 May 1902, the Junta do Crédito Público being governed by the decrees of 1893 and 1900. A French one-percent fiscal stamp and the inked note \"rembᵗ juillet 1903\" record its circulation and retirement in Paris.",
+    "description": "A single zero-coupon bond of the Fundo Externo Portuguez, third series, issued by the Junta do Crédito Público at Lisbon and dated 31 December 1902. It carries a face value of 30$000 réis, set out in parallel as £6 12s 8d, 166.67 francs, 135.34 marks and 79.34 florins. Bearing no interest, the title promised only its eventual reimbursement, drawn by public lottery from a total emission of 477,517 obligations; It was issued under the debt-conversion law of 14 May 1902, the Junta do Crédito Público being governed by the decrees of 1893 and 1900. It is number 303,486, to be repaid by drawings over 198 half-years. A French 1 percent stamp for foreign securities, dated 1903, is at the upper right, and a later pencil note at the top reads \"rembᵗ juillet 19?8\" and \"Prescrit\": the bond was drawn for repayment but the claim had lapsed.",
     "file": "goetzmann0718.jpg",
     "type": [
       "Bond"
@@ -19338,9 +19338,11 @@
       "Portugal"
     ],
     "currency": [
-      "Portuguese escudo",
+      "Portuguese real",
+      "British pound sterling",
       "French franc",
-      "British pound sterling"
+      "German mark",
+      "Dutch guilder"
     ],
     "language": [
       "Portuguese"
@@ -19349,7 +19351,7 @@
       "1902"
     ],
     "creator": "Junta de Crédito Público",
-    "notes": "Fundo Externo Portuguez, Título Especial sem Juro, 3.ª Série (Portuguese External Fund, Special Zero-Coupon Bond). No. 303486. Réis 308$000 / Libras 6-12-8 / Francos 166,67 / Marcos 135,34 / Florins 79,34. Emission of 477,517 obligations. Lisbon, Junta do Crédito Público, December 22, 1902. Revenue stamp 1% dated 1903.",
+    "notes": "Fundo Externo Portuguez, Título Especial sem Juro, 3.ª Série (Portuguese External Fund, Special Zero-Coupon Bond). No. 303486. Réis 30$000 (previously recorded as 308$000) / Libras 6-12-8 / Francos 166,67 / Marcos 135,34 / Florins 79,34. Emission of 477,517 obligations. Lisbon, Junta do Crédito Público, 31 December 1902 (notes previously gave December 22). Revenue stamp 1% dated 1903. Pencil note at top: \"rembt Juillet 19?8\" (third digit unclear; previously read as \"juillet 1903\") and \"Prescrit\" (time-barred). Signed by the Minister of Finance, Fernando Mattoso Santos, and members of the Junta do Crédito Público. Currency previously recorded as Portuguese escudo, which dates from 1911.",
     "subjectCountry": [
       "Portugal"
     ],
@@ -19413,7 +19415,7 @@
   {
     "id": "goetzmann0720",
     "title": "USSR State Loan Bond, 1946",
-    "description": "A bearer bond for twenty-five rubles of the State Loan for the Restoration and Development of the National Economy of the USSR, dated 1946. The face carries the denomination in figures and words, a series number, a bond number and a category number, with the Soviet state emblem above. A band of fine micro-text across the middle repeats the loan's title in the languages of the union republics.",
+    "description": "A bearer bond for twenty-five rubles of the State Loan for the Restoration and Development of the National Economy of the USSR, dated 1946. It is series 012594, bond number 33, class 98, with the Soviet state emblem above. A band of small print across the middle repeats the loan's title in the languages of the union republics.",
     "file": "goetzmann0720.jpg",
     "type": [
       "Bond"
@@ -19449,20 +19451,21 @@
       "1946"
     ],
     "creator": "Government of the USSR",
-    "notes": "USSR, State Loan for Restoration and Development of the National Economy (Государственный Заем Восстановления и Развития Народного Хозяйства СССР), 1946. No. 012594, Series 33, Category 98. 25 rubles. Soviet state emblem design.",
+    "notes": "USSR, State Loan for Restoration and Development of the National Economy (Государственный Заем Восстановления и Развития Народного Хозяйства СССР), 1946. Series No. 012594, bond No. 33 (previously recorded the other way round), class (razryad) 98. 25 rubles. Soviet state emblem design.",
     "subjectCountry": [
       "Russia"
     ],
     "transcription": "# USSR State Loan for the Restoration and Development of the National Economy — 25-Ruble Bond (1946) — Transcription\n\n## Original:\n\n(Top center: Soviet state emblem — hammer and sickle over a globe, encircled by wheat ears, rising sun below, banner above reading **СССР**)\n\n(Upper left, red serial overprint) **№ 012594**  ·  (label) СЕРИЯ\n(Upper right, red serial overprint) **№ 33**  ·  (label) ОБЛИГАЦИЯ\n\n(Center heading, slab capitals)\n**ГОСУДАРСТВЕННЫЙ ЗАЕМ ВОССТАНОВЛЕНИЯ**\n**И РАЗВИТИЯ НАРОДНОГО ХОЗЯЙСТВА СССР**\n**ОБЛИГАЦИЯ НА СУММУ**\n\n(Large numeral in boxes at left and right) **25**\n\n(Center, ornamental slab lettering) **Двадцать пять рублей**\n\n(Fine micro-text band across the middle: the loan title repeated in the languages of the Union republics. Most segments are at the limit of legibility; the clearly readable Ukrainian line reads:)\nДЕРЖАВНА ПОЗИКА ВІДБУДОВИ І РОЗВИТКУ НАРОДНОГО [ГОСПОДАРСТВА СРСР] [remaining republic-language segments illegible at this resolution]\n\n(Below the band, centered) **1946**\n\n(Lower left, red serial overprint) **№ 33**  ·  (label) ОБЛИГАЦИЯ\n(Lower center) Разряд 98\n(Lower right, red serial overprint) **№ 012594**  ·  (label) СЕРИЯ\n\n(Bottom banner, slab capitals) **ДВАДЦАТЬ ПЯТЬ РУБЛЕЙ**\n\n---\n\n## English Translation:\n\n(Top center: Soviet state emblem inscribed **USSR**)\n\n(Upper left) **No. 012594** — SERIES\n(Upper right) **No. 33** — BOND\n\n**STATE LOAN FOR THE RESTORATION**\n**AND DEVELOPMENT OF THE NATIONAL ECONOMY OF THE USSR**\n**BOND FOR THE SUM OF**\n\n**25**\n\n**Twenty-five rubles**\n\n(Fine micro-text band: the loan title repeated in the languages of the Soviet republics; the legible Ukrainian line reads \"State Loan for the Restoration and Development of the National Economy of the USSR\"; the remaining language segments are illegible at this resolution)\n\n**1946**\n\n(Lower left) **No. 33** — BOND\n(Lower center) Category 98\n(Lower right) **No. 012594** — SERIES\n\n**TWENTY-FIVE RUBLES**\n",
     "identifiers": [
-      "No. 012594",
-      "Serie 33"
+      "Series No. 012594",
+      "Bond No. 33",
+      "Class 98"
     ]
   },
   {
     "id": "goetzmann0721",
     "title": "Russian State Internal Lottery Loan Bond, Provisional Government, 1917",
-    "description": "A bearer lottery bond of the Russian State Internal 4.5 percent Lottery Loan of 1917, with a face value of two hundred rubles, bearing 4.5 percent interest and entitling the holder to participate in the loan's prize drawings. The heading states that it was issued on the authority of the resolution of the Provisional Government of 11 August 1917, with the final coupon dated 16 January 1928.",
+    "description": "A bearer lottery bond of the Russian State Internal 4.5 percent Lottery Loan of 1917, with a face value of two hundred rubles, bearing 4.5 percent interest and entitling the holder to participate in the loan's prize drawings. The heading states that it was issued on the authority of the resolution of the Provisional Government of 11 August 1917, It is of the second class, series 15800, number 32. Interest ran from 16 January 1918, paid each 16 January and 16 July, and the first prize drawing was set for 16 July 1918; the last coupon falls due on 16 January 1928. Printed by the American Bank Note Company, New York.",
     "file": "goetzmann0721.jpg",
     "type": [
       "Lottery Bond"
@@ -19498,7 +19501,7 @@
       "1917"
     ],
     "creator": "Imperial Russian Government (Provisional Government)",
-    "notes": "Russian Imperial State Internal 4½% Prize Loan of 1917 (Государственный Внутренний 4½% Выигрышный Заем 1917 года). Series No. 15800, Bond No. 32, Category 2. 200 rubles nominal. Bearer. Issued per decree of August 11–19, 1917 (Provisional Government). Last coupon January 16, 1928.",
+    "notes": "Russian State Internal 4½% Prize Loan of 1917 (Государственный Внутренний 4½% Выигрышный Заем 1917 года). Series No. 15800, Bond No. 32, Category 2. 200 rubles nominal. Bearer. Issued per decree of August 11–19, 1917 (Provisional Government). Last coupon January 16, 1928. Issued by the Provisional Government, not the Imperial government as the notes previously said. Second class; interest from 16 January 1918, paid 16 January and 16 July; first prize drawing 16 July 1918. Red stamp of a Crimean branch of the State Bank(?) at lower left. Signed by the Manager of the State Commission for the Redemption of Debts. Printed by the American Bank Note Company.",
     "subjectCountry": [
       "Russia"
     ],
@@ -19567,7 +19570,7 @@
   {
     "id": "goetzmann0723",
     "title": "Imperial Russian Three Per Cent Loan Bond, 1859",
-    "description": "A bearer bond of the Imperial Russian Three per Cent Loan of 1859, an inscription in the Great Book of the Public Debt of Russia representing a capital of one hundred pounds sterling. The holder draws three percent annually, paid half-yearly in London by Messrs. J. Thomson, T. Bonar & Co. on 16 October and 16 April as two warrants of one pound ten shillings each, or at the holder's option in Berlin by F. Mart. Magnus at six and three-quarter thalers per pound. Coupons run to 16 April 1869, after which a talon yields a fresh sheet. The bond cites the Imperial Ukase of 20 March 1859 and a sinking fund amortising at one and a quarter percent yearly. Affixed Danish revenue stamps mark a later transfer.",
+    "description": "A £100 bearer bond of the Imperial Russian Three per Cent Loan of 1859, an inscription in the Great Book of the Public Debt of Russia, number 41150. Interest of £1 10s was paid each 20 October/1 November and 19 April/1 May in London by J. Thomson, T. Bonar & Co., or in Berlin by F. Mart. Magnus at 6¾ thalers to the pound, on coupons running to 1869, after which a talon gave a fresh sheet. It cites the ukase of 20 March 1859, which set a sinking fund of 1½ percent a year and let a holder convert the bond into an inscription of 640 rubles. Two Danish stamps for bond duty, of 12 kroner and 10 øre, are fixed at the top left.",
     "file": "goetzmann0723.jpg",
     "type": [
       "Bond"
@@ -19604,7 +19607,7 @@
       "1859"
     ],
     "creator": "Imperial Russian Government",
-    "notes": "Imperial Russian Three Per Cent Loan 1859. No. 41150. £100 Sterling. Inscription in the Great Book of the Public Debt of Russia. Interest payable halfyearly in London via Thomson, Bonar & Co. and in Berlin via F. Mart. Magnus at 6¾ thalers/£. Talon with dividend warrants. Two Danish revenue stamps at top left.",
+    "notes": "Imperial Russian Three Per Cent Loan 1859. No. 41150. £100 Sterling. Inscription in the Great Book of the Public Debt of Russia. Interest payable halfyearly in London via Thomson, Bonar & Co. and in Berlin via F. Mart. Magnus at 6¾ thalers/£. Talon with dividend warrants. Two Danish revenue stamps at top left. Coupon dates 20 October/1 November and 19 April/1 May (the description previously said 16 October and 16 April); sinking fund 1½% (previously 1¼%). Danish Obligationsstempel stamps (bond stamp duty; previously described as marking a transfer). Countersigned by Thomson, Bonar & Co. and F. Mart. Magnus, contractors.",
     "subjectCountry": [
       "Russia"
     ],
@@ -19617,7 +19620,7 @@
   {
     "id": "goetzmann0724",
     "title": "City of Bari Prize Loan Bond, 1869",
-    "description": "A bearer prize-loan bond of 100 lire, redeemable at 150 lire, issued by the Consiglio Comunale of the Città di Bari delle Puglie at Bari on 1 May 1869 over the signature of the Sindaco. The loan was resolved by municipal ordinance of 31 December 1867 and approved by Royal Decree of 11 June 1868. The printed margin records an Italian emission of 9,000,000 lire in 90,000 bonds, 900 series of 100 numbers each, with amortization set at 27,350,000 lire, divided between 13,500,000 for redemption and 13,850,000 for the payment of premiums. Francesco Compagnoni of Milan acted as assuntore. A printed plan of drawings and an attached Annotazione dei Premi sheet govern the periodic lottery extractions through which the obligation is amortized.",
+    "description": "A bearer prize-loan bond of 100 lire, redeemable at 150 lire, issued by the Consiglio Comunale of the Città di Bari delle Puglie at Bari on 1 May 1869 over the signature of the Sindaco. The loan was resolved by municipal ordinance of 31 December 1867 and approved by Royal Decree of 11 June 1868. The printed margin records an issue of 9,000,000 lire in 90,000 bonds, 900 series of 100 numbers each, with amortization set at 27,350,000 lire, divided between 13,500,000 for redemption and 13,850,000 for the payment of premiums. Francesco Compagnoni of Milan acted as assuntore. A printed plan of drawings and an attached Annotazione dei Premi sheet govern the periodic lottery extractions through which the obligation is amortized.",
     "file": "goetzmann0724.jpg",
     "type": [
       "Lottery Bond"
@@ -19654,7 +19657,7 @@
       "1869"
     ],
     "creator": "Consiglio Comunale di Bari delle Puglie",
-    "notes": "Città di Bari delle Puglie, Prestito a Premi (Prize Loan). Deliberated December 31, 1867; approved by Royal Decree June 11, 1868. Emission of L. 3,500,000. Serie 317, No. 049. Obbligazione di Lire 100 al portatore, rimborsabile con Lire 150. Lottery/amortization schedule (Piano delle Estrazioni) and prize payment sheet (Annotazione dei Premi) at right. Bari, May 11, 1869. Signed by Il Sindaco.",
+    "notes": "Città di Bari delle Puglie, Prestito a Premi (Prize Loan). Deliberated December 31, 1867; approved by Royal Decree June 11, 1868. Emission of L. 9,000,000 (previously recorded as 3,500,000); 90,000 bonds in 900 series; amortization 27,350,000 lire over 70 years (13,500,000 repayment, 13,850,000 prizes). Guaranteed by the commune on all its revenues and by 3,000,000 lire invested in Italian 5% rente. Signed by the Assessore, the Sindaco and the Secretary. Serie 317, No. 049. Obbligazione di Lire 100 al portatore, rimborsabile con Lire 150. Lottery/amortization schedule (Piano delle Estrazioni) and prize payment sheet (Annotazione dei Premi) at right. Bari, May 11, 1869. Signed by Il Sindaco.",
     "subjectCountry": [
       "Italy"
     ],
@@ -19794,7 +19797,7 @@
     "id": "goetzmann0729",
     "file": "goetzmann0729.jpg",
     "title": "Principality of Bulgaria Gold Loan of 1907 Bond",
-    "description": "A 500-franc bearer bond of the Principality of Bulgaria's 4.5 percent State Gold Loan of 1907, part of an issue of 290,000 obligations totalling 145,000,000 francs. The face is printed in four parallel languages: Bulgarian, French, German and English. The reverse carries the conditions of the loan in parallel Bulgarian, French, German and Russian, above a full amortization table setting out the years of repayment and the bond numbers drawn in each.",
+    "description": "A 500-franc bearer bond of the Principality of Bulgaria's 4.5 percent State Gold Loan of 1907, number 279,186, dated Sofia, 23 August/5 September 1907. The loan, of 145,000,000 francs in 290,000 bonds, was contracted with the Banque de Paris et des Pays-Bas and repayable at par over sixty years; each bond is also valued in leva, rubles, marks, sterling, Austrian crowns and Dutch florins. It was secured on the stamp tax and the tax on tobacco bands, after the loans of 1902 and 1904. The face is printed in Bulgarian, French, German and English, and the reverse gives the conditions in the same four languages above a table of repayments from 1908 to 1967. It is signed by the Minister of Finance and the Bulgarian government's delegate, and a French 1 percent stamp of 1907 is at the upper left. Printed by Imprimerie Chaix, Paris.",
     "type": [
       "Bond"
     ],
@@ -19834,7 +19837,7 @@
       "bond terms"
     ],
     "owner": "",
-    "notes": "Two-page document folded into one record: recto goetzmann0729, verso goetzmann0730. Quadrilingual conditions (Bulgarian/French/German/English) and Table of Amortisation.",
+    "notes": "Two-page document: recto goetzmann0729, verso goetzmann0730. No. 279,186. Sofia, 23 August/5 September 1907. Conditions on the verso in Bulgarian, French, German and English (the description previously said Russian for the fourth language). Amortization table 1908-1967. Contract with the Banque de Paris et des Pays-Bas; secured on the stamp and tobacco-band taxes. French 1% stamp for foreign securities, 1907. Signed by the Minister of Finance (L. Payakoff?), the chief of the public debt and the government delegate. Printed by Chaix.",
     "transcription": "# Principality of Bulgaria 4½% Gold Loan 1907 — Reverse Side\n\n## Original Text:\n\n### УСЛОВИЯ НА ЗАЕМА\n[Russian Conditions of the Loan]\n\n[The Russian text contains detailed loan conditions including provisions regarding:]\n- Loan terms and conditions\n- Payment schedules\n- Interest rates (4½%)\n- Redemption procedures\n- Rights and obligations of bondholders\n- Currency specifications (gold)\n\n### CONDITIONS DE L'EMPRUNT\n[French text with equivalent loan conditions]\n\n### CONDITIONS DES DARLEHENS / BEDINGUNGEN DER ANLEIHE\n[German text with equivalent loan conditions]\n\n### CONDITIONS DE L'EMPRUNT\n[Bulgarian/Additional language version]\n\n---\n\n## TABLEAU D'AMORTISSEMENT / TABLE OF AMORTISATION / TILGUNGS-PLAN\n\nThe amortisation table contains:\n- Multiple columns with numerical data\n- Years/periods of repayment\n- Bond numbers to be redeemed\n- Amounts and redemption schedules\n- Progressive list of serial numbers for bonds subject to amortisation\n\n[The table is extremely detailed with hundreds of entries arranged in columns, containing bond serial numbers and corresponding financial data spanning the full amortisation period of the loan]\n\n---\n\n## Notable Markings:\n\n- **Bond Serial Number:** No. 279,186 (visible at top)\n- **Decorative border:** Ornamental frame around entire document\n- **Multiple language printing:** Russian, French, German, and Bulgarian\n- **Official document format:** Formal financial instrument with legal conditions\n- **Document Date:** 1907\n- **Currency designation:** Gold Loan (4½%)\n\n[Note: Due to the resolution and density of the amortisation table, specific line entries are difficult to read with complete accuracy, but the structure and purpose are clearly visible.]",
     "pages": [
       {
@@ -19847,13 +19850,14 @@
       }
     ],
     "identifiers": [
+      "No. 279,186",
       "Loan of 1907"
     ]
   },
   {
     "id": "goetzmann0731",
     "title": "Ottoman Empire Unified Converted Debt Bond, Constantinople, 1903",
-    "description": "A bearer bond of the 4 percent Unified Converted Debt of the Ottoman Empire, issued at Constantinople in 1903 under the administration of the Ottoman Public Debt Council. Each obligation carries a face value of 500 francs, equivalent to £20, drawn from a consolidated loan that reorganized the empire's defaulted external borrowings into a single uniform instrument. The certificate sets French and English columns to either side of a central Ottoman Turkish and Arabic text crowned by the Sultan's tughra.",
+    "description": "A bearer bond of 500 francs, or £20, of the 4 percent Unified Converted Debt of the Ottoman Empire, number 1,176,790, dated Constantinople, 1/14 September 1903. The debt, of 744,063,000 francs in 1,488,126 bonds, was created by an agreement of that date between the Ottoman government and the Council of Administration of the Ottoman Public Debt, under the decree of 20 December 1881. It pays 20 francs a year, each 1/14 March and 1/14 September, and is secured on the revenues the Council administered: the tobacco, salt, stamp, spirits and fishing taxes, the silk tithe of several provinces, the tribute of Bulgaria and the surplus revenue of Cyprus, among others. The text is in French, English and Ottoman Turkish, beneath the Sultan's tughra. It is signed for the Council and for the Imperial Ottoman Bank, and the talon and coupons 48 to 60 remain attached. Printed by Imprimerie Chaix, Paris.",
     "file": "goetzmann0731.jpg",
     "type": [
       "Bond"
@@ -19906,13 +19910,13 @@
       "1903"
     ],
     "creator": "Conseil d'Administration de la Dette Publique Ottomane",
-    "notes": "Ottoman Empire, Unified Converted Debt (Dette Convertie Unifiée de l'Empire Ottoman), 4%. No. 4,176,790. Total: Fr. 744,068,000 = £29,762,520; 1,489,126 obligations of Fr. 500 / £20 each. Annual interest: 20 francs / £0.16.0. Constantinople, September 1/14, 1903. Bilingual French/Arabic. Talon and coupon sheet attached at right.",
+    "notes": "Ottoman Empire, Unified Converted Debt (Dette Convertie Unifiée de l'Empire Ottoman), 4%. No. 1,176,790 (read from the plate; previously recorded as 4,176,790). Total: Fr. 744,063,000 = £29,762,520; 1,488,126 obligations (previously recorded as 744,068,000 and 1,489,126) of Fr. 500 / £20 each. Annual interest: 20 francs / £0.16.0. Constantinople, September 1/14, 1903. French, English and Ottoman Turkish (previously recorded as French/Arabic). Interest 1/14 March and 1/14 September. Signed for the Council of the Ottoman Public Debt and for the Imperial Ottoman Bank. Belgian stamp at upper left. Talon and coupons 48-60 attached. Talon and coupon sheet attached at right.",
     "subjectCountry": [
       "Turkey"
     ],
     "transcription": "# Ottoman Empire 4% Unified Converted Debt Bond - 1903\n\n## Original Text (French and Ottoman Turkish):\n\n**LEFT PANEL:**\n\nDETTE CONVERTIE\nUNIFIÉE\nDE L'EMPIRE OTTOMAN\n\nPOUR UN CAPITAL TOTAL\nDE\nSfr. 744,068,000\n\n1,488,126 OBLIGATIONS DE Sfr. 500 CHACUNE\n(créées par les Décrets Impériaux du 22 Dshemazi-Evvel 1309 et 23 Septembre 1903)\ncréées à Constantinople, le 13 Septembre 1903\n(28 Août de Zoulhidjeh 1321)\n\nTitre au Porteur de Fr. 500\nLIBELLÉ EN FRANCS SUISSES\n\nNo 1,176,790\n\nRapportant un Intérêt Annuel de 20 Francs\n(à moins qu'il n'en soit disposé autrement)\n\n[Followed by extensive French text describing terms, conditions, obligations, and legal provisions]\n\n---\n\n**CENTER PANEL:**\n\n[Ottoman Turkish text in Arabic script - extensive legal and financial terms]\n\n[Ottoman Imperial seal/tughra]\n\n---\n\n**RIGHT PANEL:**\n\nUNIFIED CONVERTED\nDEBT\nOF THE OTTOMAN EMPIRE\n\nFOR A TOTAL CAPITAL\nOF\n£ 29,762,520\n\n1,488,126 OBLIGATIONS OF £ 20 EACH\n(Created by Imperial Decrees of 22 Dshemazi-Evvel 1309 and 23rd September 1903)\ncreated at Constantinople, the 13th September 1903\n(28th August of Zoulhidjeh 1321)\n\nBond to Bearer for £ 20\nDENOMINATED IN STERLING\n\nNo. 1,176,790\n\nBearing an Annual Interest of £ 0.10.0\n[Followed by extensive English text describing terms, conditions, obligations and legal provisions]\n\n---\n\n**FOOTER:**\n\nDate: Constantinople, 1st September 1903 [shown as \"1er 1/14 Septembre 1903\"]\n\n---\n\n## Notable Markings:\n\n- **Serial Number:** No. 1,176,790\n- **Signatures:** Two signatures at bottom of document\n- **Ottoman Seal:** Imperial tughra (seal) visible in center panel\n- **Coupons:** Attached coupons visible on right margin (numbered 1,176,790)\n- **Ornamental Border:** Red ornamental frame with Ottoman-style geometric patterns and \"4½\" markings in corners\n- **Languages:** French (left), Ottoman Turkish/Arabic (center), English (right)\n- **Date Format:** Both Gregorian (1st September 1903) and Ottoman calendar (1/14 September / 1er Septembre) dates shown\n\n---\n\n# Ottoman Empire 4% Unified Converted Debt Bond - Transcription\n\n## Original Text:\n\n**Left Column (Coupons - Green):**\nMultiple coupon entries with Arabic and French text, numbered sequentially, each containing:\n- Serial number references (№ 1,176,790)\n- Denomination amounts (Fr. 500 / £20)\n- Date indicators\n- Arabic inscriptions (Islamic calligraphy)\n\n**Center Section (Legal Text):**\n\n*French text in red print:*\n\"Extrait des Articles 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 et 15 du Décret du 21 Novembre 1903 portant conversion de la Dette de l'Empire Ottoman\"\n\n[Multiple paragraphs of detailed legal conditions and terms in French regarding the converted debt obligations, interest rates, payment terms, and administrative procedures]\n\n**Right Section (Arabic Text with French Translation):**\nParallel columns containing the same legal provisions in Arabic and French\n\n**Center Table:**\n\"TABLEAU D'AMORTISSEMENT des 1,488,126 Obligations 4% de la Dette Convertie Unifiée de l'Empire Ottoman\"\n\n[Detailed amortization schedule with multiple columns showing years, amounts, and payment schedules]\n\n**Bottom Section (Three Bond Certificates):**\n\n**Left Bond:**\n\"DETTE CONVERTIE\nUNIFIÉE\nDE L'EMPIRE OTTOMAN\n\n1 OBLIGATION\nde Fr. 500\n\n№ 1,176,790\n\nTITRE DE\nFr. 500\"\n\n**Center Certificate:**\n[Ottoman Imperial seal with Turkish calligraphy]\n\"[Turkish/Arabic inscriptions]\"\n\n**Right Bond:**\n\"UNIFIED CONVERTED\nDEBT\nOF THE OTTOMAN EMPIRE\n\n1 BOND\nof £ 20\n\n№ 1,176,790\n\nCERTIFICATE FOR\n£ 20\"\n\n## Notable Markings:\n\n- **Serial Number:** № 1,176,790 (appears multiple times)\n- **Denominations:** Fr. 500 / £ 20 (dual currency)\n- **Ottoman Imperial Seal:** Central red seal with tughra and ornamental design\n- **Date:** Constantinople, 1903\n- **Decorative Borders:** Green filigree patterns throughout\n- **Language:** French, Arabic, English\n- **Coupons:** Approximately 12-15 green coupons visible on left margin for periodic interest payments",
     "identifiers": [
-      "No. 4,176,790"
+      "No. 1,176,790"
     ]
   },
   {
@@ -19983,8 +19987,8 @@
   },
   {
     "id": "goetzmann0736",
-    "title": "Province of Buenos Aires Consolidated Internal Debt Bond, La Plata, 1935",
-    "description": "A bearer bond of one hundred pesos moneda nacional, part of the consolidated internal debt of the Province of Buenos Aires, issued under provincial Law Nº 4293 of 27 June 1935 and dated at La Plata, 1 July 1935. The title earns 5 percent annual interest with an additional 1 percent of cumulative annual amortization, interest payable quarterly in February, May, August and November against the attached coupons, a near-complete sheet of which survives. The loan consolidated earlier obligations into a single internal loan placed with domestic holders in national currency.",
+    "title": "Province of Buenos Aires Consolidated Internal Debt Bond, La Plata, after 1937",
+    "description": "A bearer bond of one hundred pesos moneda nacional, part of the consolidated internal debt of the Province of Buenos Aires, issued under provincial Law Nº 4293 of 27 June 1935 and dated at La Plata, 1 July 193? (the last digit of the handwritten year is hard to read on this scan; a printed line cites a decree of 20 October 1937, so it was issued no earlier than that). The title earns 5 percent annual interest with an additional 1 percent of cumulative annual amortization, interest payable quarterly in February, May, August and November against the attached coupons, of $1.25 each; coupons 17 to 147 survive. It is series A, number 133,050, signed by the Minister of Finance and the Secretary of Public Credit.",
     "file": "goetzmann0736.jpg",
     "type": [
       "Bond"
@@ -20016,10 +20020,10 @@
       "Spanish"
     ],
     "issueYear": [
-      "1935"
+      "1937"
     ],
     "creator": "Provincia de Buenos Aires",
-    "notes": "Provincia de Buenos Aires, Deuda Interna Consolidada, Serie A, Ley N° 4293, 100 Pesos (Cien Pesos), 5% annual interest; large attached coupon sheet; No. 133,050",
+    "notes": "Provincia de Buenos Aires, Deuda Interna Consolidada, Serie A, Ley N° 4293 of 27 June 1935, 100 Pesos moneda nacional, 5% annual interest and 1% cumulative amortization; interest quarterly (1-15 February, May, August, November). No. 133,050. Handwritten date \"1° de Julio de 193?\": a printed line reads \"Decreto del P.E. de fecha 20 de Octubre de 1937\", so the year cannot be 1935 as previously recorded; low-resolution scan (1.7 MP), final digit unconfirmed. Coupons 17-147 of $1.25 attached. Orange provincial stamp. Previously listed identifiers \"No. 4293\", \"No. 4393\" and \"No. 4225\" were law numbers or misreadings.",
     "subjectCountry": [
       "Argentina"
     ],
@@ -20035,16 +20039,14 @@
       }
     ],
     "identifiers": [
-      "No. 4293",
-      "No. 133,050",
-      "No. 4393",
-      "No. 4225"
+      "Serie A",
+      "No. 133,050"
     ]
   },
   {
     "id": "goetzmann0738",
     "title": "Kingdom of Serbia Amortizable Loan of 1895 Bond, Back with Amortization Table and Talon, Belgrade",
-    "description": "The reverse of a bond of the Kingdom of Serbia's 4 percent Amortizable Loan of 1895, dated at Belgrade 1/13 August 1895. The sheet is dominated by a trilingual redemption schedule setting out, year by year, the sums drawn and the bonds redeemed until extinction; a note affirms that the French text of the obligations governs. Below run the detachable coupon talons, each headed Kraljevina Srbija. The loan had a nominal capital of 355,292,000 francs, secured on the revenues of the state monopolies.",
+    "description": "The reverse of a bond of the Kingdom of Serbia's 4 percent Amortizable Loan of 1895, dated at Belgrade 1/13 August 1895. The sheet is dominated by a trilingual redemption schedule setting out, year by year, the sums drawn and the bonds redeemed until extinction; a note affirms that the French text of the obligations governs. Above it, printed upside down, are the talon and the remaining coupons, each headed Kraljevina Srbija. The conditions of the loan are printed in French, Serbian and German and signed by the Minister of Finance and the Serbian government's delegate. The loan had a nominal capital of 355,292,000 francs, secured on the revenues of the state monopolies.",
     "file": "goetzmann0738.jpg",
     "type": [
       "Bond"
@@ -20083,7 +20085,7 @@
       "1895"
     ],
     "creator": "Kingdom of Serbia",
-    "notes": "Reverse/back page of a Kingdom of Serbia (Kraljevina Srbija) 4% loan bond; trilingual amortization table (Tableau d'Amortissement / Amortizacioni Plan / Tilgungs-Plan) in French, Serbian, and German; Talon section with 4% coupon stubs A separate back from the one attached to goetzmann0696 (that record has its own, 0695); this copy carries its talon.",
+    "notes": "Reverse/back page of a Kingdom of Serbia (Kraljevina Srbija) 4% loan bond; trilingual amortization table (Tableau d'Amortissement / Amortizacioni Plan / Tilgungs-Plan) in French, Serbian, and German; Talon section with 4% coupon stubs A separate back from the one attached to goetzmann0696 (that record has its own, 0695); this copy carries its talon. Talon and coupons are ABOVE the table, printed upside down (previously described as below). Amortization 1896-1967. Checked against the plate 2026-09-25.",
     "subjectCountry": [
       "Serbia"
     ],
@@ -20096,7 +20098,7 @@
     "id": "goetzmann0851",
     "file": "goetzmann0851.jpg",
     "title": "To the Stock-Holders of the Bank of North-America, Philadelphia, 1791",
-    "description": "A pamphlet addressed to the stockholders of the Bank of North-America on the subject of the old and new banks, written as the commissioners headed by Thomas Willing, the bank's own president, advertised that the subscription books for the Bank of the United States would be opened at the Bank of North-America on the fourth of July. Webster argues that his bank's privileges rest on the charter granted by Congress on 31 December 1781, that the new Constitution gives the new Congress not an iota of authority in the article of banks beyond what the old Congress already held, and that the charter carries the force of a contract which the new Congress is expressly obliged to confirm and support.",
+    "description": "A sixteen-page pamphlet addressed to the stockholders of the Bank of North-America on the subject of the old and new banks, signed \"A Citizen of Philadelphia\" and dated Philadelphia, 28 May 1791. It was written as the commissioners for the new Bank of the United States, headed by Thomas Willing, the Bank of North-America's own president, prepared to open subscriptions at that bank on 4 July. The author, a stockholder, argues that the bank's charter of 31 December 1781 is a contract that the new Congress, which has no more power over banks than the old, is bound to uphold. A footnote citing \"my Political Essays lately printed by Mr. Crukshank\" identifies him as Pelatiah Webster. Printed by Joseph Crukshank, Philadelphia, price sixpence.",
     "type": [
       "Pamphlet"
     ],
@@ -20122,7 +20124,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Sixteen pages. The year is fixed by the pamphlet's own occasion: the Bank of the United States subscription books opened on 4 July 1791, and Webster writes in anticipation of that day. Thomas Willing, president of the Bank of North-America and one of the commissioners taking those subscriptions, became the first president of the new bank. Webster quotes the maxim ut res magis valeat, quam pereat for the construction of the charter.",
+    "notes": "Sixteen pages. Dated on p. 16: \"Philadelphia, May 28th, 1791\", signed \"A Citizen of Philadelphia\"; imprint Joseph Crukshank, No. 91 High-Street, MDCCXCI, price 6d. Attribution to Pelatiah Webster rests on the footnote citing \"my Political Essays lately printed by Mr. Crukshank\" (Webster's Political Essays, Crukshank, 1791). Context: the Bank of the United States subscription books opened on 4 July 1791, and Webster writes in anticipation of that day. Thomas Willing, president of the Bank of North-America and one of the commissioners taking those subscriptions, became the first president of the new bank. Webster quotes the maxim ut res magis valeat, quam pereat for the construction of the charter.",
     "identifiers": [],
     "namedIndividuals": [],
     "transcription": "",

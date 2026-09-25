@@ -1429,3 +1429,38 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 *Vignette description, cut per the style guide.*
 
 > The vignette shows the State Duma building.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0716-0851)
+
+## goetzmann0718
+
+*Cut as context not on the object.*
+
+> the holder, as the text concedes, gained no advantage beyond his timely reimbursement.
+
+## goetzmann0731
+
+*Cut as context not on the object.*
+
+> drawn from a consolidated loan that reorganized the empire's defaulted external borrowings into a single uniform instrument.
+
+## goetzmann0736
+
+*Cut as context not on the object.*
+
+> The loan consolidated earlier obligations into a single internal loan placed with domestic holders in national currency.
+
+## goetzmann0723
+
+*Trimmed to 150 words or fewer; text before the trim.*
+
+> A bearer bond of the Imperial Russian Three per Cent Loan of 1859, an inscription in the Great Book of the Public Debt of Russia representing a capital of one hundred pounds sterling. The holder draws three percent annually, paid half-yearly in London by Messrs. J. Thomson, T. Bonar & Co. on 20 October/1 November and 19 April/1 May, as two warrants of one pound ten shillings each, or at the holder's option in Berlin by F. Mart. Magnus at six and three-quarter thalers per pound. Coupons run to 19 April/1 May 1869, after which a talon yields a fresh sheet. The bond cites the Imperial Ukase of 20 March 1859 and a sinking fund of 1½ percent of the capital a year, and a holder could convert it into an inscription of 640 rubles. It is number 41150, entered in book 9. Two Danish stamps for bond duty, of 12 kroner and 10 øre, are fixed at the top left.
+
+## goetzmann0851
+
+*Trimmed to 150 words or fewer; text before the trim.*
+
+> A pamphlet addressed to the stockholders of the Bank of North-America on the subject of the old and new banks, signed "A Citizen of Philadelphia" and dated Philadelphia, 28 May 1791, written as the commissioners headed by Thomas Willing, the bank's own president, advertised that the subscription books for the Bank of the United States would be opened at the Bank of North-America on the fourth of July. The author, who says he is a stockholder, argues that his bank's privileges rest on the charter granted by Congress on 31 December 1781, that the new Constitution gives the new Congress not an iota of authority in the article of banks beyond what the old Congress already held, and that the charter carries the force of a contract which the new Congress is expressly obliged to confirm and support. A footnote refers to the author's essay on the western lands and to "my Political Essays lately printed by Mr. Crukshank," which identifies him as Pelatiah Webster. Printed and sold by Joseph Crukshank, Philadelphia, price sixpence.
