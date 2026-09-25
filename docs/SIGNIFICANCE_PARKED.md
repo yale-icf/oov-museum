@@ -1875,3 +1875,28 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1943
 
 > A printed public notice for a lottery of ninety numbers at twenty livres a ticket, each ticket carrying five numbers drawn from the ninety. The notice works through the five ways a player can win, from one number up to all five, and says what each pays, ending with the claim that a ticket of this kind offers more chances than a bet at fixed odds. Tickets are to be had from M. Vidal, a notary in the rue Saint-Honoré near the rue des Poulies, who will also buy them back for cash.
+
+
+---
+
+## Album follow-up, 2026-09-25 (1944-1977): replaced text
+
+## goetzmann1944
+
+> The printed decree of the National Convention of the 25th day of Brumaire, year II of the French Republic one and indivisible, number 1896, which suppresses all lotteries. Article one declares them abolished; the following articles forbid any lottery under whatever name from being drawn after the term fixed, charge the Committee of Finances with settling the accounts of those wound up, and order the decree inserted in the bulletin. Two leaves. It ends every scheme earlier in this album: royal, municipal, charitable and military.
+
+## goetzmann1953
+
+> A printed address to the representatives of the people composing the Committee of Legislation, opening Législateurs. Eight leaves. It argues from the Constitution and the liberty of commerce and industry against the restrictions placed on a class of undertaking, and asks the Committee to apply the law to the case it sets out. Pamphlets of this kind were printed at the petitioner's expense and distributed to the deputies directly, and this one is kept in the album among the papers of the Republic's own lottery legislation.
+
+## goetzmann1969
+
+> A printed Précis sur les Loteries in three leaves, arguing the case for the instrument. It opens by conceding that the resources of a state are the vices of man, and works through the objections: that lotteries impoverish those least able to bear it, that they draw money from the provinces to the capital; before setting against them the revenue they raise and the difficulty of suppressing a practice that will continue in private hands if the state withdraws from it.
+
+## goetzmann1973
+
+> A ticket of one hundred francs in the Second National Lottery of Houses, Furniture and Effects, series 2599 number 20, established under the same decree of 23 Germinal year III, for the drawing of the month of Vendémiaire year V. The note at the foot states that the tickets remain payable to the bearer until the third of Thermidor, when the Convention succeeded. It is twice the denomination of the year III ticket at [1972] and a year later.
+
+## goetzmann1974
+
+> A ticket of three hundred francs in the Loterie de Douze Millions, redeemable by the Commissariat du Commerce at Paris, the word EMPRUNT set vertically down the left margin. The printed body states that the bearer of the present ticket, belonging to the number written out in words across it, is a shareholder in the lottery of twelve millions. It is signed for the Commissariat du Commerce. A loan of twelve millions divided into three-hundred-franc shares, with the repayment settled by drawing rather than by a fixed schedule.

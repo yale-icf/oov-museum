@@ -90,12 +90,12 @@ record id; the rest are its `pages[]`.
 | 61 | `goetzmann1943` | Public Notice of a Lottery of Five Objects on the April 1792 Loterie Royale Drawing, Paris, 1792 | `61.jpg`→`1943` |
 | 62 | `goetzmann1944` | Decree of the National Convention Suppressing All Lotteries, Paris, 1793 | `62a.jpg`→`1944` · `62b.jpg`→`1945` |
 | 63 | `goetzmann1946` | Regulation of the Petite Loterie Nationale, Paris, 1793 | `63a.jpg`→`1946` · `63b.jpg`→`1947` · `63c.jpg`→`1948` · `63d.jpg`→`1949` · `63e.jpg`→`1950` · `63f.jpg`→`1951` · `63g.jpg`→`1952` |
-| 64 | `goetzmann1953` | Address to the Committee of Legislation on the Lotteries, Paris | `64a.jpg`→`1953` · `64b.jpg`→`1954` · `64c.jpg`→`1955` · `64d.jpg`→`1956` · `64e.jpg`→`1957` · `64f.jpg`→`1958` · `64g.jpg`→`1959` · `64h.jpg`→`1960` |
+| 64 | `goetzmann1953` | Tolozé's Address to the Committee of Legislation on the Petite Loterie Parisienne, Paris | `64a.jpg`→`1953` · `64b.jpg`→`1954` · `64c.jpg`→`1955` · `64d.jpg`→`1956` · `64e.jpg`→`1957` · `64f.jpg`→`1958` · `64g.jpg`→`1959` · `64h.jpg`→`1960` |
 | 65 | `goetzmann1961` | Lartigue's Plan of a Finance Operation, to the National Convention, Paris, Year III (1795) | `65a.jpg`→`1961` · `65b.jpg`→`1962` · `65c.jpg`→`1963` · `65d.jpg`→`1964` · `65e.jpg`→`1965` · `65f.jpg`→`1966` · `65g.jpg`→`1967` · `65h.jpg`→`1968` |
 | 66 | `goetzmann1969` | Précis sur les Loteries, Paris | `66a.jpg`→`1969` · `66b.jpg`→`1970` · `66c.jpg`→`1971` |
 | 67 | `goetzmann1972` | National Lottery of Houses and Furniture Ticket, Year III (1795) | `67.jpg`→`1972` |
-| 68 | `goetzmann1973` | Second National Lottery of Houses and Furniture Ticket, Year V (1796) | `68.jpg`→`1973` |
-| 69 | `goetzmann1974` | Twelve Million Lottery Bond for Three Hundred Francs, Paris | `69.jpg`→`1974` |
+| 68 | `goetzmann1973` | Second National Lottery of Houses and Furniture Ticket, Year IV (1795) | `68.jpg`→`1973` |
+| 69 | `goetzmann1974` | Twelve Million Lottery Ticket for Three Hundred Francs, Paris, Year VIII (1799) | `69.jpg`→`1974` |
 | 70 | `goetzmann1975` | Prize Notice for a Toucan-Feather Garniture, Paris, Year VI (1798) | `70.jpg`→`1975` |
 | 71 | `goetzmann1976` | Lottery of a Spun-Glass Piece, Bordeaux, 1808 | `71.jpg`→`1976` |
 | 72 | `goetzmann1977` | Loterie Nationale Public Notice No. 136, Paris | `72a.jpg`→`1977` · `72b.jpg`→`1978` · `72c.jpg`→`1979` |
