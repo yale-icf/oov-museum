@@ -1596,3 +1596,40 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1018
 
 > A six percent mortgage sinking-fund bond for $500 issued by the Maplewood Suburban Home Company, dated the first day of August 1890 at Nashville, Tennessee. The company was a real-estate venture incorporated in 1890 with capital stock of $2,000,000. The bond matures August 1, 1900, with interest payable quarterly and secured by a trust mortgage on the company's lands held by the American Loan & Trust Company as trustee. It is signed by the president and treasurer beneath the corporate seal, and the denomination is repeated as a large screened watermark across the text.
+
+
+---
+
+## Verification pass, 2026-09-25 (1021-1037): replaced or cut text
+
+## goetzmann1021
+
+> Two related documents of 1622 and 1623 from the Middelburg Chamber in Zeeland of the Vereenigde Oost-Indische Compagnie, photographed together. The lower sheet is a handwritten obligation in which the accounting masters of the Chamber, acting through its receiver Dominicus van Hoontshoerle, acknowledge a loan of £1333 6s 8d Flemish, about 8,000 guilders, bearing interest at 6.25 percent a year and repayable to the bearer forty-four months after its date. It is drawn and signed at Amsterdam, 26 October 1622, the pre-printed place "Middelburgh" struck out and "Amsterdam" substituted, though the issuing body remains the Middelburg Chamber. The upper sheet is the matching printed payment order of the receivers of the East India Company, completed by a manuscript receipt acknowledging full satisfaction of capital and accrued interest, signed by Van Hoontshoerle at Amsterdam, 9 November 1623.
+
+## goetzmann1023
+
+> A heavily worn manuscript Dutch interest-bearing obligation, a redeemable annuity, penned in an abbreviated notarial hand on heavy paper or parchment and issued around 1702 to 1703. The dense early-eighteenth-century Dutch body records a debt carrying fixed yearly interest of twenty-five guilders, payable each 12 January, and is subscribed by several parties, among them a Nicolaes and one styled van Roossbergh. In the margins a long column of dated receipts logs that annual payment year after year: the entries run from 1703 down through the 1720s and onward across the head and right edge into the early 1780s.
+
+## goetzmann1022
+
+> An allonge of 1944, a coupon-renewal sheet appended to a rentebrief, the perpetual-annuity bond of the Hoogheemraadschap van den Lekdijk Bovendams, the water board responsible for the upper Lek river dike. It was issued at Utrecht on January 8, 1944 and authenticated by the dijkgraaf and secretaris (the board's chief officer and secretary). The underlying bond, on a principal of 1,000 guilders, yields 25 guilders a year, a rate of 2.5 percent, payable each January 12. The sheet exists because the original coupons were used up: its body is a dense ledger of redeemed interest, the lettered entries running from January 1944 to 2003.
+
+## goetzmann1028
+
+> The company built and let dwellings.
+
+## goetzmann1029
+
+> A subscription receipt recording the first installment paid on capital stock of the Generale Keyserlyche Indische Compagnie, the Imperial East India trading company seated at Ostend and chartered by Emperor Charles VI, done at Antwerp on the thirteenth of August 1723. The directors order their cashier, Joan Baptist Cogels junior, to receive 250 guilders in bank money from the subscriber as the first payment on a share of one thousand guilders, on the conditions set forth in the Imperial Charter. Endorsements beneath the text acknowledge three further installments, in October and December 1723 and in 1724 to 1725, so the printed engraving doubles as a running receipt.
+
+## goetzmann1030
+
+> A French-language engagement contract, No. 7, drawn at Antwerp on 31 January 1726, by which the Directors of the Generale Keyserlyche Indische Compagnie, the Ostend Company, retain Sieur Jean de Jonghe to conduct the Company's trade to China. For all emoluments he is granted twelve hundred florins, with the customary right to carry goods back on his own account under stated conditions. It is sealed with the Company's arms and subscribed by directors including Jacobus Maelcamp, Louis Bernaert and Pietro Proli, countersigned by order of the directors by Louis Couturier, with a later endorsement of April 1729. The company was chartered in 1722 and suppressed in 1731.
+
+## goetzmann1032
+
+> The company consolidated millions of acres of unimproved western land into a single joint enterprise, and its collapse drove Morris into debtors' prison.
+
+## goetzmann1036
+
+> A Russian Imperial perpetual-income certificate, dated 1 March 1822 at St Petersburg, promising 5 percent in perpetuity on a principal of 960 silver rubles, rendered also as £148 sterling, a fixed parity of three shillings a penny per silver ruble. The capital is recorded in the State Debt Book of the Commission for the Reduction of Debts, the imperial sinking-fund body. It belongs to the Russian 5 percent loan of 1822, floated through N. M. Rothschild of London, whose embossed seal appears at lower right. The conditions on payment and redemption are printed in Russian and French.
