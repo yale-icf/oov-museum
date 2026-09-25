@@ -951,3 +951,50 @@ curatorial stance.
 *Cut as interpretation or context not on the object.*
 
 > The face is denominated in silver rubles, under the Kankrin reform that tied the ruble to silver. [cut: context]
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0523-0551)
+
+## goetzmann0523
+
+*Cut as interpretation or context not on the object.*
+
+> The mark was collapsing at the time of issue.
+
+## goetzmann0524
+
+*Cut as interpretation or context not on the object.*
+
+> The certificate belongs to the restructuring of Spain's defaulted external debt, in which arrears of interest were capitalized into a deferred "passive" class.
+
+## goetzmann0530
+
+*Cut as interpretation or context not on the object.*
+
+> The paper mark had become worthless by the time of issue.
+
+## goetzmann0539
+
+*Cut as interpretation or context not on the object.*
+
+> The loan was the financial instrument of the Young Plan, which rescheduled German reparations after the First World War, and it was floated simultaneously across several markets and currencies.
+
+## goetzmann0546
+
+*Cut as interpretation or context not on the object.*
+
+> records two generations of Dutch holders drawing income from a single enduring loan [cut: interpretation]
+
+## goetzmann0547
+
+*Cut as interpretation or context not on the object.*
+
+> formed to work mining and railway concessions in Shansi province in northern China [cut: not on the warrant]
+
+## goetzmann0551
+
+*Cut as interpretation or context not on the object.*
+
+> Portugal had that year unilaterally reduced foreign-debt interest by two-thirds.
