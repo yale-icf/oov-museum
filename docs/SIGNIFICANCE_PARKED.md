@@ -776,3 +776,32 @@ curatorial stance.
 *Cut as context not on the object.*
 
 > then under Qing suzerainty [cut: not on the share]
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0443-0454)
+
+## goetzmann0443
+
+*Cut as context not on the object.*
+
+> Tangier was then an International Zone, administered jointly by several European powers alongside Morocco, with light taxation and few exchange or company controls.
+
+## goetzmann0446
+
+*Cut as context not on the object.*
+
+> Łowicz then lay in Congress Poland, under Russian rule.
+
+## goetzmann0451
+
+*Cut as context not on the object.*
+
+> The company was Belgian-organized and directed at Egyptian agriculture and trade.
+
+## goetzmann0454
+
+*Cut as context not on the object.*
+
+> It was the eighth and last of the war loans, coming to market five months before the armistice. [cut: not on the bond]
