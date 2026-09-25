@@ -4236,7 +4236,7 @@
       "Spain"
     ],
     "currency": [
-      "Spanish peseta"
+      "Spanish milled dollar"
     ],
     "language": [
       "Spanish"
@@ -4245,7 +4245,7 @@
       "1836"
     ],
     "creator": "Government of Spain",
-    "notes": "Cinco Por Ciento Español (5% Spanish Perpetual Rente), Primera Serie, Oñate, February 6, 1836 (previously recorded as 1860), payable in Madrid/London/Paris/Brussels/Turin, with coupon strips",
+    "notes": "Cinco Por Ciento Español (5% Spanish Perpetual Rente), Primera Serie, Oñate, February 6, 1836 (previously recorded as 1860), payable in Madrid/London/Paris/Brussels/Turin, with coupon strips. Currency: pesos fuertes (previously recorded as Spanish peseta, which dates from 1868).",
     "subjectCountry": [
       "Spain"
     ],
@@ -4949,7 +4949,7 @@
       "Belgium"
     ],
     "currency": [
-      "Dutch guilder"
+      "Brabant florin"
     ],
     "language": [
       "Dutch"
@@ -5258,7 +5258,7 @@
       "Belgium"
     ],
     "currency": [
-      "Dutch guilder"
+      "Brabant florin"
     ],
     "language": [
       "Dutch"
@@ -7260,7 +7260,7 @@
   {
     "id": "goetzmann0405",
     "title": "Florentine Subsidy Fund Share, Florence, 1706",
-    "description": "A share (luogo) in the Nuovo Monte Sussidio Vacabile della Città di Firenze (the New Vacatable Subsidy Fund of the City of Florence), handwritten on a printed form and dated at Florence on August 11, 1706. It was issued by the fund's protectors, deputies, and administrators under the Grand Duke of Tuscany, and records the holder as creditor for one hundred ducats of Florentine money per share, yielding six percent a year. It rests on the fund's founding provision of July 4, 1692 and a decree of amplification of August 8, 1692. The fund was \"vacatable,\" meaning the income reverted to it on the holder's death.",
+    "description": "A share (luogo) in the Nuovo Monte Sussidio Vacabile della Città di Firenze (the New Vacatable Subsidy Fund of the City of Florence), handwritten on a printed form and dated at Florence on August 11, 1706. It was issued by the fund's protectors, deputies, and administrators under the Grand Duke of Tuscany, and records Bali Zanobi Girolami as creditor for three shares of one hundred ducats each, the ducat reckoned at seven lire of Florentine money, yielding six percent a year paid every three months. The shares were transferred to him from the account of Cavaliere Pier Filippo Uguccioni. It rests on the fund's founding provision of July 4, 1692 and a decree of amplification of August 8, 1692. The fund was \"vacatable,\" meaning the income reverted to it on the holder's death. It is signed by the chancellor, Girolamo Pianorini(?), and a paper seal is at the lower left.",
     "file": "goetzmann0405.jpg",
     "type": [
       "Bond"
@@ -7287,7 +7287,7 @@
       "1706"
     ],
     "creator": "Città di Firenze (City of Florence, Grand Duchy of Tuscany)",
-    "notes": "Nuovo Monte Sussidio Vacabile della Città di Firenze. Public debt certificate at 6%. Florence, 1693. Grand Duke Cosimo III de' Medici. Among the earliest transferable public debt instruments in Europe.",
+    "notes": "Nuovo Monte Sussidio Vacabile della Città di Firenze. Public debt certificate at 6%. Florence, 11 August 1706 (read from the plate; previously recorded as 1693, the year after the fund was set up). Three luoghi, in the name of Bali Zanobi Girolami, transferred from the account of Cav. Pier Filippo Uguccioni. Grand Duke Cosimo III de' Medici. Among the earliest transferable public debt instruments in Europe.",
     "subjectCountry": [
       "Italy"
     ],
@@ -7297,7 +7297,7 @@
   {
     "id": "goetzmann0406",
     "title": "Palencia–Ponferrada Railway Bond, Madrid, 1862",
-    "description": "A bearer obligation of the Compañía del Ferro-Carril de Palencia á Ponferrada, a Spanish railway company, dated at Madrid on June 15, 1862 and sanctioned by a royal decree of May 18, 1862 under a ninety-nine-year concession. It is one of an issue of 68,420 obligations of 1,900 reales vellón, or 500 francs, each bearing 57 reales (15 francs) of interest a year, payable on June 15 and December 15. The obligations are redeemable at par by annual lottery drawings over ninety-two years from July 1, 1867, against a total of 65,000,000 reales. The text runs in parallel Spanish and French.",
+    "description": "A bearer obligation of the Compañía del Ferro-Carril de Palencia á Ponferrada, a Spanish railway company, dated at Madrid on June 15, 1862 and sanctioned by a royal decree of May 18, 1862 under a ninety-nine-year concession. It is one of an issue of 68,420 obligations of 1,900 reales vellón, or 500 francs, each bearing 57 reales (15 francs) of interest a year, payable on June 15 and December 15. The obligations are redeemable at par by annual lottery drawings over ninety-two years from July 1, 1867, The obligations were sold at 950 reales (250 francs), raising 65,000,000 reales in all. The text runs in parallel Spanish and French, and interest and repayment were payable at Madrid and Paris. It is number 52,103, first series, signed by two directors, and printed by M. Rivadeneyra, Madrid.",
     "file": "goetzmann0406.jpg",
     "type": [
       "Bond"
@@ -7315,7 +7315,7 @@
       "Spain"
     ],
     "currency": [
-      "Spanish peseta"
+      "Real de vellón"
     ],
     "language": [
       "Spanish",
@@ -7325,19 +7325,19 @@
       "1862"
     ],
     "creator": "Compañía del Ferro-Carril de Palencia a Ponferrada",
-    "notes": "Compañía del Ferro-Carril de Palencia a Ponferrada (Nord-Ouest de l'Espagne). Bilingual Spanish/French bearer bond No. 32,105. 1,900 Reales = 500 Francs. 68,420 obligations in total. Madrid, ca. 1860s.",
+    "notes": "Compañía del Ferro-Carril de Palencia a Ponferrada (Nord-Ouest de l'Espagne). Bilingual Spanish/French bearer bond No. 52,103 (read from the plate and coupons; previously recorded as 32,105). 1,900 Reales = 500 Francs. 68,420 obligations in total. Madrid, 15 June 1862. Currency: reales de vellón (previously recorded as Spanish peseta, which was not introduced until 1868).",
     "subjectCountry": [
       "Spain"
     ],
     "transcription": "# Palencia to Ponferrada Railway Company (North-West of Spain) — 1,900-Reales / 500-Francs Bearer Obligation No. 52,105 — Transcription\n\n## Original (Spanish):\n\n*(Bilingual bond: Spanish text in the left column, French text in the right column. Engraved decorative frame with a small vignette of railway works at bottom centre; diagonal watermark \"Ó DEL NOROESTE DE ESPAÑA\" across the field.)*\n\n**COMPAÑÍA DEL FERRO-CARRIL DE PALENCIA Á PONFERRADA**\n**ó DEL**\n**NOROESTE DE ESPAÑA.**\n\nSociedad anónima aprobada por real decreto de 18 Mayo de 1862.\n\nConcesion de 99 años,\nAUTORIZADA POR LAS LEYES DE 21 DE ABRIL DE 1858 Y 5 DE JUNIO DE 1859.\n\n**1.ª SÉRIE.**\n\n**EMISION DE 68,420 OBLIGACIONES DE 1,900 REALES CADA UNA,**\n\nReembolsables á la par, por sorteos anuales, en 92 años, desde 1.º de Julio de 1867.\n\nEmitidas al tipo de 950 Rvn., que hacen un total efectivo de Rvn. 65,000,000.\n\n**INTERES ANUAL: 57 REALES VELLON,**\npagaderos por semestres, el 15 de Junio y el 15 de Diciembre de cada año.\n\n**UNA OBLIGACION**\n**N.º 52,105**\n\nEl pago de intereses y el reembolso del capital se efectuarán en Madrid y Paris, y son garantidos por los productos de la explotacion y por todo el activo de la Compañia.\n\n*(handwritten, cursive:)* Madrid, 15 de Junio de 1862.\n\n*(printed, right of centre:)* Dos Administradores.\n\n*(two cursive signatures below the date line) [illegible]*\n\n---\n\n*(Right column — French:)*\n\n**COMPAGNIE DU CHEMIN DE FER DE PALENCIA A PONFERRADA**\n**ou du**\n**NORD-OUEST DE L'ESPAGNE.**\n\nSociété anonyme approuvée par décret royal du 18 Mai 1862.\n\nConcession de 99 ans,\nAUTORISÉE PAR LES LOIS DES 21 AVRIL 1858 ET 5 JUIN 1859.\n\n**1.re SÉRIE.**\n\n**ÉMISSION DE 68,420 OBLIGATIONS DE 500 FRANCS CHACUNE,**\n\nRemboursables au pair, par tirages annuels, en 92 ans, à partir du 1.er Juillet 1867.\n\nÉmises au taux de 250 francs, qui fait un total effectif de francs 17,105,000.\n\n**INTÉRÊT ANNUEL: 15 francs,**\npayables par semestres, le 15 Juin et le 15 Décembre de chaque année.\n\n**UNE OBLIGATION**\n**N.º 52,105**\n\nLe paiement des intérêts et le remboursement du capital ont lieu à Madrid et à Paris. Ils sont garantis par les produits de l'exploitation et par tout l'actif de la Compagnie.\n\n---\n\n*(Bottom — detachable interest coupons in a row; each headed:)*\n\n**FERRO-CARRIL DE PALENCIA Á PO[NFERRADA]**\n**ó DEL NOROESTE DE ES[PAÑA]**\n**OBLIGACION N.º 52,105**\nCupon de interes de 28,50 Rvn., pagadero[...] de 1878 en MADRID Y PARIS.\n\n*(coupon payment years differ from box to box; other coupon boxes repeat the same heading with their own dates — most values [illegible] at this resolution)*\n\n---\n\n## English Translation:\n\n**RAILWAY COMPANY OF PALENCIA TO PONFERRADA**\n**or of the**\n**NORTH-WEST OF SPAIN.**\n\nJoint-stock company approved by royal decree of 18 May 1862.\n\nConcession for 99 years,\nAUTHORISED BY THE LAWS OF 21 APRIL 1858 AND 5 JUNE 1859.\n\n**1st SERIES.**\n\n**ISSUE OF 68,420 OBLIGATIONS OF 1,900 REALES EACH,**\n\nRedeemable at par, by annual drawings, over 92 years, from 1 July 1867.\n\nIssued at the price of 950 reales vellón, making a total effective sum of 65,000,000 reales vellón.\n\n**ANNUAL INTEREST: 57 REALES VELLÓN,**\npayable half-yearly, on 15 June and 15 December of each year.\n\n**ONE OBLIGATION**\n**No. 52,105**\n\nThe payment of interest and the repayment of the capital shall be made in Madrid and Paris, and are guaranteed by the products of the operation and by the entire assets of the Company.\n\nMadrid, 15 June 1862.\n\nTwo Administrators.\n\n*(two cursive signatures) [illegible]*\n\n---\n\n*(French column, same content:)*\n\n**COMPANY OF THE RAILWAY OF PALENCIA TO PONFERRADA**\n**or of the**\n**NORTH-WEST OF SPAIN.**\n\nJoint-stock company approved by royal decree of 18 May 1862.\n\nConcession for 99 years,\nAUTHORISED BY THE LAWS OF 21 APRIL 1858 AND 5 JUNE 1859.\n\n**1st SERIES.**\n\n**ISSUE OF 68,420 OBLIGATIONS OF 500 FRANCS EACH,**\n\nRedeemable at par, by annual drawings, over 92 years, from 1 July 1867.\n\nIssued at the price of 250 francs, making a total effective sum of 17,105,000 francs.\n\n**ANNUAL INTEREST: 15 francs,**\npayable half-yearly, on 15 June and 15 December of each year.\n\n**ONE OBLIGATION**\n**No. 52,105**\n\nThe payment of interest and the repayment of the capital take place in Madrid and Paris. They are guaranteed by the products of the operation and by the entire assets of the Company.\n\n---\n\n*(Interest coupons at bottom:)*\n\n**RAILWAY OF PALENCIA TO PO[NFERRADA] / or of the NORTH-WEST OF S[PAIN]**\n**OBLIGATION No. 52,105**\nInterest coupon of 28.50 reales vellón, payable [...] of 1878 in MADRID AND PARIS.\n\n---\n\n*Note on conflicts with the catalogue description:*\n- The description states the company was sanctioned \"by royal decree of 18 May **1861**.\" The image reads clearly, in both languages, **18 Mayo de 1862 / 18 Mai 1862**.\n- All other verified facts (laws of 21 April 1858 and 5 June 1859; emission of 68,420 obligations of 1,900 reales; redeemable at par by annual drawings over 92 years from 1 July 1867; issue price 950 Rvn., total 65,000,000 Rvn.; annual interest 57 reales vellón; serial No. 52,105; \"Madrid, 15 de Junio de 1862,\" Two Administrators) match the image exactly.\n",
     "identifiers": [
-      "No. 32,105"
+      "No. 52,103"
     ]
   },
   {
     "id": "goetzmann0407",
     "title": "Norwich & Worcester Rail Road Company Bond, 1877",
-    "description": "A printed coupon bond for $1,000 of the Norwich & Worcester Rail Road Company, chartered in Connecticut. It bears six percent interest, payable twice a year on presentation of the attached coupons, with the principal payable to the Treasurer of the State of Connecticut at the New England Trust Company in Boston. The whole authorized issue is $500,000. The bond is dated at Hartford with the day and year left blank, marking it as an unissued remainder.",
+    "description": "A $1,000 bond, number 468, of the Norwich & Worcester Rail Road Company, dated at Norwich on 1 March 1877 and payable on 1 March 1897 to Edwin A. Buck, Treasurer of the State of Connecticut, as trustee, or to the bearer, at the New England Trust Company in Boston. It bears six percent interest, paid twice a year on the attached coupons, and was authorized by the stockholders in February 1877. The whole authorized issue is $500,000, secured by a mortgage of the company's property and franchise in Connecticut. The president's and treasurer's signatures and the Comptroller's registration at Hartford are blank, so the bond was never issued. The company's red seal is at the lower left.",
     "file": "goetzmann0407.jpg",
     "type": [
       "Bond"
@@ -7364,7 +7364,7 @@
       "1877"
     ],
     "creator": "Norwich & Worcester Rail Road Company",
-    "notes": "Norwich & Worcester Rail Road Company (State of Connecticut). $1,000 bearer bond. No. 468. Total authorized issue $500,000. Printed by Evans, Hartford. Ca. 1840s–1850s.",
+    "notes": "Norwich & Worcester Rail Road Company (State of Connecticut). $1,000 bearer bond. No. 468. Total authorized issue $500,000. Dated Norwich, 1 March 1877, principal due 1 March 1897 (previously recorded as ca. 1840s-1850s; the printer \"Evans, Hartford\" is not on the plate). Unsigned; the Comptroller's certificate is blank.",
     "subjectCountry": [
       "United States"
     ],
@@ -7375,8 +7375,8 @@
   },
   {
     "id": "goetzmann0408",
-    "title": "Spanish Colonial Government Payment Order, 1816",
-    "description": "A handwritten libramiento, or treasury payment order, of the Spanish colonial Real Hacienda (royal treasury) at Lima, dated July 1816, promising payment one year later of 500 silver pesos. It was drawn against the Empréstito Patriótico, a forced loan levied on the population of Lima. It carries 5 percent annual interest, the twenty-five pesos named on its face being that five percent of the 500-peso principal. A later notation of 1817 records further processing.",
+    "title": "Spanish Colonial Treasury Payment Order, Lima, 1815",
+    "description": "A printed and handwritten libramiento, or treasury payment order, number 644, of the royal treasury at Lima, dated 20 July 1815. It orders the treasury officials to pay Don Antonio Barás (the surname is uncertain), or any holder by proper endorsement, 500 silver pesos fuertes one year after acceptance, the sum he had contributed to the \"empréstito patriótico\" (patriotic loan), with 25 pesos more as the 5 percent interest promised. The treasury would also accept it in payment of any debt owed to the crown, and the payment was secured on the funds of the Caja General de Censos. It is signed by the Marqués de la Concordia and two officials. Notes below record it registered at the Tribunal del Consulado of Lima on 1 October 1816 and the interest paid on 12 August 1817.",
     "file": "goetzmann0408.jpg",
     "type": [
       "Draft"
@@ -7394,28 +7394,28 @@
       "Peru"
     ],
     "currency": [
-      "Peruvian sol"
+      "Spanish milled dollar"
     ],
     "language": [
       "Spanish"
     ],
     "issueYear": [
-      "1816"
+      "1815"
     ],
     "creator": "Spanish Colonial Treasury, Lima (Tesorería de Lima)",
-    "notes": "Spanish colonial libramento No. 444. Lima, Peru, October 1816. Empréstito Patriótico (forced loan). 500 pesos at 25% annual interest. Additional notation from 1817.",
+    "notes": "Spanish colonial libramiento No. 644 (previously recorded as 444). Lima, 20 July 1815 (previously recorded as October 1816, the date it was registered). Empréstito Patriótico. 500 pesos fuertes plus 25 pesos interest at 5% (previously recorded as 25% annual interest). Payee D. Antonio Barás(?). Signed by the Marqués de la Concordia and two treasury officials. Registered at the accounts office of the Tribunal del Consulado of Lima on 1 October 1816; interest paid 12 August 1817. Currency: pesos fuertes (previously recorded as Peruvian sol, which dates from 1863).",
     "subjectCountry": [
       "Peru"
     ],
     "transcription": "# Transcription\n\n**Original (Spanish):**\n\nNumero. 6441.—\n\nEn virtud de este Libramiento, los Ministros de Real Hacienda de las Cajas de [handwritten: Lima] pagarán á un Año de la fecha de su aceptacion á [handwritten: Doña María Basilia] ó al tendedor que lo presente con legítimo endoso, ó recibirán en pago de qualquier crédito activo de la Real Hacienda, sin exceptuar alguno por privilegiado que sea, la Cantidad de Quinientos pesos fuertes en plata doble de cordonazo, con que ha contribuido al empréstito patriótico, ó más veinte y cinco pesos de la misma moneda por razón del interés de cinco por ciento prometido, señalándose á mayor abundamiento por hipoteca especial de este pago los fondos y rendimientos de la Caja general de censos, que queda reunida al orario para este único objeto.\n\nLima [handwritten: Diez y Ocho de mil ochocientos dieciséis.]\n\n[Signatures and handwritten notations]\n\nDon 500 p\n\n[Lower handwritten notation regarding payment in the Caja del R.l Tribunal de Cuentas, Lima, October 1816]\n\n[Further notation dated 1817]\n\n---\n\n**English translation:**\n\nNumber. 6441.—\n\nBy virtue of this Payment Order, the Ministers of the Royal Treasury of the Treasury Offices of [handwritten: Lima] shall pay in one year from the date of its acceptance to [handwritten: Doña María Basilia] or to the bearer who presents it with legitimate endorsement, or shall receive in payment of any active credit of the Royal Treasury, without exempting any that may be privileged, the Sum of Five Hundred strong pesos in double cordobazo silver, with which [she] has contributed to the Patriotic Loan, or rather twenty-five pesos of the same currency by reason of the interest of five percent promised, designating for greater assurance as special mortgage of this payment the funds and revenues of the General Censos Fund, which is hereby consolidated with the [unclear] for this sole purpose.\n\nLima [handwritten: Eighteenth of eighteen hundred sixteen.]\n\nDon 500 p\n\n---\n\n**Notable markings:**\n\n- **Serial Number:** 6441\n- **Royal Seal/Emblem:** Ornamental royal crest at top with crown and heraldic design\n- **Decorative Border:** Elaborate engraved frame with flourishes on all sides\n- **Amount Notation:** \"Don 500 p\" (500 pesos) in oval cartouche at bottom center\n- **Multiple Signatures:** Several handwritten signatures and rubrics present\n- **Handwritten Amendments:** Various dates and amounts added in manuscript, including a 1817 notation indicating subsequent processing\n- **Authentication Marks:** Wax seals or impressions (indicated by circular marks at bottom)",
     "identifiers": [
-      "No. 444"
+      "No. 644"
     ]
   },
   {
     "id": "goetzmann0409",
     "title": "Imperial Russian Internal Prize Loan, 1864",
-    "description": "A bearer bond of the Imperial Russian 5 percent Internal Prize Loan of 1864, with a capital value of 100 rubles yielding 5 rubles a year. Its text is set in parallel Russian and German, showing that the loan was meant to circulate in German financial markets as well as at home. A prize loan married a fixed coupon to periodic lottery draws for large cash prizes.",
+    "description": "A bearer bond of the Imperial Russian 5 percent Internal Prize Loan of 1864, with a capital value of 100 rubles yielding 5 rubles a year. Its text is in parallel Russian and German. It was authorized by an imperial decree to the Minister of Finance of 13 November 1864 and is signed for the State Bank by its manager, Baron Stieglitz. Besides the fixed interest, holders took part in periodic lottery draws for cash prizes. It is series 15871, number 45.",
     "file": "goetzmann0409.jpg",
     "type": [
       "Lottery Bond"
@@ -7457,7 +7457,7 @@
   {
     "id": "goetzmann0410",
     "title": "Omnium Français du Film Share, 1928",
-    "description": "A bearer share of 100 francs, Series A, in the Omnium Français du Film, dated 10 May 1928 and certified before Maître Baudrier, notary in Paris. The company was a Paris joint-stock concern with a capital of three million francs, divided into 30,000 shares of 100 francs each, 26,000 of Series A and 4,000 of Series B, alongside 12,000 founder's shares carrying no nominal value. Printed by Imp. J. Crémieux.",
+    "description": "A bearer share of 100 francs, Series A, in the Omnium Français du Film, dated 10 May 1928 its statutes deposited with Maître Baudrier, notary in Paris. The company was a Paris joint-stock concern with a capital of three million francs, divided into 30,000 shares of 100 francs each, 26,000 of Series A and 4,000 of Series B, alongside 12,000 founder's shares carrying no nominal value. It is number 022,884. Printed by Imp. I. Crémieux.",
     "file": "goetzmann0410.jpg",
     "type": [
       "Stock Certificate"
@@ -7496,7 +7496,7 @@
   {
     "id": "goetzmann0411",
     "title": "Ostend Company Dividend Receipt, Antwerp, 1734",
-    "description": "A printed and manuscript dividend receipt of the Generale Keyserlycke Indische Compagnie, the Imperial East India Company chartered at Ostend, acknowledged by the shareholder C.J. De Witte at Antwerp on 11 August 1734 and signed by the company's cashier Joan Baptista Cogels. The form records payment of 360 guilders in bank money of exchange as a distribution of six percent, sixty guilders a share, on six shares held in the holder's name. The company had been chartered by Charles VI in 1722, and Britain, the Dutch Republic and France forced its suppression in 1731; this receipt belongs to the liquidation that followed.",
+    "description": "A printed and manuscript dividend receipt of the Generale Keyserlycke Indische Compagnie, the Imperial East India Company chartered at Ostend, acknowledged by the shareholder C.J. De Witte at Antwerp on 11 August 1734 and signed by the company's cashier Joan Baptista Cogels. The form records payment of 360 guilders in bank money of exchange as a distribution of six percent, sixty guilders a share, on six shares held in the holder's name. The company had been chartered by Charles VI in 1722, and Britain, the Dutch Republic and France forced its suppression in 1731; the company went on paying out to its shareholders after that.",
     "file": "goetzmann0411.jpg",
     "type": [
       "Receipt"
@@ -7514,7 +7514,7 @@
       "Belgium"
     ],
     "currency": [
-      "Dutch guilder"
+      "Brabant florin"
     ],
     "language": [
       "Dutch"
@@ -7533,7 +7533,7 @@
   {
     "id": "goetzmann0412",
     "title": "Norbertine Fathers' Order Mortgage Bond, Budapest, 1926",
-    "description": "A bearer bond of 1,000 Dutch guilders, bearing 8 percent annual interest, dated at Budapest on August 1, 1926, from the First Mortgage Loan of the Order of Norbertine (Premonstratensian) Fathers of Jászó, seated at Gödöllő near Budapest. Interest is payable by half-yearly coupons. The whole loan amounts to 1,600,000 guilders, divided into 1,200 bonds of 1,000 guilders and 800 of 500, secured as a first mortgage on the order's properties and guaranteed by the Royal Hungarian Government. It was administered by the Hollandsche Garantie & Trust Compagnie of Amsterdam.",
+    "description": "A bearer bond of 1,000 Dutch guilders, bearing 8 percent annual interest, dated at Budapest on August 1, 1926, from the First Mortgage Loan of the Order of Norbertine (Premonstratensian) Fathers of Jászó, seated at Gödöllő near Budapest. The loan was raised, with Hungarian government approval of 28 June 1926, to complete the order's buildings at Gödöllő. Interest is paid at Amsterdam on 1 February and 1 August, on a sheet of twenty half-yearly coupons. The whole loan amounts to 1,600,000 guilders, divided into 1,200 bonds of 1,000 guilders and 800 of 500, secured as a first mortgage on the order's properties at Gödöllő, Alsónovaj, Felsőnovaj, Idrány, Vajdácska and Sárospatak, and guaranteed by the Royal Hungarian Government under a trust deed of 19 July 1926. It is signed by the provost-prelate of Jászó and bears the order's violet seal. It was administered by the Hollandsche Garantie & Trust Compagnie of Amsterdam.",
     "file": "goetzmann0412.jpg",
     "type": [
       "Bond"
@@ -7560,7 +7560,7 @@
       "1926"
     ],
     "creator": "Orde der Paters Norbertynen (Jassauer Praemonstratenser Koorheeren-Orde)",
-    "notes": "Orde der Paters Norbertynen (Jászó Premonstratensian / Norbertine Fathers) 8% First Mortgage Bond. F. 1,000 Dutch guilders. No. 0.274. Budapest, August 1, 1928. Total issue F. 1,600,000. Royal Hungarian Government guarantee. Administered by Hollandsche Garantie & Trust Compagnie.",
+    "notes": "Orde der Paters Norbertynen (Jászó Premonstratensian / Norbertine Fathers) 8% First Mortgage Bond. F. 1,000 Dutch guilders. No. 0.274. Budapest, August 1, 1926 (read from the plate; previously recorded as 1928). Total issue F. 1,600,000. Royal Hungarian Government guarantee. Administered by Hollandsche Garantie & Trust Compagnie.",
     "subjectCountry": [
       "Hungary"
     ],
@@ -7572,7 +7572,7 @@
   {
     "id": "goetzmann0413",
     "title": "Oregon and Transcontinental Company Share Certificate, 1888",
-    "description": "An engraved certificate for one hundred shares of one hundred dollars each in the capital stock of the Oregon and Transcontinental Company, dated the twelfth day of September 1888 at New York and signed by Edward Ede as assistant secretary and by the president. The company's authorized capital of fifty million dollars is printed across the top of the sheet. It was the holding company Henry Villard assembled in 1881 to bind the Oregon Railway and Navigation Company, Pacific steamships and a controlling interest in the Northern Pacific into a single Northwestern transportation system; the structure broke in 1883. Engraved by the American Bank Note Company.",
+    "description": "An engraved certificate for one hundred shares of one hundred dollars each in the capital stock of the Oregon and Transcontinental Company, number 40583, dated 12 September 1888, made out to Walston H. Brown & Bros., and signed by Edward Edes as assistant secretary and by the president. It was registered by the Farmers' Loan & Trust Company the next day and canceled by stamps and punch holes in February 1889. The company's authorized capital of fifty million dollars is printed across the top of the sheet. Engraved by the American Bank Note Company.",
     "file": "goetzmann0413.jpg",
     "type": [
       "Stock Certificate"
@@ -7599,19 +7599,19 @@
       "1888"
     ],
     "creator": "Oregon and Transcontinental Company",
-    "notes": "Oregon and Transcontinental Company. 100 shares at $100 each. Capital $50,000,000. No. 10583. September 1888. President: Mayor Fiske. Secretary: Edward Ede.",
+    "notes": "Oregon and Transcontinental Company. 100 shares at $100 each. Capital $50,000,000. No. 40583 (read from the plate; previously recorded as 10583). 12 September 1888. Holder Walston H. Brown & Bros. Assistant secretary Edward Edes; the president's signature is not clearly legible (previously recorded as \"Mayor Fiske\"). Registered by the Farmers' Loan & Trust Co., 13 September 1888; canceled February 1889.",
     "subjectCountry": [
       "United States"
     ],
     "transcription": "# Transcription of Oregon and Transcontinental Company Stock Certificate\n\n**CAPITAL $50,000,000.**\n\n**Oregon and Transcontinental Company**\n\n**NUMBER 40583**\n\n**100 SHARES**\n\n**$100 EACH**\n\n---\n\n**THIS IS TO CERTIFY** that [Halston H. Loom & Oog] is the owner of\n\n**ONE HUNDRED**\n\nShares of Hundred Dollars each, fully paid and free from assessment on the Capital Stock of the Oregon and Transcontinental Company, transferable only on the books of the Company in person or by duly authorized attorney upon the surrender of this Certificate properly endorsed hereon.\n\nIn Witness our hands and the Corporate Seal of said Company this\n\n**22nd day of September 1888**\n\n[Signatures]\n\nEdward Ede                                    Mayor Fiske\nAssistant Secretary                          President\n\n**$100 SHARES EACH**\n\n---\n\n**Notable markings:**\n\n- Serial number: 40583\n- Date: September 22, 1888\n- Two signatures: Edward Ede (Assistant Secretary) and Mayor Fiske (President)\n- Multiple stamps and notations in purple/magenta ink\n- Decorative green ornamental border with floral patterns\n- Central engraving depicting a steam locomotive and Native American figures in a landscape\n- \"SEP 1888\" date stamp visible\n- Various handwritten annotations and reference numbers",
     "identifiers": [
-      "No. 10583"
+      "No. 40583"
     ]
   },
   {
     "id": "goetzmann0414",
     "title": "Austrian Building Lottery Bond, Vienna, 1926",
-    "description": "A premium debenture, the \"Österreichisches Bau-Los, Em. 1926,\" of ten Austrian schillings face value, issued at Vienna in August 1926 by the Federal Housing and Settlement Fund. It forms one lot in a lottery loan authorized by the federal law of 27 July 1926: a total of 6,000,000 schillings divided into 600,000 such lots, guaranteed by the federal government and entered in the land register for housing purposes. Printed by \"Steyermühl\" of Vienna.",
+    "description": "A premium debenture, the \"Österreichisches Bau-Los, Em. 1926,\" of ten Austrian schillings face value, issued at Vienna in August 1926 by the Federal Housing and Settlement Fund. It forms one lot in a lottery loan authorized by the federal law of 27 July 1926: a total of 6,000,000 schillings divided into 600,000 such lots, guaranteed by the federal government and entered in the land register for housing purposes. The lots were to be drawn for repayment, with prizes, within forty years, and the prizes were free of tax. It is series 2,485, number 049, stamped by the fund's office in the Federal Ministry for Social Administration. Printed by \"Steyrermühl\" of Vienna.",
     "file": "goetzmann0414.jpg",
     "type": [
       "Lottery Bond"
@@ -7629,7 +7629,7 @@
       "Austria"
     ],
     "currency": [
-      "Austrian krone"
+      "Austrian schilling"
     ],
     "language": [
       "German"
@@ -7638,7 +7638,7 @@
       "1926"
     ],
     "creator": "Bundeswohn- und Siedlungsfonds (Austrian Federal Housing and Settlement Fund)",
-    "notes": "Österreichisches Bau-Los, Emission 1926. 10 Schilling. Serie 2,485, No. 049. Vienna, August 1926. Bundeswohn- und Siedlungsfonds (Federal Housing and Settlement Fund). Lottery bond for housing purposes.",
+    "notes": "Österreichisches Bau-Los, Emission 1926. 10 Schilling (currency previously recorded as Austrian krone). Serie 2,485, No. 049. Vienna, August 1926. Bundeswohn- und Siedlungsfonds (Federal Housing and Settlement Fund). Lottery bond for housing purposes.",
     "subjectCountry": [
       "Austria"
     ],
@@ -7651,8 +7651,8 @@
   },
   {
     "id": "goetzmann0415",
-    "title": "Compagnie Universelle du Canal de Panama Provisional Share, Paris, 1888",
-    "description": "A provisional bearer certificate, dated at Paris, 26 June 1888, for one lottery bond of the Compagnie Universelle du Canal Interocéanique de Panama. The bond belongs to a 720-million-franc loan of two million lottery obligations authorized by the law of 8 June 1888 and offered without any guarantee of the State. Each obligation yields 15 francs yearly, paid half-yearly on 1 December and 1 June, and is redeemable either by lot or at 400 francs within ninety-nine years; this title is paid up to only 60 francs of the 360 subscribed. It carries the engraved signature of Ferdinand de Lesseps as president-director. The company collapsed in 1889, and stamps reading \"REMBOURSÉ PAR LE SÉQUESTRE\" record the receiver's later partial settlement of bondholders.",
+    "title": "Compagnie Universelle du Canal de Panama Provisional Lottery Bond Certificate, Paris, 1888",
+    "description": "A provisional bearer certificate, dated at Paris, 26 June 1888, for one lottery bond of the Compagnie Universelle du Canal Interocéanique de Panama. The bond belongs to a 720-million-franc loan of two million lottery obligations authorized by the law of 8 June 1888 and offered without any guarantee of the State. Each obligation yields 15 francs yearly, paid half-yearly on 1 December and 1 June, and is redeemable either by lot or at 400 francs within ninety-nine years; this certificate was issued with 60 francs paid of the 360 due, and receipt stamps on the sheet record the later installments paid from August 1888 to November 1889. It carries the signature of Ferdinand de Lesseps as president-director, with those of H. Cottu and Charles A. de Lesseps. The company collapsed in 1889, and stamps reading \"REMBOURSÉ PAR LE SÉQUESTRE\" record the receiver's later partial settlement of bondholders.",
     "file": "goetzmann0415.jpg",
     "type": [
       "Bond"
@@ -7680,7 +7680,7 @@
       "1888"
     ],
     "creator": "Compagnie Universelle du Canal Interocéanique de Panama",
-    "notes": "Compagnie Universelle du Canal Interocéanique de Panama. Titre provisoire 500 francs. No. 0,269,304. Paris, June 20, 1888. Signed by H. Cottu and J.F. de Lesseps. Stamped REMBOURSE PAR LE SEQUESTRE. Panama Canal Company scandal.",
+    "notes": "Compagnie Universelle du Canal Interocéanique de Panama. Titre provisoire 500 francs. No. 0,269,304. Paris, June 26, 1888 (previously recorded as June 20). Signed by Ferd. de Lesseps, H. Cottu and Ch. A. de Lesseps (previously recorded as \"J.F.\"). Stamped REMBOURSE PAR LE SEQUESTRE. Panama Canal Company scandal.",
     "subjectCountry": [
       "Panama"
     ],
@@ -7692,7 +7692,7 @@
   {
     "id": "goetzmann0416",
     "title": "Café de la Paix Béziers Founder's Share, 1921",
-    "description": "A founder's share issued by the Café de la Paix, a joint-stock company seated at 5, Allées Paul-Riquet in Béziers, dated Béziers, 1 January 1921 and signed by two administrators. The company's statutes, deposited with Maître Vidal, notary at Béziers, on 11 December 1920, fixed its capital at 1,200,000 francs, fully paid, divided into 2,400 shares of 500 francs each. A founder's share carried no nominal value and was granted to a venture's promoters as a claim on profits above a set dividend. Lithographed by Cadenat Frères of Béziers.",
+    "description": "A founder's share issued by the Café de la Paix, a joint-stock company seated at 5, Allées Paul-Riquet in Béziers, dated Béziers, 1 January 1921 and signed by two administrators. The company's statutes, deposited with Maître Vidal, notary at Béziers, on 11 December 1920, fixed its capital at 1,200,000 francs, fully paid, divided into 2,400 shares of 500 francs each. A founder's share carried no nominal value and was granted to a venture's promoters as a claim on profits above a set dividend. It is number 1335; the stamp duty was paid under an authorization published on 11 March 1921. Lithographed by Cadenat Frères of Béziers, with Pourmon Fils.",
     "file": "goetzmann0416.jpg",
     "type": [
       "Stock Certificate"

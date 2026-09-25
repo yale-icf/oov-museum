@@ -659,3 +659,26 @@ curatorial stance.
 *Cut as interpretation or unverified claim.*
 
 > and was placed simultaneously in the German and Netherlands capital markets. [replaced: inferred from the languages, not stated]
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0405-0416)
+
+## goetzmann0409
+
+*Cut as interpretation or context not on the object.*
+
+> Its text is set in parallel Russian and German, showing that the loan was meant to circulate in German financial markets as well as at home.
+
+## goetzmann0411
+
+*Cut as interpretation or context not on the object.*
+
+> this receipt belongs to the liquidation that followed. [softened: the receipt does not say so]
+
+## goetzmann0413
+
+*Cut as interpretation or context not on the object.*
+
+> It was the holding company Henry Villard assembled in 1881 to bind the Oregon Railway and Navigation Company, Pacific steamships and a controlling interest in the Northern Pacific into a single Northwestern transportation system; the structure broke in 1883.
