@@ -5164,7 +5164,7 @@
   {
     "id": "goetzmann0351",
     "title": "Dale Land & Cattle Co. Stock Certificate, 1903",
-    "description": "A stock certificate for fifty shares of the Dale Land & Cattle Co., incorporated in Texas with a capital stock of $300,000 divided into 3,000 shares of $100 each. It is made out to J. B. Dale Sr. and dated April 1903, signed by B. A. McKinney as secretary and J. B. Dale as president, beneath the company's gold embossed seal. The certificate gives the company's places of business as Bonham and Henrietta, Texas, with its ranch headquarters in Clay County.",
+    "description": "A stock certificate for fifty shares of the Dale Land & Cattle Co., incorporated in Texas with a capital stock of $300,000 divided into 3,000 shares of $100 each. It is made out to J. B. Dale Sr. and dated 16 April 1903, signed by B. A. McKinney as secretary and J. B. Dale as president, beneath the company's gold embossed seal. It is canceled by pen strokes. Printed by Geo. D. Barnard & Co., St. Louis. The certificate gives the company's places of business as Bonham and Henrietta, Texas, with its ranch headquarters in Clay County.",
     "file": "goetzmann0351.jpg",
     "type": [
       "Stock Certificate"
@@ -5191,7 +5191,7 @@
       "1903"
     ],
     "creator": "Dale Land & Cattle Co.",
-    "notes": "Dale Land & Cattle Co., 50 shares $100 each, No. 8, J.B. Dale Sr., Bonham & Henrietta/Clay County Texas, March 20, 1895",
+    "notes": "Dale Land & Cattle Co., 50 shares $100 each, No. 8, J.B. Dale Sr., Bonham & Henrietta/Clay County Texas, 16 April 1903 (read from the plate; previously recorded as March 20, 1895)",
     "subjectCountry": [
       "United States"
     ],
@@ -5230,7 +5230,7 @@
       "1872"
     ],
     "creator": "Danforth, Scudder & Co.",
-    "notes": "Danforth, Scudder & Co. (Boston), receipt $207.84, D.T. Saunders, July 8, 1872; printed by Leonard, Millder & Co.",
+    "notes": "Danforth, Scudder & Co. (Boston), receipt $207.84, D.T. Saunders, July 8, 1872; printed by Leonard B. Wilder & Co. (previously misread as \"Millder\")",
     "subjectCountry": [
       "United States"
     ],
@@ -5267,7 +5267,7 @@
       "1723"
     ],
     "creator": "Generale Keijserlijcke Indische Compagnie (Ostend Company)",
-    "notes": "Ostend Company (Generale Keijserlijcke Indische Compagnie) share subscription receipt, 250 Gulden first installment (25% of 1,000 Gulden share), Anna Rosalia de Bruijn van Holst, Antwerp August 16, 1723",
+    "notes": "Ostend Company (Generale Keijserlijcke Indische Compagnie) share subscription receipt, 250 Gulden first installment (25% of 1,000 Gulden share), Anna Rosalia de Bruijn van Aelst (previously recorded as \"van Holst\"), Antwerp August 16, 1723",
     "subjectCountry": [
       "Belgium"
     ],
@@ -5277,7 +5277,7 @@
   {
     "id": "goetzmann0354",
     "title": "Grand Society of Russian Railways Silver Bond, St. Petersburg, 1880",
-    "description": "A 3 percent bearer bond of 125 silver rubles issued by the Grand Society of Russian Railways, based in St. Petersburg, from its third issue. The bond's value is given in several currencies alongside the ruble: 500 francs, 20 pounds sterling, 402 German marks, and 236 Dutch guilders. It paid interest twice a year, and it is dated at St. Petersburg, December 23, 1880, by the old Russian calendar, corresponding to January 4, 1881. Paying agents are listed in Paris, Berlin, London, and Brussels.",
+    "description": "A 3 percent bearer bond of 125 silver rubles issued by the Grand Society of Russian Railways, based in St. Petersburg, from its third issue. The bond's value is given in several currencies alongside the ruble: 500 francs, 20 pounds sterling, 402 German marks, and 236 Dutch guilders. It paid interest twice a year, and it is dated at St. Petersburg, December 23, 1880, by the old Russian calendar, corresponding to January 4, 1881. It is numbered 220757, one of 105,176 bonds of the third issue repayable at par by annual drawing over seventy years from 1881, with the interest guaranteed by the government. Paying agents are listed in St. Petersburg, Paris, Berlin, London, Amsterdam and Brussels.",
     "file": "goetzmann0354.jpg",
     "type": [
       "Bond"
@@ -5304,7 +5304,7 @@
       "1880"
     ],
     "creator": "Grand Society of Russian Railways (Главное Общество Российских Железных Дорог)",
-    "notes": "Grand Society of Russian Railways, Third Issue, 125 Ruble Silver Bond No. 220757, 3%, = 500 Francs = £20 = 402 German Marks = 238 Dutch Gulden",
+    "notes": "Grand Society of Russian Railways, Third Issue, 125 Ruble Silver Bond No. 220757, 3%, = 500 Francs = £20 = 402 German Marks = 236 Dutch guilders (previously recorded as 238)",
     "subjectCountry": [
       "Russia"
     ],
@@ -5315,8 +5315,8 @@
   },
   {
     "id": "goetzmann0356",
-    "title": "Italian Public Debt Rendita Certificate, Florence, 1864",
-    "description": "A certificate of the Public Debt of the Kingdom of Italy, bearing five percent interest under the law of July 10, 1861, inscribed in the Grand Book of the Public Debt. It records a perpetual annuity of 20 lire a year, payable in two installments on January 1 and July 1. The annuity was registered in favor of the parish church of San Rocco, near Udine, administered by its own board of works. The certificate was issued at Florence on August 5, 1874, and carries a portrait of King Victor Emmanuel II. It is stamped \"annullato,\" canceled.",
+    "title": "Italian Public Debt Rendita Certificate, Florence, 1874",
+    "description": "A certificate, number 554865, of the Public Debt of the Kingdom of Italy, bearing five percent interest under the law of July 10, 1861, inscribed in the Grand Book of the Public Debt. It records a perpetual annuity of 20 lire a year, payable in two installments on January 1 and July 1. The annuity was registered in favor of the parish church of San Rocco, near Udine, administered by its own board of works. The certificate was issued at Florence on August 5, 1874, and carries a portrait of King Victor Emmanuel II. It is stamped \"annullato,\" canceled.",
     "file": "goetzmann0356.jpg",
     "type": [
       "Bond"
@@ -5340,20 +5340,22 @@
       "Italian"
     ],
     "issueYear": [
-      "1864"
+      "1874"
     ],
     "creator": "Kingdom of Italy, Ministry of Finance",
-    "notes": "Debito Pubblico del Regno d'Italia, 5% Rendita, annual income 20 lire, issued from Florence; portrait of Victor Emmanuel II",
+    "notes": "Debito Pubblico del Regno d'Italia, 5% Rendita, annual income 20 lire, issued at Florence, 5 August 1874 (previously dated 1864); certificate No. 554865; portrait of Victor Emmanuel II",
     "subjectCountry": [
       "Italy"
     ],
     "transcription": "# Public Debt Certificate of the Kingdom of Italy — 5% Rendita (Florence, 1864) — Transcription\n\n## Original (Italian):\n\n**CERTIFICATO N.° 554865** *(handwritten cursive serial, top left; digits read 5‑5‑4‑8‑6‑5 — best reading, uncertain)* — **RENDITA di L. 20—** *(top right)*\n\n*(Portrait vignette of King Vittorio Emanuele II at center top, flanked by an engraved cityscape; ornamental blue engraved borders framing the sheet)*\n\n**DEBITO PUBBLICO**\n**DEL REGNO D'ITALIA**\n\n**Cinque per cento**\n\n*Legge 10 luglio 1861*\n\n*(Body text, printed with handwritten fill‑ins shown in italics):*\n\nNel Gran Libro del Debito Pubblico del Regno d'Italia è iscritta\n\nl'annua rendita di Lire *Venti* —————\n\na favore della *Chiesa Parrocchiale di San Rocco di Fielis in Zuglio | Udine |* *(handwritten)*\n\n*amministrata dalla propria Fabbriceria.* *(handwritten)*\n\ncon godimento dal 1.° Gennaio 18*65* *(handwritten year)*, le cui rate semestrali sono pagabili\n\nil 1.° gennaio e il 1.° luglio d'ogni anno, mediante ricevuta dell'Esibitore\n\ndel presente Certificato.\n\n*(vertical boxed stamp in left margin, partly legible: \"...FOGLIO DELLA... / COMPARTIMENTO... / SEMESTRE...\")*\n\n**FIRENZE**, il *5 Agosto 18[64]* *(handwritten date)*\n\n**IL DIRETTORE GENERALE** *(printed heading, with handwritten signature below)*\n\n*per la Corte dei conti* — *[signature, cursive, illegible]*\n\n**Il Capo di Divisione** *(printed heading, right; overprinted by a diagonal \"ANNULLATO\" cancellation stamp)*\n\nN.° *16 1184* *(handwritten)* del Registro di posizione.\n\n*(Additional circular seals of the Kingdom of Italy at left margin; multiple faded cancellation / transfer stamps and ink annotations across the sheet)*\n\n---\n\n## English Translation:\n\n**CERTIFICATE No. 554865** — **ANNUITY of 20 Lire—**\n\n**PUBLIC DEBT OF THE KINGDOM OF ITALY**\n\n**Five per cent**\n\n*Law of 10 July 1861*\n\nIn the Grand Book of the Public Debt of the Kingdom of Italy is inscribed\n\nthe annual annuity of Lire *Twenty* —————\n\nin favor of the *Parish Church of San Rocco of Fielis in Zuglio | Udine |*,\n\n*administered by its own Fabbriceria (church works board).*\n\nWith enjoyment (interest running) from 1 January 18*65*, whose semi‑annual installments are payable\n\non 1 January and 1 July of each year, upon receipt from the bearer (presenter)\n\nof the present Certificate.\n\n**FLORENCE**, the *5th of August 18[64]*\n\n**THE DIRECTOR GENERAL** *(with signature)*\n\n*for the Court of Accounts* — *[illegible signature]*\n\n**The Head of Division** *(overprinted \"ANNULLATO\" / CANCELLED)*\n\nNo. *16 1184* of the Register of position.\n\n*(Portrait of King Victor Emmanuel II; official seals; later cancellation and transfer stamps.)*\n",
-    "identifiers": []
+    "identifiers": [
+      "No. 554865"
+    ]
   },
   {
     "id": "goetzmann0357",
     "title": "Deli Railway Company Share, Amsterdam, 1914",
-    "description": "A share certificate for one share of 1,000 guilders in the Deli-Spoorweg-Maatschappij (Deli Railway Company), a limited company based at Amsterdam with a capital of 10,000,000 guilders. The company was founded in 1883, and this share was issued at Amsterdam on May 5, 1914, signed by the president-commissioner and a director. Its name refers to the Deli district of East Sumatra, in the Netherlands East Indies, where the company operated a railway. It was printed by Joh. Enschedé en Zonen of Haarlem.",
+    "description": "A share certificate for one share of 1,000 guilders in the Deli-Spoorweg-Maatschappij (Deli Railway Company), a limited company based at Amsterdam with a capital of 10,000,000 guilders. The company was founded by deed of 28 June 1883, and this share was issued at Amsterdam on May 5, 1914, signed by the president-commissioner and a director. Its name refers to the Deli district of East Sumatra, in the Netherlands East Indies, where the company operated a railway. It was issued with seven dividend coupons and a talon, and printed by Joh. Enschedé en Zonen of Haarlem.",
     "file": "goetzmann0357.jpg",
     "type": [
       "Stock Certificate"
@@ -5393,7 +5395,7 @@
   {
     "id": "goetzmann0358",
     "title": "Société Belge d'Exportation Founder's Share, 1881",
-    "description": "A founder's share of the Société Belge d'Exportation, an Antwerp export company trading under the name Jules Van der Laat & Cie, organized as a partnership limited by shares. The company was constituted in 1881 for a term of thirty years, with a capital of 5,000,000 francs in 10,000 shares of 500 francs. This is a founder's share without fixed value, and this fraction represents one-tenth of a full founder's share. The date line was left blank, filled in only with the printed year 1881, marking this as an unissued share.",
+    "description": "A founder's share of the Société Belge d'Exportation, an Antwerp export company trading under the name Jules Van der Laat & Cie, organized as a partnership limited by shares. The company was constituted on 29 July 1881 for a term of thirty years, with a capital of 5,000,000 francs in 10,000 shares of 500 francs. This is a founder's share without fixed value, and this fraction, coupure number 08 of founder's share 021, represents one-tenth of a full founder's share. The date line was left blank, filled in only with the printed year 1881, marking this as an unissued share.",
     "file": "goetzmann0358.jpg",
     "type": [
       "Stock Certificate"
@@ -5420,7 +5422,7 @@
       "1881"
     ],
     "creator": "Société Belge d'Exportation, Jules Van der Laat & Cie",
-    "notes": "Société Belge d'Exportation (Jules Van der Laat & Cie), Action de Fondation No. 021, Coupure 08, représentant 1/10 de l'Action de fondation, Antwerp, July 29, 1901",
+    "notes": "Société Belge d'Exportation (Jules Van der Laat & Cie), Action de Fondation No. 021, Coupure 08, représentant 1/10 de l'Action de fondation, constituted Antwerp, 29 July 1881 (previously recorded as 1901); date line of the share blank",
     "subjectCountry": [
       "Belgium"
     ],
@@ -5432,7 +5434,7 @@
   {
     "id": "goetzmann0359",
     "title": "Banque Royale (John Law) Tournois Banknote, Paris, 1720",
-    "description": "A printed bearer banknote for ten livres tournois, promising to pay the holder that sum on sight in silver coin. It is dated at Paris on July 1, 1720, marked \"Division,\" and numbered by hand. It carries the printed countersignatures of the bank's officers on three lines: examined, signed, and controlled. The note was issued by the bank of John Law, whose paper money circulated in France in 1720.",
+    "description": "A printed bearer banknote for ten livres tournois, promising to pay the holder that sum on sight in silver coin. It is dated at Paris on July 1, 1720, marked \"Division,\" and numbered by hand. It carries the printed names of the bank's officers on three lines: seen by Giraudeau for Fenellon, signed by Delanauze for Bourgeois, and controlled by Granet for Durevest. The note was issued by the bank of John Law, whose paper money circulated in France in 1720.",
     "file": "goetzmann0359.jpg",
     "type": [
       "Banknote"
@@ -5471,7 +5473,7 @@
   {
     "id": "goetzmann0360",
     "title": "Compagnie Française du Haut & du Bas Congo Ordinary Share, 1920",
-    "description": "A fully-paid bearer share of 5,000 francs in the Compagnie Française du Haut et du Bas Congo, a French agricultural, industrial, and commercial company operating in French Equatorial Africa, with its registered office in Paris. Its capital was 850,000,000 francs, divided into 170,000 shares of 5,000 francs, of which 34,000 were priority shares and 136,000 ordinary. The statutes were deposited with a notary in Paris. The share is signed by the chairman and a delegate of the board, and was printed by Morax of Paris.",
+    "description": "A fully-paid bearer share of 5,000 francs in the Compagnie Française du Haut et du Bas Congo, a French agricultural, industrial, and commercial company operating in French Equatorial Africa, with its registered office in Paris. Its capital was 850,000,000 francs, divided into 170,000 shares of 5,000 francs, of which 34,000 were priority shares and 136,000 ordinary. The statutes were deposited with the Paris notary Aubron. The share, number 068,570, is signed by the president-director general, J. Cousin, and a delegate of the board, and was printed by Morax of Paris.",
     "file": "goetzmann0360.jpg",
     "type": [
       "Stock Certificate"
@@ -5499,7 +5501,7 @@
       "1920"
     ],
     "creator": "Compagnie Française du Haut & du Bas Congo",
-    "notes": "Compagnie Française du Haut & du Bas Congo, 5,000 Franc Ordinary Share No. 068,570, Capital 850,000,000 Francs, Paris",
+    "notes": "Compagnie Française du Haut & du Bas Congo, 5,000 Franc Ordinary Share No. 068,570, Capital 850,000,000 Francs, Paris; the recorded year 1920 is not on the plate (undated)",
     "subjectCountry": [
       "Republic of the Congo"
     ],
@@ -5511,7 +5513,7 @@
   {
     "id": "goetzmann0361",
     "title": "Venetian Banknote, 1798",
-    "description": "A printed note of the Banco giro di Venezia for 100 ducats, valued at 8 lire each. Its text states that the note was to be accepted as actual money by all royal and public treasuries in payment of customs duties, land taxes, and other contributions, and by the bank's own cashier for transfer in account, in accordance with a proclamation of October 1, 1798.",
+    "description": "A printed cedola, number 1175, of the Banco giro di Venezia for 100 ducats of 8 lire each, under the Austrian eagle with the monogram of Francis II. Its text states that the note was to be accepted as actual money by all royal and public treasuries in payment of customs duties, land taxes, and other contributions, and by the bank's own cashier for transfer in account, in accordance with a proclamation of October 1, 1798.",
     "file": "goetzmann0361.jpg",
     "type": [
       "Banknote"
@@ -5529,7 +5531,7 @@
       "Italy"
     ],
     "currency": [
-      "Venezuelan bolivar"
+      "Venetian ducat"
     ],
     "language": [
       "Italian"
@@ -5538,7 +5540,7 @@
       "1798"
     ],
     "creator": "Banco Giro di Venezia",
-    "notes": "Banco Giro di Venezia, 100 Ducat cedula No. 1175, issued per proclamation of October 1, 1798 under Austrian administration; signed by Giovannelli and Schiantavello",
+    "notes": "Banco Giro di Venezia, 100 Ducat cedula No. 1175, issued per proclamation of October 1, 1798 under Austrian administration; currency is the Venetian ducat (previously miscoded as Venezuelan bolivar); signed by Giovannelli and Schiantavello",
     "subjectCountry": [
       "Italy"
     ],
@@ -5550,7 +5552,7 @@
   {
     "id": "goetzmann0362",
     "title": "Overend, Gurney and Company Limited Share Certificate, 1865",
-    "description": "A share certificate of Overend, Gurney and Company, Limited, recording that John Metcalfe Smith of Leeds was the registered holder of one £50 share, of which £15 had been paid up. The company had been registered and incorporated on July 12, 1865, under the Companies Act of 1862, and the certificate was issued under its common seal on November 15, 1865. It is signed by the secretary. The share was partly paid, leaving the holder liable for the unpaid balance of £35.",
+    "description": "A share certificate of Overend, Gurney and Company, Limited, recording that John Metcalfe Smith of Leeds was the registered holder of one £50 share, of which £15 had been paid up. The company had been registered and incorporated on July 12, 1865, under the Companies Act of 1862, and the certificate was issued under its common seal on November 15, 1865. It is signed by the secretary, Wm. Bois. Printed by Batho, Sprague & Co. The share was partly paid, leaving the holder liable for the unpaid balance of £35.",
     "file": "goetzmann0362.jpg",
     "type": [
       "Stock Certificate"
@@ -5589,7 +5591,7 @@
   {
     "id": "goetzmann0363",
     "title": "Eagle Bank of New-Haven Stock Transfer Receipt, 1824",
-    "description": "A printed stock-transfer receipt of the Eagle Bank of New-Haven recording that the holder had one share of the bank's capital stock, valued at $100, standing to their credit on the bank's books, transferred that day over the cashier's signature. It is dated August 10, 1824. A printed note at the foot states that transfers of stock had to be made at the bank in person or by attorney",
+    "description": "A printed stock-transfer receipt of the Eagle Bank of New-Haven recording that Wm. W. Boardman had one share of the bank's capital stock, valued at $100, standing to their credit on the bank's books, transferred that day over the cashier's signature. It is dated August 10, 1824. A printed note at the foot states that transfers of stock had to be made at the bank in person or by attorney",
     "file": "goetzmann0363.jpg",
     "type": [
       "Stock Certificate"
@@ -5616,7 +5618,7 @@
       "1824"
     ],
     "creator": "Eagle Bank of New-Haven",
-    "notes": "Eagle Bank of New-Haven, 1 share $100, W.A. Brockett, August 10, 1824; Connecticut state-chartered bank",
+    "notes": "Eagle Bank of New-Haven, 1 share $100, Wm. W. Boardman (previously misread as \"W.A. Brockett\"); signed by the cashier W. J. Ritter(?), August 10, 1824; Connecticut state-chartered bank",
     "subjectCountry": [
       "United States"
     ],
