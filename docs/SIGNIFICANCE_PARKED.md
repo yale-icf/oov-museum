@@ -998,3 +998,38 @@ curatorial stance.
 *Cut as interpretation or context not on the object.*
 
 > Portugal had that year unilaterally reduced foreign-debt interest by two-thirds.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0553-0588)
+
+## goetzmann0556
+
+*Cut as interpretation or context not on the object.*
+
+> The firm, established in 1907 as the certificate states, ran one of Cairo's leading department stores.
+
+## goetzmann0560
+
+*Cut as interpretation or context not on the object.*
+
+> the company formed in Paris in 1896 to build the railway inland from Djibouti into Ethiopia,
+
+## goetzmann0560
+
+*Cut as interpretation or context not on the object.*
+
+> the company formed in Paris in 1896 to build the railway inland from Djibouti into Ethiopia [cut: purpose not on the share]
+
+## goetzmann0588
+
+*Cut as interpretation or context not on the object.*
+
+> The imperial regime was sustained by French intervention.
+
+## goetzmann0588
+
+*Cut as interpretation or context not on the object.*
+
+> The imperial regime was sustained by French intervention. [cut: context]
