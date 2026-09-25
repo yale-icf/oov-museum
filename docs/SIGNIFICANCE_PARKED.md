@@ -1056,3 +1056,32 @@ curatorial stance.
 *Cut as context not on the object.*
 
 > The loan was secured on the salt and customs revenues. [cut: the conditions stating this are on the reverse, not in the record]
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0612-0624)
+
+## goetzmann0619
+
+*Cut as context not on the object or as an error.*
+
+> It was issued pursuant to the experts' plan of 7 June 1929 and the Hague agreements, which converted Germany's reparations obligations into a fixed, marketable debt placed simultaneously across the principal money centers.
+
+## goetzmann0621
+
+*Cut as context not on the object or as an error.*
+
+> bears 6 percent annual interest ... Interest above 10 percent could be withheld to recover advances. [wrong: the 6 percent applied to series A; replaced by the shared description]
+
+## goetzmann0622
+
+*Cut as context not on the object or as an error.*
+
+> Ghent then lay in a department recently annexed to France.
+
+## goetzmann0623
+
+*Cut as context not on the object or as an error.*
+
+> The company was chartered in 1794 and was among the first joint-stock marine and fire insurers in the United States.
