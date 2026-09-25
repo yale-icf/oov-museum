@@ -1650,3 +1650,24 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1617
 
 > A bond running a full hundred years from its mortgage, it outlasted the company, the gold clause and the railroad itself.
+
+
+---
+
+## Verification pass, 2026-09-25 (1633-1721): cut text
+
+## goetzmann1633
+
+> a certificate of a nineteenth-century mortgage still being issued seventy years on, long after the gold clause it carries had been voided.
+
+## goetzmann1659
+
+> The document shows an American railroad raising new capital from London subscribers and settling in sterling at a stated rate.
+
+## goetzmann1667
+
+> The Cuba Company was the Van Horne enterprise that built the railway across the island and went on into sugar.
+
+## goetzmann1721
+
+> — a Texas railroad's sterling debt, long in default, changing hands in New York at a fraction of par two years after the Civil War
