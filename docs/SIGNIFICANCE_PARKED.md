@@ -642,3 +642,20 @@ curatorial stance.
 *Cut as unverified claim.*
 
 > The 10,000-krone denomination was among the largest offered.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0392-0404)
+
+## goetzmann0396
+
+*Cut as interpretation or unverified claim.*
+
+> The company was one of the marine and fire insurers serving the maritime trade and textile mills of Rhode Island.
+
+## goetzmann0400
+
+*Cut as interpretation or unverified claim.*
+
+> and was placed simultaneously in the German and Netherlands capital markets. [replaced: inferred from the languages, not stated]
