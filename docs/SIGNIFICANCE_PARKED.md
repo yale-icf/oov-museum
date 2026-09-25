@@ -1518,3 +1518,32 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann0947
 
 > A £100 bearer bond from the Imperial Chinese Government's 5 percent Tientsin-Pukow Railway Loan, a £5,000,000 sterling issue raised in London on 1 September 1908 to build the trunk line linking Tientsin with Pukow on the Yangtze. Printed in orange and black, the certificate carries its English text alongside a parallel column of Chinese characters bearing the corresponding undertaking. Authority is vouched by two vermilion calligraphic seals, a purple seal and a manuscript signature, and the issue is countersigned for the Chinese Central Railway, London.
+
+
+---
+
+## Verification pass, 2026-09-25 (0951-0984): replaced or cut text
+
+## goetzmann0951
+
+> A handwritten deed of transfer by which Matthew Lawler assigns ten shares in the Capital or Joint Stock of the Insurance Company of the State of Pennsylvania to Peter Stephen du Ponceau, executed at Philadelphia and dated the twenty-ninth day of August 1795. It is signed "Mat. Lawler" and attested by the witness John Lewis. The brief, formulaic text is a stock-assignment instrument rather than an engraved share certificate, recording the conveyance of an existing holding. The company was chartered in 1794 and was among the first joint-stock marine and fire insurers in the United States.
+
+## goetzmann0952
+
+> A tontine pooled subscribers' capital and distributed income among surviving nominees, the last survivor taking the whole.
+
+## goetzmann0954
+
+> The State repudiated the Union Bank bonds in the early 1840s.
+
+## goetzmann0959
+
+> A $100 First Mortgage Leasehold 5 percent Bond of the Lexington Ave. & 42nd St. Corporation, issued as of August 1, 1945 and due September 1, 1965, secured on the Chanin Building on the west side of Lexington Avenue between 41st and 42nd Streets in Manhattan. The obligation is tied not to fee ownership but to a leasehold interest. Interest is payable half-yearly through The Continental Bank & Trust Company of New York as trustee. The corporate seal of 1934 appears below. The specimen is stamped CANCELLED.
+
+## goetzmann0966
+
+> A 500-franc bearer obligation of the Bulgarian 5 percent State Gold Loan of 1902, one of 212,000 bonds in a loan of 106,000,000 gold leva, stated at par against francs, roubles, German marks, sterling, Austrian crowns and Dutch florins. The bond declares itself a direct obligation of the State, secured on the tobacco duty. It rests on a law sanctioned by decree of 3/16 June 1902 and a contract of 7/20 June 1902 with the Banque d'État de Russie in Paris and the Banque de Paris et des Pays-Bas. It was issued at Sofia and printed in French, Bulgarian, German and English. Printed by Imprimerie Chaix, 20 Rue Bergère, Paris.
+
+## goetzmann0980
+
+> A 3 percent bearer obligation of 125 silver-metallic rubles issued by the Grand Russian Railway Company, signed at St. Petersburg and dated 4 January 1881. The company was the joint-stock concern chartered under an imperially confirmed statute of 3 November 1861 to build the empire's first trunk lines. The bond belongs to the Third Emission of 105,176 obligations, together amounting to 13,147,000 silver rubles, and offers convertible equivalents of 500 francs, 20 pounds sterling, 402 German marks or 236 Dutch guilders.
