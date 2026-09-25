@@ -573,3 +573,50 @@ curatorial stance.
 *Cut: interpretation.*
 
 > The decree it cites is the one at [1893], which ended the free premiums and raised the prizes; this is how that change was put to the public.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0326-0337)
+
+## goetzmann0326
+
+*Cut as interpretation or unverified context.*
+
+> Its share values are stated in enormous figures ... A company capitalized in the millions of yuan reflected a currency that was rapidly losing its value, not the real worth of the business. [removed: the plate's figures are modest; the inflation framing did not fit]
+
+## goetzmann0328
+
+*Cut as interpretation or unverified context.*
+
+> It belonged to the wave of land-development ventures that subdivided and sold that citrus country during the boom, when new railroads and irrigation turned dry land into groves and townsites.
+
+## goetzmann0329
+
+*Cut as interpretation or unverified context.*
+
+> The date gives it its poignancy ... A real-estate company like this one would have been swept away, its shares made worthless, in the final abolition of private enterprise in Romania. [reduced to one factual sentence]
+
+## goetzmann0331
+
+*Cut as interpretation or unverified context.*
+
+> This kind of profit-share, distinct from the voting shares, let a company's founders keep a claim on future earnings without giving up control. The company belonged to the wave of French capital drawn into Mexican mining under Porfirio Díaz, whose government actively courted foreign investment.
+
+## goetzmann0332
+
+*Cut as interpretation or unverified context.*
+
+> It was one of the French commercial ventures established to profit from the island after that annexation, drawing capital from investors in Paris to enterprises in a territory brought under French control by force. What the company did on the island is not detailed on the certificate.
+
+## goetzmann0336
+
+*Cut as interpretation or unverified context.*
+
+> The MZA was founded in 1856 with French money, controlled by the Paris house of Rothschild, and its great rival, the Norte company, was backed by the competing French bank of the Pereire brothers. [cut: context not on the object]
+
+## goetzmann0337
+
+*Cut as interpretation or unverified context.*
+
+> In June 1927 the government of Primo de Rivera decreed a state petroleum monopoly, expropriating the oil businesses operating in Spain and placing the trade under a new state company, CAMPSA.
