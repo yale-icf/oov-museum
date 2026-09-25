@@ -682,3 +682,38 @@ curatorial stance.
 *Cut as interpretation or context not on the object.*
 
 > It was the holding company Henry Villard assembled in 1881 to bind the Oregon Railway and Navigation Company, Pacific steamships and a controlling interest in the Northern Pacific into a single Northwestern transportation system; the structure broke in 1883.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0417-0430)
+
+## goetzmann0418
+
+*Cut as context not on the object.*
+
+> It joined the city to the borough of West Chester and was financed by subscription shares sold to local investors.
+
+## goetzmann0418
+
+*Cut as context not on the object.*
+
+> a turnpike chartered in 1803 [cut: not on the certificate]
+
+## goetzmann0420
+
+*Cut as context not on the object.*
+
+> The company worked oil in the Galician fields of the newly reunified Polish state.
+
+## goetzmann0424
+
+*Cut as context not on the object.*
+
+> The association had settled thousands of German emigrants in Texas, founding New Braunfels and Fredericksburg.
+
+## goetzmann0428
+
+*Cut as context not on the object.*
+
+> The note belongs to the early stage of the German monetary collapse of 1921 to 1923, when the Reichsbank was financing government deficits by printing currency.
