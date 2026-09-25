@@ -805,3 +805,32 @@ curatorial stance.
 *Cut as context not on the object.*
 
 > It was the eighth and last of the war loans, coming to market five months before the armistice. [cut: not on the bond]
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0455-0467)
+
+## goetzmann0455
+
+*Cut as interpretation or context not on the object.*
+
+> An Antwerp handstamp and a 1922 mark record its long circulation among Low Countries investors.
+
+## goetzmann0457
+
+*Cut as interpretation or context not on the object.*
+
+> Such stock funded the State's canal enterprise, the Erie Canal and its feeders.
+
+## goetzmann0467
+
+*Cut as interpretation or context not on the object.*
+
+> the British firm that built the first Aswan Dam [cut: not on the warrant]
+
+## goetzmann0467
+
+*Cut as interpretation or context not on the object.*
+
+> The warrant converts a contractor's claim into a transferable, long-dated bearer obligation charged on the state.

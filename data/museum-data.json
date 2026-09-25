@@ -9278,7 +9278,7 @@
   {
     "id": "goetzmann0455",
     "title": "Austrian Imperial State Bond, Vienna, 1868",
-    "description": "A state-debt certificate of the Imperial-Royal Directorate of State Debts, issued at Vienna on 1 July 1868, acknowledging one hundred gulden in Austrian currency. Its terms state that the bond forms part of the 5 percent uniform public debt, burdened with an unraised tax of 16⅔ percent, so that the holder's net yield is 4⅙ percent. It arose, by the law of 20 June 1868, from the conversion of the various classes of funded debt outstanding at the end of 1867. An Antwerp handstamp and a 1922 mark record its long circulation among Low Countries investors.",
+    "description": "A state-debt certificate of the Imperial-Royal Directorate of State Debts, issued at Vienna on 1 July 1868, acknowledging one hundred gulden in Austrian currency. Its terms state that the bond forms part of the 5 percent uniform public debt, burdened with a tax of 16 percent that could not be raised. The Hungarian lands contributed a fixed yearly sum toward the interest, which was paid half-yearly in coin. It arose, by the law of 20 June 1868, from the conversion of the various classes of funded debt outstanding at the end of 1867. It is number 207,407. A red stamp of the State Debt Treasury, dated Vienna, 25 March 1903, records its conversion, and a Belgian stamp dated Antwerp, 1 January 1922, records its deposit with the National Bank of Belgium under article 203 of the Treaty of Saint-Germain.",
     "file": "goetzmann0455.jpg",
     "type": [
       "Bond"
@@ -9296,7 +9296,7 @@
       "Austria"
     ],
     "currency": [
-      "Austrian krone"
+      "Austrian gulden"
     ],
     "language": [
       "German"
@@ -9305,7 +9305,7 @@
       "1868"
     ],
     "creator": "k.k. Direction der Staatschulden (Austrian Imperial-Royal Directorate of State Debts)",
-    "notes": "k.k. Staatsschuldverschreibung (Austrian Imperial State Bond). 100 gulden (Österreichische Währung). No. 207,407. Vienna, July 1, 1868. 4½% transfunded state debt. k.k. Direction der Staatschulden. Antwerpen deposit stamp.",
+    "notes": "k.k. Staatsschuldverschreibung (Austrian Imperial State Bond). 100 gulden (Österreichische Währung). No. 207,407. Vienna, July 1, 1868. 5% uniform state debt taxed at 16% (previously recorded as 4½%). Currency: Austrian gulden (previously recorded as Austrian krone, which dates from 1892). k.k. Direction der Staatschulden. Antwerpen deposit stamp.",
     "subjectCountry": [
       "Austria"
     ],
@@ -9317,7 +9317,7 @@
   {
     "id": "goetzmann0456",
     "title": "Massachusetts Commonwealth Tax Certificate and Massachusetts-Bay Bill, 1786",
-    "description": "A single sheet bearing two interest-bearing obligations of the Commonwealth of Massachusetts, both of 1786. The upper instrument is a tax certificate from the Treasurer's Office, Boston, dated April 1, 1786, certifying that three pounds is due to P. Seek or bearer, receivable in payment of one-third of the Tax No. 5 granted in March 1786, and declared \"equal to the same Sum in Gold and Silver.\" It is subscribed by Treasurer Alex Hodgdon. Below it is a State of Massachusetts-Bay bill for five dollars, promising payment of five Spanish milled dollars by December 31, 1786, with interest at five per centum a year under an act of May 5, 1785, signed by R. Cranch.",
+    "description": "A single sheet bearing two interest-bearing obligations of the Commonwealth of Massachusetts, both of 1786. The upper instrument is a tax certificate from the Treasurer's Office, Boston, dated April 1, 1786, certifying that three pounds is due to P. Seek or bearer, receivable in payment of one-third of the Tax No. 5 granted in March 1786, and declared \"equal to the same Sum in Gold and Silver.\" It is subscribed by Treasurer Alex Hodgdon. Below it is a State of Massachusetts-Bay bill for five dollars, promising payment of five Spanish milled dollars by December 31, 1786, with interest at five per centum a year under an act of the fifth of May (the year is lost under a punch hole), signed by R. Cranch. Both pieces are canceled by punch holes.",
     "file": "goetzmann0456.jpg",
     "type": [
       "Certificate",
@@ -9336,7 +9336,8 @@
       "United States"
     ],
     "currency": [
-      "United States dollar"
+      "Massachusetts pound",
+      "Spanish milled dollar"
     ],
     "language": [
       "English"
@@ -9345,21 +9346,21 @@
       "1786"
     ],
     "creator": "Commonwealth of Massachusetts, Treasurer's Office",
-    "notes": "Two documents: (1) Massachusetts Commonwealth Tax Certificate No. 1582, £3.13s.0, Boston, April 1, 1786. Signed by Alex Hodgdon, Treasurer. (2) State of Massachusetts-Bay Bill No. 1541(?), $5, ca. 1785. 5% interest; payable Dec 31, 1786. Signed by A. Cranch.",
+    "notes": "Two documents: (1) Massachusetts Commonwealth Tax Certificate No. 1582, £3 0s 0d (previously recorded as £3.13s.0), due to P. Seek, Boston, April 1, 1786. Signed by Alex Hodgdon, Treasurer. (2) State of Massachusetts-Bay Bill No. 16716(?) (previously recorded as 1541(?)), $5, 5% interest, payable Dec 31, 1786, under an act of 5 May (the year is under a punch hole). Signed by R. Cranch (previously recorded as \"A. Cranch\"). Both punch-canceled. Currency: Massachusetts pounds and Spanish milled dollars (previously recorded as United States dollar).",
     "subjectCountry": [
       "United States"
     ],
     "transcription": "# Transcription of Massachusetts Financial Documents (1785-1786)\n\n## UPPER DOCUMENT: Tax Certificate\n\n**Treasurer's Office, Boston, April 1, 1786. (No. 1582)**\n\nPURSUANT to a Law of this Commonwealth, I do hereby Certify that there is due to [handwritten: P. Seek] or Bearer, the Sum of [handwritten: Three Pounds] and this Certificate shall be received in Payment for one third of the Tax (No. 5) granted in *March 1786*, equal to the same Sum in Gold and Silver.\n\n[Signature: handwritten] £9. 13. 0 [handwritten: Alex Hodgdon] Treasurer.\n\n---\n\n## LOWER DOCUMENT: State Bill\n\n**FIVE DOLLARS**\n\n**STATE of MASSACHUSETTS-BAY.**\n\nNo. [handwritten: 1541] Five Dollars.\n\nTHE Possessor of this BILL shall be paid Five Spanish milled Dollars by the Thirty-first Day of *December*, One Thousand Seven Hundred and Eighty-six, with Interest in like Money, at the Rate of *Five per Centum per Annum*, by the State of MASSACHUSETTS-BAY, according to an Act of the Legislature of the said State, of the Fifth Day of *May*, 1785.\n\nPayable [unclear] 1786.\nAnnually, 1 60\nMonthly, 0 12\n\n[Signature: handwritten] A. Cranch\n\n---\n\n## Notable markings:\n\n- **Upper document**: Handwritten entries; serial number 1582; ornamental border design (left margin)\n- **Lower document**: Serial number 1541; ornamental border design throughout; hole punch (center); handwritten signature \"A. Cranch\"; notation of interest rates (annually and monthly)\n- Both documents show age-related discoloration and wear",
     "identifiers": [
       "No. 1582",
-      "No. 1541",
-      "No. 5"
+      "No. 16716(?)",
+      "Tax No. 5"
     ]
   },
   {
     "id": "goetzmann0457",
     "title": "State of New York Canal Stock, 1842",
-    "description": "A registered certificate of New York State Canal Stock for $1,000, dated at Albany, May 31, 1842, issued by the Comptroller's Office of the State of New York and acknowledging the People of the State as debtor. The principal bears interest at seven per centum a year from the 31st day of May 1842, payable quarterly on the first days of February, April, July and October, and is reimbursable at the pleasure of the State at any time after the first day of June 1845. It was issued in pursuance of chapter 114 of the Laws of 1842 and signed by the Comptroller. Such stock funded the State's canal enterprise, the Erie Canal and its feeders. Engraved by Rawdon, Clark & Co. of Albany.",
+    "description": "A registered certificate of New York State Canal Stock for $1,000, dated at Albany, May 31, 1842, issued by the Comptroller's Office of the State of New York and acknowledging that the People of the State owe the sum to Henry Whittlesey or his assigns. It is number 161. The principal bears interest at seven per centum a year from the 31st day of May 1842, payable quarterly on the first days of February, April, July and October, and is reimbursable at the pleasure of the State at any time after the first day of June 1844. It was issued in pursuance of chapter 114 of the Laws of 1842 and signed by the Comptroller, A. C. Flagg. The printed transfer-office wording is struck through and \"Comptroller's Bond\" written in, and stamps record interest paid at the Manhattan Company. Engraved by Rawdon, Clark & Co. of Albany.",
     "file": "goetzmann0457.jpg",
     "type": [
       "Bond"
@@ -9386,17 +9387,19 @@
       "1842"
     ],
     "creator": "State of New York, Comptroller's Office",
-    "notes": "State of New York Canal Stock. $1,000 at 3% p.a. Issued to Henry Whiting. Albany, May 31, 1842. Comptroller's Office. Quarterly interest; reimbursable at State's pleasure after 1 year notice. Erie Canal financing.",
+    "notes": "State of New York Canal Stock. No. 161. $1,000 at 7% (previously recorded as 3%). Issued to Henry Whittlesey (previously recorded as \"Henry Whiting\"). Albany, May 31, 1842. Comptroller's Office. Quarterly interest; reimbursable at the State's pleasure after 1 June 1844. Signed by A. C. Flagg, Comptroller. Erie Canal financing.",
     "subjectCountry": [
       "United States"
     ],
     "transcription": "# Transcription\n\n**STATE OF NEW YORK**\n**Comptrollers Office**\n\nBe it known that the People of the State of New York owe to Henry Whiting or his assigns the sum of One Thousand DOLLARS bearing interest at the rate of Seven [unclear] per centum per annum from the 31st day of May 1842 inclusively payable quarter yearly on the first days of the months February, April, July and October.\n\n[The holder of this Stock] in pursuance of the divisions of Chapter 144 of the Laws of New York of the year 1842 the principal of which Stock is repayable at the pleasure of the State at any time after the first day of June which will be the year one thousand eight hundred and Forty-three which debt is recorded in the [unclear] [illegible text with heavy strikethrough]\n\n[...] at said office according to the rules [illegible] and regulations [...]\n\nC.E. Dudley, Esqr subsd and [illegible]\n\nmy name and official seal of the inhabitants by the [illegible]\n\n[illegible] OFFICE\n\nDated Albany, May 31st 1842\n\n**Notable markings:**\n\n- Signature: Signed by [N.E. or C.E.] Dudley, Comptroller\n- Date: Albany, May 31st 1842\n- Decorative border with geometric patterns on left margin\n- Engraved vignette at top center featuring allegorical female figures\n- Ornamental circular seal/emblem on right side\n- Handwritten signatures and endorsements throughout\n- Heavy strikethrough and editorial markings on portions of body text",
-    "identifiers": []
+    "identifiers": [
+      "No. 161"
+    ]
   },
   {
     "id": "goetzmann0458",
     "title": "Saint George Textile Company Share, 1929",
-    "description": "A share certificate for ten shares of one hundred leva each, a total of 1,000 leva, in the joint-stock company for textile industry and trade in textile materials \"Sv. Guéorgui,\" or Saint George, issued at Sofia in 1929. The text affirms the holder's proportional right in the company's capital and obligations under its statutes. The document carries a Bulgarian fiscal stamp and the signatures of the administrative council's president and an administrator. Its text is set in parallel Bulgarian and French. Printed at Sofia by the Stopansko Razvitie press.",
+    "description": "A share certificate for ten shares of one hundred leva each, a total of 1,000 leva, in the joint-stock company for textile industry and trade in textile materials \"Sv. Guéorgui,\" or Saint George, issued at Sofia in 1929. The shares are numbered 79,881 to 79,890. The text gives the bearer a proportional right in the company's capital and profits, paid each year against the attached coupons. The document carries a Bulgarian fiscal stamp and the signatures of the administrative council's president and an administrator. Its text is set in parallel Bulgarian and French. Printed at Sofia by the Stopansko Razvitie press.",
     "file": "goetzmann0458.jpg",
     "type": [
       "Stock Certificate"
@@ -9435,8 +9438,8 @@
   },
   {
     "id": "goetzmann0459",
-    "title": "Texas and German Emigration Company Certificate of Stock, 1852",
-    "description": "An engraved certificate of stock for two shares of one hundred dollars each in the joint stock of the Texas and German Emigration Company, countersigned at the City of Houston on the fifteenth day of June 1852 by Henry F. Fisher as agent. The company was constituted by indentures of 15 September 1843 to colonize Texas under contract with the Republic, and the holder of record is the German Emigration Company itself, the Adelsverein of German noblemen that organized the venture. A memorandum binds the shares to the company's tangible assets: some 1,200,000 acres of Texas land, the rights of the colonization contract, and all debts due the company. The instrument promises redemption with interest from 1 January 1853 at five percent at a banking house in Galveston.",
+    "title": "Texas and German Emigration Company Certificate of Stock, Houston, 1859",
+    "description": "A certificate of stock, number 772, for two shares of one hundred dollars each, numbers 2775 and 2776, in the joint stock of the Texas and German Emigration Company, given at Houston on 15 June 1859 (the last digit is handwritten) and signed by Henry F. Fisher as agent of the German Emigration Company. The company was constituted by indentures of 15 September 1853, and the holder of record is the German Emigration Company itself, the association of German nobles known as the Adelsverein. The certificate passed by delivery, and the German Emigration Company could redeem it by paying the sum, with 5 percent interest from 1 January 1854, at a banking house in Galveston by 1 May 1855. A memorandum lists the company's assets: about 1,200,000 acres in the Fisher & Miller colony grant, property in and around New Braunfels, Fredericksburg and Indianola, and all debts due to it in Texas.",
     "file": "goetzmann0459.jpg",
     "type": [
       "Stock Certificate"
@@ -9460,23 +9463,24 @@
       "English"
     ],
     "issueYear": [
-      "1852"
+      "1859"
     ],
     "creator": "Texas and German Emigration Company",
-    "notes": "Texas and German Emigration Company. Certificate of Stock No. 572, Folio 92. 2 shares (No. 2775–2776) at $100 each. Houston, June 15, 1852. Agent: Henry F. Fisher. German immigrant colonization of Texas (Adelsverein). Related to Adelsverein bond (row 424).",
+    "notes": "Texas and German Emigration Company. Certificate of Stock No. 772 (previously recorded as 572), Folio 92. 2 shares (Nos. 2775-2776) at $100 each, to The German Emigration Company. Company constituted by indentures of 15 September 1853 (the description previously gave 1843). Given at Houston, 15 June 185-: the last digit is handwritten and reads as 9 (previously recorded as 1852, which is before the indenture); it may be worth confirming. Redeemable with 5% interest from 1 January 1854, on or before 1 May 1855. Agent: Henry F. Fisher. Related to Adelsverein bond (row 424).",
     "subjectCountry": [
       "United States"
     ],
     "transcription": "# TEXAS AND GERMAN EMIGRATION COMPANY\n## CERTIFICATE OF STOCK\n\n**No. 572 FOLIO 92**\n\nSHARES OF ONE HUNDRED DOLLARS EACH.\n\nThis is to certify, that the German Emigration Company is proprietor of TWOT shares, No. 2775 and 2776, in the Joint Stock of the Texas and German Emigration Company, constituted by articles of association, incepted and agreement, contained in Indentures, bearing date the fifteenth day of September, A.D. 1843.\n\nThis Certificate is transferable by delivery or assignment, vesting in the bearer all and assignee all the rights of the original proprietor, to be subject to the provisions of said Indentures, and to the right of said German Emigration Company, as their assigns, to redeem the Stock hereby represented, by paying to him, as bearer, as aforesaid in any Banking or Commercial House in the City of Galveston, for him, as bearer, the said sum with interest from the first day of January, 1844, at the rate of five per cent per annum, on or before the first day of May, A.D. 1855.\n\nGiven at the City of Houston, this fifteenth day of June, 1852.\n\nIssued by authority of said Indenture, and in accordance with its requirements, by\n\nHenry F. Fisher\n\nAGENT OF THE GERMAN EMIGRATION COMPANY.\n\n---\n\n## MEMORANDUM.\n\nThe JOINT STOCK of the **Texas and German Emigration Company** consists in the lands and tenements, rights, interests and property vested, conveyed, put in, assigned and transferred by the **German Emigration Company** to the **Texas and German Emigration Company**, as per Indenture of September 15th, 1843, to-wit: 1st.—All their right and claim to about 1,200,000 acres of land in Harris & Matagorda Counties, Grant. 2nd.—All their right and title to their private property in and about New Braunfels, Fredericksburg, Indianola, and lands and tenements elsewhere in the State of Texas. 3rd. All the debts, demands and claims due them in any manner in the State of Texas.\n\n---\n\n## Notable markings:\n\n- **Serial Number:** No. 572, Folio 92\n- **Signature:** Henry F. Fisher (Agent of the German Emigration Company)\n- **Date:** June 15, 1852\n- **Location:** Houston, Texas\n- **Decorative ornamental border** with geometric patterns on left margin\n- **Page number:** 24 (upper right corner)",
     "identifiers": [
-      "No. 572",
-      "No. 2775–2776"
+      "No. 772",
+      "Folio 92",
+      "Nos. 2775-2776"
     ]
   },
   {
     "id": "goetzmann0460",
     "title": "The Common Fund Company Scrip, London, 1869",
-    "description": "An engraved scrip certificate of The Common Fund Company Limited, dated at London, 20 December 1869 and issued under the Companies' Acts of 1862 to 1867. It entitles the holder to call for one hundred shares of £20 each in the company's capital stock, to be exchanged for certificates of full stock upon payment of the £20 par cost per share in one sum. Scrip of this kind was an interim instrument, representing the right to acquire fully paid shares rather than the shares themselves. The company advertised offices in Washington, Berlin, Paris and London, and promised that the scrip was \"convertible into stock at par by all the Company's bankers in Europe and America.\"",
+    "description": "An engraved scrip certificate, number H170, of The Common Fund Company Limited, dated at London, 20 December 1869 and issued under the Companies' Acts of 1862 to 1867. It entitles the holder to call for one hundred shares of £20 each in the company's capital stock, to be exchanged for certificates of full stock upon payment of the £20 par cost per share in one sum. Scrip of this kind was an interim instrument, representing the right to acquire fully paid shares rather than the shares themselves. The company advertised offices in Washington, Berlin, Paris and London, and promised that the scrip was \"convertible into stock at par by all the Company's bankers in Europe and America.\" It is signed by the registrar, R. H. Mills, and printed by Alfd. Doubble & Co., London.",
     "file": "goetzmann0460.jpg",
     "type": [
       "Certificate"
@@ -9504,17 +9508,19 @@
       "1869"
     ],
     "creator": "The Common Fund Company Limited",
-    "notes": "The Common Fund Company Limited. Scrip H170, right to call for 100 shares at £20 each. London, December 20, 1869. Registrar: R.W. Millz. Offices: Washington, Berlin, Paris, London. Incorporated under Companies' Acts 1862–67.",
+    "notes": "The Common Fund Company Limited. Scrip H170, right to call for 100 shares at £20 each. London, December 20, 1869. Registrar: R. H. Mills (previously recorded as \"R.W. Millz\"). Printed by Alfd. Doubble & Co., London. Offices: Washington, Berlin, Paris, London. Incorporated under Companies' Acts 1862–67.",
     "subjectCountry": [
       "United States"
     ],
     "transcription": "# Transcription of The Common Fund Company Limited Scrip Certificate\n\n**Header Text:**\n100 | 100\n\n**Main Body Text:**\n\nThe Holder of this SCRIP has the right to\n\nCALL FOR\n\nONE HUNDRED SHARES of £20 each\n\nTHE COMMON FUND COMPANY LIMITED\n\nand to receive Certificate of Full Stock on paying to the Company the par cost of Twenty Pounds per share, in one sum.\n\n**Date and Signature:**\nLondon, 20th December, 1869\n\nfor the Company\n\nR.W. Millz, Registrar.\n\n**Side Panels (Left):**\nCONVERTIBLE INTO STOCK AT PAR BY ALL THE COMPANY'S BANKERS IN EUROPE AND AMERICA\n\nOFFICES: WASHINGTON, BERLIN, PARIS, LONDON\n\n**Bottom Text:**\nINCORPORATED UNDER THE COMPANIES' ACTS, 1862-67.\n\n**Footer Attribution:**\nALFD DOUBLE & CO'S, SERGEANTS INN & 40, FLEET ST. LONDON\n\n**Serial Number:**\nH170 (appears twice, upper left and upper right)\n\n**Notable markings:**\n\n- Serial number: **H170** (printed in red)\n- Signature: **R.W. Millz, Registrar** (handwritten)\n- Decorative engraved globe illustration (center lower) showing North and South America\n- Ornamental border frames on all four corners\n- Multiple decorative vignettes on left margin (heraldic and allegorical designs)\n- Cherub/angel figure in upper center",
-    "identifiers": []
+    "identifiers": [
+      "Scrip H170"
+    ]
   },
   {
     "id": "goetzmann0461",
     "title": "Commonwealth of Pennsylvania Land Warrant for Survey, 1793",
-    "description": "A partly printed, partly manuscript land warrant of the Commonwealth of Pennsylvania, dated the twenty-fourth day of December in the year 1793 and signed by Governor Thomas Mifflin under the lesser seal of the commonwealth. It authorizes Daniel Brodhead, Esquire, Surveyor-General, to survey for Robert Morris a tract within the late purchase made from the Indians, east of the Allegheny River and Conewango Creek, the whole of the purchase money having been paid into the office of the Receiver-General at the rate of five pounds for every hundred acres. The instrument recites the enabling statutes of 1785, 1788 and 1792 that opened the state's unappropriated western lands to sale. The grantee, Robert Morris, was the financier of the Revolution.",
+    "description": "A partly printed, partly manuscript land warrant of the Commonwealth of Pennsylvania, dated the twenty-fourth day of December in the year 1793 in the name of Governor Thomas Mifflin, entered as \"(Signed) Thos. Mifflin\" beside the place for the lesser seal of the commonwealth. It authorizes Daniel Brodhead, Esquire, Surveyor-General, to survey for Robert Morris a tract of one thousand acres within the late purchase made from the Indians, east of the Allegheny River and Conewango Creek, the whole of the purchase money having been paid into the office of the Receiver-General at the rate of five pounds for every hundred acres. The application and warrant are numbered 4526, and an endorsement at the left passes it to a deputy surveyor to carry out. The instrument recites the enabling statutes of 1785, 1788 and 1792 that opened the state's unappropriated western lands to sale. The grantee, Robert Morris, was the financier of the Revolution.",
     "file": "goetzmann0461.jpg",
     "type": [
       "Certificate"
@@ -9543,17 +9549,19 @@
       "1793"
     ],
     "creator": "Commonwealth of Pennsylvania (Governor Thomas Mifflin)",
-    "notes": "Commonwealth of Pennsylvania land warrant. Signed by Governor Thomas Mifflin. For survey of land in the Allegheny River/Conewango Creek purchase (Act of April 7, 1792). Directed to Surveyor-General Daniel Brodhead. For Robert A. Arres(?). 1792.",
+    "notes": "Commonwealth of Pennsylvania land warrant No. 4526 for 1,000 acres, for Robert Morris Esq. (previously recorded as \"Robert A. Arres(?)\"), east of the Allegheny River and Conewango Creek, at £5 per 100 acres. Acts of 7 April 1785, 3 October 1788 and 3 April 1792. 24 December 1793 (previously recorded as 1792). Governor Thomas Mifflin; directed to Surveyor-General Daniel Brodhead, with an endorsement to a deputy surveyor. Printed by F. Bailey.",
     "subjectCountry": [
       "United States"
     ],
     "transcription": "# Transcription\n\n**The Commonwealth of Pennsylvania, ff.**\n\nWhereas Robert A. Arres Esqr.\n\nhath applied for, and paid into the office of the Receiver-General, of the Land-Office, the whole of the purchase money for [illegible] thousand acres of land within the last purchase made of the Indians, East of Allegheny river and Conawango creek, at and after the rate of Five Pounds for every hundred acres of the fame, agreeably to an act of Assembly, of the said Commonwealth, passed the 7th day of April, 1792, entitled \"An \"Act to provide further regulation, whereby to secure fair and equal proceedings in the Land-Office, and in fur-\"veying of lands;\" to one other Act of the said Assembly dated 3d day of October 1788, entitled \"A Supple-\"ment to an Act, entitled \"An Act to alter and amend an Act, entitled \"An Act for granting and dis-\"posing of the unappropriated lands within this state;\" also to one passed the 3d April 1792, entitled \"An \"Act for the sale of the vacant lands, within this commonwealth.\" The said application and warrant are numbered four thousand five hundred [and] twenty [six]\n\nThere are therefore to authorize and require you to survey or cause to be surveyed for the said Robert A. Morris\n\nthe said quantity of acres, within the said late purchase, agreeably to said acts.\n\nIn Witness whereof Thomas Mifflin, Governor of the said commonwealth, hath herunto set his hand, and caused the lefs seal of the said commonwealth to be affixed, the twenty fourth day of December in the year 1792\n\nTo Daniel Brodhead, Esquire, }\nSurveyor-General. }\n\n**Notable markings:**\n\n- Signature of Governor Thomas Mifflin (handwritten)\n- Official seal of the Commonwealth of Pennsylvania (ornate circular seal, upper left)\n- Handwritten annotations and corrections throughout\n- Signature/initials at top left corner: \"Signed / R Bright[?]\"\n- Royal coat of arms engraved illustration (top center)\n- Printed by \"S. Bailey, Philada.\"\n- Various handwritten notations in margins (difficult to read due to archival condition)",
-    "identifiers": []
+    "identifiers": [
+      "No. 4526"
+    ]
   },
   {
     "id": "goetzmann0462",
     "title": "Egyptian Enterprise and Development Company Share Warrant, Cairo, 1906",
-    "description": "A deferred share warrant to bearer of The Egyptian Enterprise and Development Company, issued at Cairo on 5 March 1906 and signed by two administrators, entitling its holder to one deferred share. The text records a capital of £E160,000 increased to £E400,000 by resolution of the general meeting of shareholders of 15 December 1905, divided into 40,000 ordinary shares of £E10 each, the company having been empowered by Khedivial decree of 26 November 1904. A deferred share ranked for dividend only after the ordinary shares took their fixed return. Its text is set in parallel English and French.",
+    "description": "A deferred share warrant to bearer of The Egyptian Enterprise and Development Company, issued at Cairo on 5 March 1906 and signed by two administrators, entitling its holder to one deferred share. The text records a capital of £E160,000 increased to £E400,000 by resolution of the general meeting of shareholders of 15 December 1905, divided into 40,000 ordinary shares of £E10 each, the company having been empowered by Khedivial decree of 26 November 1904. A deferred share ranked for dividend only after the ordinary shares took their fixed return. Its text is set in parallel English and French, it carries Belgian stamps, and it was printed by Imp. B. Arnaud, Lyon-Paris.",
     "file": "goetzmann0462.jpg",
     "type": [
       "Stock Certificate"
@@ -9620,7 +9628,7 @@
       "1822"
     ],
     "creator": "Bank of England (New Four per Cent. Annuities)",
-    "notes": "The New Four per Cent. Annuities (Bank of England). Stock transfer receipt for £6 6s. 2d. August 2, 1822. Transfer to Philip Davis, Abigail Davis & Jane Catherine Davis. Witnesses: J. Robinson (1085), H.J. Cosper. Account closed November 25, 1836. Act of 3 Geo. IV.",
+    "notes": "The New Four per Cent. Annuities (Bank of England). Stock transfer receipt for £6 6s. 2d. August 2, 1822. Transfer to Philip Davis, Abigail Davis & Jane Catherine Davis. Witness: J. Robinson (1085); signed by the transferor, R. J. Cooper(?) (previously recorded as a second witness, \"H.J. Cosper\"). Account closed November 25, 1836. Act of 3 Geo. IV.",
     "subjectCountry": [
       "United Kingdom"
     ],
@@ -9630,7 +9638,7 @@
   {
     "id": "goetzmann0464",
     "title": "Thomas C. Jenkins, Wholesale Dealer in Flour & Groceries Invoice, 1902",
-    "description": "A printed billhead invoice of Thomas C. Jenkins, styling itself \"The Largest Flour and Grocery House in the World,\" issued at Pittsburgh on 19 December 1902 to Offutt & Son. The letterhead carries a perspective view of the firm's multi-storey \"Checkered Front\" warehouse on Penn and Liberty Streets, advertising for flour, teas, roast coffees and tobaccos, a discount table, and the insistence \"No Goods Sold Families… No Retail Store.\" The handwritten lines below bill two lots of plug tobacco.",
+    "description": "A printed billhead invoice of Thomas C. Jenkins, styling itself \"The Largest Flour and Grocery House in the World,\" issued at Pittsburgh on 19 December 1902 to Offutt & Son. The letterhead carries a perspective view of the firm's multistory \"Checkered Front\" warehouse on Penn and Liberty Streets, advertising for flour, teas, roast coffees and tobaccos, a discount table, and the insistence \"No Goods Sold Families… No Retail Store.\" The handwritten lines below bill two lots of plug tobacco.",
     "file": "goetzmann0464.jpg",
     "type": [
       "Invoice"
@@ -9662,9 +9670,7 @@
       "United States"
     ],
     "transcription": "# TRANSCRIPTION\n\n## HEADING AND DISCOUNT INFORMATION\n\nDISCOUNTS:\nAMOUNTS OF 1 PER CENT. 30 DAYS.\nFLOUR · · · · · · · · · · · · · · 1 PER CENT. 30 DAYS.\nGROCERIES · · · · · · · · · · 1 \" \" 30 \"\nGENERAL MERCHANDISE · · 1 \" \" 30 \"\nSUGAR · · · · · · · · · · · · · · · 1 \" \" 10 \"\nSOAPS · · · · · · · · · · · · · · · 2 \" \" 10 \"\nROASTED COFFEE · · · · · · 1 \" \" 10 \"\nTOBACCO AND CIGARS · · · 2 \" \" 10 \"\nTEAS, ORIGINAL PACKAGES · · 4 \" \" 10 \"\nTEAS, BROKEN PACKAGES · · 3 \" \" 10 \"\n— OR —\nTOBACCO AND CIGARS · · · 1 PER CENT. 30 DAYS.\nTEAS, ORIGINAL PACKAGES · · 3 \" 30 \"\nTEAS, BROKEN PACKAGES · · 3 \" 30 \"\n\nTHE LARGEST FLOUR AND GROCERY HOUSE IN THE WORLD.\nVIENNA, WHITE RIVER, FRENCH, [unclear] SH AND OTHER FLOURS.\n\nJENKINS' STANDARD & OLD COUNTRY TEAS IN 1 LB. & ½ LB. PACKAGES, NET WEIGHT.\n\n---\n\n## INVOICE DETAILS\n\n**Pittsburgh, Pa.** ............................ **190[2]**\n\n**Offutt & Son**\n\nBOUGHT OF\n\n**THOMAS C. JENKINS,**\nWHOLESALE DEALER IN\n\n**FLOUR & GROCERIES,**\nTEAS, ROAST COFFEES AND TOBACCOS.\n\nA COMPLETE LINE OF GENERAL MERCHANDISE.\n\nCHECKERED FRONT, NOS. 508, 510, 512, 514, 516, 518, 520, 522 PENN AVE.,\nNEW BUILDING, NOS. 509, 511, 513, 515, 517, 519, 521, 523, LIBERTY ST.\n\nAll Electric Line Cars run to or pass near the New Building.\n\nNO GOODS SOLD FAMILIES. NO RETAIL STORE OR ANY CONNECTION WITH ANY RETAIL HOUSE IN ANY SHAPE OR FORM.\n\n---\n\n## FOOTER\n\nFOOT OF FIFTH AVENUE, NEAR PITTSBURGH MARKET.\n\n---\n\n## HANDWRITTEN ENTRIES (Bottom Section)\n\n[Handwritten entries are partially legible:]\n1. \"Port S. Toba[cco] 63\" — 36 — 2.68\n2. \"Island Navy 56\" — 36 — 2.016 [or 2.20] — 16 — [unclear]\n\n---\n\n## NOTABLE MARKINGS\n\n- **SHIPPED DIRECT** (stamp, visible in lower left)\n- Handwritten signature/initials at bottom right corner\n- Printed building illustration on left side showing multi-story commercial structure with \"FLOUR & GROCERIES THOMAS C. JENKINS\" text on building facade\n- Decorative script font for \"Offutt & Son\" and company name",
-    "identifiers": [
-      "No. 508–522"
-    ]
+    "identifiers": []
   },
   {
     "id": "goetzmann0465",
@@ -9736,7 +9742,7 @@
   {
     "id": "goetzmann0466",
     "title": "Moscow & Russia Tramways Company Share, 1885",
-    "description": "A 250-franc preferred bearer share, entirely paid up, in the Compagnie Générale des Tramways de Moscou & de Russie, a Belgian joint-stock company seated in Brussels, dated Brussels, 8 February 1885 beneath the signatures of two administrators. The certificate records the company's constitution by authentic act of 17 January 1885, executed before the notary Van Halteren and published in the Moniteur belge of 4 and 7 February 1885. The share confers the advantages stipulated in article 44 of the statutes, and a sheet of dividend coupons remains attached. Lithographed by E. Guyot, Rue Pachéco 12, Brussels.",
+    "description": "A 250-franc preferred bearer share, entirely paid up, in the Compagnie Générale des Tramways de Moscou & de Russie, a Belgian joint-stock company seated in Brussels, dated Brussels, 8 February 1885 beneath the signatures of two administrators. The certificate records the company's constitution by authentic act of 17 January 1885, executed before the notary Van Halteren and published in the Moniteur belge of 4 and 7 February 1885. The share confers the advantages stipulated in article 44 of the statutes, and dividend coupons 18, 19 and 23 to 30 remain attached; a printed note says the sheet will be replaced when used up. Lithographed by E. Guyot, Rue Pachéco 12, Brussels.",
     "file": "goetzmann0466.jpg",
     "type": [
       "Stock Certificate"
@@ -9776,7 +9782,7 @@
   {
     "id": "goetzmann0467",
     "title": "Egyptian Government Aswan and Asyut Irrigation Works Payment Warrant, 1901",
-    "description": "A payment warrant for £500 sterling issued by the Egyptian Government for the irrigation works of Aswan and Asyut, bearing the program year 1898 and dated 10 July 1901. By the instrument the government acknowledges, in return for works executed and materials supplied, an absolute and unconditional debt to Messrs. John Aird & Cie, the British firm that built the first Aswan Dam, or to the bearer of the warrant, the sum payable in London on 1 January 1932 through the Bank of England. The warrant converts a contractor's claim into a transferable, long-dated bearer obligation charged on the state.",
+    "description": "A payment warrant for £500 sterling issued by the Egyptian Government for the irrigation works of Aswan and Asyut, bearing the program year 1898 and dated 10 July 1901. By the instrument the government acknowledges, in return for works executed and materials supplied, an absolute and unconditional debt to Messrs. John Aird & Cie, or to the bearer of the warrant, the sum payable in London on 1 January 1932 through the Bank of England. It gives the bearer a charge on the works until paid, ranking equally with all other warrants of the series. It is series 58, number 111, signed by the Minister of Public Works and countersigned by the government engineer, with a British five-shilling stamp; it is canceled by punch holes.",
     "file": "goetzmann0467.jpg",
     "type": [
       "Draft"
@@ -9803,13 +9809,14 @@
       "1901"
     ],
     "creator": "Egyptian Government, Ministry of Public Works",
-    "notes": "Mandat de Paiement No. 58/111, £500 Sterling. Travaux d'Irrigation du Gouvernement Égyptien, Assouân et Assiout 1898. Payable to John Aird & Cie. Due London, January 1, 1932, at Banque de l'Afrique. Interest 3½% p.a.",
+    "notes": "Mandat de Paiement No. 58/111, £500 Sterling. Travaux d'Irrigation du Gouvernement Égyptien, Assouân et Assiout 1898. Payable to John Aird & Cie. Series 58, order number 111. Due London, January 1, 1932, through the Bank of England (previously recorded as \"Banque de l'Afrique\"); no interest is stated on the plate (previously recorded as 3½%). Countersigned by the government engineer and signed by the Minister of Public Works; punch-canceled.",
     "subjectCountry": [
       "Egypt"
     ],
     "transcription": "# Transcription\n\n**Original (French):**\n\nNUMÉRO DE SÉRIE: 58\nNUMÉRO D'ORDRE: 111\n\nTRAVAUX D'IRRIGATION DU GOUVERNEMENT ÉGYPTIEN\n\nASSOUAN ET ASSIOUT 1898\n\nMANDAT DE PAIEMENT\n\n£500 STERLING | £500 STERLING\n\nLe Gouvernement Égyptien déclare par les présentes, qu'en retour de travaux effectués et de matériaux fournis pour les travaux d'irrigation susmentsionnés, il reconnaît devoir, absolument, et sans condition aucune, à MM. JOHN AIRD et CIE. la somme de Cinq cents livres sterling (£500).\n\nLe Gouvernement s'engage par les présentes à payer à MM. JOHN AIRD et CIE., ou au PORTEUR DE CE MANDAT, le 1er Janvier 1932 la dite somme de Cinq cents livres sterling.\n\nCe paiement s'effectuera à LONDRES, par l'intermédiaire de la Banque d'Angleterre, contre la remise de ce mandat.\n\nCe paiement sera effectué à tout événement AU PORTEUR des présentes, en totalité et sans déduction quelconque et indépendamment de toute contestation qui peut être actuellement ou qui pourrait s'élever dans la suite quelconque. [Underlined text in box: \"Gouvernement\"]\n\nMM. John Aird et Cie., ou de toute autre contestation quelle qu'elle soit, la dette reconnue par les présentes étant pour une somme certaine et déterminée et constituant une créance liquide et reconnue par le Gouvernement Égyptien.\n\nLe présent mandat confère au porteur, jusqu'à son entier désintéressement, une affectation sur les travaux pour assurer le paiement de la somme indiquée dans ce mandat, le dit porteur pourra, d'accord avec les porteurs de tous mandats sans par rapport aux mêmes travaux (dont le maximum ne devra pas toutefois excéder les limites mentionnées dans la table au dos des présentes) ou d'accord avec la majorité de ces porteurs, nommer ou faire nommer par l'autorité compétente un représentant chargé de mettre à exécution de la manière qu'il appartiendra le dit droit d'affectation, au cas où ce mandat n'aura pas été payé à l'échéance.\n\nAucune prise de possession par le Gouvernement des travaux ni aucun autre acte quelconque ne seront susceptibles de porter atteinte à la dite affectation.\n\nLe présent mandat et tous autres mandats émis ou à émettre dans les limites susmensionnées auront rang égal et jouiront sans aucun droit de préférence ni de priorité à raison de leur numéro, série, date d'émission ou autre circonstance quelconque.\n\nEn date du 30 Juillet 1901 | Pour le Gouvernement,\n[Signatures and handwriting] | Le Ministre des Travaux Publics.\n\nContresigné\n[Signature]\nIngénieur du Gouvernement Égyptien.\n\n---\n\n# English Translation:\n\nSERIES NUMBER: 58\nORDER NUMBER: 111\n\nIRRIGATION WORKS OF THE EGYPTIAN GOVERNMENT\n\nASWAN AND ASSIUT 1898\n\nPAYMENT WARRANT\n\n£500 STERLING | £500 STERLING\n\nThe Egyptian Government declares by these presents, that in return for work executed and materials supplied for the above-mentioned irrigation works, it acknowledges owing, absolutely and unconditionally, to MM. JOHN AIRD and CO. the sum of Five Hundred Pounds Sterling (£500).\n\nThe Government undertakes by these presents to pay to MM. JOHN AIRD and CO., or to the BEARER OF THIS WARRANT, on 1st January 1932 the said sum of Five Hundred Pounds Sterling.\n\nThis payment shall be made in LONDON, through the intermediary of the Bank of England, against the surrender of this warrant.\n\nThis payment shall be made in any event TO THE BEARER of these presents, in full and without any deduction whatsoever and independently of any contestation which may currently exist or which may subsequently arise in any manner. [Underlined in box: \"Government\"]\n\nMM. John Aird and Co., or any other contestation whatsoever, the debt acknowledged by these presents being for a certain and determined sum and constituting a liquid claim recognized by the Egyptian Government.\n\nThe present warrant confers upon the bearer, until full satisfaction, a charge upon the works to secure payment of the sum indicated in this warrant. The said bearer may, in agreement with the bearers of all other warrants relating to the same works (the maximum of which shall not, however, exceed the limits mentioned in the table on the reverse of these presents) or in agreement with the majority of such bearers, appoint or cause to be appointed by the competent authority a representative charged with executing in the manner which shall be appropriate the said right of charge, in the event that this warrant shall not have been paid at maturity.\n\nNo taking into possession by the Government of the works nor any other whatsoever act shall be capable of affecting the said charge.\n\nThe present warrant and all other warrants issued or to be issued within the limits aforesaid shall rank equally and shall enjoy without any right of preference or priority by reason of their number, series, date of issue or other circumstance whatsoever.\n\nDated 30 July 1901 | For the Government,\n[Signatures] | The Minister of Public Works.\n\nCountersigned\n[Signature]\nEngineer of the Egyptian Government.\n\n---\n\n# Notable Markings:\n\n- **Series/Order Numbers:** No. 58 / No. 111\n- **Ornamental borders:** Decorative red scrollwork and flourishes typical of 19th-century bond/warrant design\n- **Sphinx emblem:** Central medallion featuring profile of sphinx\n- **Royal seal:** Five Pound Lion seal in upper right corner\n- **Handwritten signatures:** Multiple signatures and dates, including \"30 Juillet 1901\" (30 July 1901)\n- **Pink/magenta stamp marks:** Rectangular stamp or approval mark visible in the document\n- **White circular marks:** Several white circular markings (possibly from document handling or filing)\n- **Language:** French (official language for Egyptian Government international financial documents of the period)",
     "identifiers": [
-      "No. 58/111"
+      "Serie 58",
+      "No. 111"
     ]
   },
   {
