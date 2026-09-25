@@ -1493,3 +1493,28 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 *Cut as context not on the object.*
 
 > and produced luminous radium paint.
+
+
+---
+
+## Verification pass, 2026-09-25 (0924-0949): replaced or cut text
+
+## goetzmann0924
+
+> A share certificate of the Kokueki Sekiyu Kumiai, the National-Profit Petroleum Association, a Japanese oil cooperative, issued 25 April 1903. The certificate represents a paid-up holding of fifty yen and entitles the holder to the association's rights and to a share of profits. Issued to a named member, it carries a cartouche of large vermilion company seals, a green government revenue stamp at upper right, and a row of directors' names each authenticated with a red seal impression. The reverse provides a transfer ledger and a dividend-payment table.
+
+## goetzmann0931
+
+> A Dutch-language share receipt, issued at Amsterdam on April 1, 1776, certifying a 1/1063 interest in the iron manufactory and alum works at Garphyttan and in the alum work Beata Christina, both in Sweden, financed through a negotiatie (a loan fund) floated on the Amsterdam capital market. It is given in exchange for a share in the outstanding loan, together with the arrears of unpaid interest coupons, and records that part of the underlying obligations had already been redeemed by lottery drawing. It was printed under the directors' authority and registered before a notary.
+
+## goetzmann0943
+
+> A printed copy of a notarial deed establishing a Dutch life-annuity negotiation at Amsterdam, opening with the date 1 May 1787. The loan is directed by Pieter Stadnitski and Hendrik Vollenhoven and was passed before the notary Abraham van Beem. Each subscribed share carries one thousand guilders, with interest paid against coupons due 1 November and 1 May. The income runs upon the lives of a long roster of named young women, whose survival governs each share's duration. Printed articles fix the terms, and subscribers acquire numbered shares against receipt.
+
+## goetzmann0946
+
+> The bridge spanned Rancocas Creek in Burlington County, New Jersey, and was to be paid for through tolls.
+
+## goetzmann0947
+
+> A £100 bearer bond from the Imperial Chinese Government's 5 percent Tientsin-Pukow Railway Loan, a £5,000,000 sterling issue raised in London on 1 September 1908 to build the trunk line linking Tientsin with Pukow on the Yangtze. Printed in orange and black, the certificate carries its English text alongside a parallel column of Chinese characters bearing the corresponding undertaking. Authority is vouched by two vermilion calligraphic seals, a purple seal and a manuscript signature, and the issue is countersigned for the Chinese Central Railway, London.
