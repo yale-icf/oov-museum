@@ -631,3 +631,14 @@ curatorial stance.
 *Cut as interpretation.*
 
 > The certificate dates from the Mexican Revolution, months before the Constitution of 1917, whose Article 27 declared the nation the owner of all subsoil resources, including oil, and laid the ground for the eventual nationalization of the industry in 1938.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0376-0391)
+
+## goetzmann0390
+
+*Cut as unverified claim.*
+
+> The 10,000-krone denomination was among the largest offered.
