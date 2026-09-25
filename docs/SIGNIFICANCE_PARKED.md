@@ -1131,3 +1131,44 @@ curatorial stance.
 *Cut as context not on the object.*
 
 > the Lisbon-chartered concession granted authority to administer and exploit the Zambézia district of Portuguese Mozambique
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0651-0662)
+
+## goetzmann0651
+
+*Cut as context not on the object.*
+
+> records its later passage through a Paris portfolio. [inference replaced by what the stamp shows]
+
+## goetzmann0654
+
+*Cut as context not on the object.*
+
+> As a land-mortgage bank, the institution advanced credit on Egyptian agricultural and urban property.
+
+## goetzmann0654
+
+*Cut as context not on the object.*
+
+> Egypt was then under British financial oversight following the occupation of 1882.
+
+## goetzmann0657
+
+*Cut as context not on the object.*
+
+> The bank funded land reform and farm mortgages by selling such instruments abroad.
+
+## goetzmann0659
+
+*Cut as context not on the object.*
+
+> The mark was in hyperinflation at the time of issue, which both the floating 8 to 18 percent coupon and the scale of the face value reflect.
+
+## goetzmann0660
+
+*Cut as context not on the object.*
+
+> Greek finances were placed under international oversight following the country's defeat in the war of 1897.
