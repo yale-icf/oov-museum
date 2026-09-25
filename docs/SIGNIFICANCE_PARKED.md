@@ -1464,3 +1464,32 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 *Trimmed to 150 words or fewer; text before the trim.*
 
 > A pamphlet addressed to the stockholders of the Bank of North-America on the subject of the old and new banks, signed "A Citizen of Philadelphia" and dated Philadelphia, 28 May 1791, written as the commissioners headed by Thomas Willing, the bank's own president, advertised that the subscription books for the Bank of the United States would be opened at the Bank of North-America on the fourth of July. The author, who says he is a stockholder, argues that his bank's privileges rest on the charter granted by Congress on 31 December 1781, that the new Constitution gives the new Congress not an iota of authority in the article of banks beyond what the old Congress already held, and that the charter carries the force of a contract which the new Congress is expressly obliged to confirm and support. A footnote refers to the author's essay on the western lands and to "my Political Essays lately printed by Mr. Crukshank," which identifies him as Pelatiah Webster. Printed and sold by Joseph Crukshank, Philadelphia, price sixpence.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0879-0922)
+
+## goetzmann0912
+
+*Cut as context not on the object.*
+
+> The company was the London undertaking incorporated by Act of Parliament to build the Thames crossing later renamed Waterloo Bridge.
+
+## goetzmann0915
+
+*Cut as context not on the object.*
+
+> The company, raised upon Toulouse's Garonne mill works, had by this date become an electricity concern.
+
+## goetzmann0915
+
+*Cut as context not on the object.*
+
+> [notes] Societe Toulousaine du Bazacle traces its origins to a medieval water mill cooperative; one of the oldest joint-stock companies in history
+
+## goetzmann0918
+
+*Cut as context not on the object.*
+
+> and produced luminous radium paint.
