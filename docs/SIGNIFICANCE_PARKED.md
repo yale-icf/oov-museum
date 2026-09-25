@@ -1671,3 +1671,36 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1721
 
 > — a Texas railroad's sterling debt, long in default, changing hands in New York at a fraction of par two years after the Civil War
+
+
+---
+
+## Verification pass, 2026-09-25 (1723-1829): replaced or cut text
+
+## goetzmann1774
+
+> Obligation number 28, for a thousand guilders Holland currency, in a plantation loan secured on the Suriname estates Alsimo, on the Warappa creek, and Edenburg. The printed copy of the deed opens: on the seventeenth of July 1793 there appeared before the notary Jan Fredrik Meijer at Amsterdam Mr. Jan Gerhard Wichers, acting under a power of 8 July for Mr. Hendrik Ludolph Wichers of Groningen, executor of the sealed testament of the late Mr. Arend Ludolph Sichterman, signed September 1791 and opened at the secretary's office of the colony of Suriname that October. Four leaves: three of the deed and its conditions, and the obligation itself with the directors' signatures. The plantations mortgaged were worked by enslaved people, pledged with the estates.
+
+## goetzmann1808
+
+> The printed plan of a new lottery of the town of Aix-en-Provence, resolved on 26 August 1730, composed of four classes and fifteen thousand tickets, of which five thousand will win. Tickets are fifteen hundred livres; each class is set out with its schedule of prizes, from lots of twenty thousand livres down to lots of fifty. Two leaves: the plan with the four classes tabulated, and the Avertissement, which states when the offices open, that the first class will close once the number is filled, and what becomes of a subscriber who fails to keep up his payments.
+
+## goetzmann1810
+
+> Charitable lotteries of this kind were licensed to fund a named hospital or church and drew in tickets of a few sols from a wide public.
+
+## goetzmann1814
+
+> Tickets in these royal lotteries were paid for by instalment, so a subscriber accumulated a small file of receipts of this kind, the last of which discharged him and left the ticket fully paid before the drawing.
+
+## goetzmann1815
+
+> A printed royal decree, headed Arrest du Conseil d'État du Roy, of 11 November 1755 establishing a third Loterie Royale, in fourteen articles. The text fixes the lottery at a hundred thousand tickets, sets out the classes and the terms of subscription, provides for the tickets of the first class to be delivered against the receipts of subscribers, and governs the drawings. The last leaves are tables: the distribution of the hundred thousand lots across the fourteen drawings, the lots de remboursement, and the lots de faveur payable by year from 1757 to 1766. Eight leaves.
+
+## goetzmann1825
+
+> A printed guide to the lottery the King granted his military academy, the École Royale Militaire, by decree of 15 October 1757. It explains that the lottery runs on ninety numbers, five of them drawn at each of twelve draws a year, and sets out the five ways to bet: on one number, on one number in a named position, on two, on three, or on four. Each is given with what it pays and a worked example. The third leaf tabulates the two- and three-number bets against the numbers staked. Three leaves. Lotteries of this kind came from Genoa, and priced each bet against its odds.
+
+## goetzmann1829
+
+> Being unused, it shows the form as it left the printer, before anyone's stake was written on it.
