@@ -1102,3 +1102,32 @@ curatorial stance.
 *Cut as context not on the object.*
 
 > The krone was depreciating rapidly at the time of issue.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0639-0650)
+
+## goetzmann0639
+
+*Cut as context not on the object.*
+
+> the territory then administered jointly by Austria and Hungary after its occupation in 1878.
+
+## goetzmann0645
+
+*Cut as context not on the object.*
+
+> The consolidation loan refunded the provincial government's earlier external debts into a single uniform issue placed on the London and Paris markets.
+
+## goetzmann0646
+
+*Cut as context not on the object.*
+
+> The pengő had been introduced in 1927 to stabilize Hungarian money after the post-war hyperinflation of the krone.
+
+## goetzmann0647
+
+*Cut as context not on the object.*
+
+> the Lisbon-chartered concession granted authority to administer and exploit the Zambézia district of Portuguese Mozambique
