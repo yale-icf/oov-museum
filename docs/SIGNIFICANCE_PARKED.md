@@ -1721,3 +1721,28 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1838
 
 > Selling tickets in quarters brought a twenty-four-livre stake within reach of a smaller purse.
+
+
+---
+
+## Verification pass, 2026-09-25 (1875-1902): replaced text
+
+## goetzmann1875
+
+> A Premier Avis of the Loterie de Piété, established to replace that of Saint-Sulpice by decree of the Council of 7 September 1761. The public is advised that the lottery, whose opening began on 12 December 1761, will be drawn on Thursday 31 December 1761 in the Salle du Luxembourg, in the presence of the lieutenant general of police and of Monsieur Poultier, director and receiver general, and that the list of winning numbers will be printed and posted. It names M. Mercier as agent for Paris and M. Maugarny for the provinces. Printed by the widow Thiboust, permission of de Sartine, 15 December 1761.
+
+## goetzmann1876
+
+> A Dernier Avis of the Loterie de Piété, established to replace that of Saint-Sulpice by decree of the Council of 7 September 1761, announcing that it will be drawn on Friday the last day of December 1762 at two o'clock, from number 257,001 to number 497,000. The division of the lots is printed below, from four prizes of ten thousand livres down to fifteen hundred and sixteen of one hundred, with the benefit of the second half falling to the abbey of Sainte-Geneviève. Printed by the widow Thiboust with the permission of de Sartine.
+
+## goetzmann1877
+
+> A printed Arrêt du Parlement concerning the lotteries, of 8 August 1776, given on the requisition of the Procureur Général du Roi. It follows the creation that year of the Loterie Royale de France, into which the earlier lotteries were absorbed, and regulates what is to become of the tickets and claims outstanding under the suppressed schemes. Four leaves. The Parlement of Paris registered and enforced royal legislation, and an arrêt of this kind is the court's own order carrying the change into effect.
+
+## goetzmann1898
+
+> A receipt from the Loterie Royale de France, office 301, registered as number 28, for the first drawing of December 1779, staking sixteen livres on the numbers 16, 27 and 48. It is signed by the same clerk as the October receipt at [1897], issued from the same office a month later.
+
+## goetzmann1902
+
+> A printed royal decree, headed Arrest du Conseil d'État du Roi, of 19 October 1780 ordering the opening of a loan by way of lottery, redeemable in nine years. The loan is to be opened at the Treasury with the sieur Micault d'Harvelay, keeper of the Royal Treasury, in twelve thousand shares of a thousand livres each, forming a capital of twelve million livres, the repayment and the yearly prizes being charged upon it. Seven leaves. Borrowing dressed as a lottery let the Crown pay part of its interest in prizes rather than in a stated rate.
