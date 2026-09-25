@@ -1846,3 +1846,32 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1915
 
 > Number 330 of the Journal de Paris, Saturday 26 November 1785. Four leaves. Under its date and the age of the moon, the sheet carries a table of the exchange on the principal places, the prices of the public funds, notices of administration, mutations, books and spectacles, and the day's small advertisements. It is kept in this album for the lottery notices among its columns: a daily paper is where the drawings, the numbers that came out and the offices selling tickets reached the Paris public.
+
+
+---
+
+## Album follow-up, 2026-09-25 (1925-1943): replaced text
+
+## goetzmann1925
+
+> A printed drawing notice of the privileged lotto of the free imperial city of Offenburg, run under letters patent granted by the magistrate of that city on 5 October 1779 and administered in the presence of an imperial notary, assisted by a director of chancery and two students. The sheet gives the numbers that came out of the wheel of fortune, ruled in columns for the first through fifth draw, and states that the next drawing will be held at Offenburg and the following ones every eight days. Printed in French for circulation beyond the German-speaking town.
+
+## goetzmann1926
+
+> A letter written at Neuwied on the Rhine on 12 August 1788, addressed Monsieur and running to ten leaves. It concerns a lottery proposed under the reigning Prince of Wied, setting out the classes, the price of the tickets and the distribution of the prizes, and inviting the correspondent's participation. The princely states of the Rhineland licensed lotteries as freely as the French crown did, and a scheme of this size was placed by correspondence with houses in other towns.
+
+## goetzmann1936
+
+> A manuscript extract of a deliberation of the administration of police, dated in the second year of the French Republic, concerning the conduct of a bureau and the persons employed in it. Two leaves, signed at the foot by the members present. Documents of this kind record how the revolutionary authorities took over the regulation of offices that had operated under royal privilege, the lottery bureaux among them.
+
+## goetzmann1940
+
+> A letter written at Paris on 30 October 1789, answering a correspondent's letter of the 25th about tickets bought and remitted, and closing with a recapitulation of the account in a column of figures totalled at the foot. Two leaves. Letters of this kind are the working correspondence behind the printed instruments elsewhere in the album, the ticket bought in Paris for a buyer in the provinces, and the reckoning that followed.
+
+## goetzmann1942
+
+> Two tickets of the Loterie Royale de France photographed side by side, both from bureau 616, registered numbers 157 and 150, for the first drawing of one thousand seven hundred and ninety-three. Each carries five numbers written against names, the first Adolphe, Hélène, Yves, Sophie and Lucile, the second Joséphine, Nestor, Basile and Isidore among them. Both are signed Blanquet under the embossed seal. The lottery was still styled Royale and still drawing in 1793.
+
+## goetzmann1943
+
+> A printed public notice for a lottery of ninety numbers at twenty livres a ticket, each ticket carrying five numbers drawn from the ninety. The notice works through the five ways a player can win, from one number up to all five, and says what each pays, ending with the claim that a ticket of this kind offers more chances than a bet at fixed odds. Tickets are to be had from M. Vidal, a notary in the rue Saint-Honoré near the rue des Poulies, who will also buy them back for cash.

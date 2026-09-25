@@ -80,14 +80,14 @@ record id; the rest are its `pages[]`.
 | 51 | `goetzmann1919` | Third Lottery of the Electorate of Cologne Ticket, 1759 | `51.jpg`→`1919` |
 | 52 | `goetzmann1920` | Cologne Lottery Fourth Class Subscription, 1759 | `52.jpg`→`1920` |
 | 53 | `goetzmann1921` | Royal Edict Creating Four Million in Hereditary Rentes Repayable by Lottery, Versailles, 1785 | `53a.jpg`→`1921` · `53b.jpg`→`1922` · `53c.jpg`→`1923` · `53d.jpg`→`1924` |
-| 54 | `goetzmann1925` | Offenburg Privileged Lotto Drawing Notice, 1779 | `54.jpg`→`1925` |
+| 54 | `goetzmann1925` | Offenburg Privileged Lotto Drawing Notice, 1790s | `54.jpg`→`1925` |
 | 55 | `goetzmann1926` | Letter on a Wied Lottery Scheme, Neuwied, 1788 | `55a.jpg`→`1926` · `55b.jpg`→`1927` · `55c.jpg`→`1928` · `55d.jpg`→`1929` · `55e.jpg`→`1930` · `55f.jpg`→`1931` · `55g.jpg`→`1932` · `55h.jpg`→`1933` · `55i.jpg`→`1934` · `55j.jpg`→`1935` |
-| 56 | `goetzmann1936` | Extract of a Police Administration Deliberation, Year II (1793) | `56a.jpg`→`1936` · `56b.jpg`→`1937` |
+| 56 | `goetzmann1936` | Deliberation of the Loterie Nationale Administration on Striking 'Royal' from Tickets, Paris, 1793 | `56a.jpg`→`1936` · `56b.jpg`→`1937` |
 | 57 | `goetzmann1938` | Banque de Confiance Gold Note, Series 79, Paris, 1792 | `57.jpg`→`1938` |
 | 58 | `goetzmann1939` | Banque de Confiance Silver Note, Series 69, Paris, 1792 | `58.jpg`→`1939` |
 | 59 | `goetzmann1940` | Letter with Lottery Account Recapitulation, Paris, 1789 | `59a.jpg`→`1940` · `59b.jpg`→`1941` |
-| 60 | `goetzmann1942` | Two Loterie Royale de France Tickets, Bureau 616, 1793 | `60.jpg`→`1942` |
-| 61 | `goetzmann1943` | Public Notice of a Ninety-Number Lottery, Paris | `61.jpg`→`1943` |
+| 60 | `goetzmann1942` | Two Loterie Nationale de France Tickets, Bureau 616, 1793 | `60.jpg`→`1942` |
+| 61 | `goetzmann1943` | Public Notice of a Lottery of Five Objects on the April 1792 Loterie Royale Drawing, Paris, 1792 | `61.jpg`→`1943` |
 | 62 | `goetzmann1944` | Decree of the National Convention Suppressing All Lotteries, Paris, 1793 | `62a.jpg`→`1944` · `62b.jpg`→`1945` |
 | 63 | `goetzmann1946` | Regulation of the Petite Loterie Nationale, Paris, 1793 | `63a.jpg`→`1946` · `63b.jpg`→`1947` · `63c.jpg`→`1948` · `63d.jpg`→`1949` · `63e.jpg`→`1950` · `63f.jpg`→`1951` · `63g.jpg`→`1952` |
 | 64 | `goetzmann1953` | Address to the Committee of Legislation on the Lotteries, Paris | `64a.jpg`→`1953` · `64b.jpg`→`1954` · `64c.jpg`→`1955` · `64d.jpg`→`1956` · `64e.jpg`→`1957` · `64f.jpg`→`1958` · `64g.jpg`→`1959` · `64h.jpg`→`1960` |
