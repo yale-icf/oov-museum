@@ -834,3 +834,38 @@ curatorial stance.
 *Cut as interpretation or context not on the object.*
 
 > The warrant converts a contractor's claim into a transferable, long-dated bearer obligation charged on the state.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0468-0484)
+
+## goetzmann0468
+
+*Cut as interpretation or context not on the object.*
+
+> The security is justified to the court not in land or coin but in two enslaved people ... two thousand dollars in human chattel pledged as collateral. [rewritten as a plain factual clause, per the slavery ruling]
+
+## goetzmann0471
+
+*Cut as interpretation or context not on the object.*
+
+> Ben Holladay's enterprise was a stagecoach and express carrier of the trans-Mississippi West, drawing its revenue from federal mail contracts, and Holladay sold it to Wells, Fargo & Co. in 1866.
+
+## goetzmann0472
+
+*Cut as interpretation or context not on the object.*
+
+> Scrip of this kind let a company settle obligations with paper rather than coin, postponing payment while binding holders to the road's fortunes.
+
+## goetzmann0475
+
+*Cut as interpretation or context not on the object.*
+
+> The mark was depreciating rapidly at the time of issue, and a fixed coupon had become untenable.
+
+## goetzmann0483
+
+*Cut as interpretation or context not on the object.*
+
+> The lottery raised funds by yoking the appeal of a draw to the security of a life annuity: subscribers staked their capital, and the fortunate drew annuities paid from the municipal chamber. [reduced to a gloss]
