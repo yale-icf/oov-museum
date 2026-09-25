@@ -620,3 +620,14 @@ curatorial stance.
 *Cut as interpretation or unverified context.*
 
 > In June 1927 the government of Primo de Rivera decreed a state petroleum monopoly, expropriating the oil businesses operating in Spain and placing the trade under a new state company, CAMPSA.
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0338-0350)
+
+## goetzmann0338
+
+*Cut as interpretation.*
+
+> The certificate dates from the Mexican Revolution, months before the Constitution of 1917, whose Article 27 declared the nation the owner of all subsoil resources, including oil, and laid the ground for the eventual nationalization of the industry in 1938.
