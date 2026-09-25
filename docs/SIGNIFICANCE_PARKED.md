@@ -898,3 +898,56 @@ curatorial stance.
 *Cut as interpretation or context not on the object.*
 
 > Poyais was an invented Central American republic, and the certificate belongs to the winding-up of the scheme a decade after it drew British capital. [reduced to one factual clause]
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0508-0522)
+
+## goetzmann0508
+
+*Cut as interpretation or context not on the object.*
+
+> It is drawn in Dutch and authenticated by Chinese signatures and vermilion seals. The railway was an east-west trunk line reaching from the coast toward the interior. [replaced by the shared 0395 description]
+
+## goetzmann0512
+
+*Cut as interpretation or context not on the object.*
+
+> New Granada was the successor state to Gran Colombia.
+
+## goetzmann0513
+
+*Cut as interpretation or context not on the object.*
+
+> Such Dutch certificates repackaged Russian railway securities for Amsterdam investors.
+
+## goetzmann0514
+
+*Cut as interpretation or context not on the object.*
+
+> Rather than holding the underlying shares abroad, Amsterdam investors received locally administered certificates against deposited stock, the office collecting dividends on their behalf. [replaced by the plate's own terms]
+
+## goetzmann0516
+
+*Cut as interpretation or context not on the object.*
+
+> at Pavlovsk ... marking it as part of Russia's sterling-denominated foreign loan placed on the Western market. As a non-redeemable instrument paying interest in perpetuity, it functioned as the Russian counterpart of the British consol. [cut: not on the plate]
+
+## goetzmann0518
+
+*Cut as interpretation or context not on the object.*
+
+> A perpetual claim on the Treasury rather than a dated loan, its French inscriptions refer to a rente perpétuelle entered in the dette publique. [cut: the French is show-through from the reverse]
+
+## goetzmann0381
+
+*Cut as interpretation or context not on the object.*
+
+> stated expressly in assignats, the paper currency then trading well below silver [trimmed when the 0381/0518 description was shared]
+
+## goetzmann0519
+
+*Cut as interpretation or context not on the object.*
+
+> The face is denominated in silver rubles, under the Kankrin reform that tied the ruble to silver. [cut: context]
