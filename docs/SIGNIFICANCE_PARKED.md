@@ -1248,3 +1248,38 @@ curatorial stance.
 *Cut as context not on the object.*
 
 > The loan consolidated earlier debts and pledged
+
+
+---
+
+## Verification pass cuts, 2026-09-25 (0701-0714)
+
+## goetzmann0701
+
+*Cut as context not on the object, or replaced as wrong.*
+
+> A bearer obligation of the Government of Honduras for its 1869 State Railway loan, a 300-franc bond issued at Paris and dated 1 February 1869, bearing interest from 1 March 1869. The text appears twice on the sheet, in French above and Spanish below, with a block of coupons attached at the right. It is payable in gold francs free of tax and secured by a mortgage on the State railway, the loan partly guaranteed by France and England. It was raised to finance an interoceanic line.
+
+## goetzmann0703
+
+*Cut as context not on the object, or replaced as wrong.*
+
+> The feble coin was that struck under Mariano Melgarejo, the peso Melgarejo, which circulated well below its face silver content.
+
+## goetzmann0703
+
+*Cut as context not on the object, or replaced as wrong.*
+
+> The successor government annulled the still-forming loan in January 1871.
+
+## goetzmann0707
+
+*Cut as context not on the object, or replaced as wrong.*
+
+> The loan consolidated and refunded Mexico's older external obligations.
+
+## goetzmann0713
+
+*Cut as context not on the object, or replaced as wrong.*
+
+> Customs revenue was pledged to service the loan.
