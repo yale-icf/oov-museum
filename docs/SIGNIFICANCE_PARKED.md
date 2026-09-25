@@ -1812,3 +1812,16 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann2044
 
 > A letter on the printed heading of the arrondissement of Grenoble, written there in Messidor of the year XI of the French Republic and signed Bottu, inspector of the National Lottery. It is addressed to the citizens composing the magistracy of safety and sets out, in numbered articles, what the lottery requires of them. The letter of the Lyon inspector to the same office, two years earlier, is at [2029].
+
+
+---
+
+## Album follow-up, 2026-09-25 (1802-1840): replaced text
+
+## goetzmann1802
+
+> A contract of the twelfth class of the Ancienne Tontine, number 252, passed before the King's notaries at Paris. The nominee is Dame Henriette Marie Claire Robert, wife of Jean Maupoint, controller general of the household of Monsieur, living at Paris in the Palais Royal, parish of Saint-Eustache. The head of the sheet carries the device of Time with his scythe and the motto Aliorum Crescunt Opes, the wealth of the others grows, with the date 1690. The Ancienne Tontine was the first French state tontine, opened under Louis XIV, subscribers being grouped in classes by age and the share of each dead subscriber passing to the survivors.
+
+## goetzmann1840
+
+> A share in a society formed on the thirty-sixth drawing of the lottery of the Hôtel de Ville de Paris, for the month of December 1763. A stated number of tickets at twenty-four livres each is pooled, and the bearer is interested in the whole for the sum he has paid; the prizes falling to any of the pooled tickets are divided among the members. It is made out at Paris at the general office of the societies of the said lottery on the 29th of November 1763, and the printed conditions name the sieurs Regnault and Moriset and state that the arrangement is guaranteed by the City.
