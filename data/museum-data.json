@@ -40833,8 +40833,8 @@
     "file": "goetzmann1841.jpg",
     "transcription": "",
     "title": "Decree Establishing the Loterie Générale d'Association, Paris, 1762",
-    "description": "A printed royal decree, headed Arrest du Conseil d'État du Roi, of 31 August 1762 establishing a Loterie Générale d'Association. The preamble recites that the King has learned that the product of the profits of three existing lotteries, at twenty-four sols the ticket, has served little for the establishments for which those lotteries were set up, and that the objects of religion and charity which those lotteries were to serve had the greatest need of them. The articles that follow create a single general lottery in their place, the tickets associated in threes. Seven leaves.",
-    "notes": "Arrest du Conseil d'État du Roi, 31 August 1762, Loterie générale d'Association. ⚠ A SECOND PRINTING of this same decree is at [1848]: the two have DIFFERENT headpiece ornaments — this one crossed laurel branches with a star, the other an acanthus with a crowned fleur-de-lis shield — so they are separate impressions, not duplicate scans of one sheet.",
+    "description": "A printed royal decree, headed Arrest du Conseil d'État du Roi, of 31 August 1762 establishing a Loterie Générale d'Association. The preamble says the King had found that the profits of the three lotteries at twenty-four sols a ticket had been very useful to the establishments they were granted for, and that other objects worthy of his religion and attention, which had no share in those profits, were in the greatest need of help. The articles that follow create a further lottery at three livres a ticket for them, the tickets associated in threes. Seven leaves, under a headpiece of a crowned shield of France in acanthus scrolls, signed VLS. Another copy of the same printing is at [1848].",
+    "notes": "Arrest du Conseil d'État du Roi, 31 August 1762, Loterie générale d'Association. The preamble says the three 24-sol lotteries 'a servi fort utilement' (the description previously said they had 'served little'). The earlier note that [1848] has a different headpiece is withdrawn: both carry the same acanthus-and-crowned-shield block signed VLS. They are two copies of one printing, told apart by staining and trimming. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Regulatory Document"
     ],
@@ -40905,9 +40905,9 @@
     "id": "goetzmann1848",
     "file": "goetzmann1848.jpg",
     "transcription": "",
-    "title": "Decree Establishing the Loterie Générale d'Association, Second Printing, Paris, 1762",
-    "description": "A second printing of the same royal decree of 31 August 1762 establishing the Loterie Générale d'Association, with the same text as the copy at [1841] and a different headpiece: an acanthus spray about a crowned shield of three fleurs-de-lis, over crossed laurel branches. Seven leaves.",
-    "notes": "Second printing of the decree at [1841]. ⚠ Distinguished by the headpiece ornament, not by the text; both are kept as multiples under the collection's multiples rule rather than one being culled as a duplicate scan.",
+    "title": "Decree Establishing the Loterie Générale d'Association, Second Copy, Paris, 1762",
+    "description": "A second copy of the same printing of the royal decree of 31 August 1762 establishing the Loterie Générale d'Association, with the same text and the same headpiece, signed VLS, as the copy at [1841]. This copy has wider margins and is unstained. Seven leaves.",
+    "notes": "Second copy of the decree at [1841]: same text and same headpiece (the earlier note that the headpieces differ is withdrawn). Kept as a multiple: two physical copies, not two scans of one sheet. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Regulatory Document"
     ],
@@ -41070,9 +41070,9 @@
     "id": "goetzmann1857",
     "file": "goetzmann1857.jpg",
     "transcription": "",
-    "title": "Loterie Générale Ticket, Paris, 1763",
-    "description": "A ticket of the Loterie Générale at three livres the ticket, for April one thousand seven hundred and sixty-three. The bearer has paid three livres for the present ticket, whose number is written out at length in words across the body in a clerk's hand and repeated in figures at the head. The word LOTERIE is set vertically down the right margin. It is signed Pour Loterie at the foot.",
-    "notes": "Loterie Générale à trois livres le billet, Avril 1763. ⚠ The number is written in words in a cursive hand and in figures at the head; neither is read with enough confidence to state, so no identifier is recorded.",
+    "title": "Loterie Générale Ticket, Paris, 1770",
+    "description": "A ticket of the Loterie Générale at three livres the ticket, for April 1770, number 287,361. The bearer has paid three livres for the present ticket; the first part of the number, two hundred and eighty-seven thousand, is written by hand in figures and in words, and the rest, three hundred and sixty-one, is printed. The word LOTERIE is set vertically down the right margin, with the figure 19 above it. It ends Pour Loterie, unsigned.",
+    "notes": "Avril mil sept cent soixante-dix (previously recorded as April 1763); N° 287,361: '287' and 'Deux cent quatre-vingt-sept' handwritten, '361' and 'mil trois cent soixante-un' printed. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Lottery Bond"
     ],
@@ -41086,7 +41086,9 @@
       "18th Century"
     ],
     "creator": "Loterie Générale",
-    "identifiers": [],
+    "identifiers": [
+      "No. 287361"
+    ],
     "namedIndividuals": [],
     "keywords": [
       "Loterie Générale",
@@ -41104,7 +41106,7 @@
       "France"
     ],
     "issueYear": [
-      "1763"
+      "1770"
     ]
   },
   {
@@ -41431,8 +41433,8 @@
     "file": "goetzmann1874.jpg",
     "transcription": "",
     "title": "Loterie de Piété Uncut Sheet of Four Tickets, Paris",
-    "description": "An uncut sheet of four tickets of the Loterie de Piété at twenty-four sols the ticket, numbered 091, 092, 096 and 097, printed two by two and never separated. The month, the holder's name and the signature are all blank: the sheet is as it left the press, before the numbers were completed and the tickets cut apart and sold. Surviving uncut is unusual for an instrument meant to be divided, and it shows the printer's imposition, four to the sheet, with the numbers already set in the forme.",
-    "notes": "Four tickets, Nos. 091, 092, 096, 097, uncut and unissued; month, name and signature blank. ⚠ No date anywhere on the sheet; issueDate is left blank.",
+    "description": "An uncut sheet of four tickets of the Loterie de Piété at twenty-four sols the ticket, numbered 1091, 1092, 1096 and 1097 (the last three figures printed large, the whole number printed in words below), printed two by two and never separated. The month, the holder's name and the signature are all blank: the sheet is as it left the press, before the numbers were completed and the tickets cut apart and sold. Surviving uncut is unusual for an instrument meant to be divided, and it shows the printer's imposition, four to the sheet, with the numbers already set in the forme.",
+    "notes": "Four tickets, Nos. 1091, 1092, 1096, 1097 ('Mille Quatre Vingt Onze' etc.; previously recorded as 091-097), uncut and unissued; month, name and signature blank. ⚠ No date anywhere on the sheet; issueDate is left blank. Paper is waste from another printing: large letters of a poster show through. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Lottery Bond"
     ],
@@ -41447,7 +41449,7 @@
     ],
     "creator": "Loterie de Piété",
     "identifiers": [
-      "Nos. 091, 092, 096, 097"
+      "Nos. 1091, 1092, 1096, 1097"
     ],
     "namedIndividuals": [],
     "keywords": [
@@ -42134,8 +42136,8 @@
     "file": "goetzmann1909.jpg",
     "transcription": "",
     "title": "Decree Naming the Signatories of the Lottery Loan Coupons, Paris, 1780",
-    "description": "A printed royal decree, headed Arrest du Conseil d'État du Roi, of 31 October 1780 naming the persons who are to sign the coupons of the tickets of the lottery established by the decree of 29 October 1780. Two leaves. A short administrative act of the kind that follows a loan's creation: the paper could not be issued until the Council had settled whose signature would validate each coupon.",
-    "notes": "Arrest du Conseil d'État du Roi, 31 October 1780. ⚠ It cites the establishing decree as that of 29 OCTOBER 1780, while the decree at [1902] is dated 19 October 1780; both dates are recorded as they read and the discrepancy is not resolved here.",
+    "description": "A printed royal decree, headed Arrest du Conseil d'État du Roi, of 31 October 1780 naming the persons who are to sign the coupons of the tickets of the lottery established by the decree of 29 October 1780. It recites that loan, thirty thousand tickets of twelve hundred livres making thirty-six million livres, and names a different clerk to sign the coupon of each year, from Louis-Michel Gombault for the first. Two leaves. A short administrative act of the kind that follows a loan's creation: the paper could not be issued until the Council had settled whose signature would validate each coupon.",
+    "notes": "Arrest du Conseil d'État du Roi, 31 October 1780. It cites the establishing decree of 29 October 1780, which agrees with [1902] (corrected 2026-09-25 from '19 October'). The loan: 30,000 tickets of 1,200 livres, 36 million. Signers of the coupons named for each year: Louis-Michel Gombault, Simon-Charles Provenchère, Joseph-Marie Viard(?), Augustin Fagnen, etc. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Regulatory Document"
     ],
@@ -42248,8 +42250,8 @@
     "file": "goetzmann1915.jpg",
     "transcription": "",
     "title": "Journal de Paris No. 330, 1785",
-    "description": "Number 330 of the Journal de Paris, Saturday 26 November 1785. Four leaves. Under its date and the age of the moon, the sheet carries a table of the exchange on the principal places, the prices of the public funds, notices of administration, mutations, books and spectacles, and the day's small advertisements. It is kept in this album for the lottery notices among its columns: a daily paper is where the drawings, the numbers that came out and the offices selling tickets reached the Paris public.",
-    "notes": "Numéro 330, Samedi 26 Novembre 1785. Four leaves. ⚠ A newspaper, not a financial instrument; catalogued as a pamphlet because it is bound into the lottery album and carries the lottery notices.",
+    "description": "Number 330 of the Journal de Paris, Saturday 26 November 1785. Four leaves. The first page gives the weather, a notice that the four exchange offices at the Mint will take in gold coin, official appointments, books and theaters. The third page carries the prices on the Paris Bourse, including the lottery loans of 1780, 1783 and 1785, and the day's rates of exchange on Amsterdam, Hamburg, London, Madrid, Cadiz, Genoa and Livorno. It then prints, filling the rest of the paper, the general list of the third drawing of the Loterie Royale established by decree of 5 April 1785, held at the Hôtel de Ville on 24 to 27 October 1785: the major prizes of 1,000 livres and more, and lots of 800, 750 and 720 livres. Printed by Quillau, rue du Fouarre.",
+    "notes": "Numéro 330, Samedi 26 Novembre 1785, pp. 1357-1360. Lottery content: Liste générale du troisième Tirage de la Loterie Royale établie par Arrêt du 5 Avril 1785, drawn 24-27 October 1785 (the description previously spoke generally of 'lottery notices'). Bourse prices and Cours des Changes on p. 1359. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Pamphlet"
     ],

@@ -27,7 +27,7 @@ record id; the rest are its `pages[]`.
 
 | page | record id | title | leaves (album file → id) |
 |---|---|---|---|
-| 1 | `goetzmann1802` | Ancienne Tontine Twelfth Class Contract, Paris, 1689 | `01.jpg`→`1802` |
+| 1 | `goetzmann1802` | Ancienne Tontine Twelfth Class Annuity Receipt, Paris, 1699 | `01.jpg`→`1802` |
 | 2 | `goetzmann1803` | Ancienne Tontine Receipt, Paris, 1702 | `02.jpg`→`1803` |
 | 3 | `goetzmann1804` | Royal Treasury Lottery Receipt with its Ticket, Paris, 1704 | `03.jpg`→`1804` · `03a.jpg`→`1805` · `03b.jpg`→`1806` · `03c.jpg`→`1807` |
 | 4 | `goetzmann1808` | Nouvelle Loterie de la Ville d'Aix-en-Provence Plan, 1730 | `04a.jpg`→`1808` · `04b.jpg`→`1809` |
@@ -51,10 +51,10 @@ record id; the rest are its `pages[]`.
 | 22 | `goetzmann1839` | Thirty-Sixth Hôtel de Ville de Paris Lottery Quarter-Ticket, 1763 | `22.jpg`→`1839` |
 | 23 | `goetzmann1840` | Hôtel de Ville de Paris Lottery Society Share, Paris, 1763 | `23.jpg`→`1840` |
 | 24 | `goetzmann1841` | Decree Establishing the Loterie Générale d'Association, Paris, 1762 | `24a.jpg`→`1841` · `24b.jpg`→`1842` · `24c.jpg`→`1843` · `24d.jpg`→`1844` · `24e.jpg`→`1845` · `24f.jpg`→`1846` · `24g.jpg`→`1847` |
-| 25 | `goetzmann1848` | Decree Establishing the Loterie Générale d'Association, Second Printing, Paris, 1762 | `25a.jpg`→`1848` · `25b.jpg`→`1849` · `25c.jpg`→`1850` · `25d.jpg`→`1851` · `25e.jpg`→`1852` · `25f.jpg`→`1853` · `25g.jpg`→`1854` |
+| 25 | `goetzmann1848` | Decree Establishing the Loterie Générale d'Association, Second Copy, Paris, 1762 | `25a.jpg`→`1848` · `25b.jpg`→`1849` · `25c.jpg`→`1850` · `25d.jpg`→`1851` · `25e.jpg`→`1852` · `25f.jpg`→`1853` · `25g.jpg`→`1854` |
 | 26 | `goetzmann1855` | Notice of the Third Loterie Générale d'Association Drawing, Paris, 1762 | `26.jpg`→`1855` |
 | 27 | `goetzmann1856` | Loterie Générale d'Association Ticket, Paris, 1763 | `27.jpg`→`1856` |
-| 28 | `goetzmann1857` | Loterie Générale Ticket, Paris, 1763 | `28.jpg`→`1857` |
+| 28 | `goetzmann1857` | Loterie Générale Ticket, Paris, 1770 | `28.jpg`→`1857` |
 | 29 | `goetzmann1858` | Loterie Générale d'Association Society Share, Paris, 1763 | `29.jpg`→`1858` |
 | 30 | `goetzmann1859` | Loterie Générale d'Association Society Share, Paris, 1762 | `30.jpg`→`1859` |
 | 31 | `goetzmann1860` | Instructive Plan of the Loterie Générale d'Association, Paris, 1762 | `31a.jpg`→`1860` · `31b.jpg`→`1861` · `31c.jpg`→`1862` · `31d.jpg`→`1863` · `31e.jpg`→`1864` · `31f.jpg`→`1865` · `31g.jpg`→`1866` · `31h.jpg`→`1867` |

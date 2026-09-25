@@ -1825,3 +1825,24 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1840
 
 > A share in a society formed on the thirty-sixth drawing of the lottery of the Hôtel de Ville de Paris, for the month of December 1763. A stated number of tickets at twenty-four livres each is pooled, and the bearer is interested in the whole for the sum he has paid; the prizes falling to any of the pooled tickets are divided among the members. It is made out at Paris at the general office of the societies of the said lottery on the 29th of November 1763, and the printed conditions name the sieurs Regnault and Moriset and state that the arrangement is guaranteed by the City.
+
+
+---
+
+## Album follow-up, 2026-09-25 (1841-1915): replaced text
+
+## goetzmann1841
+
+> A printed royal decree, headed Arrest du Conseil d'État du Roi, of 31 August 1762 establishing a Loterie Générale d'Association. The preamble recites that the King has learned that the product of the profits of three existing lotteries, at twenty-four sols the ticket, has served little for the establishments for which those lotteries were set up, and that the objects of religion and charity which those lotteries were to serve had the greatest need of them. The articles that follow create a single general lottery in their place, the tickets associated in threes. Seven leaves.
+
+## goetzmann1848
+
+> A second printing of the same royal decree of 31 August 1762 establishing the Loterie Générale d'Association, with the same text as the copy at [1841] and a different headpiece: an acanthus spray about a crowned shield of three fleurs-de-lis, over crossed laurel branches. Seven leaves.
+
+## goetzmann1857
+
+> A ticket of the Loterie Générale at three livres the ticket, for April one thousand seven hundred and sixty-three. The bearer has paid three livres for the present ticket, whose number is written out at length in words across the body in a clerk's hand and repeated in figures at the head. The word LOTERIE is set vertically down the right margin. It is signed Pour Loterie at the foot.
+
+## goetzmann1915
+
+> Number 330 of the Journal de Paris, Saturday 26 November 1785. Four leaves. Under its date and the age of the moon, the sheet carries a table of the exchange on the principal places, the prices of the public funds, notices of administration, mutations, books and spectacles, and the day's small advertisements. It is kept in this album for the lottery notices among its columns: a daily paper is where the drawings, the numbers that came out and the offices selling tickets reached the Paris public.
