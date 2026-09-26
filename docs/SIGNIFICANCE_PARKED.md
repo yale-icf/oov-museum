@@ -1954,3 +1954,32 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1997
 
 > Two stake receipts of the Imperial Lottery of France from the bureau at Brussels, dated 1811, mounted one above the other on a single sheet. Each is headed with the commune, the drawing and the bureau and registration numbers, and carries the numbers staked against the printed lines for the kinds of stake. The same office's paper under the Republic and the Empire is at [1988] and [1990].
+
+
+---
+
+## Album follow-up, 2026-09-25 (1999-2025): replaced text
+
+## goetzmann1999
+
+> A public notice of the Loterie Royale de France, number 136, citing a government order of the 17th of Vendémiaire and tabulating the simple bets of the first class: on one number, on one number in a named position, on two, on two in named positions, on three, on four and on five, with what each pays and a paragraph explaining it. Three leaves. It is the same sheet, number and all, as the republican notice at [1977], reissued under a royal heading.
+
+## goetzmann2002
+
+> A stake receipt of the Loterie Royale de France from a Paris bureau, numbered 51, the numbers 17, 6, 27 and 71 entered across the form against the printed lines for the kinds of stake. The heading has returned to Royale after the Empire, on the same form the Directory and the Emperor had used in turn.
+
+## goetzmann2003
+
+> A stake receipt of the Loterie Royale de France from the bureau at Strasbourg, the numbers 8, 80 and 88 entered across the printed form with the sum received noted at the right and the receiver's signature at the foot. It is the Restoration counterpart of the imperial drawing list from the same city at [1985].
+
+## goetzmann2006
+
+> A sheet carrying two small manuscript stake slips headed Paris, each ruled in columns and completed with a set of numbers: 5, 6, 37 and 81 on the first, against the sums staked. They are the working slips of a lottery office rather than printed tickets: what the clerk wrote down as the stake was taken, before it was entered on a numbered form.
+
+## goetzmann2007
+
+> A ruled working table from the Strasbourg bureau, headed for the drawing of Strasbourg and columned for the numbers demanded, the quotité and the totals, with entries and running sums in manuscript. Two leaves. Where the drawing lists in the album record what came out of the wheel, this records what went in: which numbers the public had staked on, and how much stood on each.
+
+## goetzmann2025
+
+> A receipt of the Tontine des Vieillards, number 9, in which the undersigned cashier of that tontine, at the office in the rue Grange-Batelière, acknowledges having received from a subscriber the sum entered on the form. The name of the scheme, the tontine of the aged, marks it as one of the private Paris tontines formed on the lives of older nominees, whose shares therefore fell in sooner and paid the survivors more quickly.

@@ -44262,8 +44262,8 @@
     "file": "goetzmann1999.jpg",
     "transcription": "",
     "title": "Loterie Royale de France Public Notice No. 136",
-    "description": "A public notice of the Loterie Royale de France, number 136, citing a government order of the 17th of Vendémiaire and tabulating the simple bets of the first class: on one number, on one number in a named position, on two, on two in named positions, on three, on four and on five, with what each pays and a paragraph explaining it. Three leaves. It is the same sheet, number and all, as the republican notice at [1977], reissued under a royal heading.",
-    "notes": "⚠ CONFUSED HEADING, recorded not resolved. The sheet is headed LOTERIE ROYALE DE FRANCE, 'Rétablie par la loi du 9 Vendémiaire', and cites an arrêté of 17 Vendémiaire — a republican calendar under a royal title. It carries the same number 136 as the Loterie Nationale notice at [1977]. Most likely a Restoration reprint from the republican forme; issueDate is left blank rather than guessed.",
+    "description": "A public notice of the Loterie Royale de France, number 136, headed as re-established by the law of 9 Vendémiaire year VI and citing the government's order of 17 Vendémiaire year VI. It sets out that the lottery is of ninety numbers, five drawn; that no stake under fifty centimes is taken; and, under First Class, the simple bets on one, two, three or four numbers, with what each pays, the four-number bet limited to twelve francs. Three leaves. It is a Restoration revision of the Directory's notice at [1977], which carries the same number: the heading is royal, the order is credited to 'the government' rather than the Directory, and the five-number bet has gone.",
+    "notes": "Headed LOTERIE ROYALE DE FRANCE, 'Rétablie par la loi du 9 Vendémiaire an 6', citing 'l'Arrêté du Gouvernement' of 17 Vendémiaire an 6 (where [1977] says 'du Directoire exécutif'), and it adds a limit of 12 francs on the quaterne and drops the quine. So it is a later, Restoration resetting of the same notice, not the same sheet reprinted: the wording was revised. Undated. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Prospectus"
     ],
@@ -44319,8 +44319,8 @@
     "file": "goetzmann2002.jpg",
     "transcription": "",
     "title": "Loterie Royale de France Stake Receipt, Paris, 1818",
-    "description": "A stake receipt of the Loterie Royale de France from a Paris bureau, numbered 51, the numbers 17, 6, 27 and 71 entered across the form against the printed lines for the kinds of stake. The heading has returned to Royale after the Empire, on the same form the Directory and the Emperor had used in turn.",
-    "notes": "B. 51; Paris; numbers 17-6-27-71. ⚠ The year is indistinct; the Loterie Royale de France ran under the Restoration from 1814 until the lottery was abolished in 1836. The drawing is entered as May 1818; issueDate set from the plate.",
+    "description": "A betting receipt of the Loterie Royale de France, form number 9, under the law of 9 Vendémiaire year VI, from office 60, registered number 1024 (both hard to read), for the second Paris drawing of May 1818. The holder staked on 17, 63 and 71, as two-number bets and a three-number bet, one franc fifty in all, and it is receipted and signed Leblanc. The heading has returned to Royale, on the same form the Directory and the Emperor had used in turn.",
+    "notes": "B.au 60(?), Enr.nt 1024(?) (previously recorded as B. 51); 2e tirage de Mai 1818, Paris; numbers 17-63-71 (previously 17-6-27-71); ambes 40, terne 30; 1 f 50; signed Leblanc. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -44335,7 +44335,7 @@
     ],
     "creator": "Loterie Royale de France",
     "identifiers": [
-      "B. 51"
+      "B. 60, Enr. 1024"
     ],
     "namedIndividuals": [],
     "keywords": [
@@ -44363,8 +44363,8 @@
     "file": "goetzmann2003.jpg",
     "transcription": "",
     "title": "Loterie Royale de France Stake Receipt, Strasbourg, 1818",
-    "description": "A stake receipt of the Loterie Royale de France from the bureau at Strasbourg, the numbers 8, 80 and 88 entered across the printed form with the sum received noted at the right and the receiver's signature at the foot. It is the Restoration counterpart of the imperial drawing list from the same city at [1985].",
-    "notes": "Strasbourg; numbers 8-80-88. ⚠ Bureau, registration and year are faint on this copy and are not recorded. The drawing is stamped 17 September 1818; issueDate set from the plate.",
+    "description": "A betting receipt of the Loterie Royale de France, form number 8, from office 26, registered number 18, for the second Strasbourg drawing, stamped 17 September 1818. The holder staked on 8, 80 and 88, as two-number and three-number bets, four francs twenty in all, and it is receipted for four francs twenty and signed. It is the Restoration counterpart of the imperial drawing list from the same city at [1985].",
+    "notes": "B.au 26, Enr.nt 18 (previously 'faint, not recorded'); stamped 'DEUX' tirage de '17 SEPTEM' 1818, Strasbourg; numbers 8-80-88; 4 f 20; signed ...Glon(?). Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -44378,7 +44378,9 @@
       "19th Century"
     ],
     "creator": "Loterie Royale de France",
-    "identifiers": [],
+    "identifiers": [
+      "B. 26, Enr. 18"
+    ],
     "namedIndividuals": [],
     "keywords": [
       "Loterie Royale de France",
@@ -44496,9 +44498,9 @@
     "id": "goetzmann2006",
     "file": "goetzmann2006.jpg",
     "transcription": "",
-    "title": "Lottery Stake Slips, Paris",
-    "description": "A sheet carrying two small manuscript stake slips headed Paris, each ruled in columns and completed with a set of numbers: 5, 6, 37 and 81 on the first, against the sums staked. They are the working slips of a lottery office rather than printed tickets: what the clerk wrote down as the stake was taken, before it was entered on a numbered form.",
-    "notes": "Two manuscript slips headed 'Paris'; numbers 5-6-37-81 on the first. ⚠ Undated and unsigned; issueDate left blank. ⚠ TWO INSTRUMENTS PRINTED ON ONE SHEET, uncut. This is a single physical object and is correctly a single record — not two objects photographed together. Compare the uncut sheet of four Loterie de Piété tickets at [1874].",
+    "title": "Loterie Stake Register Fragment, Paris Drawing",
+    "description": "A torn fragment of a printed stake register for a Paris drawing, with entries 31 and 32 filled in by hand: the first on 5, 6, 7 and 81, as two-number, three-number and four-number bets; the second on 6, 17, 29 and 99(?), each totalling one franc twenty. The columns are those of the register sheets at [2007], for chances simple and determined.",
+    "notes": "Fragment of a register sheet ('Tirage de PARIS'), entries 31 and 32; numbers 5-6-7-81 (previously 5-6-37-81) and 6-17-29-9? ; 1 f 20 each. Not two separate slips. Undated. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -44536,9 +44538,9 @@
     "id": "goetzmann2007",
     "file": "goetzmann2007.jpg",
     "transcription": "",
-    "title": "Strasbourg Lottery Demand Table",
-    "description": "A ruled working table from the Strasbourg bureau, headed for the drawing of Strasbourg and columned for the numbers demanded, the quotité and the totals, with entries and running sums in manuscript. Two leaves. Where the drawing lists in the album record what came out of the wheel, this records what went in: which numbers the public had staked on, and how much stood on each.",
-    "notes": "'Numéros demandés / Quotité / Total', Tirage de Strasbourg; two leaves. ⚠ Undated; the figures are not transcribed.",
+    "title": "Strasbourg Drawing Stake Register Sheet",
+    "description": "The first sheet of a printed stake register for the Strasbourg drawing, columned for the registration number, the numbers requested, the number of chances, the kind of bet, the stake per chance and the totals in francs and centimes. Two entries are filled in: number 76, on 7, 8 and 67, as three single-number bets at two francs and three two-number bets at fifty centimes, seven francs fifty in all; and number 77, on 4 alone, one franc fifty. Two leaves.",
+    "notes": "[1re Feuille]; Tirage de STRASBOURG; entries 76 (7-8-67; 7 f 50) and 77 (4; 1 f 50). Undated (francs and centimes: 1798 or later). Checked closely at full resolution 2026-09-25.",
     "type": [
       "Register"
     ],
@@ -44743,9 +44745,9 @@
     "id": "goetzmann2025",
     "file": "goetzmann2025.jpg",
     "transcription": "",
-    "title": "Tontine des Vieillards Receipt, Paris",
-    "description": "A receipt of the Tontine des Vieillards, number 9, in which the undersigned cashier of that tontine, at the office in the rue Grange-Batelière, acknowledges having received from a subscriber the sum entered on the form. The name of the scheme, the tontine of the aged, marks it as one of the private Paris tontines formed on the lives of older nominees, whose shares therefore fell in sooner and paid the survivors more quickly.",
-    "notes": "N° 9; Tontine des Vieillards, rue Grange-Batelière, Paris. ⚠ The subscriber's name, the sum and the date are entered in a cursive hand and are not read with confidence; issueDate is left blank.",
+    "title": "Tontine des Vieillards Prize Bulletin, Paris, 1791",
+    "description": "A prize bulletin of the Tontine des Vieillards, number 9, attached to the life share numbered 1073. It entitles the holder to a fifteenth of the prize drawn by lot for that share at the drawing of August 1792, payable at the tontine's office, rue Guénégaud number 30, less a tenth. It is dated at Paris, 29 January 1791, seen by the administrator general, Defer de la Nouerre, and countersigned the same day by Lesbisque (the name is hard to read), with the tontine's stamp.",
+    "notes": "N° 9, Bulletin de Prime attribuée à l'action viagère N° 1073 ('Mille soixante-treize'); tirage d'août 1792; rue Guénégaud n° 30 (previously recorded as rue Grange-Batelière); Paris, 29 January 1791 (previously undated); Defer de la Nouerre, administrateur général. The description previously called it a receipt for a subscriber's payment. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Tontine"
     ],
@@ -44760,7 +44762,8 @@
     ],
     "creator": "Tontine des Vieillards, rue Grange-Batelière, Paris",
     "identifiers": [
-      "No. 9"
+      "Bulletin No. 9",
+      "Action No. 1073"
     ],
     "namedIndividuals": [],
     "keywords": [
@@ -44780,7 +44783,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1791"
+    ]
   },
   {
     "id": "goetzmann2026",

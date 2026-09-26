@@ -120,11 +120,11 @@ record id; the rest are its `pages[]`.
 | 91 | `goetzmann2003` | Loterie Royale de France Stake Receipt, Strasbourg, 1818 | `91.jpg`→`2003` |
 | 92 | `goetzmann2004` | Loterie Royale de France Drawing List, Bordeaux, 1823 | `92.jpg`→`2004` |
 | 93 | `goetzmann2005` | Loterie Royale de France Drawing List, Lyon, 1824 | `93.jpg`→`2005` |
-| 94 | `goetzmann2006` | Lottery Stake Slips, Paris | `94.jpg`→`2006` |
-| 95 | `goetzmann2007` | Strasbourg Lottery Demand Table | `95a.jpg`→`2007` · `95b.jpg`→`2008` |
+| 94 | `goetzmann2006` | Loterie Stake Register Fragment, Paris Drawing | `94.jpg`→`2006` |
+| 95 | `goetzmann2007` | Strasbourg Drawing Stake Register Sheet | `95a.jpg`→`2007` · `95b.jpg`→`2008` |
 | 96 | `goetzmann2009` | Royal Edict Creating a Lottery in Life and Perpetual Rentes, Versailles, 1777 | `96a.jpg`→`2009` · `96b.jpg`→`2010` · `96c.jpg`→`2011` · `96d.jpg`→`2012` · `96e.jpg`→`2013` · `96f.jpg`→`2014` · `96g.jpg`→`2015` · `96h.jpg`→`2016` |
 | 97 | `goetzmann2017` | Decree Opening a Seven-Year Loan by Way of Lottery, Paris, 1777 | `97a.jpg`→`2017` · `97b.jpg`→`2018` · `97c.jpg`→`2019` · `97d.jpg`→`2020` · `97e.jpg`→`2021` · `97f.jpg`→`2022` · `97g.jpg`→`2023` · `97h.jpg`→`2024` |
-| 98 | `goetzmann2025` | Tontine des Vieillards Receipt, Paris | `98.jpg`→`2025` |
+| 98 | `goetzmann2025` | Tontine des Vieillards Prize Bulletin, Paris, 1791 | `98.jpg`→`2025` |
 | 99 | `goetzmann2026` | Notarial Act on a Tontine Life-Annuity Division, Paris, 1779 | `99a.jpg`→`2026` · `99b.jpg`→`2027` |
 | 100 | `goetzmann2028` | Prize Lottery Bulletin on the Edict of December 1785, Paris | `100.jpg`→`2028` |
 | 101 | `goetzmann2029` | Letter of the Loterie Nationale Inspector at Lyon, Year XI (1803) | `101a.jpg`→`2029` · `101b.jpg`→`2030` |
