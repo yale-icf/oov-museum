@@ -40698,7 +40698,7 @@
     "transcription": "",
     "title": "Twenty-Fourth Hôtel de Ville de Paris Lottery Quarter-Ticket, 1762",
     "description": "A coupon for a quarter of a ticket in the twenty-fourth lottery of the Hôtel de Ville de Paris, number 33,073. The bearer is interested for one quarter of a ticket of the said lottery, for which he has paid in cash the sum of six livres, and it is dated at Paris the first of November 1762. The words COUPON D'UN QUART DE BILLET run down the left margin and the quarter-ticket price of six livres is repeated at the foot. It is signed Boudoux.",
-    "notes": "N° 33073 (read from the number in words, \"trente trois mil soixante treize\"; previously recorded as 33053); signed Boudoux; quart de billet, 6 livres; 24e loterie; Paris, 1 November 1762. The whole ticket of this lottery is at [1836].",
+    "notes": "N° 33073 (read from the number in words, \"trente trois mil soixante treize\"; previously recorded as 33053); signed Boudoux; quart de billet, 6 livres; 24e loterie; Paris, 1 November 1762. The whole ticket of this lottery is at [1836]. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Coupon"
     ],
@@ -40742,7 +40742,7 @@
     "transcription": "",
     "title": "Thirty-Sixth Hôtel de Ville de Paris Lottery Quarter-Ticket, 1763",
     "description": "A coupon for a quarter of a ticket in the thirty-sixth lottery of the Hôtel de Ville de Paris, number 77,081, for the drawing of December 1763. The bearer is interested for one quarter of a ticket, for which he has paid in cash six livres. It is signed Boudoux. The whole tickets of the same two lotteries are at [1836] and [1837], and the other quarter-ticket at [1838].",
-    "notes": "N° 77081 (read from the number in words, \"soixante dix sept mil quatre vingt un\"; previously recorded as 77281); signed Boudoux; quart de billet, 6 livres; 36e loterie, tirage de Décembre 1763.",
+    "notes": "N° 77081 (read from the number in words, \"soixante dix sept mil quatre vingt un\"; previously recorded as 77281); signed Boudoux; quart de billet, 6 livres; 36e loterie, tirage de Décembre 1763. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Coupon"
     ],
@@ -44791,9 +44791,9 @@
     "id": "goetzmann2026",
     "file": "goetzmann2026.jpg",
     "transcription": "",
-    "title": "Notarial Act on a Tontine Life-Annuity Division, Paris, 1779",
-    "description": "A manuscript notarial act passed in the presence of the undersigned notaries at Paris, headed with a printed line for the tontine and accroissement agreed in life annuities, tenth division. The body records the appearance of the subscriber and the terms on which his share is entered. Two leaves. The accroissement is the heart of a tontine: the share of each subscriber who dies is added to those of the survivors in his division, so the printed heading names the division as well as the scheme.",
-    "notes": "'Tontine & Accroissement convenus en Rentes Viagères, Dixième Division'; manuscript notarial act, Paris, two leaves. ⚠ The parties, sum and date are in a close hand and are not transcribed. Dated by hand \"l'an mil sept cent soixante-dix-neuf le six avril\", 6 April 1779, for arrears of 1778; issueDate set from the plate.",
+    "title": "Tontine Annuity Receipt, Seventh Tontine, Paris, 1779",
+    "description": "A receipt on a printed form, passed before notaries at Paris on 6 April 1779, for a tontine annuity: tontine and accruals converted into purely life annuities, the tenth deducted. Philippe Pierre Maetrondt (the name is hard to read), bourgeois of Paris, acting for Jean François Ferrand, who is certified alive by the attached certificate, acknowledges receiving sixteen livres twelve sols for the arrears of 1778 on the same sum of life annuity from the seventh tontine, eighth class, third division, constituted by contract before the notary Vivien on 23 July 1744. It is numbered 355 and signed by him and the notaries.",
+    "notes": "'Tontine & Accroissemens convertis en Rentes purement viagères, Dixième déduit' (previously read as 'Tontine & Accroissement convenus en Rentes Viagères, Dixième Division'); 7e Tontine, 8e Classe, 3e Division, B 355; 16 livres 12 sols, arrears of 1778; contract before Vivien, 23 July 1744; passed 6 April 1779; payee Jean François Ferrand, by Philippe Pierre Maetrondt(?). Notaries Dupré(?) and Dontemps(?). Checked closely at full resolution 2026-09-25.",
     "type": [
       "Tontine"
     ],
@@ -44808,7 +44808,10 @@
     ],
     "creator": "",
     "identifiers": [
-      "Dixième Division"
+      "7e Tontine",
+      "8e Classe",
+      "3e Division",
+      "No. 355"
     ],
     "namedIndividuals": [],
     "keywords": [
@@ -45028,9 +45031,9 @@
     "id": "goetzmann2040",
     "file": "goetzmann2040.jpg",
     "transcription": "",
-    "title": "Prospectus of the Sieur Argoud's Lottery, Grenoble",
-    "description": "The printed prospectus of the lottery of the sieur Argoud, marble worker at Grenoble, authorized by the magistrate exercising the police of the city of Grenoble. Four leaves, printed at Grenoble by Joseph Cuchet. The scheme is composed of a stated number of tickets and its prizes are the tradesman's own work, a craftsman disposing of his stock by lottery under municipal licence, at the other end of the scale from the royal schemes that fill the rest of this album.",
-    "notes": "Prospectus de la Loterie du sieur Argoud, marbrier à Grenoble; imprimé à Grenoble par Joseph Cuchet. ⚠ No date on the leaves examined; issueDate is left blank.",
+    "title": "Prospectus of the Sieur Argoud's Lottery, Grenoble, 1769",
+    "description": "The printed prospectus of the lottery of the sieur Argoud, marble worker at Grenoble, authorized by the magistrate exercising the police of the city, printed at Grenoble by Joseph Cuchet in 1769. The lottery was of fifty-five lots of marble work, their list at the end, drawn at the town hall before the consuls, with the lots deposited at the town hall and the general hospital and the money taken by a Grenoble notary who accounted weekly to the city treasurer. Tickets cost thirty-six sols, from Maître Prié, notary, rue Perrollerie, opposite the Place aux Herbes. Four leaves.",
+    "notes": "Prospectus de la Loterie du sieur Argoud, marbrier à Grenoble; Grenoble, Joseph Cuchet, 1769 (previously undated); 55 lots of marble; billet 36 sols; bureau chez Me Prié, notaire. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Prospectus"
     ],
@@ -45084,7 +45087,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1769"
+    ]
   },
   {
     "id": "goetzmann2044",
@@ -45137,7 +45142,7 @@
     "transcription": "",
     "title": "Loterie Royale de France Public Notice, 1776",
     "description": "A public notice of the Loterie Royale de France, reciting that the King, by decree of his Council of 3 December 1776, has ordered the arrangements it sets out, and tabulating the simple bets of the first class: on one number, on one number in a named position, on two, on two in named positions, on three, on four and on five, with what each pays. Three leaves. The decree it cites, at [1893], ended the free premiums and raised the prizes.",
-    "notes": "Avis au Public citing the arrêt du Conseil of 3 December 1776 — the decree at [1893]. ⚠ A SECOND COPY is at [2048]; the two are kept as multiples.",
+    "notes": "Avis au Public citing the arrêt du Conseil of 3 December 1776 — the decree at [1893]. ⚠ A SECOND COPY is at [2048]; the two are kept as multiples. Effective from 16 January 1777: no stake under 10 sols; the free-premium drawings, deniers and stub receipts abolished. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Prospectus"
     ],
@@ -45194,7 +45199,7 @@
     "transcription": "",
     "title": "Loterie Royale de France Public Notice, Second Copy, 1776",
     "description": "A public notice of the Loterie Royale de France, reciting that the King, by decree of his Council of 3 December 1776, has ordered the arrangements it sets out, and tabulating the simple bets of the first class: on one number, on one number in a named position, on two, on two in named positions, on three, on four and on five, with what each pays. Three leaves; a second copy of the notice at [2045]. The decree it cites, at [1893], ended the free premiums and raised the prizes.",
-    "notes": "Second copy of [2045]. ⚠ Kept as a multiple, not culled: two physical copies in one album are different objects, and the collection's rule culls only duplicate SCANS of a single sheet.",
+    "notes": "Second copy of [2045]. ⚠ Kept as a multiple, not culled: two physical copies in one album are different objects, and the collection's rule culls only duplicate SCANS of a single sheet. Effective from 16 January 1777: no stake under 10 sols; the free-premium drawings, deniers and stub receipts abolished. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Prospectus"
     ],
@@ -45249,9 +45254,9 @@
     "id": "goetzmann2051",
     "file": "goetzmann2051.jpg",
     "transcription": "",
-    "title": "Administration des Tontines Account, Paris, 1817",
-    "description": "A printed account form of the Administration des Tontines, headed as organized under the royal ordinance of 1 September 1806, with the tontine and the subscriber entered at the head and the yearly sums ruled in columns beneath. Two leaves, completed in manuscript and dated at Paris in 1817. By this date the private tontines of the old regime had been brought under a single administration, and the form is what a subscriber received each year as his account.",
-    "notes": "Administration des Tontines, 'organisation d'après l'ordonnance du Roi du 1er septembre 1806'; Paris, 1817. ⚠ The tontine named at the head and the subscriber are in a cursive hand and are not read with confidence.",
+    "title": "Administration des Tontines Share Certificate, Tontine d'Épargnes, Paris, 1822",
+    "description": "A replacement certificate of the Administration des Tontines, organized under the royal ordinance of 7 October 1818, for the Tontine d'Épargnes, first society, class of the young. It records that on 31 March 1792 Mr. Martin Rentein, born 18 October 1759, subscribed three shares, numbers 141,808 to 141,810, on his own life, to share in the accruals as members died, up to the maximum of 6,000 francs a share fixed by the decree of 1 April 1809, on producing his certificate of life. It was issued in place of the old title as number 13521 at Paris on 1 October 1822, signed by the director of the tontines and the secretary general. The table at the foot records the numbers that later carried an annuity.",
+    "notes": "Administration des Tontines, ordonnance du Roi du 7 octobre 1818 (previously recorded as 1 September 1806); Tontine d'Épargnes (the Lafarge savings tontine, compare [0629]), 1re Société, classe des Jeunes; actions 141808-141810 of Martin Rentein(?), born 18 October 1759, subscribed 31 March 1792; délivré sous le n° 13521, Paris, 1 October 1822 (previously recorded as 1817, described as a yearly account). Checked closely at full resolution 2026-09-25.",
     "type": [
       "Register"
     ],
@@ -45265,7 +45270,10 @@
       "19th Century"
     ],
     "creator": "Administration des Tontines",
-    "identifiers": [],
+    "identifiers": [
+      "Actions Nos. 141808-141810",
+      "No. 13521"
+    ],
     "namedIndividuals": [],
     "keywords": [
       "tontine",
@@ -45295,16 +45303,16 @@
       "France"
     ],
     "issueYear": [
-      "1817"
+      "1822"
     ]
   },
   {
     "id": "goetzmann2053",
     "file": "goetzmann2053.jpg",
     "transcription": "",
-    "title": "Loterie Royale de France Numerical Table",
-    "description": "A large printed table of the Loterie Royale de France, ruled in fine columns across the whole sheet and filled with figures. It is a working table of the administration rather than an instrument issued to the public; the kind of sheet against which stakes and drawings were checked. It closes the album, whose last leaves are all administrative: the Grenoble account, the tontine account and this.",
-    "notes": "⚠ The table's heading and purpose are not legible at the resolution examined, and the columns are not transcribed. Catalogued from what the sheet plainly is; it deserves a closer look.",
+    "title": "Loterie Royale de France Tariff and Progressive Table, Paris",
+    "description": "A printed double sheet, the fifth leaf of a series, of the Loterie Royale de France, sold in Paris by Gobert, rue Grenetat, at the Mouton Couronné, price twelve sols. The left half is a tariff giving what each of the seven kinds of bet pays for stakes from one sol to a thousand livres. The right half is a progressive table of how many single-number, two-number, three-number, four-number and five-number combinations, and fixed-position bets, arise from linking two to forty numbers. The foot explains that the five numbers drawn produce forty-six prizes across the seven bets, and gives the lowest and highest stake for each. A private aid for players, not an administration document.",
+    "notes": "'5eme Feuille'; Tarif and Table Progressive; 'Se vend à Paris chez Gobert rue Grenetat au Mouton couronné, Prix 12 sols'. The previous description called it an unreadable working table of the administration. Undated (Loterie Royale, 1776-1793 or 1814-1836). Checked closely at full resolution 2026-09-25.",
     "type": [
       "Register"
     ],

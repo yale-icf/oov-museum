@@ -1983,3 +1983,24 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann2025
 
 > A receipt of the Tontine des Vieillards, number 9, in which the undersigned cashier of that tontine, at the office in the rue Grange-Batelière, acknowledges having received from a subscriber the sum entered on the form. The name of the scheme, the tontine of the aged, marks it as one of the private Paris tontines formed on the lives of older nominees, whose shares therefore fell in sooner and paid the survivors more quickly.
+
+
+---
+
+## Album follow-up, 2026-09-25 (2026-2053): replaced text
+
+## goetzmann2026
+
+> A manuscript notarial act passed in the presence of the undersigned notaries at Paris, headed with a printed line for the tontine and accroissement agreed in life annuities, tenth division. The body records the appearance of the subscriber and the terms on which his share is entered. Two leaves. The accroissement is the heart of a tontine: the share of each subscriber who dies is added to those of the survivors in his division, so the printed heading names the division as well as the scheme.
+
+## goetzmann2040
+
+> The printed prospectus of the lottery of the sieur Argoud, marble worker at Grenoble, authorized by the magistrate exercising the police of the city of Grenoble. Four leaves, printed at Grenoble by Joseph Cuchet. The scheme is composed of a stated number of tickets and its prizes are the tradesman's own work, a craftsman disposing of his stock by lottery under municipal licence, at the other end of the scale from the royal schemes that fill the rest of this album.
+
+## goetzmann2051
+
+> A printed account form of the Administration des Tontines, headed as organized under the royal ordinance of 1 September 1806, with the tontine and the subscriber entered at the head and the yearly sums ruled in columns beneath. Two leaves, completed in manuscript and dated at Paris in 1817. By this date the private tontines of the old regime had been brought under a single administration, and the form is what a subscriber received each year as his account.
+
+## goetzmann2053
+
+> A large printed table of the Loterie Royale de France, ruled in fine columns across the whole sheet and filled with figures. It is a working table of the administration rather than an instrument issued to the public; the kind of sheet against which stakes and drawings were checked. It closes the album, whose last leaves are all administrative: the Grenoble account, the tontine account and this.

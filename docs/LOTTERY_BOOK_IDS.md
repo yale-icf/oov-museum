@@ -125,13 +125,13 @@ record id; the rest are its `pages[]`.
 | 96 | `goetzmann2009` | Royal Edict Creating a Lottery in Life and Perpetual Rentes, Versailles, 1777 | `96a.jpg`→`2009` · `96b.jpg`→`2010` · `96c.jpg`→`2011` · `96d.jpg`→`2012` · `96e.jpg`→`2013` · `96f.jpg`→`2014` · `96g.jpg`→`2015` · `96h.jpg`→`2016` |
 | 97 | `goetzmann2017` | Decree Opening a Seven-Year Loan by Way of Lottery, Paris, 1777 | `97a.jpg`→`2017` · `97b.jpg`→`2018` · `97c.jpg`→`2019` · `97d.jpg`→`2020` · `97e.jpg`→`2021` · `97f.jpg`→`2022` · `97g.jpg`→`2023` · `97h.jpg`→`2024` |
 | 98 | `goetzmann2025` | Tontine des Vieillards Prize Bulletin, Paris, 1791 | `98.jpg`→`2025` |
-| 99 | `goetzmann2026` | Notarial Act on a Tontine Life-Annuity Division, Paris, 1779 | `99a.jpg`→`2026` · `99b.jpg`→`2027` |
+| 99 | `goetzmann2026` | Tontine Annuity Receipt, Seventh Tontine, Paris, 1779 | `99a.jpg`→`2026` · `99b.jpg`→`2027` |
 | 100 | `goetzmann2028` | Prize Lottery Bulletin on the Edict of December 1785, Paris | `100.jpg`→`2028` |
 | 101 | `goetzmann2029` | Letter of the Loterie Nationale Inspector at Lyon, Year XI (1803) | `101a.jpg`→`2029` · `101b.jpg`→`2030` |
 | 102 | `goetzmann2031` | General List of Winning Tickets of the Second Loterie Royale, Paris, 1749 | `102a.jpg`→`2031` · `102b.jpg`→`2032` · `102c.jpg`→`2033` · `102d.jpg`→`2034` · `102e.jpg`→`2035` · `102f.jpg`→`2036` · `102g.jpg`→`2037` · `102h.jpg`→`2038` · `102i.jpg`→`2039` |
-| 103 | `goetzmann2040` | Prospectus of the Sieur Argoud's Lottery, Grenoble | `103a.jpg`→`2040` · `103b.jpg`→`2041` · `103c.jpg`→`2042` · `103d.jpg`→`2043` |
+| 103 | `goetzmann2040` | Prospectus of the Sieur Argoud's Lottery, Grenoble, 1769 | `103a.jpg`→`2040` · `103b.jpg`→`2041` · `103c.jpg`→`2042` · `103d.jpg`→`2043` |
 | 104 | `goetzmann2044` | Letter of the Loterie Nationale Inspector at Grenoble, Year XI (1803) | `104.jpg`→`2044` |
 | 105 | `goetzmann2045` | Loterie Royale de France Public Notice, 1776 | `105a.jpg`→`2045` · `105b.jpg`→`2046` · `105c.jpg`→`2047` |
 | 106 | `goetzmann2048` | Loterie Royale de France Public Notice, Second Copy, 1776 | `106a.jpg`→`2048` · `106b.jpg`→`2049` · `106c.jpg`→`2050` |
-| 107 | `goetzmann2051` | Administration des Tontines Account, Paris, 1817 | `107a.jpg`→`2051` · `107b.jpg`→`2052` |
-| 108 | `goetzmann2053` | Loterie Royale de France Numerical Table | `108.jpg`→`2053` |
+| 107 | `goetzmann2051` | Administration des Tontines Share Certificate, Tontine d'Épargnes, Paris, 1822 | `107a.jpg`→`2051` · `107b.jpg`→`2052` |
+| 108 | `goetzmann2053` | Loterie Royale de France Tariff and Progressive Table, Paris | `108.jpg`→`2053` |
