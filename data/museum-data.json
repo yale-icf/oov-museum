@@ -43966,9 +43966,9 @@
     "id": "goetzmann1990",
     "file": "goetzmann1990.jpg",
     "transcription": "",
-    "title": "Imperial Lottery of France Stake Receipt Sheet, Brussels",
-    "description": "A sheet headed Première Feuille carrying stake receipts of the Imperial Lottery of France from the bureau at Brussels, the city named at the head above the printed form. The forms are ruled for the numbers staked and the kinds of stake. The republican coupon at [1988] is from the same Brussels office.",
-    "notes": "[1re Feuille]; à Bruxelles; Loterie Impériale de France. ⚠ No legible date or registration; left blank rather than guessed.",
+    "title": "Imperial Lottery of France Stake Receipt, Brussels Drawing, 1810",
+    "description": "A betting receipt of the Imperial Lottery of France, form number 1, from office 620, registered number 126 (both hard to read), for the first Brussels drawing of April 1810, placed in a commune whose name is hard to read (perhaps Dour). The holder staked on 26, 36 and 46, as three single-number, three two-number and one three-number bet, one franc sixty in all, and it is receipted and signed Henrion (the name is hard to read). The republican coupon at [1988] is from a Brussels office too.",
+    "notes": "B.au 620(?), Enr.nt 126; Tirage de Bruxelles, premier tirage d'avril 1810 (previously undated and described as blank forms of a 'Brussels bureau'); commune d... (Dour?); numbers 26-36-46; 3 extraits, 3 ambes, 1 terne; 1 f 60. Filled in and signed. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -43982,7 +43982,9 @@
       "19th Century"
     ],
     "creator": "Loterie Impériale de France, Bureau de Bruxelles",
-    "identifiers": [],
+    "identifiers": [
+      "B. 620, Enr. 126"
+    ],
     "namedIndividuals": [],
     "keywords": [
       "Loterie Impériale",
@@ -44002,15 +44004,17 @@
       "Belgium",
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1810"
+    ]
   },
   {
     "id": "goetzmann1991",
     "file": "goetzmann1991.jpg",
     "transcription": "",
-    "title": "Lottery Bureau Account, Grenoble, 1813",
-    "description": "An account established by the administration for the arrondissement of Grenoble, first series, for January 1813, ruled in two halves headed Recette and Dépense. The receipts and payments of the bureau are entered against the printed heads, with the totals carried to the foot. Two leaves. It is the working record behind the tickets and drawing lists elsewhere in this album; what one provincial office of the Imperial Lottery took in and paid out in a single month.",
-    "notes": "Arrond.t de Grenoble, 1re Série, Janvier 1813; 'Compte établi par l'Administration', Recette and Dépense. ⚠ The figures are entered in a fine hand and are not transcribed.",
+    "title": "Lottery Office Account, Grenoble, 1812",
+    "description": "A printed account form, established by the administration, for the arrondissement of Grenoble in the department of the Isère, dated January 1812, ruled in two parts headed Recette and Dépense. Small sums are entered by hand against the heads for receipts before the present drawing, on the present drawing and miscellaneous receipts; the expense side prints the office's commission of six percent on the drawing's receipts. The second leaf is a separate handwritten reckoning of gains, with a count of écus of six and three livres. Two leaves.",
+    "notes": "Dépt de l'Isère, Arrond.t de Grenoble, Janvier 1812 (previously recorded as January 1813, '1re Série'); Compte établi par l'Administration; remise à 6 pour cent. Leaf 1992: manuscript reckoning 'Gain ... 404-18', écus de 6 and 3 livres. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Register"
     ],
@@ -44053,16 +44057,16 @@
       "France"
     ],
     "issueYear": [
-      "1813"
+      "1812"
     ]
   },
   {
     "id": "goetzmann1993",
     "file": "goetzmann1993.jpg",
     "transcription": "",
-    "title": "Imperial Lottery of France Stake Receipts, Caen, 1810",
-    "description": "Two betting receipts of the Imperial Lottery of France issued at Caen on 30 June 1810, printed one above the other on a single sheet, each headed with the commune and the office and registration numbers. The numbers staked are written across the form against the lines for bets on one, two, three or four of them, and the clerk has signed at the foot of each with the sum received noted at the right.",
-    "notes": "Caen, 30 June 1810; two receipts on one sheet. ⚠ The bureau and registration figures are partly cut at the edge and are not recorded. ⚠ TWO INSTRUMENTS PRINTED ON ONE SHEET, uncut. This is a single physical object and is correctly a single record — not two objects photographed together. Compare the uncut sheet of four Loterie de Piété tickets at [1874].",
+    "title": "Imperial Lottery of France Stake Receipts, 1810",
+    "description": "Two betting receipts of the Imperial Lottery of France for a drawing of June 1810, printed one above the other on a single sheet and trimmed so that the upper receipt has lost its heading and the left edge of both is cut. The lower is from office 85 (hard to read), registered number 68. One is receipted for sixty and the other for seventy, in centimes, both signed Pillet (the name is hard to read). The second leaf is a sheet of handwritten betting calculations, sets of numbers with their ambes, ternes and single-number bets and the sums staked.",
+    "notes": "Juin 1810; lower receipt B.au 85(?), Enr.nt 68; reçu 60 and 70; signed Pillet(?). The place is not on the surviving parts (previously recorded as Caen, 30 June 1810). Leaf 1994 is a manuscript sheet of combinations and stakes, not a second receipt. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -44076,7 +44080,9 @@
       "19th Century"
     ],
     "creator": "Loterie Impériale de France",
-    "identifiers": [],
+    "identifiers": [
+      "B. 85, Enr. 68"
+    ],
     "namedIndividuals": [],
     "keywords": [
       "Loterie Impériale",
@@ -44112,9 +44118,9 @@
     "id": "goetzmann1995",
     "file": "goetzmann1995.jpg",
     "transcription": "",
-    "title": "Kingdom of Westphalia Lottery Ticket, Kassel, 1808",
-    "description": "A ticket of the ninety-sixth drawing of the royal Westphalian lottery, number 18,053, of the six-seven-Groschen class, issued by the Königlich Westfälische General-Administration at Kassel in 1808. The printed German text sets out the class and what the holder is entitled to, with the directors named as Weichs and Schweer and a space for the collector's signature at the foot. The Kingdom of Westphalia was the satellite state created by Napoleon in 1807 for his brother Jérôme, and it ran a class lottery on the German model.",
-    "notes": "N° 18053; 96th drawing; 'Sechs-Sieben-Groschen Klasse'; Königl. Westfälische General-Administration, Cassel, 1808; Directeure Weichs, Schweer. ⚠ NO CURRENCY FIELD: the class is reckoned in Groschen, which is not in the collection's currency vocabulary, and no other denomination is given.",
+    "title": "Kingdom of Westphalia General Class Lottery Quarter Ticket, Kassel, 1808",
+    "description": "A quarter ticket, number 18053, of the first class of the first Royal Westphalian General Lottery, under the arms of the kingdom. The bearer paid two francs stake and a sixth of a franc for the writing fee, and by accepting it submits to the conditions of the plan and notice. It is dated at Kassel on 30 August 1808 and signed by the directors Weichs and Schweer and by the collector, Laz. Sal. Abr. Handorff (the name is hard to read). Renewal for the second class had to be made before 7 November, on pain of losing the ticket.",
+    "notes": "N° 18053, 1/4 Loos; Erste General-Lotterie, Erste Klasse (previously recorded as the '96th drawing' and a 'Sechs-Sieben-Groschen Klasse'); 2 Franken Einlage + 1/6 Franken Schreibgeld; Cassel, 30 August 1808; directors Weichs, Schweer; Collecteur Laz. Sal. Abr. Handorff(?); renewal before 7 November. The stake is in francs; the currency field is left blank. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Lottery Bond"
     ],
@@ -44160,7 +44166,7 @@
     "transcription": "",
     "title": "Lottery of a Fine English Engraving, One Franc the Ticket",
     "description": "A printed ticket for a lottery of a fine English engraving at one franc the ticket, the number left blank. The sheet carries nothing but the announcement, ruled between plain rules. Compare the toucan-feather garniture at [1975] and the spun-glass piece at [1976], other lotteries of a single object.",
-    "notes": "'Loterie d'une belle Gravure Anglaise, à un franc le Billet.' ⚠ Number blank and unissued; no date, vendor or address on the sheet, so issueDate and creator are left empty.",
+    "notes": "'Loterie d'une belle Gravure Anglaise, à un franc le Billet.' ⚠ Number blank and unissued; no date, vendor or address on the sheet, so issueDate and creator are left empty. Checked closely at full resolution 2026-09-25. No corrections.",
     "type": [
       "Lottery Bond"
     ],
@@ -44198,9 +44204,9 @@
     "id": "goetzmann1997",
     "file": "goetzmann1997.jpg",
     "transcription": "",
-    "title": "Imperial Lottery of France Stake Receipts, Brussels, 1811",
-    "description": "Two stake receipts of the Imperial Lottery of France from the bureau at Brussels, dated 1811, mounted one above the other on a single sheet. Each is headed with the commune, the drawing and the bureau and registration numbers, and carries the numbers staked against the printed lines for the kinds of stake. The same office's paper under the Republic and the Empire is at [1988] and [1990].",
-    "notes": "Bruxelles, 1811; two receipts on one sheet. ⚠ Bureau and registration figures are faint and not recorded. ⚠ TWO INSTRUMENTS PRINTED ON ONE SHEET, uncut. This is a single physical object and is correctly a single record — not two objects photographed together. Compare the uncut sheet of four Loterie de Piété tickets at [1874].",
+    "title": "Imperial Lottery of France Stake Receipts, Brussels Drawing, 1811",
+    "description": "Two betting receipts of the Imperial Lottery of France, forms 9 and 10, printed one above the other on a single uncut sheet, both from office 318, registered numbers 59 and 60, for the first Brussels drawing of October 1811, in a commune whose name is hard to read (perhaps Bourges). The first stakes on 15, 31 and 32 as three two-number bets and a three-number bet, sixty centimes; the second on 17 and 42 as one two-number bet, fifty centimes. Both are signed J. La Bouvrie (the name is hard to read). The second leaf is unrelated: a handwritten list of books with their prices.",
+    "notes": "B.au 318, Enr.nt 59 and 60 (previously 'faint, not recorded'); 1er tirage d'octobre 1811, Tirage de Bruxelles; commune de Bourges(?); 15-31-32 (60 c.), 17-42 (50 c.); signed J. La Bouvrie(?). Leaf 1998 is a manuscript book list, not part of the receipts. Checked closely at full resolution 2026-09-25.",
     "type": [
       "Receipt"
     ],
@@ -44214,7 +44220,10 @@
       "19th Century"
     ],
     "creator": "Loterie Impériale de France, Bureau de Bruxelles",
-    "identifiers": [],
+    "identifiers": [
+      "B. 318, Enr. 59",
+      "B. 318, Enr. 60"
+    ],
     "namedIndividuals": [],
     "keywords": [
       "Loterie Impériale",

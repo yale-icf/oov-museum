@@ -109,12 +109,12 @@ record id; the rest are its `pages[]`.
 | 80 | `goetzmann1987` | Loterie Nationale Stake Receipt, Paris, Fructidor Year XII (1804) | `80.jpg`→`1987` |
 | 81 | `goetzmann1988` | Loterie Nationale Half-Ticket Coupon, Brussels, Year IX (1801) | `81.jpg`→`1988` |
 | 82 | `goetzmann1989` | Imperial Lottery of France Stake Receipt, Paris, 1812 | `82.jpg`→`1989` |
-| 83 | `goetzmann1990` | Imperial Lottery of France Stake Receipt Sheet, Brussels | `83.jpg`→`1990` |
-| 84 | `goetzmann1991` | Lottery Bureau Account, Grenoble, 1813 | `84a.jpg`→`1991` · `84b.jpg`→`1992` |
-| 85 | `goetzmann1993` | Imperial Lottery of France Stake Receipts, Caen, 1810 | `85a.jpg`→`1993` · `85b.jpg`→`1994` |
-| 86 | `goetzmann1995` | Kingdom of Westphalia Lottery Ticket, Kassel, 1808 | `86.jpg`→`1995` |
+| 83 | `goetzmann1990` | Imperial Lottery of France Stake Receipt, Brussels Drawing, 1810 | `83.jpg`→`1990` |
+| 84 | `goetzmann1991` | Lottery Office Account, Grenoble, 1812 | `84a.jpg`→`1991` · `84b.jpg`→`1992` |
+| 85 | `goetzmann1993` | Imperial Lottery of France Stake Receipts, 1810 | `85a.jpg`→`1993` · `85b.jpg`→`1994` |
+| 86 | `goetzmann1995` | Kingdom of Westphalia General Class Lottery Quarter Ticket, Kassel, 1808 | `86.jpg`→`1995` |
 | 87 | `goetzmann1996` | Lottery of a Fine English Engraving, One Franc the Ticket | `87.jpg`→`1996` |
-| 88 | `goetzmann1997` | Imperial Lottery of France Stake Receipts, Brussels, 1811 | `88a.jpg`→`1997` · `88b.jpg`→`1998` |
+| 88 | `goetzmann1997` | Imperial Lottery of France Stake Receipts, Brussels Drawing, 1811 | `88a.jpg`→`1997` · `88b.jpg`→`1998` |
 | 89 | `goetzmann1999` | Loterie Royale de France Public Notice No. 136 | `89a.jpg`→`1999` · `89b.jpg`→`2000` · `89c.jpg`→`2001` |
 | 90 | `goetzmann2002` | Loterie Royale de France Stake Receipt, Paris, 1818 | `90.jpg`→`2002` |
 | 91 | `goetzmann2003` | Loterie Royale de France Stake Receipt, Strasbourg, 1818 | `91.jpg`→`2003` |

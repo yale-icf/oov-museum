@@ -1929,3 +1929,28 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann1989
 
 > A stake receipt of the Imperial Lottery of France, bureau 1, registration 1, carrying two sets of numbers entered in a clear hand: 30, 36 and 60 above, 83 and 88 below, against the printed lines for the kinds of stake. The heading has changed from République to Impériale, but the form is the one the Directory's lottery used and the royal lottery before it, the wording altered only where the regime is named.
+
+
+---
+
+## Album follow-up, 2026-09-25 (1990-1997): replaced text
+
+## goetzmann1990
+
+> A sheet headed Première Feuille carrying stake receipts of the Imperial Lottery of France from the bureau at Brussels, the city named at the head above the printed form. The forms are ruled for the numbers staked and the kinds of stake. The republican coupon at [1988] is from the same Brussels office.
+
+## goetzmann1991
+
+> An account established by the administration for the arrondissement of Grenoble, first series, for January 1813, ruled in two halves headed Recette and Dépense. The receipts and payments of the bureau are entered against the printed heads, with the totals carried to the foot. Two leaves. It is the working record behind the tickets and drawing lists elsewhere in this album; what one provincial office of the Imperial Lottery took in and paid out in a single month.
+
+## goetzmann1993
+
+> Two betting receipts of the Imperial Lottery of France issued at Caen on 30 June 1810, printed one above the other on a single sheet, each headed with the commune and the office and registration numbers. The numbers staked are written across the form against the lines for bets on one, two, three or four of them, and the clerk has signed at the foot of each with the sum received noted at the right.
+
+## goetzmann1995
+
+> A ticket of the ninety-sixth drawing of the royal Westphalian lottery, number 18,053, of the six-seven-Groschen class, issued by the Königlich Westfälische General-Administration at Kassel in 1808. The printed German text sets out the class and what the holder is entitled to, with the directors named as Weichs and Schweer and a space for the collector's signature at the foot. The Kingdom of Westphalia was the satellite state created by Napoleon in 1807 for his brother Jérôme, and it ran a class lottery on the German model.
+
+## goetzmann1997
+
+> Two stake receipts of the Imperial Lottery of France from the bureau at Brussels, dated 1811, mounted one above the other on a single sheet. Each is headed with the commune, the drawing and the bureau and registration numbers, and carries the numbers staked against the printed lines for the kinds of stake. The same office's paper under the Republic and the Empire is at [1988] and [1990].
