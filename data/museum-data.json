@@ -2324,13 +2324,16 @@
       "Greek drachma"
     ],
     "language": [
-      "Greek"
+      "Greek",
+      "French",
+      "English",
+      "Russian"
     ],
     "issueYear": [
       "1898"
     ],
     "creator": "Kingdom of Greece (Ministry of Finance); guaranteed by Bank of England",
-    "notes": "Kingdom of Greece Gold-Guaranteed Loan bond, 2½% 1898, 2,500 drachmas, No. 30,731. International guarantee; authenticated by Bank of England. Issued under International Financial Commission supervision following Greek default of 1893. Read against the plate 2026-09-28 (0000-0299 pass).",
+    "notes": "Kingdom of Greece Gold-Guaranteed Loan bond, 2½% 1898, 2,500 drachmas, No. 30,731. International guarantee; authenticated by Bank of England. Issued under International Financial Commission supervision following Greek default of 1893. Read against the plate 2026-09-28 (0000-0299 pass). Language field completed 2026-09-28 to match the printed text (was 'Greek').",
     "subjectCountry": [
       "Greece"
     ],
@@ -3070,13 +3073,14 @@
       "British pound sterling"
     ],
     "language": [
-      "English"
+      "English",
+      "French"
     ],
     "issueYear": [
       "1903"
     ],
     "creator": "Bank of Roumania Limited",
-    "notes": "Bank of Roumania Limited, Share Warrant No. 5205, 5 shares (Nos. 17771-17775), £6 each, London, May 1903 Read against the plate 2026-09-28 (0000-0299 pass).",
+    "notes": "Bank of Roumania Limited, Share Warrant No. 5205, 5 shares (Nos. 17771-17775), £6 each, London, May 1903 Read against the plate 2026-09-28 (0000-0299 pass). Language field completed 2026-09-28 to match the printed text (was 'English').",
     "subjectCountry": [
       "Romania"
     ],
@@ -3187,13 +3191,16 @@
       "Russian ruble"
     ],
     "language": [
-      "Russian"
+      "Russian",
+      "French",
+      "English",
+      "German"
     ],
     "issueYear": [
       "1911"
     ],
     "creator": "St. Petersburg Private Commercial Bank",
-    "notes": "St. Petersburg Private Commercial Bank (Banque de Commerce Privée de St.-Pétersbourg), 200 Ruble share No. 82719, Emission 1911",
+    "notes": "St. Petersburg Private Commercial Bank (Banque de Commerce Privée de St.-Pétersbourg), 200 Ruble share No. 82719, Emission 1911 Language field completed 2026-09-28 to match the printed text (was 'Russian').",
     "subjectCountry": [
       "Russia"
     ],
@@ -3387,13 +3394,14 @@
       "British pound sterling"
     ],
     "language": [
-      "English"
+      "English",
+      "Russian"
     ],
     "issueYear": [
       "1911"
     ],
     "creator": "Black-Sea-Kuban Railway Company",
-    "notes": "Black-Sea-Kuban Railway Company, 4½% Bond £20 = 189 Rubles, No. A13852, Yekaterinador, 1911",
+    "notes": "Black-Sea-Kuban Railway Company, 4½% Bond £20 = 189 Rubles, No. A13852, Yekaterinador, 1911 Language field completed 2026-09-28 to match the printed text (was 'English').",
     "subjectCountry": [
       "Russia"
     ],
@@ -3624,13 +3632,14 @@
       "British pound sterling"
     ],
     "language": [
-      "English"
+      "English",
+      "French"
     ],
     "issueYear": [
       "1907"
     ],
     "creator": "Caramanian Iron Corporation Limited",
-    "notes": "Caramanian Iron Corporation Limited, Share Warrant No. 00,689, 10 shares (06,881-06,890), London/Paris, February 4, 1907",
+    "notes": "Caramanian Iron Corporation Limited, Share Warrant No. 00,689, 10 shares (06,881-06,890), London/Paris, February 4, 1907 Language field completed 2026-09-28 to match the printed text (was 'English').",
     "subjectCountry": [
       "Turkey"
     ],
@@ -4366,13 +4375,14 @@
       "British pound sterling"
     ],
     "language": [
-      "English"
+      "English",
+      "French"
     ],
     "issueYear": [
       "1907"
     ],
     "creator": "Colombian India-Rubber Exploration Company Limited",
-    "notes": "Colombian India-Rubber Exploration Company Limited, Share Warrant 25 shares (188,476-188,500), March 4, 1907",
+    "notes": "Colombian India-Rubber Exploration Company Limited, Share Warrant 25 shares (188,476-188,500), March 4, 1907 Language field completed 2026-09-28 to match the printed text (was 'English').",
     "subjectCountry": [
       "Colombia"
     ],
@@ -4526,13 +4536,15 @@
       "Portuguese escudo"
     ],
     "language": [
-      "Portuguese"
+      "Portuguese",
+      "French",
+      "English"
     ],
     "issueYear": [
       "1928"
     ],
     "creator": "Companhia de Mossamedes",
-    "notes": "Companhia de Mossamedes, Share Warrant for 5 shares (Nos. 2272126-2272130), Esc. 4.50 each, Capital 13,995,000 Esc.",
+    "notes": "Companhia de Mossamedes, Share Warrant for 5 shares (Nos. 2272126-2272130), Esc. 4.50 each, Capital 13,995,000 Esc. Language field completed 2026-09-28 to match the printed text (was 'Portuguese').",
     "subjectCountry": [
       "Angola"
     ],
@@ -4606,13 +4618,14 @@
       "French franc"
     ],
     "language": [
-      "Spanish"
+      "Spanish",
+      "French"
     ],
     "issueYear": [
       "1859"
     ],
     "creator": "Compañía de los Ferro-Carriles de Madrid a Zaragoza y a Alicante",
-    "notes": "Compañía MZA, 1 share 500 Francs/1,900 Reales Vellón, No. 233055, Madrid July 1, 1859; replacement certificate",
+    "notes": "Compañía MZA, 1 share 500 Francs/1,900 Reales Vellón, No. 233055, Madrid July 1, 1859; replacement certificate Language field completed 2026-09-28 to match the printed text (was 'Spanish').",
     "subjectCountry": [
       "Spain"
     ],
@@ -4724,13 +4737,14 @@
       "Spanish peseta"
     ],
     "language": [
-      "Spanish"
+      "Spanish",
+      "French"
     ],
     "issueYear": [
       "1904"
     ],
     "creator": "Compañía de las Hulleras de Ujo-Mieres",
-    "notes": "Compañía de las Hulleras de Ujo-Mieres, 5 shares 25 Pesetas Oro each (Nos. 370241-370245), No. 72049, Capital 15,000,000 Pesetas Oro, constituted Madrid 3 December 1904; seat at Ujo",
+    "notes": "Compañía de las Hulleras de Ujo-Mieres, 5 shares 25 Pesetas Oro each (Nos. 370241-370245), No. 72049, Capital 15,000,000 Pesetas Oro, constituted Madrid 3 December 1904; seat at Ujo Language field completed 2026-09-28 to match the printed text (was 'Spanish').",
     "subjectCountry": [
       "Spain"
     ],
@@ -5700,13 +5714,15 @@
       "Hungarian forint"
     ],
     "language": [
-      "Hungarian"
+      "Hungarian",
+      "French",
+      "German"
     ],
     "issueYear": [
       "1884"
     ],
     "creator": "Magyar Jelzálog-Hitelbank",
-    "notes": "Magyar Jelzálog-Hitelbank, 4% 100 Florin Prize Bond (previously recorded as 4½%), Series 2884, No. 061, Budapest July 1, 1884 (previously recorded as 1880); trilingual Hungarian/French/German",
+    "notes": "Magyar Jelzálog-Hitelbank, 4% 100 Florin Prize Bond (previously recorded as 4½%), Series 2884, No. 061, Budapest July 1, 1884 (previously recorded as 1880); trilingual Hungarian/French/German Language field completed 2026-09-28 to match the printed text (was 'Hungarian').",
     "subjectCountry": [
       "Hungary"
     ],
@@ -5741,13 +5757,14 @@
       "British pound sterling"
     ],
     "language": [
-      "English"
+      "English",
+      "French"
     ],
     "issueYear": [
       "1903"
     ],
     "creator": "El Callao Consolidated Gold Mining Company Limited",
-    "notes": "El Callao Consolidated Gold Mining Company Limited, Share Warrant No. 020887, 5 shares (273021-273025; previously recorded as 213621-213625), Capital £800,000, London, August 22, 1903",
+    "notes": "El Callao Consolidated Gold Mining Company Limited, Share Warrant No. 020887, 5 shares (273021-273025; previously recorded as 213621-213625), Capital £800,000, London, August 22, 1903 Language field completed 2026-09-28 to match the printed text (was 'English').",
     "subjectCountry": [
       "Venezuela"
     ],
@@ -6779,13 +6796,14 @@
       "British pound sterling"
     ],
     "language": [
-      "English"
+      "English",
+      "French"
     ],
     "issueYear": [
       "1886"
     ],
     "creator": "La Platense Flotilla Company Limited",
-    "notes": "La Platense Flotilla Company Limited. Share warrant to bearer, £10. No. 15821. One of 100,000 shares. River flotilla, Río de la Plata. Glasgow, 20 March 1886 (read from the plate; previously recorded as ca. early 1900s). Warrant number 821; chairman P. Denny.",
+    "notes": "La Platense Flotilla Company Limited. Share warrant to bearer, £10. No. 15821. One of 100,000 shares. River flotilla, Río de la Plata. Glasgow, 20 March 1886 (read from the plate; previously recorded as ca. early 1900s). Warrant number 821; chairman P. Denny. Language field completed 2026-09-28 to match the printed text (was 'English').",
     "subjectCountry": [
       "Argentina"
     ],
@@ -7017,13 +7035,14 @@
       "British pound sterling"
     ],
     "language": [
-      "English"
+      "English",
+      "French"
     ],
     "issueYear": [
       "1912"
     ],
     "creator": "Minas Geraes Goldfields Limited",
-    "notes": "Minas Geraes Goldfields Limited. Share warrant to bearer, 25 shares at £1 each. Capital £150,000. No. 023,770. London, July 1912.",
+    "notes": "Minas Geraes Goldfields Limited. Share warrant to bearer, 25 shares at £1 each. Capital £150,000. No. 023,770. London, July 1912. Language field completed 2026-09-28 to match the printed text (was 'English').",
     "subjectCountry": [
       "Brazil"
     ],
@@ -13322,13 +13341,14 @@
     ],
     "language": [
       "French",
+      "English",
       "Chinese"
     ],
     "issueYear": [
       "1922"
     ],
     "creator": "Government of the Chinese Republic",
-    "notes": "Chinese Government 8% Railway Equipment Loan of 1922 (with special guarantees). First Series of £800,000 or 48,000,000 Belgian francs (previously recorded as £8,000,000) in 40,000 treasury notes of £20 or 1,200 Belgian francs (previously recorded as 1,260). No. 04086. Brussels, 1 December 1922. Issued by the Société Belge d'Entreprises en Chine under an agreement of 2 October 1922. Signed by the Minister of Communications and the Chinese Minister in Brussels. Printed by J. Verschueren, Antwerp-Brussels.",
+    "notes": "Chinese Government 8% Railway Equipment Loan of 1922 (with special guarantees). First Series of £800,000 or 48,000,000 Belgian francs (previously recorded as £8,000,000) in 40,000 treasury notes of £20 or 1,200 Belgian francs (previously recorded as 1,260). No. 04086. Brussels, 1 December 1922. Issued by the Société Belge d'Entreprises en Chine under an agreement of 2 October 1922. Signed by the Minister of Communications and the Chinese Minister in Brussels. Printed by J. Verschueren, Antwerp-Brussels. Language field completed 2026-09-28 to match the printed text (was 'French, Chinese').",
     "subjectCountry": [
       "China"
     ],
@@ -13748,13 +13768,14 @@
       "French franc"
     ],
     "language": [
-      "Spanish"
+      "Spanish",
+      "French"
     ],
     "issueYear": [
       "1865"
     ],
     "creator": "Imperio de Mexico (Maximilian I)",
-    "notes": "Maximilian I of Mexico; Deuda Pública Exterior / Dette Publique Extérieure 1865; 500 francs; second series, No. 409,428 on BOTH sides (read at full resolution 2026-09-28). The earlier identifiers 1,085,528 and 1,086,528 were misreadings and are removed; the earlier description of 'two parallel sheets' is corrected: goetzmann0587 is the French side of the same sheet (mirror-image missing corner). Printed by the Imprimerie Centrale des Chemins de Fer, Napoléon Chaix, Paris.",
+    "notes": "Maximilian I of Mexico; Deuda Pública Exterior / Dette Publique Extérieure 1865; 500 francs; second series, No. 409,428 on BOTH sides (read at full resolution 2026-09-28). The earlier identifiers 1,085,528 and 1,086,528 were misreadings and are removed; the earlier description of 'two parallel sheets' is corrected: goetzmann0587 is the French side of the same sheet (mirror-image missing corner). Printed by the Imprimerie Centrale des Chemins de Fer, Napoléon Chaix, Paris. Language field completed 2026-09-28 to match the printed text (was 'Spanish').",
     "subjectCountry": [
       "Mexico"
     ],
@@ -14913,13 +14934,15 @@
       "United States dollar"
     ],
     "language": [
-      "English"
+      "English",
+      "German",
+      "French"
     ],
     "issueYear": [
       "1930"
     ],
     "creator": "German Government (Deutsches Reich)",
-    "notes": "Young Plan Loan 1930; No. 16917; $1,000; 5.5% gold bond; due June 1, 1965; J.P. Morgan & Co., New York; WWI reparations finance\n\n⚠ MERGED 2026-09-15. The collection held this document as a scan of one leaf; the September 2026 intake supplied it in full. The live scan is a different view of the same object and has been KEPT; nothing was overwritten. The 4 further leafves are attached as pages. Extent established by: same bond, serial C 16917 on both; the live scan is the REVERSE and 1470 the face, so retiling would lose the reverse. Description revised 2026-09-24 against all leaves.",
+    "notes": "Young Plan Loan 1930; No. 16917; $1,000; 5.5% gold bond; due June 1, 1965; J.P. Morgan & Co., New York; WWI reparations finance\n\n⚠ MERGED 2026-09-15. The collection held this document as a scan of one leaf; the September 2026 intake supplied it in full. The live scan is a different view of the same object and has been KEPT; nothing was overwritten. The 4 further leafves are attached as pages. Extent established by: same bond, serial C 16917 on both; the live scan is the REVERSE and 1470 the face, so retiling would lose the reverse. Description revised 2026-09-24 against all leaves. Language field completed 2026-09-28 to match the printed text (was 'English').",
     "subjectCountry": [
       "Germany"
     ],
@@ -16730,13 +16753,15 @@
     ],
     "language": [
       "Greek",
-      "French"
+      "French",
+      "English",
+      "Russian"
     ],
     "issueYear": [
       "1898"
     ],
     "creator": "Kingdom of Greece",
-    "notes": "Emprunt Hellénique Garanti 2½% or 1898; 2,500 Drachmas / 2,500 Francs, No. 43,842. Guaranteed by France, Great Britain, and Russia. Issued through the Bank of England. 937 rubles 50 kopecks. British 10s stamp duty, 1899 (previously described as a transfer stamp). Punch-canceled. Printed by Ch. Crabbé, Paris. Signed by Greek Minister of Finance and Bank of England Cashier.",
+    "notes": "Emprunt Hellénique Garanti 2½% or 1898; 2,500 Drachmas / 2,500 Francs, No. 43,842. Guaranteed by France, Great Britain, and Russia. Issued through the Bank of England. 937 rubles 50 kopecks. British 10s stamp duty, 1899 (previously described as a transfer stamp). Punch-canceled. Printed by Ch. Crabbé, Paris. Signed by Greek Minister of Finance and Bank of England Cashier. Language field completed 2026-09-28 to match the printed text (was 'Greek, French').",
     "subjectCountry": [
       "Greece"
     ],
@@ -18764,13 +18789,16 @@
       "United States dollar"
     ],
     "language": [
-      "Spanish"
+      "Spanish",
+      "German",
+      "English",
+      "French"
     ],
     "issueYear": [
       "1899"
     ],
     "creator": "Republica Mexicana / Ministerio de Hacienda",
-    "notes": "República Mexicana, Bono de la Deuda Consolidada Exterior Mexicana del 5% de 1899 (previously recorded as 3%), Serie C, No. 024766 (read from the plate; previously recorded as 621768). £200 / M 4,080 / $970 US gold. Total £22,700,000 (the description previously said $22,700,000) = M 463,080,000 = $110,095,000, in five series A-E (previously described as three). Interest quarterly; secured on 62% of customs duties. Pink stamp illegible at this resolution (1.2 MP scan).",
+    "notes": "República Mexicana, Bono de la Deuda Consolidada Exterior Mexicana del 5% de 1899 (previously recorded as 3%), Serie C, No. 024766 (read from the plate; previously recorded as 621768). £200 / M 4,080 / $970 US gold. Total £22,700,000 (the description previously said $22,700,000) = M 463,080,000 = $110,095,000, in five series A-E (previously described as three). Interest quarterly; secured on 62% of customs duties. Pink stamp illegible at this resolution (1.2 MP scan). Language field completed 2026-09-28 to match the printed text (was 'Spanish').",
     "subjectCountry": [
       "Mexico"
     ],
