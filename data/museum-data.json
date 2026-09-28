@@ -24429,7 +24429,7 @@
   {
     "id": "goetzmann1100",
     "title": "Moskovische Handelscompagnie Obligation, Amsterdam, 1717",
-    "description": "An obligation for 1,000 Caroli guilders at twenty stuivers, dated at Amsterdam 23 April 1717 and numbered 21, acknowledging a debt to Egbert Thesingh. The undersigned were authorized to raise 65,000 guilders for the conservation and continuation of the Muscovy trade, under a resolution of the States General of 27 March 1717 and a commission from the burgomasters of Amsterdam of 6 April. Repayment falls due after six months with interest at four percent, secured on the half-percent duty levied on goods shipped to and from Russia. The back records eleven annual payments of forty guilders, 1718 to 1728.",
+    "description": "An obligation for 1,000 Caroli guilders at twenty stuivers, dated at Amsterdam 23 April 1717 and numbered 21, acknowledging a debt to Egbert Thesingh. The undersigned were authorized to raise 65,000 guilders for the conservation and continuation of the Muscovy trade, under a resolution of the States General of 27 March 1717 and a commission from the burgomasters of Amsterdam of 6 April. Repayment falls due after six months with interest at four percent, secured on the half-percent duty levied on goods shipped to and from Russia; the signers declare themselves not personally liable. Thesingh, the lender, signs among them. The back records eleven annual payments of forty guilders, 1718 to 1728.",
     "type": [
       "Bond"
     ],
@@ -24459,7 +24459,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Signed by Egbert Thesingh, Arnoldus Dix, Christoffel Brants and Leonard van Hoesen. The verso, goetzmann1101, carries eleven annual interest endorsements running 1718 to 1728. The companion obligation named in the source title, goetzmann0791-0792, is No. 8 to Nicolaes Kromwinkel of 22 April 1717 -- a different object, not a duplicate, and not yet catalogued (docs/ICF_PENDING_ADDITIONS.md). Checked against the plate 2026-09-25. ⏸ goetzmann1298 is a lower-resolution scan (3.4 MP) of this same sheet; flagged for the user, not removed.",
+    "notes": "Signed by Egbert Thesingh, Arnoldus Dix, Christoffel Brants and Leonard van Hoesen. The verso, goetzmann1101, carries eleven annual interest endorsements running 1718 to 1728. The companion obligation named in the source title, goetzmann0791-0792, is No. 8 to Nicolaes Kromwinkel of 22 April 1717 -- a different object, not a duplicate, and not yet catalogued (docs/ICF_PENDING_ADDITIONS.md). Checked against the plate 2026-09-25. Egbert Thesingh is both the creditor named in manuscript and one of the authorized signers, so he was commissioner and lender at once. Embossed twenty-four stuiver revenue stamp with the arms of Holland. No issuing body is named on the face beyond 'wy ondergeschreeven tot het negotieeren ... geauthoriseert'; 'Moskovische Handelscompagnie' is the source title's name for the undertaking, not a printed style. The currency is Caroli guilders of twenty stuivers, the guilder of account. The signers declare themselves not personally liable. A second, lower-resolution scan of this same sheet (3.4 MP) was catalogued as goetzmann1298-1299 and removed as a duplicate scan on 2026-09-28; its notes are merged here.",
     "identifiers": [
       "No. 21"
     ],
@@ -28983,62 +28983,6 @@
       },
       {
         "id": "goetzmann1297",
-        "description": ""
-      }
-    ]
-  },
-  {
-    "id": "goetzmann1298",
-    "file": "goetzmann1298.jpg",
-    "title": "Muscovy Trade Loan Obligation, Amsterdam, 1717",
-    "description": "An obligation, number 21, for 1,000 guilders, issued at Amsterdam on 23 April 1717 by the persons authorized to raise 65,000 guilders to keep up the Dutch trade with Muscovy, under a resolution of the States General of 27 March 1717 and a commission from the burgomasters of Amsterdam. The money was repayable six months after date with interest at four percent a year, and was secured on a duty of half a percent on goods shipped between the Netherlands and Russia, to run until the whole 65,000 guilders was repaid. The signers declare themselves not personally liable. The creditor, named by hand, is Egbert Thesingh, who also signs among the authorized persons.",
-    "type": [
-      "Bond"
-    ],
-    "location": [
-      "Netherlands",
-      "Russia"
-    ],
-    "subjectCountry": [
-      "Netherlands",
-      "Russia"
-    ],
-    "issuingCountry": [
-      "Netherlands"
-    ],
-    "creator": "",
-    "issueYear": [
-      "1717"
-    ],
-    "currency": [
-      "Dutch guilder"
-    ],
-    "language": [
-      "Dutch"
-    ],
-    "period": [
-      "18th Century"
-    ],
-    "keywords": [],
-    "owner": "ICF",
-    "notes": "Two leaves, recto and verso, with an embossed twenty-four stuiver revenue stamp bearing the arms of Holland. The creditor named in manuscript is Egbert Thesingh, who also signs among the authorised persons, so he was both commissioner and lender; the other signatures include Arnoldus Dix, Christoffel Brants and Leonard van Hoesen. No issuing body is named on the face beyond \"wy ondergeschreeven tot het negotieeren ... geauthoriseert\", so the creator field is left empty. The currency is recorded as Dutch guilder; the face specifies Caroli guilders of twenty stuivers, the guilder of account. The charge is on a duty levied on the Russia trade in both directions, so the loan was serviced by the very traffic it was raised to keep going. ⏸ DUPLICATE SCAN: the same physical sheet as goetzmann1100 (same \"Du Pay\" note, blots, stamp and signatures; verso 1299 = 1101). This scan is 3.4 MP; goetzmann1100 is 36.7 MP. Flagged for the user, not removed. Checked closely at full resolution 2026-09-25.",
-    "identifiers": [
-      "No. 21"
-    ],
-    "namedIndividuals": [
-      "Egbert Thesingh",
-      "Arnoldus Dix",
-      "Christoffel Brants",
-      "Leonard van Hoesen"
-    ],
-    "transcription": "",
-    "pages": [
-      {
-        "id": "goetzmann1298",
-        "description": ""
-      },
-      {
-        "id": "goetzmann1299",
         "description": ""
       }
     ]
