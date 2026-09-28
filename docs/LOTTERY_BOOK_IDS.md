@@ -41,7 +41,7 @@ record id; the rest are its `pages[]`.
 | 12 | `goetzmann1824` | École Royale Militaire Lottery Ticket, Paris, 1763 | `12.jpg`→`1824` |
 | 13 | `goetzmann1825` | Instructive Notice on the École Royale Militaire Lottery, Paris, 1757 | `13a.jpg`→`1825` · `13b.jpg`→`1826` · `13c.jpg`→`1827` |
 | 14 | `goetzmann1828` | École Royale Militaire Lottery Receipt, Grenoble, 1766 | `14.jpg`→`1828` |
-| 15 | `goetzmann1829` | École Royale Militaire Lottery Receipt, Unissued Form | `15.jpg`→`1829` |
+| 15 | `goetzmann1829` | École Royale Militaire Lottery Receipt, Unissued Form, 1750s | `15.jpg`→`1829` |
 | 16 | `goetzmann1830` | École Royale Militaire Lottery Ticket, 1768 | `16.jpg`→`1830` |
 | 17 | `goetzmann1831` | Decree Establishing the Hôtel de Ville de Paris Lottery, 1760 | `17a.jpg`→`1831` · `17b.jpg`→`1832` · `17c.jpg`→`1833` · `17d.jpg`→`1834` |
 | 18 | `goetzmann1835` | Notice of the Twenty-Third Hôtel de Ville de Paris Lottery Drawing, 1762 | `18.jpg`→`1835` |
@@ -90,15 +90,15 @@ record id; the rest are its `pages[]`.
 | 61 | `goetzmann1943` | Public Notice of a Lottery of Five Objects on the April 1792 Loterie Royale Drawing, Paris, 1792 | `61.jpg`→`1943` |
 | 62 | `goetzmann1944` | Decree of the National Convention Suppressing All Lotteries, Paris, 1793 | `62a.jpg`→`1944` · `62b.jpg`→`1945` |
 | 63 | `goetzmann1946` | Regulation of the Petite Loterie Nationale, Paris, 1793 | `63a.jpg`→`1946` · `63b.jpg`→`1947` · `63c.jpg`→`1948` · `63d.jpg`→`1949` · `63e.jpg`→`1950` · `63f.jpg`→`1951` · `63g.jpg`→`1952` |
-| 64 | `goetzmann1953` | Tolozé's Address to the Committee of Legislation on the Petite Loterie Parisienne, Paris | `64a.jpg`→`1953` · `64b.jpg`→`1954` · `64c.jpg`→`1955` · `64d.jpg`→`1956` · `64e.jpg`→`1957` · `64f.jpg`→`1958` · `64g.jpg`→`1959` · `64h.jpg`→`1960` |
+| 64 | `goetzmann1953` | Tolozé's Address to the Committee of Legislation on the Petite Loterie Parisienne, Paris, 1795 or later | `64a.jpg`→`1953` · `64b.jpg`→`1954` · `64c.jpg`→`1955` · `64d.jpg`→`1956` · `64e.jpg`→`1957` · `64f.jpg`→`1958` · `64g.jpg`→`1959` · `64h.jpg`→`1960` |
 | 65 | `goetzmann1961` | Lartigue's Plan of a Finance Operation, to the National Convention, Paris, Year III (1795) | `65a.jpg`→`1961` · `65b.jpg`→`1962` · `65c.jpg`→`1963` · `65d.jpg`→`1964` · `65e.jpg`→`1965` · `65f.jpg`→`1966` · `65g.jpg`→`1967` · `65h.jpg`→`1968` |
-| 66 | `goetzmann1969` | Précis sur les Loteries, Paris | `66a.jpg`→`1969` · `66b.jpg`→`1970` · `66c.jpg`→`1971` |
+| 66 | `goetzmann1969` | Précis sur les Loteries, Paris, ca. 1793-1794 | `66a.jpg`→`1969` · `66b.jpg`→`1970` · `66c.jpg`→`1971` |
 | 67 | `goetzmann1972` | National Lottery of Houses and Furniture Ticket, Year III (1795) | `67.jpg`→`1972` |
 | 68 | `goetzmann1973` | Second National Lottery of Houses and Furniture Ticket, Year IV (1795) | `68.jpg`→`1973` |
 | 69 | `goetzmann1974` | Twelve Million Lottery Ticket for Three Hundred Francs, Paris, Year VIII (1799) | `69.jpg`→`1974` |
 | 70 | `goetzmann1975` | Prize Notice for a Toucan-Feather Garniture, Paris, Year VI (1798) | `70.jpg`→`1975` |
 | 71 | `goetzmann1976` | Lottery of a Spun-Glass Piece, Bordeaux, 1808 | `71.jpg`→`1976` |
-| 72 | `goetzmann1977` | Loterie Nationale Public Notice No. 136, Paris | `72a.jpg`→`1977` · `72b.jpg`→`1978` · `72c.jpg`→`1979` |
+| 72 | `goetzmann1977` | Loterie Nationale Public Notice No. 136, Paris, Year VI (1797) | `72a.jpg`→`1977` · `72b.jpg`→`1978` · `72c.jpg`→`1979` |
 | 73 | `goetzmann1980` | Loterie Nationale Drawing List, Lyon, 9 Prairial Year X (1802) | `73.jpg`→`1980` |
 | 74 | `goetzmann1981` | Loterie Nationale Stake Receipts, Bureau 107, Paris, Year VI (1798) | `74.jpg`→`1981` |
 | 75 | `goetzmann1982` | Loterie Nationale Stake Receipt, Toulon, Prairial Year VI (1798) | `75.jpg`→`1982` |
@@ -115,7 +115,7 @@ record id; the rest are its `pages[]`.
 | 86 | `goetzmann1995` | Kingdom of Westphalia General Class Lottery Quarter Ticket, Kassel, 1808 | `86.jpg`→`1995` |
 | 87 | `goetzmann1996` | Lottery of a Fine English Engraving, One Franc the Ticket | `87.jpg`→`1996` |
 | 88 | `goetzmann1997` | Imperial Lottery of France Stake Receipts, Brussels Drawing, 1811 | `88a.jpg`→`1997` · `88b.jpg`→`1998` |
-| 89 | `goetzmann1999` | Loterie Royale de France Public Notice No. 136 | `89a.jpg`→`1999` · `89b.jpg`→`2000` · `89c.jpg`→`2001` |
+| 89 | `goetzmann1999` | Loterie Royale de France Public Notice No. 136, 1814-1836 | `89a.jpg`→`1999` · `89b.jpg`→`2000` · `89c.jpg`→`2001` |
 | 90 | `goetzmann2002` | Loterie Royale de France Stake Receipt, Paris, 1818 | `90.jpg`→`2002` |
 | 91 | `goetzmann2003` | Loterie Royale de France Stake Receipt, Strasbourg, 1818 | `91.jpg`→`2003` |
 | 92 | `goetzmann2004` | Loterie Royale de France Drawing List, Bordeaux, 1823 | `92.jpg`→`2004` |

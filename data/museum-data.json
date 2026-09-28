@@ -3474,7 +3474,7 @@
   },
   {
     "id": "goetzmann0308",
-    "title": "Calvert, Waco & Brazos Valley Railroad Company Blank Stock Certificate",
+    "title": "Calvert, Waco & Brazos Valley Railroad Company Blank Stock Certificate, 1899-1900",
     "description": "A blank, unissued stock certificate of the Calvert, Waco & Brazos Valley Railroad Company, a Texas corporation, for shares of one hundred dollars each. The owner's name, the number of shares and the date are all empty, and the printed date line reads only \"18__\": the certificate was never issued. The shares were transferable only on the company's books at its office in Calvert, Texas. The company was chartered in Texas on 28 June 1899, with George J. and Frank J. Gould among its first directors, and was merged into the International and Great Northern Railroad on 1 May 1901.",
     "file": "goetzmann0308.jpg",
     "type": [
@@ -3502,7 +3502,7 @@
       "1899"
     ],
     "creator": "Calvert, Waco & Brazos Valley Railroad Company",
-    "notes": "Calvert, Waco & Brazos Valley Railroad Company, blank specimen certificate, State of Texas Dated 2026-09-24 from the charter of 28 June 1899 (Handbook of Texas); the company existed only until May 1901, so this unissued form, its date line printed \"18__\", belongs to 1899-1900. Previously recorded as 1890, before the company existed.",
+    "notes": "Calvert, Waco & Brazos Valley Railroad Company, blank specimen certificate, State of Texas Dated 2026-09-24 from the charter of 28 June 1899 (Handbook of Texas); the company existed only until May 1901, so this unissued form, its date line printed \"18__\", belongs to 1899-1900. Previously recorded as 1890, before the company existed. Title given the year '1899-1900' on 2026-09-28 at the user's request: the form's date line is printed 18__ and the company was chartered 28 June 1899. (Was 'Calvert, Waco & Brazos Valley Railroad Company Blank Stock Certificate'.)",
     "subjectCountry": [
       "United States"
     ],
@@ -20198,7 +20198,7 @@
   {
     "id": "goetzmann0867",
     "file": "goetzmann0867.jpg",
-    "title": "Table for the Payment of the Second Year's Interest, Philadelphia",
+    "title": "Table for the Payment of the Second Year's Interest, Philadelphia, 1780 or later",
     "description": "A printed table for the payment of the second year's interest due on all sums loaned to the United States between the 28th of February 1778 and the 28th of February 1780, published at Philadelphia by David C. Claypoole, printer to the Honorable the Congress. The loans are those taken through the Continental loan offices during the war, on which interest fell due yearly; the table set out what was owed so that it could be read off rather than computed. The title page carries no date.",
     "type": [
       "Register"
@@ -20213,7 +20213,9 @@
       "United States"
     ],
     "creator": "United States in Congress Assembled",
-    "issueYear": [],
+    "issueYear": [
+      "1780"
+    ],
     "currency": [
       "United States dollar"
     ],
@@ -20225,7 +20227,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Twelve leaves, stitched. ⚠ Undated on its face, so no year is given and issueYear is empty; the content runs to February 1780 and Claypoole styles himself printer to Congress, which places it after that. An Evans bibliography number, E. 17050, is pencilled on the title page by a previous cataloguer and has not been verified here.",
+    "notes": "Twelve leaves, stitched. ⚠ Undated on its face, so no year is given and issueYear is empty; the content runs to February 1780 and Claypoole styles himself printer to Congress, which places it after that. An Evans bibliography number, E. 17050, is pencilled on the title page by a previous cataloguer and has not been verified here. Title given the year '1780 or later' on 2026-09-28 at the user's request: its tables run to February 1780. (Was 'Table for the Payment of the Second Year's Interest, Philadelphia'.)",
     "identifiers": [],
     "namedIndividuals": [],
     "transcription": "",
@@ -21207,7 +21209,7 @@
   },
   {
     "id": "goetzmann0916",
-    "title": "Hotel Waldorf-Astoria Corporation Specimen Share",
+    "title": "Hotel Waldorf-Astoria Corporation Specimen Share, 1929 or later",
     "description": "A specimen certificate of no-par common stock in the Hotel Waldorf-Astoria Corporation, incorporated in New York as the company behind the new Waldorf-Astoria. Marked SPECIMEN and numbered 000, it is an unissued printer's proof. It names The Second National Bank of Boston as transfer agent and The First National Bank of Boston as registrar, for an authorized capital of 300,000 shares, and its seal is dated 1929. The 47-story tower at 301 Park Avenue opened on 1 October 1931 as the largest hotel in the world; the original Waldorf-Astoria had been demolished in 1929 to clear its Fifth Avenue site for the Empire State Building.",
     "file": "goetzmann0916.jpg",
     "type": [
@@ -21248,9 +21250,11 @@
     "language": [
       "English"
     ],
-    "issueYear": [],
+    "issueYear": [
+      "1929"
+    ],
     "creator": "Hotel Waldorf-Astoria Corporation",
-    "notes": "SPECIMEN certificate; reverse (goetzmann0917) is blank transfer form Transfer agent: The Second National Bank of Boston; registrar: The First National Bank of Boston (the description previously named the First National as transfer agent). Authorized 300,000 shares without par value; certificate for less than 100 shares; seal dated 1929; facsimile signatures of the Treasurer and the President, Lucius Boomer; punch-canceled. Printed by Quayle & Son, New York. Checked against the plate 2026-09-25.",
+    "notes": "SPECIMEN certificate; reverse (goetzmann0917) is blank transfer form Transfer agent: The Second National Bank of Boston; registrar: The First National Bank of Boston (the description previously named the First National as transfer agent). Authorized 300,000 shares without par value; certificate for less than 100 shares; seal dated 1929; facsimile signatures of the Treasurer and the President, Lucius Boomer; punch-canceled. Printed by Quayle & Son, New York. Checked against the plate 2026-09-25. Title given the year '1929 or later' on 2026-09-28 at the user's request: the corporate seal is dated 1929. (Was 'Hotel Waldorf-Astoria Corporation Specimen Share'.)",
     "subjectCountry": [
       "United States"
     ],
@@ -25460,7 +25464,7 @@
   },
   {
     "id": "goetzmann1155",
-    "title": "Crédit Foncier Agricole du Maroc Share, Paris",
+    "title": "Crédit Foncier Agricole du Maroc Share, Paris, 1920 or later",
     "description": "A fully paid bearer share of one hundred francs in the Crédit Foncier Agricole du Maroc, a French société anonyme with its registered office at 92 rue de Richelieu, Paris, and a capital of one million francs divided into ten thousand such shares. Its statutes were deposited with Maître Lescuyer, notary at Étampes, on 17 March 1920. The certificate is numbered 8495 and signed by two administrators. Its printed dateline, “Paris, le ___ 19__”, was never completed, so the share bears no date of issue.",
     "type": [
       "Stock Certificate"
@@ -25491,7 +25495,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Two leaves. Bears a French subscription stamp at the head and the company seal in red; printed by Thibaud, Brossier & Cie of Saint-Étienne. ⚠ Undated: the dateline was left blank, so no year is given in the title and issueYear is empty. Period is set from the 1920 statutes, which is the earliest the share can be. ⚠ DATED 2026-09-18 from statutes deposited with Me Lescuyer, notary at Étampes. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier.",
+    "notes": "Two leaves. Bears a French subscription stamp at the head and the company seal in red; printed by Thibaud, Brossier & Cie of Saint-Étienne. ⚠ Undated: the dateline was left blank, so no year is given in the title and issueYear is empty. Period is set from the 1920 statutes, which is the earliest the share can be. ⚠ DATED 2026-09-18 from statutes deposited with Me Lescuyer, notary at Étampes. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier. Title given the year '1920 or later' on 2026-09-28 at the user's request: the latest date printed is the 1920 statutes. (Was 'Crédit Foncier Agricole du Maroc Share, Paris'.)",
     "identifiers": [
       "No. 8495"
     ],
@@ -25834,7 +25838,7 @@
   },
   {
     "id": "goetzmann1171",
-    "title": "Compagnie des Drogueries Africaines Share, Dijon",
+    "title": "Compagnie des Drogueries Africaines Share, Dijon, 1928 or later",
     "description": "A bearer share of one hundred francs, série A, numbered 038431, in the Compagnie des Drogueries Africaines et Manufacture de Matières Colorantes Belga Réunies, a société anonyme with its registered office at 12 rue Jean-de-Cirey, Dijon. Its capital of four million francs was divided into 38,500 bearer shares of one hundred francs and 1,500 registered shares. The statutes were deposited with Maître de Monjour, notary at Dijon, on 21 November 1927, and amended and ratified by an extraordinary general meeting of 10 August 1928. The share bears no date of issue and retains coupons numbered to thirty.",
     "type": [
       "Stock Certificate"
@@ -25863,7 +25867,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Two leaves. Signed by the president of the board and an administrator; printed by Monloup-Robert of Lyon. ⚠ Undated: no dateline is printed, so no year is given and issueYear is empty; period is set from the 1928 ratification, the earliest the share can be. The full company name is kept in `creator`; the title uses the short form. The certificate is engraved with African plantation labour and crates marked MÉDICAMENTS, recorded here rather than in the description. ⚠ DATED 2026-09-18 from statutes of 21 November 1927 as amended and ratified by the extraordinary general meeting of 10 August 1928, the later of the two authorities printed on the share. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier.",
+    "notes": "Two leaves. Signed by the president of the board and an administrator; printed by Monloup-Robert of Lyon. ⚠ Undated: no dateline is printed, so no year is given and issueYear is empty; period is set from the 1928 ratification, the earliest the share can be. The full company name is kept in `creator`; the title uses the short form. The certificate is engraved with African plantation labour and crates marked MÉDICAMENTS, recorded here rather than in the description. ⚠ DATED 2026-09-18 from statutes of 21 November 1927 as amended and ratified by the extraordinary general meeting of 10 August 1928, the later of the two authorities printed on the share. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier. Title given the year '1928 or later' on 2026-09-28 at the user's request: the latest date printed is the ratification of 10 August 1928. (Was 'Compagnie des Drogueries Africaines Share, Dijon'.)",
     "identifiers": [
       "Série A, No. 038431"
     ],
@@ -26346,7 +26350,7 @@
   },
   {
     "id": "goetzmann1188",
-    "title": "La Kotto Share, Paris",
+    "title": "La Kotto Share, Paris, 1899 or later",
     "description": "A fully paid bearer share of five hundred francs in La Kotto, a société anonyme with its registered office at 7 rue des Italiens, Paris, and a capital of five million francs divided into ten thousand such shares. Its statutes were deposited with the minutes of Maître Lanquest, notary at Paris, on 6 September 1899. The certificate is numbered 6,015, signed by two administrators, and carries a French subscription tax stamp. Its printed dateline, “Paris, le ___”, was left blank, so the share bears no date of issue.",
     "type": [
       "Stock Certificate"
@@ -26375,7 +26379,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Three leaves. Printed by Imprimerie Chaix, rue Bergère, Paris. ⚠ Undated: the dateline is blank, so no year is given and issueYear is empty; period follows the 1899 statutes, the earliest the share can be. ⚠ The certificate names NO territory. The company name and its engraving of tropical Africa point to the Kotto, a tributary in Ubangi-Shari and today the Central African Republic, and to the French Congo concession companies chartered in 1899. Since the sheet does not say so, subjectCountry is left as France; worth confirming before adding an African country. The engraving shows African figures carrying loads and working alongside a river steamer, with hippopotamus, crocodile and elephant. ⚠ DATED 2026-09-18 from statutes deposited with Me Lanquest, notary at Paris. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier.",
+    "notes": "Three leaves. Printed by Imprimerie Chaix, rue Bergère, Paris. ⚠ Undated: the dateline is blank, so no year is given and issueYear is empty; period follows the 1899 statutes, the earliest the share can be. ⚠ The certificate names NO territory. The company name and its engraving of tropical Africa point to the Kotto, a tributary in Ubangi-Shari and today the Central African Republic, and to the French Congo concession companies chartered in 1899. Since the sheet does not say so, subjectCountry is left as France; worth confirming before adding an African country. The engraving shows African figures carrying loads and working alongside a river steamer, with hippopotamus, crocodile and elephant. ⚠ DATED 2026-09-18 from statutes deposited with Me Lanquest, notary at Paris. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier. Title given the year '1899 or later' on 2026-09-28 at the user's request: the latest date printed is the 1899 statutes. (Was 'La Kotto Share, Paris'.)",
     "identifiers": [
       "No. 6,015"
     ],
@@ -35473,9 +35477,9 @@
     "id": "goetzmann1635",
     "file": "goetzmann1635.jpg",
     "transcription": "",
-    "title": "Buffalo, Rochester and Pittsburgh Railroad Stock Certificate",
+    "title": "Buffalo, Rochester and Pittsburgh Railroad Stock Certificate, 1890s",
     "description": "A certificate declaring that George W. Parsons is entitled to one hundred shares of one hundred dollars each of the common capital stock of the Buffalo, Rochester and Pittsburgh Railroad Company, transferable only on the books of the company in person or by attorney on surrender of the certificate. The engraved border sets a locomotive at the left against a group of hunting dogs at the right, and the face is struck CANCELLED over the registrar's stamp, Central Trust Company of New York. Two leaves; the reverse carries the assignment. The road ran coal north from the Pennsylvania fields to Rochester and Buffalo.",
-    "notes": "No. A102, one hundred shares of $100, holder Geo. W. Parsons. ⚠ The date is struck through by the cancellation and reads only as 189-; issueDate is left blank rather than guessed. ⚠ The master spreadsheet calls the company 'Rochester Pittsburgh Railroad'; the plate reads BUFFALO ROCHESTER AND PITTSBURGH RAILROAD COMPANY.",
+    "notes": "No. A102, one hundred shares of $100, holder Geo. W. Parsons. ⚠ The date is struck through by the cancellation and reads only as 189-; issueDate is left blank rather than guessed. ⚠ The master spreadsheet calls the company 'Rochester Pittsburgh Railroad'; the plate reads BUFFALO ROCHESTER AND PITTSBURGH RAILROAD COMPANY. Title given the year '1890s' on 2026-09-28 at the user's request: the date line reads 189-, the last figure struck through. (Was 'Buffalo, Rochester and Pittsburgh Railroad Stock Certificate'.)",
     "type": [
       "Stock Certificate"
     ],
@@ -35522,15 +35526,17 @@
     "subjectCountry": [
       "United States"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1890"
+    ]
   },
   {
     "id": "goetzmann1637",
     "file": "goetzmann1637.jpg",
     "transcription": "",
-    "title": "Missouri Pacific Railroad Common Stock Certificate, Amsterdam Holding",
+    "title": "Missouri Pacific Railroad Common Stock Certificate, Amsterdam Holding, 1918 or later",
     "description": "A certificate for ten fully paid and non-assessable shares of the par value of one hundred dollars each of the common capital stock of the Missouri Pacific Railroad Company, incorporated in 1917 under the laws of the State of Missouri, number 056809. The registered holder is the Amsterdam administratiekantoor of American securities founded by Broes & Gosman, Ten Have & Van Essen and Jarman & Zoonen. Printed across the face at length are the articles governing the five percent cumulative preference of the preferred stock and the order of distribution on liquidation. A Netherlands stamp-duty seal is affixed at the right and the certificate is overprinted CANCELLED; the registrar is the National Bank of the City of New York.",
-    "notes": "No. 056809, ten common shares of $100; holder the Amsterdam administratiekantoor. ⚠ The certificate's own date line is obscured by the cancellation overprint; issueDate is left blank. The company was incorporated in 1917 and the text refers to dividends from 30 June 1918, so the certificate is later than that.",
+    "notes": "No. 056809, ten common shares of $100; holder the Amsterdam administratiekantoor. ⚠ The certificate's own date line is obscured by the cancellation overprint; issueDate is left blank. The company was incorporated in 1917 and the text refers to dividends from 30 June 1918, so the certificate is later than that. Title given the year '1918 or later' on 2026-09-28 at the user's request: the text refers to dividends from 30 June 1918. (Was 'Missouri Pacific Railroad Common Stock Certificate, Amsterdam Holding'.)",
     "type": [
       "Stock Certificate"
     ],
@@ -35567,7 +35573,9 @@
       "United States",
       "Netherlands"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1918"
+    ]
   },
   {
     "id": "goetzmann1638",
@@ -36140,9 +36148,9 @@
     "id": "goetzmann1661",
     "file": "goetzmann1661.jpg",
     "transcription": "",
-    "title": "Établissements Quillery Hundred New Franc Bearer Share, Paris",
+    "title": "Établissements Quillery Hundred New Franc Bearer Share, Paris, 1960 or later",
     "description": "A bearer share of one hundred new francs, fully paid, number 0,009,624, in Établissements Quillery, a société anonyme with its registered office at Paris and a capital of five million eight hundred and fifty thousand new francs. The sheet is printed in red and brown with the company's monogram in a roundel, and the coupon sheet is still attached along the foot, its coupons unclipped. The denomination in nouveaux francs places it after the currency reform of 1960, when a hundred old francs became one new one.",
-    "notes": "N° 0.009.624; action de cent nouveaux francs au porteur entièrement libérée; capital 5,850,000 NF. ⚠ The plate carries no issue date; issueDate is left blank. The nouveau franc dates it to 1960 or later.",
+    "notes": "N° 0.009.624; action de cent nouveaux francs au porteur entièrement libérée; capital 5,850,000 NF. ⚠ The plate carries no issue date; issueDate is left blank. The nouveau franc dates it to 1960 or later. Title given the year '1960 or later' on 2026-09-28 at the user's request: it is in nouveaux francs, introduced in 1960. (Was 'Établissements Quillery Hundred New Franc Bearer Share, Paris'.)",
     "type": [
       "Stock Certificate"
     ],
@@ -36176,7 +36184,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1960"
+    ]
   },
   {
     "id": "goetzmann1662",
@@ -36238,9 +36248,9 @@
     "id": "goetzmann1664",
     "file": "goetzmann1664.jpg",
     "transcription": "",
-    "title": "United States Steel Corporation Common Stock Certificate, Amsterdam Holding",
+    "title": "United States Steel Corporation Common Stock Certificate, Amsterdam Holding, 1938",
     "description": "A certificate for ten shares without par value in the common capital stock of the United States Steel Corporation, incorporated under the laws of the State of New Jersey, number Q24379. The registered holder is the Amsterdam administratiekantoor of American securities founded by Broes & Gosman, Ten Have & Van Essen and Jarman & Zoonen. The conditions of the seven percent cumulative preferred stock are printed across the face, and Guaranty Trust Company is registrar. A Netherlands stamp-duty seal is affixed at the right. Two leaves; the reverse carries the assignment to Hallgarten & Co. of 44 Pine Street, New York, endorsed at Amsterdam in January 1940 with the administration office's stamp.",
-    "notes": "No. Q24379, ten common shares without par value; Amsterdam administratiekantoor. ⚠ The certificate's own date line is not legible under the endorsements; the transfer-agent panel is dated 1938 and the reverse assignment 13 January 1940. issueDate is left blank.",
+    "notes": "No. Q24379, ten common shares without par value; Amsterdam administratiekantoor. ⚠ The certificate's own date line is not legible under the endorsements; the transfer-agent panel is dated 1938 and the reverse assignment 13 January 1940. issueDate is left blank. Title given the year '1938' on 2026-09-28 at the user's request: the transfer agent's countersignature is dated 1938. (Was 'United States Steel Corporation Common Stock Certificate, Amsterdam Holding'.)",
     "type": [
       "Stock Certificate"
     ],
@@ -36287,15 +36297,17 @@
       "United States",
       "Netherlands"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1938"
+    ]
   },
   {
     "id": "goetzmann1666",
     "file": "goetzmann1666.jpg",
     "transcription": "",
-    "title": "Société Toulousaine du Bazacle Founder's Share, Toulouse",
+    "title": "Société Toulousaine du Bazacle Founder's Share, Toulouse, 1928 or later",
     "description": "A bearer founder's share, number 010,095, of the Société Toulousaine du Bazacle, a company with its office at 10 Quai Saint-Pierre, Toulouse, and a capital of 13,150,000 francs in 131,500 shares of 100 francs. It was created by the shareholders' meeting of 26 April 1928 and gives its holder one twenty-thousandth of the rights attached to these shares. A founder's share carried a claim on profits rather than on capital and was given to those who had brought the undertaking into being. The company worked the mills and power station on the weir of the Garonne at the Bazacle.",
-    "notes": "N° 010095, part de fondateur au porteur; capital 13,150,000 francs in 131,500 shares of 100 francs; statutes modified 18 March 1927 and 26 April 1928; stamp authorisation JO of 11 February 1930. ⚠ This is the 20th-century société anonyme, NOT the medieval Bazacle milling company whose shares are often called the earliest joint-stock holdings; the two should not be conflated. ⚠ DATED 2026-09-18 from the plate. The share carries no \"issued on\" line, but it is created by the resolution printed directly above its serial: \"Délibération de l’Assemblée Générale extraordinaire du 26 Avril 1928\". That resolution is the share’s own authority, so the year is taken from it. ⚠ The sheet itself cannot have been PRINTED before 1930: the stamp-duty authorisation published in the Journal Officiel of 11 February 1930 is printed on it. 1928 dates the issue, not the impression.",
+    "notes": "N° 010095, part de fondateur au porteur; capital 13,150,000 francs in 131,500 shares of 100 francs; statutes modified 18 March 1927 and 26 April 1928; stamp authorisation JO of 11 February 1930. ⚠ This is the 20th-century société anonyme, NOT the medieval Bazacle milling company whose shares are often called the earliest joint-stock holdings; the two should not be conflated. ⚠ DATED 2026-09-18 from the plate. The share carries no \"issued on\" line, but it is created by the resolution printed directly above its serial: \"Délibération de l’Assemblée Générale extraordinaire du 26 Avril 1928\". That resolution is the share’s own authority, so the year is taken from it. ⚠ The sheet itself cannot have been PRINTED before 1930: the stamp-duty authorisation published in the Journal Officiel of 11 February 1930 is printed on it. 1928 dates the issue, not the impression. Title given the year '1928 or later' on 2026-09-28 at the user's request: the share was created by the resolution of 26 April 1928 printed on it. (Was 'Société Toulousaine du Bazacle Founder's Share, Toulouse'.)",
     "type": [
       "Stock Certificate"
     ],
@@ -36511,9 +36523,9 @@
     "id": "goetzmann1673",
     "file": "goetzmann1673.jpg",
     "transcription": "",
-    "title": "Baltimore and Ohio Railroad Stock Certificate, Swiss Bank Corporation",
+    "title": "Baltimore and Ohio Railroad Stock Certificate, Swiss Bank Corporation, 1936 or earlier",
     "description": "A certificate for ten shares of one hundred dollars each in the common stock of the Baltimore and Ohio Railroad Company, number D264139, registered to the Swiss Bank Corporation. The company's charter date, 28 February 1827, is printed beneath its name — the first American common carrier railroad. A British twopenny revenue stamp is affixed at the right, the certificate having passed through London. Two leaves; the reverse carries the assignment to Rosa Bluhm of 11 Broad Street, New York City, dated 14 January 1936, guaranteed by the Swiss Bank Corporation's London office and by Gebrüder Lienthal & Co.",
-    "notes": "No. D264139, ten shares of $100; registered to Swiss Bank Corporation; assigned to Rosa Bluhm 14 January 1936. ⚠ The front's own issue date is obscured; the year is taken from the reverse assignment and flagged as such.",
+    "notes": "No. D264139, ten shares of $100; registered to Swiss Bank Corporation; assigned to Rosa Bluhm 14 January 1936. ⚠ The front's own issue date is obscured; the year is taken from the reverse assignment and flagged as such. Title given the year '1936 or earlier' on 2026-09-28 at the user's request: the front's date is obscured and the assignment on the back is of 14 January 1936. (Was 'Baltimore and Ohio Railroad Stock Certificate, Swiss Bank Corporation'.)",
     "type": [
       "Stock Certificate"
     ],
@@ -36727,9 +36739,9 @@
     "id": "goetzmann1680",
     "file": "goetzmann1680.jpg",
     "transcription": "",
-    "title": "Trans-African Railway Bondholders' Committee Certificate, Amsterdam",
+    "title": "Trans-African Railway Bondholders' Committee Certificate, Amsterdam, 1919 or later",
     "description": "A certificate for one hundred pounds, number 2192, of the association of bondholders formed as the Committee for the Obligations of the Trans-African Railway Company, recognized by royal decree of 10 March 1919. It certifies that a five percent first mortgage bond of the railway company, number 1686 for £100, has been deposited with the committee. A large blue overstamp records that under an arrangement circulated on 19 August 1939 the certificate thereafter stands for shares of the Companhia de Fomento Colonial of Porto, the stamp duty on the endorsement being remitted by resolution of the Minister of Finance. Stamps on the face record dividends paid for 1919, 1924 and 1941 — a claim reconstituted twice over four decades.",
-    "notes": "Certificaat No. 2192, £100, on first mortgage bond No. 1686; committee recognised by KB of 10 March 1919; 1939 conversion to Companhia de Fomento Colonial shares. ⚠ The master spreadsheet numbers the certificate 4192; the plate reads No. 2192. ⚠ The certificate's own issue date is covered by the overstamp; issueDate is left blank. ⚠ DATED 2026-09-18 from the royal decree recognising the bondholders’ committee; the 1939 overstamp and the dividend stamps to 1941 are later endorsements, not the issue. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier.",
+    "notes": "Certificaat No. 2192, £100, on first mortgage bond No. 1686; committee recognised by KB of 10 March 1919; 1939 conversion to Companhia de Fomento Colonial shares. ⚠ The master spreadsheet numbers the certificate 4192; the plate reads No. 2192. ⚠ The certificate's own issue date is covered by the overstamp; issueDate is left blank. ⚠ DATED 2026-09-18 from the royal decree recognising the bondholders’ committee; the 1939 overstamp and the dividend stamps to 1941 are later endorsements, not the issue. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier. Title given the year '1919 or later' on 2026-09-28 at the user's request: the latest date printed is the royal decree of 10 March 1919. (Was 'Trans-African Railway Bondholders' Committee Certificate, Amsterdam'.)",
     "type": [
       "Bond"
     ],
@@ -38073,9 +38085,9 @@
     "id": "goetzmann1736",
     "file": "goetzmann1736.jpg",
     "transcription": "",
-    "title": "St. Louis–San Francisco Railway Preferred Amsterdam Certificate",
+    "title": "St. Louis–San Francisco Railway Preferred Amsterdam Certificate, 1928 or later",
     "description": "A Dutch depositary certificate of one thousand dollars, number 0464, for ten six percent non-cumulative preferred shares of one hundred dollars each in the St. Louis–San Francisco Railway Company. The shares are registered to the Amsterdamsch Administratiekantoor van Amerikaansche Waarden and deposited under conditions settled by deed of 14 September 1928 before the notary E. Th. Koopman at Amsterdam. A fifty-cent Netherlands stamp seal is impressed at the left. Two leaves; the second is the printed wrapper, headed for ten six percent non-cumulative preferred shares of a thousand dollars nominal and carrying the same number.",
-    "notes": "N° 0464, $1,000 in ten 6% non-cumulative preferred shares of $100; administration deed of 14 September 1928 before notary E. Th. Koopman. Companion to the common-stock certificate at [1723]. ⚠ The subscription date is partly obscured by the stamp seal; issueDate is left blank. ⚠ DATED 2026-09-18 from the administration deed before notary E. Th. Koopman. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier.",
+    "notes": "N° 0464, $1,000 in ten 6% non-cumulative preferred shares of $100; administration deed of 14 September 1928 before notary E. Th. Koopman. Companion to the common-stock certificate at [1723]. ⚠ The subscription date is partly obscured by the stamp seal; issueDate is left blank. ⚠ DATED 2026-09-18 from the administration deed before notary E. Th. Koopman. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier. Title given the year '1928 or later' on 2026-09-28 at the user's request: the latest date printed is the deed of 14 September 1928. (Was 'St. Louis–San Francisco Railway Preferred Amsterdam Certificate'.)",
     "type": [
       "Stock Certificate"
     ],
@@ -38474,9 +38486,9 @@
     "id": "goetzmann1752",
     "file": "goetzmann1752.jpg",
     "transcription": "",
-    "title": "Compagnie Générale de Chemins de Fer et de Tramways en Chine Bearer Share, Brussels",
+    "title": "Compagnie Générale de Chemins de Fer et de Tramways en Chine Bearer Share, Brussels, 1920 or later",
     "description": "A bearer share of two hundred and fifty francs in the Compagnie Générale de Chemins de Fer et de Tramways en Chine, number 05868, with its registered office at Brussels and a capital of three million francs divided into twelve thousand such shares. The company was constituted by act of 24 June 1920 and reorganized by the general meeting of 15 October the same year. Three leaves: the share, its reverse setting out the statutes in two columns around a map of the concessions, and the attached strips of dividend coupons. A blue overstamp records later resolutions of the general meetings of 1939. Belgian capital took a large part in the railway and tramway concessions of republican China.",
-    "notes": "N° 05868, action de 250 francs au porteur; capital 3,000,000 francs in 12,000 shares; constituted 24 June 1920, general meeting 15 October 1920; 1939 endorsement. ⚠ The master spreadsheet dates it 1900; the constitution acts printed on the share are of 1920. ⚠ The company is Belgian, seated at Brussels, not French.",
+    "notes": "N° 05868, action de 250 francs au porteur; capital 3,000,000 francs in 12,000 shares; constituted 24 June 1920, general meeting 15 October 1920; 1939 endorsement. ⚠ The master spreadsheet dates it 1900; the constitution acts printed on the share are of 1920. ⚠ The company is Belgian, seated at Brussels, not French. Title given the year '1920 or later' on 2026-09-28 at the user's request: the latest date printed is the general meeting of 15 October 1920. (Was 'Compagnie Générale de Chemins de Fer et de Tramways en Chine Bearer Share, Brussels'.)",
     "type": [
       "Stock Certificate"
     ],
@@ -40361,9 +40373,9 @@
     "id": "goetzmann1829",
     "file": "goetzmann1829.jpg",
     "transcription": "",
-    "title": "École Royale Militaire Lottery Receipt, Unissued Form",
+    "title": "École Royale Militaire Lottery Receipt, Unissued Form, 1750s",
     "description": "A blank receipt form of the military academy lottery, printed for use in the 1750s (the date lines read \"175\") and never filled in. The lines for the district, the town, the office number, the drawing, the sum and the numbers staked are all empty, as are the lines for bets by extrait, ambe or terne, on one, two or three numbers. Only the printed text is there: that the receipt must be exchanged for the ticket, and stands in place of it until then.",
-    "notes": "Blank and unissued; no number, sum, date or stake was ever entered. Companion to the completed examples at [1823] and [1828]. Checked closely at full resolution 2026-09-25.",
+    "notes": "Blank and unissued; no number, sum, date or stake was ever entered. Companion to the completed examples at [1823] and [1828]. Checked closely at full resolution 2026-09-25. Title given the year '1750s' on 2026-09-28 at the user's request: the date lines are printed 175_. (Was 'École Royale Militaire Lottery Receipt, Unissued Form'.)",
     "type": [
       "Receipt"
     ],
@@ -40396,7 +40408,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1750"
+    ]
   },
   {
     "id": "goetzmann1830",
@@ -42969,9 +42983,9 @@
     "id": "goetzmann1953",
     "file": "goetzmann1953.jpg",
     "transcription": "",
-    "title": "Tolozé's Address to the Committee of Legislation on the Petite Loterie Parisienne, Paris",
+    "title": "Tolozé's Address to the Committee of Legislation on the Petite Loterie Parisienne, Paris, 1795 or later",
     "description": "A printed address to the representatives of the people composing the Committee of Legislation, opening Législateurs. Its author, Tolozé, creator of the Petite Loterie Parisienne, explains that his lottery had been seized under the prohibitions of the law of 28 Vendémiaire year II. He asks the Committee to decide whether, since the Constitution sets no limit on freedom of trade and industry and requires prohibitive laws to last no more than a year, the lottery laws could be applied to him, and pleads the publicity his lottery had enjoyed, the tolerance that followed and the precautions he had taken against fraud. Eight leaves.",
-    "notes": "'Aux Représentans du Peuple composant le Comité de Législation', by TOLOZÉ (named in the first line; previously recorded as anonymous), creator of the Petite Loterie Parisienne, seized under the law of 28 Vendémiaire an II. The same Toloza/Tolozé whose plan the Comité des finances rejected on 25 Floréal an II (see [1961]). Undated; after the Constitution of year III (1795) is implied by its argument. Checked closely at full resolution 2026-09-25.",
+    "notes": "'Aux Représentans du Peuple composant le Comité de Législation', by TOLOZÉ (named in the first line; previously recorded as anonymous), creator of the Petite Loterie Parisienne, seized under the law of 28 Vendémiaire an II. The same Toloza/Tolozé whose plan the Comité des finances rejected on 25 Floréal an II (see [1961]). Undated; after the Constitution of year III (1795) is implied by its argument. Checked closely at full resolution 2026-09-25. Title given the year '1795 or later' on 2026-09-28 at the user's request: its argument cites the Constitution of year III (1795). (Was 'Tolozé's Address to the Committee of Legislation on the Petite Loterie Parisienne, Paris'.)",
     "type": [
       "Pamphlet"
     ],
@@ -43038,7 +43052,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1795"
+    ]
   },
   {
     "id": "goetzmann1961",
@@ -43123,9 +43139,9 @@
     "id": "goetzmann1969",
     "file": "goetzmann1969.jpg",
     "transcription": "",
-    "title": "Précis sur les Loteries, Paris",
+    "title": "Précis sur les Loteries, Paris, ca. 1793-1794",
     "description": "A printed Précis sur les Loteries in three leaves, arguing against suppressing them. It opens by wishing that all the vices of man could be stifled in the cradle of the Republic, but the empire of the passions, it says, is harder to destroy than that of despots. Calling lotteries immoral will not cure the passion for gambling; suppression would only inflame it, and is the scheme of the agents of Pitt and Coburg. Suppress the Loterie de France, and thousands of private lotteries will spring up in every town, drawn every day and every hour, dens the magistrate cannot see into. The language places it in the Republic's early years, around the suppression of 1793.",
-    "notes": "Précis sur les Loteries, three leaves. The previous description quoted the opening as 'the resources of a state are the vices of man'; the text opens 'Il seroit à désirer ... que l'on pût étouffer dans le berceau de la République, tous les vices de l'homme'. References to 'les agens de Pitt & de Cobourg' and 'la Loterie de France' date it to 1793-94. No author or printer. Checked closely at full resolution 2026-09-25.",
+    "notes": "Précis sur les Loteries, three leaves. The previous description quoted the opening as 'the resources of a state are the vices of man'; the text opens 'Il seroit à désirer ... que l'on pût étouffer dans le berceau de la République, tous les vices de l'homme'. References to 'les agens de Pitt & de Cobourg' and 'la Loterie de France' date it to 1793-94. No author or printer. Checked closely at full resolution 2026-09-25. Title given the year 'ca. 1793-1794' on 2026-09-28 at the user's request: its references to Pitt and Coburg and the Loterie de France. (Was 'Précis sur les Loteries, Paris'.)",
     "type": [
       "Pamphlet"
     ],
@@ -43172,7 +43188,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1793"
+    ]
   },
   {
     "id": "goetzmann1972",
@@ -43404,9 +43422,9 @@
     "id": "goetzmann1977",
     "file": "goetzmann1977.jpg",
     "transcription": "",
-    "title": "Loterie Nationale Public Notice No. 136, Paris",
+    "title": "Loterie Nationale Public Notice No. 136, Paris, Year VI (1797)",
     "description": "A public notice of the Loterie Nationale, number 136, issued under the Directory. Three leaves. Under the heading Première Classe it tabulates the simple bets: on one number, on one number in a named position, on two, on two in named positions, on three, on four and on five, with what each pays and a paragraph explaining each below. It is the Directory's version of the guide the military academy lottery had printed forty years earlier, at [1825], on the same ninety-number scheme taken from Genoa.",
-    "notes": "[N° 136]; Loterie Nationale rétablie par la loi du 9 Vendémiaire an 6; Avis au Public on the Directory's arrêté of 17 Vendémiaire an 6 (8 October 1797; previously undated). Three leaves. Checked closely at full resolution 2026-09-25.",
+    "notes": "[N° 136]; Loterie Nationale rétablie par la loi du 9 Vendémiaire an 6; Avis au Public on the Directory's arrêté of 17 Vendémiaire an 6 (8 October 1797; previously undated). Three leaves. Checked closely at full resolution 2026-09-25. Title given the year 'Year VI (1797)' on 2026-09-28 at the user's request: it cites the order of 17 Vendémiaire year VI. (Was 'Loterie Nationale Public Notice No. 136, Paris'.)",
     "type": [
       "Prospectus"
     ],
@@ -44212,9 +44230,9 @@
     "id": "goetzmann1999",
     "file": "goetzmann1999.jpg",
     "transcription": "",
-    "title": "Loterie Royale de France Public Notice No. 136",
+    "title": "Loterie Royale de France Public Notice No. 136, 1814-1836",
     "description": "A public notice of the Loterie Royale de France, number 136, headed as re-established by the law of 9 Vendémiaire year VI and citing the government's order of 17 Vendémiaire year VI. It sets out that the lottery is of ninety numbers, five drawn; that no stake under fifty centimes is taken; and, under First Class, the simple bets on one, two, three or four numbers, with what each pays, the four-number bet limited to twelve francs. Three leaves. It is a Restoration revision of the Directory's notice at [1977], which carries the same number: the heading is royal, the order is credited to 'the government' rather than the Directory, and the five-number bet has gone.",
-    "notes": "Headed LOTERIE ROYALE DE FRANCE, 'Rétablie par la loi du 9 Vendémiaire an 6', citing 'l'Arrêté du Gouvernement' of 17 Vendémiaire an 6 (where [1977] says 'du Directoire exécutif'), and it adds a limit of 12 francs on the quaterne and drops the quine. So it is a later, Restoration resetting of the same notice, not the same sheet reprinted: the wording was revised. Undated. Checked closely at full resolution 2026-09-25.",
+    "notes": "Headed LOTERIE ROYALE DE FRANCE, 'Rétablie par la loi du 9 Vendémiaire an 6', citing 'l'Arrêté du Gouvernement' of 17 Vendémiaire an 6 (where [1977] says 'du Directoire exécutif'), and it adds a limit of 12 francs on the quaterne and drops the quine. So it is a later, Restoration resetting of the same notice, not the same sheet reprinted: the wording was revised. Undated. Checked closely at full resolution 2026-09-25. Title given the year '1814-1836' on 2026-09-28 at the user's request: its royal heading over the republican law places it in the Restoration lottery, 1814-1836. (Was 'Loterie Royale de France Public Notice No. 136'.)",
     "type": [
       "Prospectus"
     ],
@@ -44263,7 +44281,9 @@
     "subjectCountry": [
       "France"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1814"
+    ]
   },
   {
     "id": "goetzmann2002",
