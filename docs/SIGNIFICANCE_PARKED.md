@@ -2004,3 +2004,16 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann2053
 
 > A large printed table of the Loterie Royale de France, ruled in fine columns across the whole sheet and filled with figures. It is a working table of the administration rather than an instrument issued to the public; the kind of sheet against which stakes and drawings were checked. It closes the album, whose last leaves are all administrative: the Grenoble account, the tontine account and this.
+
+
+---
+
+## 1022/1023 merge, 2026-09-28: descriptions before the merge
+
+## goetzmann1022
+
+> An allonge, a continuation sheet for recording interest, belonging to rentebrief folio 25, No. 74, of the Hoogheemraadschap van den Lekdijk Bovendams, the water board of the upper Lek river dike at Utrecht. The bond is for 1,000 guilders, paying 25 guilders each 12 January. The sheet was issued on 8 January 1944 and signed by the dijkgraaf, the board's chief officer, and its secretary. The handwritten ledger records the interest due from 12 January 1943 to 12 January 2003: the payments due for 1977 onward were all collected together on 1 July 2003, the last two in euros, €11.34 each. The original seventeenth-century bond, with receipts from 1702, is goetzmann1023.
+
+## goetzmann1023
+
+> A heavily worn manuscript annuity bond (rentebrief) on vellum, numbered "fol. 25, No. 74" at the head. In it Jan van Hooghenhouck, treasurer of the water board of the Lekdijk Bovendams at Utrecht, acknowledges on the board's behalf, under a resolution of its governors, a loan of one thousand guilders from Nicolaes de Meyer, paid in two halves, the second on 1 May 1649, and promises 25 guilders a year, payable each 12 January, until the sum is redeemed. It is signed by Van Hooghenhouck. The margins and the back are filled with receipts for the yearly 25 guilders, running from 1702 through the eighteenth century. Its 1944 continuation sheet, for the same folio 25, No. 74, is goetzmann1022.

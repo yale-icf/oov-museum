@@ -23637,8 +23637,8 @@
   },
   {
     "id": "goetzmann1022",
-    "title": "Lekdijk Bovendams Water Board Bond Renewal Sheet, Utrecht, 1944",
-    "description": "An allonge, a continuation sheet for recording interest, belonging to rentebrief folio 25, No. 74, of the Hoogheemraadschap van den Lekdijk Bovendams, the water board of the upper Lek river dike at Utrecht. The bond is for 1,000 guilders, paying 25 guilders each 12 January. The sheet was issued on 8 January 1944 and signed by the dijkgraaf, the board's chief officer, and its secretary. The handwritten ledger records the interest due from 12 January 1943 to 12 January 2003: the payments due for 1977 onward were all collected together on 1 July 2003, the last two in euros, €11.34 each. The original seventeenth-century bond, with receipts from 1702, is goetzmann1023.",
+    "title": "Lekdijk Bovendams Water Board Annuity Bond fol. 25 No. 74, with its 1944 Allonge, Utrecht, 1649",
+    "description": "An annuity bond (rentebrief) of the water board of the Lekdijk Bovendams at Utrecht, folio 25, number 74, with the continuation sheet on which its interest was recorded until 2003. The bond itself is a heavily worn manuscript on vellum in which Jan van Hooghenhouck, the board's treasurer, acknowledges on its behalf a loan of one thousand guilders from Nicolaes de Meyer, the second half paid on 1 May 1649, and promises 25 guilders a year, each 12 January, until it is redeemed. Its margins and back are filled with receipts for the yearly interest from 1702 through the eighteenth century. The allonge, a printed sheet issued on 8 January 1944 and signed by the dijkgraaf and the board's secretary, carries on the record from 12 January 1943: the payments due from 1977 were all collected on 1 July 2003, the last two in euros, 11.34 each.",
     "file": "goetzmann1022.jpg",
     "type": [
       "Bond"
@@ -23647,7 +23647,7 @@
       "Netherlands"
     ],
     "period": [
-      "20th Century"
+      "17th Century"
     ],
     "namedIndividuals": [],
     "keywords": [
@@ -23673,76 +23673,31 @@
       "Dutch"
     ],
     "issueYear": [
-      "1944"
+      "1649"
     ],
     "creator": "Hoogheemraadschap van den Lekdijk Bovendams",
-    "notes": "Allonge (coupon renewal supplement) to rentebrieff folio 25, No. 74, for f 1,000 guilden; Hoogheemraadschap van den Lekdijk Bovendams (Lekdijk water board), Utrecht, Netherlands; annual interest f 25 payable January 12; issued January 8, 1944; signed by Dijkgraaf and Secretaris; accompanied by two handwritten coupon payment record sheets covering 1944-2003; No. 74 Interest entries for 12 January 1943 to 12 January 2003; entries for 1977-2003 all collected 1 July 2003, the last two €11.34. Same bond as goetzmann1023 (fol. 25, No. 74). Checked against the plate 2026-09-25.",
+    "notes": "MERGED 2026-09-28 at the user's instruction: goetzmann1023-1024 (the original vellum rentebrief and its back) are now leaves 2-3 of this record. Leaf 1 (goetzmann1022) is the 1944 allonge. BOND: Issuer: Hoogheemraadschap van den Lekdijk Bovendams, through its treasurer (kameraar) Jan van Hooghenhouck(?); lender Nicolaes de Meyer; f 1,000 at f 25 a year, due 12 January; dated in or about 1649 (second half paid 1 May 1649; the body is abbreviated and worn, and the reading is not certain). Previously catalogued as an anonymous Dutch obligation of about 1703, the year of the first surviving receipts. Headed \"fol. 25, No. 74\", the same bond as the 1944 allonge goetzmann1022. See goetzmann1024 for the verso. ALLONGE: Allonge (coupon renewal supplement) to rentebrieff folio 25, No. 74, for f 1,000 guilden; Hoogheemraadschap van den Lekdijk Bovendams (Lekdijk water board), Utrecht, Netherlands; annual interest f 25 payable January 12; issued January 8, 1944; signed by Dijkgraaf and Secretaris; accompanied by two handwritten coupon payment record sheets covering 1944-2003; No. 74 Interest entries for 12 January 1943 to 12 January 2003; entries for 1977-2003 all collected 1 July 2003, the last two €11.34. Same bond as goetzmann1023 (fol. 25, No. 74). Checked against the plate 2026-09-25.",
     "subjectCountry": [
       "Netherlands"
     ],
     "transcription": "# Transcription\n\n**Original (Dutch):**\n\n**Left panel:**\n\n[Seal: LEKDIJK BOVENDAMS]\n\nAllonge, behoorende bij rentebrief folio 25 no 74, groot Een Duizend gulden (ƒ1000.-) uitgegeven door het Hoogheemraadschap Lekdijk Bovendams te Albrecht (Goedeland) waarvan de eerste ten bedrage van Vijf en twintig gulden (ƒ25.-) teken jare verschijnt op den 12 Januari.\n\nAfgegeven 8 Januari 1944.\nDijkgraaf en Hoogheemraden van den Lekdijk Bovendams.\n\n[Signature]\nDijkgraaf\n\n[Signature]\nSecretaris.\n\n**Middle and right panels:**\n\nTwo columns of coupon records with letter codes (A.A.A.A through U.U.U.U) and corresponding payment dates and amounts (primarily \"12 Jan\" dates from 1944-2003, with values of 25.- guilders)\n\n---\n\n## English translation:\n\n**Left panel:**\n\nAllonge, belonging to interest-bearing bond folio 25 no. 74, for One Thousand guilders (ƒ1,000.-) issued by the Water Board of Lekdijk Bovendams at Albrecht (Goedeland), of which the first interest payment of Twenty-five guilders (ƒ25.-) shall be paid annually on 12 January.\n\nIssued 8 January 1944.\nDijkgraaf and Board Members of Lekdijk Bovendams.\n\n[Signature]\nDijkgraaf\n\n[Signature]\nSecretaris.\n\n**Middle and right panels:**\n\nCoupon payment records from 1944 through 2003, showing annual interest payments of 25.- guilders on 12 January.\n\n---\n\n## Notable markings:\n\n- Official seal of Lekdijk Bovendams (top left)\n- Two signatures (Dijkgraaf and Secretaris)\n- Two columns of alphabetic coupon codes (A through U) with payment dates\n- Dated: 8 January 1944",
     "identifiers": [
+      "fol. 25",
       "No. 74"
-    ]
-  },
-  {
-    "id": "goetzmann1023",
-    "title": "Lekdijk Bovendams Water Board Annuity Bond (Rentebrief) fol. 25 No. 74, Utrecht, 1649",
-    "description": "A heavily worn manuscript annuity bond (rentebrief) on vellum, numbered \"fol. 25, No. 74\" at the head. In it Jan van Hooghenhouck, treasurer of the water board of the Lekdijk Bovendams at Utrecht, acknowledges on the board's behalf, under a resolution of its governors, a loan of one thousand guilders from Nicolaes de Meyer, paid in two halves, the second on 1 May 1649, and promises 25 guilders a year, payable each 12 January, until the sum is redeemed. It is signed by Van Hooghenhouck. The margins and the back are filled with receipts for the yearly 25 guilders, running from 1702 through the eighteenth century. Its 1944 continuation sheet, for the same folio 25, No. 74, is goetzmann1022.",
-    "file": "goetzmann1023.jpg",
-    "type": [
-      "Bond"
     ],
-    "location": [
-      "Netherlands"
-    ],
-    "period": [
-      "18th Century"
-    ],
-    "namedIndividuals": [],
-    "keywords": [
-      "bond",
-      "obligation",
-      "Netherlands",
-      "Dutch",
-      "manuscript",
-      "18th century",
-      "early modern",
-      "handwritten",
-      "transfer endorsements"
-    ],
-    "owner": "Beinecke",
-    "issuingCountry": [
-      "Netherlands"
-    ],
-    "currency": [
-      "Dutch guilder"
-    ],
-    "language": [
-      "Dutch"
-    ],
-    "issueYear": [
-      "1649"
-    ],
-    "creator": "Unknown (Dutch)",
-    "notes": "Issuer: Hoogheemraadschap van den Lekdijk Bovendams, through its treasurer (kameraar) Jan van Hooghenhouck(?); lender Nicolaes de Meyer; f 1,000 at f 25 a year, due 12 January; dated in or about 1649 (second half paid 1 May 1649; the body is abbreviated and worn, and the reading is not certain). Previously catalogued as an anonymous Dutch obligation of about 1703, the year of the first surviving receipts. Headed \"fol. 25, No. 74\", the same bond as the 1944 allonge goetzmann1022. See goetzmann1024 for the verso. ⏸ Merge candidate with goetzmann1022 (flagged for the user, not merged).",
-    "subjectCountry": [
-      "Netherlands"
-    ],
-    "transcription": "# Dutch Redeemable Annuity (Losrente) Obligation with a Century of Interest Receipts — Transcription\n\n## Original:\n\n*(Heavily worn / abraded manuscript in dark-brown ink on parchment. A dense body of secretary-hand Dutch fills the centre; a running ledger of annual interest receipts surrounds it — a long column down the left margin, further columns along the head/top edge, and blocks across the foot. Much of the body is rubbed and effaced; the transcription below marks unreadable spans as [illegible]. Names, sums and dates that can be read with confidence are given; nothing is supplied by guess.)*\n\n**Archival mark (upper-left, above the top ledger):**\nCas[se] 5 [flourish] / No. 74.\n\n---\n\n**Body (central paragraph, diplomatic partial reading):**\n\n[illegible] van Lochorst [illegible] bekenne mits desen in alle [illegible] ende naer [illegible] resolutie van [illegible] ontfangen [illegible] het in [illegible] van [illegible] voorsz. obligatie [illegible] mitsdien approbatie van [illegible] voorcost te hebben aen des [illegible] van Utrecht daer op gebelast doen [illegible] tot [illegible]\n\nNicolaes de Meijer lang mette [illegible] onderminute schepen [illegible] eertijts [illegible] voor Nicolaes de Meijer ontfangen [illegible] gulden van xxv [ = 25] [illegible] obligatie [illegible] aengeboden [illegible] obligatie aengaende [illegible]\n\n[illegible] van baren obligatie [illegible] mij [illegible] geeft jaerlicx des jaers [illegible] losrente [illegible] te betalen [illegible] op den [illegible] Novembris 1640 ende dander helfte den 12 Maij 1649 ende soo [illegible] losse der selver [illegible] tot afflossinge toe goedureonde all [illegible] gelt [illegible]\n\n*(the following lines are largely effaced standard notarial renunciation formula; only isolated words are legible)*\n[illegible] renunciërende [illegible] aen partijen [illegible] verbonden [illegible] als boven den inhouden van desen [illegible] notaris [illegible] laten passeren [illegible] certificatie [illegible] tot mijnen ende mijnre nacomelingen [illegible] resolutie [illegible] partijen [illegible] respective [illegible] in desen [illegible] soo genaemt in mijn qualiteit [illegible] onder mijn segel [illegible]\n\n**Closing (foot of body):** [illegible] op des [illegible] Maij [illegible] als voren gepasseert [illegible]\n\n**Signature (lower right):** van Hooghenboeck *(with paraph)*\n\n---\n\n**Marginal / surrounding ledger of annual interest receipts**\n*(each entry: \"Bet[aelt] 12 Jan[uarij] [year]\" — \"Paid 12 January [year]\" — nearly all carrying the sum \"25\" in the head columns. They run continuously; readings marked [?] where the year digits are worn.)*\n\n**Left margin (top → bottom):**\n- Bet: 12 Jan: 1702\n- Bet: 12 Jan: 1703\n- Bet: 12 Jan: 1704\n- Bet: 12 Jan: 1705\n- Bet: 12 Jan: 1706\n- Bet: 12 Jan: 1707\n- Bet: 12 Jan: 1708\n- Bet: 12 Jan: 1709 [?]\n- Bet: 12 Jan: 1710\n- Bet: 12 Jan: 1711\n- Bet: 12 Jan: 1712 [?]\n- Bet: 12 Jan: 1713\n- Bet: 12 Jan: 1714\n- Bet: 12 Jan: 1715\n- Bet: 12 Jan: 1716\n- [illegible year] [?]\n- Bet: 12 Jan: 17[..] [?]\n- Bet: 12 Jan: 1722\n\n**Foot, left column:**\n- Bet: 12 Jan: 1723\n- Bet: 12 Jan: 1724\n- Bet: 12 Jan: 1725\n- Bet: 12 Jan: 1726\n- Bet: 12 Jan: 1727\n- Bet: 12 Jan: 1728\n- Bet: 12 Jan: 1729\n- Bet: 12 Jan: 1730\n- Bet: 12 Jan: 1731 [?]\n- Bet: 12 Jan: 1732 [?]\n\n**Foot, centre columns:**\n- Bet: 12 Jan: 1734\n- Bet: 12 Jan: 1735\n- Bet: 12 Jan: [illegible] [?]\n- Bet: 12 Jan: 1739 [?]\n- Bet: 12 Jan: 1740\n- Bet: 12 Jan: 1741\n- Bet: 12 Jan: 1742\n- Bet: 12 Jan: 1743\n- Bet: 12 Jan: 1744\n\n**Right side (lower):**\n- Bet: 12 Jan: 1752 [?]\n- Bet: 12 Jan: 1754 — 25\n- *(further worn entries continuing into the 1750s–1760s, [illegible])*\n\n**Top ledger (head of sheet, continuation columns — each \"25\"):**\n- Bet: 12 Jan: 1773 — 25\n- [illegible] — 25 *(several)*\n- Bet: 12 Jan: 1778 — 25\n- Bet: 12 Jan: 1779 — 25\n- Bet: 12 Jan: 1780 — 25\n- Bet: 12 Jan: 1781 — 25\n- Bet: 12 Jan: 1782 — 25\n- a. Bet: 12 Jan: 1789 — 25\n- b. Bet: 12 Jan: 1790 — 25 [?]\n- c. Bet: 12 Jan: 1791 — 25 [?]\n- d. Bet: 12 Jan: 1792 — 25\n- e. Bet: 12 Jan: 1793 [?] — 25\n- f. Bet: 12 Jan: 1794 [?] — 25\n- a. Bet: 12 Jan: 1795 — 25\n- B. Bet: 12 Jan: 1796 — 25\n- C. Bet: 12 Jan: 1797 — 25\n- d. Bet: 12 Jan: 1798 — 25 [?]\n- e. Bet: 12 Jan: 1799 [?] — 25\n- f. Bet: 12 Jan: 18[00] [?] — 25\n\n*(Interspersed among the foot entries are further, more cursorily written receipts — \"Bet 12 Jan 1734 / 1735 / 1740\" and others — partly obscured by a large stain and a hole at the centre-bottom.)*\n\n---\n\n## English Translation:\n\n**Archival mark:** Case 5 / No. 74.\n\n**Body (partial, as far as legible):**\n\n[illegible] … van Lochorst … acknowledge by these presents, in all [illegible] and after [illegible] resolution of [illegible], to have received [illegible] … the [interest?] of the aforesaid bond [illegible], and therewith the approbation of [illegible] to have the prior charge upon the [illegible] of Utrecht charged thereon [illegible] …\n\nNicolaes de Meijer, together with the [illegible] under-minute, alderman [illegible], formerly [illegible] received for Nicolaes de Meijer [illegible] guilders, of 25 [illegible], concerning the bond [illegible], offered [illegible], the said bond providing [illegible] yearly, each year, [illegible] annuity (losrente) to be paid [illegible] on the [illegible] of November 1640, and the other half on 12 May 1649, and so [illegible] the redemption of the same [illegible] until the discharge [illegible] all [illegible] money [illegible] …\n\n[illegible legal formula] … renouncing [illegible] to the parties [illegible] bound [illegible] as above, the tenor of this [instrument] [illegible], the notary [illegible] to pass [illegible], certification [illegible], for myself and my descendants [illegible], resolution [illegible], the parties respectively [illegible] in this [illegible], so named in my capacity [illegible], under my seal [illegible].\n\n**Closing:** [illegible] on the [illegible] of May [illegible], passed as above [illegible].\n\n**Signature:** van Hooghenboeck.\n\n**Ledger of receipts:** A running list of annual interest payments, each reading \"Paid, 12 January [year],\" almost all for the sum of 25 guilders. The receipts run without break from 1702 down the left margin and along the foot (1723–1744), continue up the right side into the 1750s, and resume along the head of the sheet, where lettered blocks (a, b, c …) carry the payments through the 1770s, 1780s and 1790s, the last legible entries reaching 1797–1799 and possibly 1800 — testifying to roughly a century of interest of 25 guilders paid each 12 January.\n\n---\n\n*Notes on conflicts with the supplied description:*\n1. *The description dates the last marginal receipts to \"the early 1780s\"; the image's top-ledger clearly continues to 1795, 1796, 1797 and beyond (≈1799/1800). Trusting the image.*\n2. *The description names a subscriber \"van Roossbergh\"; the clear signature at lower right reads \"van Hooghenboeck.\" \"Nicolaes [de Meijer]\" is confirmed in the body.*\n3. *The 25-guilder interest and the 12-January payment date are both confirmed by the image. The body additionally shows original half-yearly constitution dates of November 1640 and 12 May 1649, suggesting the underlying rente predates the 1703 receipt run.*\n",
     "pages": [
       {
+        "id": "goetzmann1022",
+        "description": ""
+      },
+      {
         "id": "goetzmann1023",
-        "description": "This heavily worn manuscript is a Dutch interest-bearing obligation, an obligatie or redeemable annuity (losrente), penned in an abbreviated notarial hand on heavy paper or parchment. The dense early-eighteenth-century Dutch body records a debt carrying fixed yearly interest of twenty-five guilders, payable each 12 January, and is subscribed by several parties, among them a Nicolaes and one styled van Roossbergh. Its true substance lies in the margins, where a long column of dated receipts logs that annual payment year after year: the entries run from 1703 down through the 1720s and onward across the head and right edge into the early 1780s. Issued around 1702 to 1703, the instrument testifies to the durability of the Dutch credit market, where such annuities passed between holders and quietly yielded their coupon for the better part of a century. Plain and unornamented, the sheet speaks not through emblem but through its accreted ledger of fidelity: a market that paid on the same January day for some eighty years."
+        "description": "The original rentebrief on vellum, folio 25, number 74: the treasurer of the Lekdijk Bovendams, Jan van Hooghenhouck, acknowledges a loan of one thousand guilders from Nicolaes de Meyer, the second half paid on 1 May 1649, at 25 guilders a year each 12 January. The margins carry receipts for the yearly interest from 1702 onward. The hand is abbreviated and worn, and the reading of the names is not certain."
       },
       {
         "id": "goetzmann1024",
         "description": "Back of the vellum obligation, covered with handwritten entries of interest paid and transfers from one holder to the next, most of them illegible in this scan."
       }
-    ],
-    "identifiers": [
-      "fol. 25",
-      "No. 74"
     ]
   },
   {
