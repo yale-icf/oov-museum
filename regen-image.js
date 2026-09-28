@@ -38,6 +38,8 @@ const EXTRA_ROTATE = {
   goetzmann1542: 270,  // Da Qing Baochao 1858, scanned sideways
   goetzmann1563: 180,  // scanned upside down; tiles were turned on 2026-09-18
   goetzmann1564: 180,  // scanned upside down; tiles were turned on 2026-09-18
+  goetzmann0783: 180,  // Yunnan railway share, scanned upside down (ICF batch, 2026-09-28)
+  goetzmann0784: 180,  // its back, likewise
 };
 async function source(src, id) {
   const deg = EXTRA_ROTATE[id];
