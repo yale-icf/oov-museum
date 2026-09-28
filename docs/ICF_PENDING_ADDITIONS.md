@@ -1,3 +1,26 @@
+# ✅ DONE 2026-09-28 — the ICF documents are now in the museum
+
+**This plan has been carried out.** The pending ICF scans (0741–0850 and 1040–1097; 170 files,
+more than the 139 counted below) were catalogued from the plates on 2026-09-28 and are live:
+**51 new records, 155 leaves**, taking the collection from 913 to **964**. Every record was then
+read a second time against its plate the same day.
+
+- **Left out on the user's instruction:** near-blank backs 0744 0765 0766 0767 0782 0801 0802
+  0824 0849; duplicate scans 0845 0846 (whole-sheet rescans of 0841–0844), 1080 (= 1081),
+  1088 (= 1089); and the older copy of 0847. The list is `scratchpad/mr/icf-exclude.txt`.
+- **Multiples** of records already on the site: 0741 (of 1385), 0791 (of 1100), 1066 (of
+  1755), 1090 (of 0544/0545).
+- **No better masters exist.** 0741–0850 are about 1–2 MP; all are on `RESCAN_PRIORITY.csv`.
+  1040–1097 are about 20 MP.
+- The source copies are still in `JPEG Files/_Unplaced (not on site)/Pending - ICF batch
+  (uncatalogued)/`; the masters in use were copied into the numbered folders.
+- The spreadsheet titles and dates did not survive checking in roughly one case in four
+  (e.g. 1060 is a 1990 warrant, not 18th century; "Savkar" is Savkat; 0799 is 1797, not 1790).
+
+The original plan follows, unchanged, for the record.
+
+---
+
 # 51 ICF documents not yet in the museum — a later project
 
 Parked on the user's instruction, 2026-08-28. This records the groundwork so the

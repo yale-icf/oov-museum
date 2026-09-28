@@ -2,19 +2,24 @@
 
 Settled with the user 2026-09-03.
 
-## New material starts at `goetzmann1100`
+## ▶ Next new id: `goetzmann2054` (as of 2026-09-28)
 
-Number consecutively upward from there: `goetzmann1100`, `1101`, `1102`, …
+Everything up to `2053` is taken (the lottery album ends there). Number consecutively upward.
 
-`goetzmann1098` and `1099` are free but **deliberately skipped**, so the new sequence starts on
-a round number and is visually obvious as a later batch.
+History: new material was first set to start at `goetzmann1100` (2026-09-03); the September
+2026 intake then filled 1100–1799, displaced documents took 1800–1801, and the lottery album
+took 1802–2053. `goetzmann1098` and `1099` were free and **deliberately skipped**, so the 1100
+sequence would start on a round number; leave them blank.
 
 ## ⚠️ Do not fill the gaps
 
 | gap | size | why it is reserved |
 |---|---|---|
-| `0851`–`0899` | 49 | unphotographed run inside the numbered range |
-| `0976`–`0979` | 4 | ditto |
+| `0976`–`0979` | 4 | unphotographed run inside the numbered range |
+| `1098`–`1099` | 2 | skipped so the 1100 batch started on a round number |
+
+⚠️ The `0851`–`0899` line that stood here was **out of date**: all 49 of those numbers are live
+records (checked 2026-09-28).
 
 **The user wants these left blank** — the documents they were numbered for could still be added,
 and the numbering should stay meaningful.
@@ -43,13 +48,15 @@ number it shipped under and the old document still gets one of its own:
 These are tiled from the surviving pre-intake masters, which are byte-identical to the copies in
 `goetzmann Misc Files Removed/`. Full account in `REUSED_NUMBERS.md`.
 
-## The id space as of 2026-09-03
+## The id space as of 2026-09-28
 
 ```
-live records + page leaves   730
-rows in the workbook         868   (includes rows kept for removed records)
-masters photographed       1,036   (includes the 139 uncatalogued ICF files)
-highest id used anywhere   goetzmann1097
+live records                 964
+live page leaves           1,924
+highest id used anywhere   goetzmann2053
+unplaced masters             211   in JPEG Files/_Unplaced (not on site)/: 170 ICF-batch source
+                                   copies (all catalogued or deliberately excluded), 4 other
+                                   uncatalogued documents, 37 superseded scans
 ```
 
 `scratchpad/id-space.py` recomputes all of this. **Run it before allocating** — the ceiling
@@ -58,12 +65,17 @@ catalogued, which is exactly the trap the `0741`–`0850` ICF batch sets.
 
 ## Where the files go
 
-**Images** — the masters tree, one folder per batch, alongside the existing ones:
+**Images** — since the 2026-09-28 reorganization the masters tree has one folder per hundred,
+holding exactly one master per live leaf:
 
 ```
 C:\Users\ks2479\Documents\my-project\origins-of-value\JPEG Files\
-    TO-ADD_Goetzmann 1100-… JPEG\goetzmann1100.jpg
+    2000-2099\goetzmann2054.jpg
 ```
+
+Scans not (yet) on the site go under `_Unplaced (not on site)\`, never in a numbered folder.
+`regen-image.js` looks one folder level down, so a new hundred folder (`2100-2199`) needs no
+code change.
 
 ⚠️ **Filenames must be lowercase `goetzmannNNNN.jpg`.** Twelve rows in the provenance database
 spell the id with a capital G and that cost seven ICF records their owner data until it was
