@@ -32840,13 +32840,15 @@
     "id": "goetzmann1542",
     "file": "goetzmann1542.jpg",
     "transcription": "",
-    "title": "Qing Imperial Note with Dragon Borders, Xianfeng Era",
-    "description": "A Chinese imperial note printed in indigo on thin paper, framed by a border of dragons among clouds and waves in the manner of the Xianfeng-era government issues. The reign name Xianfeng is legible at the head, and the text columns include the character for tael. A large black intaglio office seal is struck across the center and a vermilion seal beneath it, with further manuscript annotations and a second red seal at the right. Notes of this kind were issued from the early 1850s, when the Taiping war and the cost of suppressing it drove the Qing state to paper for the first time in centuries.",
-    "notes": "⚠ PROVISIONAL IDENTIFICATION. The scan is 1127x637 pixels — about 0.7 MP — and neither the issuing office in the black seal nor the denomination can be read from it with confidence. The reign name Xianfeng (1851-1861) and the character for tael are legible; the note is most likely a Hubu Guanpiao silver-tael note or a Da Qing Baochao, but which is NOT established. Needs a better image and an expert reading before the title and currency are fixed.",
+    "title": "Da Qing Baochao Note for 2,000 Cash, 1858",
+    "description": "A Da Qing Baochao, the Great Qing Treasure Note, for 2,000 standard copper cash, printed in indigo in the eighth year of the Xianfeng reign, 1858, and framed by dragons among clouds and waves. It is of the series marked with the character sha and numbered 520, the number written in by hand. The text at the foot says the note passes as cash for the land and grain taxes and all other duties, is accepted by the treasuries in the capital and the provinces, and that 2,000 cash in these notes exchanges for one tael of the government's silver notes. A large red official seal is stamped over the denomination, with a black seal at the left and a round red seal at the upper right.",
+    "notes": "大清寶鈔; 咸豐捌年製 (Xianfeng 8 = 1858); 準足制錢貳千文 (2,000 wen); 沙字第五百二十號 (Sha series No. 520). Exchange clause: 每錢鈔貳千文抵換官票銀壹兩. The scan was sideways; rotated 270° in regen-image.js EXTRA_ROTATE on 2026-09-28 at the user's prompt, which made it legible. The earlier PROVISIONAL identification (Hubu Guanpiao or Baochao, undated, no currency) is now settled as a Baochao. The scan is only 0.7 MP; the black seal is not read.",
     "type": [
       "Banknote"
     ],
-    "currency": [],
+    "currency": [
+      "Chinese copper cash"
+    ],
     "language": [
       "Chinese"
     ],
@@ -32854,7 +32856,10 @@
       "19th Century"
     ],
     "creator": "Qing imperial administration",
-    "identifiers": [],
+    "identifiers": [
+      "Sha series",
+      "No. 520"
+    ],
     "namedIndividuals": [],
     "keywords": [
       "Qing dynasty",
@@ -32873,7 +32878,9 @@
     "subjectCountry": [
       "China"
     ],
-    "issueYear": []
+    "issueYear": [
+      "1858"
+    ]
   },
   {
     "id": "goetzmann1543",

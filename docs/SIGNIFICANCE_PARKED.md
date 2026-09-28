@@ -2004,3 +2004,10 @@ The verification pass had pushed these over the length set on 2026-09-24. Full t
 ## goetzmann2053
 
 > A large printed table of the Loterie Royale de France, ruled in fine columns across the whole sheet and filled with figures. It is a working table of the administration rather than an instrument issued to the public; the kind of sheet against which stakes and drawings were checked. It closes the album, whose last leaves are all administrative: the Grenoble account, the tontine account and this.
+
+
+---
+
+## goetzmann1542 (rotated and re-identified 2026-09-28): description before
+
+> A Chinese imperial note printed in indigo on thin paper, framed by a border of dragons among clouds and waves in the manner of the Xianfeng-era government issues. The reign name Xianfeng is legible at the head, and the text columns include the character for tael. A large black intaglio office seal is struck across the center and a vermilion seal beneath it, with further manuscript annotations and a second red seal at the right. Notes of this kind were issued from the early 1850s, when the Taiping war and the cost of suppressing it drove the Qing state to paper for the first time in centuries.
