@@ -2151,7 +2151,7 @@
   {
     "id": "goetzmann0226",
     "title": "State of Massachusetts-Bay War Bond issued to Seth Davenport, 1777",
-    "description": "A printed and manuscript bond of the State of Massachusetts Bay, dated February 26, 1777, acknowledging twenty pounds in lawful money borrowed from Seth Davenport for the use and service of the state. The treasurer promises to repay the principal by June 1, 1780, in Spanish milled dollars at six shillings each, or in coined silver and gold valued by an earlier colonial act of 1749, with interest at six percent paid each year. Massachusetts issued the bond to help fund the Revolutionary War, and it is a direct emission of state debt of the kind later assumed and consolidated into the federal debt. The back carries endorsements recording its settlement in the following decade.",
+    "description": "A printed and manuscript bond of the State of Massachusetts Bay, numbered 159 and dated September 26, 1777, acknowledging twenty pounds in lawful money borrowed from Seth Davenport for the use and service of the state. The treasurer promises to repay the principal by June 1, 1780, in Spanish milled dollars at six shillings each, or in coined silver and gold valued by an earlier colonial act of 1749, with interest at six percent paid each year. The back records it as consolidated in May 1783, when it stood at £23 4s., and the treasurer's signature on the face is cancelled with a cross.",
     "file": "goetzmann0226.jpg",
     "type": [
       "Bond"
@@ -2181,7 +2181,7 @@
       "United States"
     ],
     "currency": [
-      "United States dollar"
+      "Massachusetts pound"
     ],
     "language": [
       "English"
@@ -2190,13 +2190,13 @@
       "1777"
     ],
     "creator": "State of Massachusetts Bay (Treasurer D. Jeffries; Committee)",
-    "notes": "State of Massachusetts Bay war bond, £20 at 6% p.a., issued to Seth Davenport, February 26, 1777. Due June 1, 1780. Page 1 of 2.",
+    "notes": "State of Massachusetts Bay war bond, £20 lawful money at 6%, No. 159, issued to Seth Davenport, 26 September 1777, due 1 June 1780. Signed for the committee by D. Jeffries, C. Davis(?) and J. Sumner; treasurer H. Gardner. Back: 'Seth Davenport, £23/4, Consolid. 173.1.8(?), May 1783, No. 7959'. Corrected 2026-09-28 from the plate: the date was given as February 26 and the number as 7959 (the back's consolidation number); currency was United States dollar. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "United States"
     ],
     "transcription": "# Transcription: State of Massachusetts Bay War Bond, 1777\n\n**State of the Massachusetts-Bay**\n\nSept 26, 1777\n\n**Borrowed and received of** Seth Davenport **the Sum of** Twenty Pounds **Lawful Money, for the Use and Service of the STATE of** Massachusetts-Bay; **and in behalf of said State I do hereby promise and oblige myself and Successors in the Office of Treasurer or Receiver-General, to re-pay the Boffeller by the First Day of** June 1780, **the aforesaid Sum of** Twenty Pounds **Lawful Money, in Spanish mill'd Dollars at** Six Shillings **each, or in the several Species of coined Silver and** Gold **enumerated in an Act made and passed in the Twenty third Year of his late Majesty King** George **the Second, entitled an Act for ascertaining the Rates at which coined Silver and** Gold, **English Half Pence and Farthings may pass within this Government, and according to the Rates therein mentioned, with Interest to be paid annually at** Six per Cent.\n\n**Witness my Hand,**\n\nD. Saffrie [or Affre?]\n[Illegible] Committee\nJ. Summer [or Sumner]\n\n[Signature - appears crossed out]\n\n---\n\n**Notable markings:**\n- Massachusetts Bay state seal (upper left): circular seal with figure and text \"INDE MASSACHUSETS PIETAS\"\n- Ornamental border with floral/botanical engraving throughout\n- Manuscript signatures and handwritten entries\n- One signature or mark crossed through with crossed lines\n- Engraved by Nathaniel Hurd\n\n---\n\n# Transcription\n\n**Visible Text:**\n\nSeth Davenport\n£20 1/4\nComended 1734-8\nMay 1773\nc May 1779\n80\n\n**Notable markings:**\n\n- Handwritten manuscript entries in cursive script on what appears to be the verso (back) of a printed document\n- The entries appear to be notes or calculations, possibly related to financial transactions or bond details\n- Multiple dates listed (1734-8, 1773, 1779)\n- The document shows signs of age with visible creasing from a vertical fold through the center\n- The printed text on the upper portion is largely illegible in this image, appearing very faint",
     "identifiers": [
-      "No. 7959"
+      "No. 159"
     ]
   },
   {
@@ -2230,7 +2230,7 @@
       "1793"
     ],
     "creator": "Louis Stanislas Xavier (Comte de Provence); Charles Philippe (Comte d'Artois); J. Bourcourd & Wedowe F. Croese & Comp. (Amsterdam)",
-    "notes": "Dutch bond No. 173 (1,000 guilders) issued by French Bourbon princes in exile (Louis Stanislas Xavier and Charles Philippe) through Amsterdam bankers J. Bourcourd & Wedowe F. Croese & Comp., September 28, 1793. Signed on behalf of the Garde du Trésor Royal.\n\n⚠ MERGED 2026-09-15. The collection held this document as a scan of its first leaf only; the September 2026 intake supplied it again at about one and a half times the linear resolution, and in full. The first leaf is the same physical sheet. It has been retiled from the larger master, and the 4 further leaves attached as pages. No second record was created and 1366, 1367, 1368, 1369, 1370 were retired. Leaf extent established by: sheet row, \"Page 1\"..\"Page 5\". Description revised 2026-09-24 against all leaves.",
+    "notes": "Dutch bond No. 173 (1,000 guilders) issued by French Bourbon princes in exile (Louis Stanislas Xavier and Charles Philippe) through Amsterdam bankers J. Bourcourd & Wedowe F. Croese & Comp., September 28, 1793. Signed on behalf of the Garde du Trésor Royal.\n\n⚠ MERGED 2026-09-15. The collection held this document as a scan of its first leaf only; the September 2026 intake supplied it again at about one and a half times the linear resolution, and in full. The first leaf is the same physical sheet. It has been retiled from the larger master, and the 4 further leaves attached as pages. No second record was created and 1366, 1367, 1368, 1369, 1370 were retired. Leaf extent established by: sheet row, \"Page 1\"..\"Page 5\". Description revised 2026-09-24 against all leaves. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "France"
     ],
@@ -2264,7 +2264,7 @@
   {
     "id": "goetzmann0229",
     "title": "Russian Imperial Treasury Note, 1915",
-    "description": "A short-term Treasury note of the Imperial Russian State Treasury for fifty rubles, dated 1915 and paying 4 percent a year. Printed in green and black, it declares itself valid until August 1, 1929, and carries a column of four detachable coupons at the left, numbered five through eight and worth one ruble each, covering the semi-annual interest payments due between 1918 and 1919. It bears the double-headed imperial eagle and the signatures of the Manager of the State Treasury, the Director, and a bookkeeper. The Imperial government issued notes like this to fund itself as the First World War deepened its deficits. This one would not mature until 1929, by which time the regime that printed it had long since fallen.",
+    "description": "A short-term Treasury note of the Imperial Russian State Treasury for fifty rubles, dated 1915 and paying 4 percent a year. Printed in green and black, it declares itself valid until August 1, 1929, and carries a column of four detachable coupons at the left, numbered five through eight and worth one ruble each, covering the semi-annual interest payments due between 1918 and 1919. It bears the double-headed imperial eagle and the signatures of the manager of the State Commission for the Repayment of Debts, its director and a bookkeeper.",
     "file": "goetzmann0229.jpg",
     "type": [
       "Bond"
@@ -2291,7 +2291,7 @@
       "1915"
     ],
     "creator": "Imperial Russian State Treasury",
-    "notes": "Russian Imperial Treasury Note, 50 rubles, 4%, No. 352814, 1915. Valid until August 1, 1929. With four interest coupons. Never redeemed due to collapse of Imperial government in 1917.",
+    "notes": "Russian Imperial Treasury Note, 50 rubles, 4%, No. 352814, 1915. Valid until August 1, 1929. With four interest coupons. Never redeemed due to collapse of Imperial government in 1917. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "Russia"
     ],
@@ -2330,7 +2330,7 @@
       "1898"
     ],
     "creator": "Kingdom of Greece (Ministry of Finance); guaranteed by Bank of England",
-    "notes": "Kingdom of Greece Gold-Guaranteed Loan bond, 2½% 1898, 2,500 drachmas, No. 30,731. International guarantee; authenticated by Bank of England. Issued under International Financial Commission supervision following Greek default of 1893.",
+    "notes": "Kingdom of Greece Gold-Guaranteed Loan bond, 2½% 1898, 2,500 drachmas, No. 30,731. International guarantee; authenticated by Bank of England. Issued under International Financial Commission supervision following Greek default of 1893. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "Greece"
     ],
@@ -2343,7 +2343,7 @@
   {
     "id": "goetzmann0231",
     "title": "Romania National Defense Fund Army Equipment Bond, Bucharest, 1940",
-    "description": "A four percent bond of 500 lei issued in 1940 by Romania's Autonomous Administration of the National Defense Fund, under the title \"Bond for the Equipping of the Army.\" Authorized by the Council of Ministers in February 1940, it was to be repaid at full value on March 1, 1945, and its principal and interest were exempted from every present and future tax, due, and state or local levy, a sweetener meant to draw subscribers to an urgent cause. Romania issued it at Bucharest to fund a rushed rearmament drive as the kingdom braced against mounting pressure on its borders. Within months that pressure took concrete form: Romania lost Bessarabia to the Soviet Union and northern Transylvania to Hungary, ceding both without the fight the bond was raising money to prepare for. It was designed by the painter Gheorghe Chirovici.",
+    "description": "A four percent bond of 500 lei issued in 1940 by Romania's Autonomous Administration of the National Defense Fund, under the title \"Bond for the Equipping of the Army.\" Authorized by the Council of Ministers in February 1940, it was to be repaid at full value on March 1, 1945, and its principal and interest were exempted from every present and future tax, due, and state or local levy. It was designed by the painter Gheorghe Chirovici.",
     "file": "goetzmann0231.jpg",
     "type": [
       "Bond"
@@ -2370,20 +2370,20 @@
       "1940"
     ],
     "creator": "Casa Autonomă a Monopolului Apărării Naţionale (Romania)",
-    "notes": "Romanian Army Equipment Bond, Series A, No. 361,551, 500 lei, 1940. Issued to finance military rearmament. Due March 1, 1945.",
+    "notes": "Romanian Army Equipment Bond, Series A, No. 361,551, 500 lei, 1940. Issued to finance military rearmament. Due March 1, 1945. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "Romania"
     ],
     "transcription": "# Romania — National Defense Fund 4% Army Equipment Bond, 500 Lei (1940) — Transcription\n\n## Original:\n\n(Top center: royal crown above the Romanian coat of arms — crowned eagle with cross in beak, sword and scepter in talons, escutcheon on breast)\n\n(Upper left and upper right corners, within roundels in the ornamental border) **4%**   **4%**\n\n(Decorative heading, centered below the arms — red lettering)\n**ROMÂNIA**\n\n(Blue and red lettering)\n**CASA AUTONOMĂ A FONDULUI**\n**APĂRĂRII NAȚIONALE**\n\n(Large ornamental title, blue lettering)\n**BON PENTRU ÎNZESTRAREA ARMATEI**\n\n(Line with denomination roundel)\n**SERIA A**   (roundel:) **LEI 500 LEI**   **Nº 361551**\n\n(Body text — decorated initial \"E\", alternating red and blue words)\nEMIS DE CĂTRE CASA AUTONOMĂ A FONDULUI APĂRĂRII NAȚIONALE, PRIN CASA AUTONOMĂ DE FINANȚARE ȘI AMORTIZARE PE BAZA JURNALULUI CONSILIULUI DE MINIȘTRI Nº 296 DIN 6 FEB. 1940\n\nLA DATA DE 1 MARTIE 1945\n\nCASA AUTONOMĂ A FONDULUI APĂRĂRII NAȚIONALE VA ACHITA PREZENTATORULUI SUMA DE LEI 500. ACEST BON ȘI RAMBURSAREA LUI SUNT SCUTITE DE ORICE FEL DE IMPOZIT SAU TAXE PREZENTE ȘI VIITOARE ȘI ÎN GENERAL DE ORICE CONTRIBUȚIE CĂTRE STAT, ȚINUT ȘI COMUNĂ.\n\n(Signature block — left column)\n**CASA AUTONOMĂ A FONDULUI**\n**APĂRĂRII NAȚIONALE**\n**PREȘEDINTE**\n[handwritten signature]\n\n(Signature block — right column)\n**CASA AUTONOMĂ DE FINANȚARE**\n**ȘI AMORTIZARE**\n**DIRECTOR GENERAL**\n[handwritten signature]\n\n(Central medallion between the two signature blocks: monogram \"AF\" — for Apărării Naționale / Fondului — within a laurel wreath)\n\n(Bottom band: three military vignettes — left: a machine-gun crew in the field; center: an advancing tank breaching obstacles; right: an anti-aircraft / aircraft gun position)\n\n(Bottom left, small print) **PICTORUL GH. CHIROVICI.**\n\n(Bottom right, small print) **M.O. IMPRIMERIA NAȚIONALĂ**\n\n---\n\n## English Translation:\n\n(Corner roundels) **4%**   **4%**\n\n**ROMANIA**\n\n**Autonomous Administration of the National Defense Fund**\n\n**BOND FOR THE EQUIPPING OF THE ARMY**\n\n**Series A**   (roundel:) **LEI 500 LEI**   **No. 361551**\n\nIssued by the Autonomous Administration of the National Defense Fund, through the Autonomous Administration for Financing and Amortization, on the basis of the Journal of the Council of Ministers No. 296 of 6 February 1940.\n\nOn the date of 1 March 1945\n\nthe Autonomous Administration of the National Defense Fund will pay to the bearer the sum of 500 Lei. This bond and its repayment are exempt from every kind of tax or duty, present and future, and in general from any levy to the State, county, and commune.\n\n(Left signature block)\n**Autonomous Administration of the National Defense Fund**\n**President**\n[handwritten signature]\n\n(Right signature block)\n**Autonomous Administration for Financing and Amortization**\n**Director General**\n[handwritten signature]\n\n(Bottom left) **The Painter Gh. Chirovici.**\n\n(Bottom right) **Official Gazette — National Printing House**\n",
     "identifiers": [
       "No. 361,551",
-      "No. 296"
+      "Series A"
     ]
   },
   {
     "id": "goetzmann0232",
     "title": "American & British Securities Company Common Stock Certificate, 1923",
-    "description": "A certificate for one hundred shares of common stock in the American & British Securities Company, a Delaware corporation, dated 1923 and signed by its president and secretary. The shares have no par value, which the printed text explains, and the face is overprinted COMMON in red to distinguish them from the company's preferred stock. The text sets out the terms of the two classes: each share carries one vote, and preferred holders are paid dividends first.",
+    "description": "A certificate for one hundred shares of common stock in the American & British Securities Company, a Delaware corporation, issued to Walter J. Bartnett(?), dated November 1923 and signed by its secretary, Edward P. Johnson, and its president. The shares have no par value, which the printed text explains, and the face is overprinted COMMON in red to distinguish them from the company's preferred stock. The text sets out the terms of the two classes: each share carries one vote, and preferred holders are paid dividends first.",
     "file": "goetzmann0232.jpg",
     "type": [
       "Stock Certificate"
@@ -2410,7 +2410,7 @@
       "1923"
     ],
     "creator": "American & British Securities Company",
-    "notes": "American & British Securities Company common stock certificate, 100 shares, No. 18, issued to Hattie J. Barnhill, September 1919. Incorporated in Delaware.",
+    "notes": "American & British Securities Company common stock certificate No. 18, 100 shares without par value, issued to Walter J. Bartnett(?), dated the 24th(?) of November 1923; the preferred stock paid 7 percent, cumulative after 15 September 1919. Printed by Hamilton Bank Note Co., New York. Corrected 2026-09-28: an older note gave the holder as Hattie J. Barnhill and the date as September 1919. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "United States"
     ],
@@ -2449,7 +2449,7 @@
       "1967"
     ],
     "creator": "American Sugar Company",
-    "notes": "American Sugar Company, incorporated under the laws of the State of Delaware. Certificate No. PD 21186. Registered to Shearson Hammill & Co. Incorporated.",
+    "notes": "American Sugar Company, incorporated under the laws of the State of Delaware. Certificate No. PD 21186. Registered to Shearson Hammill & Co. Incorporated. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "United States"
     ],
@@ -2460,7 +2460,7 @@
   },
   {
     "id": "goetzmann0234",
-    "title": "American Trust Company Capital Stock Certificate, Boston, 1910",
+    "title": "American Trust Company Capital Stock Certificate, Boston, 1915",
     "description": "An engraved capital-stock certificate of the American Trust Company, a Massachusetts corporation chartered in 1881, certifying that Harriette S. Foster holds nine shares of the company's stock at $100 par value each, transferable on the company's books upon surrender of the certificate. Issued at Boston and dated January 14, 1915, it is printed in green over a tinted security ground, with a red diagonal overprint, \"NOT OVER NINE SHARES,\" guarding a small holding against fraudulent alteration. A later red overprint records the final distribution made when the company was afterward liquidated. Engraved by the American Bank Note Company.",
     "file": "goetzmann0234.jpg",
     "type": [
@@ -2485,10 +2485,10 @@
       "English"
     ],
     "issueYear": [
-      "1910"
+      "1915"
     ],
     "creator": "American Trust Company",
-    "notes": "American Trust Company, incorporated under laws of Massachusetts, A.D. 1881. Certificate No. 1951, Boston. Issued to Harriette S. Foster, 9 shares.",
+    "notes": "American Trust Company, incorporated under laws of Massachusetts, A.D. 1881. Certificate No. 1951, Boston. Issued to Harriette S. Foster, 9 shares. The form is printed '190_'; the certificate is date-stamped 14 January 1915. Title and year corrected 2026-09-28 (was 'American Trust Company Capital Stock Certificate, Boston, 1910'). Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "United States"
     ],
@@ -2528,7 +2528,7 @@
       "1910"
     ],
     "creator": "Anglo-Argentine Tramways Company Limited",
-    "notes": "Anglo-Argentine Tramways Company Limited, 5% Debenture Stock, £20, Certificate No. A 03602 (previously recorded as A/68802; the number is printed on both sides). Back of certificate: Extract from Trust Deed (15 June 1910) and Certificate of Registration of a Mortgage or Charge.\n\n⚠ EXTENDED 2026-09-15. This record held the REVERSE of the certificate only, as its description says. The September 2026 intake supplied the FACE of the same certificate, N° A 03602, and it is attached here as a second leaf, so the record now shows both sides. The record's own image is kept as it is: the intake's reverse, goetzmann1372, is 478x768 against the 3936x6321 already here, so it was retired rather than used. ⚠ The leaves are therefore in the order reverse, then face. Description revised 2026-09-24 against all leaves. The face is unissued: seal, day and signatures blank.",
+    "notes": "Anglo-Argentine Tramways Company Limited, 5% Debenture Stock, £20, Certificate No. A 03602 (previously recorded as A/68802; the number is printed on both sides). Back of certificate: Extract from Trust Deed (15 June 1910) and Certificate of Registration of a Mortgage or Charge.\n\n⚠ EXTENDED 2026-09-15. This record held the REVERSE of the certificate only, as its description says. The September 2026 intake supplied the FACE of the same certificate, N° A 03602, and it is attached here as a second leaf, so the record now shows both sides. The record's own image is kept as it is: the intake's reverse, goetzmann1372, is 478x768 against the 3936x6321 already here, so it was retired rather than used. ⚠ The leaves are therefore in the order reverse, then face. Description revised 2026-09-24 against all leaves. The face is unissued: seal, day and signatures blank. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "Argentina"
     ],
@@ -2731,7 +2731,7 @@
       "1722"
     ],
     "creator": "Great Britain. Parliament",
-    "notes": "Printed by John Baskett, Printer to the Kings most Excellent Majesty, and by the Assigns of Thomas Newcomb, and Henry Hills, deceas'd. London, 1722. Acts of the Eighth Session of Parliament begun 17 March 1714, continued by prorogation to 19 October 1721.",
+    "notes": "Printed by John Baskett, Printer to the Kings most Excellent Majesty, and by the Assigns of Thomas Newcomb, and Henry Hills, deceas'd. London, 1722. Acts of the Eighth Session of Parliament begun 17 March 1714, continued by prorogation to 19 October 1721. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "United Kingdom"
     ],
@@ -2740,8 +2740,8 @@
   },
   {
     "id": "goetzmann0274",
-    "title": "Anno Regni Georgii II Regis Vicesimo Quarto: An Act for raising money by Exchequer Bills to pay off the South Sea Annuities, London, 1750",
-    "description": "A printed Act of the Parliament of Great Britain from the twenty-fourth year of George II, printed at London in 1750 by Thomas Baskett, the King's Printer. The Act empowers the King to raise money by Exchequer Bills charged on the Sinking Fund, in order to pay off the Treasury's Old and New South Sea Annuities and to admit subscribers to the Bank of England and the South Sea Company. It fixes interest at four pounds per hundred a year, regulates the form, registration, and circulation of the bills, and directs the Sinking Fund to their discharge. Coming three decades after the Bubble of 1720, it marks a late stage in the long unwinding of the South Sea Company's debt, the routine statutory bookkeeping by which Britain slowly retired the obligations left by the great speculative collapse.",
+    "title": "Act of Parliament to Pay Off the Unsubscribed South Sea Annuities with Exchequer Bills, London, 1750",
+    "description": "A printed Act of the Parliament of Great Britain from the twenty-fourth year of George II, printed at London in 1750 by Thomas Baskett, the King's Printer. The Act empowers the King to raise money by Exchequer Bills charged on the Sinking Fund, and to let the Commissioners of the Treasury pay off the Old and New South Sea Annuities whose holders had not subscribed to the reduction of interest, out of the supply for 1751, and to admit subscribers to the Bank of England and the South Sea Company. It fixes interest at four pounds per hundred a year, regulates the form, registration, and circulation of the bills, and directs the Sinking Fund to their discharge.",
     "file": "goetzmann0274.jpg",
     "type": [
       "Pamphlet"
@@ -2840,7 +2840,7 @@
       "1750"
     ],
     "creator": "Great Britain. Parliament",
-    "notes": "Printed by Thomas Baskett, Printer to the King's most Excellent Majesty, and by the Assigns of Robert Baskett. London, 1750. Acts of the Fourth Session of Parliament begun 10 November 1747, continued by prorogation to 17 January 1750.",
+    "notes": "Printed by Thomas Baskett, Printer to the King's most Excellent Majesty, and by the Assigns of Robert Baskett. London, 1750. Acts of the Fourth Session of Parliament begun 10 November 1747, continued by prorogation to 17 January 1750. The session opened on 17 January 1750 by the old-style calendar, which is 1751 by the modern one; the Act begins at p. 79. Title put into plain English 2026-09-28 (was 'Anno Regni Georgii II Regis Vicesimo Quarto: An Act for raising money by Exchequer Bills to pay off the South Sea Annuities, London, 1750'). Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "United Kingdom"
     ],
@@ -2850,7 +2850,7 @@
   {
     "id": "goetzmann0292",
     "title": "Baltimore and Ohio Railroad Company Common Stock, 1934",
-    "description": "An engraved certificate for one hundred shares of common stock, par value $100 each, in the Baltimore and Ohio Railroad Company, incorporated by the State of Maryland on February 28, 1827. It was issued to Evans, Stillman & Co. and dated June 19, 1934. The B&O was among the earliest American railroads, and by the 1930s one of the great eastern trunk lines, but the 1934 date places this share in the depths of the Depression, when collapsing freight traffic and heavy fixed debt left railroad securities trading under severe strain.",
+    "description": "An engraved certificate for one hundred shares of common stock, par value $100 each, in the Baltimore and Ohio Railroad Company, incorporated by the State of Maryland on February 28, 1827. It was issued to Evans, Stillman & Co. and dated June 19, 1934.",
     "file": "goetzmann0292.jpg",
     "type": [
       "Stock Certificate"
@@ -2877,7 +2877,7 @@
       "1934"
     ],
     "creator": "Baltimore and Ohio Railroad Company",
-    "notes": "Baltimore and Ohio Railroad Company, Common Stock, 100 shares, No. C243475, Evans Stillman & Co., June 19, 1934",
+    "notes": "Baltimore and Ohio Railroad Company, Common Stock, 100 shares, No. C243475, Evans Stillman & Co., June 19, 1934 Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "United States"
     ],
@@ -2889,7 +2889,7 @@
   {
     "id": "goetzmann0293",
     "title": "Baltimore and Ohio Rail Road Company Preferred Stock, 1875",
-    "description": "An engraved certificate for sixty shares of the six percent preferred stock of the Baltimore and Ohio Rail Road Company, second series, par value $100 each, issued at Baltimore and dated September 7, 1875. It rests on an act of the Maryland General Assembly of 1868, under which the company created this preferred stock and guaranteed it, by an agreement dated May 25, 1868, a perpetual dividend of six percent a year, fixed at that rate and payable ahead of any dividend to common shareholders.",
+    "description": "An engraved certificate for sixty shares of the six percent preferred stock of the Baltimore and Ohio Rail Road Company, second series, par value $100 each, issued at Baltimore to A. Gregg & Co. and dated September 7, 1875; it is cancelled with punch holes. It rests on an act of the Maryland General Assembly of 1868, under which the company created this preferred stock and guaranteed it, by an agreement dated May 25, 1868, a perpetual dividend of six percent a year, fixed at that rate and payable ahead of any dividend to common shareholders.",
     "file": "goetzmann0293.jpg",
     "type": [
       "Stock Certificate"
@@ -2916,7 +2916,7 @@
       "1875"
     ],
     "creator": "Baltimore and Ohio Railroad Company",
-    "notes": "Baltimore and Ohio Rail Road Company, 6% Preferred Stock, No. 466, ca. September 1863",
+    "notes": "Baltimore and Ohio Rail Road Company, 6% Preferred Stock, No. 466, Baltimore, 7 September 1875 (an older note gave ca. September 1863). Printed by Kelly & Piet, Baltimore Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "United States"
     ],
@@ -2955,12 +2955,14 @@
       "1938"
     ],
     "creator": "Banca Românească",
-    "notes": "Banca Românească, 500 lei share, Bucharest 1938, eighth emission (Emisiunea VIII-A), subscribed capital 350,000,000 lei. Same engraved plate as the 1920 share goetzmann0295; the pair is shown with a shared description, the year in the title carrying the difference. Restored to the site 2026-09-02.",
+    "notes": "Banca Românească, 500 lei share, Bucharest 1938, eighth emission (Emisiunea VIII-A), subscribed capital 350,000,000 lei. Same engraved plate as the 1920 share goetzmann0295; the pair is shown with a shared description, the year in the title carrying the difference. Restored to the site 2026-09-02. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "Romania"
     ],
     "transcription": "# Banca Românească Share Certificate, Bucharest, 1938 — Transcription\n\n## Original:\n\n(Vertical text printed along both outer borders:)\n**BANCA ROMÂNEASCĂ** (left margin) — **BANCA ROMÂNEASCĂ** (right margin, partly reads \"…MÂNEASCĂ S.A.\")\n\n(Large circular medallions, upper left and upper right:)\n**LEI 500 LEI**\n\n(Central heading, large ornamental lettering:)\n\n**BANCA**\n**ROMÂNEASCĂ**\n**SOCIETATE ANONIMĂ**\n**CAPITAL SOCIAL LEI 350.000.000.**\n**EMISIUNEA VIII-A**\n\nCONFORM DECIZIUNEI ADUNĂREI GENERALE EXTRA-\nORDINARE DIN 12 FEBRUARIE 1938, PUBLICATĂ ÎN\nMONITORUL OFICIAL Nº 57 DIN 10 MARTIE 1938 ȘI\nA HOTĂRÂREI CONSILIULUI DE ADMINISTRAȚIE DIN\n12 FEBRUARIE 1938, CAPITALUL SOCIAL AL BĂNCII\nS'A SPORIT PRINTR'O NOUĂ EMISIUNE DE 140.000\nACȚIUNI, DE LA 280.000.000 LEI LA 350.000.000\nLEI DIVIZAT ÎN 700.000 ACȚIUNI A 500 LEI FIECARE.\n\nSOCIETATEA ESTE CONSTITUITĂ ÎN VIRTUTEA ACTULUI AUTENTIFICAT\nDE TRIBUNALUL ILFOV SECȚIA DE NOTARIAT LA Nº 14337 DIN 11 DEC\n1910 ȘI AUTORIZATĂ PRIN SENTINȚA TRIBUNALULUI ILFOV\nSECȚIA COMERCIALĂ Nº 1317 DIN 14 DECEMBRIE 1910, PUBLICATĂ\nÎN MONITORUL OFICIAL Nº 222 DIN 5 IANUARIE 1911 ◦ \" ◦ \" ◦ \"\n\nDURATA SOCIETĂȚEI ESTE NELIMITATĂ.\n\n**TITLU LA PURTĂTOR**\nDE\n**UNA ACȚIUNE**\n**VALOARE NOMINALĂ LEI 500**\n\nNº 0560076\n\nADMINISTRATORI            SEMNĂTURA DE CONTROL\n[three handwritten ink signatures]\n\n(Central engraved vignette: standing peasant/mountaineer with staff at left, farmstead with smoking factory chimneys and a figure sowing in the middle ground, and a seated woman with grazing cattle and an ox-cart at right)\n\n**BUCUREȘTI 1938**\n\n(Lower oval vignette: an ocean-going steamship at sea, flanked by two medallions reading **L 500 L**)\n\nTimbrul pentru fondul de aviație s'a achitat la Banca Națională\na României cu recipisa No. 9225 din 14 Martie 1938.\n\n(Printer's imprint, vertical at lower right border:) \"CARTEA ROMÂNEASCĂ\"\n\n(Overprinted markings across the top:)\n- Several purple circular stamps reading **OPTAT** with, inside, references such as **EMISIUNEA XI-a**, **EMISIUNEA X-a**, and the year **1945**\n- A pale green revenue/tax stamp near the top center reading **LEI 7 / STATUL**\n\n---\n\n## English Translation:\n\n(Vertical border text:) ROMANIAN BANK\n\n(Corner medallions:) 500 LEI\n\nROMANIAN BANK\nJOINT-STOCK COMPANY\nSHARE CAPITAL 350,000,000 LEI.\nEIGHTH EMISSION\n\nIN ACCORDANCE WITH THE DECISION OF THE EXTRAORDINARY GENERAL ASSEMBLY OF 12 FEBRUARY 1938, PUBLISHED IN THE OFFICIAL GAZETTE No. 57 OF 10 MARCH 1938, AND WITH THE RESOLUTION OF THE BOARD OF DIRECTORS OF 12 FEBRUARY 1938, THE BANK'S SHARE CAPITAL WAS INCREASED THROUGH A NEW EMISSION OF 140,000 SHARES, FROM 280,000,000 LEI TO 350,000,000 LEI, DIVIDED INTO 700,000 SHARES OF 500 LEI EACH.\n\nTHE COMPANY IS CONSTITUTED BY VIRTUE OF THE DEED AUTHENTICATED BY THE ILFOV TRIBUNAL, NOTARIAL SECTION, UNDER No. 14337 OF 11 DEC 1910, AND AUTHORIZED BY THE JUDGMENT OF THE ILFOV TRIBUNAL, COMMERCIAL SECTION, No. 1317 OF 14 DECEMBER 1910, PUBLISHED IN THE OFFICIAL GAZETTE No. 222 OF 5 JANUARY 1911.\n\nTHE DURATION OF THE COMPANY IS UNLIMITED.\n\nBEARER CERTIFICATE\nFOR\nONE SHARE\nNOMINAL VALUE 500 LEI\n\nNo. 0560076\n\nDIRECTORS            CONTROL SIGNATURE\n[three handwritten ink signatures]\n\nBUCHAREST 1938\n\nThe stamp duty for the aviation fund has been paid at the National Bank of Romania under receipt No. 9225 of 14 March 1938.\n\n(Printer's imprint:) \"CARTEA ROMÂNEASCĂ\" (The Romanian Book)\n\n(Overprinted markings:) purple circular \"OPTAT\" (OPTED) stamps referencing the 10th and 11th emissions and the year 1945; a pale green 7-lei state revenue stamp near the top.\n",
-    "identifiers": []
+    "identifiers": [
+      "No. 0560076"
+    ]
   },
   {
     "id": "goetzmann0295",
@@ -2992,7 +2994,7 @@
       "1920"
     ],
     "creator": "Banca Românească",
-    "notes": "Banca Românească, 500 lei share No. 011648, Capital 160,000,000 lei, Bucharest 1920. A 1938 share from the same engraved plate — Emisiunea VIII-A, capital 350,000,000 lei — was catalogued as goetzmann0294 and dropped as a design variant on 2026-08-23; its scan, tiles and OCR text remain on disk.",
+    "notes": "Banca Românească, 500 lei share No. 011648, Capital 160,000,000 lei, Bucharest 1920. A 1938 share from the same engraved plate — Emisiunea VIII-A, capital 350,000,000 lei — was catalogued as goetzmann0294 and dropped as a design variant on 2026-08-23; its scan, tiles and OCR text remain on disk. Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "Romania"
     ],
@@ -3034,7 +3036,7 @@
       "1911"
     ],
     "creator": "Banco Territorial de Cuba",
-    "notes": "Banco Territorial de Cuba (Crédit Foncier Cubain), Acción Beneficiaria No. 22752, Havana, March 1, 1911 Title put into plain English 2026-09-28 at the user's request (was 'Banco Territorial de Cuba (Crédit Foncier Cubain), Acción Beneficiaria, Havana, 1911').",
+    "notes": "Banco Territorial de Cuba (Crédit Foncier Cubain), Acción Beneficiaria No. 22752, Havana, March 1, 1911 Title put into plain English 2026-09-28 at the user's request (was 'Banco Territorial de Cuba (Crédit Foncier Cubain), Acción Beneficiaria, Havana, 1911'). Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "Cuba"
     ],
@@ -3046,7 +3048,7 @@
   {
     "id": "goetzmann0297",
     "title": "Bank of Roumania Limited Share Warrant, London, 1903",
-    "description": "A bearer share warrant of the Bank of Roumania Limited, certifying its holder as proprietor of five fully paid shares of £6 each, given under the company's common seal on May 30, 1903. The bank was registered in London, at 7 Great Winchester Street, under the Companies Acts of 1862 to 1900, with a capital of £300,000 divided into 50,000 shares. The warrant is bilingual, its clauses set in parallel English and French, \"Share Warrant to Bearer\" beside \"Titre au Porteur,\" a convention that eased the instrument's circulation on Continental exchanges; a French foreign-securities tax stamp of 1922 shows it did just that. A British-registered bank bearing a foreign country's name, it belongs to the flow of Western capital into south-eastern Europe at the turn of the twentieth century.",
+    "description": "A bearer share warrant of the Bank of Roumania Limited, certifying its holder as proprietor of five fully paid shares of £6 each, given under the company's common seal on May 30, 1903. The bank was registered in London, at 7 Great Winchester Street, under the Companies Acts of 1862 to 1900, with a capital of £300,000 divided into 50,000 shares. The warrant is bilingual, its clauses set in parallel English and French, \"Share Warrant to Bearer\" beside \"Titre au Porteur,\" a convention that eased the instrument's circulation on Continental exchanges; a French foreign-securities tax stamp of 1922 shows it did just that.",
     "file": "goetzmann0297.jpg",
     "type": [
       "Stock Certificate"
@@ -3074,7 +3076,7 @@
       "1903"
     ],
     "creator": "Bank of Roumania Limited",
-    "notes": "Bank of Roumania Limited, Share Warrant No. 5205, 5 shares (Nos. 17771-17775), £6 each, London, May 1903",
+    "notes": "Bank of Roumania Limited, Share Warrant No. 5205, 5 shares (Nos. 17771-17775), £6 each, London, May 1903 Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "Romania"
     ],
@@ -3115,17 +3117,19 @@
       "1920"
     ],
     "creator": "Bank Małopolski",
-    "notes": "Bank Małopolski, Kraków, 25 shares, 10,000 Koron / 7,000 Polish Marks, December 15, 1920 Currency: Austrian korony and Polish marks, as printed (previously recorded as Polish zloty, introduced 1924).",
+    "notes": "Bank Małopolski, Kraków, 25 shares, 10,000 Koron / 7,000 Polish Marks, December 15, 1920 Currency: Austrian korony and Polish marks, as printed (previously recorded as Polish zloty, introduced 1924). Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "Poland"
     ],
     "transcription": "# Bank Małopolski Share Certificate\n\n**Original:**\n\n[Top left, in Polish]\nW myśl uchwały Wnjazdu Zgromadzenia Akcjonariuszy z dnia 19 XII, 1923 r zatwierdzionej postanowieniami Ministra Skarbu ora Dyrektora Głównego Celu Handlu i Industrii.\n\n[Top right, in German]\nIm Sinne des mit Erlass des Finanz-sowie des Industrie- und Handels-Ministeriums vom 19.XII.1923 genehmigten Beschlusses der Generalversammlung der Direktoren vom 19.XII.1923 wird der Nominalbeitrag der Aktie durch Überstempelung von [illegible] auf je [illegible] erhöht.\n\n**Center heading (Polish):**\nDwudziesta piąca akcji\nBANKU MAŁOPOLSKIEGO SPÓŁKI AKCYJNEJ\nPO K 400.- MP 280.- NOM. WART. CZYLI\n\n**Subheading (Polish):**\nKORON DZIESIĘTYSIĘCY,\nCZYLI MAREK POLSKI. SIEDEMTYSIĘCY\n\n**Main text (Polish):**\nktóre zapewniają okzicielowi wszelkie prawa do majątku i dochodów Spółki Akcyjnej, jakie służą na mocy Statutu Spółki każdemu posiadaczowi akcji.\n\nKRAKÓW, dnia 15. grudnia 1920.\nBANK MAŁOPOLSKI Spółka Akcyjna.\n\n---\n\n## English translation:\n\n[Top left]\nIn accordance with the resolution of the General Meeting of Shareholders dated December 19, 1923, approved by the decisions of the Ministry of Treasury and the Director General of Trade and Industry.\n\n[Top right]\nIn accordance with the decree of the Finance and Industry and Trade Ministries dated December 19, 1923, approving the decision of the General Assembly of Directors, the nominal contribution of the share is increased by overprinting from [illegible] to [illegible] each.\n\n**Center heading:**\nTwenty-fifth shares\nOF THE BANK OF LITTLE POLAND JOINT STOCK COMPANY\nAT K 400.- MP 280.- NOM. VALUE, NAMELY\n\n**Subheading:**\nTEN THOUSAND CROWNS,\nOR SEVEN THOUSAND POLISH MARKS\n\n**Main text:**\nwhich guarantee to the bearer all rights to the property and income of the Joint Stock Company as provided by the Company's Statute to each shareholder.\n\nKRAKÓW, December 15, 1920.\nBANK MAŁOPOLSKI Joint Stock Company.\n\n---\n\n## Notable markings:\n\n- **Serial numbers:** OD Nr. 305,126 and DO Nr. 305,150 (top center)\n- **Stamps:** \n  - Austrian Imperial stamp (top right)\n  - Purple circular stamp: \"Bezugsrecht 1922 ausgebucht\" (Subscription rights 1922 recorded)\n  - Another purple circular stamp dated 1923\n  - Red diagonal stamp: \"WIEN [illegible]\"\n- **Signatures:** Two signatures at bottom center (illegible names)\n- **Denomination ornaments:** \"10000 CZYLI 7000 MP\" appears in decorative octagonal cartouches on left and right sides\n- **Logo:** Bank Małopolski monogram (MB) at bottom center in shield\n- **Currency denominations:** Reflecting the dual Austrian Korona/Polish Mark transition period",
-    "identifiers": []
+    "identifiers": [
+      "Nos. 305126-305150"
+    ]
   },
   {
     "id": "goetzmann0299",
     "title": "Siberian Commercial Bank Dividend Coupon Sheet, 1917",
-    "description": "A sheet of five dividend coupons of the Siberian Commercial Bank, one of the leading joint-stock banks of the late Russian Empire. Each coupon entitled the holder of two shares to collect a year's dividend, running in sequence from 1917 through 1921. The coupons were printed before the revolution, for dividends reaching years into the future. But the sequence begins in 1917: after the Bolsheviks nationalized the banks that December, dividends for these years were never paid, and the sheet survives uncut and unredeemed. What was meant to be a schedule of future income became a record of income the revolution erased.",
+    "description": "A sheet of five dividend coupons of the Siberian Commercial Bank, one of the leading joint-stock banks of the late Russian Empire. Each coupon entitled the holder of two shares to collect a year's dividend, running in sequence from 1917 through 1921. The coupons were printed before the revolution, for dividends reaching years into the future. But the sequence begins in 1917: after the Bolsheviks nationalized the banks that December, dividends for these years were never paid, and the sheet survives uncut and unredeemed.",
     "file": "goetzmann0299.jpg",
     "type": [
       "Coupon"
@@ -3152,7 +3156,7 @@
       "1917"
     ],
     "creator": "Siberian Commercial Bank",
-    "notes": "Siberian Commercial Bank (Banque Commerciale de Sibérie), dividend coupons 6-10 for shares 17747-17748, years 1917-1921",
+    "notes": "Siberian Commercial Bank (Banque Commerciale de Sibérie), dividend coupons 6-10 for shares 17747-17748, years 1917-1921 Read against the plate 2026-09-28 (0000-0299 pass).",
     "subjectCountry": [
       "Russia"
     ],
