@@ -3027,7 +3027,7 @@
       "Cuba"
     ],
     "currency": [
-      "Cuban peso"
+      "United States dollar"
     ],
     "language": [
       "Spanish",
@@ -3039,7 +3039,7 @@
       "1911"
     ],
     "creator": "Banco Territorial de Cuba",
-    "notes": "Banco Territorial de Cuba (Crédit Foncier Cubain), Acción Beneficiaria No. 22752, Havana, March 1, 1911 Title put into plain English 2026-09-28 at the user's request (was 'Banco Territorial de Cuba (Crédit Foncier Cubain), Acción Beneficiaria, Havana, 1911'). Read against the plate 2026-09-28 (0000-0299 pass).",
+    "notes": "Banco Territorial de Cuba (Crédit Foncier Cubain), Acción Beneficiaria No. 22752, Havana, March 1, 1911 Title put into plain English 2026-09-28 at the user's request (was 'Banco Territorial de Cuba (Crédit Foncier Cubain), Acción Beneficiaria, Havana, 1911'). Read against the plate 2026-09-28 (0000-0299 pass). Currency corrected 2026-09-28: the capital is stated in US gold dollars and the Cuban peso was first issued in 1914 (was Cuban peso).",
     "subjectCountry": [
       "Cuba"
     ],
@@ -6087,7 +6087,7 @@
   },
   {
     "id": "goetzmann0375",
-    "title": "Republic of Texas Government Bond, 1840",
+    "title": "Republic of Texas Government Bond, Austin, 1841",
     "description": "A $100 government bond of the Republic of Texas dated at Austin, 1 February 1841, headed \"Government Bond, payable to holder. Receivable for all Government Dues,\" though the body is made out to Charles De Morse, stock commissioner, or order. It is numbered 1995. It belongs to the eight percent fund of $1,500,000, created by act of congress of 5 February 1840, and pays 8 percent interest half-yearly in gold or silver against the annexed coupons, the principal redeemable after 1 January 1846. It is signed by David G. Burnet, acting president in place of Mirabeau B. Lamar, and John G. Chalmers, secretary of the treasury. Ten four-dollar coupons run along the foot.",
     "file": "goetzmann0375.jpg",
     "type": [
@@ -6112,10 +6112,10 @@
       "English"
     ],
     "issueYear": [
-      "1840"
+      "1841"
     ],
     "creator": "Republic of Texas",
-    "notes": "Republic of Texas Government Bond, $100, 8% semi-annual interest, No. 1995, signed by John G. Chalmers (previously \"John F.\") (Secretary); receivable for all government duties, with coupon strips",
+    "notes": "Republic of Texas Government Bond, $100, 8% semi-annual interest, No. 1995, signed by John G. Chalmers (previously \"John F.\") (Secretary); receivable for all government duties, with coupon strips Date corrected 2026-09-28 from the plate, 'Treasury Department, Austin, Feby 1 1841'; the record had 1840, the year of the act creating the fund.",
     "subjectCountry": [
       "United States"
     ],
@@ -10639,7 +10639,7 @@
       "Netherlands"
     ],
     "currency": [
-      "German mark"
+      "Reichsmark"
     ],
     "language": [
       "Dutch"
@@ -10648,7 +10648,7 @@
       "1928"
     ],
     "creator": "Hollandsche Garantie- & Trust Compagnie",
-    "notes": "6% Certificaat van Inschrijving, Grootboek Duitsche Rijk (Reichsschuldbuch). No. 0128, 2,000 Reichsmark, Series per 1943. Amsterdam, November 1928. Hollandsche Garantie- & Trust Compagnie. Notary B. H. Grijseels (previously misread as \"Grepels\").",
+    "notes": "6% Certificaat van Inschrijving, Grootboek Duitsche Rijk (Reichsschuldbuch). No. 0128, 2,000 Reichsmark, Series per 1943. Amsterdam, November 1928. Hollandsche Garantie- & Trust Compagnie. Notary B. H. Grijseels (previously misread as \"Grepels\"). Currency corrected 2026-09-28: the inscription is for 2,000 Reichsmark (was German mark).",
     "subjectCountry": [
       "Germany"
     ],
@@ -16534,7 +16534,7 @@
       "dividends",
       "acceptance",
       "Joint Account",
-      "1831"
+      "1838"
     ],
     "owner": "",
     "issuingCountry": [
@@ -17095,7 +17095,7 @@
       "3.75% conversion bond",
       "150 rubles",
       "No. 097530",
-      "1896",
+      "1898",
       "bearer bond",
       "Nikolaevsky Credit Society",
       "State Bank Russia"
@@ -18001,7 +18001,7 @@
       "United States"
     ],
     "period": [
-      "19th Century"
+      "20th Century"
     ],
     "namedIndividuals": [],
     "keywords": [
@@ -18030,7 +18030,7 @@
       "1938"
     ],
     "creator": "West Shore Railroad Company",
-    "notes": "West Shore Railroad Company, First Mortgage Guaranteed Bond, $1,000, No. M 60301, registered to The Farmers Indemnity Company. Issue limited to $50,000,000, secured by the mortgage of 5 December 1885 to the Union Trust Company of New York. 4%, January and July; interest from 1 July 1938; principal due 1 January 2361, payable at the office of the New York Central and Hudson River Railroad Company. Executed 5 December 1938 (read from the plate; previously dated 1885, the mortgage year, and in the notes \"April 25, 1916\"). Stamp \"APR 26 1946\" at top. Punch-canceled.",
+    "notes": "West Shore Railroad Company, First Mortgage Guaranteed Bond, $1,000, No. M 60301, registered to The Farmers Indemnity Company. Issue limited to $50,000,000, secured by the mortgage of 5 December 1885 to the Union Trust Company of New York. 4%, January and July; interest from 1 July 1938; principal due 1 January 2361, payable at the office of the New York Central and Hudson River Railroad Company. Executed 5 December 1938 (read from the plate; previously dated 1885, the mortgage year, and in the notes \"April 25, 1916\"). Stamp \"APR 26 1946\" at top. Punch-canceled. Period corrected 2026-09-28: executed 1938 (was 19th Century, from the 1885 mortgage).",
     "subjectCountry": [
       "United States"
     ],
@@ -18775,7 +18775,7 @@
       "Serie C",
       "No. 621768",
       "£200",
-      "1890",
+      "1899",
       "bearer bond",
       "Mexican eagle"
     ],
@@ -19367,7 +19367,6 @@
       "Fundo Externo Portuguez",
       "external fund",
       "zero coupon",
-      "1862",
       "Réis",
       "Junta de Crédito Público"
     ],
@@ -19677,7 +19676,6 @@
       "municipality",
       "prize loan",
       "lottery bond",
-      "1900",
       "Lire",
       "Prestito a Premi"
     ],
@@ -24654,8 +24652,7 @@
       "Dominion of Canada",
       "sterling",
       "London",
-      "redeemable",
-      "1910"
+      "redeemable"
     ],
     "owner": "WNG",
     "issuingCountry": [
@@ -25389,7 +25386,6 @@
       "New Jersey",
       "suburban",
       "sinking fund",
-      "1892",
       "residential"
     ],
     "owner": "ICF",
@@ -25923,17 +25919,14 @@
       "Gilles Bernard Raguet"
     ],
     "keywords": [
-      "French company",
-      "statutes",
-      "constitution",
-      "notarial act",
+      "Compagnie des Indes",
+      "life annuity",
+      "lottery",
+      "notarial contract",
       "Paris",
-      "1785",
-      "compagnie",
-      "joint-stock",
-      "Châtelet",
-      "ancien régime",
-      "Bordeaux"
+      "Montpellier",
+      "1726",
+      "ancien régime"
     ],
     "owner": "WNG",
     "issuingCountry": [
@@ -26003,8 +25996,7 @@
       "Zeeland",
       "mortgage",
       "colonial",
-      "obligatie",
-      "1794"
+      "obligatie"
     ],
     "owner": "ICF",
     "issuingCountry": [
@@ -42563,9 +42555,9 @@
     "id": "goetzmann1803",
     "file": "goetzmann1803.jpg",
     "transcription": "",
-    "title": "Ancienne Tontine Receipt, Paris, 1702",
+    "title": "Ancienne Tontine Receipt, Paris, 1703",
     "description": "A receipt on the Ancienne Tontine for the year 1702, number 20, passed before the King's notaries at Paris. Messire Léon Étienne Le Camus, knight, councillor ordinary of the King in his councils and master of requests ordinary of his household, acknowledges having received from Maître Philippe Alexis Durand de Saint-Eugène, councillor of the King, treasurer receiver general and payer, 18 livres 15 sols 3 deniers: his life annuity of 16 livres 13 sols 4 deniers for 1702, under a contract of January 1690 before the notary Caillet, fourth class, and 2 livres 1 sol 11 deniers of accrual from members who had died. It was passed in April 1703 and seen by the syndic of the class on 21 May 1703. The head carries a device of a phoenix rising from its fire with the motto Fæcundi Cineres, fruitful ashes. It is countersigned at the left by the syndic.",
-    "notes": "Année 1702, No. 20. Device motto 'Fæcundi Cineres'. Payer: Philippe Alexis Durand de St Eugenne, Trésorier Receveur Général et Payeur. Sum 18 l. 15 s. 3 d. = 16 l. 13 s. 4 d. + 2 l. 1 s. 11 d. accroissement (read at full resolution); 4th class; passed April 1703 (day hard to read), visa 21 May 1703. Checked closely at full resolution 2026-09-25.",
+    "notes": "Année 1702, No. 20. Device motto 'Fæcundi Cineres'. Payer: Philippe Alexis Durand de St Eugenne, Trésorier Receveur Général et Payeur. Sum 18 l. 15 s. 3 d. = 16 l. 13 s. 4 d. + 2 l. 1 s. 11 d. accroissement (read at full resolution); 4th class; passed April 1703 (day hard to read), visa 21 May 1703. Checked closely at full resolution 2026-09-25. Title year set to 1703 on 2026-09-28 to match the date field: the receipt was passed in April 1703 for the 1702 annuity (title was '..., 1702').",
     "type": [
       "Tontine"
     ],
@@ -46341,7 +46333,7 @@
     "transcription": "",
     "title": "French National Lottery Drawing List, Lyon, 9 Prairial Year X (1802)",
     "description": "A printed list of the numbers drawn at the Lyon drawing of the Loterie Nationale of 9 Prairial year X, headed Liberté, Égalité with a figure of Fortune. The drawing was made in public in the hall of the Bourse, in the Maison de Saint-Pierre on the Place des Terreaux, before the prefect of the department, the general commissioner of police, the government commissioner at the criminal court and the inspector in chief. The numbers that came out of the wheel were 37, 60, 1, 75 and 69. It is certified as a true extract of the official record by the lottery's inspectors Denoyelle, Litez-Tiverval and Serpolet.",
-    "notes": "Tirage de Lyon, du 9 Prairial an dix (29 May 1802; previously 'year indistinct'); numbers 37, 60, 1, 75, 69; inspectors Denoyelle, Litez-Tiverval, Serpolet (previously 'signed for the Lyon administration'). Denoyelle is presumably the Lyon inspector of [2029]. Checked closely at full resolution 2026-09-25. Title put into plain English 2026-09-28 at the user's request (was 'Loterie Nationale Drawing List, Lyon, 9 Prairial Year X (1802)').",
+    "notes": "Tirage de Lyon, du 9 Prairial an dix (29 May 1802; previously 'year indistinct'); numbers 37, 60, 1, 75, 69; inspectors Denoyelle, Litez-Tiverval, Serpolet (previously 'signed for the Lyon administration'). Denoyelle is presumably the Lyon inspector of [2029]. Checked closely at full resolution 2026-09-25. Title put into plain English 2026-09-28 at the user's request (was 'Loterie Nationale Drawing List, Lyon, 9 Prairial Year X (1802)'). Period corrected 2026-09-28: 1802-1804 is the 19th century (was 18th Century).",
     "type": [
       "Regulatory Document"
     ],
@@ -46352,7 +46344,7 @@
       "French"
     ],
     "period": [
-      "18th Century"
+      "19th Century"
     ],
     "creator": "Loterie Nationale, Bureau de Lyon",
     "identifiers": [],
@@ -46616,7 +46608,7 @@
     "transcription": "",
     "title": "French National Lottery Stake Receipt, Voiron, Thermidor Year XI (1803)",
     "description": "A betting receipt of the Loterie Nationale, sheet 1 of the register, printed \"1re Feuille\" at the head, from office 87 (the number is hard to read), registered number 1, in the commune of Voiron, for a drawing of Thermidor year XI at Lyon. It is filled in: the holder staked on the numbers 1, 8, 9, 40, 64, 68, 70 and 85, as twenty-eight two-number bets and a three-number bet, and it is receipted and signed. Voiron was the office whose receiver, Benoît, the Lyon inspector reported that same month for taking stakes on his own account, at [2029].",
-    "notes": "[1re Feuille]; B.au 87(?), Enr.nt 1; commune de Voiron; Tirage de Lyon, Thermidor an 11 (1803). Filled in and signed: numbers 1-8-9-40-64-68-70-85; 28 ambes. The previous description said the form was blank and unissued. Compare [2029], the Lyon inspector's letter of 10 Thermidor XI about the Voiron receiver Benoît. Checked closely at full resolution 2026-09-25. Title put into plain English 2026-09-28 at the user's request (was 'Loterie Nationale Stake Receipt, Voiron, Thermidor Year XI (1803)').",
+    "notes": "[1re Feuille]; B.au 87(?), Enr.nt 1; commune de Voiron; Tirage de Lyon, Thermidor an 11 (1803). Filled in and signed: numbers 1-8-9-40-64-68-70-85; 28 ambes. The previous description said the form was blank and unissued. Compare [2029], the Lyon inspector's letter of 10 Thermidor XI about the Voiron receiver Benoît. Checked closely at full resolution 2026-09-25. Title put into plain English 2026-09-28 at the user's request (was 'Loterie Nationale Stake Receipt, Voiron, Thermidor Year XI (1803)'). Period corrected 2026-09-28: 1802-1804 is the 19th century (was 18th Century).",
     "type": [
       "Receipt"
     ],
@@ -46627,7 +46619,7 @@
       "French"
     ],
     "period": [
-      "18th Century"
+      "19th Century"
     ],
     "creator": "Loterie Nationale",
     "identifiers": [
@@ -46660,7 +46652,7 @@
     "transcription": "",
     "title": "French National Lottery Stake Receipt, Paris, Fructidor Year XII (1804)",
     "description": "A betting receipt of the Loterie Nationale, form number 14, from office 48 (the number is hard to read), registered number 164, for a Paris drawing of Fructidor year XII. The holder staked one sol on the numbers 7, 18, 35 and 52 as a four-number bet, a quaterne, which the printed table says paid 75,000 times the stake, and it is receipted for one sol and signed.",
-    "notes": "B.au 48(?), Enr.nt 164; Tirage de Paris, Fructidor an 12 (1804); numbers 7-18-35-52; 1 quaterne at 1 sol; reçu un sol. The previous description spoke of two forms on one sheet marked C.2, one blank; the sheet carries one completed receipt, printed number 14. Checked closely at full resolution 2026-09-25. Title put into plain English 2026-09-28 at the user's request (was 'Loterie Nationale Stake Receipt, Paris, Fructidor Year XII (1804)').",
+    "notes": "B.au 48(?), Enr.nt 164; Tirage de Paris, Fructidor an 12 (1804); numbers 7-18-35-52; 1 quaterne at 1 sol; reçu un sol. The previous description spoke of two forms on one sheet marked C.2, one blank; the sheet carries one completed receipt, printed number 14. Checked closely at full resolution 2026-09-25. Title put into plain English 2026-09-28 at the user's request (was 'Loterie Nationale Stake Receipt, Paris, Fructidor Year XII (1804)'). Period corrected 2026-09-28: 1802-1804 is the 19th century (was 18th Century).",
     "type": [
       "Receipt"
     ],
@@ -46671,7 +46663,7 @@
       "French"
     ],
     "period": [
-      "18th Century"
+      "19th Century"
     ],
     "creator": "Loterie Nationale",
     "identifiers": [
