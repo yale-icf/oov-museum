@@ -36,6 +36,8 @@ const EXTRA_ROTATE = {
   goetzmann0693: 90,   // Russian illustrated bond, back
   goetzmann0726: 90,   // Romanian monopolies bond, back (leaf of 0725)
   goetzmann1542: 270,  // Da Qing Baochao 1858, scanned sideways
+  goetzmann1563: 180,  // scanned upside down; tiles were turned on 2026-09-18
+  goetzmann1564: 180,  // scanned upside down; tiles were turned on 2026-09-18
 };
 async function source(src, id) {
   const deg = EXTRA_ROTATE[id];
