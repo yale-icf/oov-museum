@@ -1605,7 +1605,7 @@
   },
   {
     "id": "goetzmann0186",
-    "title": "United States Lottery Ticket, Class the Third, Philadelphia, 1776",
+    "title": "United States Lottery Ticket, Class the Third, Philadelphia, 1776 or later",
     "description": "A printed ticket in the United States Lottery, which the Continental Congress created by a resolution passed at Philadelphia on November 18, 1776, to raise money for the war of independence. The lottery was drawn in four classes of 100,000 tickets each, and the ticket names its class beneath the heading. It entitles the bearer to whatever prize is drawn against its number, entered in the ruled panel at upper right, and it carries a handwritten signature.",
     "file": "goetzmann0186.jpg",
     "type": [
@@ -1643,7 +1643,7 @@
       "1776"
     ],
     "creator": "Jo: Budden (lottery manager)",
-    "notes": "United States (Continental) Lottery ticket, Class the Third, No. 14m 655 (previously misread as \"1A.m.655\"; the 4 is drawn open). Authorized by Resolution of Congress, Philadelphia, November 18, 1776. Signed by Jo: Budden. Page 1 of 2. The back is signed Asa Lathrop, with a later pencil note 'very rare' and '[Continental Lottery]'. Read against the plate 2026-09-28 (0000-0299 pass).",
+    "notes": "United States (Continental) Lottery ticket, Class the Third, No. 14m 655 (previously misread as \"1A.m.655\"; the 4 is drawn open). Authorized by Resolution of Congress, Philadelphia, November 18, 1776. Signed by Jo: Budden. Page 1 of 2. The back is signed Asa Lathrop, with a later pencil note 'very rare' and '[Continental Lottery]'. Read against the plate 2026-09-28 (0000-0299 pass). Date set to '1776 or later' 2026-09-28 at the user's decision: the ticket carries only the date of the congressional resolution creating the lottery (18 November 1776); the tickets were sold afterwards.",
     "subjectCountry": [
       "United States"
     ],
@@ -1874,7 +1874,7 @@
   },
   {
     "id": "goetzmann0215",
-    "title": "United States Lottery Ticket, Class the First, Philadelphia, 1776",
+    "title": "United States Lottery Ticket, Class the First, Philadelphia, 1776 or later",
     "description": "A printed ticket in the United States Lottery, which the Continental Congress created by a resolution passed at Philadelphia on November 18, 1776, to raise money for the war of independence. The lottery was drawn in four classes of 100,000 tickets each, and the ticket names its class beneath the heading. It entitles the bearer to whatever prize is drawn against its number, entered in the ruled panel at upper right, and it carries a handwritten signature.",
     "file": "goetzmann0215.jpg",
     "type": [
@@ -1902,7 +1902,7 @@
       "1776"
     ],
     "creator": "D. Jackson (lottery manager)",
-    "notes": "United States (Continental) Lottery ticket, Class the First, No. 16m 069 (previously misread as \"16m769\"; the 0 carries a printed bar above and below; Yale Library catalogues it as \"No. 16m 069\"). Authorized by Resolution of Congress, Philadelphia, November 18, 1776. Signed by D. Jackson. Read against the plate 2026-09-28 (0000-0299 pass).",
+    "notes": "United States (Continental) Lottery ticket, Class the First, No. 16m 069 (previously misread as \"16m769\"; the 0 carries a printed bar above and below; Yale Library catalogues it as \"No. 16m 069\"). Authorized by Resolution of Congress, Philadelphia, November 18, 1776. Signed by D. Jackson. Read against the plate 2026-09-28 (0000-0299 pass). Date set to '1776 or later' 2026-09-28 at the user's decision: the ticket carries only the date of the congressional resolution creating the lottery (18 November 1776); the tickets were sold afterwards.",
     "subjectCountry": [
       "United States"
     ],
@@ -14480,7 +14480,7 @@
       "1777"
     ],
     "creator": "Cornelis van Homrigh (Notaris); Fredrik Cornelis Stolkert; Reynier Isaac du Plessis en Jan Fredrik Taunay",
-    "notes": "Amsterdam notarial copy, notary Cornelis van Homrigh, 29 December 1777; mortgage of f320,000 by F. C. Stolkert to Du Plessis & Taunay on Hegt en Sterk (f311,965), Stolkertsvlyt en Buyslust (f370,930) and half Twee Gebroeders (f83,278:12), together f766,173:13; 320 quitanties of f1,000 at 5% from 10 April 1777; this is No. 139. Manuscript: prolonged twelve years on 10 April 1792 with twelve coupons; in August 1823 twenty-four coupons issued for 1805-1828. (These notes previously described goetzmann0609, the Heshuysen/Balmer mortgage on Dominica.)\n\n⚠ MERGED 2026-09-15. The collection held this document as a scan of its first leaf only; the September 2026 intake supplied it again at about one and a half times the linear resolution, and in full. The first leaf is the same physical sheet. It has been retiled from the larger master, and the 4 further leaves attached as pages. No second record was created and 1408, 1409, 1410, 1411, 1412 were retired. Leaf extent established by: sheet row, \"page 1\"..\"page 5\". Description revised 2026-09-24 against all five leaves.",
+    "notes": "Amsterdam notarial copy, notary Cornelis van Homrigh, 29 December 1777; mortgage of f320,000 by F. C. Stolkert to Du Plessis & Taunay on Hegt en Sterk (f311,965), Stolkertsvlyt en Buyslust (f370,930) and half Twee Gebroeders (f83,278:12), together f766,173:13; 320 quitanties of f1,000 at 5% from 10 April 1777; this is No. 139. Manuscript: prolonged twelve years on 10 April 1792 with twelve coupons; in August 1823 twenty-four coupons issued for 1805-1828. (These notes previously described goetzmann0609, the Heshuysen/Balmer mortgage on Dominica.)\n\n⚠ MERGED 2026-09-15. The collection held this document as a scan of its first leaf only; the September 2026 intake supplied it again at about one and a half times the linear resolution, and in full. The first leaf is the same physical sheet. It has been retiled from the larger master, and the 4 further leaves attached as pages. No second record was created and 1408, 1409, 1410, 1411, 1412 were retired. Leaf extent established by: sheet row, \"page 1\"..\"page 5\". Description revised 2026-09-24 against all five leaves. The share itself is on leaf 1410: receipt No. 139 for f1,000, 'Actum in Amsterdam den 29 December 1777', signed Du Plessis & Taunay as directors and countersigned by the commissioners; coupon sheets 1411/1412 run 1811-1828 (checked 2026-09-28).",
     "subjectCountry": [
       "Netherlands",
       "Suriname"
@@ -22557,7 +22557,7 @@
     "identifiers": [
       "No. 173"
     ],
-    "notes": ""
+    "notes": "Day corrected 2026-09-28 from the plate: 'Hagenow, den 20. Juli 1923' (cell had 30 July)."
   },
   {
     "id": "goetzmann0902",
@@ -25682,7 +25682,7 @@
       "1627"
     ],
     "creator": "Monte di Pietà della Città di Firenze",
-    "notes": "Bond certificate assigning luoghi of the Florentine Monte di Pietà. Interest 5 scudi per luogo per year. Established under Grand Ducal senate ordinance of 1616. A second, lower-resolution scan of this same document was catalogued as goetzmann1031 and removed as a duplicate on 2026-07-21. Image replaced 2026-09-02 with the better of the collection's two scans of this same document, the one catalogued as goetzmann1031: 4539x3074 against 2560x1920, from a 2.1 MB master against 0.4 MB. The two are one physical document photographed twice (same \"1627 11 Genn.\" annotation, same \"quattro e mezzo\" luoghi, same \"quattrocento cinquanta\" scudi, same signatures, same wax seal in the same position), so goetzmann1031 stays off the site as a duplicate scan rather than a second object. Price 450 scudi (quattrocento cinquanta). Signed Lorenzo Salviati (one of the officials), Horatio ... (provveditore) and Michele Buonaguidi(?) (chancellor); no ducal signature (the description previously said \"ducal signatures\"). Checked against the plate 2026-09-25. Title put into plain English 2026-09-28 at the user's request (was 'Monte di Pietà of Florence assignment of luoghi, Florence, 1627').",
+    "notes": "Bond certificate assigning luoghi of the Florentine Monte di Pietà. Interest 5 scudi per luogo per year. Established under Grand Ducal senate ordinance of 1616. A second, lower-resolution scan of this same document was catalogued as goetzmann1031 and removed as a duplicate on 2026-07-21. Image replaced 2026-09-02 with the better of the collection's two scans of this same document, the one catalogued as goetzmann1031: 4539x3074 against 2560x1920, from a 2.1 MB master against 0.4 MB. The two are one physical document photographed twice (same \"1627 11 Genn.\" annotation, same \"quattro e mezzo\" luoghi, same \"quattrocento cinquanta\" scudi, same signatures, same wax seal in the same position), so goetzmann1031 stays off the site as a duplicate scan rather than a second object. Price 450 scudi (quattrocento cinquanta). Signed Lorenzo Salviati (one of the officials), Horatio ... (provveditore) and Michele Buonaguidi(?) (chancellor); no ducal signature (the description previously said \"ducal signatures\"). Checked against the plate 2026-09-25. Title put into plain English 2026-09-28 at the user's request (was 'Monte di Pietà of Florence assignment of luoghi, Florence, 1627'). Dated 'in Firenze ... il dì 11 di gennaio 1627' in the Florentine style, where the year began on 25 March: 11 January 1628 in modern reckoning. The Date keeps the year as written (user decision 2026-09-28).",
     "subjectCountry": [
       "Italy"
     ],
@@ -25900,8 +25900,8 @@
   },
   {
     "id": "goetzmann1033",
-    "title": "Compagnie des Indes Life-Annuity Contract, Paris, 1726",
-    "description": "A notarial contract of 13 January 1726, number 198, by which the Compagnie des Indes grants a life annuity of 920 livres a year to Louis Despioch, a royal finance officer at Montpellier, payable for his life and then for that of his daughter Antoinette. The annuity came from the company's lottery. The King had given it the sole right to run lotteries in France in 1724, and part of the prizes were paid as life annuities, pooled so that as annuitants died, half their payments went to the company and half to surviving annuitants chosen in yearly drawings. The annuities could be held by foreigners, were payable even in wartime, and could not be seized. Passed before the notaries of the Châtelet de Paris.",
+    "title": "Compagnie des Indes Life-Annuity Contract, Paris, 1725",
+    "description": "A notarial contract of 13 January 1725, number 198, by which the Compagnie des Indes grants a life annuity of 920 livres a year to Louis Despioch, a royal finance officer at Montpellier, payable for his life and then for that of his daughter Antoinette. The annuity came from the company's lottery. The King had given it the sole right to run lotteries in France in 1724, and part of the prizes were paid as life annuities, pooled so that as annuitants died, half their payments went to the company and half to surviving annuitants chosen in yearly drawings. The annuities could be held by foreigners, were payable even in wartime, and could not be seized. Passed before the notaries of the Châtelet de Paris.",
     "file": "goetzmann1033.jpg",
     "type": [
       "Bond"
@@ -25925,7 +25925,7 @@
       "notarial contract",
       "Paris",
       "Montpellier",
-      "1726",
+      "1725",
       "ancien régime"
     ],
     "owner": "WNG",
@@ -25939,10 +25939,10 @@
       "French"
     ],
     "issueYear": [
-      "1726"
+      "1725"
     ],
     "creator": "",
-    "notes": "⚠ MERGED 2026-09-15. The collection held this document as a single-leaf scan of page 1 under this id; the September 2026 intake supplied the complete four-leaf contract as goetzmann1305-1308, whose first leaf is the SAME PHYSICAL SHEET as the scan already here. The leaf was retiled from the intake's larger master and the three further leaves added as pages; no second record was created and goetzmann1305 was retired. ⚠ The notes previously here read \"Company constitution/statutes notarial act, Paris January 18, 1785. Company name partially illegible; possibly a trading or insurance company. Mentions Bordeaux.\" Every part of that contradicts the document, which is dated 1726, names the Compagnie des Indes outright and concerns Montpellier; it has been removed. Two contemporary revenue stamps are struck at the head, one of them of the \"deuxième classe\". The contract carries long marginal notes of later quittances.",
+    "notes": "⚠ MERGED 2026-09-15. The collection held this document as a single-leaf scan of page 1 under this id; the September 2026 intake supplied the complete four-leaf contract as goetzmann1305-1308, whose first leaf is the SAME PHYSICAL SHEET as the scan already here. The leaf was retiled from the intake's larger master and the three further leaves added as pages; no second record was created and goetzmann1305 was retired. ⚠ The notes previously here read \"Company constitution/statutes notarial act, Paris January 18, 1785. Company name partially illegible; possibly a trading or insurance company. Mentions Bordeaux.\" Every part of that contradicts the document, which is dated 1726, names the Compagnie des Indes outright and concerns Montpellier; it has been removed. Two contemporary revenue stamps are struck at the head, one of them of the \"deuxième classe\". The contract carries long marginal notes of later quittances. Date corrected 2026-09-28 from the plate: the deed reads 'l'an mil sept cens vingt Cinq le treizième jour de Janvier' and the face 'A Paris le treize Janvier 1725' (was 1726).",
     "subjectCountry": [
       "France"
     ],
@@ -29411,7 +29411,7 @@
   },
   {
     "id": "goetzmann1197",
-    "title": "City Bank of New Haven Banknote",
+    "title": "City Bank of New Haven Banknote, 1865",
     "description": "A two-dollar note of the City Bank of New Haven, Connecticut, promising payment of two dollars to the bearer on demand and marked charter perpetual. It was printed by the American Bank Note Company of New York, the denomination set in ornate medallions and repeated twice again in red overprint. The cashier’s and president’s signature lines are blank and the printed date line, which reads 186 with the last figure left open, was never completed, so the note never went into circulation.",
     "type": [
       "Banknote"
@@ -29426,7 +29426,9 @@
       "United States"
     ],
     "creator": "City Bank of New Haven",
-    "issueYear": [],
+    "issueYear": [
+      "1865"
+    ],
     "currency": [
       "United States dollar"
     ],
@@ -29438,7 +29440,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "⚠ The record said the note was \"issued by\" the bank. Both signature lines are blank and the date was never filled in: it is an unissued remainder. Dating rests on the printed \"186_\" and on the American Bank Note Company imprint. The face carries an engraved view of the New Haven Green with its churches and the state house, a portrait at the right, and a beehive vignette above the cashier’s line.",
+    "notes": "⚠ The record said the note was \"issued by\" the bank. Both signature lines are blank and the date was never filled in: it is an unissued remainder. Dating rests on the printed \"186_\" and on the American Bank Note Company imprint. The face carries an engraved view of the New Haven Green with its churches and the state house, a portrait at the right, and a beehive vignette above the cashier’s line. Date supplied 2026-09-28 from the plate: handwritten 'New Haven, Ju[ly?] 1, 1865'; the month is uncertain.",
     "identifiers": [],
     "namedIndividuals": [],
     "transcription": "",
@@ -33704,7 +33706,7 @@
   {
     "id": "goetzmann1397",
     "file": "goetzmann1397.jpg",
-    "title": "American Coupon Investment Company Certificate, El Paso, 1894",
+    "title": "American Coupon Investment Company Certificate, El Paso, 1894 or later",
     "description": "A certificate of The American Coupon Investment Company of El Paso, Texas, incorporated in 1894, for $450 in nine coupons of $50. The holder paid five dollars for it and agreed to pay $1.25 at the company's office each month; missed payments drew fines, and a certificate left unpaid was forfeited with everything paid on it. One dollar of each payment went into a fund from which the coupons were paid in a fixed order (the first, then the third, the ninth, the second, and so on), each returning what the holder had paid with ten percent interest and a share of the profits, including those from other holders' forfeitures.",
     "type": [
       "Certificate"
@@ -33733,7 +33735,7 @@
     ],
     "keywords": [],
     "owner": "ICF",
-    "notes": "Two leaves, recto and verso; the nine coupons are still attached and unnumbered. ⚠ UNISSUED: the payee, the number and the date are all blank, the form reads \"A.D. 189__\", and \"Sample\" is written twice across the signature panel, so the year recorded is that of the incorporation printed at the head. Only the president, Thomas H. Bain, has signed. ⚠ Read the terms together and the scheme is plain: the subscriber forfeits EVERYTHING already paid if he is thirty days late once, and the company's own profits are stated to come partly from those lapses and fines. The redemption order by multiples of three and nine decides who is paid and when, and it is fixed by the company, not by the subscriber.",
+    "notes": "Two leaves, recto and verso; the nine coupons are still attached and unnumbered. ⚠ UNISSUED: the payee, the number and the date are all blank, the form reads \"A.D. 189__\", and \"Sample\" is written twice across the signature panel, so the year recorded is that of the incorporation printed at the head. Only the president, Thomas H. Bain, has signed. ⚠ Read the terms together and the scheme is plain: the subscriber forfeits EVERYTHING already paid if he is thirty days late once, and the company's own profits are stated to come partly from those lapses and fines. The redemption order by multiples of three and nine decides who is paid and when, and it is fixed by the company, not by the subscriber. Date set to '1894 or later' 2026-09-28: the dateline is a blank sample 'day of ___ A.D. 189_'; 1894 is the year of incorporation.",
     "identifiers": [],
     "namedIndividuals": [
       "Thomas H. Bain"
@@ -34840,7 +34842,7 @@
     "transcription": "",
     "title": "Municipal Real Estate Trust Certificate No. 2059, Boston",
     "description": "Certificate number 2059 for two shares in the Municipal Real Estate Trust, a Massachusetts business trust made on 1 April 1896 and recorded with Suffolk Deeds, libro 2376 page 33. The shares stand in the names of E. Sohier Welch and Thomas Motley as trustees under a deed made by Edith Madaline Tyler dated 10 November 1902. State Street Trust Company of Boston acts as transfer agent, and the certificate is struck CANCELLED and stamped by the agent in January 1927, the reverse carrying the executed transfer. Two leaves.",
-    "notes": "No. 2059, two shares. Trust made 1 April 1896, Suffolk Deeds lib. 2376 p. 33; holders are trustees under Edith Madaline Tyler's deed of 10 November 1902; cancelled and transferred January 1927. ⚠ The certificate itself bears no issue date, only those three; issueDate is therefore left blank. ⚠ DATED 2026-09-18 from the trust of 1 April 1896, the shares standing under Edith Madaline Tyler’s deed of 10 November 1902; the certificate cannot predate that deed. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier.",
+    "notes": "No. 2059, two shares. Trust made 1 April 1896, Suffolk Deeds lib. 2376 p. 33; holders are trustees under Edith Madaline Tyler's deed of 10 November 1902; cancelled and transferred January 1927. ⚠ The certificate itself bears no issue date, only those three; issueDate is therefore left blank. ⚠ DATED 2026-09-18 from the trust of 1 April 1896, the shares standing under Edith Madaline Tyler’s deed of 10 November 1902; the certificate cannot predate that deed. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier. Date set to '1902 or later' 2026-09-28: the certificate carries no issue date; 1902 is the date of the Tyler trust deed under which the holders held it (the notes already said so).",
     "type": [
       "Stock Certificate"
     ],
@@ -35740,9 +35742,9 @@
     "id": "goetzmann1543",
     "file": "goetzmann1543.jpg",
     "transcription": "",
-    "title": "L'Aurifère California Gold-Mining Share, Paris, 1850",
+    "title": "L'Aurifère California Gold-Mining Share, Paris, 1850 or later",
     "description": "A ten-franc bearer share, série 9443 number 1, in L'Aurifère, the Compagnie Universelle des Mines d'Or de la Californie, founded for six years by an act passed before the notary Dentend at Paris on 26 January 1850, with its office on the Boulevart Poissonnière. The capital was eight hundred thousand francs and this second issue three hundred thousand, divided into six thousand series of five shares each. The printed terms give the share a right to two fifths of the profits and to all the drawings of premiums. The company belongs to the crop of Paris promotions floated within a year of the California gold discoveries, sold in ten-franc parcels to small subscribers.",
-    "notes": "Série 9443 No. 1, action de dix francs au porteur. ⚠ The master spreadsheet says the capital was 40,000,000 francs in 80,000 shares of 500 francs; the plate reads CAPITAL SOCIAL 800,000 FRANCS, 2me EMISSION 300,000 FRANCS, 6,000 series of five shares, ACTION DE DIX FRANCS. Every figure in the spreadsheet is wrong. Founded for six years by act of 26 January 1850 before Me Dentend.",
+    "notes": "Série 9443 No. 1, action de dix francs au porteur. ⚠ The master spreadsheet says the capital was 40,000,000 francs in 80,000 shares of 500 francs; the plate reads CAPITAL SOCIAL 800,000 FRANCS, 2me EMISSION 300,000 FRANCS, 6,000 series of five shares, ACTION DE DIX FRANCS. Every figure in the spreadsheet is wrong. Founded for six years by act of 26 January 1850 before Me Dentend. The share bears no issue date; 1850 is the year the company was founded (act before Dentend, 26 January 1850) and this is its second emission, so the Date is 'no earlier than'.",
     "type": [
       "Stock Certificate"
     ],
@@ -36845,7 +36847,7 @@
     "transcription": "",
     "title": "Municipal Real Estate Trust Certificate No. 1736, Boston",
     "description": "Certificate number 1736 for twenty-three shares in the Municipal Real Estate Trust, overprinted in red NOT OVER TWENTY-THREE SHS. The trust was made on 1 April 1896 and recorded with Suffolk Deeds in the Commonwealth of Massachusetts, libro 2376 page 33; the shares stand in the names of E. Sohier Welch and Thomas Motley as trustees under a deed made by Edith Madaline Tyler. State Street Trust Company of Boston is transfer agent, and the certificate is not valid unless signed by it. The reverse carries the executed transfer to a Boston brokerage, stamped in January 1927. Two leaves.",
-    "notes": "No. 1736, 23 shares. ⚠ A SECOND certificate of this trust; [1515] is No. 2059 for two shares, held by the same trustees. Different objects, split by serial, not duplicates. ⚠ The certificate bears no issue date, only the 1896 trust, the 1902 deed and the 1927 transfer; issueDate is left blank. ⚠ DATED 2026-09-18 from the trust made 1 April 1896 and recorded with Suffolk Deeds lib. 2376 p. 33; unlike [1515] this certificate does not print the 1902 deed date, so the trust is the only authority on it. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier. Period set 2026-09-24 to 19th Century, to agree with the 1896 date (a lower bound; the certificate itself is undated).",
+    "notes": "No. 1736, 23 shares. ⚠ A SECOND certificate of this trust; [1515] is No. 2059 for two shares, held by the same trustees. Different objects, split by serial, not duplicates. ⚠ The certificate bears no issue date, only the 1896 trust, the 1902 deed and the 1927 transfer; issueDate is left blank. ⚠ DATED 2026-09-18 from the trust made 1 April 1896 and recorded with Suffolk Deeds lib. 2376 p. 33; unlike [1515] this certificate does not print the 1902 deed date, so the trust is the only authority on it. The instrument itself carries no dateline, or a blank one; this is the latest authority printed on it, so the sheet cannot be earlier. Period set 2026-09-24 to 19th Century, to agree with the 1896 date (a lower bound; the certificate itself is undated). Date set to '1896 or later' 2026-09-28: the certificate carries no issue date; 1 April 1896 is when the Municipal Real Estate Trust was made.",
     "type": [
       "Stock Certificate"
     ],
