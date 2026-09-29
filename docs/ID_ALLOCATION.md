@@ -74,7 +74,7 @@ C:\Users\ks2479\Documents\my-project\origins-of-value\JPEG Files\
 ```
 
 Scans not (yet) on the site go under `_Unplaced (not on site)\`, never in a numbered folder.
-`regen-image.js` looks one folder level down, so a new hundred folder (`2100-2199`) needs no
+`regen-image.js` looks one folder level down, so a new hundred folder (`goetzmann2100-2199`) needs no
 code change.
 
 ⚠️ **Filenames must be lowercase `goetzmannNNNN.jpg`.** Twelve rows in the provenance database
