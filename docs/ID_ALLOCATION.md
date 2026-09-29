@@ -70,7 +70,7 @@ holding exactly one master per live leaf:
 
 ```
 C:\Users\ks2479\Documents\my-project\origins-of-value\JPEG Files\
-    2000-2099\goetzmann2054.jpg
+    goetzmann2000-2099\goetzmann2054.jpg
 ```
 
 Scans not (yet) on the site go under `_Unplaced (not on site)\`, never in a numbered folder.
