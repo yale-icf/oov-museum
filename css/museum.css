@@ -567,23 +567,6 @@ h1.extitle{margin:22px 0 0;font-family:'Spectral',serif;font-weight:400;
   border-top:2px solid var(--ink);color:#8a8271;font-size:11px;
   letter-spacing:.12em;text-transform:uppercase}
 
-/* ---- password gate (homepage) ---- */
-.login-overlay{position:fixed;inset:0;z-index:9999;background:var(--navy-3);
-  display:flex;align-items:center;justify-content:center;padding:24px}
-.login-overlay.hidden{display:none}
-.login-box{background:#f6f2ea;border-top:3px solid var(--brass);padding:44px 40px;
-  max-width:400px;width:100%;text-align:center;box-shadow:0 24px 70px rgba(0,0,0,.45)}
-.login-box .brand-mark{font-family:'Spectral',serif;font-weight:400;font-size:29px;color:var(--ink)}
-.login-subtitle{margin:10px 0 26px;font-size:14px;color:var(--muted-cream)}
-.login-input{width:100%;font-family:inherit;font-size:15px;text-align:center;
-  padding:12px 14px;background:#fff;border:1px solid var(--paper-line);border-radius:3px;
-  color:var(--ink);margin-bottom:12px}
-.login-input:focus{outline:none;border-color:var(--oxblood);box-shadow:0 0 0 3px rgba(124,58,45,.12)}
-.login-btn{width:100%;font-family:inherit;font-weight:700;font-size:15px;padding:12px;
-  background:var(--navy);color:var(--fg);border:none;border-radius:3px;cursor:pointer}
-.login-btn:hover{background:var(--ink)}
-.login-error{display:none;margin:14px 0 0;font-size:13px;font-weight:600;color:var(--oxblood)}
-
 /* ---- in the news (homepage) ---- */
 .news-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;padding:28px 56px 56px}
 .news-card{border:1px solid var(--line);background:var(--navy-2);padding:26px 24px;
