@@ -200,3 +200,11 @@ images/*.docx
 *.bak-*
 *.bak
 retired/
+
+# Workbooks hold purchase prices, sellers, PTAEO codes and internal notes.
+# GitHub Pages publishes every tracked file, so spreadsheets are never committed.
+# Backed up to OneDrive: Backups/oov-workbooks/
+*.xlsx
+*.xlsx.bak*
+*.xls
+~$*
