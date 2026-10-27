@@ -9,6 +9,6 @@
     "build": "node prepare-data.mjs && node generate-thumbnails.mjs && node generate-tiles.mjs"
   },
   "dependencies": {
-    "sharp": "^0.33.0"
+    "sharp": "^0.35.5"
   }
 }
